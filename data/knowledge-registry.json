@@ -2,15 +2,33 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 17,
+    "totalNodes": 21,
     "domains": [
-      "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
+      "Energy Systems & Electrification",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:05:37.199Z"
+    "lastUpdated": "2026-08-24T18:07:14.383Z"
   },
   "nodes": [
+    {
+      "id": "crispr-cas9-gene-drives-and-vector-parasitology",
+      "title": "CRISPR-Cas9 Gene Drives & Vector-Borne Parasitology",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "Vector-borne infectious diseases operate via obligate tripartite ecological dependencies: Host $\\leftrightarrow$ Parasite $\\leftrightarrow$ Insect Vector. Intercepting the vector's capacity to host the parasite via molecular immunization eliminates human transmission without requiring the chemical poisoning of entire ecosystems.",
+      "path": "knowledge-tree/branches/crispr-cas9-gene-drives-and-vector-parasitology.md",
+      "wordCount": 333,
+      "readTime": "2 min read",
+      "connections": [
+        "mendelian-inheritance-and-super-mendelian-gene-drives",
+        "emergence-reductionism-and-informational-biology",
+        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+        "kurzgesagt-crispr-gene-drives-malaria"
+      ]
+    },
     {
       "id": "cryptographic-asymmetry-and-systemic-backdoors",
       "title": "Cryptographic Asymmetry & The Backdoor Fallacy",
@@ -82,6 +100,27 @@
         "electrochemical-energy-storage-axioms",
         "degenerate-matter-and-extreme-cosmic-density",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "kurzgesagt-crispr-gene-drives-malaria",
+      "title": "Genetic Engineering & Diseases — Kurzgesagt (Gene Drives & Malaria)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Malaria (*Plasmodium*) is historically the deadliest parasite in human history, killing nearly 500,000 people annually (primarily children under five). CRISPR-Cas9 super-Mendelian gene drives provide the first viable technology to permanently immunize or suppress wild mosquito vectors, transforming genetic engineering from localized lab therapy to biosphere-scale public health infrastructure.",
+      "path": "knowledge-tree/leaves/kurzgesagt-crispr-gene-drives-malaria.md",
+      "wordCount": 432,
+      "readTime": "3 min read",
+      "connections": [
+        "mendelian-inheritance-and-super-mendelian-gene-drives",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "atomic-hypothesis-quantum-fields-scale",
+        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+        "emergence-reductionism-and-informational-biology",
+        "crispr-cas9-gene-drives-and-vector-parasitology",
+        "definition-of-life-and-artificial-life"
       ]
     },
     {
@@ -197,6 +236,24 @@
       ]
     },
     {
+      "id": "mendelian-inheritance-and-super-mendelian-gene-drives",
+      "title": "Mendelian Inheritance vs. Super-Mendelian Gene Drive Mechanics",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "Under standard Mendelian inheritance, sexually reproducing diploid organisms transmit any specific heterozygous allele to exactly $50\\%$ of their progeny. A CRISPR Gene Drive bypasses Mendelian segregation by converting heterozygous alleles into homozygous copies in the germline, achieving $>99\\%$ inheritance and forcing an engineered trait through an entire wild population.",
+      "path": "knowledge-tree/roots/mendelian-inheritance-and-super-mendelian-gene-drives.md",
+      "wordCount": 281,
+      "readTime": "2 min read",
+      "connections": [
+        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+        "emergence-reductionism-and-informational-biology",
+        "crispr-cas9-gene-drives-and-vector-parasitology",
+        "kurzgesagt-crispr-gene-drives-malaria"
+      ]
+    },
+    {
       "id": "signal-detection-theory-and-haystack-fallacy",
       "title": "Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant",
       "tier": "roots",
@@ -263,6 +320,24 @@
         "thermodynamics-entropy-and-schrodinger-negentropy",
         "standard-model-and-particle-physics-taxonomy",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+      "title": "Ecological Engineering, Biocatalytic Cascades & The Irreversibility Invariant",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Releasing self-propagating genetic algorithms (gene drives) into open wild ecosystems crosses an Irreversibility Threshold. Once released, the code propagates autonomously across biological networks, creating an asymmetric ethical tension between the Moral Cost of Inaction (ongoing catastrophic mortality) and the Ecological Risk of Unintended Cascades.",
+      "path": "knowledge-tree/trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md",
+      "wordCount": 325,
+      "readTime": "2 min read",
+      "connections": [
+        "mendelian-inheritance-and-super-mendelian-gene-drives",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "crispr-cas9-gene-drives-and-vector-parasitology",
+        "kurzgesagt-crispr-gene-drives-malaria"
       ]
     },
     {

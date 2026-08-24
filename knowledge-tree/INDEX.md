@@ -12,6 +12,7 @@ graph TD
     Roots --> R2["Thermodynamics, Entropy & Schrödinger's Negentropy"]
     Roots --> R3["Atomic Hypothesis & Quantum Fields Scale"]
     Roots --> R4["Signal Detection Theory & The Haystack Fallacy"]
+    Roots --> R5["Mendelian vs Super-Mendelian Gene Drive Mechanics"]
 
     %% Trunk
     Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
@@ -19,32 +20,38 @@ graph TD
     Trunk --> T3["Emergence, Reductionism & Informational Biology"]
     Trunk --> T4["Degenerate Matter & Extreme Cosmic Density"]
     Trunk --> T5["Surveillance Function Creep & The Ratchet Effect"]
+    Trunk --> T6["Ecological Engineering & Irreversibility Invariants"]
 
     %% Branches
     Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
     Branches --> B2["Epistemology of Life & Artificial Silicon Life"]
     Branches --> B3["Standard Model & Fundamental Particle Taxonomy"]
     Branches --> B4["Cryptographic Asymmetry & Systemic Backdoors"]
+    Branches --> B5["CRISPR-Cas9 Gene Drives & Vector Parasitology"]
 
     %% Leaves
     Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
     Leaves --> L2["What Is Life? Is Death Real? — Kurzgesagt & Schrödinger"]
     Leaves --> L3["How Small Is An Atom? — Kurzgesagt & Feynman"]
     Leaves --> L4["Safe and Sorry: Mass Surveillance — Kurzgesagt & Liberties"]
+    Leaves --> L5["Gene Drives & Malaria — Kurzgesagt & CRISPR"]
 
     %% Cross-Tier Connections
     R1 --> T1
     R2 --> T3
     R3 --> T4
     R4 --> T5
+    R5 --> T6
     T1 --> B1
     T3 --> B2
     T4 --> B3
     T5 --> B4
+    T6 --> B5
     B1 --> L1
     B2 --> L2
     B3 --> L3
     B4 --> L4
+    B5 --> L5
     T2 --> L1
 ```
 
@@ -61,6 +68,8 @@ graph TD
   *Feynman's atomic invariant, $10^5:1$ nuclear scale ratio, QED zero-point vacuum fluctuations, and probability density clouds.*
 * [**`roots/signal-detection-theory-and-haystack-fallacy.md`**](./roots/signal-detection-theory-and-haystack-fallacy.md)  
   *Bayesian rare event detection, base rate fallacy in intelligence dragnets, and the mathematical limits of bulk data ingestion.*
+* [**`roots/mendelian-inheritance-and-super-mendelian-gene-drives.md`**](./roots/mendelian-inheritance-and-super-mendelian-gene-drives.md)  
+  *Population genetics mathematics, Mendelian $50\%$ segregation vs. CRISPR active Homology-Directed Repair ($>99.5\%$ super-inheritance).*
 
 ---
 
@@ -75,10 +84,12 @@ graph TD
   *Pauli Exclusion breakdown, degenerate electron/neutron pressures, the Teaspoon of Humanity Gedankenexperiment, and universal quantum indistinguishability.*
 * [**`trunk/surveillance-function-creep-and-ratchet-effect.md`**](./trunk/surveillance-function-creep-and-ratchet-effect.md)  
   *The Institutional Ratchet Effect, mission creep from counter-terrorism into civil protest suppression, and deconstruction of the "Nothing to Hide" fallacy.*
+* [**`trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md`**](./trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md)  
+  *The Irreversibility Invariant in synthetic biology, omission bias in bioethics, and immunizing reversal drive counter-measures.*
 
 ---
 
-### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Cybernetics Paradigms)
+### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology Paradigms)
 * [**`branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md`**](./branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md)  
   *Comparative benchmark matrix: LFP vs. Sodium-Ion (HiNa) vs. Nickel-Hydrogen (EnerVenue) vs. Solid-State (TRL 4).*
 * [**`branches/definition-of-life-and-artificial-life.md`**](./branches/definition-of-life-and-artificial-life.md)  
@@ -87,6 +98,8 @@ graph TD
   *Taxonomy of matter: Quarks, Leptons, Gauge Bosons (Gluons, Photons, W/Z), Higgs mechanism, and the 4 Fundamental Forces.*
 * [**`branches/cryptographic-asymmetry-and-systemic-backdoors.md`**](./branches/cryptographic-asymmetry-and-systemic-backdoors.md)  
   *Mathematical asymmetry in public-key cryptography, Kerckhoffs's principle, and why "law-enforcement-only" golden keys create universal vulnerabilities.*
+* [**`branches/crispr-cas9-gene-drives-and-vector-parasitology.md`**](./branches/crispr-cas9-gene-drives-and-vector-parasitology.md)  
+  *Pathogenic life cycle of Plasmodium, population modification vs. suppression strategies, and gene drive applications across vector diseases.*
 
 ---
 
@@ -99,3 +112,5 @@ graph TD
   *Deconstruction of Kurzgesagt's "How Small Is An Atom?": Spatial scale progression, the Empire State grain of rice, and Feynman's atomic legacy.*
 * [**`leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md`**](./leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md)  
   *Deconstruction of Kurzgesagt's "Safe and Sorry": Mass surveillance failures, the Apple vs. FBI encryption battle, and the preservation of democratic institutions.*
+* [**`leaves/kurzgesagt-crispr-gene-drives-malaria.md`**](./leaves/kurzgesagt-crispr-gene-drives-malaria.md)  
+  *Deconstruction of Kurzgesagt's "Gene Drives & Malaria": Plasmodium biology, CRISPR super-Mendelian sweeps, and the bioethics of ecological editing.*
