@@ -1,108 +1,173 @@
 {
-  "project": {
-    "name": "Mind of Aravalli",
+  "meta": {
+    "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "github": "https://github.com/vs00918/aravalli"
+    "totalNodes": 9,
+    "domains": [
+      "Energy Systems & Electrification"
+    ],
+    "lastUpdated": "2026-08-24T18:01:53.666Z"
   },
   "nodes": [
     {
+      "id": "definition-of-life-and-artificial-life",
+      "title": "Epistemology of Life: Carbon Chauvinism, Definitions & Artificial Life",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Epistemic Invariant: \"Life\" is a fuzzy set, not a binary boolean. As human technology approaches synthetic biology and autonomous artificial intelligence, binary definitions of life collapse into a continuous spectrum of system complexity, autonomy, and error-correcting information transmission.",
+      "path": "knowledge-tree/branches/definition-of-life-and-artificial-life.md",
+      "wordCount": 417,
+      "readTime": "3 min read",
+      "connections": [
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "electrochemical-energy-storage-axioms",
+        "emergence-reductionism-and-informational-biology",
+        "kurzgesagt-schrodinger-what-is-life-death"
+      ]
+    },
+    {
+      "id": "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
+      "title": "Comparative Battery Chemistries: LFP vs. Sodium-Ion vs. Nickel-Hydrogen vs. Solid-State",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Different energy storage chemistries occupy distinct ecological niches. No single chemistry wins across all sectors; LFP dominates long-range EVs, Sodium-ion dominates low-cost urban mobility & short-duration ESS, and Nickel-Hydrogen dominates 30-year stationary grid and data center infrastructure.",
+      "path": "knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md",
+      "wordCount": 565,
+      "readTime": "3 min read",
+      "connections": [
+        "electrochemical-energy-storage-axioms",
+        "battery-tradeoff-trilemma-and-thermal-runaway",
+        "three-super-cycles-energy-manufacturing-ai",
+        "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
+    },
+    {
+      "id": "kurzgesagt-schrodinger-what-is-life-death",
+      "title": "What Is Life? Is Death Real? — Kurzgesagt (Schrödinger & Emergence)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Every constituent part of a living cell is dead inanimate matter. Life is not a special physical ingredient (vitalism is dead); it is a temporary, self-organizing thermodynamic storm fighting entropy through informational replication. Death is the cessation of this pattern, returning borrowed atoms to cosmic equilibrium.",
+      "path": "knowledge-tree/leaves/kurzgesagt-schrodinger-what-is-life-death.md",
+      "wordCount": 629,
+      "readTime": "4 min read",
+      "connections": [
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "electrochemical-energy-storage-axioms",
+        "emergence-reductionism-and-informational-biology",
+        "three-super-cycles-energy-manufacturing-ai",
+        "definition-of-life-and-artificial-life"
+      ]
+    },
+    {
+      "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
+      "title": "WTF are Batteries? — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) with Nikhil Kamath",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Energy generation is a solved cost problem (solar/wind marginal cost approaching zero); the entire modern energy transition bottleneck is fungibility, transport, and non-combustible stationary storage. Surviving the post-globalized era requires decoupling from rare-earth choke points and deploying chemistry-specific solutions rather than a one-size-fits-all battery.",
+      "path": "knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md",
+      "wordCount": 864,
+      "readTime": "5 min read",
+      "connections": [
+        "electrochemical-energy-storage-axioms",
+        "battery-tradeoff-trilemma-and-thermal-runaway",
+        "three-super-cycles-energy-manufacturing-ai",
+        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"
+      ]
+    },
+    {
       "id": "electrochemical-energy-storage-axioms",
-      "title": "Electrochemical Energy Storage Axioms",
+      "title": "Electrochemical Energy Storage — First Principles & Axiomatic Foundations",
       "tier": "roots",
-      "tierLabel": "Roots (Axioms)",
+      "tierLabel": "Roots: First Principles",
       "icon": "🌱",
-      "summary": "First-principles charge separation, potential wells, Faraday/Nernst limits, and Gibbs free energy dynamics.",
+      "domain": "Energy Systems & Electrification",
+      "summary": "A battery does not generate energy; it reversibly converts electrical potential into chemical potential by separating ions through an electrolyte while routing electrons through an external circuit.",
       "path": "knowledge-tree/roots/electrochemical-energy-storage-axioms.md",
-      "tags": ["physics", "thermodynamics", "electrochemistry", "energy"],
-      "connections": ["battery-tradeoff-trilemma-and-thermal-runaway", "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"]
+      "wordCount": 392,
+      "readTime": "2 min read",
+      "connections": [
+        "battery-tradeoff-trilemma-and-thermal-runaway",
+        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
+        "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
     },
     {
       "id": "thermodynamics-entropy-and-schrodinger-negentropy",
-      "title": "Thermodynamics, Entropy & Schrödinger's Negentropy",
+      "title": "Thermodynamic Entropy & Schrödinger's Negentropy — The Physics of Life",
       "tier": "roots",
-      "tierLabel": "Roots (Axioms)",
+      "tierLabel": "Roots: First Principles",
       "icon": "🌱",
-      "summary": "Physical definition of life as an open non-equilibrium thermodynamic system maintaining low internal entropy (dS_int < 0).",
+      "domain": "Energy Systems & Electrification",
+      "summary": "A living system is a localized, non-equilibrium open thermodynamic structure that temporarily evades decay into maximum entropy (equilibrium) by continually drawing \"negative entropy\" (free energy) from its environment and dissipating waste heat.",
       "path": "knowledge-tree/roots/thermodynamics-entropy-and-schrodinger-negentropy.md",
-      "tags": ["physics", "entropy", "schrodinger", "thermodynamics", "philosophy"],
-      "connections": ["emergence-reductionism-and-informational-biology", "definition-of-life-and-artificial-life"]
+      "wordCount": 293,
+      "readTime": "2 min read",
+      "connections": [
+        "emergence-reductionism-and-informational-biology",
+        "definition-of-life-and-artificial-life",
+        "kurzgesagt-schrodinger-what-is-life-death"
+      ]
     },
     {
       "id": "battery-tradeoff-trilemma-and-thermal-runaway",
-      "title": "The Battery Quadrilemma & Thermal Runaway Dynamics",
+      "title": "The Battery Trade-Off Quadrilemma & Thermal Runaway Dynamics",
       "tier": "trunk",
-      "tierLabel": "Trunk (Mental Models)",
+      "tierLabel": "Trunk: Mental Models",
       "icon": "🪵",
-      "summary": "The 4-way optimization space and positive-feedback exothermic chain reaction mechanics (14,000+ LFP fires baseline).",
+      "domain": "Energy Systems & Electrification",
+      "summary": "There is no universally superior battery cell. Battery engineering is a constrained optimization problem balancing four interdependent variables: Energy Density, Cycle Life, Thermal Safety, and Precursor Cost/Supply Chain Decoupling.",
       "path": "knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md",
-      "tags": ["mental-models", "energy-storage", "safety", "manufacturing"],
-      "connections": ["electrochemical-energy-storage-axioms", "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"]
-    },
-    {
-      "id": "three-super-cycles-energy-manufacturing-ai",
-      "title": "Three Super-Cycles: Energy, Manufacturing & AI",
-      "tier": "trunk",
-      "tierLabel": "Trunk (Mental Models)",
-      "icon": "🪵",
-      "summary": "Electrification + Precision Automated Manufacturing + Exponential AI Compute, 98% idle vehicle V2G buffers, and local-for-local supply chain sovereignty.",
-      "path": "knowledge-tree/trunk/three-super-cycles-energy-manufacturing-ai.md",
-      "tags": ["macro-trends", "ai", "v2g", "manufacturing", "geopolitics"],
-      "connections": ["podcast-enervenue-hina-nikhil-kamath-batteries"]
+      "wordCount": 483,
+      "readTime": "3 min read",
+      "connections": [
+        "electrochemical-energy-storage-axioms",
+        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
+        "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
     },
     {
       "id": "emergence-reductionism-and-informational-biology",
       "title": "Emergence, Reductionism & Informational Biology",
       "tier": "trunk",
-      "tierLabel": "Trunk (Mental Models)",
+      "tierLabel": "Trunk: Mental Models",
       "icon": "🪵",
-      "summary": "The Reductionist Paradox: zero living molecules in a cell, life as an emergent catalytic orchestra, informational code (DNA as software), and the boundary spectrum.",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Systemic Thesis: Life is not a material substance (vitalism is false); it is a computational, emergent process. At the reductionist level, every constituent molecule of a cell is dead matter following blind chemical kinetics. \"Aliveness\" emerges strictly from dynamic network topology.",
       "path": "knowledge-tree/trunk/emergence-reductionism-and-informational-biology.md",
-      "tags": ["complexity", "biology", "emergence", "cybernetics", "dna"],
-      "connections": ["thermodynamics-entropy-and-schrodinger-negentropy", "definition-of-life-and-artificial-life", "kurzgesagt-schrodinger-what-is-life-death"]
+      "wordCount": 441,
+      "readTime": "3 min read",
+      "connections": [
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "electrochemical-energy-storage-axioms",
+        "definition-of-life-and-artificial-life",
+        "kurzgesagt-schrodinger-what-is-life-death"
+      ]
     },
     {
-      "id": "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
-      "title": "Comparative Chemistries: LFP vs. Sodium vs. Ni-H2 vs. Solid-State",
-      "tier": "branches",
-      "tierLabel": "Branches (Taxonomies)",
-      "icon": "🌿",
-      "summary": "Comparative multi-chemistry benchmark matrix: Specific Energy, Cycle Life, Operating Temperature, and Fire Safety across battery paradigms.",
-      "path": "knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md",
-      "tags": ["chemistry", "batteries", "lfp", "sodium-ion", "nickel-hydrogen"],
-      "connections": ["battery-tradeoff-trilemma-and-thermal-runaway", "podcast-enervenue-hina-nikhil-kamath-batteries"]
-    },
-    {
-      "id": "definition-of-life-and-artificial-life",
-      "title": "Epistemology of Life & Artificial Silicon Life",
-      "tier": "branches",
-      "tierLabel": "Branches (Taxonomies)",
-      "icon": "🌿",
-      "summary": "Astrobiology, NASA/Thermodynamic/Cybernetic operational definitions, substrate neutrality, and artificial silicon life.",
-      "path": "knowledge-tree/branches/definition-of-life-and-artificial-life.md",
-      "tags": ["epistemology", "artificial-life", "ai", "philosophy-of-mind"],
-      "connections": ["emergence-reductionism-and-informational-biology", "kurzgesagt-schrodinger-what-is-life-death"]
-    },
-    {
-      "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
-      "title": "WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath",
-      "tier": "leaves",
-      "tierLabel": "Leaves (Lived Experience)",
-      "icon": "🍃",
-      "summary": "Deconstruction of WTF are Batteries? featuring Henning Rath (CEO, EnerVenue) and Dr. Kun Tang (Chairman, HiNa Battery) hosted by Nikhil Kamath.",
-      "path": "knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md",
-      "tags": ["podcasts", "nikhil-kamath", "enervenue", "hina-battery", "founders"],
-      "connections": ["energy-storage-chemistries-lfp-sodium-nickel-hydrogen", "three-super-cycles-energy-manufacturing-ai"]
-    },
-    {
-      "id": "kurzgesagt-schrodinger-what-is-life-death",
-      "title": "What Is Life? Is Death Real? — Kurzgesagt & Schrödinger",
-      "tier": "leaves",
-      "tierLabel": "Leaves (Lived Experience)",
-      "icon": "🍃",
-      "summary": "Deconstruction of Kurzgesagt's 'What Is Life? Is Death Real?': Schrödinger's negentropy, protein nanomachines, viruses, and the dissolution of the life/death binary.",
-      "path": "knowledge-tree/leaves/kurzgesagt-schrodinger-what-is-life-death.md",
-      "tags": ["kurzgesagt", "schrodinger", "biology", "philosophy", "existential"],
-      "connections": ["emergence-reductionism-and-informational-biology", "definition-of-life-and-artificial-life"]
+      "id": "three-super-cycles-energy-manufacturing-ai",
+      "title": "The Three Converging Super-Cycles: Energy, Manufacturing & AI",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Global industrial wealth and civilization scaling over the next 30 years will be determined by the intersection of three compounding super-cycles: Abundant Electrification, Autonomous Precision Manufacturing, and Exponential AI Compute.",
+      "path": "knowledge-tree/trunk/three-super-cycles-energy-manufacturing-ai.md",
+      "wordCount": 427,
+      "readTime": "3 min read",
+      "connections": [
+        "electrochemical-energy-storage-axioms",
+        "battery-tradeoff-trilemma-and-thermal-runaway",
+        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
+        "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
     }
   ]
 }
