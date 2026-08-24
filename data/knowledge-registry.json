@@ -1,0 +1,108 @@
+{
+  "project": {
+    "name": "Mind of Aravalli",
+    "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
+    "github": "https://github.com/vs00918/aravalli"
+  },
+  "nodes": [
+    {
+      "id": "electrochemical-energy-storage-axioms",
+      "title": "Electrochemical Energy Storage Axioms",
+      "tier": "roots",
+      "tierLabel": "Roots (Axioms)",
+      "icon": "🌱",
+      "summary": "First-principles charge separation, potential wells, Faraday/Nernst limits, and Gibbs free energy dynamics.",
+      "path": "knowledge-tree/roots/electrochemical-energy-storage-axioms.md",
+      "tags": ["physics", "thermodynamics", "electrochemistry", "energy"],
+      "connections": ["battery-tradeoff-trilemma-and-thermal-runaway", "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"]
+    },
+    {
+      "id": "thermodynamics-entropy-and-schrodinger-negentropy",
+      "title": "Thermodynamics, Entropy & Schrödinger's Negentropy",
+      "tier": "roots",
+      "tierLabel": "Roots (Axioms)",
+      "icon": "🌱",
+      "summary": "Physical definition of life as an open non-equilibrium thermodynamic system maintaining low internal entropy (dS_int < 0).",
+      "path": "knowledge-tree/roots/thermodynamics-entropy-and-schrodinger-negentropy.md",
+      "tags": ["physics", "entropy", "schrodinger", "thermodynamics", "philosophy"],
+      "connections": ["emergence-reductionism-and-informational-biology", "definition-of-life-and-artificial-life"]
+    },
+    {
+      "id": "battery-tradeoff-trilemma-and-thermal-runaway",
+      "title": "The Battery Quadrilemma & Thermal Runaway Dynamics",
+      "tier": "trunk",
+      "tierLabel": "Trunk (Mental Models)",
+      "icon": "🪵",
+      "summary": "The 4-way optimization space and positive-feedback exothermic chain reaction mechanics (14,000+ LFP fires baseline).",
+      "path": "knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md",
+      "tags": ["mental-models", "energy-storage", "safety", "manufacturing"],
+      "connections": ["electrochemical-energy-storage-axioms", "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"]
+    },
+    {
+      "id": "three-super-cycles-energy-manufacturing-ai",
+      "title": "Three Super-Cycles: Energy, Manufacturing & AI",
+      "tier": "trunk",
+      "tierLabel": "Trunk (Mental Models)",
+      "icon": "🪵",
+      "summary": "Electrification + Precision Automated Manufacturing + Exponential AI Compute, 98% idle vehicle V2G buffers, and local-for-local supply chain sovereignty.",
+      "path": "knowledge-tree/trunk/three-super-cycles-energy-manufacturing-ai.md",
+      "tags": ["macro-trends", "ai", "v2g", "manufacturing", "geopolitics"],
+      "connections": ["podcast-enervenue-hina-nikhil-kamath-batteries"]
+    },
+    {
+      "id": "emergence-reductionism-and-informational-biology",
+      "title": "Emergence, Reductionism & Informational Biology",
+      "tier": "trunk",
+      "tierLabel": "Trunk (Mental Models)",
+      "icon": "🪵",
+      "summary": "The Reductionist Paradox: zero living molecules in a cell, life as an emergent catalytic orchestra, informational code (DNA as software), and the boundary spectrum.",
+      "path": "knowledge-tree/trunk/emergence-reductionism-and-informational-biology.md",
+      "tags": ["complexity", "biology", "emergence", "cybernetics", "dna"],
+      "connections": ["thermodynamics-entropy-and-schrodinger-negentropy", "definition-of-life-and-artificial-life", "kurzgesagt-schrodinger-what-is-life-death"]
+    },
+    {
+      "id": "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
+      "title": "Comparative Chemistries: LFP vs. Sodium vs. Ni-H2 vs. Solid-State",
+      "tier": "branches",
+      "tierLabel": "Branches (Taxonomies)",
+      "icon": "🌿",
+      "summary": "Comparative multi-chemistry benchmark matrix: Specific Energy, Cycle Life, Operating Temperature, and Fire Safety across battery paradigms.",
+      "path": "knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md",
+      "tags": ["chemistry", "batteries", "lfp", "sodium-ion", "nickel-hydrogen"],
+      "connections": ["battery-tradeoff-trilemma-and-thermal-runaway", "podcast-enervenue-hina-nikhil-kamath-batteries"]
+    },
+    {
+      "id": "definition-of-life-and-artificial-life",
+      "title": "Epistemology of Life & Artificial Silicon Life",
+      "tier": "branches",
+      "tierLabel": "Branches (Taxonomies)",
+      "icon": "🌿",
+      "summary": "Astrobiology, NASA/Thermodynamic/Cybernetic operational definitions, substrate neutrality, and artificial silicon life.",
+      "path": "knowledge-tree/branches/definition-of-life-and-artificial-life.md",
+      "tags": ["epistemology", "artificial-life", "ai", "philosophy-of-mind"],
+      "connections": ["emergence-reductionism-and-informational-biology", "kurzgesagt-schrodinger-what-is-life-death"]
+    },
+    {
+      "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
+      "title": "WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath",
+      "tier": "leaves",
+      "tierLabel": "Leaves (Lived Experience)",
+      "icon": "🍃",
+      "summary": "Deconstruction of WTF are Batteries? featuring Henning Rath (CEO, EnerVenue) and Dr. Kun Tang (Chairman, HiNa Battery) hosted by Nikhil Kamath.",
+      "path": "knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md",
+      "tags": ["podcasts", "nikhil-kamath", "enervenue", "hina-battery", "founders"],
+      "connections": ["energy-storage-chemistries-lfp-sodium-nickel-hydrogen", "three-super-cycles-energy-manufacturing-ai"]
+    },
+    {
+      "id": "kurzgesagt-schrodinger-what-is-life-death",
+      "title": "What Is Life? Is Death Real? — Kurzgesagt & Schrödinger",
+      "tier": "leaves",
+      "tierLabel": "Leaves (Lived Experience)",
+      "icon": "🍃",
+      "summary": "Deconstruction of Kurzgesagt's 'What Is Life? Is Death Real?': Schrödinger's negentropy, protein nanomachines, viruses, and the dissolution of the life/death binary.",
+      "path": "knowledge-tree/leaves/kurzgesagt-schrodinger-what-is-life-death.md",
+      "tags": ["kurzgesagt", "schrodinger", "biology", "philosophy", "existential"],
+      "connections": ["emergence-reductionism-and-informational-biology", "definition-of-life-and-artificial-life"]
+    }
+  ]
+}

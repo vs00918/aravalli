@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind of Aravalli — Knowledge Tree & Epistemic Laboratory</title>
+  <meta name="description" content="An interconnected, first-principles Personal Knowledge Tree and epistemic laboratory.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Newsreader', 'serif'],
+            mono: ['Fira Code', 'monospace']
+          },
+          colors: {
+            aravalli: {
+              50: '#f4f7f4',
+              100: '#e5ece5',
+              500: '#3a7d44',
+              600: '#2d6335',
+              800: '#1b3c20',
+              900: '#0f2313',
+              darkBg: '#0d1117',
+              darkCard: '#161b22',
+              darkBorder: '#30363d',
+              accent: '#10b981'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- KaTeX CSS & JS (Math rendering) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Marked.js (Markdown parsing) & DOMPurify -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+
+  <!-- Mermaid.js -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.3); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(156, 163, 175, 0.5); }
+
+    /* Markdown Typography Styling */
+    .prose-custom h1 { font-size: 2.25rem; font-weight: 800; line-height: 1.25; margin-bottom: 1.5rem; color: var(--tw-prose-headings); border-bottom: 1px solid rgba(156, 163, 175, 0.2); padding-bottom: 0.75rem; }
+    .prose-custom h2 { font-size: 1.5rem; font-weight: 700; line-height: 1.35; margin-top: 2rem; margin-bottom: 1rem; color: var(--tw-prose-headings); }
+    .prose-custom h3 { font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--tw-prose-headings); }
+    .prose-custom p { margin-bottom: 1.25rem; line-height: 1.75; font-size: 1.05rem; }
+    .prose-custom ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+    .prose-custom ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+    .prose-custom li { margin-bottom: 0.5rem; line-height: 1.6; }
+    .prose-custom blockquote { border-left: 4px solid #10b981; padding: 0.75rem 1.25rem; margin: 1.5rem 0; background: rgba(16, 185, 129, 0.05); border-radius: 0 8px 8px 0; font-style: italic; }
+    .prose-custom hr { border: 0; border-top: 1px solid rgba(156, 163, 175, 0.2); margin: 2.5rem 0; }
+
+    /* Table Styling */
+    .prose-custom table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+    .prose-custom th { background: rgba(156, 163, 175, 0.1); padding: 0.75rem 1rem; text-align: left; font-weight: 600; border: 1px solid rgba(156, 163, 175, 0.2); }
+    .prose-custom td { padding: 0.75rem 1rem; border: 1px solid rgba(156, 163, 175, 0.2); }
+    .prose-custom tr:nth-child(even) { background: rgba(156, 163, 175, 0.03); }
+
+    /* Code Blocks */
+    .prose-custom pre { background: #090d13 !important; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; overflow-x: auto; margin: 1.5rem 0; }
+    .prose-custom code:not(pre code) { background: rgba(16, 185, 129, 0.1); color: #10b981; padding: 0.2rem 0.4rem; border-radius: 4px; font-family: 'Fira Code', monospace; font-size: 0.9em; }
+
+    /* GitHub Alert Callouts */
+    .alert-box { border-left: 4px solid; padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+    .alert-note { border-color: #3b82f6; background: rgba(59, 130, 246, 0.08); }
+    .alert-important { border-color: #8b5cf6; background: rgba(139, 92, 246, 0.08); }
+    .alert-tip { border-color: #10b981; background: rgba(16, 185, 129, 0.08); }
+    .alert-warning { border-color: #f59e0b; background: rgba(245, 158, 11, 0.08); }
+
+    /* Mermaid Containers */
+    .mermaid-wrapper { background: rgba(15, 23, 42, 0.6); border: 1px solid #30363d; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; overflow-x: auto; display: flex; justify-content: center; }
+    .light .mermaid-wrapper { background: #ffffff; border-color: #e2e8f0; }
+
+    /* Interactive Wikilinks */
+    .wikilink { color: #10b981; text-decoration: underline; text-underline-offset: 3px; font-weight: 500; cursor: pointer; transition: all 0.2s ease; }
+    .wikilink:hover { color: #34d399; text-shadow: 0 0 8px rgba(16, 185, 129, 0.3); }
+  </style>
+</head>
+
+<body class="bg-[#090d13] text-gray-200 min-h-screen flex flex-col font-sans transition-colors duration-200">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-[#0d1117]/90 backdrop-blur-md border-b border-[#30363d] px-4 lg:px-8 py-3 flex items-center justify-between">
+    <div class="flex items-center space-x-4">
+      <button id="mobile-menu-btn" class="lg:hidden text-gray-400 hover:text-white p-1">
+        <i class="fa-solid fa-bars text-xl"></i>
+      </button>
+      <div class="flex items-center space-x-3 cursor-pointer" onclick="loadOverview()">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-xl shadow-lg shadow-emerald-900/30">
+          🌳
+        </div>
+        <div>
+          <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+            Mind of Aravalli
+            <span class="text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full font-mono">PKM v2.0</span>
+          </h1>
+          <p class="text-xs text-gray-400 hidden sm:block">First-Principles Knowledge Tree & Epistemic Laboratory</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Search & Actions -->
+    <div class="flex items-center space-x-3">
+      <!-- Search Input Trigger -->
+      <button onclick="openSearchModal()" class="flex items-center space-x-2 bg-[#161b22] hover:bg-[#21262d] border border-[#30363d] text-gray-400 hover:text-gray-200 px-3 py-1.5 rounded-lg text-sm transition-all w-36 sm:w-64">
+        <i class="fa-solid fa-magnifying-glass text-xs text-emerald-400"></i>
+        <span class="text-xs truncate">Search knowledge...</span>
+        <kbd class="hidden sm:inline-block ml-auto text-[10px] bg-[#30363d] text-gray-300 px-1.5 py-0.5 rounded font-mono">⌘K</kbd>
+      </button>
+
+      <!-- View Switcher -->
+      <div class="hidden md:flex bg-[#161b22] border border-[#30363d] p-1 rounded-lg">
+        <button id="view-doc-btn" onclick="setViewMode('doc')" class="px-3 py-1 text-xs font-medium rounded-md bg-emerald-600 text-white shadow transition-all">
+          <i class="fa-solid fa-book-open mr-1"></i> Reader
+        </button>
+        <button id="view-tree-btn" onclick="setViewMode('tree')" class="px-3 py-1 text-xs font-medium rounded-md text-gray-400 hover:text-white transition-all">
+          <i class="fa-solid fa-diagram-project mr-1"></i> Master Tree
+        </button>
+      </div>
+
+      <!-- GitHub Link -->
+      <a href="https://github.com/vs00918/aravalli" target="_blank" class="text-gray-400 hover:text-white p-2 rounded-lg bg-[#161b22] border border-[#30363d] transition-all hover:border-gray-500" title="View Source on GitHub">
+        <i class="fa-brands fa-github text-lg"></i>
+      </a>
+
+      <!-- Theme Toggle -->
+      <button onclick="toggleTheme()" class="text-gray-400 hover:text-white p-2 rounded-lg bg-[#161b22] border border-[#30363d] transition-all" title="Toggle Theme">
+        <i id="theme-icon" class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Layout Container -->
+  <div class="flex-1 flex overflow-hidden">
+    
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-30 w-80 bg-[#0d1117] border-r border-[#30363d] transform -translate-x-full lg:translate-x-0 lg:static transition-transform duration-200 flex flex-col overflow-hidden">
+      
+      <!-- Sidebar Header -->
+      <div class="p-4 border-b border-[#30363d] flex items-center justify-between">
+        <span class="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
+          <i class="fa-solid fa-sitemap text-emerald-400"></i> Tree Taxonomy
+        </span>
+        <span id="node-count" class="text-xs px-2 py-0.5 rounded-full bg-emerald-900/40 text-emerald-400 font-mono border border-emerald-800">9 Nodes</span>
+      </div>
+
+      <!-- Navigation Tree Items -->
+      <div class="flex-1 overflow-y-auto p-3 space-y-6" id="tree-nav">
+        
+        <!-- Overview Link -->
+        <div>
+          <button onclick="loadOverview()" class="w-full text-left flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium hover:bg-[#161b22] text-emerald-400 transition-colors">
+            <i class="fa-solid fa-compass text-emerald-400"></i>
+            <span>Master Overview & Map</span>
+          </button>
+        </div>
+
+        <!-- Roots Tier -->
+        <div>
+          <div class="px-2 mb-2 text-[11px] font-bold uppercase tracking-wider text-amber-400/90 flex items-center justify-between">
+            <span>🌱 Roots: First Principles</span>
+          </div>
+          <div class="space-y-1" id="nav-roots"></div>
+        </div>
+
+        <!-- Trunk Tier -->
+        <div>
+          <div class="px-2 mb-2 text-[11px] font-bold uppercase tracking-wider text-emerald-400/90 flex items-center justify-between">
+            <span>🪵 Trunk: Mental Models</span>
+          </div>
+          <div class="space-y-1" id="nav-trunk"></div>
+        </div>
+
+        <!-- Branches Tier -->
+        <div>
+          <div class="px-2 mb-2 text-[11px] font-bold uppercase tracking-wider text-teal-400/90 flex items-center justify-between">
+            <span>🌿 Branches: Taxonomies</span>
+          </div>
+          <div class="space-y-1" id="nav-branches"></div>
+        </div>
+
+        <!-- Leaves Tier -->
+        <div>
+          <div class="px-2 mb-2 text-[11px] font-bold uppercase tracking-wider text-cyan-400/90 flex items-center justify-between">
+            <span>🍃 Leaves: Podcasts & Cases</span>
+          </div>
+          <div class="space-y-1" id="nav-leaves"></div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Footer: Stats & Installed Engines -->
+      <div class="p-3 bg-[#161b22]/70 border-t border-[#30363d] text-xs text-gray-400 space-y-1.5">
+        <div class="flex justify-between items-center text-[11px]">
+          <span>⚡ Synthesis Engine</span>
+          <span class="text-emerald-400 font-semibold">Online & Verified</span>
+        </div>
+        <div class="flex justify-between items-center text-[11px]">
+          <span>🔒 Local Isolation</span>
+          <span class="text-gray-300 font-mono">mind-of-aravalli</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Reader Pane -->
+    <main class="flex-1 overflow-y-auto bg-[#090d13] p-4 sm:p-8 lg:p-12 relative flex justify-center">
+      
+      <!-- Article Card Wrapper -->
+      <div class="w-full max-w-4xl">
+        
+        <!-- Breadcrumbs & Meta Bar -->
+        <div id="content-meta" class="mb-6 flex flex-wrap items-center justify-between gap-3 text-xs text-gray-400 border-b border-[#30363d] pb-4">
+          <div class="flex items-center space-x-2">
+            <span id="meta-tier" class="px-2 py-0.5 rounded-full bg-[#161b22] border border-[#30363d] text-emerald-400 font-mono">Overview</span>
+            <span class="text-gray-600">/</span>
+            <span id="meta-title-crumb" class="text-gray-300 font-medium">Knowledge Tree Map</span>
+          </div>
+          <div class="flex items-center space-x-3">
+            <span id="meta-readtime"><i class="fa-regular fa-clock mr-1"></i> 3 min read</span>
+            <button onclick="copyCurrentUrl()" class="hover:text-emerald-400 transition" title="Share Note Link"><i class="fa-solid fa-share-nodes"></i></button>
+          </div>
+        </div>
+
+        <!-- Rendered Note Container -->
+        <article id="note-body" class="prose-custom text-gray-200">
+          <!-- Dynamic Content Rendered Here -->
+        </article>
+
+        <!-- Dynamic Connection Graph / Backlinks Footer -->
+        <div id="connection-footer" class="mt-12 pt-8 border-t border-[#30363d] hidden">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-gray-400 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-link text-emerald-400"></i> Interconnected Tree Nodes
+          </h4>
+          <div id="connection-cards" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Search Modal (Ctrl + K) -->
+  <div id="search-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-start justify-center pt-20 px-4">
+    <div class="bg-[#161b22] border border-[#30363d] w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-150">
+      
+      <div class="p-4 border-b border-[#30363d] flex items-center space-x-3">
+        <i class="fa-solid fa-magnifying-glass text-emerald-400"></i>
+        <input id="search-input" type="text" placeholder="Type a concept, formula, podcast guest, or keyword..." 
+               class="bg-transparent text-white placeholder-gray-500 text-sm focus:outline-none w-full"
+               oninput="executeSearch()">
+        <button onclick="closeSearchModal()" class="text-gray-400 hover:text-white text-xs bg-[#30363d] px-2 py-1 rounded">ESC</button>
+      </div>
+
+      <div id="search-results" class="max-h-96 overflow-y-auto p-3 space-y-2">
+        <div class="text-center text-xs text-gray-500 py-8">Type anything to search across all first-principles axioms, mental models, and podcast distillations.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Core App Controller Script -->
+  <script>
+    let knowledgeRegistry = null;
+    let currentNodeId = null;
+
+    // Initialize Application
+    async function initApp() {
+      try {
+        const resp = await fetch('data/knowledge-registry.json');
+        knowledgeRegistry = await resp.json();
+        
+        document.getElementById('node-count').innerText = `${knowledgeRegistry.nodes.length} Nodes`;
+        renderSidebarNav();
+
+        // Check URL hash for direct routing
+        const hash = window.location.hash.replace('#', '');
+        if (hash) {
+          loadNode(hash);
+        } else {
+          loadOverview();
+        }
+      } catch (err) {
+        console.error('Failed to load knowledge registry:', err);
+        loadOverview();
+      }
+
+      // Setup Keyboard Shortcuts
+      document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+          e.preventDefault();
+          openSearchModal();
+        }
+        if (e.key === 'Escape') {
+          closeSearchModal();
+        }
+      });
+    }
+
+    // Render Navigation Links in Sidebar
+    function renderSidebarNav() {
+      const tiers = { roots: 'nav-roots', trunk: 'nav-trunk', branches: 'nav-branches', leaves: 'nav-leaves' };
+      
+      knowledgeRegistry.nodes.forEach(node => {
+        const container = document.getElementById(tiers[node.tier]);
+        if (container) {
+          const btn = document.createElement('button');
+          btn.id = `nav-btn-${node.id}`;
+          btn.className = 'w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-medium text-gray-300 hover:bg-[#161b22] hover:text-white transition-colors flex items-center space-x-2 truncate';
+          btn.onclick = () => loadNode(node.id);
+          btn.innerHTML = `<span class="opacity-80">${node.icon}</span><span class="truncate">${node.title}</span>`;
+          container.appendChild(btn);
+        }
+      });
+    }
+
+    // Load Specific Knowledge Node
+    async function loadNode(nodeId) {
+      currentNodeId = nodeId;
+      window.location.hash = nodeId;
+      closeSidebarMobile();
+
+      const node = knowledgeRegistry.nodes.find(n => n.id === nodeId);
+      if (!node) {
+        loadOverview();
+        return;
+      }
+
+      // Update Active Navigation Highlight
+      document.querySelectorAll('#tree-nav button').forEach(b => b.classList.remove('bg-emerald-950/60', 'text-emerald-400', 'border', 'border-emerald-800/60'));
+      const activeBtn = document.getElementById(`nav-btn-${node.id}`);
+      if (activeBtn) activeBtn.classList.add('bg-emerald-950/60', 'text-emerald-400', 'border', 'border-emerald-800/60');
+
+      // Update Meta
+      document.getElementById('meta-tier').innerText = node.tierLabel;
+      document.getElementById('meta-title-crumb').innerText = node.title;
+
+      // Fetch and Parse Markdown
+      try {
+        const resp = await fetch(node.path);
+        const mdText = await resp.text();
+        renderMarkdown(mdText);
+        renderConnections(node);
+      } catch (e) {
+        document.getElementById('note-body').innerHTML = `<div class="p-8 text-center text-red-400">Error loading note content.</div>`;
+      }
+    }
+
+    // Load Master Overview & Mind Map
+    async function loadOverview() {
+      currentNodeId = 'overview';
+      window.location.hash = '';
+      closeSidebarMobile();
+
+      document.getElementById('meta-tier').innerText = 'System Map';
+      document.getElementById('meta-title-crumb').innerText = 'Knowledge Tree Index';
+      document.getElementById('connection-footer').classList.add('hidden');
+
+      try {
+        const resp = await fetch('knowledge-tree/INDEX.md');
+        const mdText = await resp.text();
+        renderMarkdown(mdText);
+      } catch (e) {
+        document.getElementById('note-body').innerHTML = `<div class="p-8 text-center text-red-400">Failed to load master index.</div>`;
+      }
+    }
+
+    // Comprehensive Markdown Rendering with Math, Mermaid & Wikilinks
+    function renderMarkdown(mdText) {
+      // 1. Convert GitHub alert boxes
+      let processed = mdText
+        .replace(/> \[!NOTE\]\n> (.*)/g, '<div class="alert-box alert-note"><strong class="text-blue-400"><i class="fa-solid fa-info-circle mr-1"></i> Note:</strong> $1</div>')
+        .replace(/> \[!IMPORTANT\]\n> (.*)/g, '<div class="alert-box alert-important"><strong class="text-purple-400"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Important:</strong> $1</div>')
+        .replace(/> \[!TIP\]\n> (.*)/g, '<div class="alert-box alert-tip"><strong class="text-emerald-400"><i class="fa-solid fa-lightbulb mr-1"></i> Tip:</strong> $1</div>')
+        .replace(/> \[!WARNING\]\n> (.*)/g, '<div class="alert-box alert-warning"><strong class="text-amber-400"><i class="fa-solid fa-circle-exclamation mr-1"></i> Warning:</strong> $1</div>');
+
+      // 2. Convert Wikilinks [[concept-id]] to clickable dynamic links
+      processed = processed.replace(/\[\[(.*?)\]\]/g, (match, slug) => {
+        const cleanSlug = slug.trim().toLowerCase().replace(/\s+/g, '-');
+        return `<span class="wikilink" onclick="loadNode('${cleanSlug}')">${slug}</span>`;
+      });
+
+      // 3. Configure marked
+      marked.setOptions({
+        gfm: true,
+        breaks: true,
+        highlight: function(code, lang) {
+          return code;
+        }
+      });
+
+      const rawHtml = marked.parse(processed);
+      const cleanHtml = DOMPurify.sanitize(rawHtml, { ADD_TAGS: ['div', 'span'], ADD_ATTR: ['onclick'] });
+      
+      const container = document.getElementById('note-body');
+      container.innerHTML = cleanHtml;
+
+      // 4. Render KaTeX Math
+      if (window.renderMathInElement) {
+        renderMathInElement(container, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+
+      // 5. Render Mermaid Diagrams
+      renderMermaidDiagrams();
+    }
+
+    // Render Mermaid diagrams safely into clean SVGs
+    function renderMermaidDiagrams() {
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
+        themeVariables: {
+          darkMode: true,
+          background: '#0d1117',
+          primaryColor: '#10b981',
+          primaryTextColor: '#ffffff',
+          lineColor: '#64748b'
+        }
+      });
+
+      document.querySelectorAll('#note-body pre code.language-mermaid').forEach((block, index) => {
+        const code = block.textContent;
+        const parent = block.parentElement;
+        const wrapper = document.createElement('div');
+        wrapper.className = 'mermaid-wrapper';
+        const graphId = `mermaid-svg-${index}-${Date.now()}`;
+        
+        mermaid.render(graphId, code).then(({ svg }) => {
+          wrapper.innerHTML = svg;
+          parent.replaceWith(wrapper);
+        }).catch(err => {
+          console.warn('Mermaid rendering skipped for block:', err);
+        });
+      });
+    }
+
+    // Render Connected Nodes in Footer
+    function renderConnections(node) {
+      const footer = document.getElementById('connection-footer');
+      const cardsContainer = document.getElementById('connection-cards');
+      cardsContainer.innerHTML = '';
+
+      if (!node.connections || node.connections.length === 0) {
+        footer.classList.add('hidden');
+        return;
+      }
+
+      node.connections.forEach(connId => {
+        const target = knowledgeRegistry.nodes.find(n => n.id === connId);
+        if (target) {
+          const card = document.createElement('div');
+          card.className = 'bg-[#161b22] border border-[#30363d] hover:border-emerald-500/50 p-4 rounded-xl cursor-pointer transition-all hover:-translate-y-0.5 shadow-sm';
+          card.onclick = () => loadNode(target.id);
+          card.innerHTML = `
+            <div class="flex items-center space-x-2 text-xs text-emerald-400 mb-1">
+              <span>${target.icon}</span>
+              <span class="font-mono uppercase">${target.tierLabel}</span>
+            </div>
+            <h5 class="text-sm font-semibold text-white mb-1">${target.title}</h5>
+            <p class="text-xs text-gray-400 line-clamp-2">${target.summary}</p>
+          `;
+          cardsContainer.appendChild(card);
+        }
+      });
+
+      footer.classList.remove('hidden');
+    }
+
+    // Search Functions
+    function openSearchModal() {
+      document.getElementById('search-modal').classList.remove('hidden');
+      document.getElementById('search-modal').classList.add('flex');
+      document.getElementById('search-input').focus();
+    }
+
+    function closeSearchModal() {
+      document.getElementById('search-modal').classList.add('hidden');
+      document.getElementById('search-modal').classList.remove('flex');
+    }
+
+    function executeSearch() {
+      const query = document.getElementById('search-input').value.toLowerCase().trim();
+      const resultsContainer = document.getElementById('search-results');
+      
+      if (!query) {
+        resultsContainer.innerHTML = `<div class="text-center text-xs text-gray-500 py-8">Type to search nodes...</div>`;
+        return;
+      }
+
+      const matches = knowledgeRegistry.nodes.filter(n => 
+        n.title.toLowerCase().includes(query) || 
+        n.summary.toLowerCase().includes(query) || 
+        n.tags.some(t => t.toLowerCase().includes(query))
+      );
+
+      if (matches.length === 0) {
+        resultsContainer.innerHTML = `<div class="text-center text-xs text-gray-500 py-8">No matching concepts found.</div>`;
+        return;
+      }
+
+      resultsContainer.innerHTML = matches.map(n => `
+        <div onclick="loadNode('${n.id}'); closeSearchModal();" 
+             class="p-3 rounded-lg hover:bg-[#21262d] cursor-pointer transition flex items-start space-x-3 border border-transparent hover:border-[#30363d]">
+          <span class="text-lg mt-0.5">${n.icon}</span>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center space-x-2">
+              <span class="text-sm font-semibold text-white truncate">${n.title}</span>
+              <span class="text-[10px] px-1.5 py-0.2 rounded bg-[#30363d] text-emerald-400 font-mono">${n.tier}</span>
+            </div>
+            <p class="text-xs text-gray-400 truncate mt-0.5">${n.summary}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Theme Switcher
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      document.documentElement.classList.toggle('light', !isDark);
+      document.getElementById('theme-icon').className = isDark ? 'fa-solid fa-moon' : 'fa-solid fa-sun text-amber-400';
+      renderMermaidDiagrams();
+    }
+
+    // View Mode Toggle
+    function setViewMode(mode) {
+      document.getElementById('view-doc-btn').className = mode === 'doc' ? 'px-3 py-1 text-xs font-medium rounded-md bg-emerald-600 text-white shadow' : 'px-3 py-1 text-xs font-medium rounded-md text-gray-400 hover:text-white';
+      document.getElementById('view-tree-btn').className = mode === 'tree' ? 'px-3 py-1 text-xs font-medium rounded-md bg-emerald-600 text-white shadow' : 'px-3 py-1 text-xs font-medium rounded-md text-gray-400 hover:text-white';
+      if (mode === 'tree') loadOverview();
+      else if (currentNodeId && currentNodeId !== 'overview') loadNode(currentNodeId);
+      else loadOverview();
+    }
+
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    mobileBtn.addEventListener('click', () => {
+      document.getElementById('sidebar').classList.toggle('-translate-x-full');
+    });
+
+    function closeSidebarMobile() {
+      if (window.innerWidth < 1024) {
+        document.getElementById('sidebar').classList.add('-translate-x-full');
+      }
+    }
+
+    function copyCurrentUrl() {
+      navigator.clipboard.writeText(window.location.href);
+      alert('Note link copied to clipboard!');
+    }
+
+    // Start App on Load
+    window.addEventListener('DOMContentLoaded', initApp);
+  </script>
+</body>
+</html>
