@@ -2,13 +2,13 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 21,
+    "totalNodes": 25,
     "domains": [
       "Macro-Economics & AI Infrastructure",
       "Energy Systems & Electrification",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:07:14.383Z"
+    "lastUpdated": "2026-08-24T18:08:31.330Z"
   },
   "nodes": [
     {
@@ -67,6 +67,24 @@
       ]
     },
     {
+      "id": "development-economics-tfr-and-peak-humanity",
+      "title": "Development Economics: TFR Compression, Leapfrogging & Peak Humanity",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "The Demographic Transition is not unique to Western culture; it is an invariant law of economic development. Developing nations traverse the transition orders of magnitude faster due to global technology, medical knowledge transfer, and educational diffusion.",
+      "path": "knowledge-tree/branches/development-economics-tfr-and-peak-humanity.md",
+      "wordCount": 330,
+      "readTime": "2 min read",
+      "connections": [
+        "demographic-transition-and-logistic-population-dynamics",
+        "three-super-cycles-energy-manufacturing-ai",
+        "demographic-momentum-and-fertility-transition",
+        "kurzgesagt-overpopulation-demographic-transition"
+      ]
+    },
+    {
       "id": "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
       "title": "Comparative Battery Chemistries: LFP vs. Sodium-Ion vs. Nickel-Hydrogen vs. Solid-State",
       "tier": "branches",
@@ -120,6 +138,27 @@
         "ecological-engineering-biocatalytic-cascades-and-irreversibility",
         "emergence-reductionism-and-informational-biology",
         "crispr-cas9-gene-drives-and-vector-parasitology",
+        "definition-of-life-and-artificial-life"
+      ]
+    },
+    {
+      "id": "kurzgesagt-overpopulation-demographic-transition",
+      "title": "Overpopulation — Kurzgesagt (The Human Explosion Explained)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "The global population explosion is not an apocalyptic runaway disaster, but a temporary four-stage demographic transition. Because global fertility rates have plummeted toward replacement level ($2.1$), world population growth is rapidly decelerating, guaranteeing that humanity will plateau at $\\approx 10-11\\text{ billion}$ and the 12th billion human will never be born.",
+      "path": "knowledge-tree/leaves/kurzgesagt-overpopulation-demographic-transition.md",
+      "wordCount": 433,
+      "readTime": "3 min read",
+      "connections": [
+        "demographic-transition-and-logistic-population-dynamics",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "signal-detection-theory-and-haystack-fallacy",
+        "demographic-momentum-and-fertility-transition",
+        "three-super-cycles-energy-manufacturing-ai",
+        "development-economics-tfr-and-peak-humanity",
         "definition-of-life-and-artificial-life"
       ]
     },
@@ -216,6 +255,23 @@
         "degenerate-matter-and-extreme-cosmic-density",
         "standard-model-and-particle-physics-taxonomy",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "demographic-transition-and-logistic-population-dynamics",
+      "title": "Demographic Transition Invariants & Logistic Population Dynamics",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "Human population growth does not follow unrestricted Malthusian exponential divergence ($N(t) = N_0 e^{rt}$); it is governed by an endogenous 4-Stage Demographic Transition that mathematically converges to a stable logistic equilibrium ($TFR \\approx 2.1$) as child mortality declines and human capital investment rises.",
+      "path": "knowledge-tree/roots/demographic-transition-and-logistic-population-dynamics.md",
+      "wordCount": 315,
+      "readTime": "2 min read",
+      "connections": [
+        "demographic-momentum-and-fertility-transition",
+        "development-economics-tfr-and-peak-humanity",
+        "kurzgesagt-overpopulation-demographic-transition"
       ]
     },
     {
@@ -320,6 +376,24 @@
         "thermodynamics-entropy-and-schrodinger-negentropy",
         "standard-model-and-particle-physics-taxonomy",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "demographic-momentum-and-fertility-transition",
+      "title": "Demographic Momentum, Fertility Collapse & The 4-Stage Transition Model",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Population growth exhibits Demographic Momentum: even after fertility drops to replacement levels ($2.1$), overall population continues to expand for several decades due to the large cohort of historical youth reaching reproductive age. Once this demographic wave passes, population growth decelerates permanently.",
+      "path": "knowledge-tree/trunk/demographic-momentum-and-fertility-transition.md",
+      "wordCount": 350,
+      "readTime": "2 min read",
+      "connections": [
+        "demographic-transition-and-logistic-population-dynamics",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "development-economics-tfr-and-peak-humanity",
+        "kurzgesagt-overpopulation-demographic-transition"
       ]
     },
     {

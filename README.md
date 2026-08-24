@@ -17,6 +17,7 @@ graph TD
     Roots --> R3["Atomic Hypothesis & Quantum Fields Scale"]
     Roots --> R4["Signal Detection Theory & The Haystack Fallacy"]
     Roots --> R5["Mendelian vs Super-Mendelian Gene Drive Mechanics"]
+    Roots --> R6["Demographic Transition & Logistic Population Dynamics"]
 
     %% Trunk
     Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
@@ -25,6 +26,7 @@ graph TD
     Trunk --> T4["Degenerate Matter & Extreme Cosmic Density"]
     Trunk --> T5["Surveillance Function Creep & The Ratchet Effect"]
     Trunk --> T6["Ecological Engineering & Irreversibility Invariants"]
+    Trunk --> T7["Demographic Momentum & Fertility Collapse"]
 
     %% Branches
     Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
@@ -32,6 +34,7 @@ graph TD
     Branches --> B3["Standard Model & Fundamental Particle Taxonomy"]
     Branches --> B4["Cryptographic Asymmetry & Systemic Backdoors"]
     Branches --> B5["CRISPR-Cas9 Gene Drives & Vector Parasitology"]
+    Branches --> B6["Development Economics & Peak Humanity Dynamics"]
 
     %% Leaves
     Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
@@ -39,6 +42,7 @@ graph TD
     Leaves --> L3["How Small Is An Atom? — Kurzgesagt & Feynman"]
     Leaves --> L4["Safe and Sorry: Mass Surveillance — Kurzgesagt & Liberties"]
     Leaves --> L5["Gene Drives & Malaria — Kurzgesagt & CRISPR"]
+    Leaves --> L6["Overpopulation: The Human Explosion — Kurzgesagt & Roser"]
 
     %% Cross-Tier Connections
     R1 --> T1
@@ -46,16 +50,19 @@ graph TD
     R3 --> T4
     R4 --> T5
     R5 --> T6
+    R6 --> T7
     T1 --> B1
     T3 --> B2
     T4 --> B3
     T5 --> B4
     T6 --> B5
+    T7 --> B6
     B1 --> L1
     B2 --> L2
     B3 --> L3
     B4 --> L4
     B5 --> L5
+    B6 --> L6
     T2 --> L1
 ```
 
@@ -69,6 +76,7 @@ graph TD
 * [**The Atomic Hypothesis & Quantum Field Foundations**](./knowledge-tree/roots/atomic-hypothesis-quantum-fields-scale.md) — Feynman's atomic invariant, $10^5:1$ nuclear scale ratio, QED zero-point vacuum fluctuations, and probability density clouds.
 * [**Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant**](./knowledge-tree/roots/signal-detection-theory-and-haystack-fallacy.md) — Bayesian rare event detection, base rate fallacy in intelligence dragnets, and the mathematical limits of bulk data ingestion.
 * [**Mendelian Inheritance vs. Super-Mendelian Gene Drive Mechanics**](./knowledge-tree/roots/mendelian-inheritance-and-super-mendelian-gene-drives.md) — Population genetics mathematics, Mendelian $50\%$ segregation vs. CRISPR active Homology-Directed Repair ($>99.5\%$ super-inheritance).
+* [**Demographic Transition Invariants & Logistic Population Dynamics**](./knowledge-tree/roots/demographic-transition-and-logistic-population-dynamics.md) — Verhulst logistic population curve, dynamic carrying capacity, and endogenous convergence to replacement fertility ($TFR \approx 2.1$).
 
 ### 2. 🪵 Trunk (Core Mental Models & Systems)
 * [**The Battery Quadrilemma & Thermal Runaway Dynamics**](./knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md) — 4-way optimization trade-off space and positive-feedback exothermic chain reaction mechanics.
@@ -77,13 +85,15 @@ graph TD
 * [**Degenerate Matter, Extreme Cosmic Density & Quantum Indistinguishability**](./knowledge-tree/trunk/degenerate-matter-and-extreme-cosmic-density.md) — Pauli Exclusion breakdown, degenerate electron/neutron pressures, the Teaspoon of Humanity Gedankenexperiment, and universal quantum indistinguishability.
 * [**Surveillance Function Creep, The Ratchet Effect & The "Nothing to Hide" Fallacy**](./knowledge-tree/trunk/surveillance-function-creep-and-ratchet-effect.md) — The Institutional Ratchet Effect, mission creep from counter-terrorism into civil protest suppression, and deconstruction of the "Nothing to Hide" fallacy.
 * [**Ecological Engineering, Biocatalytic Cascades & The Irreversibility Invariant**](./knowledge-tree/trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md) — The Irreversibility Invariant in synthetic biology, omission bias in bioethics, and immunizing reversal drive counter-measures.
+* [**Demographic Momentum, Fertility Collapse & The 4-Stage Transition Model**](./knowledge-tree/trunk/demographic-momentum-and-fertility-transition.md) — Demographic Momentum lag dynamics, the 4 stages of the Demographic Transition Model (DTM), and the Beckerian human capital shift.
 
-### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology Paradigms)
+### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology/Economics Paradigms)
 * [**Comparative Battery Chemistries Matrix**](./knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md) — Direct benchmark: LFP vs. Sodium-Ion ($\text{Na-ion}$) vs. Nickel-Hydrogen ($\text{Ni-H}_2$) vs. Solid-State (TRL 4).
 * [**Epistemology of Life: Definitions & Artificial Silicon Life**](./knowledge-tree/branches/definition-of-life-and-artificial-life.md) — Astrobiology, NASA/Thermodynamic/Cybernetic operational definitions, substrate neutrality, and artificial silicon life.
 * [**Standard Model of Particle Physics: The Taxonomy of Fundamental Matter**](./knowledge-tree/branches/standard-model-and-particle-physics-taxonomy.md) — Taxonomy of matter: Quarks, Leptons, Gauge Bosons (Gluons, Photons, W/Z), Higgs mechanism, and the 4 Fundamental Forces.
 * [**Cryptographic Asymmetry & The Backdoor Fallacy**](./knowledge-tree/branches/cryptographic-asymmetry-and-systemic-backdoors.md) — Mathematical asymmetry in public-key cryptography, Kerckhoffs's principle, and why "law-enforcement-only" golden keys create universal vulnerabilities.
 * [**CRISPR-Cas9 Gene Drives & Vector-Borne Parasitology**](./knowledge-tree/branches/crispr-cas9-gene-drives-and-vector-parasitology.md) — Pathogenic life cycle of Plasmodium, population modification vs. suppression strategies, and gene drive applications across vector diseases.
+* [**Development Economics: TFR Compression, Leapfrogging & Peak Humanity**](./knowledge-tree/branches/development-economics-tfr-and-peak-humanity.md) — TFR leapfrogging trajectories (UK vs. Bangladesh vs. Iran), human intelligence density, and the 12th billion human invariant.
 
 ### 4. 🍃 Leaves (Podcasts, Essays & Empirical Crucibles)
 * [**Podcast: WTF are Batteries?**](./knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md) — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) hosted by Nikhil Kamath.
@@ -91,6 +101,7 @@ graph TD
 * [**Visual Essay: How Small Is An Atom?**](./knowledge-tree/leaves/kurzgesagt-quantum-atomic-scale-feynman.md) — Kurzgesagt & Feynman: Spatial scale progression, the Empire State grain of rice, and Feynman's atomic legacy.
 * [**Visual Essay: Safe and Sorry — Terrorism & Mass Surveillance**](./knowledge-tree/leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md) — Kurzgesagt & Liberties: Mass surveillance failures, the Apple vs. FBI encryption battle, and the preservation of democratic institutions.
 * [**Visual Essay: Genetic Engineering & Diseases — Gene Drive & Malaria**](./knowledge-tree/leaves/kurzgesagt-crispr-gene-drives-malaria.md) — Kurzgesagt & CRISPR: Plasmodium biology, CRISPR super-Mendelian sweeps, and the bioethics of ecological editing.
+* [**Visual Essay: Overpopulation — The Human Explosion Explained**](./knowledge-tree/leaves/kurzgesagt-overpopulation-demographic-transition.md) — Kurzgesagt & Roser: The 4 stages of the DTM, compressed leapfrogging, and the 12th billion human barrier.
 
 ---
 
