@@ -1,0 +1,7 @@
+title: "Mind of Aravalli 🌳"
+description: "A first-principles Personal Knowledge Tree & Epistemic Laboratory"
+theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
