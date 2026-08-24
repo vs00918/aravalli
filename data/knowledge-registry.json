@@ -2,13 +2,14 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 25,
+    "totalNodes": 29,
     "domains": [
       "Macro-Economics & AI Infrastructure",
+      "Evolutionary & Cellular Biology",
       "Energy Systems & Electrification",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:08:31.330Z"
+    "lastUpdated": "2026-08-24T18:09:50.008Z"
   },
   "nodes": [
     {
@@ -27,6 +28,25 @@
         "emergence-reductionism-and-informational-biology",
         "ecological-engineering-biocatalytic-cascades-and-irreversibility",
         "kurzgesagt-crispr-gene-drives-malaria"
+      ]
+    },
+    {
+      "id": "crop-bioengineering-bt-endotoxins-and-biofortification",
+      "title": "Crop Bioengineering: Bt Endotoxins, Viral Immunization & Biofortification",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Evolutionary & Cellular Biology",
+      "summary": "Applied crop biotechnology operates across three distinct functional paradigms: Endogenous Pest Defense (Bt endotoxins), Pathogen Immunization (viral coat protein expression), and Nutritional Biofortification (Golden Rice / Nitrogen Fixation), replacing external chemical inputs with self-contained biological programs.",
+      "path": "knowledge-tree/branches/crop-bioengineering-bt-endotoxins-and-biofortification.md",
+      "wordCount": 290,
+      "readTime": "2 min read",
+      "connections": [
+        "agricultural-energetics-and-land-sparing-invariants",
+        "mendelian-inheritance-and-super-mendelian-gene-drives",
+        "selective-toxicity-and-appeal-to-nature-fallacy",
+        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+        "kurzgesagt-gmo-food-genetic-engineering"
       ]
     },
     {
@@ -142,6 +162,27 @@
       ]
     },
     {
+      "id": "kurzgesagt-gmo-food-genetic-engineering",
+      "title": "Are GMOs Good or Bad? — Kurzgesagt (Genetic Engineering & Our Food)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Evolutionary & Cellular Biology",
+      "summary": "The scientific debate over GMO safety is settled: three decades of global empirical research demonstrate that bioengineered crops are as safe to consume as non-GMOs. The true ecological imperative of agricultural biotechnology is Intensification (Land Sparing): maximizing food yields on existing farmland to feed 10 billion people while halting deforestation and preserving Earth's wild biomes.",
+      "path": "knowledge-tree/leaves/kurzgesagt-gmo-food-genetic-engineering.md",
+      "wordCount": 457,
+      "readTime": "3 min read",
+      "connections": [
+        "agricultural-energetics-and-land-sparing-invariants",
+        "mendelian-inheritance-and-super-mendelian-gene-drives",
+        "demographic-transition-and-logistic-population-dynamics",
+        "selective-toxicity-and-appeal-to-nature-fallacy",
+        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
+        "crop-bioengineering-bt-endotoxins-and-biofortification",
+        "development-economics-tfr-and-peak-humanity"
+      ]
+    },
+    {
       "id": "kurzgesagt-overpopulation-demographic-transition",
       "title": "Overpopulation — Kurzgesagt (The Human Explosion Explained)",
       "tier": "leaves",
@@ -238,6 +279,24 @@
         "battery-tradeoff-trilemma-and-thermal-runaway",
         "three-super-cycles-energy-manufacturing-ai",
         "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"
+      ]
+    },
+    {
+      "id": "agricultural-energetics-and-land-sparing-invariants",
+      "title": "Agricultural Energetics & The Land-Sparing Invariant",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Energy Systems & Electrification",
+      "summary": "To feed expanding human populations without driving global biosphere collapse, humanity must maximize caloric and nutrient yield per unit area ($E_{\\text{out}} / \\text{Area}$). Agricultural Intensification (Land Sparing) preserves wild primary biomes and carbon sinks, whereas low-yield Extensification (Land Sharing) consumes wilderness for agricultural clearance.",
+      "path": "knowledge-tree/roots/agricultural-energetics-and-land-sparing-invariants.md",
+      "wordCount": 286,
+      "readTime": "2 min read",
+      "connections": [
+        "selective-toxicity-and-appeal-to-nature-fallacy",
+        "demographic-momentum-and-fertility-transition",
+        "crop-bioengineering-bt-endotoxins-and-biofortification",
+        "kurzgesagt-gmo-food-genetic-engineering"
       ]
     },
     {
@@ -430,6 +489,24 @@
         "electrochemical-energy-storage-axioms",
         "definition-of-life-and-artificial-life",
         "kurzgesagt-schrodinger-what-is-life-death"
+      ]
+    },
+    {
+      "id": "selective-toxicity-and-appeal-to-nature-fallacy",
+      "title": "Selective Toxicity Invariants & The \"Appeal to Nature\" Fallacy",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Toxicity is not an absolute chemical property; it is an Isomorphic Biological Lock-and-Key Relationship. A molecule that is acutely lethal to an insect gut receptor can be completely benign and nutritionally digestible to mammalian biology. Furthermore, human selective breeding for 10,000 years has always been genetic modification—modern biotechnology simply eliminates random trial-and-error.",
+      "path": "knowledge-tree/trunk/selective-toxicity-and-appeal-to-nature-fallacy.md",
+      "wordCount": 363,
+      "readTime": "2 min read",
+      "connections": [
+        "agricultural-energetics-and-land-sparing-invariants",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "crop-bioengineering-bt-endotoxins-and-biofortification",
+        "kurzgesagt-gmo-food-genetic-engineering"
       ]
     },
     {

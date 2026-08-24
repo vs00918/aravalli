@@ -14,6 +14,7 @@ graph TD
     Roots --> R4["Signal Detection Theory & The Haystack Fallacy"]
     Roots --> R5["Mendelian vs Super-Mendelian Gene Drive Mechanics"]
     Roots --> R6["Demographic Transition & Logistic Population Dynamics"]
+    Roots --> R7["Agricultural Energetics & Land Sparing Invariants"]
 
     %% Trunk
     Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
@@ -23,6 +24,7 @@ graph TD
     Trunk --> T5["Surveillance Function Creep & The Ratchet Effect"]
     Trunk --> T6["Ecological Engineering & Irreversibility Invariants"]
     Trunk --> T7["Demographic Momentum & Fertility Collapse"]
+    Trunk --> T8["Selective Toxicity & The Appeal-to-Nature Fallacy"]
 
     %% Branches
     Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
@@ -31,6 +33,7 @@ graph TD
     Branches --> B4["Cryptographic Asymmetry & Systemic Backdoors"]
     Branches --> B5["CRISPR-Cas9 Gene Drives & Vector Parasitology"]
     Branches --> B6["Development Economics & Peak Humanity Dynamics"]
+    Branches --> B7["Crop Bioengineering & Synthetic Biofortification"]
 
     %% Leaves
     Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
@@ -39,6 +42,7 @@ graph TD
     Leaves --> L4["Safe and Sorry: Mass Surveillance — Kurzgesagt & Liberties"]
     Leaves --> L5["Gene Drives & Malaria — Kurzgesagt & CRISPR"]
     Leaves --> L6["Overpopulation: The Human Explosion — Kurzgesagt & Roser"]
+    Leaves --> L7["Are GMOs Good or Bad? — Kurzgesagt & Food Genetics"]
 
     %% Cross-Tier Connections
     R1 --> T1
@@ -47,18 +51,21 @@ graph TD
     R4 --> T5
     R5 --> T6
     R6 --> T7
+    R7 --> T8
     T1 --> B1
     T3 --> B2
     T4 --> B3
     T5 --> B4
     T6 --> B5
     T7 --> B6
+    T8 --> B7
     B1 --> L1
     B2 --> L2
     B3 --> L3
     B4 --> L4
     B5 --> L5
     B6 --> L6
+    B7 --> L7
     T2 --> L1
 ```
 
@@ -79,6 +86,8 @@ graph TD
   *Population genetics mathematics, Mendelian $50\%$ segregation vs. CRISPR active Homology-Directed Repair ($>99.5\%$ super-inheritance).*
 * [**`roots/demographic-transition-and-logistic-population-dynamics.md`**](./roots/demographic-transition-and-logistic-population-dynamics.md)  
   *Verhulst logistic population curve, dynamic carrying capacity, and endogenous convergence to replacement fertility ($TFR \approx 2.1$).*
+* [**`roots/agricultural-energetics-and-land-sparing-invariants.md`**](./roots/agricultural-energetics-and-land-sparing-invariants.md)  
+  *Photosynthetic conversion limits, Haber-Bosch nitrogen bottlenecks, and the Land-Sparing vs. Land-Sharing ecological paradigm.*
 
 ---
 
@@ -97,10 +106,12 @@ graph TD
   *The Irreversibility Invariant in synthetic biology, omission bias in bioethics, and immunizing reversal drive counter-measures.*
 * [**`trunk/demographic-momentum-and-fertility-transition.md`**](./trunk/demographic-momentum-and-fertility-transition.md)  
   *Demographic Momentum lag dynamics, the 4 stages of the Demographic Transition Model (DTM), and the Beckerian human capital shift.*
+* [**`trunk/selective-toxicity-and-appeal-to-nature-fallacy.md`**](./trunk/selective-toxicity-and-appeal-to-nature-fallacy.md)  
+  *Receptor-specific toxicity (Bt Cry proteins vs. caffeine vs. theobromine), and dismantling the "natural equals safe" bias.*
 
 ---
 
-### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology/Economics Paradigms)
+### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology/Agronomy Paradigms)
 * [**`branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md`**](./branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md)  
   *Comparative benchmark matrix: LFP vs. Sodium-Ion (HiNa) vs. Nickel-Hydrogen (EnerVenue) vs. Solid-State (TRL 4).*
 * [**`branches/definition-of-life-and-artificial-life.md`**](./branches/definition-of-life-and-artificial-life.md)  
@@ -113,6 +124,8 @@ graph TD
   *Pathogenic life cycle of Plasmodium, population modification vs. suppression strategies, and gene drive applications across vector diseases.*
 * [**`branches/development-economics-tfr-and-peak-humanity.md`**](./branches/development-economics-tfr-and-peak-humanity.md)  
   *TFR leapfrogging trajectories (UK vs. Bangladesh vs. Iran), human intelligence density, and the 12th billion human invariant.*
+* [**`branches/crop-bioengineering-bt-endotoxins-and-biofortification.md`**](./branches/crop-bioengineering-bt-endotoxins-and-biofortification.md)  
+  *Applied agricultural transgenics: Bt Brinjal, Hawaiian Rainbow Papaya, Golden Rice, and climate-resilient Sub1 rice.*
 
 ---
 
@@ -129,3 +142,5 @@ graph TD
   *Deconstruction of Kurzgesagt's "Gene Drives & Malaria": Plasmodium biology, CRISPR super-Mendelian sweeps, and the bioethics of ecological editing.*
 * [**`leaves/kurzgesagt-overpopulation-demographic-transition.md`**](./leaves/kurzgesagt-overpopulation-demographic-transition.md)  
   *Deconstruction of Kurzgesagt's "Overpopulation – The Human Explosion Explained": The 4 stages of the DTM, compressed leapfrogging, and the 12th billion human barrier.*
+* [**`leaves/kurzgesagt-gmo-food-genetic-engineering.md`**](./leaves/kurzgesagt-gmo-food-genetic-engineering.md)  
+  *Deconstruction of Kurzgesagt's "Are GMOs Good or Bad?": 30-year safety consensus, selective toxicity, and Land Sparing vs. Extensification.*
