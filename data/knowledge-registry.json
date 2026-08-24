@@ -2,14 +2,14 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 45,
+    "totalNodes": 49,
     "domains": [
       "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Evolutionary & Cellular Biology",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:15:01.091Z"
+    "lastUpdated": "2026-08-24T18:16:27.127Z"
   },
   "nodes": [
     {
@@ -213,6 +213,25 @@
         "electrochemical-energy-storage-axioms",
         "degenerate-matter-and-extreme-cosmic-density",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "universal-basic-income-architectures-and-automation",
+      "title": "Universal Basic Income Architectures, Georgism & Automation Levies",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Financing an unconditional social floor does not necessitate currency hyperinflation or punitive corporate income taxes; non-distortive funding mechanisms exist via Land Value Taxes (Georgism), Carbon Dividends, Sovereign Resource Funds (Alaska Model), and AI/Compute Automation Dividends.",
+      "path": "knowledge-tree/branches/universal-basic-income-architectures-and-automation.md",
+      "wordCount": 318,
+      "readTime": "2 min read",
+      "connections": [
+        "marginal-propensity-to-consume-and-poverty-traps",
+        "agricultural-energetics-and-land-sparing-invariants",
+        "unconditional-floors-vs-welfare-cliffs",
+        "three-super-cycles-energy-manufacturing-ai",
+        "kurzgesagt-universal-basic-income-ubi"
       ]
     },
     {
@@ -423,6 +442,27 @@
       ]
     },
     {
+      "id": "kurzgesagt-universal-basic-income-ubi",
+      "title": "Universal Basic Income Explained — Kurzgesagt (UBI & The Future of Work)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Universal Basic Income is not a utopian fantasy or a vector for mass laziness; it is a structural mechanism to eliminate bureaucratic welfare cliffs, restore economic bargaining power to workers, and stimulate aggregate demand ($+\\$1.21$ GDP per $\\$1.00$ low-income transfer) as automated manufacturing and AI accelerate technological transformation.",
+      "path": "knowledge-tree/leaves/kurzgesagt-universal-basic-income-ubi.md",
+      "wordCount": 444,
+      "readTime": "3 min read",
+      "connections": [
+        "marginal-propensity-to-consume-and-poverty-traps",
+        "demographic-transition-and-logistic-population-dynamics",
+        "three-super-cycles-energy-manufacturing-ai",
+        "unconditional-floors-vs-welfare-cliffs",
+        "decentralized-superorganisms-and-swarm-intelligence",
+        "universal-basic-income-architectures-and-automation",
+        "development-economics-tfr-and-peak-humanity"
+      ]
+    },
+    {
       "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
       "title": "WTF are Batteries? — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) with Nikhil Kamath",
       "tier": "leaves",
@@ -543,6 +583,24 @@
         "emergence-reductionism-and-informational-biology",
         "microbial-ecology-dysbiosis-and-fecal-transplants",
         "kurzgesagt-microbiome-gut-brain-axis"
+      ]
+    },
+    {
+      "id": "marginal-propensity-to-consume-and-poverty-traps",
+      "title": "Marginal Propensity to Consume & The Poverty Trap Invariant",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Energy Systems & Electrification",
+      "summary": "In low-income deciles, the Marginal Propensity to Consume approaches unity ($\\text{MPC} \\approx 1.0$), maximizing the Keynesian multiplier on direct cash transfers ($\\Delta Y = \\frac{\\Delta G}{1 - \\text{MPC}}$). Conversely, means-tested conditional welfare creates Welfare Cliffs where Effective Marginal Tax Rates exceed $100\\%$ ($\\text{EMTR} > 1.0$), punishing labor entry and trapping recipients in poverty.",
+      "path": "knowledge-tree/roots/marginal-propensity-to-consume-and-poverty-traps.md",
+      "wordCount": 346,
+      "readTime": "2 min read",
+      "connections": [
+        "unconditional-floors-vs-welfare-cliffs",
+        "three-super-cycles-energy-manufacturing-ai",
+        "universal-basic-income-architectures-and-automation",
+        "kurzgesagt-universal-basic-income-ubi"
       ]
     },
     {
@@ -845,6 +903,24 @@
         "battery-tradeoff-trilemma-and-thermal-runaway",
         "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
         "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
+    },
+    {
+      "id": "unconditional-floors-vs-welfare-cliffs",
+      "title": "Unconditional Floors vs. Welfare Cliffs & Administrative Deadweight Loss",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "Bureaucratic paternalism in means-tested social welfare creates massive Administrative Deadweight Loss (15–30% of budget spent on policing recipients) and imposes a Cognitive Bandwidth Tax on the poor. Replacing conditional bureaucratic hurdles with an unconditional financial floor optimizes resource allocation and preserves individual agency.",
+      "path": "knowledge-tree/trunk/unconditional-floors-vs-welfare-cliffs.md",
+      "wordCount": 257,
+      "readTime": "2 min read",
+      "connections": [
+        "marginal-propensity-to-consume-and-poverty-traps",
+        "demographic-transition-and-logistic-population-dynamics",
+        "universal-basic-income-architectures-and-automation",
+        "kurzgesagt-universal-basic-income-ubi"
       ]
     }
   ]
