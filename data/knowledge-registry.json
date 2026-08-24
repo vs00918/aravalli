@@ -2,14 +2,14 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 41,
+    "totalNodes": 45,
     "domains": [
       "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Evolutionary & Cellular Biology",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:13:44.379Z"
+    "lastUpdated": "2026-08-24T18:15:01.091Z"
   },
   "nodes": [
     {
@@ -28,6 +28,25 @@
         "thermodynamics-entropy-and-schrodinger-negentropy",
         "physical-regimes-across-scales-viscosity-to-gravity",
         "kurzgesagt-size-square-cube-law-elephant"
+      ]
+    },
+    {
+      "id": "complex-adaptive-systems-and-cellular-automata",
+      "title": "Complex Adaptive Systems & Cellular Automata",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Complex adaptive systems exist at the Edge of Chaos—a delicate boundary between rigid crystalline order and turbulent entropy—where elementary local computational rules generate Turing-complete universal computation, self-reproduction, and open-ended evolution.",
+      "path": "knowledge-tree/branches/complex-adaptive-systems-and-cellular-automata.md",
+      "wordCount": 304,
+      "readTime": "2 min read",
+      "connections": [
+        "emergence-invariants-and-local-rule-networks",
+        "quantum-unitarity-and-information-conservation",
+        "decentralized-superorganisms-and-swarm-intelligence",
+        "three-super-cycles-energy-manufacturing-ai",
+        "kurzgesagt-emergence-how-stupid-things-become-smart"
       ]
     },
     {
@@ -235,6 +254,27 @@
         "ecological-engineering-biocatalytic-cascades-and-irreversibility",
         "emergence-reductionism-and-informational-biology",
         "crispr-cas9-gene-drives-and-vector-parasitology",
+        "definition-of-life-and-artificial-life"
+      ]
+    },
+    {
+      "id": "kurzgesagt-emergence-how-stupid-things-become-smart",
+      "title": "Emergence — Kurzgesagt (How Stupid Things Become Smart Together)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Individual components in nature—whether water molecules, cardiomyocytes, foraging ants, or human neurons—possess neither global foresight nor central leadership. Yet, governed by elementary local interaction rules, their collective assembly generates liquid fluidity, rhythmic heartbeats, superorganism agriculture, and conscious intelligence.",
+      "path": "knowledge-tree/leaves/kurzgesagt-emergence-how-stupid-things-become-smart.md",
+      "wordCount": 422,
+      "readTime": "3 min read",
+      "connections": [
+        "emergence-invariants-and-local-rule-networks",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "holobiont-theory-and-symbiogenesis-invariants",
+        "decentralized-superorganisms-and-swarm-intelligence",
+        "emergence-reductionism-and-informational-biology",
+        "complex-adaptive-systems-and-cellular-automata",
         "definition-of-life-and-artificial-life"
       ]
     },
@@ -470,6 +510,24 @@
       ]
     },
     {
+      "id": "emergence-invariants-and-local-rule-networks",
+      "title": "Emergence Invariants, Stigmergy & Local Rule Networks",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Evolutionary & Cellular Biology",
+      "summary": "Macroscopic intelligence, self-organization, and novel physical properties are not programmed top-down; they emerge spontaneously from the non-linear local interactions of simple agents following decentralized behavioral heuristics (\"More is Different\").",
+      "path": "knowledge-tree/roots/emergence-invariants-and-local-rule-networks.md",
+      "wordCount": 287,
+      "readTime": "2 min read",
+      "connections": [
+        "emergence-reductionism-and-informational-biology",
+        "decentralized-superorganisms-and-swarm-intelligence",
+        "complex-adaptive-systems-and-cellular-automata",
+        "kurzgesagt-emergence-how-stupid-things-become-smart"
+      ]
+    },
+    {
       "id": "holobiont-theory-and-symbiogenesis-invariants",
       "title": "Holobiont Theory, Symbiogenesis & The Human Metagenome",
       "tier": "roots",
@@ -608,6 +666,24 @@
         "atomic-hypothesis-quantum-fields-scale",
         "holographic-principle-and-quantum-gravity",
         "kurzgesagt-black-hole-information-paradox"
+      ]
+    },
+    {
+      "id": "decentralized-superorganisms-and-swarm-intelligence",
+      "title": "Decentralized Superorganisms, Phase Synchronization & Swarm Intelligence",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Evolutionary & Cellular Biology",
+      "summary": "High-order systemic optimization, resilient division of labor, and collective survival do not require a central command executive. Decentralized networks achieve dynamic equilibrium through stigmergy, local threshold response, and phase-locking synchronization.",
+      "path": "knowledge-tree/trunk/decentralized-superorganisms-and-swarm-intelligence.md",
+      "wordCount": 298,
+      "readTime": "2 min read",
+      "connections": [
+        "emergence-invariants-and-local-rule-networks",
+        "holobiont-theory-and-symbiogenesis-invariants",
+        "complex-adaptive-systems-and-cellular-automata",
+        "kurzgesagt-emergence-how-stupid-things-become-smart"
       ]
     },
     {
