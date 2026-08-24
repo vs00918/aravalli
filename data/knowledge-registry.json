@@ -2,14 +2,14 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 33,
+    "totalNodes": 37,
     "domains": [
       "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Evolutionary & Cellular Biology",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:11:08.057Z"
+    "lastUpdated": "2026-08-24T18:12:31.102Z"
   },
   "nodes": [
     {
@@ -141,6 +141,25 @@
       ]
     },
     {
+      "id": "holographic-principle-and-quantum-gravity",
+      "title": "The Holographic Principle, AdS/CFT Duality & Quantum Gravity",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "The three-dimensional bulk physics of a gravitational spacetime (including black holes and possibly our observable universe) can be fully encoded without loss of information on its two-dimensional spatial boundary—establishing that quantum entanglement is the fundamental constituent generating the emergent geometry of spacetime.",
+      "path": "knowledge-tree/branches/holographic-principle-and-quantum-gravity.md",
+      "wordCount": 315,
+      "readTime": "2 min read",
+      "connections": [
+        "quantum-unitarity-and-information-conservation",
+        "atomic-hypothesis-quantum-fields-scale",
+        "black-hole-information-paradox-and-bekenstein-entropy",
+        "emergence-reductionism-and-informational-biology",
+        "kurzgesagt-black-hole-information-paradox"
+      ]
+    },
+    {
       "id": "standard-model-and-particle-physics-taxonomy",
       "title": "Standard Model of Particle Physics: The Taxonomy of Fundamental Matter",
       "tier": "branches",
@@ -156,6 +175,27 @@
         "electrochemical-energy-storage-axioms",
         "degenerate-matter-and-extreme-cosmic-density",
         "kurzgesagt-quantum-atomic-scale-feynman"
+      ]
+    },
+    {
+      "id": "kurzgesagt-black-hole-information-paradox",
+      "title": "Why Black Holes Could Delete The Universe — Kurzgesagt (The Information Paradox)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Information—the distinct quantum arrangement of matter that differentiates a diamond from a lump of coal—is mathematically indestructible under quantum unitarity. Black holes threaten this fundamental law through Hawking evaporation. The resolution—the Holographic Principle—reveals that black holes store infalling matter as 2D boundary pixels at the Planck scale, implying that our 3D cosmos may itself be a holographic projection.",
+      "path": "knowledge-tree/leaves/kurzgesagt-black-hole-information-paradox.md",
+      "wordCount": 458,
+      "readTime": "3 min read",
+      "connections": [
+        "quantum-unitarity-and-information-conservation",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "atomic-hypothesis-quantum-fields-scale",
+        "black-hole-information-paradox-and-bekenstein-entropy",
+        "emergence-reductionism-and-informational-biology",
+        "holographic-principle-and-quantum-gravity",
+        "standard-model-and-particle-physics-taxonomy"
       ]
     },
     {
@@ -408,6 +448,24 @@
       ]
     },
     {
+      "id": "quantum-unitarity-and-information-conservation",
+      "title": "Quantum Unitarity & Information Conservation Invariants",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "In quantum mechanics, physical information is strictly non-destructible. All closed quantum systems evolve via a unitary time-evolution operator ($U^\\dagger U = I$), guaranteeing that pure quantum states evolve exclusively into pure states, total probability is conserved ($\\sum P_i = 1$), and the complete history of any system is theoretically reconstructible from its wave function.",
+      "path": "knowledge-tree/roots/quantum-unitarity-and-information-conservation.md",
+      "wordCount": 312,
+      "readTime": "2 min read",
+      "connections": [
+        "black-hole-information-paradox-and-bekenstein-entropy",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "holographic-principle-and-quantum-gravity",
+        "kurzgesagt-black-hole-information-paradox"
+      ]
+    },
+    {
       "id": "signal-detection-theory-and-haystack-fallacy",
       "title": "Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant",
       "tier": "roots",
@@ -473,6 +531,25 @@
         "electrochemical-energy-storage-axioms",
         "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
         "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
+    },
+    {
+      "id": "black-hole-information-paradox-and-bekenstein-entropy",
+      "title": "The Black Hole Information Paradox & Bekenstein-Hawking Entropy",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Black holes are not infinitely dense bottomless pits, but the ultimate maximum-entropy information storage drives in the cosmos. Their maximum information capacity scales strictly with the surface area of the event horizon ($S_{BH} \\propto A$) rather than their interior volume, with exactly one bit of quantum information encoded per four Planck areas ($4\\ell_P^2$).",
+      "path": "knowledge-tree/trunk/black-hole-information-paradox-and-bekenstein-entropy.md",
+      "wordCount": 348,
+      "readTime": "2 min read",
+      "connections": [
+        "quantum-unitarity-and-information-conservation",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "atomic-hypothesis-quantum-fields-scale",
+        "holographic-principle-and-quantum-gravity",
+        "kurzgesagt-black-hole-information-paradox"
       ]
     },
     {

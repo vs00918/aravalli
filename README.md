@@ -20,6 +20,7 @@ graph TD
     Roots --> R6["Demographic Transition & Logistic Population Dynamics"]
     Roots --> R7["Agricultural Energetics & Land Sparing Invariants"]
     Roots --> R8["Square-Cube Law & Allometric Scaling Invariants"]
+    Roots --> R9["Quantum Unitarity & Information Conservation"]
 
     %% Trunk
     Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
@@ -31,6 +32,7 @@ graph TD
     Trunk --> T7["Demographic Momentum & Fertility Collapse"]
     Trunk --> T8["Selective Toxicity & The Appeal-to-Nature Fallacy"]
     Trunk --> T9["Physical Regimes Across Scales: Viscosity to Gravity"]
+    Trunk --> T10["Black Hole Information Paradox & Bekenstein Entropy"]
 
     %% Branches
     Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
@@ -41,6 +43,7 @@ graph TD
     Branches --> B6["Development Economics & Peak Humanity Dynamics"]
     Branches --> B7["Crop Bioengineering & Synthetic Biofortification"]
     Branches --> B8["Allometric Biomechanics: Reynolds Numbers & Plastrons"]
+    Branches --> B9["The Holographic Principle & Quantum Gravity"]
 
     %% Leaves
     Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
@@ -51,6 +54,7 @@ graph TD
     Leaves --> L6["Overpopulation: The Human Explosion — Kurzgesagt & Roser"]
     Leaves --> L7["Are GMOs Good or Bad? — Kurzgesagt & Food Genetics"]
     Leaves --> L8["What Happens If We Throw an Elephant? — Kurzgesagt & Haldane"]
+    Leaves --> L9["Why Black Holes Delete the Universe — Kurzgesagt & Hawking"]
 
     %% Cross-Tier Connections
     R1 --> T1
@@ -61,6 +65,7 @@ graph TD
     R6 --> T7
     R7 --> T8
     R8 --> T9
+    R9 --> T10
     T1 --> B1
     T3 --> B2
     T4 --> B3
@@ -69,6 +74,7 @@ graph TD
     T7 --> B6
     T8 --> B7
     T9 --> B8
+    T10 --> B9
     B1 --> L1
     B2 --> L2
     B3 --> L3
@@ -77,6 +83,7 @@ graph TD
     B6 --> L6
     B7 --> L7
     B8 --> L8
+    B9 --> L9
     T2 --> L1
 ```
 
@@ -93,6 +100,7 @@ graph TD
 * [**Demographic Transition Invariants & Logistic Population Dynamics**](./knowledge-tree/roots/demographic-transition-and-logistic-population-dynamics.md) — Verhulst logistic population curve, dynamic carrying capacity, and endogenous convergence to replacement fertility ($TFR \approx 2.1$).
 * [**Agricultural Energetics & The Land-Sparing Invariant**](./knowledge-tree/roots/agricultural-energetics-and-land-sparing-invariants.md) — Photosynthetic conversion limits, Haber-Bosch nitrogen bottlenecks, and the Land-Sparing vs. Land-Sharing ecological paradigm.
 * [**The Square-Cube Law & Allometric Dimensional Scaling**](./knowledge-tree/roots/square-cube-law-and-dimensional-scaling-invariants.md) — The Square-Cube Law ($\frac{A}{V} \propto \frac{1}{L}$), impact stress scaling ($\sigma \propto L^2$), and the mathematical transition of physical forces across scales.
+* [**Quantum Unitarity & Information Conservation Invariants**](./knowledge-tree/roots/quantum-unitarity-and-information-conservation.md) — Unitary time-evolution ($U^\dagger U = I$), pure vs. mixed quantum states ($\text{Tr}(\rho^2)=1$), and the strict physical conservation of quantum information.
 
 ### 2. 🪵 Trunk (Core Mental Models & Systems)
 * [**The Battery Quadrilemma & Thermal Runaway Dynamics**](./knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md) — 4-way optimization trade-off space and positive-feedback exothermic chain reaction mechanics.
@@ -104,8 +112,9 @@ graph TD
 * [**Demographic Momentum, Fertility Collapse & The 4-Stage Transition Model**](./knowledge-tree/trunk/demographic-momentum-and-fertility-transition.md) — Demographic Momentum lag dynamics, the 4 stages of the Demographic Transition Model (DTM), and the Beckerian human capital shift.
 * [**Selective Toxicity Invariants & The "Appeal to Nature" Fallacy**](./knowledge-tree/trunk/selective-toxicity-and-appeal-to-nature-fallacy.md) — Receptor-specific toxicity (Bt Cry proteins vs. caffeine vs. theobromine), and dismantling the "natural equals safe" bias.
 * [**Physical Regimes Across Scales: From Viscous Air to Gravitational Rupture**](./knowledge-tree/trunk/physical-regimes-across-scales-viscosity-to-gravity.md) — The 7-order scale continuum: from micro-wasp Stokes flow viscosity ($Re \ll 1$) to insect surface tension traps and elephant gravitational rupture.
+* [**The Black Hole Information Paradox & Bekenstein-Hawking Entropy**](./knowledge-tree/trunk/black-hole-information-paradox-and-bekenstein-entropy.md) — The Relativity vs. Quantum Mechanics crisis, Hawking evaporation, and Bekenstein-Hawking horizon surface area entropy scaling ($S_{BH} \propto \frac{A}{4\ell_P^2}$).
 
-### 3. 🌿 Branches (Disciplines & Applied Physics/Biomechanics Paradigms)
+### 3. 🌿 Branches (Disciplines & Applied Physics/Quantum Gravity Paradigms)
 * [**Comparative Battery Chemistries Matrix**](./knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md) — Direct benchmark: LFP vs. Sodium-Ion ($\text{Na-ion}$) vs. Nickel-Hydrogen ($\text{Ni-H}_2$) vs. Solid-State (TRL 4).
 * [**Epistemology of Life: Definitions & Artificial Silicon Life**](./knowledge-tree/branches/definition-of-life-and-artificial-life.md) — Astrobiology, NASA/Thermodynamic/Cybernetic operational definitions, substrate neutrality, and artificial silicon life.
 * [**Standard Model of Particle Physics: The Taxonomy of Fundamental Matter**](./knowledge-tree/branches/standard-model-and-particle-physics-taxonomy.md) — Taxonomy of matter: Quarks, Leptons, Gauge Bosons (Gluons, Photons, W/Z), Higgs mechanism, and the 4 Fundamental Forces.
@@ -114,6 +123,7 @@ graph TD
 * [**Development Economics: TFR Compression, Leapfrogging & Peak Humanity**](./knowledge-tree/branches/development-economics-tfr-and-peak-humanity.md) — TFR leapfrogging trajectories (UK vs. Bangladesh vs. Iran), human intelligence density, and the 12th billion human invariant.
 * [**Crop Bioengineering: Bt Endotoxins, Viral Immunization & Biofortification**](./knowledge-tree/branches/crop-bioengineering-bt-endotoxins-and-biofortification.md) — Applied agricultural transgenics: Bt Brinjal, Hawaiian Rainbow Papaya, Golden Rice, and climate-resilient Sub1 rice.
 * [**Allometric Biomechanics: Reynolds Numbers, Surface Tension & Plastron Respiration**](./knowledge-tree/branches/allometric-biomechanics-reynolds-numbers-plastrons.md) — Fluid mechanics scaling: Reynolds numbers, fairyfly comb flight, superhydrophobic micro-hair meshes, and continuous plastron gills.
+* [**The Holographic Principle, AdS/CFT Duality & Quantum Gravity**](./knowledge-tree/branches/holographic-principle-and-quantum-gravity.md) — Maldacena AdS/CFT duality (3D Bulk Gravity $\leftrightarrow$ 2D Boundary CFT), the Page curve, and spacetime geometry as emergent quantum entanglement.
 
 ### 4. 🍃 Leaves (Podcasts, Essays & Empirical Crucibles)
 * [**Podcast: WTF are Batteries?**](./knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md) — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) hosted by Nikhil Kamath.
@@ -124,6 +134,7 @@ graph TD
 * [**Visual Essay: Overpopulation — The Human Explosion Explained**](./knowledge-tree/leaves/kurzgesagt-overpopulation-demographic-transition.md) — Kurzgesagt & Roser: The 4 stages of the DTM, compressed leapfrogging, and the 12th billion human barrier.
 * [**Visual Essay: Are GMOs Good or Bad? — Genetic Engineering & Our Food**](./knowledge-tree/leaves/kurzgesagt-gmo-food-genetic-engineering.md) — Kurzgesagt & Food Genetics: 30-year safety consensus, selective toxicity, and Land Sparing vs. Extensification.
 * [**Visual Essay: What Happens If We Throw an Elephant From a Skyscraper?**](./knowledge-tree/leaves/kurzgesagt-size-square-cube-law-elephant.md) — Kurzgesagt & Haldane: The Skyscraper fall thought experiment, surface tension adhesive traps, and Haldane's scaling law.
+* [**Visual Essay: Why Black Holes Could Delete The Universe**](./knowledge-tree/leaves/kurzgesagt-black-hole-information-paradox.md) — Kurzgesagt & Hawking: Quantum unitarity, Hawking radiation, and the 2D Holographic Principle.
 
 ---
 
