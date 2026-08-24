@@ -2,15 +2,34 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 13,
+    "totalNodes": 17,
     "domains": [
       "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:04:04.558Z"
+    "lastUpdated": "2026-08-24T18:05:37.199Z"
   },
   "nodes": [
+    {
+      "id": "cryptographic-asymmetry-and-systemic-backdoors",
+      "title": "Cryptographic Asymmetry & The Backdoor Fallacy",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "In pure mathematics and computer science, there is no such concept as a \"golden key\" or a \"law-enforcement-only backdoor.\" Weakening the cryptographic architecture of consumer hardware or communication protocols introduces an intrinsic vulnerability that is mathematically accessible to all adversaries.",
+      "path": "knowledge-tree/branches/cryptographic-asymmetry-and-systemic-backdoors.md",
+      "wordCount": 322,
+      "readTime": "2 min read",
+      "connections": [
+        "signal-detection-theory-and-haystack-fallacy",
+        "atomic-hypothesis-quantum-fields-scale",
+        "surveillance-function-creep-and-ratchet-effect",
+        "three-super-cycles-energy-manufacturing-ai",
+        "kurzgesagt-surveillance-terrorism-civil-liberties"
+      ]
+    },
     {
       "id": "definition-of-life-and-artificial-life",
       "title": "Epistemology of Life: Carbon Chauvinism, Definitions & Artificial Life",
@@ -106,6 +125,26 @@
       ]
     },
     {
+      "id": "kurzgesagt-surveillance-terrorism-civil-liberties",
+      "title": "Safe and Sorry — Kurzgesagt (Terrorism, Mass Surveillance & Civil Liberties)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Mass surveillance operates on a flawed mathematical premise: collecting more data from innocent citizens drowns intelligence analysts in false positives while failing to stop rare catastrophic attacks. Sacrificing fundamental privacy rights under the banner of security erodes democratic institutions without increasing physical safety.",
+      "path": "knowledge-tree/leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md",
+      "wordCount": 466,
+      "readTime": "3 min read",
+      "connections": [
+        "signal-detection-theory-and-haystack-fallacy",
+        "atomic-hypothesis-quantum-fields-scale",
+        "surveillance-function-creep-and-ratchet-effect",
+        "three-super-cycles-energy-manufacturing-ai",
+        "cryptographic-asymmetry-and-systemic-backdoors",
+        "definition-of-life-and-artificial-life"
+      ]
+    },
+    {
       "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
       "title": "WTF are Batteries? — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) with Nikhil Kamath",
       "tier": "leaves",
@@ -155,6 +194,23 @@
         "battery-tradeoff-trilemma-and-thermal-runaway",
         "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
         "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
+    },
+    {
+      "id": "signal-detection-theory-and-haystack-fallacy",
+      "title": "Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "In rare-event detection, indiscriminately expanding the data ingestion volume (adding more \"hay\") without increasing the diagnostic specificity of the sensor exponentially increases false positives, paralyzing investigative processing capacity.",
+      "path": "knowledge-tree/roots/signal-detection-theory-and-haystack-fallacy.md",
+      "wordCount": 325,
+      "readTime": "2 min read",
+      "connections": [
+        "surveillance-function-creep-and-ratchet-effect",
+        "cryptographic-asymmetry-and-systemic-backdoors",
+        "kurzgesagt-surveillance-terrorism-civil-liberties"
       ]
     },
     {
@@ -225,6 +281,23 @@
         "electrochemical-energy-storage-axioms",
         "definition-of-life-and-artificial-life",
         "kurzgesagt-schrodinger-what-is-life-death"
+      ]
+    },
+    {
+      "id": "surveillance-function-creep-and-ratchet-effect",
+      "title": "Surveillance Function Creep, The Ratchet Effect & The \"Nothing to Hide\" Fallacy",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "Extraordinary emergency surveillance powers granted to state or corporate actors during crises are subject to the Institutional Ratchet Effect: they never revert to baseline; instead, they experience Function Creep, expanding from rare external threats into routine domestic policing and social control.",
+      "path": "knowledge-tree/trunk/surveillance-function-creep-and-ratchet-effect.md",
+      "wordCount": 373,
+      "readTime": "2 min read",
+      "connections": [
+        "signal-detection-theory-and-haystack-fallacy",
+        "cryptographic-asymmetry-and-systemic-backdoors",
+        "kurzgesagt-surveillance-terrorism-civil-liberties"
       ]
     },
     {
