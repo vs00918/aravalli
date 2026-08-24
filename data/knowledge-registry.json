@@ -2,16 +2,34 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 29,
+    "totalNodes": 33,
     "domains": [
+      "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Evolutionary & Cellular Biology",
-      "Energy Systems & Electrification",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:09:50.008Z"
+    "lastUpdated": "2026-08-24T18:11:08.057Z"
   },
   "nodes": [
+    {
+      "id": "allometric-biomechanics-reynolds-numbers-plastrons",
+      "title": "Allometric Biomechanics: Reynolds Numbers, Surface Tension & Plastron Respiration",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Biological evolution engineered functional nanotechnology—superhydrophobic hairs, micro-grooved hydrophobic tarsal claws, and bristled rowing wings—hundreds of millions of years before human physics formulated the Navier-Stokes equations and fluid mechanics.",
+      "path": "knowledge-tree/branches/allometric-biomechanics-reynolds-numbers-plastrons.md",
+      "wordCount": 317,
+      "readTime": "2 min read",
+      "connections": [
+        "square-cube-law-and-dimensional-scaling-invariants",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "physical-regimes-across-scales-viscosity-to-gravity",
+        "kurzgesagt-size-square-cube-law-elephant"
+      ]
+    },
     {
       "id": "crispr-cas9-gene-drives-and-vector-parasitology",
       "title": "CRISPR-Cas9 Gene Drives & Vector-Borne Parasitology",
@@ -244,6 +262,27 @@
       ]
     },
     {
+      "id": "kurzgesagt-size-square-cube-law-elephant",
+      "title": "What Happens If We Throw an Elephant From a Skyscraper? — Kurzgesagt (Life & Size 1)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Energy Systems & Electrification",
+      "summary": "Physical size is the supreme architect of biological morphology and ecological experience. Because surface area scales quadratically ($L^2$) while mass scales cubically ($L^3$), a falling mouse walks away unscathed, a dog is broken, and an elephant detonates on impact—demonstrating that gravity, surface tension, and viscosity operate in completely separate regimes across the seven orders of magnitude of life.",
+      "path": "knowledge-tree/leaves/kurzgesagt-size-square-cube-law-elephant.md",
+      "wordCount": 517,
+      "readTime": "3 min read",
+      "connections": [
+        "square-cube-law-and-dimensional-scaling-invariants",
+        "electrochemical-energy-storage-axioms",
+        "atomic-hypothesis-quantum-fields-scale",
+        "physical-regimes-across-scales-viscosity-to-gravity",
+        "battery-tradeoff-trilemma-and-thermal-runaway",
+        "allometric-biomechanics-reynolds-numbers-plastrons",
+        "standard-model-and-particle-physics-taxonomy"
+      ]
+    },
+    {
       "id": "kurzgesagt-surveillance-terrorism-civil-liberties",
       "title": "Safe and Sorry — Kurzgesagt (Terrorism, Mass Surveillance & Civil Liberties)",
       "tier": "leaves",
@@ -386,6 +425,23 @@
       ]
     },
     {
+      "id": "square-cube-law-and-dimensional-scaling-invariants",
+      "title": "The Square-Cube Law & Allometric Dimensional Scaling",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Energy Systems & Electrification",
+      "summary": "When an organism or physical structure scales uniformly by a linear factor of $L$, its surface area scales quadratically ($A \\propto L^2$), while its volume and mass scale cubically ($V, M \\propto L^3$). Consequently, the surface-area-to-volume ratio decays inversely with size ($\\frac{A}{V} \\propto \\frac{1}{L}$), fundamentally altering the governing physical forces at each biological scale.",
+      "path": "knowledge-tree/roots/square-cube-law-and-dimensional-scaling-invariants.md",
+      "wordCount": 345,
+      "readTime": "2 min read",
+      "connections": [
+        "physical-regimes-across-scales-viscosity-to-gravity",
+        "allometric-biomechanics-reynolds-numbers-plastrons",
+        "kurzgesagt-size-square-cube-law-elephant"
+      ]
+    },
+    {
       "id": "thermodynamics-entropy-and-schrodinger-negentropy",
       "title": "Thermodynamic Entropy & Schrödinger's Negentropy — The Physics of Life",
       "tier": "roots",
@@ -489,6 +545,24 @@
         "electrochemical-energy-storage-axioms",
         "definition-of-life-and-artificial-life",
         "kurzgesagt-schrodinger-what-is-life-death"
+      ]
+    },
+    {
+      "id": "physical-regimes-across-scales-viscosity-to-gravity",
+      "title": "Physical Regimes Across Scales: From Viscous Air to Gravitational Rupture",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Macro-Economics & AI Infrastructure",
+      "summary": "There is no universal \"objective\" physical reality experienced identically by all organisms. Life spans seven orders of magnitude ($10^{-6}\\text{ m} \\to 10^1\\text{ m}$), and each scale is dominated by entirely different governing forces: Viscosity at the micro-scale, Surface Tension at the meso-scale, and Inertial Gravity at the macro-scale.",
+      "path": "knowledge-tree/trunk/physical-regimes-across-scales-viscosity-to-gravity.md",
+      "wordCount": 399,
+      "readTime": "2 min read",
+      "connections": [
+        "square-cube-law-and-dimensional-scaling-invariants",
+        "atomic-hypothesis-quantum-fields-scale",
+        "allometric-biomechanics-reynolds-numbers-plastrons",
+        "kurzgesagt-size-square-cube-law-elephant"
       ]
     },
     {
