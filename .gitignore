@@ -1,0 +1,19 @@
+# Antigravity Scratch and Temp directories
+scratch/
+.system_generated/
+*.log
+*.tmp
+.env
+.env.*
+*.json3
+*.xml
+
+# Node
+node_modules/
+package-lock.json
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
