@@ -2,14 +2,14 @@
   "meta": {
     "title": "Mind of Aravalli",
     "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 37,
+    "totalNodes": 41,
     "domains": [
       "Energy Systems & Electrification",
       "Macro-Economics & AI Infrastructure",
       "Evolutionary & Cellular Biology",
       "Physics & Thermodynamics of Life"
     ],
-    "lastUpdated": "2026-08-24T18:12:31.102Z"
+    "lastUpdated": "2026-08-24T18:13:44.379Z"
   },
   "nodes": [
     {
@@ -160,6 +160,25 @@
       ]
     },
     {
+      "id": "microbial-ecology-dysbiosis-and-fecal-transplants",
+      "title": "Microbial Ecology: Dysbiosis, C. Difficile & Fecal Microbiota Transplants (FMT)",
+      "tier": "branches",
+      "tierLabel": "Branches: Taxonomies",
+      "icon": "🌿",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "The human gut is a competitive climax ecological community. When broad-spectrum antibiotic intervention annihilates commensal diversity, opportunistic pathobionts fill the niche. Restoring ecological diversity via Fecal Microbiota Transplantation (FMT) achieves clinical remission rates exceeding $>90\\%$, outperforming single-molecule pharmaceuticals.",
+      "path": "knowledge-tree/branches/microbial-ecology-dysbiosis-and-fecal-transplants.md",
+      "wordCount": 290,
+      "readTime": "2 min read",
+      "connections": [
+        "holobiont-theory-and-symbiogenesis-invariants",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "gut-brain-axis-neurochemistry-and-feedback-cravings",
+        "emergence-reductionism-and-informational-biology",
+        "kurzgesagt-microbiome-gut-brain-axis"
+      ]
+    },
+    {
       "id": "standard-model-and-particle-physics-taxonomy",
       "title": "Standard Model of Particle Physics: The Taxonomy of Fundamental Matter",
       "tier": "branches",
@@ -238,6 +257,27 @@
         "ecological-engineering-biocatalytic-cascades-and-irreversibility",
         "crop-bioengineering-bt-endotoxins-and-biofortification",
         "development-economics-tfr-and-peak-humanity"
+      ]
+    },
+    {
+      "id": "kurzgesagt-microbiome-gut-brain-axis",
+      "title": "How Bacteria Rule Over Your Body — Kurzgesagt (The Microbiome)",
+      "tier": "leaves",
+      "tierLabel": "Leaves: Lived Experience",
+      "icon": "🍃",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "The human body is a multi-species commonwealth inhabited by over 38 trillion bacterial symbionts. The microbiome governs immune education, synthesizes $90\\%$ of bodily serotonin, communicates directly with the brain via the vagus nerve, and drives dietary craving feedback loops—demonstrating that mental health, metabolic vitality, and immune integrity are emergent properties of internal microbial ecology.",
+      "path": "knowledge-tree/leaves/kurzgesagt-microbiome-gut-brain-axis.md",
+      "wordCount": 466,
+      "readTime": "3 min read",
+      "connections": [
+        "holobiont-theory-and-symbiogenesis-invariants",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "emergence-reductionism-and-informational-biology",
+        "gut-brain-axis-neurochemistry-and-feedback-cravings",
+        "selective-toxicity-and-appeal-to-nature-fallacy",
+        "microbial-ecology-dysbiosis-and-fecal-transplants",
+        "definition-of-life-and-artificial-life"
       ]
     },
     {
@@ -427,6 +467,24 @@
         "battery-tradeoff-trilemma-and-thermal-runaway",
         "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
         "podcast-enervenue-hina-nikhil-kamath-batteries"
+      ]
+    },
+    {
+      "id": "holobiont-theory-and-symbiogenesis-invariants",
+      "title": "Holobiont Theory, Symbiogenesis & The Human Metagenome",
+      "tier": "roots",
+      "tierLabel": "Roots: First Principles",
+      "icon": "🌱",
+      "domain": "Evolutionary & Cellular Biology",
+      "summary": "A multicellular organism is not an autonomous genetic individual, but a Holobiont—an integrated meta-organism composed of a macroscopic eukaryotic host and trillions of symbiotic, co-evolved microscopic organisms ($>3.8 \\times 10^{13}$ bacteria). Over $99\\%$ of the distinct functional genetic repertoire expressed within a human body is encoded by its microbial symbionts.",
+      "path": "knowledge-tree/roots/holobiont-theory-and-symbiogenesis-invariants.md",
+      "wordCount": 278,
+      "readTime": "2 min read",
+      "connections": [
+        "gut-brain-axis-neurochemistry-and-feedback-cravings",
+        "emergence-reductionism-and-informational-biology",
+        "microbial-ecology-dysbiosis-and-fecal-transplants",
+        "kurzgesagt-microbiome-gut-brain-axis"
       ]
     },
     {
@@ -622,6 +680,24 @@
         "electrochemical-energy-storage-axioms",
         "definition-of-life-and-artificial-life",
         "kurzgesagt-schrodinger-what-is-life-death"
+      ]
+    },
+    {
+      "id": "gut-brain-axis-neurochemistry-and-feedback-cravings",
+      "title": "The Gut-Brain Axis, Enteric Neurochemistry & Feedback Craving Loops",
+      "tier": "trunk",
+      "tierLabel": "Trunk: Mental Models",
+      "icon": "🪵",
+      "domain": "Physics & Thermodynamics of Life",
+      "summary": "Human cognitive, emotional, and dietary preferences are not generated in neurological isolation. The Enteric Nervous System (ENS) and gut microbiome communicate with the Central Nervous System via the Vagus Nerve and systemic metabolite circulation, producing over $90\\%$ of bodily serotonin and executing self-reinforcing behavioral feedback loops.",
+      "path": "knowledge-tree/trunk/gut-brain-axis-neurochemistry-and-feedback-cravings.md",
+      "wordCount": 306,
+      "readTime": "2 min read",
+      "connections": [
+        "holobiont-theory-and-symbiogenesis-invariants",
+        "thermodynamics-entropy-and-schrodinger-negentropy",
+        "microbial-ecology-dysbiosis-and-fecal-transplants",
+        "kurzgesagt-microbiome-gut-brain-axis"
       ]
     },
     {

@@ -17,6 +17,7 @@ graph TD
     Roots --> R7["Agricultural Energetics & Land Sparing Invariants"]
     Roots --> R8["Square-Cube Law & Allometric Scaling Invariants"]
     Roots --> R9["Quantum Unitarity & Information Conservation"]
+    Roots --> R10["Holobiont Theory & Symbiogenesis Invariants"]
 
     %% Trunk
     Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
@@ -29,6 +30,7 @@ graph TD
     Trunk --> T8["Selective Toxicity & The Appeal-to-Nature Fallacy"]
     Trunk --> T9["Physical Regimes Across Scales: Viscosity to Gravity"]
     Trunk --> T10["Black Hole Information Paradox & Bekenstein Entropy"]
+    Trunk --> T11["Gut-Brain Axis & Enteric Neurochemistry"]
 
     %% Branches
     Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
@@ -40,6 +42,7 @@ graph TD
     Branches --> B7["Crop Bioengineering & Synthetic Biofortification"]
     Branches --> B8["Allometric Biomechanics: Reynolds Numbers & Plastrons"]
     Branches --> B9["The Holographic Principle & Quantum Gravity"]
+    Branches --> B10["Microbial Ecology, Dysbiosis & FMT Therapeutics"]
 
     %% Leaves
     Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
@@ -51,6 +54,7 @@ graph TD
     Leaves --> L7["Are GMOs Good or Bad? — Kurzgesagt & Food Genetics"]
     Leaves --> L8["What Happens If We Throw an Elephant? — Kurzgesagt & Haldane"]
     Leaves --> L9["Why Black Holes Delete the Universe — Kurzgesagt & Hawking"]
+    Leaves --> L10["How Bacteria Rule Your Body — Kurzgesagt & Microbiome"]
 
     %% Cross-Tier Connections
     R1 --> T1
@@ -62,6 +66,7 @@ graph TD
     R7 --> T8
     R8 --> T9
     R9 --> T10
+    R10 --> T11
     T1 --> B1
     T3 --> B2
     T4 --> B3
@@ -71,6 +76,7 @@ graph TD
     T8 --> B7
     T9 --> B8
     T10 --> B9
+    T11 --> B10
     B1 --> L1
     B2 --> L2
     B3 --> L3
@@ -80,6 +86,7 @@ graph TD
     B7 --> L7
     B8 --> L8
     B9 --> L9
+    B10 --> L10
     T2 --> L1
 ```
 
@@ -106,6 +113,8 @@ graph TD
   *The Square-Cube Law ($\frac{A}{V} \propto \frac{1}{L}$), impact stress scaling ($\sigma \propto L^2$), and the mathematical transition of physical forces across scales.*
 * [**`roots/quantum-unitarity-and-information-conservation.md`**](./roots/quantum-unitarity-and-information-conservation.md)  
   *Unitary time-evolution ($U^\dagger U = I$), pure vs. mixed quantum states ($\text{Tr}(\rho^2)=1$), and the strict physical conservation of quantum information.*
+* [**`roots/holobiont-theory-and-symbiogenesis-invariants.md`**](./roots/holobiont-theory-and-symbiogenesis-invariants.md)  
+  *The Holobiont Superorganism, metagenomic dominance ($>2,000,000$ microbial genes), and evolutionary neonatal inoculation.*
 
 ---
 
@@ -130,10 +139,12 @@ graph TD
   *The 7-order scale continuum: from micro-wasp Stokes flow viscosity ($Re \ll 1$) to insect surface tension traps and elephant gravitational rupture.*
 * [**`trunk/black-hole-information-paradox-and-bekenstein-entropy.md`**](./trunk/black-hole-information-paradox-and-bekenstein-entropy.md)  
   *The Relativity vs. Quantum Mechanics crisis, Hawking evaporation, and Bekenstein-Hawking horizon surface area entropy scaling ($S_{BH} \propto \frac{A}{4\ell_P^2}$).*
+* [**`trunk/gut-brain-axis-neurochemistry-and-feedback-cravings.md`**](./trunk/gut-brain-axis-neurochemistry-and-feedback-cravings.md)  
+  *The Vagus nerve highway, 90% peripheral serotonin synthesis, and self-reinforcing dietary craving feedback loops.*
 
 ---
 
-### 3. 🌿 Branches (Disciplines & Applied Physics/Quantum Gravity Paradigms)
+### 3. 🌿 Branches (Disciplines & Chemistry/Physics/Biology/Gastroenterology Paradigms)
 * [**`branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md`**](./branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md)  
   *Comparative benchmark matrix: LFP vs. Sodium-Ion (HiNa) vs. Nickel-Hydrogen (EnerVenue) vs. Solid-State (TRL 4).*
 * [**`branches/definition-of-life-and-artificial-life.md`**](./branches/definition-of-life-and-artificial-life.md)  
@@ -152,6 +163,8 @@ graph TD
   *Fluid mechanics scaling: Reynolds numbers, fairyfly comb flight, superhydrophobic micro-hair meshes, and continuous plastron gills.*
 * [**`branches/holographic-principle-and-quantum-gravity.md`**](./branches/holographic-principle-and-quantum-gravity.md)  
   *Maldacena AdS/CFT duality (3D Bulk Gravity $\leftrightarrow$ 2D Boundary CFT), the Page curve, and spacetime geometry as emergent quantum entanglement.*
+* [**`branches/microbial-ecology-dysbiosis-and-fecal-transplants.md`**](./branches/microbial-ecology-dysbiosis-and-fecal-transplants.md)  
+  *The 3 symbiotic classes, antibiotic dysbiosis, and Fecal Microbiota Transplantation (FMT) clinical paradigms.*
 
 ---
 
@@ -174,3 +187,5 @@ graph TD
   *Deconstruction of Kurzgesagt's "Life & Size 1": The Skyscraper fall thought experiment, surface tension adhesive traps, and Haldane's scaling law.*
 * [**`leaves/kurzgesagt-black-hole-information-paradox.md`**](./leaves/kurzgesagt-black-hole-information-paradox.md)  
   *Deconstruction of Kurzgesagt's "Why Black Holes Delete the Universe": Quantum unitarity, Hawking radiation, and the 2D Holographic Principle.*
+* [**`leaves/kurzgesagt-microbiome-gut-brain-axis.md`**](./leaves/kurzgesagt-microbiome-gut-brain-axis.md)  
+  *Deconstruction of Kurzgesagt's "How Bacteria Rule Your Body": The Holobiont superorganism, vagal signalling, and FMT ecological therapy.*
