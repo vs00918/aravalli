@@ -129,7 +129,7 @@ function runPostDeployQaTests() {
 
     // Check August 2026, January 2026, February 2026, March 2026, April 2026, and May 2026 indexed sets
     const augTopics = registry.indexes.byYearMonth['2026-08'];
-    assert.strictEqual(augTopics.length, 67, 'August 2026 must index exact 67 topics');
+    assert.strictEqual(augTopics.length, 97, 'August 2026 must index exact 97 topics');
 
     const janTopics = registry.indexes.byYearMonth['2026-01'];
     assert.strictEqual(janTopics.length, 73, 'January 2026 must index exact 73 topics');
@@ -159,7 +159,7 @@ function runPostDeployQaTests() {
       ids.add(topic.id);
     }
 
-    assert.strictEqual(slugs.size, 445, 'Must have exactly 445 unique canonical topics');
+    assert.strictEqual(slugs.size, 475, 'Must have exactly 475 unique canonical topics');
   });
 
   // Test 9: Complete Category Taxonomy Normalization
@@ -181,7 +181,7 @@ function runPostDeployQaTests() {
   });
 
   // Test 10: Category Partitioning & Grouping Invariant
-  test('Category Partitioning & Grouping Invariant (All 445 Topics Accounted)', () => {
+  test('Category Partitioning & Grouping Invariant (All 475 Topics Accounted)', () => {
     let totalPartitioned = 0;
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
       const groupedMap = new Map<string, number>();
@@ -195,7 +195,7 @@ function runPostDeployQaTests() {
       }
     }
 
-    assert.strictEqual(totalPartitioned, 445, 'All 445 monthly indexed topics must be strictly accounted');
+    assert.strictEqual(totalPartitioned, 475, 'All 475 monthly indexed topics must be strictly accounted');
   });
 
   // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
@@ -204,9 +204,9 @@ function runPostDeployQaTests() {
     const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
     const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
 
-    assert.strictEqual(p1s.length, 27, 'Must have exactly 27 P1 topics (7 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
-    assert.strictEqual(p2s.length, 181, 'Must have exactly 181 P2 topics (31 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
-    assert.strictEqual(p3s.length, 237, 'Must have exactly 237 P3 topics (29 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
+    assert.strictEqual(p1s.length, 31, 'Must have exactly 31 P1 topics (11 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
+    assert.strictEqual(p2s.length, 205, 'Must have exactly 205 P2 topics (55 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
+    assert.strictEqual(p3s.length, 239, 'Must have exactly 239 P3 topics (31 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
     for (const p3 of p3s) {
