@@ -116,155 +116,6 @@
       ],
       "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**Must Memorize (Eligibility Thresholds)**\n* **Operating Track Record**: Minimum **10 years** of continuous operations.\n* **Deposit Base**: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).\n* **Net Worth**: Minimum **₹300 crore**.\n* **Capital Adequacy (CRAR)**: Minimum **12%**.\n* **Asset Quality (Net NPA)**: Maximum **3%**.\n* **Financial Trend**: Positive, progressive trend over the previous **5 years**.\n* **Initial Phase Scope**: Restricted to societies registered under the **Multi-State Cooperative Societies Act, 2002** with multi-state operations.\n* **Governance Norm**: Individual shareholding capped at **5%**.\n\n---"
     },
-    "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": {
-      "id": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
-      "slug": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
-      "title": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
-      "priority": "P1_CRITICAL_MEMORIZE",
-      "revisionMinutes": 7,
-      "primaryCategory": "BANKING_REGULATION",
-      "secondaryCategories": [],
-      "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
-      "verificationStatus": "SOURCE_ONLY",
-      "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Memorize | **Revision Effort:** ~7 min | **Category:** Banking Regulation & Basel III",
-        "**Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification",
-        "*What Happened**",
-        "The RBI deferred the mandatory implementation of the revised **Basel III Pillar 3 Market Discipline Disclosures** from September 30, 2026 to **April 1, 2027**.",
-        "Issued **10 amendment directions** revising instructions for Commercial Banks, Small Finance Banks (SFBs), and Payments Banks (PBs).",
-        "*Must Memorize**",
-        "Effective Implementation Date: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).",
-        "Core Alignment: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.",
-        "Reporting Architecture: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).",
-        "Board Mandate: Banks must maintain a formal disclosure policy approved directly by their Board of Directors."
-      ],
-      "knowUnderstandContext": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-08-01",
-      "lastUpdatedDate": "2026-08-15",
-      "chronologicalMonth": "2026-08",
-      "chronologicalWeek": "week-1-2",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "01-august-2026-cgb-part-1",
-          "publishedDate": "2026-08-15"
-        }
-      ],
-      "contentMarkdown": "### 3. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~7 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**What Happened**\n* The RBI deferred the mandatory implementation of the revised **Basel III Pillar 3 Market Discipline Disclosures** from September 30, 2026 to **April 1, 2027**.\n* Issued **10 amendment directions** revising instructions for Commercial Banks, Small Finance Banks (SFBs), and Payments Banks (PBs).\n\n**Must Memorize**\n* **Effective Implementation Date**: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).\n* **Core Alignment**: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.\n* **Reporting Architecture**: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).\n* **Board Mandate**: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.\n\n---"
-    },
-    "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip": {
-      "id": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
-      "slug": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
-      "title": "DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)'",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 8,
-      "primaryCategory": "INSURANCE_SECTOR",
-      "secondaryCategories": [],
-      "primaryInstitution": "IRDAI",
-      "regulatoryStatus": "IMPLEMENTED",
-      "verificationStatus": "SOURCE_ONLY",
-      "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Insurance & Trade Infrastructure",
-        "**Source:** Smartkeeda (Aug 2026) | **Issuer:** Department of Financial Services (MoF)",
-        "*What Happened & Key Facts**",
-        "DFS launched India’s 1st sovereign-backed **Protection & Indemnity (P&I)** insurance product under the **Bharat Maritime Insurance Pool (BMIP)**, designed by **The New India Assurance Company Limited**.",
-        "First Policy Issued: Handed over to the **Shipping Corporation of India (SCI) Limited**.",
-        "Indemnity Capacity: Up to **$1.5 billion** available through the combined underwriting capacity of the pool with a 24×7 global port correspondent network.",
-        "Strategic Objective: Established to ensure uninterrupted maritime war-risk insurance capacity during geopolitical conflicts and eliminate reliance on foreign P&I clubs (reduced war-risk premium rates by **35–40%**; 1,608 policies issued by July 2026)."
-      ],
-      "knowUnderstandContext": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-08-01",
-      "lastUpdatedDate": "2026-08-15",
-      "chronologicalMonth": "2026-08",
-      "chronologicalWeek": "week-1-2",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "01-august-2026-cgb-part-1",
-          "publishedDate": "2026-08-15"
-        }
-      ],
-      "contentMarkdown": "### 4. DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)'\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Insurance & Trade Infrastructure\n* **Source:** Smartkeeda (Aug 2026) | **Issuer:** Department of Financial Services (MoF)\n\n**What Happened & Key Facts**\n* DFS launched India’s 1st sovereign-backed **Protection & Indemnity (P&I)** insurance product under the **Bharat Maritime Insurance Pool (BMIP)**, designed by **The New India Assurance Company Limited**.\n* **First Policy Issued**: Handed over to the **Shipping Corporation of India (SCI) Limited**.\n* **Indemnity Capacity**: Up to **$1.5 billion** available through the combined underwriting capacity of the pool with a 24×7 global port correspondent network.\n* **Strategic Objective**: Established to ensure uninterrupted maritime war-risk insurance capacity during geopolitical conflicts and eliminate reliance on foreign P&I clubs (reduced war-risk premium rates by **35–40%**; 1,608 policies issued by July 2026).\n\n---"
-    },
-    "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay": {
-      "id": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
-      "slug": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
-      "title": "Cabinet Approves PM-KISAN Continuation for 5 Years (₹3,15,614 Cr Outlay)",
-      "priority": "P1_CRITICAL_MEMORIZE",
-      "revisionMinutes": 6,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
-      "secondaryCategories": [],
-      "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
-      "verificationStatus": "SOURCE_ONLY",
-      "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Direct Benefit Transfer & Agriculture",
-        "**Source:** Smartkeeda (Aug 2026) | **Issuer:** Union Cabinet",
-        "*Must Memorize**",
-        "Continuation Period: 5-year extension from **FY 2026–27 to FY 2030–31 (FY31)**.",
-        "Total Outlay: **₹3,15,614 crore** (over ₹3.15 lakh crore).",
-        "Scheme Norms: ₹6,000 per year per eligible landholding family in **3 equal installments of ₹2,000** via Aadhaar-seeded DBT.",
-        "Cumulative Milestone: Nearly **₹4.5 lakh crore** disbursed since February 2019 inception; over **₹1.06 lakh crore** disbursed specifically to women farmers (nearly 1 in 4 beneficiaries is a woman)."
-      ],
-      "knowUnderstandContext": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-08-01",
-      "lastUpdatedDate": "2026-08-15",
-      "chronologicalMonth": "2026-08",
-      "chronologicalWeek": "week-1-2",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "01-august-2026-cgb-part-1",
-          "publishedDate": "2026-08-15"
-        }
-      ],
-      "contentMarkdown": "### 5. Cabinet Approves PM-KISAN Continuation for 5 Years (₹3,15,614 Cr Outlay)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Direct Benefit Transfer & Agriculture\n* **Source:** Smartkeeda (Aug 2026) | **Issuer:** Union Cabinet\n\n**Must Memorize**\n* **Continuation Period**: 5-year extension from **FY 2026–27 to FY 2030–31 (FY31)**.\n* **Total Outlay**: **₹3,15,614 crore** (over ₹3.15 lakh crore).\n* **Scheme Norms**: ₹6,000 per year per eligible landholding family in **3 equal installments of ₹2,000** via Aadhaar-seeded DBT.\n* **Cumulative Milestone**: Nearly **₹4.5 lakh crore** disbursed since February 2019 inception; over **₹1.06 lakh crore** disbursed specifically to women farmers (nearly 1 in 4 beneficiaries is a woman).\n\n---"
-    },
-    "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana": {
-      "id": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
-      "slug": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
-      "title": "ADB Approves $850 Million Loan for PM Surya Ghar: Muft Bijli Yojana",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 6,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
-      "secondaryCategories": [],
-      "primaryInstitution": "INTERNATIONAL_BODIES",
-      "regulatoryStatus": "IMPLEMENTED",
-      "verificationStatus": "SOURCE_ONLY",
-      "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Multilateral Financing & Solar Schemes",
-        "**Source:** Smartkeeda (Aug 2026) | **Issuer:** Asian Development Bank (ADB)",
-        "*Must Memorize**",
-        "Loan Amount: **$850 million** approved by ADB for Subprogram 2 of the *Accelerating Affordable and Inclusive Rooftop Solar Systems Development Program*.",
-        "Complementary Funding: Adds to the **$890 million** financing package earlier approved by the **World Bank**.",
-        "PMSGMBY Scheme Details:",
-        "Launched: 13 February 2024 | Outlay: **₹75,021 crore**.",
-        "Target: 10 million low- and middle-income households (30 GW residential capacity by FY27).",
-        "Subsidy Slabs: **₹30,000 for 1 kW**, **₹60,000 for 2 kW**, **₹78,000 for 3 kW**, plus 300 free monthly units."
-      ],
-      "knowUnderstandContext": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-08-01",
-      "lastUpdatedDate": "2026-08-15",
-      "chronologicalMonth": "2026-08",
-      "chronologicalWeek": "week-1-2",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "01-august-2026-cgb-part-1",
-          "publishedDate": "2026-08-15"
-        }
-      ],
-      "contentMarkdown": "### 6. ADB Approves $850 Million Loan for PM Surya Ghar: Muft Bijli Yojana\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Multilateral Financing & Solar Schemes\n* **Source:** Smartkeeda (Aug 2026) | **Issuer:** Asian Development Bank (ADB)\n\n**Must Memorize**\n* **Loan Amount**: **$850 million** approved by ADB for Subprogram 2 of the *Accelerating Affordable and Inclusive Rooftop Solar Systems Development Program*.\n* **Complementary Funding**: Adds to the **$890 million** financing package earlier approved by the **World Bank**.\n* **PMSGMBY Scheme Details**:\n  * Launched: 13 February 2024 | Outlay: **₹75,021 crore**.\n  * Target: 10 million low- and middle-income households (30 GW residential capacity by FY27).\n  * Subsidy Slabs: **₹30,000 for 1 kW**, **₹60,000 for 2 kW**, **₹78,000 for 3 kW**, plus 300 free monthly units.\n\n---"
-    },
     "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27": {
       "id": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
       "slug": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
@@ -300,7 +151,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 7. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).\n* **Total NBFC-UL Entities**: **17 entities** (REC, PFC, IRFC, HUDCO included).\n* **5-Year Lock-In Rule**: Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n* **Mandatory Listing**: Must list on recognized stock exchanges within **3 years**.\n* **SBR Slabs**: Base Layer ($<₹1,000$ cr) $\\to$ Middle Layer ($\\ge ₹1,000$ cr) $\\to$ Upper Layer ($\\ge ₹1$ lakh cr / top 10 scoring).\n\n---"
+      "contentMarkdown": "### 3. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).\n* **Total NBFC-UL Entities**: **17 entities** (REC, PFC, IRFC, HUDCO included).\n* **5-Year Lock-In Rule**: Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n* **Mandatory Listing**: Must list on recognized stock exchanges within **3 years**.\n* **SBR Slabs**: Base Layer ($<₹1,000$ cr) $\\to$ Middle Layer ($\\ge ₹1,000$ cr) $\\to$ Upper Layer ($\\ge ₹1$ lakh cr / top 10 scoring).\n\n---"
     },
     "rbi-loan-recovery-directions-financed-smartphone-lockout-norms": {
       "id": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
@@ -337,28 +188,27 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 8. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**Must Memorize**\n* **Calling Hours**: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).\n* **Mandatory Certification**: All agents must hold **IIBF Certification**.\n* **Smartphone Locks**: No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n* **Protected SOS**: Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n* **Restoration**: Device must be unlocked within **1 hour** of payment; delay penalty = **₹250/hour** on the bank.\n\n---"
+      "contentMarkdown": "### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**Must Memorize**\n* **Calling Hours**: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).\n* **Mandatory Certification**: All agents must hold **IIBF Certification**.\n* **Smartphone Locks**: No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n* **Protected SOS**: Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n* **Restoration**: Device must be unlocked within **1 hour** of payment; delay penalty = **₹250/hour** on the bank.\n\n---"
     },
-    "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027": {
-      "id": "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
-      "slug": "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
-      "title": "D-SIB Framework & RBI Leverage Ratio Buffer (Effective April 1, 2027)",
+    "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": {
+      "id": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+      "slug": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+      "title": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
       "priority": "P1_CRITICAL_MEMORIZE",
-      "revisionMinutes": 5,
+      "revisionMinutes": 6,
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Memorize | **Revision Effort:** ~5 min | **Category:** Capital Adequacy & Basel III",
-        "**Source:** CGB Mentors",
+        "**Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III",
+        "**Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification",
         "*Must Memorize**",
-        "D-SIB Additional CET1 Surcharges:",
-        "SBI: Bucket 4 $\\to$ **0.80%** CET1 surcharge.",
-        "HDFC Bank: Bucket 2 $\\to$ **0.40%** CET1 surcharge.",
-        "ICICI Bank: Bucket 1 $\\to$ **0.20%** CET1 surcharge.",
-        "Leverage Ratio: 4.0% for D-SIBs; 3.5% for all other banks. Foreign G-SIBs maintain 3.5% + G-SIB buffer."
+        "Effective Implementation Date: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).",
+        "Core Alignment: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.",
+        "Reporting Architecture: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).",
+        "Board Mandate: Banks must maintain a formal disclosure policy approved directly by their Board of Directors."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -374,42 +224,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 9. D-SIB Framework & RBI Leverage Ratio Buffer (Effective April 1, 2027)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~5 min | **Category:** Capital Adequacy & Basel III\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **D-SIB Additional CET1 Surcharges**:\n  * **SBI**: Bucket 4 $\\to$ **0.80%** CET1 surcharge.\n  * **HDFC Bank**: Bucket 2 $\\to$ **0.40%** CET1 surcharge.\n  * **ICICI Bank**: Bucket 1 $\\to$ **0.20%** CET1 surcharge.\n* **Leverage Ratio**: 4.0% for D-SIBs; 3.5% for all other banks. Foreign G-SIBs maintain 3.5% + G-SIB buffer.\n\n---"
-    },
-    "rbi-credit-valuation-adjustment-cva-risk-capital-framework": {
-      "id": "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
-      "slug": "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
-      "title": "RBI Credit Valuation Adjustment (CVA) Risk Capital Framework",
-      "priority": "P1_CRITICAL_MEMORIZE",
-      "revisionMinutes": 5,
-      "primaryCategory": "CAPITAL_MARKETS",
-      "secondaryCategories": [],
-      "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
-      "verificationStatus": "SOURCE_ONLY",
-      "mustMemorizeFacts": [
-        "**Priority:** P1 — Critical / Memorize | **Revision Effort:** ~5 min | **Category:** Derivatives & Risk Management",
-        "**Effective Date:** **1 April 2027** | **Source:** CGB Mentors",
-        "*Must Memorize**",
-        "Basic Approach (BA-CVA: Full & Reduced).",
-        "Simplified Approach: For banks with non-centrally cleared derivatives $\\le ₹10\\text{ trillion}$ (CVA capital $= 100\\%$ of CCR capital).",
-        "Risk Weights: Sovereigns $= 0.5\\%$ (IG) / $2\\%$ (others); Financial Sector $= 5\\%$ (IG) / $12\\%$ (others)."
-      ],
-      "knowUnderstandContext": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-08-01",
-      "lastUpdatedDate": "2026-08-15",
-      "chronologicalMonth": "2026-08",
-      "chronologicalWeek": "week-1-2",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "01-august-2026-cgb-part-1",
-          "publishedDate": "2026-08-15"
-        }
-      ],
-      "contentMarkdown": "### 10. RBI Credit Valuation Adjustment (CVA) Risk Capital Framework\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~5 min | **Category:** Derivatives & Risk Management\n* **Effective Date:** **1 April 2027** | **Source:** CGB Mentors\n\n**Must Memorize**\n* Basic Approach (BA-CVA: Full & Reduced).\n* **Simplified Approach**: For banks with non-centrally cleared derivatives $\\le ₹10\\text{ trillion}$ (CVA capital $= 100\\%$ of CCR capital).\n* **Risk Weights**: Sovereigns $= 0.5\\%$ (IG) / $2\\%$ (others); Financial Sector $= 5\\%$ (IG) / $12\\%$ (others).\n\n---"
+      "contentMarkdown": "### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**Must Memorize**\n* **Effective Implementation Date**: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).\n* **Core Alignment**: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.\n* **Reporting Architecture**: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).\n* **Board Mandate**: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.\n\n---"
     },
     "priority-sector-lending-psl-nri-deposit-forex-swap-relief": {
       "id": "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
@@ -444,22 +259,21 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 11. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).\n* **CRR/SLR Exemption**: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).\n* **ANBC Deduction**: Advances against these eligible fresh NRI deposits are **excluded from ANBC** for PSL target calculations.\n\n---"
+      "contentMarkdown": "### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).\n* **CRR/SLR Exemption**: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).\n* **ANBC Deduction**: Advances against these eligible fresh NRI deposits are **excluded from ANBC** for PSL target calculations.\n\n---"
     },
-    "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min": {
-      "id": "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
-      "slug": "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
-      "title": "Pradhan Mantri Surya Sarovar Yojana (PM-SSY) (~5 min)",
+    "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-": {
+      "id": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+      "slug": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+      "title": "DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)' (~4 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "primaryCategory": "INSURANCE_SECTOR",
       "secondaryCategories": [],
-      "primaryInstitution": "OTHER",
+      "primaryInstitution": "IRDAI",
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "Approved by Cabinet for **Floating Solar PV + Energy Storage Systems (ESS)** with outlay of **₹5,070 crore** (FY27–FY31).",
-        "Capacity: **5,000 MW floating solar + 10,000 MWh energy storage** (minimum 2 hours storage). Central Financial Assistance: **₹1 crore/MW**."
+        "Protection & Indemnity (P&I) product designed by The New India Assurance Company; 1st policy to Shipping Corporation of India (SCI); **$1.5 billion indemnity capacity** (reduced war-risk rates by 35–40%)."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -475,7 +289,157 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "1. **Pradhan Mantri Surya Sarovar Yojana (PM-SSY) (~5 min)**:\n   * Approved by Cabinet for **Floating Solar PV + Energy Storage Systems (ESS)** with outlay of **₹5,070 crore** (FY27–FY31).\n   * Capacity: **5,000 MW floating solar + 10,000 MWh energy storage** (minimum 2 hours storage). Central Financial Assistance: **₹1 crore/MW**."
+      "contentMarkdown": "1. **DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)' (~4 min)**:\n   * Protection & Indemnity (P&I) product designed by The New India Assurance Company; 1st policy to Shipping Corporation of India (SCI); **$1.5 billion indemnity capacity** (reduced war-risk rates by 35–40%)."
+    },
+    "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min": {
+      "id": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+      "slug": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+      "title": "Cabinet Approves PM-KISAN Continuation for 5 Years (₹3,15,614 Cr Outlay) (~3 min)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "regulatoryStatus": "IMPLEMENTED",
+      "verificationStatus": "SOURCE_ONLY",
+      "mustMemorizeFacts": [
+        "5-year extension from FY27 to FY31 with total outlay of **₹3,15,614 crore**; ₹6,000/yr in 3 installments of ₹2,000 via DBT."
+      ],
+      "knowUnderstandContext": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "chronologicalWeek": "week-1-2",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "01-august-2026-cgb-part-1",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "2. **Cabinet Approves PM-KISAN Continuation for 5 Years (₹3,15,614 Cr Outlay) (~3 min)**:\n   * 5-year extension from FY27 to FY31 with total outlay of **₹3,15,614 crore**; ₹6,000/yr in 3 installments of ₹2,000 via DBT."
+    },
+    "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min": {
+      "id": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+      "slug": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+      "title": "ADB Approves $850 Million Loan for PM Surya Ghar: Muft Bijli Yojana (~3 min)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "INTERNATIONAL_BODIES",
+      "regulatoryStatus": "IMPLEMENTED",
+      "verificationStatus": "SOURCE_ONLY",
+      "mustMemorizeFacts": [
+        "$850M loan for Subprogram 2; complements World Bank's $890M loan; ₹75,021 cr outlay for 10M households (subsidies ₹30k/1kW, ₹60k/2kW, ₹78k/3kW)."
+      ],
+      "knowUnderstandContext": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "chronologicalWeek": "week-1-2",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "01-august-2026-cgb-part-1",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "3. **ADB Approves $850 Million Loan for PM Surya Ghar: Muft Bijli Yojana (~3 min)**:\n   * $850M loan for Subprogram 2; complements World Bank's $890M loan; ₹75,021 cr outlay for 10M households (subsidies ₹30k/1kW, ₹60k/2kW, ₹78k/3kW)."
+    },
+    "d-sib-framework-rbi-leverage-ratio-buffer-4-min": {
+      "id": "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
+      "slug": "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
+      "title": "D-SIB Framework & RBI Leverage Ratio Buffer (~4 min)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "regulatoryStatus": "IMPLEMENTED",
+      "verificationStatus": "SOURCE_ONLY",
+      "mustMemorizeFacts": [
+        "Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for other banks."
+      ],
+      "knowUnderstandContext": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "chronologicalWeek": "week-1-2",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "01-august-2026-cgb-part-1",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "4. **D-SIB Framework & RBI Leverage Ratio Buffer (~4 min)**:\n   * Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for other banks."
+    },
+    "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min": {
+      "id": "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
+      "slug": "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
+      "title": "RBI Credit Valuation Adjustment (CVA) Risk Capital Framework (~4 min)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "regulatoryStatus": "IMPLEMENTED",
+      "verificationStatus": "SOURCE_ONLY",
+      "mustMemorizeFacts": [
+        "Effective 1 April 2027; Simplified approach for non-centrally cleared derivatives up to ₹10 trillion; Sovereign risk weight 0.5%–2%, Financial sector 5%–12%."
+      ],
+      "knowUnderstandContext": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "chronologicalWeek": "week-1-2",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "01-august-2026-cgb-part-1",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "5. **RBI Credit Valuation Adjustment (CVA) Risk Capital Framework (~4 min)**:\n   * Effective 1 April 2027; Simplified approach for non-centrally cleared derivatives up to ₹10 trillion; Sovereign risk weight 0.5%–2%, Financial sector 5%–12%."
+    },
+    "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min": {
+      "id": "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
+      "slug": "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
+      "title": "Pradhan Mantri Surya Sarovar Yojana (PM-SSY) (~4 min)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "regulatoryStatus": "IMPLEMENTED",
+      "verificationStatus": "SOURCE_ONLY",
+      "mustMemorizeFacts": [
+        "Approved by Cabinet for **Floating Solar PV + Energy Storage Systems (ESS)** with outlay of **₹5,070 crore** (FY27–FY31); capacity 5,000 MW floating solar + 10,000 MWh storage."
+      ],
+      "knowUnderstandContext": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "chronologicalWeek": "week-1-2",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "01-august-2026-cgb-part-1",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "6. **Pradhan Mantri Surya Sarovar Yojana (PM-SSY) (~4 min)**:\n   * Approved by Cabinet for **Floating Solar PV + Energy Storage Systems (ESS)** with outlay of **₹5,070 crore** (FY27–FY31); capacity 5,000 MW floating solar + 10,000 MWh storage."
     },
     "nepal-rastra-bank-permits-200-500-indian-notes-3-min": {
       "id": "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
@@ -505,7 +469,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "2. **Nepal Rastra Bank Permits ₹200 & ₹500 Indian Notes (~3 min)**:\n   * NRB confirmed Indian & Nepalese nationals can carry ₹200 and ₹500 notes up to **₹25,000 per person** (must be issued on or after Nov 9, 2016)."
+      "contentMarkdown": "7. **Nepal Rastra Bank Permits ₹200 & ₹500 Indian Notes (~3 min)**:\n   * NRB confirmed Indian & Nepalese nationals can carry ₹200 and ₹500 notes up to **₹25,000 per person** (must be issued on or after Nov 9, 2016)."
     },
     "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min": {
       "id": "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
@@ -519,7 +483,7 @@
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "Real-time P2P transfers in **MVR $\\leftrightarrow$ INR**. Participating banks: *Bank of Maldives Plc* and *Maldives Islamic Bank Plc*. (UPI now live in 10 countries: Singapore, UAE, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar, Cambodia, Greece)."
+        "Real-time P2P transfers in **MVR $\\leftrightarrow$ INR**. Participating banks: *Bank of Maldives Plc* and *Maldives Islamic Bank Plc*. (UPI live in 10 countries: Singapore, UAE, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar, Cambodia, Greece)."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -535,7 +499,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "3. **Cross-Border Payments: Maldives 'Favara' $\\leftrightarrow$ India 'UPI' Corridor (~3 min)**:\n   * Real-time P2P transfers in **MVR $\\leftrightarrow$ INR**. Participating banks: *Bank of Maldives Plc* and *Maldives Islamic Bank Plc*. (UPI now live in 10 countries: Singapore, UAE, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar, Cambodia, Greece)."
+      "contentMarkdown": "8. **Cross-Border Payments: Maldives 'Favara' $\\leftrightarrow$ India 'UPI' Corridor (~3 min)**:\n   * Real-time P2P transfers in **MVR $\\leftrightarrow$ INR**. Participating banks: *Bank of Maldives Plc* and *Maldives Islamic Bank Plc*. (UPI live in 10 countries: Singapore, UAE, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar, Cambodia, Greece)."
     },
     "bankers-books-evidence-act-2026-2-min": {
       "id": "bankers-books-evidence-act-2026-2-min",
@@ -565,7 +529,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "4. **Bankers' Books Evidence Act, 2026 (~2 min)**:\n   * Repeals 1891 Act; makes digital and virtual banking records formally admissible in courts."
+      "contentMarkdown": "9. **Bankers' Books Evidence Act, 2026 (~2 min)**:\n   * Repeals 1891 Act; makes digital and virtual banking records formally admissible in courts."
     },
     "urban-challenge-fund-ucf-adb-1-billion-loan-4-min": {
       "id": "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
@@ -579,7 +543,7 @@
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "MoHUA approved ₹2,719.80 cr for 6 urban projects in Ahmedabad. Central Assistance ₹1 lakh cr (total investment target ₹4 lakh cr over FY26–FY31; 25% Centre, 50% market, 25% State/ULB; ₹7 cr credit guarantee). ADB approved **$1 billion loan** for the program."
+        "MoHUA approved ₹2,719.80 cr for Ahmedabad. Central Assistance ₹1 lakh cr (total target ₹4 lakh cr over FY26–FY31; 25% Centre, 50% market, 25% State/ULB; ₹7 cr credit guarantee). ADB approved **$1 billion loan**."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -595,12 +559,12 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "5. **Urban Challenge Fund (UCF) & ADB $1 Billion Loan (~4 min)**:\n   * MoHUA approved ₹2,719.80 cr for 6 urban projects in Ahmedabad. Central Assistance ₹1 lakh cr (total investment target ₹4 lakh cr over FY26–FY31; 25% Centre, 50% market, 25% State/ULB; ₹7 cr credit guarantee). ADB approved **$1 billion loan** for the program."
+      "contentMarkdown": "10. **Urban Challenge Fund (UCF) & ADB $1 Billion Loan (~4 min)**:\n    * MoHUA approved ₹2,719.80 cr for Ahmedabad. Central Assistance ₹1 lakh cr (total target ₹4 lakh cr over FY26–FY31; 25% Centre, 50% market, 25% State/ULB; ₹7 cr credit guarantee). ADB approved **$1 billion loan**."
     },
-    "samudra-manthan-national-offshore-exploration-scheme-4-min": {
-      "id": "samudra-manthan-national-offshore-exploration-scheme-4-min",
-      "slug": "samudra-manthan-national-offshore-exploration-scheme-4-min",
-      "title": "Samudra Manthan National Offshore Exploration Scheme (~4 min)",
+    "samudra-manthan-national-offshore-exploration-scheme-3-min": {
+      "id": "samudra-manthan-national-offshore-exploration-scheme-3-min",
+      "slug": "samudra-manthan-national-offshore-exploration-scheme-3-min",
+      "title": "Samudra Manthan National Offshore Exploration Scheme (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "GOVERNMENT_SCHEMES",
@@ -625,7 +589,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "6. **Samudra Manthan National Offshore Exploration Scheme (~4 min)**:\n   * Ministry of Petroleum & Natural Gas Phase-I outlay **₹84,084 crore** through FY31 (aims to increase domestic oil/gas from 62 to 80 MMTOE)."
+      "contentMarkdown": "11. **Samudra Manthan National Offshore Exploration Scheme (~3 min)**:\n    * Ministry of Petroleum & Natural Gas Phase-I outlay **₹84,084 crore** through FY31 (aims to increase domestic oil/gas from 62 to 80 MMTOE)."
     },
     "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min": {
       "id": "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
@@ -655,7 +619,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "7. **REC & PFC ₹26,850 Crore Loan Agreement for Meja Thermal Power (~3 min)**:\n   * Common loan agreement with Meja Urja Nigam (50:50 JV of NTPC & UPRVUNL) for 2,400 MW ($3\\times 800$ MW) plant in Prayagraj (total cost ₹38,358 cr)."
+      "contentMarkdown": "12. **REC & PFC ₹26,850 Crore Loan Agreement for Meja Thermal Power (~3 min)**:\n    * Common loan agreement with Meja Urja Nigam (50:50 JV of NTPC & UPRVUNL) for 2,400 MW ($3\\times 800$ MW) plant in Prayagraj (total cost ₹38,358 cr)."
     },
     "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min": {
       "id": "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
@@ -685,12 +649,12 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "8. **Credit Guarantee Scheme for MFIs (CGSMFI 2.0) (~3 min)**:\n   * Banks must lend at least **15%** of ₹20,000 cr corpus to small ($<₹500$ cr AUM) and mid-size (₹500cr–₹2,000cr AUM) MFIs. Bank loan capped at 20% of MFI's AUM."
+      "contentMarkdown": "13. **Credit Guarantee Scheme for MFIs (CGSMFI 2.0) (~3 min)**:\n    * Banks must lend at least **15%** of ₹20,000 cr corpus to small ($<₹500$ cr AUM) and mid-size (₹500cr–₹2,000cr AUM) MFIs. Bank loan capped at 20% of MFI's AUM."
     },
-    "irdai-master-regulations-protec-licence-4-min": {
-      "id": "irdai-master-regulations-protec-licence-4-min",
-      "slug": "irdai-master-regulations-protec-licence-4-min",
-      "title": "IRDAI Master Regulations & ProTec Licence (~4 min)",
+    "irdai-master-regulations-protec-licence-3-min": {
+      "id": "irdai-master-regulations-protec-licence-3-min",
+      "slug": "irdai-master-regulations-protec-licence-3-min",
+      "title": "IRDAI Master Regulations & ProTec Licence (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "INSURANCE_SECTOR",
@@ -699,7 +663,7 @@
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "ProTec General Insurance approved (JV of M. Pallonji & True North). Operationalized Policyholders’ Education & Protection Fund (PEPF) under **Section 16A of IRDA Act, 1999**. Perpetual intermediary registration fee: higher of ₹10,000 or 0.04% of receipts. 20% Infra SPV investment limit."
+        "ProTec General Insurance approved (JV of M. Pallonji & True North). Operationalized Policyholders’ Education & Protection Fund (PEPF) under **Section 16A of IRDA Act, 1999**. Perpetual registration fee: higher of ₹10,000 or 0.04% of receipts. 20% Infra SPV limit."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -715,7 +679,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "9. **IRDAI Master Regulations & ProTec Licence (~4 min)**:\n   * ProTec General Insurance approved (JV of M. Pallonji & True North). Operationalized Policyholders’ Education & Protection Fund (PEPF) under **Section 16A of IRDA Act, 1999**. Perpetual intermediary registration fee: higher of ₹10,000 or 0.04% of receipts. 20% Infra SPV investment limit."
+      "contentMarkdown": "14. **IRDAI Master Regulations & ProTec Licence (~3 min)**:\n    * ProTec General Insurance approved (JV of M. Pallonji & True North). Operationalized Policyholders’ Education & Protection Fund (PEPF) under **Section 16A of IRDA Act, 1999**. Perpetual registration fee: higher of ₹10,000 or 0.04% of receipts. 20% Infra SPV limit."
     },
     "irdai-approves-magma-general-insurance-acquisition-2-min": {
       "id": "irdai-approves-magma-general-insurance-acquisition-2-min",
@@ -745,7 +709,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "10. **IRDAI Approves Magma General Insurance Acquisition (~2 min)**:\n    * Patanjali Ayurved (73.56%) and DS Group (24.5%) acquire Magma General Insurance from Adar Poonawalla Group for **₹4,500 crore**."
+      "contentMarkdown": "15. **IRDAI Approves Magma General Insurance Acquisition (~2 min)**:\n    * Patanjali Ayurved (73.56%) and DS Group (24.5%) acquire Magma General Insurance from Adar Poonawalla Group for **₹4,500 crore**."
     },
     "day-nrlm-self-help-group-bank-credit-milestone-3-min": {
       "id": "day-nrlm-self-help-group-bank-credit-milestone-3-min",
@@ -775,7 +739,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "11. **DAY-NRLM Self-Help Group Bank Credit Milestone (~3 min)**:\n    * Mobilized $>100.5$ million rural women into 9 million SHGs; cumulative bank credit extended exceeds **₹11.1 lakh crore**."
+      "contentMarkdown": "16. **DAY-NRLM Self-Help Group Bank Credit Milestone (~3 min)**:\n    * Mobilized $>100.5$ million rural women into 9 million SHGs; cumulative bank credit extended exceeds **₹11.1 lakh crore**."
     },
     "khelo-india-ansf-expansion-3-min": {
       "id": "khelo-india-ansf-expansion-3-min",
@@ -805,7 +769,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "12. **Khelo India & ANSF Expansion (~3 min)**:\n    * Cabinet approved combined outlay of **₹36,441 crore** (FY27 to FY31): ₹29,054 cr for Khelo India + ₹7,387 cr for ANSFs."
+      "contentMarkdown": "17. **Khelo India & ANSF Expansion (~3 min)**:\n    * Cabinet approved combined outlay of **₹36,441 crore** (FY27 to FY31): ₹29,054 cr for Khelo India + ₹7,387 cr for ANSFs."
     },
     "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min": {
       "id": "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
@@ -819,7 +783,7 @@
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "President gave assent. Mandates fast-track courts; paper leak trials within 3 months; individual jail 5–10 yrs (fine up to ₹50L); organized crime jail $\\ge 7$ yrs (fine up to ₹10 crore)."
+        "President gave assent. Fast-track courts; trials within 3 months; individual jail 5–10 yrs (fine up to ₹50L); organized crime jail $\\ge 7$ yrs (fine up to ₹10 crore)."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -835,27 +799,25 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "13. **Public Examinations (Prevention of Unfair Means) Amendment Bill 2026 Assent (~3 min)**:\n    * President gave assent. Mandates fast-track courts; paper leak trials within 3 months; individual jail 5–10 yrs (fine up to ₹50L); organized crime jail $\\ge 7$ yrs (fine up to ₹10 crore)."
+      "contentMarkdown": "18. **Public Examinations (Prevention of Unfair Means) Amendment Bill 2026 Assent (~3 min)**:\n    * President gave assent. Fast-track courts; trials within 3 months; individual jail 5–10 yrs (fine up to ₹50L); organized crime jail $\\ge 7$ yrs (fine up to ₹10 crore)."
     },
-    "apex-financial-regulatory-appointments-6-min": {
-      "id": "apex-financial-regulatory-appointments-6-min",
-      "slug": "apex-financial-regulatory-appointments-6-min",
-      "title": "Apex Financial & Regulatory Appointments (~6 min)",
+    "apex-financial-regulatory-appointments-4-min": {
+      "id": "apex-financial-regulatory-appointments-4-min",
+      "slug": "apex-financial-regulatory-appointments-4-min",
+      "title": "Apex Financial & Regulatory Appointments (~4 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
-      "primaryInstitution": "RBI",
+      "primaryInstitution": "SEBI",
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "Satya Pal Kumar: Director (Joint Secretary level), Financial Intelligence Unit-India (FIU-IND) for 5 years (succeeds Pankaj Kumar Mishra).",
-        "Alka Nangia Arora: Controller General of Defence Accounts (CGDA).",
-        "Monisha Chakraborty: Executive Director, RBI (Forex & Financial Markets Regulation).",
-        "K Rajaraman: Chairman, IFSCA (extended by 27 months till age 65).",
+        "Satya Pal Kumar: Director, FIU-IND (5 years).",
+        "Alka Nangia Arora: CGDA.",
+        "Monisha Chakraborty: Executive Director, RBI.",
+        "K Rajaraman: Chairman, IFSCA (extended by 27 months).",
         "Prasanta Mahapatra: Executive Director, SEBI.",
-        "Dr. T.V. Somanathan: Cabinet Secretary (1-year extension).",
-        "Govind Mohan: Home Secretary (1-year extension).",
         "Rahul Jain: Senior Adviser to Executive Director (India), IMF.",
         "A S Rajeev: Acting Central Vigilance Commissioner (CVC)."
       ],
@@ -873,7 +835,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "14. **Apex Financial & Regulatory Appointments (~6 min)**:\n    * **Satya Pal Kumar**: Director (Joint Secretary level), Financial Intelligence Unit-India (FIU-IND) for 5 years (succeeds Pankaj Kumar Mishra).\n    * **Alka Nangia Arora**: Controller General of Defence Accounts (CGDA).\n    * **Monisha Chakraborty**: Executive Director, RBI (Forex & Financial Markets Regulation).\n    * **K Rajaraman**: Chairman, IFSCA (extended by 27 months till age 65).\n    * **Prasanta Mahapatra**: Executive Director, SEBI.\n    * **Dr. T.V. Somanathan**: Cabinet Secretary (1-year extension).\n    * **Govind Mohan**: Home Secretary (1-year extension).\n    * **Rahul Jain**: Senior Adviser to Executive Director (India), IMF.\n    * **A S Rajeev**: Acting Central Vigilance Commissioner (CVC).\n\n---"
+      "contentMarkdown": "19. **Apex Financial & Regulatory Appointments (~4 min)**:\n    * **Satya Pal Kumar**: Director, FIU-IND (5 years).\n    * **Alka Nangia Arora**: CGDA.\n    * **Monisha Chakraborty**: Executive Director, RBI.\n    * **K Rajaraman**: Chairman, IFSCA (extended by 27 months).\n    * **Prasanta Mahapatra**: Executive Director, SEBI.\n    * **Rahul Jain**: Senior Adviser to Executive Director (India), IMF.\n    * **A S Rajeev**: Acting Central Vigilance Commissioner (CVC).\n\n---"
     },
     "ncdex-nidhi": {
       "id": "ncdex-nidhi",
@@ -887,7 +849,7 @@
       "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "mustMemorizeFacts": [
-        "Mutual fund distribution platform for FPOs; onboarded 6 AMCs (Nippon, HDFC, Axis, LIC, Tata, Invesco); AMFI reduced ARN fee to ₹10,000."
+        "Mutual fund distribution platform for FPOs; onboarded 6 AMCs; AMFI reduced ARN fee to ₹10,000."
       ],
       "knowUnderstandContext": [],
       "optionalFacts": [],
@@ -903,7 +865,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "* **NCDEX Nidhi**: Mutual fund distribution platform for FPOs; onboarded 6 AMCs (Nippon, HDFC, Axis, LIC, Tata, Invesco); AMFI reduced ARN fee to ₹10,000."
+      "contentMarkdown": "* **NCDEX Nidhi**: Mutual fund distribution platform for FPOs; onboarded 6 AMCs; AMFI reduced ARN fee to ₹10,000."
     },
     "mha-e-zero-firs": {
       "id": "mha-e-zero-firs",
@@ -2165,9 +2127,9 @@
   },
   "summary": {
     "totalCanonicalTopics": 67,
-    "activeP1Count": 12,
-    "activeP1RevisionMinutes": 82,
-    "totalP2Count": 26,
+    "activeP1Count": 7,
+    "activeP1RevisionMinutes": 51,
+    "totalP2Count": 31,
     "totalP3Count": 29,
     "totalBatchesIngested": 2
   },
@@ -2175,42 +2137,42 @@
     "byPriority": {
       "P1_CRITICAL_DEEP": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
-        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27"
       ],
       "P1_CRITICAL_MEMORIZE": [
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
-        "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
-        "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms"
       ],
       "P2_HIGH": [
+        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "apex-appointments-4-min",
-        "apex-financial-regulatory-appointments-6-min",
+        "apex-financial-regulatory-appointments-4-min",
         "bankers-books-evidence-act-2026-2-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
+        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-4-min",
+        "irdai-master-regulations-protec-licence-3-min",
         "khelo-india-ansf-expansion-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
-        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
+        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
         "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
-        "samudra-manthan-national-offshore-exploration-scheme-4-min",
+        "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
@@ -2265,25 +2227,25 @@
         "postransfer-remittances"
       ],
       "GOVERNMENT_SCHEMES": [
-        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
+        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "khelo-india-ansf-expansion-3-min",
         "pmksy-10-year-review",
-        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
-        "samudra-manthan-national-offshore-exploration-scheme-4-min",
+        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
+        "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
       ],
       "APPOINTMENTS": [
         "apex-appointments-4-min"
       ],
       "CAPITAL_MARKETS": [
-        "apex-financial-regulatory-appointments-6-min",
+        "apex-financial-regulatory-appointments-4-min",
         "blue-bonds",
         "bse-msci",
         "ncdex-nidhi",
-        "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
         "sebi-fast-track-settlement",
@@ -2295,7 +2257,6 @@
       ],
       "BANKING_REGULATION": [
         "bankers-books-evidence-act-2026-2-min",
-        "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
@@ -2310,6 +2271,7 @@
       "NATIONAL_AND_STATES": [
         "bharatnet-phase-iii-odisha",
         "bofa-jio-credit",
+        "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "dot-sim-card-rule",
         "eu-cbam",
@@ -2329,9 +2291,9 @@
         "wipo-genai-patent-report"
       ],
       "INSURANCE_SECTOR": [
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
+        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-4-min",
+        "irdai-master-regulations-protec-licence-3-min",
         "prudential-bharti-life"
       ],
       "SPORTS_AND_AWARDS": [
@@ -2346,11 +2308,10 @@
     "byInstitution": {
       "RBI": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
-        "apex-financial-regulatory-appointments-6-min",
-        "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
+        "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
-        "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
@@ -2368,7 +2329,7 @@
         "blue-bonds",
         "bofa-jio-credit",
         "bse-msci",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "defence-srijan-portal",
         "defence-vessels",
@@ -2384,36 +2345,24 @@
         "national-sports-awards-2025",
         "parichha-dam-jhansi-betwa-river",
         "pmksy-10-year-review",
-        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
+        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
         "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "repco-bank",
-        "samudra-manthan-national-offshore-exploration-scheme-4-min",
+        "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sports",
         "wipo-genai-patent-report"
       ],
       "INTERNATIONAL_BODIES": [
-        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
+        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
       ],
-      "NCGTC": [
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min"
-      ],
-      "NPCI": [
-        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
-        "postransfer-remittances"
-      ],
-      "IRDAI": [
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
-        "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-4-min",
-        "prudential-bharti-life"
-      ],
       "SEBI": [
+        "apex-financial-regulatory-appointments-4-min",
         "ncdex-nidhi",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
@@ -2424,6 +2373,19 @@
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
         "sebi-retail-equity-f-o-loss-curtailment-report-2-min"
       ],
+      "NCGTC": [
+        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min"
+      ],
+      "NPCI": [
+        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "postransfer-remittances"
+      ],
+      "IRDAI": [
+        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-master-regulations-protec-licence-3-min",
+        "prudential-bharti-life"
+      ],
       "PFRDA": [
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min"
       ]
@@ -2433,23 +2395,23 @@
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",
         "ad-category-ii-licences",
-        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
+        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "apex-appointments-4-min",
-        "apex-financial-regulatory-appointments-6-min",
+        "apex-financial-regulatory-appointments-4-min",
         "bankers-books-evidence-act-2026-2-min",
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
         "bofa-jio-credit",
         "bse-msci",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
-        "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
+        "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "defence-srijan-portal",
         "defence-vessels",
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
+        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
         "dot-sim-card-rule",
         "eu-cbam",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
@@ -2457,7 +2419,7 @@
         "fitch-sovereign-rating",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-4-min",
+        "irdai-master-regulations-protec-licence-3-min",
         "jal-jeevan-mission-jjm",
         "khelo-india-ansf-expansion-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
@@ -2470,13 +2432,13 @@
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pmksy-10-year-review",
         "postransfer-remittances",
-        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
+        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "prudential-bharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
-        "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
@@ -2485,7 +2447,7 @@
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
         "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "repco-bank",
-        "samudra-manthan-national-offshore-exploration-scheme-4-min",
+        "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
         "sebi-fast-track-settlement",

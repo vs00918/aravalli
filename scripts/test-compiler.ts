@@ -99,6 +99,13 @@ function runTests() {
     assert.ok(!jsonStr.includes('file:///C:/Users'), 'Output must never expose absolute host filesystem credentials');
   });
 
+  // Test 9: Priority Calibration Invariant (Faithful Reflection of Canonical Source P1s)
+  test('Priority Calibration Invariant (Compiled P1s === Canonical Source P1s)', () => {
+    const { registry } = compileBankingCaRegistry();
+    assert.strictEqual(registry.summary.activeP1Count, 7, `Expected exactly 7 active P1 topics, got ${registry.summary.activeP1Count}`);
+    assert.strictEqual(registry.summary.activeP1RevisionMinutes, 51, `Expected exactly 51 active P1 revision minutes, got ${registry.summary.activeP1RevisionMinutes}`);
+  });
+
   console.log('\n────────────────────────────────────────────────────────');
   console.log(`Results: ${passed} / ${total} Tests Passed`);
   console.log('────────────────────────────────────────────────────────\n');
