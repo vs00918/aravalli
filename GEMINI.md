@@ -10,7 +10,19 @@
 
 ---
 
-## 2. Project Architecture & Installed Skills
+## 2. Continuous Knowledge Ingestion, Merging & Deduplication Invariant
+Every note in *Mind of Aravalli* is a Living Knowledge Base designed to help the human reader gather, revise, and retain first-principles insights effortlessly without cognitive overload.
+
+When any new information, video transcript, or lecture is provided:
+1. **Continuation of Existing Knowledge**: If the topic deepens or refines an existing concept/chapter, **merge it seamlessly into the existing chapter** to expand its explanatory depth rather than creating fragmented duplicate files.
+2. **Truly New Concept**: If it introduces a genuinely new cognitive mechanism, framework, or protocol, **add it as the next chronological chapter in its respective Volume**.
+3. **Duplicate Information**: Detect and **skip duplication**, preserving only the highest signal density and clearest mental models.
+4. **Contradictory Information**: Rigorously **audit against first-principles neuroscience and cognitive psychology** before synthesizing.
+5. **Human Reader Focus**: Keep formatting publication-grade, noise-free, and structured with clear mental models and actionable protocols so the reader never feels overwhelmed.
+
+---
+
+## 3. Project Architecture & Installed Skills
 This workspace is an intellectual laboratory dedicated to knowledge optimization, deep learning, curiosity, cross-disciplinary synthesis, philosophy, psychology, and mind expansion.
 
 The following specialized skills are installed in `.agents/skills/`:
@@ -26,27 +38,18 @@ The following specialized skills are installed in `.agents/skills/`:
 
 ---
 
-## 3. Knowledge Directory Structure Standard
-When creating notes, research documents, or summaries, use the following layout:
-
+## 4. Knowledge Directory Structure Standard
 ```
 mind of aravalli/
 ├── .agents/skills/           # Agent skill definitions
 ├── knowledge-tree/           # Master Knowledge Tree
-│   ├── domains/              # 5 Consolidated Master Domain Treatises
+│   ├── self-development/    # 33 Progressive Master Chapters
 │   └── INDEX.md              # Master Knowledge Tree index & graph
 ├── data/
 │   └── knowledge-registry.json # Compiled Domain Registry
 ├── scripts/
 │   └── build-tree.js         # Automated compiler
-├── notes/
-│   ├── atomic/               # Single-concept evergreen notes
-│   └── subjects/             # Subject-specific deep notes
-├── books/                    # Book deconstructions and summaries
-├── models/                   # Cross-domain mental models and isomorphisms
-├── philosophy-and-mind/      # Epistemology, psychology, and metacognition studies
-├── visual-maps/              # Flowcharts, mind maps, and concept diagrams
-├── index.html                # Live Web Portal SPA
+├── index.html                # Live Web Portal SPA (Continuous Volume Streams)
 ├── README.md                 # Project Overview
 └── GEMINI.md                 # Master workspace index & isolation rules
 ```
