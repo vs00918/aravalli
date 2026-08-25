@@ -8,7 +8,9 @@ interface ExamFocusSectionProps {
 }
 
 export function ExamFocusSection({ examFocus, priority, category }: ExamFocusSectionProps) {
-  const isP1 = priority.startsWith("P1");
+  if (!examFocus || examFocus.length === 0) {
+    return null;
+  }
 
   return (
     <section className="p-5 rounded-2xl bg-[var(--surface-primary)] border border-[var(--border-primary)] space-y-3">
@@ -17,24 +19,14 @@ export function ExamFocusSection({ examFocus, priority, category }: ExamFocusSec
         <span>Exam Focus &amp; Tested Angles</span>
       </div>
 
-      <div className="space-y-2 text-xs sm:text-sm text-[var(--text-muted)] font-sans leading-relaxed">
-        {examFocus && examFocus.length > 0 ? (
-          <ul className="space-y-1.5">
-            {examFocus.map((focus, i) => (
-              <li key={i} className="flex items-start gap-2">
-                <span className="text-amber-400 font-bold">•</span>
-                <span>{focus}</span>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="leading-relaxed">
-            {isP1 
-              ? `High-priority ${category.replace(/_/g, " ")} note for SBI PO / IBPS PO Mains. Focus on exact threshold numbers, mandatory compliance dates, and institutional authority.`
-              : `Important ${category.replace(/_/g, " ")} factual item. Pay close attention to numerical values, scheme outlays, and apex appointments.`}
-          </p>
-        )}
-      </div>
+      <ul className="space-y-1.5 text-xs sm:text-sm text-[var(--text-primary)] font-sans leading-relaxed">
+        {examFocus.map((focus, i) => (
+          <li key={i} className="flex items-start gap-2">
+            <span className="text-amber-400 font-bold">•</span>
+            <span>{focus}</span>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
