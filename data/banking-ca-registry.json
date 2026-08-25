@@ -1,30 +1,15 @@
 {
-  "volumes": [
-    {
-      "id": "banking-ca-2026",
-      "slug": "banking-ca-2026",
-      "number": 1,
-      "title": "Banking & Economy Current Affairs (April 2026 – Oct 2026)",
-      "shortTitle": "Banking CA 2026",
-      "icon": "🏦",
-      "tagline": "SBI PO & IBPS PO Mains Exam Intelligence",
-      "description": "High-yield, deduplicated, and exam-filtered current affairs covering RBI regulations, banking reforms, monetary policy, schemes, and reports.",
-      "chapters": [
-        {
-          "slug": "01-august-2026-cgb-part-1",
-          "number": 1,
-          "title": "Banking & Economy CA: 1st – 11th August 2026",
-          "subtitle": "Audited baseline covering 62nd MPC, UCB on-tap norms, NBFC-UL Tata Sons, and recovery guidelines."
-        },
-        {
-          "slug": "02-august-2026-cgb-part-2",
-          "number": 2,
-          "title": "Banking & Economy CA: 12th – 20th August 2026",
-          "subtitle": "Calibrated ingestion covering RBI interest rate draft, SEBI single Form A, and DEA fund data."
-        }
-      ]
-    }
-  ],
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-25T18:00:00Z",
+  "activeWindowStart": "2026-04-01",
+  "summary": {
+    "totalCanonicalTopics": 67,
+    "activeP1Count": 12,
+    "activeP1RevisionMinutes": 82,
+    "totalP2Count": 26,
+    "totalP3Count": 29,
+    "totalBatchesIngested": 2
+  },
   "topics": {
     "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026": {
       "id": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
@@ -2163,13 +2148,74 @@
       "contentMarkdown": "* **Fitch Sovereign Rating**: Affirmed India’s sovereign rating at **'BBB-' with Stable outlook**."
     }
   },
-  "summary": {
-    "totalCanonicalTopics": 67,
-    "activeP1Count": 12,
-    "activeP1RevisionMinutes": 82,
-    "totalP2Count": 26,
-    "totalP3Count": 29,
-    "totalBatchesIngested": 2
+  "topicSlugMap": {
+    "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+    "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs": "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
+    "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+    "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip",
+    "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay",
+    "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana",
+    "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
+    "rbi-loan-recovery-directions-financed-smartphone-lockout-norms": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+    "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027": "d-sib-framework-rbi-leverage-ratio-buffer-effective-april-1-2027",
+    "rbi-credit-valuation-adjustment-cva-risk-capital-framework": "rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+    "priority-sector-lending-psl-nri-deposit-forex-swap-relief": "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+    "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min": "pradhan-mantri-surya-sarovar-yojana-pm-ssy-5-min",
+    "nepal-rastra-bank-permits-200-500-indian-notes-3-min": "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
+    "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min": "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+    "bankers-books-evidence-act-2026-2-min": "bankers-books-evidence-act-2026-2-min",
+    "urban-challenge-fund-ucf-adb-1-billion-loan-4-min": "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+    "samudra-manthan-national-offshore-exploration-scheme-4-min": "samudra-manthan-national-offshore-exploration-scheme-4-min",
+    "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min": "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+    "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min": "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+    "irdai-master-regulations-protec-licence-4-min": "irdai-master-regulations-protec-licence-4-min",
+    "irdai-approves-magma-general-insurance-acquisition-2-min": "irdai-approves-magma-general-insurance-acquisition-2-min",
+    "day-nrlm-self-help-group-bank-credit-milestone-3-min": "day-nrlm-self-help-group-bank-credit-milestone-3-min",
+    "khelo-india-ansf-expansion-3-min": "khelo-india-ansf-expansion-3-min",
+    "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min": "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
+    "apex-financial-regulatory-appointments-6-min": "apex-financial-regulatory-appointments-6-min",
+    "ncdex-nidhi": "ncdex-nidhi",
+    "mha-e-zero-firs": "mha-e-zero-firs",
+    "pmksy-10-year-review": "pmksy-10-year-review",
+    "fields-medals-2026": "fields-medals-2026",
+    "bimco-ics-seafarer-workforce-report-2026": "bimco-ics-seafarer-workforce-report-2026",
+    "defence-vessels": "defence-vessels",
+    "bharatnet-phase-iii-odisha": "bharatnet-phase-iii-odisha",
+    "sebi-isin-limit": "sebi-isin-limit",
+    "ad-category-ii-licences": "ad-category-ii-licences",
+    "repco-bank": "repco-bank",
+    "sports": "sports",
+    "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026": "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
+    "public-sector-banks-asset-quality-fy26-3-min": "public-sector-banks-asset-quality-fy26-3-min",
+    "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min": "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
+    "government-approves-1-billion-polymer-banknotes-of-10-20-3-min": "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
+    "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min": "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
+    "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min": "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
+    "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min": "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
+    "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min": "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
+    "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min": "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
+    "sebi-retail-equity-f-o-loss-curtailment-report-2-min": "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+    "pfrda-nps-e-shramik-model-for-gig-workers-3-min": "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
+    "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+    "apex-appointments-4-min": "apex-appointments-4-min",
+    "blue-bonds": "blue-bonds",
+    "sebi-digital-kyc-proposal": "sebi-digital-kyc-proposal",
+    "sebi-fast-track-settlement": "sebi-fast-track-settlement",
+    "sebi-bullion-vaulting": "sebi-bullion-vaulting",
+    "bse-msci": "bse-msci",
+    "bofa-jio-credit": "bofa-jio-credit",
+    "prudential-bharti-life": "prudential-bharti-life",
+    "postransfer-remittances": "postransfer-remittances",
+    "mca-accounting-rules": "mca-accounting-rules",
+    "80th-independence-day-announcements": "80th-independence-day-announcements",
+    "eu-cbam": "eu-cbam",
+    "defence-srijan-portal": "defence-srijan-portal",
+    "national-sports-awards-2025": "national-sports-awards-2025",
+    "parichha-dam-jhansi-betwa-river": "parichha-dam-jhansi-betwa-river",
+    "wipo-genai-patent-report": "wipo-genai-patent-report",
+    "dot-sim-card-rule": "dot-sim-card-rule",
+    "jal-jeevan-mission-jjm": "jal-jeevan-mission-jjm",
+    "fitch-sovereign-rating": "fitch-sovereign-rating"
   },
   "indexes": {
     "byPriority": {
@@ -2502,5 +2548,39 @@
     "changeSensitiveTopicIds": [
       "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026"
     ]
-  }
+  },
+  "batches": [
+    {
+      "batchId": "01-august-2026-cgb-part-1",
+      "sourceName": "CGB Mentors & Smartkeeda",
+      "dateRange": "1st – 11th August 2026",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 114,
+      "duplicatesCount": 12,
+      "enrichmentsCount": 8,
+      "updatesCount": 0,
+      "newTopicsCount": 36,
+      "ignoredCount": 48,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 36,
+      "verificationPendingCount": 25,
+      "mentorVerdict": "Audited baseline covering 62nd MPC, UCB on-tap norms, NBFC-UL Tata Sons, and recovery guidelines."
+    },
+    {
+      "batchId": "02-august-2026-cgb-part-2",
+      "sourceName": "CGB Mentors",
+      "dateRange": "12th – 20th August 2026",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 82,
+      "duplicatesCount": 6,
+      "enrichmentsCount": 4,
+      "updatesCount": 1,
+      "newTopicsCount": 31,
+      "ignoredCount": 28,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 31,
+      "verificationPendingCount": 13,
+      "mentorVerdict": "Calibrated ingestion covering RBI interest rate draft, SEBI single Form A, and DEA fund data."
+    }
+  ]
 }
