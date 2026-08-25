@@ -3,9 +3,9 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Seeding Mind of Aravalli database with progressive knowledge architecture...");
+  console.log("Seeding Mind of Aravalli with refined knowledge architecture & roadmaps...");
 
-  // Clean old records to ensure clean order & difficulty migration
+  // Clean old records for pristine state
   await prisma.connection.deleteMany({});
   await prisma.sourceConcept.deleteMany({});
   await prisma.concept.deleteMany({});
@@ -54,7 +54,7 @@ async function main() {
       order: 2,
       oneLiner: "The fundamental microscopic units of chemical elements, consisting of a dense central nucleus surrounded by a cloud of electrons.",
       intuition: "If an atom were enlarged to the size of a cathedral, the nucleus would be a tiny marble at the center, and the electrons would be faint ripples at the outer boundary. Over 99.999% of an atom is non-classical vacuum.",
-      howItWorks: "An atom consists of a nucleus containing positively charged protons and neutral neutrons (bound by the strong nuclear force), surrounded by negatively charged electrons bound by electromagnetism. Electrons do not travel on fixed circular tracks, but exist as three-dimensional quantum probability clouds governed by the Schrödinger equation.",
+      howItWorks: "An atom consists of a nucleus containing positively charged protons and neutral neutrons (bound by the strong nuclear force), surrounded by negatively charged electrons bound by electromagnetism. Electrons exist as three-dimensional quantum probability clouds governed by the Schrödinger equation.",
       firstPrinciples: "Quantum wave-particle duality and the Pauli Exclusion Principle: Identical fermions cannot occupy the same quantum state, giving solid matter its apparent rigidity and chemical stability.",
       mathematicalModel: "i\\hbar \\frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi",
       commonMisconceptions: "Visualizing electrons as tiny planets orbiting a sun-like nucleus. In reality, electrons behave as continuous probability wavefunctions until measured.",
@@ -144,7 +144,7 @@ async function main() {
       howItWorks: "Electrons drift through a metal lattice when an external electric field creates a voltage differential. Ohm's Law (V = IR) and Joule heating (P = I²R) govern the transmission and loss of electrical power.",
       firstPrinciples: "Electromagnetic interaction and charge conservation: Net electrical charge is conserved across all circuits.",
       mathematicalModel: "V = IR \\quad \\text{and} \\quad P = VI = I^2 R",
-      commonMisconceptions: "Believing individual electrons travel near light speed through a wire. Individual electron drift velocity is surprisingly slow (~millimeter per second), but the electromagnetic field propagates at nearly the speed of light.",
+      commonMisconceptions: "Believing individual electrons travel near light speed through a wire. Individual electron drift velocity is slow (~mm/s), but the electromagnetic field propagates at nearly light speed.",
       whyItMatters: "Electricity is the primary vector for transporting clean energy instantaneously across continental power grids.",
       example: "A high-voltage transmission line transporting megawatts of solar power from a desert array to a city hundreds of kilometers away.",
     },
@@ -179,7 +179,7 @@ async function main() {
       order: 3,
       description: "How living organisms maintain order, reproduce, and evolve across generations.",
       overview:
-        "Biology is the study of matter organized to resist thermodynamic decay by processing information. This volume traces the living hierarchy from membrane-bound cells and DNA software to evolutionary algorithms, ecosystems, and synthetic biology.",
+        "Biology is the study of matter organized to resist thermodynamic decay by processing information and energy. This volume traces the living hierarchy from membrane-bound cells and DNA software to evolutionary algorithms, ecosystems, and synthetic biology.",
     },
   });
 
@@ -194,7 +194,7 @@ async function main() {
       intuition: "A biological cell is like a self-maintaining chemical factory surrounded by a security wall (the lipid membrane). It intakes raw materials, burns fuel, manufactures parts, and exports waste.",
       howItWorks: "All cells possess a lipid bilayer membrane separating internal biochemistry from the environment, metabolic machinery for energy conversion (such as ATP generation), and genetic material encoding operational instructions.",
       firstPrinciples: "Cell Theory: All living organisms are composed of one or more cells, and all cells arise from pre-existing cells.",
-      mathematicalModel: "\\Delta G = \\Delta H - T\\Delta S \\quad \\text{(Bioenergetic driving force)}",
+      mathematicalModel: "\\Delta G = \\Delta H - T\\Delta S",
       commonMisconceptions: "Viewing cells as static sacs of liquid. In reality, the cytoplasm is a crowded, highly organized molecular metropolis packed with motor proteins moving on microtubule highways.",
       whyItMatters: "Understanding cellular mechanics is the foundation of all medicine, pharmacology, immunology, and bioengineering.",
       example: "A human red blood cell transporting oxygen via hemoglobin molecules while maintaining osmotic equilibrium in the bloodstream.",
@@ -221,19 +221,19 @@ async function main() {
 
   await prisma.concept.create({
     data: {
-      slug: "negentropy",
-      title: "Schrödinger's Negentropy",
+      slug: "how-life-maintains-order",
+      title: "How Life Maintains Order",
       chapterId: ch3.id,
       difficulty: "ADVANCED",
       order: 3,
-      oneLiner: "The physical process by which open living organisms maintain internal structural order by continually exporting entropy into their surrounding environment.",
-      intuition: "A living animal is like a refrigerator: it keeps its interior cool and organized by continuously pumping exhaust heat out the back into the surrounding kitchen. Death occurs the moment metabolism stops and the organism reaches thermal equilibrium with its environment.",
-      howItWorks: "As Erwin Schrödinger articulated in 'What Is Life?' (1944), an organism maintains its non-equilibrium state by metabolizing high-grade chemical energy and radiating low-grade thermal waste, ensuring total cosmic entropy still increases.",
-      firstPrinciples: "Open-system non-equilibrium thermodynamics: Life obeys the Second Law by acting as an efficient entropy-exporting dissipation structure.",
+      oneLiner: "How living organisms function as open thermodynamic systems, continuously taking in energy and matter from their environment to maintain internal organization and avoid physical decay.",
+      intuition: "A living organism is like a refrigerator: it keeps its internal contents cool and orderly by continually consuming electricity and exhausting heat out the back into the kitchen. If unplugged, thermal equilibrium takes over and the interior warms up to match the room.",
+      howItWorks: "Living organisms are open physical systems far from thermodynamic equilibrium. Through metabolism and active transport, cells continuously convert high-grade chemical energy (glucose, sunlight) into work and dissipate low-grade thermal waste (heat) into their surroundings, ensuring total entropy in the universe increases while preserving local biological order.",
+      firstPrinciples: "Open-system non-equilibrium thermodynamics: Living systems obey the Second Law by exporting entropy to their environment faster than they generate it internally.",
       mathematicalModel: "\\frac{dS}{dt} = \\frac{dS_{\\text{internal}}}{dt} + \\frac{dS_{\\text{external}}}{dt}, \\quad \\text{where } \\frac{dS_{\\text{external}}}{dt} > |\\frac{dS_{\\text{internal}}}{dt}|",
-      commonMisconceptions: "Believing that life violates the laws of physics. Life does not violate thermodynamics; it pays for internal order by accelerating environmental entropy production.",
-      whyItMatters: "Provides the first strictly physical, non-mystical explanation for what distinguishes living matter from inanimate rocks.",
-      example: "A green plant absorbing low-entropy visible sunlight and radiating high-entropy infrared heat to assemble organized glucose molecules.",
+      commonMisconceptions: "Assuming life violates the Second Law of Thermodynamics. Life obeys physics completely; it requires a continuous throughput of environmental energy to preserve internal structure.",
+      whyItMatters: "Provides the foundational physical perspective on what life is—an organized, self-regulating dissipation structure processing energy and information.",
+      example: "A photosynthetic plant capturing low-entropy visible photons from sunlight and radiating diffuse high-entropy infrared heat while synthesizing complex glucose molecules.",
     },
   });
 
@@ -260,7 +260,7 @@ async function main() {
       difficulty: "FOUNDATION",
       order: 1,
       oneLiner: "A circular causal chain where a system's output is routed back as an input, either dampening changes (negative feedback) or amplifying them (positive feedback).",
-      intuition: "A home thermostat: When the room gets too cold, the heater turns on; when it warms up, the heater turns off (negative feedback / stabilization). A microphone placed near a speaker: The sound gets amplified in an escalating screech (positive feedback / runaway amplification).",
+      intuition: "A home thermostat: When the room gets too cold, the heater turns on; when it warms up, the heater turns off (negative feedback / stabilization). A microphone near a speaker: Sound gets amplified in an escalating screech (positive feedback / runaway amplification).",
       howItWorks: "Negative feedback acts as a restoring force opposing deviation from a setpoint. Positive feedback compounds deviations, often driving exponential growth until hitting an environmental ceiling or triggering a phase change.",
       firstPrinciples: "System dynamics and circular causality: Outputs modify future inputs.",
       mathematicalModel: "G_{\\text{closed}} = \\frac{A}{1 + A\\beta}",
@@ -332,7 +332,7 @@ async function main() {
       intuition: "Without money, a dentist who wants bread must find a baker who needs a tooth pulled (the 'coincidence of wants'). Money allows anyone to trade time and labor for a universally accepted token.",
       howItWorks: "Money evolves from commodity forms (gold, salt) to paper notes and digital ledgers. Its value relies on collective institutional trust, legal tender laws, and sovereign tax obligations.",
       firstPrinciples: "Reduction of transaction costs and resolution of the double coincidence of wants.",
-      mathematicalModel: "M \\cdot V = P \\cdot Y \\quad \\text{(Equation of Exchange)}",
+      mathematicalModel: "M \\cdot V = P \\cdot Y",
       commonMisconceptions: "Thinking money must be backed by a physical commodity like gold to have value. Most modern money is fiat, backed by institutional stability and state tax-demand.",
       whyItMatters: "Understanding money is essential for understanding banking, inflation, interest rates, and global trade networks.",
       example: "Using a debit card to instantly transfer electronic bank ledger credits to buy groceries across town.",
@@ -357,7 +357,7 @@ async function main() {
     },
   });
 
-  console.log("Database seeded successfully with 5 Master Chapters and progressive difficulty tiers!");
+  console.log("Database seeded successfully with updated concept titles and roadmaps!");
 }
 
 main()

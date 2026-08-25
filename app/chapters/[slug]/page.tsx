@@ -1,6 +1,6 @@
 import React from "react";
 import { notFound } from "next/navigation";
-import { getChapterBySlug, getAllChapters } from "@/lib/db/chapters";
+import { getChapterBySlug } from "@/lib/db/chapters";
 import { ChapterHeader } from "@/components/chapters/ChapterHeader";
 import { ChapterOverview } from "@/components/chapters/ChapterOverview";
 import { ChapterTOC } from "@/components/chapters/ChapterTOC";
@@ -31,10 +31,10 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
       {/* 2. Domain Scope & Overview */}
       <ChapterOverview overview={chapter.overview} />
 
-      {/* 3. Table of Contents */}
-      <ChapterTOC concepts={concepts} />
+      {/* 3. Documented Concepts & Curriculum Roadmap */}
+      <ChapterTOC chapterSlug={params.slug} concepts={concepts} />
 
-      {/* 4. Concepts in this Chapter */}
+      {/* 4. Documented Learning Path */}
       <ChapterConceptList concepts={concepts} />
     </div>
   );
