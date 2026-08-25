@@ -9,40 +9,40 @@ export function LibraryPreview() {
       slug: "universe-physics",
       title: "Universe & Physics",
       scope:
-        "Fundamental laws of matter, fields, spacetime curvature, quantum unitarity, and the microscopic conservation of information.",
-      constellation: ["Matter", "Spacetime", "Entropy", "Quantum Unitarity", "Hawking Radiation"],
+        "The basic rules that determine how matter, energy, space and time behave.",
+      constellation: ["Matter & Energy", "Atoms", "Entropy", "Quantum Unitarity"],
     },
     {
       index: "02",
       slug: "energy-technology",
       title: "Energy & Technology",
       scope:
-        "Electrochemical thermodynamics, energy density quadrilemmas, storage chemistries, and the converging industrial super-cycles.",
-      constellation: ["Electrochemistry", "Energy Density", "LFP / Na-ion", "V2G Buffers", "Super-Cycles"],
+        "How we generate, store, move and use energy to power human civilization.",
+      constellation: ["What Is Energy?", "Electricity", "Energy Density", "Power Grids"],
     },
     {
       index: "03",
       slug: "biology-life",
       title: "Biology & Life",
       scope:
-        "Schrödinger's negentropy, informational software of DNA, molecular motors, and super-Mendelian CRISPR gene drives.",
-      constellation: ["Negentropy", "DNA Code", "Gene Drives", "Land Sparing", "Synthetic Life"],
+        "How living organisms maintain order, reproduce, and evolve across generations.",
+      constellation: ["The Cell", "DNA & Code", "Maintaining Order", "Evolution"],
     },
     {
       index: "04",
       slug: "complex-systems",
       title: "Complex Systems & Human Body",
       scope:
-        "Emergence in non-linear networks, allometric scaling invariants, swarm stigmergy, and the holobiont microbiome.",
-      constellation: ["Emergence", "Square-Cube Law", "Swarm Intelligence", "Gut-Brain Axis", "Homeostasis"],
+        "How simple individual parts interact to produce unexpected collective behavior.",
+      constellation: ["Feedback Loops", "Networks", "Homeostasis", "Emergence"],
     },
     {
       index: "05",
       slug: "society-money-mind",
       title: "Society, Money & Mind",
       scope:
-        "Demographic momentum invariants, Bayesian signal detection, public-key cryptographic asymmetry, and macroeconomic welfare floors.",
-      constellation: ["Demographic Transition", "Base Rate Fallacy", "UBI", "Welfare Cliffs", "Incentives"],
+        "How human incentives, exchange, institutions, and population dynamics shape collective life.",
+      constellation: ["Incentives", "Money & Trade", "Markets", "Demographics"],
     },
   ];
 
@@ -105,7 +105,7 @@ export function LibraryPreview() {
               </p>
               <div className="flex items-center space-x-1 text-xs font-mono text-slate-400 dark:text-slate-500 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors pt-1">
                 <span>Explore volume</span>
-                <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
           </Link>

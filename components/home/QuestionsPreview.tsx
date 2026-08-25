@@ -7,25 +7,25 @@ export function QuestionsPreview() {
       question: "Why does time appear to move in only one direction?",
       domain: "Universe & Physics",
       framing:
-        "Microscopic laws are time-symmetric, yet the macroscopic cosmos exhibits a strict past-future asymmetry rooted in the low entropy boundary condition of the Big Bang.",
+        "Microscopic laws of physics are reversible, yet the macroscopic world exhibits a strict arrow of time driven by entropy and the low-entropy boundary condition of the early universe.",
     },
     {
       question: "How does inanimate chemistry cross the threshold into self-replicating life?",
       domain: "Biology & Life",
       framing:
-        "The transition from geochemical thermodynamic dissipation to informational autocatalysis, genetic code error-correction, and biological negentropy.",
+        "How simple organic molecules organize into membrane-bound cells that metabolize energy, store genetic instructions in DNA, and reproduce.",
     },
     {
       question: "Why do complex systems develop collective behavior their individual components do not possess?",
       domain: "Complex Systems",
       framing:
-        "Philip Anderson’s invariant ('More is Different'): how simple local interaction rules generate novel macroscopic phase transitions and computational intelligence.",
+        "How simple local rules between interacting parts produce unexpected collective patterns like flocking birds, market prices, and consciousness.",
     },
     {
-      question: "Why does fiat currency retain value in the absence of a physical commodity standard?",
+      question: "Why does fiat currency retain value without a physical gold standard?",
       domain: "Society, Money & Mind",
       framing:
-        "The interplay of sovereign tax liabilities, legal tender enforcement, and self-reinforcing Nash equilibrium expectations across millions of market participants.",
+        "How shared institutional trust, legal tender frameworks, and government tax obligations turn tokens and digital ledgers into universally accepted mediums of exchange.",
     },
   ];
 

@@ -89,7 +89,7 @@ export function Hero() {
             <input
               type="text"
               readOnly
-              placeholder="What do you want to understand? (e.g. Entropy, Emergence, CRISPR)"
+              placeholder="What do you want to understand? (e.g. Entropy, Energy Density, Emergence)"
               className="w-full rounded-xl border border-slate-300/80 dark:border-slate-800 bg-white dark:bg-[#0f1520] pl-11 pr-24 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 shadow-sm hover:border-slate-400 dark:hover:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 cursor-default transition-all"
               title="Search will be enabled in Phase 5"
             />

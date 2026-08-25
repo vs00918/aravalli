@@ -1,19 +1,22 @@
 import React from "react";
+import Link from "next/link";
 import { BookMarked, ArrowRight } from "lucide-react";
 
 export function ContinueExploring() {
   const bookmarks = [
     {
-      title: "Entropy & Microscopic Counting",
+      slug: "entropy",
+      title: "Entropy",
       domain: "Universe & Physics",
       currentLevel: "Level 4: First Principles",
-      summary: "Exploring Boltzmann's multiplicity of states S = k_B ln Ω and irreversible state progression.",
+      summary: "Exploring Boltzmann's multiplicity of states S = k_B ln Ω and why closed systems drift toward higher probability states.",
     },
     {
-      title: "Emergence in Complex Adaptive Systems",
+      slug: "emergence",
+      title: "Emergence",
       domain: "Complex Systems",
       currentLevel: "Level 3: How It Works",
-      summary: "Investigating how local pheromone trails and stigmergy enable ant colonies to solve travelling salesman optimization.",
+      summary: "How simple local rules between interacting parts produce unexpected collective patterns like market pricing and consciousness.",
     },
   ];
 
@@ -32,10 +35,11 @@ export function ContinueExploring() {
 
       {/* Reading Items */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {bookmarks.map((item, idx) => (
-          <div
-            key={idx}
-            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-4 flex flex-col justify-between space-y-3 transition-all hover:border-emerald-500/40 hover:shadow-sm"
+        {bookmarks.map((item) => (
+          <Link
+            key={item.slug}
+            href={`/concepts/${item.slug}`}
+            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-4 flex flex-col justify-between space-y-3 transition-all hover:border-emerald-500/40 hover:shadow-sm block"
           >
             <div className="space-y-1.5">
               <div className="flex items-center justify-between">
@@ -55,10 +59,10 @@ export function ContinueExploring() {
             </div>
 
             <div className="pt-2 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs font-mono text-slate-400 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-              <span>Resume chapter</span>
+              <span>Resume concept</span>
               <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

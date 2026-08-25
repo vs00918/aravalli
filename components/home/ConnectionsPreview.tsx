@@ -1,5 +1,5 @@
 import React from "react";
-import { GitBranch, ArrowRightLeft } from "lucide-react";
+import { GitBranch } from "lucide-react";
 
 export function ConnectionsPreview() {
   const connections = [
@@ -7,21 +7,21 @@ export function ConnectionsPreview() {
       coreConcept: "Entropy & Information",
       bridges: [
         { domain: "Physics", detail: "Multiplicity of microscopic arrangements (Boltzmann: S = k_B ln Ω)" },
-        { domain: "Biology", detail: "Non-equilibrium open systems exporting entropy (Schrödinger Negentropy)" },
+        { domain: "Biology", detail: "Open systems taking in energy to maintain internal order (How Life Maintains Order)" },
         { domain: "Information Theory", detail: "Shannon entropy measuring informational uncertainty (H = -∑ p_i log₂ p_i)" },
       ],
       insight:
-        "The mathematical formula describing heat dissipation in steam engines is structurally identical to the mathematical limit of data compression across optical fibers.",
+        "The mathematical formula describing heat dissipation in physical engines is structurally isomorphic to the mathematical limit of data compression in communication channels.",
     },
     {
       coreConcept: "Negative Feedback & Homeostasis",
       bridges: [
-        { domain: "Endocrinology", detail: "Insulin and glucagon counter-balancing plasma glucose concentration" },
-        { domain: "Cybernetics", detail: "Thermostats and flyball governors dampening oscillation" },
-        { domain: "Macroeconomics", detail: "Central bank counter-cyclical rate adjustments dampening credit bubbles" },
+        { domain: "Endocrinology", detail: "Insulin and glucagon counter-balancing blood sugar concentrations" },
+        { domain: "Cybernetics", detail: "Thermostats and speed governors dampening oscillations" },
+        { domain: "Macroeconomics", detail: "Central bank interest rate adjustments responding to inflation targets" },
       ],
       insight:
-        "Biological survival and financial market stability both depend on restoring forces that oppose deviation from steady-state setpoints.",
+        "Biological survival and systemic stability both depend on restoring forces that oppose deviation from steady-state setpoints.",
     },
   ];
 
