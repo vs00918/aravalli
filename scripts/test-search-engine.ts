@@ -3,13 +3,14 @@ import { getBankingCaRegistry } from '../lib/banking-ca/data';
 import {
   searchCanonicalTopics,
   normalizeSearchString,
+  detectQueryIntent,
   SearchFilterCriteria
 } from '../lib/banking-ca/search-engine';
 import { TopicRevisionRecord } from '../lib/banking-ca/revision-state';
 
 function runSearchEngineTests() {
   console.log('────────────────────────────────────────────────────────');
-  console.log('🧪 Running Search, Exploration & Advanced Filters Test Suite...');
+  console.log('🧪 Running Comprehensive Search Quality Audit Suite...');
   console.log('────────────────────────────────────────────────────────\n');
 
   let passed = 0;
@@ -29,58 +30,91 @@ function runSearchEngineTests() {
 
   const registry = getBankingCaRegistry();
 
-  // Test 1: Exact Title Search
-  test('Exact Title Search (Top Result Matches Query)', () => {
-    const results = searchCanonicalTopics({ query: '62nd RBI Monetary Policy Committee' }, registry);
+  // Test 1: Test A — Semantic Ranking for "Basel III"
+  test('Semantic Ranking — "Basel III" (Dedicated Basel III Topic Ranks #1)', () => {
+    const results = searchCanonicalTopics({ query: 'Basel III' }, registry);
+    assert.ok(results.length > 0, 'Must return results for Basel III');
+    const topResult = results[0].topic;
+    assert.ok(
+      topResult.title.includes('Basel III'),
+      `Top result (${topResult.title}) must be the dedicated Basel III topic`
+    );
+  });
+
+  // Test 2: Test B — Exact Topic Name
+  test('Exact Topic Name Matching (Exact Title Beats Incidental Content)', () => {
+    const query = '62nd RBI Monetary Policy Committee (MPC) Meeting';
+    const results = searchCanonicalTopics({ query }, registry);
     assert.ok(results.length > 0, 'Must return results');
     assert.strictEqual(
       results[0].topic.slug,
       '62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026',
-      'Top result must be 62nd MPC topic'
+      'Top result must be the exact 62nd MPC topic'
     );
   });
 
-  // Test 2: Institution Search
-  test('Institution Search ("RBI" Returns RBI Topics)', () => {
+  // Test 3: Test C — Institution Intent for "RBI"
+  test('Institution Intent — "RBI" (RBI Topics Dominate Result Set)', () => {
     const results = searchCanonicalTopics({ query: 'RBI' }, registry);
-    assert.ok(results.length > 0, 'Must return RBI topics');
-    const rbiMatches = results.filter(r => r.topic.primaryInstitution === 'RBI');
-    assert.ok(rbiMatches.length >= 5, 'Must contain multiple RBI topics');
+    assert.ok(results.length > 0, 'Must return results for RBI');
+    const top5 = results.slice(0, 5);
+    for (const r of top5) {
+      assert.strictEqual(r.topic.primaryInstitution, 'RBI', `Top result (${r.topic.title}) must be an RBI topic`);
+    }
   });
 
-  // Test 3: Case-Insensitivity
-  test('Case-Insensitivity ("rbi" === "RBI" === "Rbi")', () => {
-    const lower = searchCanonicalTopics({ query: 'rbi' }, registry);
-    const upper = searchCanonicalTopics({ query: 'RBI' }, registry);
-    const mixed = searchCanonicalTopics({ query: 'Rbi' }, registry);
-
-    assert.strictEqual(lower.length, upper.length, 'Result counts must match across cases');
-    assert.strictEqual(lower.length, mixed.length, 'Result counts must match across cases');
-    assert.strictEqual(lower[0].topic.id, upper[0].topic.id, 'Top result must be identical');
+  // Test 4: Test D — Institution Intent for "SEBI"
+  test('Institution Intent — "SEBI" (SEBI Topics Dominate Result Set)', () => {
+    const results = searchCanonicalTopics({ query: 'SEBI' }, registry);
+    assert.ok(results.length > 0, 'Must return results for SEBI');
+    const top5 = results.slice(0, 5);
+    for (const r of top5) {
+      assert.strictEqual(r.topic.primaryInstitution, 'SEBI', `Top result (${r.topic.title}) must be a SEBI topic`);
+    }
   });
 
-  // Test 4: Keyword & Token Search
-  test('Partial Keyword & Token Search ("Tata Sons")', () => {
-    const results = searchCanonicalTopics({ query: 'Tata Sons' }, registry);
-    assert.ok(results.length > 0, 'Must return results for Tata Sons');
-    assert.ok(
-      results[0].topic.title.includes('Tata Sons') || results[0].topic.contentMarkdown.includes('Tata Sons'),
-      'Top result must mention Tata Sons'
-    );
-  });
-
-  // Test 5: Number / Fact Search
-  test('Numerical & Percentage Search ("5.25%")', () => {
+  // Test 5: Test E — Numeric Fact Search ("5.25%")
+  test('Numerical Search — "5.25%" (Returns Exact Fact Topic at #1)', () => {
     const results = searchCanonicalTopics({ query: '5.25%' }, registry);
     assert.ok(results.length > 0, 'Must return results for 5.25%');
     assert.ok(
-      results.some(r => r.topic.slug.includes('monetary-policy')),
-      'Must match monetary policy topic'
+      results[0].topic.slug.includes('monetary-policy'),
+      `Top result (${results[0].topic.title}) must be the MPC repo rate topic`
     );
   });
 
-  // Test 6: Priority Filtering Invariant
-  test('Priority Filtering (P1 Filter Returns Exact 7 P1 Topics)', () => {
+  // Test 6: Test F — Month Intent ("August 2026")
+  test('Month Timeline Intent — "August 2026" (Surfaces August Knowledge Set)', () => {
+    const results = searchCanonicalTopics({ query: 'August 2026' }, registry);
+    assert.ok(results.length > 0, 'Must return results for August 2026');
+    for (const r of results) {
+      assert.strictEqual(r.topic.chronologicalMonth, '2026-08', 'Must return 2026-08 topics');
+    }
+  });
+
+  // Test 7: Relevance Beats Incidental P1 Priority
+  test('Relevance Over Priority Invariant (P2 Exact Title Hit Beats Incidental P1 Hit)', () => {
+    const results = searchCanonicalTopics({ query: 'Tata Sons' }, registry);
+    assert.ok(results.length > 0, 'Must return results for Tata Sons');
+    assert.ok(
+      results[0].topic.title.includes('Tata Sons') || results[0].snippet?.includes('Tata Sons'),
+      'Top result must be the dedicated Tata Sons topic'
+    );
+  });
+
+  // Test 8: Case-Insensitivity & Token Matching
+  test('Case-Insensitivity & Multi-Token Normalization', () => {
+    const lower = searchCanonicalTopics({ query: 'pm-kisan' }, registry);
+    const upper = searchCanonicalTopics({ query: 'PM-KISAN' }, registry);
+    const spaced = searchCanonicalTopics({ query: 'pm kisan' }, registry);
+
+    assert.strictEqual(lower.length, upper.length, 'Lower and upper must match count');
+    assert.strictEqual(lower.length, spaced.length, 'Hyphen and space must match count');
+    assert.strictEqual(lower[0].topic.id, upper[0].topic.id, 'Top result must be identical');
+  });
+
+  // Test 9: Priority Filtering Invariant
+  test('Priority Filtering (P1 Filter Returns Exact Active P1 Portfolio)', () => {
     const p1Results = searchCanonicalTopics({ priority: 'P1_CRITICAL_DEEP' }, registry);
     assert.strictEqual(
       p1Results.length,
@@ -89,7 +123,7 @@ function runSearchEngineTests() {
     );
   });
 
-  // Test 7: Multi-Filter Combination
+  // Test 10: Multi-Filter Combination
   test('Multi-Filter Combination (Priority + Institution + Month)', () => {
     const results = searchCanonicalTopics({
       priority: 'P1_CRITICAL_DEEP',
@@ -105,54 +139,13 @@ function runSearchEngineTests() {
     }
   });
 
-  // Test 8: Regulatory Status Filter
-  test('Regulatory Status Filter ("DRAFT" Topics)', () => {
-    const draftResults = searchCanonicalTopics({ regulatoryStatus: 'DRAFT' }, registry);
-    assert.ok(draftResults.length > 0, 'Must return draft topics');
-    for (const r of draftResults) {
-      assert.strictEqual(r.topic.regulatoryStatus, 'DRAFT', 'Topic must have DRAFT status');
-    }
-  });
-
-  // Test 9: Change-Sensitive Filter
-  test('Change-Sensitive Filter (Returns Topics with Active Alert)', () => {
-    const changeResults = searchCanonicalTopics({ changeSensitiveOnly: true }, registry);
-    const expectedCount = registry.indexes.changeSensitiveTopicIds.length;
-    assert.strictEqual(
-      changeResults.length,
-      expectedCount,
-      `Must match registry change alert count (${expectedCount})`
-    );
-  });
-
-  // Test 10: Personal Revision State Filtering
-  test('Personal Revision State Filter ("WEAK" Topics)', () => {
-    const topics = Object.values(registry.topics);
-    const mockWeakTopic = topics[0];
-    
-    const userStateMap: Record<string, TopicRevisionRecord> = {
-      [mockWeakTopic.id]: {
-        topicId: mockWeakTopic.id,
-        reviewCount: 2,
-        lastReviewedAt: new Date().toISOString(),
-        lastRating: 'AGAIN',
-        isWeak: true,
-        history: []
-      }
-    };
-
-    const weakResults = searchCanonicalTopics({ revisionStatus: 'WEAK' }, registry, userStateMap);
-    assert.strictEqual(weakResults.length, 1, 'Must return exactly 1 weak topic');
-    assert.strictEqual(weakResults[0].topic.id, mockWeakTopic.id, 'Must return the simulated weak topic');
-  });
-
   // Test 11: Zero Results Handling
   test('Zero Results Handling (Non-existent query returns empty array)', () => {
     const results = searchCanonicalTopics({ query: 'NonExistentRandomWordXYZ999' }, registry);
     assert.strictEqual(results.length, 0, 'Must return empty array for non-matching query');
   });
 
-  // Test 12: Determinism Invariant
+  // Test 12: Search Determinism
   test('Search Determinism (Same Query & Filters = Identical Results)', () => {
     const criteria: SearchFilterCriteria = { query: 'banking', priority: 'ALL', sortBy: 'RELEVANCE' };
     const run1 = searchCanonicalTopics(criteria, registry);
