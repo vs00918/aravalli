@@ -3,7 +3,7 @@
  * Production-safe PWA and Offline Cache Layer
  */
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2-banking-ca';
 const STATIC_CACHE = `ca-static-${CACHE_VERSION}`;
 const DATA_CACHE = `ca-data-${CACHE_VERSION}`;
 const PAGES_CACHE = `ca-pages-${CACHE_VERSION}`;
@@ -35,8 +35,9 @@ const getCoreAssets = () => {
   ];
 };
 
-// 1. Installation: Pre-cache Core Offline Shell
+// 1. Installation: Pre-cache Core Offline Shell & Skip Waiting Immediately
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(STATIC_CACHE).then((cache) => {
       return cache.addAll(getCoreAssets()).catch((err) => {
@@ -46,7 +47,7 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// 2. Activation: Clean Stale/Obsolete Caches
+// 2. Activation: Clean Stale/Obsolete Caches Immediately
 self.addEventListener('activate', (event) => {
   const currentCaches = [STATIC_CACHE, DATA_CACHE, PAGES_CACHE];
   event.waitUntil(
@@ -54,6 +55,7 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         keys.map((key) => {
           if (!currentCaches.includes(key)) {
+            console.log('Purging obsolete cache:', key);
             return caches.delete(key);
           }
         })
