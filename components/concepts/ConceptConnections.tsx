@@ -1,6 +1,5 @@
 import React from "react";
-import { GitFork, ArrowUpRight } from "lucide-react";
-import Link from "next/link";
+import { GitFork } from "lucide-react";
 import { Connection } from "@/lib/types";
 
 interface ConceptConnectionsProps {
@@ -16,27 +15,27 @@ export function ConceptConnections({ conceptSlug, connections = [] }: ConceptCon
   > = {
     entropy: [
       {
-        domain: "Physics & Thermodynamics",
-        subtopic: "Statistical Mechanics",
-        note: "Direct physical count of accessible microstates in closed thermodynamic systems.",
+        domain: "Statistical Physics",
+        subtopic: "Microstate Multiplicity",
+        note: "Direct physical count of microscopic quantum states compatible with observed macroscopic thermodynamic constraints.",
         type: "physical",
       },
       {
         domain: "Information Theory",
-        subtopic: "Shannon Entropy",
-        note: "Isomorphic mathematical formula (H = -∑ p log p) measuring average uncertainty or informational surprise in message channels.",
+        subtopic: "Shannon Information Entropy",
+        note: "Mathematical Structural Connection: Shares the logarithmic probability weighting formula (H = -∑ p_i log₂ p_i) measuring uncertainty and data compression limits. While structurally isomorphic, information entropy is not physically identical to thermodynamic heat dissipation in all contexts.",
         type: "isomorphism",
       },
       {
         domain: "Biology & Life",
-        subtopic: "Open Dissipation Systems",
-        note: "Living cells maintain internal order by exporting entropy into their surrounding environment.",
+        subtopic: "Open Thermodynamic Systems",
+        note: "Living cells maintain internal organization and avoid decay by continually taking in high-grade chemical energy and exporting thermal entropy to their surroundings.",
         type: "physical",
       },
       {
         domain: "Cosmology",
         subtopic: "Thermodynamic Arrow of Time",
-        note: "Cosmological low-entropy initial conditions (the Big Bang) dictate why time flows forward monotonically.",
+        note: "The cosmological past hypothesis (that the early universe began in an extraordinarily low-entropy state) explains why macroscopic processes proceed forward in time.",
         type: "physical",
       },
     ],
