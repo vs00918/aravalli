@@ -1,6 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Link from "next/link";
-import { Clock, ArrowLeft, Landmark, Tag } from "lucide-react";
+import { Clock, ArrowLeft, Landmark, Tag, Zap, Layers } from "lucide-react";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 
 interface TopicHeaderProps {
@@ -11,23 +13,36 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
   const isP1 = topic.priority.startsWith("P1");
   const isP2 = topic.priority === "P2_HIGH";
 
+  // Track last visited topic in localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem("banking_ca_last_slug", topic.slug);
+      localStorage.setItem("banking_ca_last_title", topic.title);
+    } catch {
+      // Ignore in SSR
+    }
+  }, [topic.slug, topic.title]);
+
   const priorityColor = isP1
-    ? "bg-emerald-100 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800/40"
+    ? "bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-800/50"
     : isP2
-    ? "bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-800/40"
-    : "bg-stone-200 dark:bg-slate-900 text-stone-800 dark:text-slate-400 border-stone-300 dark:border-slate-700/40";
+    ? "bg-[var(--surface-elevated)] text-[var(--text-primary)] border border-[var(--border-primary)]"
+    : "bg-[var(--surface-elevated)] text-[var(--text-subtle)] border border-[var(--border-primary)]";
 
   return (
-    <header className="space-y-4 pb-6 border-b border-[var(--border-primary)]">
+    <header className="space-y-4 pb-6 border-b border-[var(--border-primary)] select-none">
       {/* Navigation Breadcrumb */}
       <div className="flex items-center justify-between">
-        <Link
-          href="/topics"
-          className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-[var(--text-muted)] hover:text-emerald-800 dark:hover:text-emerald-400 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Back to Canonical Directory</span>
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link
+            href={`/briefing/${topic.chronologicalMonth}`}
+            className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-amber-900 dark:text-amber-400 hover:underline transition-colors"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>← Current Affairs / {topic.chronologicalMonth} Stream</span>
+          </Link>
+        </div>
+
         <span className="text-[11px] font-mono text-[var(--text-subtle)]">
           {topic.chronologicalMonth} ({topic.chronologicalWeek})
         </span>
@@ -40,7 +55,7 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
         </span>
 
         <span className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-[var(--surface-elevated)] text-[var(--text-primary)] font-semibold border border-[var(--border-primary)]">
-          <Landmark className="w-3.5 h-3.5 text-emerald-700 dark:text-emerald-400" />
+          <Landmark className="w-3.5 h-3.5 text-amber-900 dark:text-amber-400" />
           <span>{topic.primaryInstitution}</span>
         </span>
 
@@ -57,14 +72,15 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
 
         <div className="flex items-center gap-3 ml-auto">
           <span className="flex items-center gap-1 text-[var(--text-subtle)] font-semibold">
-            <Clock className="w-3.5 h-3.5 text-emerald-700 dark:text-emerald-400" />
+            <Clock className="w-3.5 h-3.5 text-amber-900 dark:text-amber-400" />
             <span>~{topic.revisionMinutes} min</span>
           </span>
           <Link
-            href={`/revision?topic=${topic.slug}`}
-            className="px-3 py-1.5 rounded-lg bg-emerald-800 hover:bg-emerald-700 dark:bg-emerald-700 dark:hover:bg-emerald-600 text-white font-mono text-xs font-bold transition-colors inline-flex items-center gap-1 shadow-sm"
+            href="/revision"
+            className="px-3 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-mono text-xs font-bold transition-all inline-flex items-center gap-1.5 shadow-xs"
           >
-            <span>Revise Topic</span>
+            <Zap className="w-3.5 h-3.5 fill-current" />
+            <span>⚡ Drill Unit</span>
           </Link>
         </div>
       </div>

@@ -5,38 +5,57 @@
 @tailwind utilities;
 
 @layer base {
-  /* Default / Kindle Sepia Theme (Warm Parchment Paper) */
+  /* 1. Default Kindle Sepia Theme (Warm Paper & Dark Espresso Ink) */
   :root,
   .sepia {
-    --bg-primary: #f8f1e3;
-    --surface-primary: #fcf7ed;
-    --surface-elevated: #f1e4ce;
-    --surface-hover: #e8d7bc;
-    --border-primary: #e0d0b5;
-    --border-hover: #cbb493;
-    --text-primary: #2d231a;
-    --text-muted: #665545;
-    --text-subtle: #8e7a68;
+    --bg-primary: #f6ecdc;
+    --surface-primary: #fbf3e6;
+    --surface-elevated: #eedfc7;
+    --surface-hover: #e5d3b6;
+    --border-primary: #dcbe98;
+    --border-hover: #c49f70;
+    --text-primary: #291e14;
+    --text-muted: #5e4734;
+    --text-subtle: #8a6f56;
+    --accent: #8b4513;
+    --accent-subtle: #f0debe;
+    --reader-font-size: 15px;
+  }
+
+  /* 2. Warm Bright Reading Mode (Soft Cream Paper) */
+  .warm {
+    --bg-primary: #fdfaf3;
+    --surface-primary: #ffffff;
+    --surface-elevated: #f5eedf;
+    --surface-hover: #ebe0cb;
+    --border-primary: #e4d8c2;
+    --border-hover: #cbbaa0;
+    --text-primary: #231c16;
+    --text-muted: #625345;
+    --text-subtle: #8e7c6c;
     --accent: #0f766e;
-    --accent-subtle: #ebd7be;
+    --accent-subtle: #e8dbbe;
+    --reader-font-size: 15px;
   }
 
-  /* Kindle Warm Night Sepia (Dark Warm Espresso Mode) */
+  /* 3. Kindle Warm Night Sepia (Dark Roasted Espresso) */
+  .night,
   .dark {
-    --bg-primary: #181410;
-    --surface-primary: #221c17;
-    --surface-elevated: #2d241c;
-    --surface-hover: #3a2e24;
-    --border-primary: #382c23;
-    --border-hover: #4e3f32;
-    --text-primary: #eee2d0;
+    --bg-primary: #15110e;
+    --surface-primary: #1e1814;
+    --surface-elevated: #28201b;
+    --surface-hover: #332922;
+    --border-primary: #382c24;
+    --border-hover: #4e3e33;
+    --text-primary: #eee1cf;
     --text-muted: #b09e8c;
-    --text-subtle: #827262;
-    --accent: #10b981;
-    --accent-subtle: #3a2a18;
+    --text-subtle: #847363;
+    --accent: #d97706;
+    --accent-subtle: #362618;
+    --reader-font-size: 15px;
   }
 
-  /* Clean Paper Light Mode */
+  /* 4. Clean Paper Light Mode (Optional) */
   .light {
     --bg-primary: #fdfdfc;
     --surface-primary: #ffffff;
@@ -49,6 +68,7 @@
     --text-subtle: #8c959f;
     --accent: #047857;
     --accent-subtle: #d1fae5;
+    --reader-font-size: 15px;
   }
 
   body {
@@ -62,6 +82,17 @@
   }
 }
 
+/* Reader Typography Scaling */
+.reader-canvas {
+  font-size: var(--reader-font-size, 15px);
+}
+
+.reader-canvas p,
+.reader-canvas li,
+.reader-canvas div {
+  font-size: 1em;
+}
+
 /* Custom Minimalist Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
@@ -71,15 +102,44 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(142, 122, 104, 0.3);
+  background: rgba(138, 111, 86, 0.35);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(15, 118, 110, 0.5);
+  background: rgba(139, 69, 19, 0.6);
 }
 
 /* Subtle focus ring for accessibility */
 *:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+/* Clean Print / PDF Stylesheet */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  aside,
+  header,
+  nav,
+  .no-print,
+  button,
+  .pwa-banner {
+    display: none !important;
+  }
+  main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .reader-canvas {
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
 }
