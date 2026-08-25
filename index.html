@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mind of Aravalli — The Living Encyclopedia of Cognitive Neuroscience</title>
+  <title>Mind of Aravalli — Living Encyclopedia of Cognitive Neuroscience</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -29,6 +29,7 @@
               500: '#22c55e',
               600: '#16a34a',
               700: '#15803d',
+              800: '#166534',
               900: '#14532d',
             }
           }
@@ -48,16 +49,33 @@
   <style>
     body {
       transition: background-color 0.2s ease, color 0.2s ease;
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     }
     .math-block {
       overflow-x: auto;
       padding: 1.25rem;
-      border-radius: 1rem;
-      margin: 1.25rem 0;
+      border-radius: 0.875rem;
+      margin: 1.5rem 0;
     }
-    pre {
-      white-space: pre-wrap;
-      word-break: break-word;
+    pre code {
+      font-family: 'JetBrains Mono', monospace !important;
+      letter-spacing: -0.01em;
+      line-height: 1.45;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(156, 163, 175, 0.3);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(156, 163, 175, 0.5);
     }
   </style>
 </head>
@@ -76,30 +94,56 @@
             Mind of Aravalli
           </span>
           <span class="text-[9px] font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-semibold">
-            Cognitive Encyclopedia · 33 Treatises
+            Cognitive Neuroscience · 33 Treatises
           </span>
         </div>
       </a>
 
-      <!-- Navigation -->
+      <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center space-x-1 text-xs font-mono">
-        <button onclick="navigate('library')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">Volumes</button>
+        <button onclick="navigate('library')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">5 Volumes</button>
         <button onclick="navigate('all')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">All 33 Treatises</button>
         <button onclick="navigate('connections')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">Neural Bridges</button>
         <button onclick="navigate('questions')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">Self-Audit</button>
         <button onclick="openSearch()" class="px-3 py-1.5 rounded-lg bg-slate-200/80 dark:bg-slate-800/80 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors flex items-center gap-2 ml-2">
           <i data-lucide="search" class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400"></i>
-          <span>Search Treatises</span>
+          <span>Search</span>
           <kbd class="text-[10px] bg-slate-300/70 dark:bg-slate-900 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-400">Ctrl K</kbd>
         </button>
       </nav>
 
-      <!-- Right Controls -->
+      <!-- Right Controls & Mobile Menu Toggle -->
       <div class="flex items-center space-x-2">
         <button id="theme-toggle-btn" onclick="toggleTheme()" class="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/70 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
           <i id="theme-icon" data-lucide="sun" class="w-4 h-4"></i>
         </button>
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800">
+          <i data-lucide="search" class="w-4 h-4 text-emerald-600"></i>
+        </button>
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800">
+          <i id="mobile-menu-icon" data-lucide="menu" class="w-5 h-5"></i>
+        </button>
       </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-[#f9f8f5] dark:bg-[#090d13] px-4 py-3 space-y-2 text-xs font-mono">
+      <button onclick="navigate('library'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
+        <i data-lucide="layers" class="w-4 h-4 text-emerald-600"></i>
+        <span>5 Master Volumes</span>
+      </button>
+      <button onclick="navigate('all'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
+        <i data-lucide="book-open" class="w-4 h-4 text-emerald-600"></i>
+        <span>All 33 Treatises</span>
+      </button>
+      <button onclick="navigate('connections'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
+        <i data-lucide="git-merge" class="w-4 h-4 text-emerald-600"></i>
+        <span>Neural Bridges</span>
+      </button>
+      <button onclick="navigate('questions'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
+        <i data-lucide="help-circle" class="w-4 h-4 text-emerald-600"></i>
+        <span>Active Recall Audit</span>
+      </button>
     </div>
   </header>
 
@@ -109,8 +153,8 @@
   </main>
 
   <!-- Search Modal -->
-  <div id="search-modal" class="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-sm hidden flex items-start justify-center pt-20 px-4">
-    <div class="w-full max-w-2xl bg-white dark:bg-[#0f1520] rounded-2xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[80vh]">
+  <div id="search-modal" onclick="handleModalBackdropClick(event)" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden flex items-start justify-center pt-16 sm:pt-24 px-4">
+    <div class="w-full max-w-2xl bg-white dark:bg-[#0f1520] rounded-2xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[80vh]" onclick="event.stopPropagation()">
       <div class="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center gap-3">
         <i data-lucide="search" class="w-5 h-5 text-emerald-600 dark:text-emerald-400"></i>
         <input 
@@ -120,14 +164,20 @@
           class="w-full bg-transparent text-sm sm:text-base focus:outline-none text-slate-900 dark:text-white placeholder-slate-400"
           oninput="handleSearch(this.value)"
         />
-        <button onclick="closeSearch()" class="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+        <button onclick="closeSearch()" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
           <i data-lucide="x" class="w-4 h-4"></i>
         </button>
       </div>
-      <div id="search-results" class="p-4 overflow-y-auto space-y-2 flex-1 divide-y divide-slate-100 dark:divide-slate-800">
+      <div id="search-results" class="p-4 overflow-y-auto space-y-2 flex-1 divide-y divide-slate-100 dark:divide-slate-800/60">
         <!-- Live Results -->
       </div>
     </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 text-emerald-400 border border-emerald-500/30 px-4 py-2 rounded-xl text-xs font-mono shadow-2xl opacity-0 transition-opacity pointer-events-none flex items-center gap-2">
+    <i data-lucide="check" class="w-4 h-4"></i>
+    <span id="toast-msg">Link copied to clipboard</span>
   </div>
 
   <!-- Footer -->
@@ -137,7 +187,7 @@
         <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
         <span>Mind of Aravalli · 33 Living Master Treatises</span>
       </div>
-      <div>
+      <div class="flex items-center space-x-4">
         <a href="https://github.com/vs00918/aravalli" target="_blank" class="hover:text-emerald-700 dark:hover:text-emerald-400 underline transition-colors">
           github.com/vs00918/aravalli
         </a>
@@ -1149,12 +1199,10 @@
   "inbox": []
 };
 
-    // Router & State
     let currentView = 'home';
     let currentParam = null;
 
     function init() {
-      // Setup Theme
       const savedTheme = localStorage.getItem('aravalli_theme') || 'dark';
       if (savedTheme === 'dark') {
         document.documentElement.classList.add('dark');
@@ -1164,11 +1212,9 @@
         document.getElementById('theme-icon')?.setAttribute('data-lucide', 'moon');
       }
 
-      // Handle Hash Routing
       window.addEventListener('hashchange', handleRoute);
       handleRoute();
 
-      // Keyboard shortcuts
       window.addEventListener('keydown', (e) => {
         if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
           e.preventDefault();
@@ -1188,6 +1234,30 @@
         icon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
         if (window.lucide) lucide.createIcons();
       }
+    }
+
+    function toggleMobileMenu() {
+      const drawer = document.getElementById('mobile-drawer');
+      drawer.classList.toggle('hidden');
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-msg');
+      if (toast && toastMsg) {
+        toastMsg.textContent = msg;
+        toast.classList.remove('opacity-0');
+        toast.classList.add('opacity-100');
+        setTimeout(() => {
+          toast.classList.remove('opacity-100');
+          toast.classList.add('opacity-0');
+        }, 2500);
+      }
+    }
+
+    function copyCurrentLink() {
+      navigator.clipboard.writeText(window.location.href);
+      showToast('Treatise Link copied to clipboard!');
     }
 
     function handleRoute() {
@@ -1253,10 +1323,27 @@
       }
     }
 
-    // Markdown Parser
+    // ==========================================
+    // BULLETPROOF MARKDOWN & KATEX PARSER
+    // ==========================================
     function formatMarkdown(md) {
       if (!md) return '';
-      const lines = md.split('\n');
+
+      // Step 1: Shield LaTeX math blocks and inline math to prevent HTML regex corruption
+      const mathTokens = [];
+      let shielded = md.replace(/\$\$([\s\S]+?)\$\$/g, (m, formula) => {
+        const id = `__MATH_BLOCK_${mathTokens.length}__`;
+        mathTokens.push({ id, formula, display: true });
+        return id;
+      });
+
+      shielded = shielded.replace(/\$([^$\n]+?)\$/g, (m, formula) => {
+        const id = `__MATH_INLINE_${mathTokens.length}__`;
+        mathTokens.push({ id, formula, display: false });
+        return id;
+      });
+
+      const lines = shielded.split('\n');
       let html = '';
       let inList = false;
       let listType = 'ul';
@@ -1264,6 +1351,8 @@
       let codeBuffer = '';
       let inTable = false;
       let tableRows = [];
+      let inBlockquote = false;
+      let blockquoteBuffer = [];
 
       function flushList() {
         if (inList) {
@@ -1272,9 +1361,21 @@
         }
       }
 
+      function flushBlockquote() {
+        if (inBlockquote && blockquoteBuffer.length > 0) {
+          html += '<blockquote class="border-l-4 border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/20 px-5 py-3.5 rounded-r-xl my-5 text-xs sm:text-sm font-mono text-slate-700 dark:text-slate-300 space-y-1">';
+          blockquoteBuffer.forEach(b => {
+            html += '<p>' + formatInlineText(b) + '</p>';
+          });
+          html += '</blockquote>';
+          inBlockquote = false;
+          blockquoteBuffer = [];
+        }
+      }
+
       function flushCodeBlock() {
         if (inCodeBlock) {
-          html += '<pre class="my-4 p-4 rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono text-xs overflow-x-auto shadow-inner leading-relaxed"><code>' + escapeHtml(codeBuffer.trim()) + '</code></pre>';
+          html += '<pre class="my-5 p-4 rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono text-xs overflow-x-auto shadow-inner leading-relaxed"><code>' + escapeHtml(codeBuffer.trim()) + '</code></pre>';
           inCodeBlock = false;
           codeBuffer = '';
         }
@@ -1308,6 +1409,7 @@
         if (trimmed.startsWith('```')) {
           flushList();
           flushTable();
+          flushBlockquote();
           if (inCodeBlock) {
             flushCodeBlock();
           } else {
@@ -1324,6 +1426,7 @@
         if (!trimmed) {
           flushList();
           flushTable();
+          flushBlockquote();
           continue;
         }
 
@@ -1331,7 +1434,8 @@
         if (trimmed === '---') {
           flushList();
           flushTable();
-          html += '<hr class="my-6 border-slate-200 dark:border-slate-800" />';
+          flushBlockquote();
+          html += '<hr class="my-8 border-slate-200 dark:border-slate-800" />';
           continue;
         }
 
@@ -1339,18 +1443,21 @@
         if (trimmed.startsWith('# ')) {
           flushList();
           flushTable();
-          continue; // Title already in header
+          flushBlockquote();
+          continue; // Title handled by view header
         }
         if (trimmed.startsWith('## ')) {
           flushList();
           flushTable();
-          html += '<h2 class="text-xl sm:text-2xl font-serif font-bold text-slate-900 dark:text-white mt-8 mb-4 tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-2">' + formatInlineText(trimmed.replace(/^##s+/, '')) + '</h2>';
+          flushBlockquote();
+          html += '<h2 class="text-xl sm:text-2xl font-serif font-bold text-slate-900 dark:text-white mt-10 mb-4 tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-2.5">' + formatInlineText(trimmed.replace(/^##\s+/, '')) + '</h2>';
           continue;
         }
         if (trimmed.startsWith('### ')) {
           flushList();
           flushTable();
-          html += '<h3 class="text-lg font-serif font-semibold text-emerald-700 dark:text-emerald-400 mt-6 mb-2">' + formatInlineText(trimmed.replace(/^###s+/, '')) + '</h3>';
+          flushBlockquote();
+          html += '<h3 class="text-lg font-serif font-semibold text-emerald-700 dark:text-emerald-400 mt-6 mb-2">' + formatInlineText(trimmed.replace(/^###\s+/, '')) + '</h3>';
           continue;
         }
 
@@ -1358,12 +1465,15 @@
         if (trimmed.startsWith('> ')) {
           flushList();
           flushTable();
-          html += '<blockquote class="border-l-4 border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/20 px-4 py-3 rounded-r-xl my-4 text-xs sm:text-sm font-mono text-slate-700 dark:text-slate-300">' + formatInlineText(trimmed.replace(/^>s+/, '')) + '</blockquote>';
+          inBlockquote = true;
+          blockquoteBuffer.push(trimmed.replace(/^>\s*/, ''));
           continue;
+        } else {
+          flushBlockquote();
         }
 
-        // Math Block Display $$...$$
-        if (trimmed.startsWith('$$') && trimmed.endsWith('$$') && trimmed.length > 2) {
+        // Math Block Token Check
+        if (trimmed.startsWith('__MATH_BLOCK_') && trimmed.endsWith('__')) {
           flushList();
           flushTable();
           html += '<div class="math-block bg-slate-100 dark:bg-[#0f1520] border border-slate-200 dark:border-slate-800 text-center text-slate-900 dark:text-white font-serif">' + trimmed + '</div>';
@@ -1389,7 +1499,7 @@
             listType = 'ul';
             html += '<ul class="space-y-2 my-3 pl-5 list-disc text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400">';
           }
-          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^[-*]s+/, '')) + '</li>';
+          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
           continue;
         }
 
@@ -1412,7 +1522,17 @@
 
       flushList();
       flushTable();
+      flushBlockquote();
       flushCodeBlock();
+
+      // Step 2: Unshield LaTeX Math Tokens cleanly
+      mathTokens.forEach(tok => {
+        if (tok.display) {
+          html = html.replace(tok.id, '$$' + tok.formula + '$$');
+        } else {
+          html = html.replace(tok.id, '$' + tok.formula + '$');
+        }
+      });
 
       return html;
     }
@@ -1420,9 +1540,14 @@
     function formatInlineText(str) {
       if (!str) return '';
       return str
+        // Markdown Links [text](url)
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-emerald-700 dark:text-emerald-400 underline hover:text-emerald-600 dark:hover:text-emerald-300 transition-colors font-medium">$1</a>')
+        // Bold **text**
         .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900 dark:text-white">$1</strong>')
+        // Italic *text*
         .replace(/\*(.*?)\*/g, '<em class="italic text-slate-800 dark:text-slate-200">$1</em>')
-        .replace(/`([^`]+)`/g, '<code class="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-emerald-700 dark:text-emerald-400 border border-slate-200 dark:border-slate-700">$1</code>');
+        // Inline Code `code`
+        .replace(/\`([^\`]+)\`/g, '<code class="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-emerald-700 dark:text-emerald-400 border border-slate-200 dark:border-slate-700">$1</code>');
     }
 
     function escapeHtml(text) {
@@ -1435,14 +1560,14 @@
         .replace(/'/g, '&#039;');
     }
 
-    // Views
+    // ==========================================
+    // VIEWS
+    // ==========================================
     function renderHome(container) {
-      const allConcepts = Object.values(KNOWLEDGE_DB.concepts);
-
       container.innerHTML = `
         <div class="space-y-16">
           <!-- Hero Section -->
-          <div class="space-y-6 text-center max-w-3xl mx-auto py-10">
+          <div class="space-y-6 text-center max-w-3xl mx-auto py-10 sm:py-14">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-400 text-xs font-mono font-medium">
               <span class="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400 animate-pulse"></span>
               <span>Living Cognitive Encyclopedia · 33 Master Treatises</span>
@@ -1548,12 +1673,12 @@
                       <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white hover:text-emerald-600 transition-colors">${ch.title}</h2>
                     </div>
                   </div>
-                  <span class="text-xs font-mono text-slate-500">${ch.concepts.length} Treatises</span>
+                  <span class="text-xs font-mono text-slate-500 font-semibold">${ch.concepts.length} Treatises</span>
                 </div>
                 <p class="text-sm text-slate-600 dark:text-slate-400">${ch.description}</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
                   ${ch.concepts.map(c => `
-                    <button onclick="navigate('concepts', '${c.slug}')" class="text-left px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-800/80 text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-700 dark:hover:text-emerald-400 transition-all font-medium flex items-center justify-between">
+                    <button onclick="navigate('concepts', '${c.slug}')" class="text-left px-3.5 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800/80 text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-700 dark:hover:text-emerald-400 transition-all font-medium flex items-center justify-between shadow-xs">
                       <span class="truncate">#${c.num < 10 ? '0' + c.num : c.num}. ${c.title}</span>
                       <span class="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 font-bold ml-2 shrink-0">${c.difficulty}</span>
                     </button>
@@ -1580,7 +1705,7 @@
             ${all.map(c => `
               <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-4 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all flex items-center justify-between group">
                 <div class="flex items-center gap-4">
-                  <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center font-mono font-bold text-xs text-emerald-700 dark:text-emerald-400">
+                  <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center font-mono font-bold text-xs text-emerald-700 dark:text-emerald-400 shrink-0">
                     ${c.num < 10 ? '0' + c.num : c.num}
                   </div>
                   <div>
@@ -1588,7 +1713,7 @@
                     <p class="text-xs text-slate-500 font-mono line-clamp-1">${c.oneLiner}</p>
                   </div>
                 </div>
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-3 shrink-0">
                   <span class="text-xs font-mono text-slate-400 hidden sm:inline">${c.chapterTitle}</span>
                   <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-transform group-hover:translate-x-1"></i>
                 </div>
@@ -1617,7 +1742,7 @@
                 <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">${chapter.title}</h1>
               </div>
             </div>
-            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${chapter.overview || chapter.description}</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-sans">${chapter.overview || chapter.description}</p>
           </div>
 
           <div class="space-y-4">
@@ -1633,7 +1758,7 @@
                       <h3 class="text-base sm:text-lg font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${c.title}</h3>
                     </div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 shrink-0">
                     <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${c.difficulty}</span>
                     <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-transform group-hover:translate-x-1"></i>
                   </div>
@@ -1691,14 +1816,21 @@
       const nextConcept = currentIndex < all.length - 1 ? all[currentIndex + 1] : null;
 
       container.innerHTML = `
-        <article class="max-w-3xl mx-auto space-y-10 pb-16">
+        <article class="max-w-3xl mx-auto space-y-8 pb-16">
           <!-- Top Header Navigation -->
           <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <button onclick="navigate('chapters', '${concept.chapterSlug}')" class="text-xs font-mono text-slate-500 hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1">
-              <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
-              <span>Back to ${concept.chapterTitle}</span>
-            </button>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center justify-between">
+              <button onclick="navigate('chapters', '${concept.chapterSlug}')" class="text-xs font-mono text-slate-500 hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1">
+                <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+                <span>Back to ${concept.chapterTitle}</span>
+              </button>
+              <button onclick="copyCurrentLink()" class="p-1.5 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors flex items-center gap-1 text-xs font-mono" title="Copy Link">
+                <i data-lucide="share-2" class="w-3.5 h-3.5 text-emerald-600"></i>
+                <span>Share</span>
+              </button>
+            </div>
+            
+            <div class="flex flex-wrap items-center gap-2">
               <span class="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
                 Treatise #${concept.num < 10 ? '0' + concept.num : concept.num}
               </span>
@@ -1736,7 +1868,7 @@
           <!-- Pagination (Prev / Next) -->
           <div class="pt-8 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between gap-4 font-mono text-xs">
             ${prevConcept ? `
-              <button onclick="navigate('concepts', '${prevConcept.slug}')" class="p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500/40 text-left flex items-center gap-2 max-w-[48%]">
+              <button onclick="navigate('concepts', '${prevConcept.slug}')" class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500/40 text-left flex items-center gap-2 max-w-[48%] bg-white/50 dark:bg-[#0f1520]/50 shadow-xs">
                 <i data-lucide="chevron-left" class="w-4 h-4 shrink-0 text-emerald-600"></i>
                 <div class="truncate">
                   <span class="text-slate-400 block text-[10px]">Previous Treatise</span>
@@ -1746,7 +1878,7 @@
             ` : '<div></div>'}
 
             ${nextConcept ? `
-              <button onclick="navigate('concepts', '${nextConcept.slug}')" class="p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500/40 text-right flex items-center gap-2 max-w-[48%] ml-auto">
+              <button onclick="navigate('concepts', '${nextConcept.slug}')" class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500/40 text-right flex items-center gap-2 max-w-[48%] ml-auto bg-white/50 dark:bg-[#0f1520]/50 shadow-xs">
                 <div class="truncate">
                   <span class="text-slate-400 block text-[10px]">Next Treatise</span>
                   <span class="font-bold text-slate-900 dark:text-white truncate block">#${nextConcept.num}. ${nextConcept.title}</span>
@@ -1769,7 +1901,7 @@
           </div>
           <div class="space-y-4">
             ${KNOWLEDGE_DB.connections.map(c => `
-              <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 space-y-3">
+              <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 space-y-3 shadow-xs">
                 <div class="flex flex-wrap items-center justify-between gap-2">
                   <div class="flex items-center gap-2 font-serif font-bold text-base text-slate-900 dark:text-white">
                     <span class="text-emerald-700 dark:text-emerald-400 cursor-pointer hover:underline" onclick="navigate('concepts', '${c.concept1Slug}')">${c.concept1Title}</span>
@@ -1796,15 +1928,15 @@
           </div>
           <div class="space-y-4">
             ${KNOWLEDGE_DB.questions.map(q => `
-              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 space-y-4">
+              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 space-y-4 shadow-xs">
                 <div class="flex items-center justify-between">
                   <span class="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400">${q.domain}</span>
                   <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20">${q.difficulty}</span>
                 </div>
                 <h3 class="text-lg font-serif font-bold text-slate-900 dark:text-white leading-snug">${q.question}</h3>
-                <details class="text-xs font-mono text-slate-500 bg-slate-100 dark:bg-slate-900 p-3 rounded-xl border border-slate-200 dark:border-slate-800">
+                <details class="text-xs font-mono text-slate-500 bg-slate-100 dark:bg-slate-900/80 p-3.5 rounded-xl border border-slate-200 dark:border-slate-800">
                   <summary class="cursor-pointer text-emerald-700 dark:text-emerald-400 font-semibold">Reveal First-Principles Hint</summary>
-                  <p class="pt-2 text-slate-700 dark:text-slate-300 font-sans">${q.hint}</p>
+                  <p class="pt-2 text-slate-700 dark:text-slate-300 font-sans leading-relaxed">${q.hint}</p>
                 </details>
               </div>
             `).join('')}
@@ -1813,15 +1945,23 @@
       `;
     }
 
-    // Live Search
+    // ==========================================
+    // SEARCH & MODAL
+    // ==========================================
     function openSearch() {
       document.getElementById('search-modal').classList.remove('hidden');
-      document.getElementById('search-input').focus();
+      setTimeout(() => document.getElementById('search-input').focus(), 50);
       handleSearch('');
     }
 
     function closeSearch() {
       document.getElementById('search-modal').classList.add('hidden');
+    }
+
+    function handleModalBackdropClick(e) {
+      if (e.target.id === 'search-modal') {
+        closeSearch();
+      }
     }
 
     function handleSearch(query) {
@@ -1864,7 +2004,6 @@
       `).join('');
     }
 
-    // Initialize SPA on DOM load
     document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
