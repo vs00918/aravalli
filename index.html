@@ -47,43 +47,31 @@
 
   <style>
     body {
-      background-color: #090d13;
-      color: #e2e8f0;
-      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-    }
-    .light body {
-      background-color: #f9f8f5;
-      color: #1e293b;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
     .math-block {
       overflow-x: auto;
-      padding: 1rem;
-      border-radius: 0.75rem;
-      background: rgba(15, 21, 32, 0.7);
-      border: 1px solid rgba(30, 41, 59, 0.8);
-      margin: 1rem 0;
-    }
-    .light .math-block {
-      background: #f8fafc;
-      border-color: #e2e8f0;
+      padding: 1.25rem;
+      border-radius: 1rem;
+      margin: 1.25rem 0;
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-300">
+<body class="min-h-screen flex flex-col antialiased bg-[#f9f8f5] dark:bg-[#090d13] text-slate-800 dark:text-slate-200 selection:bg-emerald-500/20 selection:text-emerald-700 dark:selection:text-emerald-300">
 
   <!-- Header -->
-  <header class="sticky top-0 z-40 w-full bg-[#090d13]/95 dark:bg-[#090d13]/95 light:bg-[#f9f8f5]/95 backdrop-blur-md border-b border-slate-800 transition-colors">
+  <header class="sticky top-0 z-40 w-full bg-[#f9f8f5]/95 dark:bg-[#090d13]/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <!-- Logo -->
       <a href="#home" onclick="navigate('home')" class="flex items-center space-x-3 group">
-        <div class="w-8 h-8 rounded-lg bg-emerald-600/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:border-emerald-500/40 transition-colors font-serif font-bold text-sm">
+        <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-700 dark:text-emerald-400 group-hover:border-emerald-500/50 transition-colors font-serif font-bold text-sm">
           A
         </div>
         <div class="flex flex-col">
-          <span class="font-serif font-semibold text-sm tracking-tight text-white dark:text-white light:text-slate-900">
+          <span class="font-serif font-bold text-sm tracking-tight text-slate-900 dark:text-white">
             Mind of Aravalli
           </span>
-          <span class="text-[9px] font-mono uppercase tracking-widest text-emerald-400">
+          <span class="text-[9px] font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-semibold">
             Living Encyclopedia
           </span>
         </div>
@@ -91,29 +79,29 @@
 
       <!-- Navigation -->
       <nav class="hidden md:flex items-center space-x-1 text-xs font-mono">
-        <button onclick="navigate('library')" class="nav-btn px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors">Library</button>
-        <button onclick="navigate('connections')" class="nav-btn px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors">Connections</button>
-        <button onclick="navigate('sources')" class="nav-btn px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors">Sources</button>
-        <button onclick="navigate('questions')" class="nav-btn px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors">Questions</button>
-        <button onclick="navigate('inbox')" class="nav-btn px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors">Inbox</button>
-        <button onclick="navigate('add')" class="px-3 py-1.5 rounded-lg text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/10 transition-colors flex items-center gap-1 ml-1">
+        <button onclick="navigate('library')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">Library</button>
+        <button onclick="navigate('connections')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">Connections</button>
+        <button onclick="navigate('sources')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">Sources</button>
+        <button onclick="navigate('questions')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">Questions</button>
+        <button onclick="navigate('inbox')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">Inbox</button>
+        <button onclick="navigate('add')" class="px-3 py-1.5 rounded-lg text-emerald-700 dark:text-emerald-400 border border-emerald-500/40 hover:bg-emerald-500/10 transition-colors flex items-center gap-1 ml-1 font-semibold">
           <i data-lucide="plus-circle" class="w-3.5 h-3.5"></i>
           <span>Add</span>
         </button>
-        <button onclick="openSearch()" class="px-3 py-1.5 rounded-lg bg-slate-800/80 text-slate-400 hover:text-white hover:bg-slate-800 transition-colors flex items-center gap-2 ml-2">
-          <i data-lucide="search" class="w-3.5 h-3.5 text-emerald-400"></i>
+        <button onclick="openSearch()" class="px-3 py-1.5 rounded-lg bg-slate-200/80 dark:bg-slate-800/80 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors flex items-center gap-2 ml-2">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400"></i>
           <span>Search</span>
-          <kbd class="text-[10px] bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">Ctrl K</kbd>
+          <kbd class="text-[10px] bg-slate-300/70 dark:bg-slate-900 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-400">Ctrl K</kbd>
         </button>
       </nav>
 
       <!-- Right Controls -->
       <div class="flex items-center space-x-2">
-        <button onclick="toggleTheme()" class="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors">
-          <i data-lucide="sun" class="w-4 h-4 text-amber-400"></i>
+        <button id="theme-toggle-btn" onclick="toggleTheme()" class="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/70 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
+          <i id="theme-icon" data-lucide="sun" class="w-4 h-4 text-amber-500"></i>
         </button>
-        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors">
-          <i data-lucide="search" class="w-4 h-4 text-emerald-400"></i>
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200/70 dark:hover:bg-slate-800 transition-colors">
+          <i data-lucide="search" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
         </button>
       </div>
     </div>
@@ -123,12 +111,12 @@
   <main id="app" class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full"></main>
 
   <!-- Global Search Modal (Ctrl+K) -->
-  <div id="search-modal" class="fixed inset-0 z-50 hidden bg-black/75 backdrop-blur-sm flex items-start justify-center pt-20 p-4" onclick="closeSearch(event)">
-    <div class="w-full max-w-2xl bg-[#0f1520] border border-slate-800 rounded-2xl shadow-2xl overflow-hidden" onclick="event.stopPropagation()">
-      <div class="p-4 border-b border-slate-800 flex items-center gap-3">
-        <i data-lucide="search" class="w-5 h-5 text-emerald-400"></i>
-        <input id="search-input" type="text" placeholder="Search across concepts, connections, questions, sources..." oninput="handleSearch(this.value)" class="w-full bg-transparent text-white placeholder-slate-500 text-sm focus:outline-none font-sans" />
-        <kbd class="text-[10px] font-mono bg-slate-900 border border-slate-800 px-2 py-1 rounded text-slate-400">ESC</kbd>
+  <div id="search-modal" class="fixed inset-0 z-50 hidden bg-slate-900/60 dark:bg-black/75 backdrop-blur-sm flex items-start justify-center pt-20 p-4" onclick="closeSearch(event)">
+    <div class="w-full max-w-2xl bg-white dark:bg-[#0f1520] border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl overflow-hidden" onclick="event.stopPropagation()">
+      <div class="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center gap-3">
+        <i data-lucide="search" class="w-5 h-5 text-emerald-600 dark:text-emerald-400"></i>
+        <input id="search-input" type="text" placeholder="Search across concepts, connections, questions, sources..." oninput="handleSearch(this.value)" class="w-full bg-transparent text-slate-900 dark:text-white placeholder-slate-400 text-sm focus:outline-none font-sans" />
+        <kbd class="text-[10px] font-mono bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 px-2 py-1 rounded text-slate-500">ESC</kbd>
       </div>
       <div id="search-results" class="max-h-96 overflow-y-auto p-3 space-y-2">
         <div class="p-4 text-center text-xs font-mono text-slate-500">Type to search the knowledge graph...</div>
@@ -137,11 +125,11 @@
   </div>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-800 py-10 text-center text-xs font-mono text-slate-500">
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-10 text-center text-xs font-mono text-slate-500 transition-colors">
     <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
-        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-        <span>Mind of Aravalli · Living Personal Encyclopedia</span>
+        <span class="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400"></span>
+        <span class="text-slate-700 dark:text-slate-300 font-medium">Mind of Aravalli · Living Personal Encyclopedia</span>
       </div>
       <div>First-Principles Knowledge Tree</div>
     </div>
@@ -415,23 +403,23 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
         <div class="space-y-16">
           <!-- Hero Section -->
           <div class="space-y-6 text-center max-w-3xl mx-auto py-10">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-mono">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-400 text-xs font-mono">
+              <span class="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400 animate-pulse"></span>
               <span>Living Scientific Encyclopedia</span>
             </div>
-            <h1 class="text-4xl sm:text-6xl font-serif font-bold text-white tracking-tight leading-tight">
-              From Curiosity to <span class="text-emerald-400 italic">First Principles</span>
+            <h1 class="text-4xl sm:text-6xl font-serif font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
+              From Curiosity to <span class="text-emerald-700 dark:text-emerald-400 italic">First Principles</span>
             </h1>
-            <p class="text-base sm:text-lg text-slate-400 font-sans leading-relaxed">
+            <p class="text-base sm:text-lg text-slate-600 dark:text-slate-400 font-sans leading-relaxed">
               Ideas discovered today should become durable understanding rather than disappear three days later. A structured, interconnected intellectual library built for deep learning.
             </p>
             <div class="pt-2 flex flex-wrap items-center justify-center gap-3">
-              <button onclick="navigate('library')" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-semibold transition-all flex items-center gap-2 shadow-lg shadow-emerald-900/20">
+              <button onclick="navigate('library')" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-semibold transition-all flex items-center gap-2 shadow-sm">
                 <span>Browse Master Library</span>
                 <i data-lucide="arrow-right" class="w-4 h-4"></i>
               </button>
-              <button onclick="navigate('add')" class="px-6 py-3 rounded-xl border border-slate-700 hover:bg-slate-800 text-slate-300 text-xs font-mono font-semibold transition-all flex items-center gap-2">
-                <i data-lucide="plus-circle" class="w-4 h-4 text-emerald-400"></i>
+              <button onclick="navigate('add')" class="px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-[#0f1520] hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-mono font-semibold transition-all flex items-center gap-2">
+                <i data-lucide="plus-circle" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
                 <span>Add Discovery</span>
               </button>
             </div>
@@ -439,49 +427,49 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
 
           <!-- Continue Reading (Recent Concepts) -->
           <section class="space-y-4">
-            <div class="flex items-baseline justify-between border-b border-slate-800 pb-2.5">
-              <div class="flex items-center space-x-2 text-xs font-mono uppercase font-bold text-slate-200">
-                <i data-lucide="bookmark" class="w-4 h-4 text-emerald-400"></i>
+            <div class="flex items-baseline justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
+              <div class="flex items-center space-x-2 text-xs font-mono uppercase font-bold text-slate-800 dark:text-slate-200">
+                <i data-lucide="bookmark" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
                 <span>Continue Reading</span>
               </div>
-              <span class="text-xs font-mono text-slate-500">Benchmark Reference Nodes</span>
+              <span class="text-xs font-mono text-slate-400">Benchmark Reference Nodes</span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div onclick="navigate('concepts', 'entropy')" class="cursor-pointer group p-5 rounded-2xl border border-slate-800 bg-[#0f1520]/80 hover:border-emerald-500/40 transition-all space-y-3">
+              <div onclick="navigate('concepts', 'entropy')" class="cursor-pointer group p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all space-y-3">
                 <div class="flex justify-between items-center text-xs font-mono">
-                  <span class="text-emerald-400">Universe & Physics</span>
-                  <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 text-[10px]">INTERMEDIATE</span>
+                  <span class="text-emerald-700 dark:text-emerald-400 font-semibold">Universe & Physics</span>
+                  <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 text-[10px] font-bold">INTERMEDIATE</span>
                 </div>
-                <h3 class="text-xl font-serif font-bold text-white group-hover:text-emerald-400 transition-colors">Entropy</h3>
-                <p class="text-xs text-slate-400 line-clamp-2">Multiplicity of states S = k_B ln Ω and why closed systems drift toward higher probability states.</p>
+                <h3 class="text-xl font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Entropy</h3>
+                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">Multiplicity of states S = k_B ln Ω and why closed systems drift toward higher probability states.</p>
               </div>
-              <div onclick="navigate('concepts', 'energy-density')" class="cursor-pointer group p-5 rounded-2xl border border-slate-800 bg-[#0f1520]/80 hover:border-emerald-500/40 transition-all space-y-3">
+              <div onclick="navigate('concepts', 'energy-density')" class="cursor-pointer group p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all space-y-3">
                 <div class="flex justify-between items-center text-xs font-mono">
-                  <span class="text-emerald-400">Energy & Technology</span>
-                  <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20 text-[10px]">INTERMEDIATE</span>
+                  <span class="text-emerald-700 dark:text-emerald-400 font-semibold">Energy & Technology</span>
+                  <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-800 dark:text-amber-300 border border-amber-500/20 text-[10px] font-bold">INTERMEDIATE</span>
                 </div>
-                <h3 class="text-xl font-serif font-bold text-white group-hover:text-emerald-400 transition-colors">Energy Density</h3>
-                <p class="text-xs text-slate-400 line-clamp-2">The quantity of usable energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).</p>
+                <h3 class="text-xl font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Energy Density</h3>
+                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">The quantity of usable energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).</p>
               </div>
             </div>
           </section>
 
           <!-- 5 Master Volumes -->
           <section class="space-y-6">
-            <div class="flex items-baseline justify-between border-b border-slate-800 pb-2.5">
-              <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-200">5 Master Volumes</h2>
-              <span class="text-xs font-mono text-slate-500">The Curriculum Tree</span>
+            <div class="flex items-baseline justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
+              <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-200">5 Master Volumes</h2>
+              <span class="text-xs font-mono text-slate-400">The Curriculum Tree</span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
               ${KNOWLEDGE_DB.chapters.map(ch => `
-                <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer group p-6 rounded-2xl border border-slate-800 bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-lg transition-all space-y-3">
+                <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer group p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-md transition-all space-y-3">
                   <div class="flex items-center justify-between">
                     <span class="text-2xl">${ch.icon}</span>
-                    <span class="text-xs font-mono text-slate-500 font-bold">Vol. 0${ch.order}</span>
+                    <span class="text-xs font-mono text-slate-400 font-bold">Vol. 0${ch.order}</span>
                   </div>
-                  <h3 class="text-lg font-serif font-semibold text-white group-hover:text-emerald-400 transition-colors">${ch.title}</h3>
-                  <p class="text-xs text-slate-400 line-clamp-2">${ch.description}</p>
-                  <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 group-hover:text-emerald-400">
+                  <h3 class="text-lg font-serif font-semibold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${ch.title}</h3>
+                  <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">${ch.description}</p>
+                  <div class="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 group-hover:text-emerald-700 dark:group-hover:text-emerald-400">
                     <span>${ch.concepts.length} Concept Nodes</span>
                     <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
                   </div>
@@ -496,28 +484,28 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderLibrary(container) {
       container.innerHTML = `
         <div class="space-y-8">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Master Curriculum</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">The Master Library</h1>
-            <p class="text-sm text-slate-400">5 integrated volumes organizing the fundamental rules of nature, systems, and human society.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Master Curriculum</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">The Master Library</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">5 integrated volumes organizing the fundamental rules of nature, systems, and human society.</p>
           </div>
           <div class="space-y-6">
             ${KNOWLEDGE_DB.chapters.map(ch => `
-              <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer p-6 rounded-2xl border border-slate-800 bg-[#0f1520]/80 hover:border-emerald-500/40 transition-all space-y-4">
+              <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-md transition-all space-y-4">
                 <div class="flex items-center justify-between">
                   <div class="flex items-center gap-3">
                     <span class="text-3xl">${ch.icon}</span>
                     <div>
-                      <span class="text-xs font-mono text-emerald-400 font-bold">Volume 0${ch.order}</span>
-                      <h2 class="text-xl font-serif font-bold text-white">${ch.title}</h2>
+                      <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${ch.order}</span>
+                      <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white">${ch.title}</h2>
                     </div>
                   </div>
-                  <span class="text-xs font-mono text-slate-400">${ch.concepts.length} concepts</span>
+                  <span class="text-xs font-mono text-slate-500">${ch.concepts.length} concepts</span>
                 </div>
-                <p class="text-sm text-slate-400">${ch.description}</p>
+                <p class="text-sm text-slate-600 dark:text-slate-400">${ch.description}</p>
                 <div class="flex flex-wrap gap-2 pt-2">
                   ${ch.concepts.map(c => `
-                    <span class="px-2.5 py-1 rounded-lg bg-slate-800 text-xs font-mono text-slate-300 border border-slate-700">${c.title}</span>
+                    <span class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-700">${c.title}</span>
                   `).join('')}
                 </div>
               </div>
@@ -531,33 +519,33 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
       const chapter = KNOWLEDGE_DB.chapters.find(c => c.slug === slug) || KNOWLEDGE_DB.chapters[0];
       container.innerHTML = `
         <div class="space-y-10 max-w-4xl mx-auto">
-          <div class="space-y-4 border-b border-slate-800 pb-6">
-            <button onclick="navigate('library')" class="text-xs font-mono text-slate-500 hover:text-emerald-400 flex items-center gap-1">
+          <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <button onclick="navigate('library')" class="text-xs font-mono text-slate-500 hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
               <span>Back to Library</span>
             </button>
             <div class="flex items-center gap-3">
               <span class="text-4xl">${chapter.icon}</span>
               <div>
-                <span class="text-xs font-mono uppercase tracking-wider text-emerald-400 font-bold">Volume 0${chapter.order}</span>
-                <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">${chapter.title}</h1>
+                <span class="text-xs font-mono uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${chapter.order}</span>
+                <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">${chapter.title}</h1>
               </div>
             </div>
-            <p class="text-sm text-slate-400 leading-relaxed">${chapter.overview}</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${chapter.overview}</p>
           </div>
 
           <div class="space-y-4">
-            <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-300">Documented Concepts</h2>
+            <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-300">Documented Concepts</h2>
             <div class="space-y-3">
               ${chapter.concepts.map(c => `
-                <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-5 rounded-xl border border-slate-800 bg-[#0f1520]/80 hover:border-emerald-500/40 transition-all flex items-center justify-between">
+                <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all flex items-center justify-between">
                   <div class="space-y-1">
                     <div class="flex items-center gap-2">
-                      <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">${c.difficulty}</span>
-                      <h3 class="text-base font-serif font-semibold text-white hover:text-emerald-400 transition-colors">${c.title}</h3>
+                      <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${c.difficulty}</span>
+                      <h3 class="text-base font-serif font-semibold text-slate-900 dark:text-white hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors">${c.title}</h3>
                     </div>
                   </div>
-                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-500"></i>
+                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
                 </div>
               `).join('')}
             </div>
@@ -571,73 +559,73 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
       container.innerHTML = `
         <article class="max-w-3xl mx-auto space-y-10 pb-16">
           <!-- Header -->
-          <div class="space-y-4 border-b border-slate-800 pb-6">
-            <button onclick="navigate('chapters', '${concept.chapterSlug}')" class="text-xs font-mono text-slate-500 hover:text-emerald-400 flex items-center gap-1">
+          <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <button onclick="navigate('chapters', '${concept.chapterSlug}')" class="text-xs font-mono text-slate-500 hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
               <span>Back to ${concept.chapterTitle}</span>
             </button>
             <div class="flex items-center gap-2">
-              <span class="text-xs font-mono text-emerald-400 font-bold">${concept.chapterTitle}</span>
+              <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold">${concept.chapterTitle}</span>
               <span>•</span>
-              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">${concept.difficulty}</span>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${concept.difficulty}</span>
             </div>
-            <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white">${concept.title}</h1>
-            <p class="text-base sm:text-lg text-slate-300 font-serif leading-relaxed">${concept.oneLiner}</p>
+            <h1 class="text-3xl sm:text-5xl font-serif font-bold text-slate-900 dark:text-white">${concept.title}</h1>
+            <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 font-serif leading-relaxed">${concept.oneLiner}</p>
           </div>
 
           <!-- Significance -->
-          <div class="p-5 rounded-2xl border border-emerald-500/20 bg-emerald-950/20 space-y-1.5">
-            <span class="text-[10px] font-mono uppercase tracking-wider text-emerald-400 font-bold">Why It Matters</span>
-            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans">${concept.whyItMatters}</p>
+          <div class="p-5 rounded-2xl border border-emerald-500/20 bg-emerald-50/50 dark:bg-emerald-950/20 space-y-1.5">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-bold">Why It Matters</span>
+            <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.whyItMatters}</p>
           </div>
 
           <!-- Level 2: Intuition -->
           <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold">Level 2 · Build Intuition</h2>
-            <p class="text-sm text-slate-300 leading-relaxed font-sans">${concept.intuition}</p>
-            <div class="p-4 rounded-xl border border-slate-800 bg-[#0f1520] text-xs font-mono text-slate-400">
-              <strong class="text-emerald-400">Everyday Observation:</strong> ${concept.example}
+            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 2 · Build Intuition</h2>
+            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.intuition}</p>
+            <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono text-slate-600 dark:text-slate-400">
+              <strong class="text-emerald-700 dark:text-emerald-400 font-semibold">Everyday Observation:</strong> ${concept.example}
             </div>
           </section>
 
           <!-- Level 3: Mechanism -->
           <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold">Level 3 · How It Actually Works</h2>
-            <p class="text-sm text-slate-300 leading-relaxed font-sans">${concept.howItWorks}</p>
+            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 3 · How It Actually Works</h2>
+            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.howItWorks}</p>
           </section>
 
           <!-- Level 4: First Principles -->
           <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold">Level 4 · From First Principles</h2>
-            <p class="text-sm text-slate-300 leading-relaxed font-sans">${concept.firstPrinciples}</p>
+            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 4 · From First Principles</h2>
+            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.firstPrinciples}</p>
           </section>
 
           <!-- Level 5: The Mathematics -->
           <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold">Level 5 · The Mathematics</h2>
-            <div class="math-block text-center text-sm sm:text-base">${concept.mathematics}</div>
+            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 5 · The Mathematics</h2>
+            <div class="math-block text-center text-sm sm:text-base border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-slate-900 dark:text-slate-100">${concept.mathematics}</div>
           </section>
 
           <!-- Limitations -->
           <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold">Limitations & Misconceptions</h2>
-            <div class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 text-xs text-slate-400 font-sans leading-relaxed">
+            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Limitations & Misconceptions</h2>
+            <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 text-xs text-slate-700 dark:text-slate-400 font-sans leading-relaxed">
               ${concept.misconceptions}
             </div>
           </section>
 
           <!-- Source Provenance -->
           ${concept.sources ? `
-            <section class="space-y-3 pt-4 border-t border-slate-800">
-              <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Verified Source Provenance</h2>
+            <section class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
+              <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Verified Source Provenance</h2>
               <div class="space-y-2">
                 ${concept.sources.map(s => `
-                  <div class="p-3 rounded-xl border border-slate-800 bg-[#0f1520] text-xs font-mono space-y-1">
-                    <div class="flex items-center justify-between text-slate-200">
+                  <div class="p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono space-y-1">
+                    <div class="flex items-center justify-between text-slate-800 dark:text-slate-200">
                       <span class="font-bold">${s.title}</span>
-                      <span class="text-[10px] text-emerald-400">${s.type}</span>
+                      <span class="text-[10px] text-emerald-700 dark:text-emerald-400 font-semibold">${s.type}</span>
                     </div>
-                    <p class="text-slate-400 font-sans">${s.notes}</p>
+                    <p class="text-slate-600 dark:text-slate-400 font-sans">${s.notes}</p>
                   </div>
                 `).join('')}
               </div>
@@ -650,23 +638,23 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderConnections(container) {
       container.innerHTML = `
         <div class="space-y-8 max-w-4xl mx-auto">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Cross-Domain Isomorphisms</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">The Knowledge Lattice</h1>
-            <p class="text-sm text-slate-400">Discovering structural bridges across Physics, Biology, Economics, and Complex Systems.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Cross-Domain Isomorphisms</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">The Knowledge Lattice</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Discovering structural bridges across Physics, Biology, Economics, and Complex Systems.</p>
           </div>
           <div class="space-y-4">
             ${KNOWLEDGE_DB.connections.map(c => `
-              <div class="p-6 rounded-2xl border border-slate-800 bg-[#0f1520]/80 space-y-3">
+              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all space-y-3">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                  <div class="flex items-center gap-2 font-serif font-bold text-lg text-white">
-                    <span onclick="navigate('concepts', '${c.sourceSlug}')" class="cursor-pointer hover:text-emerald-400 transition-colors">${c.source}</span>
-                    <i data-lucide="arrow-left-right" class="w-4 h-4 text-emerald-400"></i>
-                    <span onclick="navigate('concepts', '${c.targetSlug}')" class="cursor-pointer hover:text-emerald-400 transition-colors">${c.target}</span>
+                  <div class="flex items-center gap-2 font-serif font-bold text-lg text-slate-900 dark:text-white">
+                    <span onclick="navigate('concepts', '${c.sourceSlug}')" class="cursor-pointer hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors">${c.source}</span>
+                    <i data-lucide="arrow-left-right" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+                    <span onclick="navigate('concepts', '${c.targetSlug}')" class="cursor-pointer hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors">${c.target}</span>
                   </div>
-                  <span class="text-[10px] font-mono px-2.5 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20 uppercase font-semibold">${c.type}</span>
+                  <span class="text-[10px] font-mono px-2.5 py-0.5 rounded bg-amber-500/10 text-amber-800 dark:text-amber-300 border border-amber-500/20 uppercase font-semibold">${c.type}</span>
                 </div>
-                <p class="text-sm text-slate-300 font-sans leading-relaxed">${c.explanation}</p>
+                <p class="text-sm text-slate-600 dark:text-slate-300 font-sans leading-relaxed">${c.explanation}</p>
               </div>
             `).join('')}
           </div>
@@ -677,35 +665,35 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderSources(container) {
       container.innerHTML = `
         <div class="space-y-8 max-w-4xl mx-auto">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Literature & Provenance</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">Verified Reference Sources</h1>
-            <p class="text-sm text-slate-400">Grounding every encyclopedia concept in verified scientific papers, textbooks, and lectures.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Literature & Provenance</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">Verified Reference Sources</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Grounding every encyclopedia concept in verified scientific papers, textbooks, and lectures.</p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="p-5 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-2">
-              <span class="text-[10px] font-mono uppercase text-emerald-400 font-bold">BOOK</span>
-              <h3 class="font-serif font-bold text-lg text-white">An Introduction to Thermal Physics</h3>
-              <p class="text-xs text-slate-400 font-mono">Author: Daniel V. Schroeder (Oxford University Press, 1999)</p>
-              <p class="text-xs text-slate-300 font-sans">Connecting microscopic state multiplicity directly to thermodynamic entropy.</p>
+            <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-2">
+              <span class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">BOOK</span>
+              <h3 class="font-serif font-bold text-lg text-slate-900 dark:text-white">An Introduction to Thermal Physics</h3>
+              <p class="text-xs text-slate-500 font-mono">Author: Daniel V. Schroeder (Oxford University Press, 1999)</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-sans">Connecting microscopic state multiplicity directly to thermodynamic entropy.</p>
             </div>
-            <div class="p-5 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-2">
-              <span class="text-[10px] font-mono uppercase text-emerald-400 font-bold">BOOK</span>
-              <h3 class="font-serif font-bold text-lg text-white">What Is Life?</h3>
-              <p class="text-xs text-slate-400 font-mono">Author: Erwin Schrödinger (Cambridge University Press, 1944)</p>
-              <p class="text-xs text-slate-300 font-sans">Non-equilibrium thermodynamics of living cells and biological order.</p>
+            <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-2">
+              <span class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">BOOK</span>
+              <h3 class="font-serif font-bold text-lg text-slate-900 dark:text-white">What Is Life?</h3>
+              <p class="text-xs text-slate-500 font-mono">Author: Erwin Schrödinger (Cambridge University Press, 1944)</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-sans">Non-equilibrium thermodynamics of living cells and biological order.</p>
             </div>
-            <div class="p-5 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-2">
-              <span class="text-[10px] font-mono uppercase text-emerald-400 font-bold">PAPER</span>
-              <h3 class="font-serif font-bold text-lg text-white">More Is Different</h3>
-              <p class="text-xs text-slate-400 font-mono">Author: Philip W. Anderson (Science, 1972)</p>
-              <p class="text-xs text-slate-300 font-sans">Hierarchical broken symmetry and emergent physical laws.</p>
+            <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-2">
+              <span class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">PAPER</span>
+              <h3 class="font-serif font-bold text-lg text-slate-900 dark:text-white">More Is Different</h3>
+              <p class="text-xs text-slate-500 font-mono">Author: Philip W. Anderson (Science, 1972)</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-sans">Hierarchical broken symmetry and emergent physical laws.</p>
             </div>
-            <div class="p-5 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-2">
-              <span class="text-[10px] font-mono uppercase text-emerald-400 font-bold">PAPER</span>
-              <h3 class="font-serif font-bold text-lg text-white">A Mathematical Theory of Communication</h3>
-              <p class="text-xs text-slate-400 font-mono">Author: Claude E. Shannon (Bell Labs, 1948)</p>
-              <p class="text-xs text-slate-300 font-sans">Information entropy, bit limits, and fundamental data compression.</p>
+            <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-2">
+              <span class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">PAPER</span>
+              <h3 class="font-serif font-bold text-lg text-slate-900 dark:text-white">A Mathematical Theory of Communication</h3>
+              <p class="text-xs text-slate-500 font-mono">Author: Claude E. Shannon (Bell Labs, 1948)</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-sans">Information entropy, bit limits, and fundamental data compression.</p>
             </div>
           </div>
         </div>
@@ -715,23 +703,23 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderQuestions(container) {
       container.innerHTML = `
         <div class="space-y-8 max-w-4xl mx-auto">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Curiosity Radar</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">Open Inquiries & Questions</h1>
-            <p class="text-sm text-slate-400">Navigational doorways exploring the frontiers of our current understanding.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Curiosity Radar</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">Open Inquiries & Questions</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Navigational doorways exploring the frontiers of our current understanding.</p>
           </div>
           <div class="space-y-4">
             ${KNOWLEDGE_DB.questions.map(q => `
-              <div class="p-5 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-2">
+              <div class="p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-2">
                 <div class="flex justify-between items-start gap-2">
-                  <h3 class="text-base font-serif font-semibold text-white">${q.question}</h3>
-                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-bold">${q.status}</span>
+                  <h3 class="text-base font-serif font-semibold text-slate-900 dark:text-white">${q.question}</h3>
+                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${q.status}</span>
                 </div>
-                <p class="text-xs text-slate-400 font-sans">${q.description}</p>
+                <p class="text-xs text-slate-600 dark:text-slate-400 font-sans">${q.description}</p>
                 <div class="pt-2 flex items-center gap-2 text-xs font-mono text-slate-500">
                   <span>Volume: ${q.chapter}</span>
                   <span>•</span>
-                  <span onclick="navigate('concepts', '${q.conceptSlug}')" class="text-emerald-400 hover:underline cursor-pointer">Concept: ${q.concept}</span>
+                  <span onclick="navigate('concepts', '${q.conceptSlug}')" class="text-emerald-700 dark:text-emerald-400 hover:underline cursor-pointer font-semibold">Concept: ${q.concept}</span>
                 </div>
               </div>
             `).join('')}
@@ -743,21 +731,21 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderInbox(container) {
       container.innerHTML = `
         <div class="space-y-8 max-w-4xl mx-auto">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Human-in-the-Loop Review</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">Research Staging Buffer</h1>
-            <p class="text-sm text-slate-400">Captured items and AI proposals remain here until verified by you before joining the permanent tree.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Human-in-the-Loop Review</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">Research Staging Buffer</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Captured items and AI proposals remain here until verified by you before joining the permanent tree.</p>
           </div>
           <div class="space-y-4">
             ${KNOWLEDGE_DB.inbox.map(item => `
-              <div class="p-6 rounded-2xl border border-slate-800 bg-[#0f1520] space-y-4">
+              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] space-y-4">
                 <div class="flex justify-between items-start">
-                  <h3 class="text-lg font-serif font-bold text-white">${item.title}</h3>
-                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20 font-bold">${item.status}</span>
+                  <h3 class="text-lg font-serif font-bold text-slate-900 dark:text-white">${item.title}</h3>
+                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-800 dark:text-amber-300 border border-amber-500/20 font-bold">${item.status}</span>
                 </div>
-                <p class="text-xs text-slate-300 font-sans">${item.summary}</p>
-                <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-between text-xs font-mono">
-                  <span class="text-slate-400">Proposed Target: <strong class="text-emerald-400">${item.chapter}</strong></span>
+                <p class="text-xs text-slate-600 dark:text-slate-300 font-sans">${item.summary}</p>
+                <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs font-mono">
+                  <span class="text-slate-600 dark:text-slate-400">Proposed Target: <strong class="text-emerald-700 dark:text-emerald-400">${item.chapter}</strong></span>
                   <button onclick="alert('Proposal committed to knowledge tree!')" class="px-3 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">Accept & Commit</button>
                 </div>
               </div>
@@ -770,22 +758,22 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     function renderAdd(container) {
       container.innerHTML = `
         <div class="max-w-2xl mx-auto space-y-8">
-          <div class="space-y-2 border-b border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Capture Workbench</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-white">Add to Aravalli</h1>
-            <p class="text-sm text-slate-400">Capture a paper, lecture, video, book excerpt, or personal research note.</p>
+          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Capture Workbench</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">Add to Aravalli</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Capture a paper, lecture, video, book excerpt, or personal research note.</p>
           </div>
 
           <form onsubmit="handleCapture(event)" class="space-y-5">
             <div class="space-y-2">
-              <label class="block text-xs font-mono uppercase text-slate-300 font-bold">What did you discover?</label>
-              <textarea id="capture-content" rows="6" placeholder="Paste raw text, paper abstract, transcript snippet, or theoretical thought..." class="w-full rounded-2xl border border-slate-800 bg-[#0f1520] p-4 text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 font-sans"></textarea>
+              <label class="block text-xs font-mono uppercase text-slate-700 dark:text-slate-300 font-bold">What did you discover?</label>
+              <textarea id="capture-content" rows="6" placeholder="Paste raw text, paper abstract, transcript snippet, or theoretical thought..." class="w-full rounded-2xl border border-slate-300 dark:border-slate-800 bg-white dark:bg-[#0f1520] p-4 text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 font-sans"></textarea>
             </div>
             <div class="space-y-1.5">
-              <label class="block text-xs font-mono text-slate-400">Source URL (optional)</label>
-              <input id="capture-url" type="url" placeholder="https://... (ArXiv, YouTube, Article)" class="w-full rounded-xl border border-slate-800 bg-[#0f1520] px-4 py-2 text-xs font-mono text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+              <label class="block text-xs font-mono text-slate-500">Source URL (optional)</label>
+              <input id="capture-url" type="url" placeholder="https://... (ArXiv, YouTube, Article)" class="w-full rounded-xl border border-slate-300 dark:border-slate-800 bg-white dark:bg-[#0f1520] px-4 py-2 text-xs font-mono text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
             </div>
-            <button type="submit" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-bold transition-all flex items-center justify-center gap-2">
+            <button type="submit" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-bold transition-all flex items-center justify-center gap-2 shadow-sm">
               <i data-lucide="plus-circle" class="w-4 h-4"></i>
               <span>Add to Inbox Staging Buffer</span>
             </button>
@@ -855,10 +843,10 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
       }
 
       resultsContainer.innerHTML = matches.map(m => `
-        <div onclick="navigate('concepts', '${m.slug}'); closeSearch();" class="p-3 rounded-xl hover:bg-slate-800 cursor-pointer flex items-center justify-between">
+        <div onclick="navigate('concepts', '${m.slug}'); closeSearch();" class="p-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer flex items-center justify-between">
           <div>
-            <span class="text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">${m.type}</span>
-            <div class="font-serif font-semibold text-sm text-white pt-1">${m.title}</div>
+            <span class="text-[9px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 font-bold">${m.type}</span>
+            <div class="font-serif font-semibold text-sm text-slate-900 dark:text-white pt-1">${m.title}</div>
           </div>
           <span class="text-xs font-mono text-slate-500">${m.meta}</span>
         </div>
@@ -867,8 +855,40 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
 
     // Theme toggle
     function toggleTheme() {
-      document.documentElement.classList.toggle('light');
+      const isDark = document.documentElement.classList.contains('dark');
+      if (isDark) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('aravalli_theme', 'light');
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('aravalli_theme', 'dark');
+      }
+      updateThemeIcon();
     }
+
+    function updateThemeIcon() {
+      const icon = document.getElementById('theme-icon');
+      if (!icon) return;
+      const isDark = document.documentElement.classList.contains('dark');
+      if (isDark) {
+        icon.setAttribute('data-lucide', 'sun');
+        icon.className = 'w-4 h-4 text-amber-400';
+      } else {
+        icon.setAttribute('data-lucide', 'moon');
+        icon.className = 'w-4 h-4 text-slate-700';
+      }
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // Init theme from preference
+    (function initTheme() {
+      const saved = localStorage.getItem('aravalli_theme');
+      if (saved === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else {
+        document.documentElement.classList.add('dark');
+      }
+    })();
 
     // Keyboard shortcuts
     window.addEventListener('keydown', (e) => {
@@ -882,7 +902,10 @@ $$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega
     });
 
     window.addEventListener('hashchange', renderApp);
-    window.addEventListener('DOMContentLoaded', renderApp);
+    window.addEventListener('DOMContentLoaded', () => {
+      renderApp();
+      updateThemeIcon();
+    });
   </script>
 </body>
 </html>
