@@ -12,9 +12,10 @@ export function MathBlock({ math, className = "" }: MathBlockProps) {
     html = katex.renderToString(math, {
       displayMode: true,
       throwOnError: false,
+      errorColor: "#047857",
     });
   } catch (err) {
-    html = `<span class="text-rose-500 font-mono text-xs">${math}</span>`;
+    html = `<span class="text-slate-600 dark:text-slate-400 font-mono text-xs">${math}</span>`;
   }
 
   return (
@@ -31,9 +32,10 @@ export function MathInline({ math, className = "" }: MathBlockProps) {
     html = katex.renderToString(math, {
       displayMode: false,
       throwOnError: false,
+      errorColor: "#047857",
     });
   } catch (err) {
-    html = `<span class="text-rose-500 font-mono text-xs">${math}</span>`;
+    html = `<span class="text-slate-600 dark:text-slate-400 font-mono text-xs">${math}</span>`;
   }
 
   return (

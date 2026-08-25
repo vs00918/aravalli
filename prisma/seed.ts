@@ -51,7 +51,11 @@ $$S = k_B \\ln \\Omega$$
 - **$k_B$** is Boltzmann's constant ($1.380649 \\times 10^{-23} \\text{ J/K}$), the fundamental conversion factor relating macroscopic thermal temperature units to microscopic state multiplicity.
 - **$\\Omega$** (Omega) is the multiplicity—the exact count of accessible microscopic quantum states compatible with the observed macroscopic state.
 
-**Physical Interpretation**: This equation bridges the microscopic and macroscopic worlds. The natural logarithm ($\\ln$) ensures that entropy is an extensive, additive quantity: when two independent systems are joined, their microstate possibilities multiply ($\\Omega_{\\text{total}} = \\Omega_1 \\times \\Omega_2$), while their macroscopic entropy adds linearly ($S_{\\text{total}} = S_1 + S_2$).
+**Physical Interpretation**: This equation bridges the microscopic and macroscopic worlds. The logarithm converts multiplicative microscopic multiplicities into additive macroscopic entropy. For two independent systems $A$ and $B$, their combined microstate multiplicity multiplies ($\\Omega_{AB} = \\Omega_A \\Omega_B$). Applying Boltzmann's equation:
+
+$$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega_B = S_A + S_B$$
+
+This explains why the logarithm appears: it ensures that doubling the physical size of a system doubles its macroscopic entropy, even though the number of microscopic configurations squares.
 
 ### Thermodynamic Relation (Clausius)
 

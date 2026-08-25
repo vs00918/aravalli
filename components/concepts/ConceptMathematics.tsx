@@ -1,5 +1,5 @@
 import React from "react";
-import { Binary } from "lucide-react";
+import { Binary, Sparkles } from "lucide-react";
 import { MathBlock, MathInline } from "@/components/ui/MathBlock";
 
 interface ConceptMathematicsProps {
@@ -21,7 +21,7 @@ export function ConceptMathematics({ mathematicalModel }: ConceptMathematicsProp
         return (
           <h3
             key={idx}
-            className="text-base sm:text-lg font-serif font-semibold text-slate-900 dark:text-slate-100 pt-3 pb-1"
+            className="text-base sm:text-lg font-serif font-semibold text-slate-900 dark:text-slate-100 pt-4 pb-1 border-b border-slate-200/60 dark:border-slate-800/60"
           >
             {trimmed.replace("### ", "")}
           </h3>
@@ -44,6 +44,25 @@ export function ConceptMathematics({ mathematicalModel }: ConceptMathematicsProp
       if (trimmed.startsWith("$$") && trimmed.endsWith("$$")) {
         const mathExpr = trimmed.slice(2, -2).trim();
         return <MathBlock key={idx} math={mathExpr} />;
+      }
+
+      // Physical Interpretation Callout (Scholarly Information Box)
+      if (trimmed.startsWith("**Physical Interpretation**:")) {
+        const textAfter = trimmed.replace("**Physical Interpretation**:", "").trim();
+        return (
+          <div
+            key={idx}
+            className="my-3 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-4 sm:p-5 space-y-1.5 shadow-sm"
+          >
+            <div className="flex items-center space-x-1.5 text-xs font-mono font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Physical Interpretation</span>
+            </div>
+            <p className="text-sm sm:text-base text-slate-700 dark:text-slate-300 font-sans leading-relaxed">
+              {renderInlineMath(textAfter)}
+            </p>
+          </div>
+        );
       }
 
       // Direct LaTeX expression without markdown wrapper
