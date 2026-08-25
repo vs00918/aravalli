@@ -203,10 +203,6 @@
             { slug: "needs-and-incentives", title: "Incentives & Human Behavior", difficulty: "FOUNDATION", order: 1 },
             { slug: "money-and-exchange", title: "Money & Mediums of Exchange", difficulty: "CORE", order: 2 },
             { slug: "demographic-transition", title: "The Demographic Transition Model", difficulty: "INTERMEDIATE", order: 3 },
-            { slug: "cognitive-energy-conservation", title: "Cognitive Energy Conservation & The Comfort Trap", difficulty: "CORE", order: 4 },
-            { slug: "temporal-motivation-theory", title: "Temporal Motivation Theory & Procrastination", difficulty: "INTERMEDIATE", order: 5 },
-            { slug: "habit-automaticity", title: "Prefrontal Load & Habit Automaticity", difficulty: "CORE", order: 6 },
-            { slug: "deep-focus-attention-residue", title: "Deep Focus & Attention Residue", difficulty: "ADVANCED", order: 7 },
           ]
         }
       ],
@@ -546,41 +542,57 @@
       ]
     };
 
-    // Navigation Router
+    
+    // Bulletproof Navigation Router
     function navigate(route, param) {
-      window.location.hash = param ? `${route}/${param}` : route;
-      renderApp();
+      const cleanRoute = (route || 'home').replace(/^\/+|\/+$/g, '');
+      const cleanParam = (param || '').replace(/^\/+|\/+$/g, '');
+      const targetHash = cleanParam ? `${cleanRoute}/${cleanParam}` : cleanRoute;
+      
+      if (window.location.hash !== '#' + targetHash) {
+        window.location.hash = targetHash;
+      } else {
+        renderApp();
+      }
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function renderApp() {
-      const hash = window.location.hash.replace('#', '') || 'home';
-      const parts = hash.split('/');
-      const page = parts[0];
-      const param = parts[1];
+      // Robust Hash Parser
+      // Handles '#/concepts/matter-and-energy', '#concepts/matter-and-energy', '?query=...', etc.
+      const rawHash = (window.location.hash || '').replace(/^#[\/]?/, '').split('?')[0].replace(/\/+$/, '');
+      const parts = rawHash ? rawHash.split('/') : ['home'];
+      const page = (parts[0] || 'home').toLowerCase().trim();
+      const param = parts.slice(1).join('/').trim();
 
       const app = document.getElementById('app');
+      if (!app) return;
 
-      if (page === 'home') {
+      if (page === 'home' || page === '') {
         renderHome(app);
       } else if (page === 'library') {
         renderLibrary(app);
-      } else if (page === 'chapters') {
+      } else if (page === 'chapters' || page === 'chapter' || page === 'vol' || page === 'volume') {
         renderChapter(app, param);
-      } else if (page === 'concepts') {
+      } else if (page === 'concepts' || page === 'concept') {
         renderConcept(app, param);
-      } else if (page === 'connections') {
+      } else if (page === 'connections' || page === 'connection') {
         renderConnections(app);
-      } else if (page === 'sources') {
+      } else if (page === 'sources' || page === 'source') {
         renderSources(app);
-      } else if (page === 'questions') {
+      } else if (page === 'questions' || page === 'question') {
         renderQuestions(app);
       } else if (page === 'inbox') {
         renderInbox(app);
       } else if (page === 'add') {
         renderAdd(app);
       } else {
-        renderHome(app);
+        // Check if page itself is a concept slug (e.g. #entropy or #matter-and-energy)
+        if (KNOWLEDGE_DB.concepts[page]) {
+          renderConcept(app, page);
+        } else {
+          renderHome(app);
+        }
       }
 
       if (window.lucide) lucide.createIcons();
@@ -595,6 +607,88 @@
       }
     }
 
+
+    function formatMarkdown(text) {
+      if (!text) return '';
+      
+      const blocks = text.split('\n\n');
+      return blocks.map(block => {
+        const trimmed = block.trim();
+        if (!trimmed) return '';
+
+        // Heading 3
+        if (trimmed.startsWith('### ')) {
+          return `<h3 class="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-white pt-5 pb-1 border-b border-slate-200 dark:border-slate-800">${trimmed.replace('### ', '')}</h3>`;
+        }
+
+        // Heading 4
+        if (trimmed.startsWith('#### ')) {
+          return `<h4 class="text-base sm:text-lg font-serif font-semibold text-slate-900 dark:text-white pt-3 pb-0.5">${trimmed.replace('#### ', '')}</h4>`;
+        }
+
+        // Standalone Math Block $$ ... $$
+        if (trimmed.startsWith('$$') && trimmed.endsWith('$$')) {
+          return `<div class="math-block text-center text-sm sm:text-base border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-slate-900 dark:text-slate-100 my-4">${trimmed}</div>`;
+        }
+
+        // Misconception block
+        if (trimmed.startsWith('**MISCONCEPTION**:')) {
+          const lines = trimmed.split('\n');
+          let out = '<div class="my-4 rounded-xl border border-amber-500/30 bg-amber-50/50 dark:bg-amber-950/20 p-5 space-y-3 font-sans">';
+          lines.forEach(l => {
+            const lt = l.trim();
+            if (lt.startsWith('**MISCONCEPTION**:')) {
+              out += `<div class="space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20">Common Misconception</span><p class="text-sm font-serif font-semibold text-slate-900 dark:text-white pt-1">${formatInlineText(lt.replace('**MISCONCEPTION**:', '').trim())}</p></div>`;
+            } else if (lt.startsWith('**CORRECTION**:')) {
+              out += `<div class="space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20">Scientific Correction</span><p class="text-sm text-slate-800 dark:text-slate-200">${formatInlineText(lt.replace('**CORRECTION**:', '').trim())}</p></div>`;
+            } else if (lt.startsWith('**WHY THE CONFUSION HAPPENS**:')) {
+              out += `<div class="text-xs text-slate-600 dark:text-slate-400 pt-1 border-t border-amber-500/20"><strong class="text-slate-700 dark:text-slate-300 font-mono">Why Confusion Happens: </strong>${formatInlineText(lt.replace('**WHY THE CONFUSION HAPPENS**:', '').trim())}</div>`;
+            } else if (lt) {
+              out += `<p class="text-sm text-slate-700 dark:text-slate-300">${formatInlineText(lt)}</p>`;
+            }
+          });
+          out += '</div>';
+          return out;
+        }
+
+        // Bullet lists
+        if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
+          const items = trimmed.split('\n');
+          return `<ul class="space-y-2 my-3 pl-5 list-disc text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400">${items.map(it => `<li class="leading-relaxed">${formatInlineText(it.replace(/^[-*]\s+/, ''))}</li>`).join('')}</ul>`;
+        }
+
+        // Numbered lists
+        if (/^\d+\.\s+/.test(trimmed)) {
+          const items = trimmed.split('\n');
+          return `<ol class="space-y-2 my-3 pl-5 list-decimal text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400 font-sans">${items.map(it => `<li class="leading-relaxed">${formatInlineText(it.replace(/^\d+\.\s+/, ''))}</li>`).join('')}</ol>`;
+        }
+
+        // Tables
+        if (trimmed.startsWith('|') && trimmed.includes('|')) {
+          const rows = trimmed.split('\n').filter(r => !r.includes('---'));
+          return `<div class="overflow-x-auto my-4"><table class="w-full text-left text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">${rows.map((row, rIdx) => {
+            const cols = row.split('|').filter((_, cIdx, arr) => cIdx > 0 && cIdx < arr.length - 1);
+            if (rIdx === 0) {
+              return `<thead class="bg-slate-100 dark:bg-slate-800/80 font-mono text-[11px] uppercase"><tr>${cols.map(c => `<th class="p-2.5 border border-slate-200 dark:border-slate-800">${formatInlineText(c.trim())}</th>`).join('')}</tr></thead>`;
+            }
+            return `<tbody><tr class="hover:bg-slate-50 dark:hover:bg-slate-800/30">${cols.map(c => `<td class="p-2.5 border border-slate-200 dark:border-slate-800">${formatInlineText(c.trim())}</td>`).join('')}</tr></tbody>`;
+          }).join('')}</table></div>`;
+        }
+
+        // Standard paragraph
+        return `<p class="text-base sm:text-lg leading-relaxed text-slate-800 dark:text-slate-200">${formatInlineText(trimmed)}</p>`;
+      }).join('');
+    }
+
+    function formatInlineText(str) {
+      if (!str) return '';
+      return str
+        .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900 dark:text-white">$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em class="italic text-slate-800 dark:text-slate-200">$1</em>');
+    }
+
+
+    
     // Views
     function renderHome(container) {
       container.innerHTML = `
@@ -681,7 +775,7 @@
 
     function renderLibrary(container) {
       container.innerHTML = `
-        <div class="space-y-8">
+        <div class="space-y-8 max-w-5xl mx-auto">
           <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
             <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Master Curriculum</span>
             <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">The Master Library</h1>
@@ -689,21 +783,23 @@
           </div>
           <div class="space-y-6">
             ${KNOWLEDGE_DB.chapters.map(ch => `
-              <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-md transition-all space-y-4">
-                <div class="flex items-center justify-between">
+              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 shadow-sm space-y-4">
+                <div class="flex items-center justify-between cursor-pointer" onclick="navigate('chapters', '${ch.slug}')">
                   <div class="flex items-center gap-3">
                     <span class="text-3xl">${ch.icon}</span>
                     <div>
                       <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${ch.order}</span>
-                      <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white">${ch.title}</h2>
+                      <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white hover:text-emerald-600 transition-colors">${ch.title}</h2>
                     </div>
                   </div>
                   <span class="text-xs font-mono text-slate-500">${ch.concepts.length} concepts</span>
                 </div>
                 <p class="text-sm text-slate-600 dark:text-slate-400">${ch.description}</p>
-                <div class="flex flex-wrap gap-2 pt-2">
+                <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
                   ${ch.concepts.map(c => `
-                    <span class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-mono text-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-700">${c.title}</span>
+                    <button onclick="navigate('concepts', '${c.slug}')" class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800/80 text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-700 dark:hover:text-emerald-400 transition-all font-medium">
+                      ${c.title}
+                    </button>
                   `).join('')}
                 </div>
               </div>
@@ -714,7 +810,9 @@
     }
 
     function renderChapter(container, slug) {
-      const chapter = KNOWLEDGE_DB.chapters.find(c => c.slug === slug) || KNOWLEDGE_DB.chapters[0];
+      const cleanSlug = (slug || '').toLowerCase().trim().replace(/^[\/]+|[\/]+$/g, '');
+      const chapter = KNOWLEDGE_DB.chapters.find(c => c.slug === cleanSlug) || KNOWLEDGE_DB.chapters[0];
+
       container.innerHTML = `
         <div class="space-y-10 max-w-4xl mx-auto">
           <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-6">
@@ -729,21 +827,21 @@
                 <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">${chapter.title}</h1>
               </div>
             </div>
-            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${chapter.overview}</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${chapter.overview || chapter.description}</p>
           </div>
 
           <div class="space-y-4">
             <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-300">Documented Concepts</h2>
             <div class="space-y-3">
               ${chapter.concepts.map(c => `
-                <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all flex items-center justify-between">
+                <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all flex items-center justify-between group">
                   <div class="space-y-1">
                     <div class="flex items-center gap-2">
-                      <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${c.difficulty}</span>
-                      <h3 class="text-base font-serif font-semibold text-slate-900 dark:text-white hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors">${c.title}</h3>
+                      <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${c.difficulty || 'CORE'}</span>
+                      <h3 class="text-base font-serif font-semibold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${c.title}</h3>
                     </div>
                   </div>
-                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400 group-hover:text-emerald-500 transition-colors"></i>
                 </div>
               `).join('')}
             </div>
@@ -753,7 +851,45 @@
     }
 
     function renderConcept(container, slug) {
-      const concept = KNOWLEDGE_DB.concepts[slug] || KNOWLEDGE_DB.concepts["entropy"];
+      if (!slug) {
+        navigate('library');
+        return;
+      }
+
+      const cleanSlug = slug.toLowerCase().trim().replace(/^[\/]+|[\/]+$/g, '');
+      
+      // Look up concept directly or via fuzzy match
+      let concept = KNOWLEDGE_DB.concepts[cleanSlug];
+      if (!concept) {
+        const foundKey = Object.keys(KNOWLEDGE_DB.concepts).find(k => 
+          k.toLowerCase() === cleanSlug || 
+          k.replace(/-/g, '') === cleanSlug.replace(/-/g, '')
+        );
+        if (foundKey) concept = KNOWLEDGE_DB.concepts[foundKey];
+      }
+
+      if (!concept) {
+        container.innerHTML = `
+          <div class="max-w-2xl mx-auto py-16 text-center space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 font-mono text-xs">
+              <i data-lucide="alert-circle" class="w-4 h-4"></i>
+              <span>Concept "${slug}" Not Found</span>
+            </div>
+            <h1 class="text-3xl font-serif font-bold text-slate-900 dark:text-white">Concept Not in Knowledge Tree</h1>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Please choose from our 15 master documented concepts below:</p>
+            <div class="flex flex-wrap justify-center gap-2 pt-4">
+              ${Object.values(KNOWLEDGE_DB.concepts).map(c => `
+                <button onclick="navigate('concepts', '${c.slug}')" class="px-3 py-1.5 rounded-lg bg-white dark:bg-[#0f1520] text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-800 hover:border-emerald-500/50 hover:text-emerald-600 shadow-sm transition-all">
+                  ${c.title}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+        if (window.lucide) lucide.createIcons();
+        return;
+      }
+
       container.innerHTML = `
         <article class="max-w-3xl mx-auto space-y-10 pb-16">
           <!-- Header -->
@@ -767,63 +903,82 @@
               <span>•</span>
               <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${concept.difficulty}</span>
             </div>
-            <h1 class="text-3xl sm:text-5xl font-serif font-bold text-slate-900 dark:text-white">${concept.title}</h1>
+            <h1 class="text-3xl sm:text-5xl font-serif font-bold text-slate-900 dark:text-white tracking-tight">${concept.title}</h1>
             <p class="text-base sm:text-lg text-slate-700 dark:text-slate-300 font-serif leading-relaxed">${concept.oneLiner}</p>
           </div>
 
-          <!-- Significance -->
+          <!-- Level 1 Significance / Why It Matters -->
           <div class="p-5 rounded-2xl border border-emerald-500/20 bg-emerald-50/50 dark:bg-emerald-950/20 space-y-1.5">
             <span class="text-[10px] font-mono uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-bold">Why It Matters</span>
             <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.whyItMatters}</p>
           </div>
 
-          <!-- Level 2: Intuition -->
-          <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 2 · Build Intuition</h2>
-            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.intuition}</p>
-            <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono text-slate-600 dark:text-slate-400">
-              <strong class="text-emerald-700 dark:text-emerald-400 font-semibold">Everyday Observation:</strong> ${concept.example}
+          <!-- Level 2: Build the Mental Model -->
+          <section class="space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
+            <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+              <i data-lucide="lightbulb" class="w-4 h-4"></i>
+              <span>Level 2 · Build the Mental Model</span>
             </div>
+            <div class="space-y-3 font-serif">${formatMarkdown(concept.intuition)}</div>
+            ${concept.example ? `
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono text-slate-600 dark:text-slate-400 shadow-sm">
+                <strong class="text-emerald-700 dark:text-emerald-400 font-semibold">Concrete Thought Experiment:</strong> ${concept.example}
+              </div>
+            ` : ''}
           </section>
 
-          <!-- Level 3: Mechanism -->
-          <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 3 · How It Actually Works</h2>
-            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.howItWorks}</p>
+          <!-- Level 3: Show the Mechanism -->
+          <section class="space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
+            <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+              <i data-lucide="cpu" class="w-4 h-4"></i>
+              <span>Level 3 · Show the Mechanism</span>
+            </div>
+            <div class="space-y-3 font-serif">${formatMarkdown(concept.howItWorks)}</div>
           </section>
 
-          <!-- Level 4: First Principles -->
-          <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 4 · From First Principles</h2>
-            <p class="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-sans">${concept.firstPrinciples}</p>
+          <!-- Level 4: From First Principles -->
+          <section class="space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
+            <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+              <i data-lucide="compass" class="w-4 h-4"></i>
+              <span>Level 4 · From First Principles</span>
+            </div>
+            <div class="space-y-3 font-serif">${formatMarkdown(concept.firstPrinciples)}</div>
           </section>
 
           <!-- Level 5: The Mathematics -->
-          <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Level 5 · The Mathematics</h2>
-            <div class="math-block text-center text-sm sm:text-base border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-slate-900 dark:text-slate-100">${concept.mathematics}</div>
+          <section class="space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
+            <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+              <i data-lucide="binary" class="w-4 h-4"></i>
+              <span>Level 5 · The Mathematics</span>
+            </div>
+            <div class="space-y-3 font-serif">${formatMarkdown(concept.mathematics)}</div>
           </section>
 
-          <!-- Limitations -->
-          <section class="space-y-3">
-            <h2 class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Limitations & Misconceptions</h2>
-            <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 text-xs text-slate-700 dark:text-slate-400 font-sans leading-relaxed">
-              ${concept.misconceptions}
+          <!-- Limitations, Misconceptions & Takeaways -->
+          <section class="space-y-4 pt-6 border-t border-slate-200/80 dark:border-slate-800">
+            <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-amber-700 dark:text-amber-400 font-bold">
+              <i data-lucide="alert-circle" class="w-4 h-4"></i>
+              <span>Limitations, Misconceptions & Self-Test Audit</span>
             </div>
+            <div class="space-y-3 font-serif">${formatMarkdown(concept.misconceptions)}</div>
           </section>
 
           <!-- Source Provenance -->
-          ${concept.sources ? `
-            <section class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
-              <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Verified Source Provenance</h2>
+          ${concept.sources && concept.sources.length > 0 ? `
+            <section class="space-y-3 pt-6 border-t border-slate-200 dark:border-slate-800">
+              <div class="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+                <i data-lucide="book-open" class="w-4 h-4"></i>
+                <span>Verified Source Provenance</span>
+              </div>
               <div class="space-y-2">
                 ${concept.sources.map(s => `
-                  <div class="p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono space-y-1">
+                  <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-xs font-mono space-y-1 shadow-sm">
                     <div class="flex items-center justify-between text-slate-800 dark:text-slate-200">
-                      <span class="font-bold">${s.title}</span>
-                      <span class="text-[10px] text-emerald-700 dark:text-emerald-400 font-semibold">${s.type}</span>
+                      <span class="font-bold text-slate-900 dark:text-white">${s.title}</span>
+                      <span class="text-[10px] text-emerald-700 dark:text-emerald-400 font-semibold px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20">${s.type}</span>
                     </div>
-                    <p class="text-slate-600 dark:text-slate-400 font-sans">${s.notes}</p>
+                    <div class="text-slate-500 font-sans">Author: ${s.author}</div>
+                    <p class="text-slate-600 dark:text-slate-400 font-sans pt-1">${s.notes}</p>
                   </div>
                 `).join('')}
               </div>
@@ -832,6 +987,7 @@
         </article>
       `;
     }
+
 
     function renderConnections(container) {
       container.innerHTML = `
