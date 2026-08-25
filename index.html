@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mind of Aravalli — Living Encyclopedia of Cognitive Neuroscience</title>
+  <title>Mind of Aravalli — An Immersive Living Magazine of Cognitive Neuroscience</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -19,18 +19,22 @@
         extend: {
           fontFamily: {
             sans: ['Inter', 'sans-serif'],
-            serif: ['Lora', 'serif'],
+            serif: ['Lora', 'Georgia', 'serif'],
+            display: ['Cinzel', 'Lora', 'serif'],
             mono: ['JetBrains Mono', 'monospace'],
           },
           colors: {
-            aravalli: {
-              50: '#f0fdf4',
-              100: '#dcfce7',
-              500: '#22c55e',
-              600: '#16a34a',
-              700: '#15803d',
-              800: '#166534',
-              900: '#14532d',
+            editorial: {
+              cream: '#fbfaf7',
+              paper: '#f6f4ee',
+              ink: '#1c2226',
+              muted: '#5c6469',
+              border: '#e4dfd5',
+              darkBg: '#090d13',
+              darkPaper: '#0f1622',
+              darkBorder: '#1c2637',
+              accent: '#15803d',
+              accentLight: '#22c55e',
             }
           }
         }
@@ -51,24 +55,64 @@
       scroll-behavior: smooth;
     }
     body {
-      transition: background-color 0.2s ease, color 0.2s ease;
+      transition: background-color 0.25s ease, color 0.25s ease;
       font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
     }
+    
+    /* Magazine Drop Caps */
+    .prose-magazine > p:first-of-type::first-letter {
+      font-family: 'Cinzel', 'Lora', serif;
+      font-size: 3.8rem;
+      line-height: 0.85;
+      float: left;
+      margin-top: 0.15rem;
+      margin-right: 0.85rem;
+      margin-bottom: -0.1rem;
+      font-weight: 700;
+      color: #15803d;
+    }
+    .dark .prose-magazine > p:first-of-type::first-letter {
+      color: #34d399;
+    }
+
+    /* Magazine Diagram Panels (Replacing Harsh Black Terminal) */
+    .diagram-panel {
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: -0.015em;
+      line-height: 1.5;
+      font-size: 0.78rem;
+      overflow-x: auto;
+      white-space: pre;
+    }
+
+    /* Math Block Container */
     .math-block {
       overflow-x: auto;
       padding: 1.25rem;
-      border-radius: 0.875rem;
-      margin: 1.5rem 0;
+      border-radius: 0.75rem;
+      margin: 1.75rem 0;
+      font-family: 'Lora', serif;
     }
-    pre code {
-      font-family: 'JetBrains Mono', monospace !important;
-      letter-spacing: -0.01em;
-      line-height: 1.45;
+
+    /* Active Nav Chapter */
+    .active-nav-chapter {
+      border-left-color: #15803d !important;
+      background-color: rgba(21, 128, 61, 0.08) !important;
+      color: #15803d !important;
+      font-weight: 600;
     }
+    .dark .active-nav-chapter {
+      border-left-color: #34d399 !important;
+      background-color: rgba(52, 211, 153, 0.1) !important;
+      color: #34d399 !important;
+    }
+
     /* Custom Scrollbar */
     ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
+      width: 5px;
+      height: 5px;
     }
     ::-webkit-scrollbar-track {
       background: transparent;
@@ -77,129 +121,120 @@
       background: rgba(156, 163, 175, 0.3);
       border-radius: 9999px;
     }
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgba(156, 163, 175, 0.5);
-    }
-    .active-nav-chapter {
-      border-left-color: #16a34a !important;
-      background-color: rgba(22, 163, 74, 0.1) !important;
-      color: #16a34a !important;
-      font-weight: 600;
-    }
   </style>
 </head>
-<body class="min-h-screen flex flex-col antialiased bg-[#f9f8f5] dark:bg-[#090d13] text-slate-800 dark:text-slate-200 selection:bg-emerald-500/20 selection:text-emerald-700 dark:selection:text-emerald-300">
+<body class="min-h-screen flex flex-col antialiased bg-[#fbfaf7] dark:bg-[#090d13] text-[#1c2226] dark:text-[#dbe3eb] selection:bg-emerald-500/20 selection:text-emerald-800 dark:selection:text-emerald-300">
 
-  <!-- Top Sticky Header -->
-  <header class="sticky top-0 z-40 w-full bg-[#f9f8f5]/95 dark:bg-[#090d13]/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <!-- Logo -->
+  <!-- Top Magazine Header -->
+  <header class="sticky top-0 z-40 w-full bg-[#fbfaf7]/95 dark:bg-[#090d13]/95 backdrop-blur-md border-b border-[#e4dfd5] dark:border-[#1c2637] transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-3 flex items-center justify-between">
+      <!-- Magazine Masthead Brand -->
       <a href="#home" onclick="navigate('home')" class="flex items-center space-x-3 group">
-        <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-700 dark:text-emerald-400 group-hover:border-emerald-500/50 transition-colors font-serif font-bold text-sm">
+        <div class="w-9 h-9 rounded-md bg-[#15803d]/10 dark:bg-emerald-500/10 border border-[#15803d]/30 dark:border-emerald-500/30 flex items-center justify-center text-[#15803d] dark:text-emerald-400 font-serif font-bold text-base group-hover:scale-105 transition-transform">
           A
         </div>
         <div class="flex flex-col">
-          <span class="font-serif font-bold text-sm tracking-tight text-slate-900 dark:text-white">
+          <span class="font-serif font-bold text-base tracking-tight text-[#1c2226] dark:text-white uppercase">
             Mind of Aravalli
           </span>
-          <span class="text-[9px] font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-semibold">
-            Living Encyclopedia · Continuous Volumes
+          <span class="text-[9px] font-mono uppercase tracking-widest text-[#15803d] dark:text-emerald-400 font-semibold">
+            Living Magazine of Cognitive Science
           </span>
         </div>
       </a>
 
-      <!-- Desktop Navigation -->
+      <!-- Navigation -->
       <nav class="hidden md:flex items-center space-x-1 text-xs font-mono">
-        <button onclick="navigate('volumes')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">5 Volumes</button>
-        <button onclick="navigate('curriculum')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">All 33 Chapters</button>
-        <button onclick="navigate('recall')" class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors font-medium">Quick Revision</button>
-        <button onclick="openSearch()" class="px-3 py-1.5 rounded-lg bg-slate-200/80 dark:bg-slate-800/80 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors flex items-center gap-2 ml-2">
-          <i data-lucide="search" class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400"></i>
+        <button onclick="navigate('volumes')" class="px-3.5 py-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors font-medium">5 Volumes</button>
+        <button onclick="navigate('curriculum')" class="px-3.5 py-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors font-medium">All 33 Chapters</button>
+        <button onclick="navigate('recall')" class="px-3.5 py-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors font-medium">Quick Revision</button>
+        <button onclick="openSearch()" class="px-3.5 py-2 rounded-lg bg-[#f0ebe1] dark:bg-[#131b28] text-[#5c6469] dark:text-slate-400 hover:text-[#1c2226] dark:hover:text-white transition-colors flex items-center gap-2 ml-2 border border-[#e4dfd5] dark:border-[#1c2637]">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-[#15803d] dark:text-emerald-400"></i>
           <span>Search</span>
-          <kbd class="text-[10px] bg-slate-300/70 dark:bg-slate-900 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-400">Ctrl K</kbd>
+          <kbd class="text-[10px] bg-black/5 dark:bg-black/40 px-1.5 py-0.5 rounded text-[#5c6469] dark:text-slate-400">Ctrl K</kbd>
         </button>
       </nav>
 
-      <!-- Right Controls & Mobile Menu Toggle -->
+      <!-- Right Controls & Mobile Toggle -->
       <div class="flex items-center space-x-2">
-        <button id="theme-toggle-btn" onclick="toggleTheme()" class="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/70 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
+        <button id="theme-toggle-btn" onclick="toggleTheme()" class="p-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors" title="Toggle theme">
           <i id="theme-icon" data-lucide="sun" class="w-4 h-4"></i>
         </button>
-        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800">
-          <i data-lucide="search" class="w-4 h-4 text-emerald-600"></i>
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:bg-black/5 dark:hover:bg-white/5">
+          <i data-lucide="search" class="w-4 h-4 text-[#15803d] dark:text-emerald-400"></i>
         </button>
-        <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800">
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg text-[#5c6469] dark:text-slate-300 hover:bg-black/5 dark:hover:bg-white/5">
           <i id="mobile-menu-icon" data-lucide="menu" class="w-5 h-5"></i>
         </button>
       </div>
     </div>
 
     <!-- Mobile Drawer -->
-    <div id="mobile-drawer" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-[#f9f8f5] dark:bg-[#090d13] px-4 py-3 space-y-2 text-xs font-mono">
-      <button onclick="navigate('volumes'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
-        <i data-lucide="layers" class="w-4 h-4 text-emerald-600"></i>
+    <div id="mobile-drawer" class="hidden md:hidden border-b border-[#e4dfd5] dark:border-[#1c2637] bg-[#fbfaf7] dark:bg-[#090d13] px-4 py-3 space-y-2 text-xs font-mono">
+      <button onclick="navigate('volumes'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2">
+        <i data-lucide="layers" class="w-4 h-4 text-[#15803d] dark:text-emerald-400"></i>
         <span>5 Master Volumes</span>
       </button>
-      <button onclick="navigate('curriculum'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
-        <i data-lucide="book-open" class="w-4 h-4 text-emerald-600"></i>
+      <button onclick="navigate('curriculum'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2">
+        <i data-lucide="book-open" class="w-4 h-4 text-[#15803d] dark:text-emerald-400"></i>
         <span>All 33 Chapters</span>
       </button>
-      <button onclick="navigate('recall'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 flex items-center gap-2">
-        <i data-lucide="sparkles" class="w-4 h-4 text-emerald-600"></i>
-        <span>Quick Revision</span>
+      <button onclick="navigate('recall'); toggleMobileMenu();" class="w-full text-left py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 flex items-center gap-2">
+        <i data-lucide="sparkles" class="w-4 h-4 text-[#15803d] dark:text-emerald-400"></i>
+        <span>Quick Revision Hub</span>
       </button>
     </div>
   </header>
 
-  <!-- Main View Container -->
+  <!-- Main Content Root -->
   <main id="app-root" class="flex-1 w-full mx-auto">
-    <!-- Dynamic Content Injected Here -->
+    <!-- Dynamic Views Injected Here -->
   </main>
 
   <!-- Search Modal -->
-  <div id="search-modal" onclick="handleModalBackdropClick(event)" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden flex items-start justify-center pt-16 sm:pt-24 px-4">
-    <div class="w-full max-w-2xl bg-white dark:bg-[#0f1520] rounded-2xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[80vh]" onclick="event.stopPropagation()">
-      <div class="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center gap-3">
-        <i data-lucide="search" class="w-5 h-5 text-emerald-600 dark:text-emerald-400"></i>
+  <div id="search-modal" onclick="handleModalBackdropClick(event)" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-start justify-center pt-16 sm:pt-24 px-4">
+    <div class="w-full max-w-2xl bg-[#fbfaf7] dark:bg-[#0f1622] rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] shadow-2xl overflow-hidden flex flex-col max-h-[80vh]" onclick="event.stopPropagation()">
+      <div class="p-4 border-b border-[#e4dfd5] dark:border-[#1c2637] flex items-center gap-3">
+        <i data-lucide="search" class="w-5 h-5 text-[#15803d] dark:text-emerald-400"></i>
         <input 
           id="search-input" 
           type="text" 
           placeholder="Search all 33 chapters, mechanisms, formulas, protocols..." 
-          class="w-full bg-transparent text-sm sm:text-base focus:outline-none text-slate-900 dark:text-white placeholder-slate-400"
+          class="w-full bg-transparent text-sm sm:text-base focus:outline-none text-[#1c2226] dark:text-white placeholder-[#5c6469]"
           oninput="handleSearch(this.value)"
         />
-        <button onclick="closeSearch()" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+        <button onclick="closeSearch()" class="p-1.5 rounded-lg text-[#5c6469] hover:text-[#1c2226] dark:hover:text-white">
           <i data-lucide="x" class="w-4 h-4"></i>
         </button>
       </div>
-      <div id="search-results" class="p-4 overflow-y-auto space-y-2 flex-1 divide-y divide-slate-100 dark:divide-slate-800/60">
-        <!-- Live Results -->
+      <div id="search-results" class="p-4 overflow-y-auto space-y-2 flex-1 divide-y divide-[#e4dfd5] dark:divide-[#1c2637]">
+        <!-- Search Results -->
       </div>
     </div>
   </div>
 
   <!-- Toast Notification -->
-  <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 text-emerald-400 border border-emerald-500/30 px-4 py-2.5 rounded-xl text-xs font-mono shadow-2xl opacity-0 transition-opacity pointer-events-none flex items-center gap-2">
+  <div id="toast" class="fixed bottom-6 right-6 z-50 bg-[#1c2226] dark:bg-[#131b28] text-emerald-400 border border-emerald-500/30 px-4 py-2.5 rounded-xl text-xs font-mono shadow-2xl opacity-0 transition-opacity pointer-events-none flex items-center gap-2">
     <i data-lucide="check" class="w-4 h-4"></i>
     <span id="toast-msg">Link copied to clipboard</span>
   </div>
 
-  <!-- Footer -->
-  <footer class="border-t border-slate-200 dark:border-slate-800 bg-[#f9f8f5] dark:bg-[#090d13] py-8 text-xs font-mono text-slate-500 dark:text-slate-400 transition-colors mt-auto">
+  <!-- Magazine Footer -->
+  <footer class="border-t border-[#e4dfd5] dark:border-[#1c2637] bg-[#f6f4ee] dark:bg-[#090d13] py-10 text-xs font-serif text-[#5c6469] dark:text-slate-400 transition-colors mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center space-x-2">
-        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-        <span>Mind of Aravalli · Living Scientific & Cognitive Encyclopedia</span>
+        <span class="w-2 h-2 rounded-full bg-[#15803d] dark:bg-emerald-400"></span>
+        <span>Mind of Aravalli · An Immersive Living Scientific Publication</span>
       </div>
-      <div class="flex items-center space-x-4">
-        <a href="https://github.com/vs00918/aravalli" target="_blank" class="hover:text-emerald-700 dark:hover:text-emerald-400 underline transition-colors">
+      <div class="flex items-center space-x-4 font-mono text-[11px]">
+        <a href="https://github.com/vs00918/aravalli" target="_blank" class="hover:text-[#15803d] dark:hover:text-emerald-400 underline transition-colors">
           github.com/vs00918/aravalli
         </a>
       </div>
     </div>
   </footer>
 
-  <!-- Core Engine Script -->
+  <!-- Core Script -->
   <script>
     const KNOWLEDGE_DB = {
   "volumes": [
@@ -1036,7 +1071,7 @@
     function scrollToChapter(chapterSlug) {
       const el = document.getElementById(chapterSlug);
       if (el) {
-        const y = el.getBoundingClientRect().top + window.pageYOffset - 80;
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 90;
         window.scrollTo({ top: y, behavior: 'smooth' });
       }
     }
@@ -1079,7 +1114,7 @@
     }
 
     // ==========================================
-    // BULLETPROOF MARKDOWN & KATEX PARSER
+    // MAGAZINE EDITORIAL MARKDOWN PARSER
     // ==========================================
     function formatMarkdown(md) {
       if (!md) return '';
@@ -1118,7 +1153,7 @@
 
       function flushBlockquote() {
         if (inBlockquote && blockquoteBuffer.length > 0) {
-          html += '<blockquote class="border-l-4 border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/20 px-5 py-3.5 rounded-r-xl my-5 text-xs sm:text-sm font-mono text-slate-700 dark:text-slate-300 space-y-1">';
+          html += '<blockquote class="border-l-2 border-[#15803d] dark:border-emerald-500 bg-[#f4efe4]/60 dark:bg-[#131b28]/60 px-5 py-4 rounded-r-xl my-6 text-sm sm:text-base font-serif italic text-[#2c3437] dark:text-[#cbd5e1] space-y-1 leading-relaxed">';
           blockquoteBuffer.forEach(b => {
             html += '<p>' + formatInlineText(b) + '</p>';
           });
@@ -1128,9 +1163,16 @@
         }
       }
 
+      // Render Magazine-Style Diagram Figure Card (Harmonious with theme!)
       function flushCodeBlock() {
         if (inCodeBlock) {
-          html += '<pre class="my-5 p-4 rounded-xl bg-slate-900 border border-slate-800 text-emerald-400 font-mono text-xs overflow-x-auto shadow-inner leading-relaxed"><code>' + escapeHtml(codeBuffer.trim()) + '</code></pre>';
+          html += '<figure class="my-7 rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] bg-[#f4efe4]/70 dark:bg-[#0f1622] p-5 shadow-xs overflow-hidden transition-colors">';
+          html += '<div class="flex items-center justify-between pb-3 mb-3 border-b border-[#e4dfd5]/80 dark:border-[#1c2637]/80 text-[10px] font-mono tracking-widest uppercase font-semibold text-[#15803d] dark:text-emerald-400">';
+          html += '<span>FIGURE · COGNITIVE DYNAMICS & NEURAL CIRCUITS</span>';
+          html += '<span>SCHEMATIC</span>';
+          html += '</div>';
+          html += '<pre class="diagram-panel text-[#1e293b] dark:text-[#cbd5e1] font-mono leading-relaxed overflow-x-auto"><code>' + escapeHtml(codeBuffer.trim()) + '</code></pre>';
+          html += '</figure>';
           inCodeBlock = false;
           codeBuffer = '';
         }
@@ -1138,16 +1180,16 @@
 
       function flushTable() {
         if (inTable && tableRows.length > 0) {
-          html += '<div class="overflow-x-auto my-6 rounded-xl border border-slate-200 dark:border-slate-800"><table class="w-full text-left text-xs font-mono divide-y divide-slate-200 dark:divide-slate-800">';
+          html += '<div class="overflow-x-auto my-7 rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] shadow-xs"><table class="w-full text-left text-xs font-serif divide-y divide-[#e4dfd5] dark:divide-[#1c2637]">';
           tableRows.forEach((row, idx) => {
             const cells = row.split('|').filter((_, i, arr) => i > 0 && i < arr.length - 1).map(c => c.trim());
             if (idx === 0) {
-              html += '<thead class="bg-slate-100 dark:bg-slate-900/80 font-bold text-slate-900 dark:text-white"><tr>';
-              cells.forEach(c => html += '<th class="px-4 py-2.5 font-semibold">' + formatInlineText(c) + '</th>');
-              html += '</tr></thead><tbody class="divide-y divide-slate-100 dark:divide-slate-800/60 bg-white/50 dark:bg-slate-950/40">';
+              html += '<thead class="bg-[#f0ebe1]/80 dark:bg-[#131b28]/80 font-bold text-[#1c2226] dark:text-white uppercase tracking-wider text-[11px] font-mono"><tr>';
+              cells.forEach(c => html += '<th class="px-5 py-3 font-semibold">' + formatInlineText(c) + '</th>');
+              html += '</tr></thead><tbody class="divide-y divide-[#e4dfd5]/60 dark:divide-[#1c2637]/60">';
             } else {
-              html += '<tr class="hover:bg-emerald-500/5 transition-colors">';
-              cells.forEach(c => html += '<td class="px-4 py-2 text-slate-700 dark:text-slate-300">' + formatInlineText(c) + '</td>');
+              html += '<tr class="hover:bg-[#15803d]/5 dark:hover:bg-emerald-500/5 transition-colors">';
+              cells.forEach(c => html += '<td class="px-5 py-3 text-[#2c3437] dark:text-[#cbd5e1] text-xs sm:text-sm">' + formatInlineText(c) + '</td>');
               html += '</tr>';
             }
           });
@@ -1185,12 +1227,12 @@
           continue;
         }
 
-        // Horizontal Rule
+        // Horizontal Rule / Section Break
         if (trimmed === '---') {
           flushList();
           flushTable();
           flushBlockquote();
-          html += '<hr class="my-8 border-slate-200 dark:border-slate-800" />';
+          html += '<div class="my-10 flex items-center justify-center gap-3 text-[#e4dfd5] dark:text-[#1c2637]"><span class="h-px w-24 bg-current"></span><span class="text-xs">◆ ◆ ◆</span><span class="h-px w-24 bg-current"></span></div>';
           continue;
         }
 
@@ -1202,19 +1244,19 @@
           continue;
         }
 
-        // Section Headers
+        // Section Headers (Magazine Editorial Style)
         if (trimmed.startsWith('## ')) {
           flushList();
           flushTable();
           flushBlockquote();
-          html += '<h2 class="text-xl sm:text-2xl font-serif font-bold text-slate-900 dark:text-white mt-10 mb-4 tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-2.5">' + formatInlineText(trimmed.replace(/^##\s+/, '')) + '</h2>';
+          html += '<h2 class="text-2xl sm:text-3xl font-serif font-bold text-[#1c2226] dark:text-white mt-12 mb-4 tracking-tight border-b border-[#e4dfd5] dark:border-[#1c2637] pb-3">' + formatInlineText(trimmed.replace(/^##\s+/, '')) + '</h2>';
           continue;
         }
         if (trimmed.startsWith('### ')) {
           flushList();
           flushTable();
           flushBlockquote();
-          html += '<h3 class="text-lg font-serif font-semibold text-emerald-700 dark:text-emerald-400 mt-6 mb-2">' + formatInlineText(trimmed.replace(/^###\s+/, '')) + '</h3>';
+          html += '<h3 class="text-lg sm:text-xl font-serif font-semibold text-[#15803d] dark:text-emerald-400 mt-8 mb-2">' + formatInlineText(trimmed.replace(/^###\s+/, '')) + '</h3>';
           continue;
         }
 
@@ -1233,7 +1275,7 @@
         if (trimmed.startsWith('__MATH_BLOCK_') && trimmed.endsWith('__')) {
           flushList();
           flushTable();
-          html += '<div class="math-block bg-slate-100 dark:bg-[#0f1520] border border-slate-200 dark:border-slate-800 text-center text-slate-900 dark:text-white font-serif">' + trimmed + '</div>';
+          html += '<div class="math-block bg-[#f4efe4]/70 dark:bg-[#0f1622] border border-[#e4dfd5] dark:border-[#1c2637] text-center text-[#1c2226] dark:text-white font-serif shadow-xs">' + trimmed + '</div>';
           continue;
         }
 
@@ -1254,9 +1296,9 @@
             flushList();
             inList = true;
             listType = 'ul';
-            html += '<ul class="space-y-2 my-3 pl-5 list-disc text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400">';
+            html += '<ul class="space-y-2.5 my-4 pl-6 list-disc text-[16px] sm:text-[17px] marker:text-[#15803d] dark:marker:text-emerald-400 font-serif leading-relaxed">';
           }
-          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
+          html += '<li>' + formatInlineText(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
           continue;
         }
 
@@ -1266,15 +1308,15 @@
             flushList();
             inList = true;
             listType = 'ol';
-            html += '<ol class="space-y-2 my-3 pl-5 list-decimal text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400 font-sans">';
+            html += '<ol class="space-y-2.5 my-4 pl-6 list-decimal text-[16px] sm:text-[17px] marker:text-[#15803d] dark:marker:text-emerald-400 font-serif leading-relaxed">';
           }
-          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^\d+\.\s+/, '')) + '</li>';
+          html += '<li>' + formatInlineText(trimmed.replace(/^\d+\.\s+/, '')) + '</li>';
           continue;
         }
 
-        // Standard Paragraph
+        // Standard Paragraph (Immersive Reading Typography)
         flushList();
-        html += '<p class="text-sm sm:text-base leading-relaxed text-slate-800 dark:text-slate-300 my-3 font-sans">' + formatInlineText(trimmed) + '</p>';
+        html += '<p class="text-[17px] sm:text-[18px] leading-[1.8] text-[#2c3437] dark:text-[#cbd5e1] my-4 font-serif">' + formatInlineText(trimmed) + '</p>';
       }
 
       flushList();
@@ -1297,10 +1339,10 @@
     function formatInlineText(str) {
       if (!str) return '';
       return str
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-emerald-700 dark:text-emerald-400 underline hover:text-emerald-600 dark:hover:text-emerald-300 transition-colors font-medium">$1</a>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900 dark:text-white">$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em class="italic text-slate-800 dark:text-slate-200">$1</em>')
-        .replace(/\`([^\`]+)\`/g, '<code class="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-emerald-700 dark:text-emerald-400 border border-slate-200 dark:border-slate-700">$1</code>');
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-[#15803d] dark:text-emerald-400 underline hover:text-emerald-600 dark:hover:text-emerald-300 transition-colors font-medium">$1</a>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-[#1c2226] dark:text-white">$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em class="italic text-[#2c3437] dark:text-[#dbe3eb]">$1</em>')
+        .replace(/\`([^\`]+)\`/g, '<code class="text-[13px] font-mono bg-[#ece6d9] dark:bg-[#131b28] px-1.5 py-0.5 rounded text-[#15803d] dark:text-emerald-400 border border-[#e4dfd5] dark:border-[#1c2637]">$1</code>');
     }
 
     function escapeHtml(text) {
@@ -1314,52 +1356,52 @@
     }
 
     // ==========================================
-    // VIEWS & CURRICULUM CONTROLLERS
+    // MAGAZINE VIEWS & CONTINUOUS STREAM
     // ==========================================
 
     function renderHome(container) {
       container.innerHTML = `
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16 py-8">
-          <!-- Hero Section -->
-          <div class="space-y-6 text-center max-w-3xl mx-auto py-10 sm:py-14">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-400 text-xs font-mono font-medium">
-              <span class="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400 animate-pulse"></span>
-              <span>Living Cognitive Encyclopedia · Continuous Volume Streams</span>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16 py-10">
+          <!-- Masthead Hero -->
+          <div class="space-y-6 text-center max-w-3xl mx-auto py-10 sm:py-14 border-b border-[#e4dfd5] dark:border-[#1c2637] pb-14">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#15803d]/10 dark:bg-emerald-500/10 border border-[#15803d]/30 dark:border-emerald-500/30 text-[#15803d] dark:text-emerald-400 text-xs font-mono font-medium">
+              <span>◆</span>
+              <span>An Immersive Living Scientific Magazine · 5 Volumes</span>
             </div>
-            <h1 class="text-4xl sm:text-6xl font-serif font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-              Master the Architecture of <span class="text-emerald-700 dark:text-emerald-400 italic">Human Mind & Behavior</span>
+            <h1 class="text-4xl sm:text-6xl font-serif font-bold text-[#1c2226] dark:text-white tracking-tight leading-tight">
+              Master the Architecture of <span class="text-[#15803d] dark:text-emerald-400 italic">Human Mind & Behavior</span>
             </h1>
-            <p class="text-base sm:text-lg text-slate-600 dark:text-slate-400 font-sans leading-relaxed">
-              33 master chapters organized into a progressive textbook stream. Scroll continuously from chapter to chapter with zero friction.
+            <p class="text-lg text-[#5c6469] dark:text-slate-400 font-serif leading-relaxed max-w-2xl mx-auto">
+              33 first-principles treatises synthesized into continuous, progressive volume streams. Built to read seamlessly, understand deeply, and retain for life.
             </p>
-            <div class="pt-2 flex flex-wrap items-center justify-center gap-3">
-              <button onclick="navigate('volume', 'volume-1-focus-attention-dopamine')" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-semibold transition-all flex items-center gap-2 shadow-sm">
-                <span>Start Continuous Stream: Volume 01</span>
+            <div class="pt-4 flex flex-wrap items-center justify-center gap-3 font-mono text-xs">
+              <button onclick="navigate('volume', 'volume-1-focus-attention-dopamine')" class="px-6 py-3.5 rounded-xl bg-[#15803d] hover:bg-[#166534] text-white font-semibold transition-all flex items-center gap-2 shadow-sm">
+                <span>Start Volume 01 Stream</span>
                 <i data-lucide="arrow-right" class="w-4 h-4"></i>
               </button>
-              <button onclick="navigate('volumes')" class="px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-[#0f1520] hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-mono font-semibold transition-all flex items-center gap-2">
-                <i data-lucide="layers" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+              <button onclick="navigate('volumes')" class="px-6 py-3.5 rounded-xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] hover:bg-[#f0ebe1] dark:hover:bg-[#131b28] text-[#1c2226] dark:text-slate-200 font-semibold transition-all flex items-center gap-2">
+                <i data-lucide="layers" class="w-4 h-4 text-[#15803d] dark:text-emerald-400"></i>
                 <span>Explore All 5 Volumes</span>
               </button>
             </div>
           </div>
 
-          <!-- 5 Volumes Display -->
+          <!-- 5 Volumes Presentation Cards -->
           <section class="space-y-6">
-            <div class="flex items-baseline justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
-              <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-200">The 5 Master Volumes</h2>
-              <span class="text-xs font-mono text-slate-400">Continuous Reading Experience</span>
+            <div class="flex items-baseline justify-between border-b border-[#e4dfd5] dark:border-[#1c2637] pb-2.5">
+              <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-[#1c2226] dark:text-slate-200">The 5 Master Volumes</h2>
+              <span class="text-xs font-mono text-[#5c6469]">Editorial Curriculum</span>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               ${KNOWLEDGE_DB.volumes.map(vol => `
-                <div onclick="navigate('volume', '${vol.slug}')" class="cursor-pointer group p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-md transition-all space-y-3">
+                <div onclick="navigate('volume', '${vol.slug}')" class="cursor-pointer group p-7 rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] hover:border-[#15803d]/40 dark:hover:border-emerald-500/40 hover:shadow-md transition-all space-y-3.5">
                   <div class="flex items-center justify-between">
-                    <span class="text-2xl">${vol.icon}</span>
-                    <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold bg-emerald-500/10 px-2 py-0.5 rounded">Volume 0${vol.number}</span>
+                    <span class="text-3xl">${vol.icon}</span>
+                    <span class="text-xs font-mono text-[#15803d] dark:text-emerald-400 font-bold bg-[#15803d]/10 dark:bg-emerald-500/10 px-2.5 py-0.5 rounded-md">Volume 0${vol.number}</span>
                   </div>
-                  <h3 class="text-lg font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${vol.title}</h3>
-                  <p class="text-xs text-slate-600 dark:text-slate-400 font-sans line-clamp-2">${vol.description}</p>
-                  <div class="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 group-hover:text-emerald-700 dark:group-hover:text-emerald-400">
+                  <h3 class="text-xl font-serif font-bold text-[#1c2226] dark:text-white group-hover:text-[#15803d] dark:group-hover:text-emerald-400 transition-colors leading-snug">${vol.title}</h3>
+                  <p class="text-xs sm:text-sm text-[#5c6469] dark:text-slate-400 font-serif leading-relaxed line-clamp-2">${vol.description}</p>
+                  <div class="pt-3 border-t border-[#e4dfd5]/80 dark:border-[#1c2637]/80 flex items-center justify-between text-xs font-mono text-[#5c6469] group-hover:text-[#15803d] dark:group-hover:text-emerald-400">
                     <span>${vol.chapters.length} Continuous Chapters</span>
                     <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
                   </div>
@@ -1373,34 +1415,34 @@
 
     function renderVolumes(container) {
       container.innerHTML = `
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
-          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Progressive Curriculum</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">The 5 Master Volumes</h1>
-            <p class="text-sm text-slate-600 dark:text-slate-400 font-sans">Open any volume to enter the continuous reading stream. Chapters flow seamlessly from one to the next.</p>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-10">
+          <div class="space-y-2 border-b border-[#e4dfd5] dark:border-[#1c2637] pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-[#15803d] dark:text-emerald-400 font-bold">The Complete Library</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-[#1c2226] dark:text-white">The 5 Master Volumes</h1>
+            <p class="text-sm sm:text-base text-[#5c6469] dark:text-slate-400 font-serif">Open any volume to enter its continuous reading stream. Chapters flow seamlessly without interruptions.</p>
           </div>
           <div class="space-y-6">
             ${KNOWLEDGE_DB.volumes.map(vol => `
-              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 shadow-sm space-y-4">
+              <div class="p-7 rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] shadow-xs space-y-4">
                 <div class="flex items-center justify-between cursor-pointer" onclick="navigate('volume', '${vol.slug}')">
-                  <div class="flex items-center gap-3">
-                    <span class="text-3xl">${vol.icon}</span>
+                  <div class="flex items-center gap-3.5">
+                    <span class="text-3xl sm:text-4xl">${vol.icon}</span>
                     <div>
-                      <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${vol.number} · ${vol.chapters.length} Chapters</span>
-                      <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white hover:text-emerald-600 transition-colors">${vol.title}</h2>
+                      <span class="text-xs font-mono text-[#15803d] dark:text-emerald-400 font-bold">Volume 0${vol.number} · ${vol.chapters.length} Chapters</span>
+                      <h2 class="text-xl sm:text-2xl font-serif font-bold text-[#1c2226] dark:text-white hover:text-[#15803d] dark:hover:text-emerald-400 transition-colors">${vol.title}</h2>
                     </div>
                   </div>
-                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-semibold flex items-center gap-1">
+                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-[#15803d] dark:text-emerald-400 font-semibold flex items-center gap-1 shrink-0">
                     <span>Read Stream</span>
                     <i data-lucide="chevron-right" class="w-4 h-4"></i>
                   </button>
                 </div>
-                <p class="text-sm text-slate-600 dark:text-slate-400 font-sans">${vol.description}</p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
+                <p class="text-sm text-[#5c6469] dark:text-slate-400 font-serif leading-relaxed">${vol.description}</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-3 border-t border-[#e4dfd5]/80 dark:border-[#1c2637]/80">
                   ${vol.chapters.map(ch => `
-                    <button onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="text-left px-3.5 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800/80 text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-700 dark:hover:text-emerald-400 transition-all font-medium flex items-center justify-between shadow-xs">
-                      <span class="truncate font-semibold">Ch ${ch.number}. ${ch.title}</span>
-                      <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-slate-400 ml-2 shrink-0"></i>
+                    <button onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="text-left px-4 py-3 rounded-xl bg-[#f4efe4]/50 dark:bg-[#131b28]/60 text-xs font-serif text-[#1c2226] dark:text-slate-200 border border-[#e4dfd5] dark:border-[#1c2637] hover:border-[#15803d]/40 dark:hover:border-emerald-500/40 hover:bg-[#f0ebe1] dark:hover:bg-[#152132] transition-all flex items-center justify-between shadow-xs">
+                      <span class="truncate font-semibold">Ch 0${ch.number}. ${ch.title}</span>
+                      <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-[#5c6469] ml-2 shrink-0"></i>
                     </button>
                   `).join('')}
                 </div>
@@ -1412,54 +1454,53 @@
     }
 
     // ==========================================
-    // CONTINUOUS STREAM READER WITH STICKY SIDEBAR
+    // MAGAZINE IMMERSIVE STREAM VIEW
     // ==========================================
     function renderVolumeStream(container, slug) {
       const vol = KNOWLEDGE_DB.volumes.find(v => v.slug === slug) || KNOWLEDGE_DB.volumes[0];
 
-      // Next / Prev Volume
       const volIdx = KNOWLEDGE_DB.volumes.findIndex(v => v.slug === vol.slug);
       const prevVol = volIdx > 0 ? KNOWLEDGE_DB.volumes[volIdx - 1] : null;
       const nextVol = volIdx < KNOWLEDGE_DB.volumes.length - 1 ? KNOWLEDGE_DB.volumes[volIdx + 1] : null;
 
       container.innerHTML = `
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div class="flex flex-col lg:flex-row gap-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div class="flex flex-col lg:flex-row gap-12">
             
-            <!-- STICKY SIDEBAR OF CHAPTERS (Desktop) -->
+            <!-- STICKY CHAPTER SIDEBAR (Desktop) -->
             <aside class="hidden lg:block w-72 shrink-0">
               <div class="sticky top-24 space-y-4 max-h-[calc(100vh-7rem)] overflow-y-auto pr-2">
-                <div class="p-4 rounded-2xl bg-white/80 dark:bg-[#0f1520]/80 border border-slate-200 dark:border-slate-800 space-y-2">
-                  <div class="flex items-center gap-2">
-                    <span class="text-xl">${vol.icon}</span>
+                <div class="p-4 rounded-2xl bg-white/80 dark:bg-[#0f1622]/90 border border-[#e4dfd5] dark:border-[#1c2637] space-y-2 shadow-xs">
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-2xl">${vol.icon}</span>
                     <div>
-                      <span class="text-[10px] font-mono uppercase font-bold text-emerald-700 dark:text-emerald-400 tracking-wider">Volume 0${vol.number}</span>
-                      <h2 class="text-sm font-serif font-bold text-slate-900 dark:text-white leading-tight">${vol.shortTitle}</h2>
+                      <span class="text-[10px] font-mono uppercase font-bold text-[#15803d] dark:text-emerald-400 tracking-wider">Volume 0${vol.number}</span>
+                      <h2 class="text-sm font-serif font-bold text-[#1c2226] dark:text-white leading-tight">${vol.shortTitle}</h2>
                     </div>
                   </div>
-                  <div class="text-[11px] font-mono text-slate-400 pt-1 border-t border-slate-100 dark:border-slate-800">
+                  <div class="text-[11px] font-mono text-[#5c6469] pt-1.5 border-t border-[#e4dfd5]/80 dark:border-[#1c2637]/80">
                     ${vol.chapters.length} Progressive Chapters
                   </div>
                 </div>
 
-                <!-- Chapter Table of Contents -->
-                <nav class="space-y-1 font-mono text-xs">
+                <!-- Table of Contents Navigation -->
+                <nav class="space-y-1 font-serif text-xs">
                   ${vol.chapters.map((ch, idx) => `
                     <button 
                       id="nav-${ch.slug}" 
                       onclick="scrollToChapter('${ch.slug}')" 
-                      class="chapter-nav-item w-full text-left px-3.5 py-2.5 rounded-xl border-l-2 border-transparent text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-all flex items-start gap-2.5 ${idx === 0 ? 'active-nav-chapter' : ''}"
+                      class="chapter-nav-item w-full text-left px-3.5 py-2.5 rounded-xl border-l-2 border-transparent text-[#5c6469] dark:text-slate-400 hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-all flex items-start gap-2.5 ${idx === 0 ? 'active-nav-chapter' : ''}"
                     >
-                      <span class="font-bold shrink-0 text-emerald-600 dark:text-emerald-400">0${ch.number}</span>
-                      <span class="truncate leading-snug">${ch.title}</span>
+                      <span class="font-mono font-bold shrink-0 text-[#15803d] dark:text-emerald-400">0${ch.number}</span>
+                      <span class="truncate leading-snug font-medium">${ch.title}</span>
                     </button>
                   `).join('')}
                 </nav>
 
-                <!-- Next/Prev Volume Navigation -->
-                <div class="pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2 font-mono text-xs">
+                <!-- Next Volume Navigation -->
+                <div class="pt-4 border-t border-[#e4dfd5] dark:border-[#1c2637] space-y-2 font-mono text-xs">
                   ${nextVol ? `
-                    <button onclick="navigate('volume', '${nextVol.slug}')" class="w-full p-2.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-left flex items-center justify-between transition-colors font-semibold">
+                    <button onclick="navigate('volume', '${nextVol.slug}')" class="w-full p-2.5 rounded-xl bg-[#15803d]/10 dark:bg-emerald-500/10 hover:bg-[#15803d]/20 text-[#15803d] dark:text-emerald-400 text-left flex items-center justify-between transition-colors font-semibold">
                       <span>Next: Volume 0${nextVol.number} →</span>
                       <i data-lucide="chevron-right" class="w-4 h-4"></i>
                     </button>
@@ -1468,90 +1509,86 @@
               </div>
             </aside>
 
-            <!-- MAIN CONTINUOUS READING STREAM -->
+            <!-- MAIN MAGAZINE CONTINUOUS STREAM -->
             <div class="flex-1 min-w-0 max-w-3xl space-y-24">
               
-              <!-- Volume Intro Banner -->
-              <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-10">
+              <!-- Volume Opening Masthead -->
+              <div class="space-y-5 border-b-2 border-[#1c2226] dark:border-white/20 pb-12">
                 <div class="flex items-center justify-between">
-                  <span class="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full uppercase tracking-wider">
+                  <span class="text-xs font-mono font-bold text-[#15803d] dark:text-emerald-400 bg-[#15803d]/10 dark:bg-emerald-500/10 px-3 py-1 rounded-full uppercase tracking-wider">
                     Volume 0${vol.number} · Continuous Reading Stream
                   </span>
-                  <button onclick="copyCurrentLink()" class="p-1.5 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors flex items-center gap-1 text-xs font-mono" title="Share Volume">
-                    <i data-lucide="share-2" class="w-3.5 h-3.5 text-emerald-600"></i>
+                  <button onclick="copyCurrentLink()" class="p-1.5 rounded-lg text-[#5c6469] hover:text-[#1c2226] dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-colors flex items-center gap-1 text-xs font-mono" title="Share Volume">
+                    <i data-lucide="share-2" class="w-3.5 h-3.5 text-[#15803d] dark:text-emerald-400"></i>
                     <span>Share Volume</span>
                   </button>
                 </div>
-                <div class="flex items-center gap-3 pt-2">
-                  <span class="text-4xl sm:text-5xl">${vol.icon}</span>
-                  <h1 class="text-3xl sm:text-5xl font-serif font-bold text-slate-900 dark:text-white tracking-tight leading-tight">${vol.title}</h1>
+                <div class="flex items-center gap-4 pt-2">
+                  <span class="text-4xl sm:text-6xl">${vol.icon}</span>
+                  <h1 class="text-3xl sm:text-5xl font-serif font-bold text-[#1c2226] dark:text-white tracking-tight leading-tight">${vol.title}</h1>
                 </div>
-                <p class="text-base sm:text-lg text-slate-600 dark:text-slate-400 font-sans leading-relaxed">${vol.description}</p>
-                <div class="p-4 rounded-xl bg-slate-100 dark:bg-[#0f1520] border border-slate-200 dark:border-slate-800 text-xs font-mono text-slate-500 flex items-center gap-2">
-                  <i data-lucide="info" class="w-4 h-4 text-emerald-600 shrink-0"></i>
-                  <span>Scroll continuously down through all ${vol.chapters.length} chapters. The stream completes when the volume ends.</span>
-                </div>
+                <p class="text-lg text-[#5c6469] dark:text-slate-400 font-serif leading-relaxed italic">${vol.tagline}</p>
+                <p class="text-base text-[#2c3437] dark:text-[#cbd5e1] font-serif leading-relaxed">${vol.description}</p>
               </div>
 
-              <!-- ALL CHAPTERS IN CONTINUOUS STREAM -->
+              <!-- ALL CHAPTERS IN CONTINUOUS EDITORIAL STREAM -->
               ${vol.chapters.map((ch, idx) => {
                 const chapterData = KNOWLEDGE_DB.chapters[ch.slug];
                 const isLast = idx === vol.chapters.length - 1;
 
                 return `
-                  <article id="${ch.slug}" class="chapter-article space-y-8 scroll-mt-24 ${!isLast ? 'border-b-4 border-slate-200/80 dark:border-slate-800/80 pb-20' : 'pb-16'}">
+                  <article id="${ch.slug}" class="chapter-article prose-magazine space-y-8 scroll-mt-24 ${!isLast ? 'border-b border-[#e4dfd5] dark:border-[#1c2637] pb-24' : 'pb-16'}">
                     
-                    <!-- Chapter Sticky Mini-Header -->
-                    <div class="space-y-3 pt-4">
-                      <div class="flex items-center gap-2 text-xs font-mono">
-                        <span class="font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md">
-                          Chapter 0${ch.number} of 0${vol.chapters.length}
-                        </span>
+                    <!-- Chapter Eyebrow & Title -->
+                    <div class="space-y-3 pt-2">
+                      <div class="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[#15803d] dark:text-emerald-400 font-semibold">
+                        <span>Chapter 0${ch.number} of 0${vol.chapters.length}</span>
                         <span>•</span>
-                        <span class="text-slate-500 dark:text-slate-400 truncate">${ch.subtitle}</span>
+                        <span class="text-[#5c6469] dark:text-slate-400 truncate">${ch.subtitle}</span>
                       </div>
-                      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white tracking-tight leading-snug">${chapterData.title}</h2>
+                      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#1c2226] dark:text-white tracking-tight leading-snug">${chapterData.title}</h2>
                     </div>
 
-                    <!-- Pure Distilled Content -->
-                    <div class="space-y-4 text-slate-800 dark:text-slate-200 font-serif leading-relaxed text-base sm:text-lg">
+                    <!-- Pure Chapter Prose & Figures -->
+                    <div class="space-y-4">
                       ${formatMarkdown(chapterData.contentMarkdown)}
                     </div>
 
-                    <!-- Verified Provenance & Spoken Integrity -->
-                    <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-[#0f1520]/60 text-xs font-mono space-y-1 shadow-xs mt-8">
-                      <div class="flex items-center justify-between text-slate-800 dark:text-slate-200">
-                        <span class="font-bold text-slate-900 dark:text-white">${chapterData.source}</span>
-                        <span class="text-[10px] text-emerald-700 dark:text-emerald-400 font-semibold px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20">VERIFIED LECTURE</span>
+                    <!-- Verified Provenance & Attribution -->
+                    <div class="p-4 rounded-xl border border-[#e4dfd5] dark:border-[#1c2637] bg-[#f4efe4]/50 dark:bg-[#0f1622]/60 text-xs font-mono space-y-1 shadow-xs mt-10">
+                      <div class="flex items-center justify-between text-[#1c2226] dark:text-slate-200">
+                        <span class="font-bold">${chapterData.source}</span>
+                        <span class="text-[10px] text-[#15803d] dark:text-emerald-400 font-semibold px-2 py-0.5 rounded bg-[#15803d]/10 border border-[#15803d]/20">VERIFIED LECTURE</span>
                       </div>
-                      <p class="text-slate-500 font-sans">Core Theme: ${chapterData.coreTheme}</p>
+                      <p class="text-[#5c6469] dark:text-slate-400 font-serif pt-1">Core Theme: ${chapterData.coreTheme}</p>
                     </div>
 
-                    <!-- End of Chapter Transition Prompt -->
+                    <!-- Next Chapter Transition Hook -->
                     ${!isLast ? `
-                      <div class="pt-8 flex items-center justify-between text-xs font-mono text-slate-400">
+                      <div class="pt-8 flex items-center justify-between text-xs font-mono text-[#5c6469] dark:text-slate-400">
                         <span>Chapter 0${ch.number} Complete</span>
-                        <button onclick="scrollToChapter('${vol.chapters[idx + 1].slug}')" class="text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1 font-semibold">
-                          <span>Continue Scrolling to Chapter 0${vol.chapters[idx + 1].number} ↓</span>
+                        <button onclick="scrollToChapter('${vol.chapters[idx + 1].slug}')" class="text-[#15803d] dark:text-emerald-400 hover:underline flex items-center gap-1 font-semibold">
+                          <span>Continue Reading Chapter 0${vol.chapters[idx + 1].number} ↓</span>
                         </button>
                       </div>
                     ` : `
-                      <div class="pt-12 p-8 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-center space-y-4 mt-12">
-                        <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-600">
+                      <!-- Volume Complete Box -->
+                      <div class="pt-12 p-8 rounded-2xl bg-[#15803d]/10 dark:bg-emerald-500/10 border border-[#15803d]/30 dark:border-emerald-500/30 text-center space-y-4 mt-12">
+                        <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#15803d]/20 text-[#15803d] dark:text-emerald-400">
                           <i data-lucide="check-circle-2" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold text-slate-900 dark:text-white">Volume 0${vol.number} Complete!</h3>
-                        <p class="text-sm text-slate-600 dark:text-slate-400 font-sans max-w-md mx-auto">
-                          You have successfully completed all ${vol.chapters.length} chapters of ${vol.title}.
+                        <h3 class="text-2xl font-serif font-bold text-[#1c2226] dark:text-white">Volume 0${vol.number} Complete!</h3>
+                        <p class="text-sm text-[#5c6469] dark:text-slate-400 font-serif max-w-md mx-auto">
+                          You have completed all ${vol.chapters.length} chapters of ${vol.title}.
                         </p>
-                        <div class="pt-2 flex flex-wrap justify-center gap-3 font-mono text-xs">
+                        <div class="pt-3 flex flex-wrap justify-center gap-3 font-mono text-xs">
                           ${nextVol ? `
-                            <button onclick="navigate('volume', '${nextVol.slug}')" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold flex items-center gap-2 shadow-sm transition-all">
-                              <span>Begin Volume 0${nextVol.number}: ${nextVol.shortTitle}</span>
+                            <button onclick="navigate('volume', '${nextVol.slug}')" class="px-6 py-3 rounded-xl bg-[#15803d] hover:bg-[#166534] text-white font-semibold flex items-center gap-2 shadow-sm transition-all">
+                              <span>Read Next: Volume 0${nextVol.number} (${nextVol.shortTitle})</span>
                               <i data-lucide="arrow-right" class="w-4 h-4"></i>
                             </button>
                           ` : ''}
-                          <button onclick="navigate('recall')" class="px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-[#0f1520] hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold transition-all">
+                          <button onclick="navigate('recall')" class="px-6 py-3 rounded-xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] hover:bg-[#f0ebe1] dark:hover:bg-[#131b28] text-[#1c2226] dark:text-slate-300 font-semibold transition-all">
                             <span>Open Quick Revision Hub</span>
                           </button>
                         </div>
@@ -1569,35 +1606,35 @@
 
     function renderCurriculum(container) {
       container.innerHTML = `
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
-          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Complete Curriculum</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">All 33 Sequential Chapters</h1>
-            <p class="text-sm text-slate-600 dark:text-slate-400 font-sans">A structured overview of every chapter organized across the 5 master volumes.</p>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-10">
+          <div class="space-y-2 border-b border-[#e4dfd5] dark:border-[#1c2637] pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-[#15803d] dark:text-emerald-400 font-bold">Complete Curriculum</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-[#1c2226] dark:text-white">All 33 Sequential Chapters</h1>
+            <p class="text-sm sm:text-base text-[#5c6469] dark:text-slate-400 font-serif">A structured overview of every chapter organized across the 5 master volumes.</p>
           </div>
           <div class="space-y-8">
             ${KNOWLEDGE_DB.volumes.map(vol => `
               <div class="space-y-3">
-                <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
-                  <div class="flex items-center gap-2 text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wide">
+                <div class="flex items-center justify-between border-b border-[#e4dfd5] dark:border-[#1c2637] pb-2">
+                  <div class="flex items-center gap-2 text-xs font-mono font-bold text-[#15803d] dark:text-emerald-400 uppercase tracking-wide">
                     <span>${vol.icon}</span>
                     <span>Volume 0${vol.number}: ${vol.title}</span>
                   </div>
-                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-semibold hover:underline">
+                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-[#15803d] dark:text-emerald-400 font-semibold hover:underline">
                     Read Stream →
                   </button>
                 </div>
                 <div class="space-y-2">
                   ${vol.chapters.map(ch => `
-                    <div onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="cursor-pointer p-3.5 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-white/60 dark:bg-[#0f1520]/60 hover:border-emerald-500/40 hover:bg-white dark:hover:bg-[#0f1520] transition-all flex items-center justify-between group">
+                    <div onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="cursor-pointer p-4 rounded-xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] hover:border-[#15803d]/40 dark:hover:border-emerald-500/40 hover:bg-[#f0ebe1]/50 dark:hover:bg-[#131b28] transition-all flex items-center justify-between group">
                       <div class="flex items-center gap-3">
-                        <span class="font-mono text-xs text-slate-400 font-semibold w-16">Ch 0${ch.number}</span>
+                        <span class="font-mono text-xs text-[#5c6469] font-semibold w-16">Ch 0${ch.number}</span>
                         <div>
-                          <span class="text-sm font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${ch.title}</span>
-                          <span class="text-xs text-slate-500 font-mono block sm:inline sm:ml-2">· ${ch.subtitle}</span>
+                          <span class="text-sm sm:text-base font-serif font-bold text-[#1c2226] dark:text-white group-hover:text-[#15803d] dark:group-hover:text-emerald-400 transition-colors">${ch.title}</span>
+                          <span class="text-xs text-[#5c6469] font-mono block sm:inline sm:ml-2">· ${ch.subtitle}</span>
                         </div>
                       </div>
-                      <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 shrink-0"></i>
+                      <i data-lucide="chevron-right" class="w-4 h-4 text-[#5c6469] group-hover:text-[#15803d] dark:group-hover:text-emerald-400 shrink-0"></i>
                     </div>
                   `).join('')}
                 </div>
@@ -1610,21 +1647,21 @@
 
     function renderQuickRecall(container) {
       container.innerHTML = `
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
-          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Fast Revision Hub</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">Active Recall & Quick Revision</h1>
-            <p class="text-sm text-slate-600 dark:text-slate-400 font-sans">High-speed first-principles recap of all 33 chapters for rapid retention and revision.</p>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-10">
+          <div class="space-y-2 border-b border-[#e4dfd5] dark:border-[#1c2637] pb-6">
+            <span class="text-xs font-mono uppercase tracking-widest text-[#15803d] dark:text-emerald-400 font-bold">Fast Revision Hub</span>
+            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-[#1c2226] dark:text-white">Active Recall & Quick Revision</h1>
+            <p class="text-sm sm:text-base text-[#5c6469] dark:text-slate-400 font-serif">High-speed first-principles recap of all 33 chapters for rapid retention and revision.</p>
           </div>
           <div class="space-y-6">
             ${KNOWLEDGE_DB.volumes.map(vol => `
-              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 space-y-4">
-                <div class="flex items-center justify-between text-sm font-serif font-bold text-slate-900 dark:text-white border-b border-slate-100 dark:border-slate-800 pb-2">
+              <div class="p-7 rounded-2xl border border-[#e4dfd5] dark:border-[#1c2637] bg-white/70 dark:bg-[#0f1622] space-y-4">
+                <div class="flex items-center justify-between text-base font-serif font-bold text-[#1c2226] dark:text-white border-b border-[#e4dfd5]/80 dark:border-[#1c2637]/80 pb-2">
                   <div class="flex items-center gap-2">
                     <span>${vol.icon}</span>
                     <span>Volume 0${vol.number}: ${vol.title}</span>
                   </div>
-                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-semibold hover:underline">
+                  <button onclick="navigate('volume', '${vol.slug}')" class="text-xs font-mono text-[#15803d] dark:text-emerald-400 font-semibold hover:underline">
                     Read Stream →
                   </button>
                 </div>
@@ -1632,15 +1669,15 @@
                   ${vol.chapters.map(ch => {
                     const fullCh = KNOWLEDGE_DB.chapters[ch.slug];
                     return `
-                      <details class="text-xs font-mono border border-slate-200 dark:border-slate-800 rounded-xl p-3 bg-slate-50 dark:bg-slate-900/60">
-                        <summary class="cursor-pointer font-bold text-slate-900 dark:text-white hover:text-emerald-600 transition-colors flex items-center justify-between">
+                      <details class="text-xs font-mono border border-[#e4dfd5] dark:border-[#1c2637] rounded-xl p-3.5 bg-[#f4efe4]/40 dark:bg-[#131b28]/40">
+                        <summary class="cursor-pointer font-bold text-[#1c2226] dark:text-white hover:text-[#15803d] dark:hover:text-emerald-400 transition-colors flex items-center justify-between font-serif text-sm">
                           <span>Ch 0${ch.number}: ${ch.title}</span>
-                          <span class="text-slate-400 font-normal">${ch.subtitle}</span>
+                          <span class="text-[#5c6469] font-mono text-xs font-normal">${ch.subtitle}</span>
                         </summary>
-                        <div class="pt-3 font-sans text-slate-700 dark:text-slate-300 space-y-2 border-t border-slate-200 dark:border-slate-800 mt-2">
-                          <p class="font-serif italic text-emerald-700 dark:text-emerald-400">${fullCh.coreTheme}</p>
+                        <div class="pt-3 font-serif text-[#2c3437] dark:text-[#cbd5e1] space-y-2 border-t border-[#e4dfd5]/60 dark:border-[#1c2637]/60 mt-2 text-xs sm:text-sm">
+                          <p class="italic text-[#15803d] dark:text-emerald-400">${fullCh.coreTheme}</p>
                           <div class="pt-1">
-                            <button onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="inline-flex items-center gap-1 text-emerald-600 underline font-semibold">
+                            <button onclick="navigate('volume', '${vol.slug}'); setTimeout(() => scrollToChapter('${ch.slug}'), 100);" class="inline-flex items-center gap-1 text-[#15803d] dark:text-emerald-400 underline font-semibold font-mono text-xs">
                               <span>Jump to Chapter in Stream →</span>
                             </button>
                           </div>
@@ -1657,7 +1694,7 @@
     }
 
     // ==========================================
-    // SEARCH & MODAL
+    // SEARCH
     // ==========================================
     function openSearch() {
       document.getElementById('search-modal').classList.remove('hidden');
@@ -1682,7 +1719,7 @@
 
       if (!q) {
         resultsContainer.innerHTML = `
-          <div class="p-3 text-xs font-mono text-slate-400">
+          <div class="p-3 text-xs font-mono text-[#5c6469]">
             Type to search across all 33 chapters, mechanisms, formulas, and protocols...
           </div>
         `;
@@ -1698,7 +1735,7 @@
 
       if (matches.length === 0) {
         resultsContainer.innerHTML = `
-          <div class="p-4 text-center text-xs font-mono text-slate-500">
+          <div class="p-4 text-center text-xs font-mono text-[#5c6469]">
             No chapters matched "${escapeHtml(query)}"
           </div>
         `;
@@ -1706,12 +1743,12 @@
       }
 
       resultsContainer.innerHTML = matches.map(c => `
-        <div onclick="navigate('volume', '${c.volSlug}'); setTimeout(() => scrollToChapter('${c.slug}'), 100); closeSearch();" class="p-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/60 cursor-pointer transition-colors space-y-1">
+        <div onclick="navigate('volume', '${c.volSlug}'); setTimeout(() => scrollToChapter('${c.slug}'), 100); closeSearch();" class="p-3.5 rounded-xl hover:bg-[#f0ebe1] dark:hover:bg-[#131b28] cursor-pointer transition-colors space-y-1">
           <div class="flex items-center justify-between text-xs font-mono">
-            <span class="font-bold text-slate-900 dark:text-white">Vol 0${c.volNumber} · Ch 0${c.chapterNumber}: ${c.title}</span>
-            <span class="text-emerald-700 dark:text-emerald-400">${c.volTitle}</span>
+            <span class="font-bold text-[#1c2226] dark:text-white">Vol 0${c.volNumber} · Ch 0${c.chapterNumber}: ${c.title}</span>
+            <span class="text-[#15803d] dark:text-emerald-400">${c.volTitle}</span>
           </div>
-          <p class="text-xs text-slate-500 line-clamp-1">${c.subtitle}</p>
+          <p class="text-xs text-[#5c6469] line-clamp-1 font-serif">${c.subtitle}</p>
         </div>
       `).join('');
     }
