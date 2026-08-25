@@ -8,23 +8,23 @@ import { QuestionsPreview } from "@/components/home/QuestionsPreview";
 
 export default function Home() {
   return (
-    <div className="space-y-12 sm:space-y-16 pb-12">
-      {/* 1. Hero Exploration */}
+    <div className="space-y-16 sm:space-y-20 pb-16">
+      {/* 1. Hero & Intellectual Entry */}
       <Hero />
 
-      {/* 2. Continue Exploring (Recently viewed demo) */}
+      {/* 2. Continue Reading (Notebook bookmarks) */}
       <ContinueExploring />
 
-      {/* 3. Master Library (5 Core Chapters) */}
+      {/* 3. Master Library (Atlas & Catalog Format) */}
       <LibraryPreview />
 
-      {/* 4. Recently Added Concepts */}
-      <RecentConcepts />
-
-      {/* 5. Cross-Domain Connections */}
+      {/* 4. Cross-Domain Isomorphism Lattice */}
       <ConnectionsPreview />
 
-      {/* 6. Questions to Explore */}
+      {/* 5. Foundational Concepts */}
+      <RecentConcepts />
+
+      {/* 6. Curiosity Radar (Open Questions) */}
       <QuestionsPreview />
     </div>
   );

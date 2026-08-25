@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         aravalli: {
-          50: "#f7f9f7",
+          50: "#f6f8f6",
           100: "#eaf0ea",
           200: "#d5e2d5",
           300: "#b3cab4",
@@ -21,26 +21,23 @@ const config: Config = {
           700: "#3e5841",
           800: "#334735",
           900: "#2a3a2c",
-          // Dark Theme Tokens (Deep Mineral Slate & Charcoal)
-          bgDark: "#090d13",
-          surfaceDark: "#111622",
-          surfaceElevatedDark: "#171e2e",
-          borderDark: "#1f283c",
-          borderHoverDark: "#2d3a56",
-          textPrimaryDark: "#e6edf3",
-          textMutedDark: "#8b949e",
-          accentDark: "#10b981",
-          accentMutedDark: "#064e3b",
-          // Light Theme Tokens (Warm Earth & Parchment)
-          bgLight: "#f9f8f5",
-          surfaceLight: "#ffffff",
-          surfaceElevatedLight: "#f3f1ec",
-          borderLight: "#e2ded4",
-          borderHoverLight: "#c8c2b4",
-          textPrimaryLight: "#1c2128",
-          textMutedLight: "#57606a",
-          accentLight: "#047857",
-          accentMutedLight: "#d1fae5",
+          // Refined Stone & Geological Palette
+          stoneBgDark: "#080b10",
+          stoneSurfaceDark: "#0f1520",
+          stoneElevatedDark: "#151e2d",
+          stoneBorderDark: "#1a2538",
+          stoneBorderHoverDark: "#273752",
+          
+          stoneBgLight: "#fbf9f5",
+          stoneSurfaceLight: "#ffffff",
+          stoneElevatedLight: "#f4f0e8",
+          stoneBorderLight: "#e5e0d5",
+          stoneBorderHoverLight: "#ccc5b6",
+          
+          emeraldAccent: "#10b981",
+          emeraldMuted: "#064e3b",
+          amberAccent: "#d97706",
+          purpleAccent: "#8b5cf6",
         },
       },
       fontFamily: {
@@ -48,8 +45,11 @@ const config: Config = {
         serif: ["var(--font-serif)", "Georgia", "serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
+      letterSpacing: {
+        widest: ".15em",
+      },
       maxWidth: {
-        reading: "46rem", // Optimal character count per line for deep reading
+        reading: "46rem",
       },
     },
   },
