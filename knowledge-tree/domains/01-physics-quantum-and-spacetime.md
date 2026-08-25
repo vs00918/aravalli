@@ -1,6 +1,6 @@
 # Domain 1: Physics, Quantum Mechanics & The Fabric of Spacetime
 
-> **Domain Kernel**: Reality at its most fundamental level is not a collection of isolated solid objects, but an interconnected tapestry of classical trajectories, quantum fields, probability amplitudes, and spacetime geometry. From the deterministic second-order differential equations of Newtonian mechanics to the femtometer scale of atomic nuclei and the event horizons of evaporating black holes, the universe is governed by strictly conserved information, dimensional scaling invariants, and holographic dualities.
+> **Domain Kernel**: Reality at its most fundamental level is not a collection of isolated solid objects, but an interconnected tapestry of classical trajectories, coordinate-invariant vector spaces, quantum fields, probability amplitudes, and spacetime geometry. From the deterministic second-order differential equations of Newtonian mechanics to the femtometer scale of atomic nuclei and the event horizons of evaporating black holes, the universe is governed by strictly conserved information, dimensional scaling invariants, and holographic dualities.
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```mermaid
 graph TD
-    Domain["Domain 1: Physics & Quantum Spacetime"] --> Classical["1. The Four Regimes of Physics & Newtonian Dynamics"]
+    Domain["Domain 1: Physics & Quantum Spacetime"] --> Classical["1. The Four Regimes & Multi-Dimensional Vector Mechanics"]
     Domain --> Scale["2. The Subatomic Scale & Standard Model"]
     Domain --> ExtremeMatter["3. Degenerate Matter & Cosmic Densities"]
     Domain --> BlackHoles["4. Black Hole Thermodynamics & Hawking Radiation"]
@@ -22,7 +22,7 @@ graph TD
 
 ---
 
-## 2. The Four Regimes of Physics & Newtonian Dynamics (Shankar Framework)
+## 2. The Four Regimes of Physics & Multi-Dimensional Vector Mechanics (Shankar Framework)
 
 ### 2.1 The Four Regimes of Fundamental Physics
 As articulated by Prof. Ramamurti Shankar (Yale University), all physical theories navigate a 2D parameter space bounded by **velocity ($v/c$)** and **action scale ($S/\hbar$)**:
@@ -66,6 +66,19 @@ Newton's Second Law is a **second-order ordinary differential equation**:
 * **Why Second-Order Matters**: Because the law connects force directly to acceleration ($\ddot{\mathbf{r}}$) rather than velocity ($\dot{\mathbf{r}}$), determining the future trajectory requires exactly **two initial conditions**: initial position $\mathbf{r}(0)$ and initial velocity $\mathbf{v}(0)$.
 * **Laplacian Determinism**: Given $\mathbf{r}(0)$, $\mathbf{v}(0)$, and the force law $\mathbf{F}$, the differential equation possesses a unique solution for all past ($t < 0$) and future ($t > 0$) time.
 * **The Equivalence Principle**: Inertial mass ($m_i$ in $\mathbf{F} = m_i \mathbf{a}$) is empirically identical to gravitational mass ($m_g$ in $\mathbf{F}_g = \frac{G M m_g}{r^2} \hat{\mathbf{r}}$), meaning all objects undergo identical gravitational acceleration in a vacuum regardless of mass: $a = \frac{GM}{r^2}$.
+
+### 2.3 Vectors in Multi-Dimensions & Rotational Coordinate Invariance
+In $\mathbb{R}^3$, physical vectors are geometric entities independent of human coordinate axes:
+\[
+\mathbf{A} = A_x \hat{\mathbf{i}} + A_y \hat{\mathbf{j}} + A_z \hat{\mathbf{k}}
+\]
+* **Coordinate Invariance**: When coordinate axes rotate by angle $\theta$, the individual components $(A_x, A_y)$ transform via the rotation matrix $R(\theta)$:
+\[
+\begin{pmatrix} A'_x \\ A'_y \end{pmatrix} = \begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} A_x \\ A_y \end{pmatrix}
+\]
+* **The Invariant Scalar Product**: While individual components change with the observer's frame, the length $|\mathbf{A}|^2 = A_x^2 + A_y^2 = (A'_x)^2 + (A'_y)^2$ and the dot product $\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta$ are **strictly invariant** under rotations ($SO(3)$ symmetry).
+* **Decoupled Orthogonal Dynamics**: In projectile motion under gravity ($\mathbf{a} = -g\hat{\mathbf{j}}$), the horizontal motion ($x(t) = x_0 + v_{0x}t$) is completely independent of the vertical free-fall acceleration ($y(t) = y_0 + v_{0y}t - \frac{1}{2}gt^2$).
+* **Bridge to Quantum Mechanics**: The Euclidean dot product $\mathbf{A}\cdot\mathbf{B} = \sum A_i B_i$ is the finite-dimensional precursor to the inner product $\langle\phi|\psi\rangle = \int \phi^*(x)\psi(x)\,dx$ in infinite-dimensional Hilbert space, establishing vectors as the universal mathematical architecture of physics.
 
 ---
 
@@ -195,6 +208,6 @@ where $\ell_P = \sqrt{\frac{G\hbar}{c^3}} \approx 1.616 \times 10^{-35}\text{ m}
 ---
 
 ## 7. Synthesized Academic & Media Crucibles in this Domain
-* **Yale University (Prof. Ramamurti Shankar)**: *Fundamentals of Physics I: Course Introduction and Newtonian Mechanics* (The 4 regimes of physics, second-order determinism, and the equivalence principle).
+* **Yale University (Prof. Ramamurti Shankar)**: *Fundamentals of Physics I: Lecture 1 & Lecture 2 (Newtonian Mechanics & Multi-Dimensional Vectors)* (The 4 regimes of physics, rotational coordinate invariance $SO(3)$, and decoupled orthogonal kinematics).
 * **Kurzgesagt**: *How Small Is An Atom? Spoiler: Very Small* (Spatial progression, atomic voids, and Feynman's invariant).
 * **Kurzgesagt**: *Why Black Holes Could Delete The Universe – The Information Paradox* (Hawking radiation, unitary conservation, and the 2D holographic horizon).

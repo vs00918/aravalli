@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:26:02.769Z",
+  "generatedAt": "2026-08-25T02:27:21.128Z",
   "totalDomains": 5,
   "nodes": [
     {
@@ -9,13 +9,13 @@
       "tierLabel": "Master Knowledge Domain",
       "icon": "🌌",
       "domain": "Physics & Quantum Spacetime",
-      "summary": "Reality at its most fundamental level is not a collection of isolated solid objects, but an interconnected tapestry of classical trajectories, quantum fields, probability amplitudes, and spacetime geometry. From the deterministic second-order differential equations of Newtonian mechanics to the femtometer scale of atomic nuclei and the event horizons of evaporating black holes, the universe is governed by strictly conserved information, dimensional scaling invariants, and holographic dualities.",
+      "summary": "Reality at its most fundamental level is not a collection of isolated solid objects, but an interconnected tapestry of classical trajectories, coordinate-invariant vector spaces, quantum fields, probability amplitudes, and spacetime geometry. From the deterministic second-order differential equations of Newtonian mechanics to the femtometer scale of atomic nuclei and the event horizons of evaporating black holes, the universe is governed by strictly conserved information, dimensional scaling invariants, and holographic dualities.",
       "path": "knowledge-tree/domains/01-physics-quantum-and-spacetime.md",
-      "wordCount": 2013,
-      "readTime": "11 min read",
+      "wordCount": 2213,
+      "readTime": "12 min read",
       "sections": [
         "1. Executive Synthesis & Architectural Map",
-        "2. The Four Regimes of Physics & Newtonian Dynamics (Shankar Framework)",
+        "2. The Four Regimes of Physics & Multi-Dimensional Vector Mechanics (Shankar Framework)",
         "3. The Atomic Scale, Standard Model & The Illusion of Solidity",
         "4. Degenerate Matter, Extreme Cosmic Densities & Indistinguishability",
         "5. Black Hole Thermodynamics, Hawking Radiation & The Information Paradox",
