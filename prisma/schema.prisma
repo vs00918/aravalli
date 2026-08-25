@@ -1,0 +1,87 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Chapter {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  title       String
+  icon        String    @default("📖")
+  description String
+  overview    String?
+  order       Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  concepts    Concept[]
+}
+
+model Concept {
+  id                    String          @id @default(cuid())
+  slug                  String          @unique
+  title                 String
+  chapterId             String
+  chapter               Chapter         @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  
+  // Layered Explanations
+  oneLiner              String
+  intuition             String?
+  howItWorks            String?
+  firstPrinciples       String?
+  mathematicalModel     String?
+  commonMisconceptions  String?
+  whyItMatters          String?
+  example               String?
+  
+  order                 Int             @default(0)
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+
+  // Relationships
+  sources               SourceConcept[]
+  outgoingConnections   Connection[]    @relation("SourceConcept")
+  incomingConnections   Connection[]    @relation("TargetConcept")
+}
+
+model Source {
+  id             String          @id @default(cuid())
+  title          String
+  type           String          // "video" | "podcast" | "book" | "paper" | "article" | "lecture"
+  url            String?
+  author         String?
+  publishedDate  String?
+  summary        String?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  concepts       SourceConcept[]
+}
+
+model SourceConcept {
+  id         String   @id @default(cuid())
+  sourceId   String
+  conceptId  String
+  source     Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  concept    Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  notes      String?
+
+  @@unique([sourceId, conceptId])
+}
+
+model Connection {
+  id               String   @id @default(cuid())
+  fromConceptId    String
+  toConceptId      String
+  relationshipType String   // "depends_on" | "causes" | "enables" | "analogous_to" | "mathematically_related_to" | "emerges_from"
+  explanation      String
+  createdAt        DateTime @default(now())
+
+  fromConcept      Concept  @relation("SourceConcept", fields: [fromConceptId], references: [id], onDelete: Cascade)
+  toConcept        Concept  @relation("TargetConcept", fields: [toConceptId], references: [id], onDelete: Cascade)
+
+  @@unique([fromConceptId, toConceptId])
+}
