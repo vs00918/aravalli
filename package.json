@@ -5,13 +5,17 @@
   "description": "Mind of Aravalli — Living Personal Encyclopedia & Knowledge System",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "prisma generate && prisma db push && tsx prisma/seed.ts && next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "db:generate": "prisma generate"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
@@ -34,6 +38,7 @@
     "postcss": "^8.4.47",
     "prisma": "^5.22.0",
     "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.3",
     "typescript": "^5.6.3"
   }
 }
