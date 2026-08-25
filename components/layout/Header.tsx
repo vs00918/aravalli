@@ -18,7 +18,7 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 bg-[#f9f8f5]/90 dark:bg-[#090d13]/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <header className="sticky top-0 z-40 w-full bg-[#f9f8f5]/95 dark:bg-[#090d13]/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors print:static">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brandmark */}
         <Logo />
