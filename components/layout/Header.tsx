@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/brand/Logo";
 import { useTheme } from "./ThemeProvider";
-import { Moon, Sun, Menu, X, Search, Compass, BookOpen, GitBranch, HelpCircle, FileText, Inbox } from "lucide-react";
+import { Moon, Sun, Menu, X, Search, Compass, BookOpen, GitBranch, HelpCircle, FileText, Inbox, PlusCircle } from "lucide-react";
 import { GlobalSearchModal } from "@/components/search/GlobalSearchModal";
 
 export function Header() {
@@ -62,6 +62,15 @@ export function Header() {
               );
             })}
 
+            {/* Quick Add Button */}
+            <Link
+              href="/add"
+              className="px-2.5 py-1.5 rounded-lg text-xs font-mono text-emerald-700 dark:text-emerald-400 hover:bg-emerald-500/10 transition-colors flex items-center gap-1.5 border border-emerald-500/30 ml-1"
+            >
+              <PlusCircle className="w-3.5 h-3.5" />
+              <span>Add</span>
+            </Link>
+
             {/* Search Trigger */}
             <button
               type="button"
@@ -79,6 +88,15 @@ export function Header() {
 
           {/* Right Controls */}
           <div className="flex items-center space-x-2">
+            {/* Mobile Add Button */}
+            <Link
+              href="/add"
+              className="lg:hidden p-2 rounded-lg text-emerald-600 dark:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+              aria-label="Add to Aravalli"
+            >
+              <PlusCircle className="w-4 h-4" />
+            </Link>
+
             {/* Search Button on Mobile/Tablet */}
             <button
               onClick={() => setSearchOpen(true)}

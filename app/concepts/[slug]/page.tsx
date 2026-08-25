@@ -14,6 +14,7 @@ import { ConceptNavigation } from "@/components/concepts/ConceptNavigation";
 import { ConceptSources } from "@/components/concepts/ConceptSources";
 import { ConceptRelatedQuestions } from "@/components/concepts/ConceptRelatedQuestions";
 import { ConceptTOC } from "@/components/concepts/ConceptTOC";
+import { ReadingTracker } from "@/components/concepts/ReadingTracker";
 
 export const dynamic = "force-dynamic";
 
@@ -32,6 +33,14 @@ export default async function ConceptPage({ params }: ConceptPageProps) {
 
   return (
     <div className="flex justify-center gap-12 max-w-5xl mx-auto">
+      {/* Invisible client tracker for reading history */}
+      <ReadingTracker
+        slug={concept.slug}
+        title={concept.title}
+        chapterTitle={concept.chapter?.title}
+        oneLiner={concept.oneLiner}
+      />
+
       {/* Primary Reading Column: 650–800px width */}
       <article className="w-full max-w-[760px] space-y-10 pb-16">
         {/* Header & Meta */}

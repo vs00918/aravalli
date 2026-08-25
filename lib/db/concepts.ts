@@ -52,3 +52,24 @@ export async function getConceptBySlug(slug: string) {
     },
   });
 }
+
+export async function updateConcept(
+  slug: string,
+  data: {
+    title?: string;
+    oneLiner?: string;
+    whyItMatters?: string;
+    intuition?: string;
+    howItWorks?: string;
+    firstPrinciples?: string;
+    mathematicalModel?: string;
+    commonMisconceptions?: string;
+    example?: string;
+    difficulty?: string;
+  }
+) {
+  return prisma.concept.update({
+    where: { slug },
+    data,
+  });
+}

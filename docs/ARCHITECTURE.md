@@ -1,76 +1,103 @@
-# Mind of Aravalli — Technical Architecture
-
-This document describes the software architecture, data design, and boundaries for **Mind of Aravalli**.
-
----
+# Mind of Aravalli — Engineering Architecture
 
 ## 1. System Architecture
 
-```mermaid
-graph TD
-    UI["User Interface (Next.js 14 App Router + Tailwind CSS)"]
-    AppLogic["Application Services / Domain Logic"]
-    DAL["Data Access Layer (lib/db/)"]
-    Prisma["Prisma ORM"]
-    DB[("Database (SQLite dev.db → PostgreSQL)")]
-
-    UI --> AppLogic
-    AppLogic --> DAL
-    DAL --> Prisma
-    Prisma --> DB
+```text
+┌────────────────────────────────────────────────────────┐
+│                   Next.js 14 App Router                │
+│  (React Server Components + Client Interactive Islands)│
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│               Data Access Layer (DAL)                  │
+│  lib/db/ (chapters, concepts, connections, sources...) │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│                    Prisma ORM                          │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│                 SQLite Database (dev.db)               │
+└────────────────────────────────────────────────────────┘
 ```
-
-### Architectural Principles:
-1. **Separation of Concerns**: The UI components never communicate directly with raw database files or queries. All operations pass through typed Data Access Layer (DAL) functions in `lib/db/`.
-2. **Database Portability**: The system utilizes Prisma ORM with SQLite (`file:./dev.db`) in local development. When scaling or migrating to PostgreSQL, only `datasource db` in `schema.prisma` is changed—zero application logic rewrites are required.
-3. **Modular Future Boundaries**: Dedicated directory boundaries exist for future phases:
-   - `lib/ai/`: Future LLM abstraction providers.
-   - `lib/ingestion/`: Future media transcript extraction and noise-filtering pipelines.
-   - `lib/search/`: Search indexing and retrieval engines.
 
 ---
 
-## 2. Directory Layout
+## 2. Directory Structure
 
 ```text
 mind-of-aravalli/
-├── app/                          # Next.js App Router (Pages, Layouts, API routes)
-│   ├── layout.tsx                # Root HTML shell & global layout
-│   ├── page.tsx                  # Home screen placeholder
-│   └── globals.css               # Global Tailwind CSS and variables
-│
-├── components/                   # Reusable UI & domain components
-│   ├── ui/                       # Buttons, Badges, Modals, Cards
-│   └── layout/                   # Header, Navigation, Sidebar, Footer
-│
-├── lib/                          # Application core & utilities
-│   ├── db/                       # Data Access Layer & Prisma client
-│   │   ├── prisma.ts             # Prisma client singleton
-│   │   ├── chapters.ts           # Chapter repository
-│   │   └── concepts.ts           # Concept repository
-│   ├── types/                    # TypeScript interfaces & domain models
-│   └── utils/                    # Utility functions (cn, slugify)
-│
-├── prisma/                       # Database schema & migrations
-│   └── schema.prisma             # Relational data models
-│
-├── docs/                         # Architecture & operational documentation
+├── app/                        # Next.js 14 App Router
+│   ├── add/                    # Add to Aravalli capture page
+│   ├── api/                    # JSON REST & search endpoints
+│   │   ├── capture/            # Source capture endpoint
+│   │   ├── search/             # Global search endpoint
+│   │   ├── inbox/[id]/         # Ingestion processing & promotion
+│   │   └── concepts/[slug]/    # Concept updates
+│   ├── chapters/[slug]/        # Master Chapter detailed view
+│   ├── concepts/[slug]/        # 6-Layer Concept Reading Experience
+│   ├── connections/            # The Knowledge Lattice
+│   ├── inbox/                  # Staging review desk (/inbox & /inbox/[id])
+│   ├── library/                # Master Library Volume Catalog
+│   ├── questions/              # Curiosity Radar
+│   ├── sources/                # Sources & Provenance Catalog
+│   ├── not-found.tsx           # Scholarly 404 handler
+│   ├── error.tsx               # Calm error boundary
+│   ├── layout.tsx              # Root layout & theme wrapper
+│   └── page.tsx                # Dynamic Encyclopedia Dashboard
+├── components/
+│   ├── brand/                  # Logo & visual identity
+│   ├── chapters/               # Chapter header, TOC, and concept lists
+│   ├── concepts/               # 6-layer concept reading components & editor
+│   ├── home/                   # Dashboard preview sections
+│   ├── inbox/                  # Research desk review component
+│   ├── layout/                 # Header, Footer, ThemeProvider
+│   ├── search/                 # Global search modal (Ctrl+K)
+│   └── ui/                     # KaTeX MathBlock & MathInline
+├── lib/
+│   ├── data/                   # Chapter curriculum roadmaps
+│   ├── db/                     # Data Access Layer (DAL) repositories
+│   ├── ingestion/              # Ingestion providers & extraction pipeline
+│   ├── types/                  # TypeScript domain models & contracts
+│   └── utils/                  # Styling & helper utilities
+├── prisma/
+│   ├── schema.prisma           # Relational schema
+│   └── seed.ts                 # Scientific seed data
+├── docs/                       # Architectural & product specifications
+│   ├── PRODUCT.md
 │   └── ARCHITECTURE.md
-│
-├── public/                       # Static public assets
-├── .env.example                  # Environment configuration template
-├── MIND_OF_ARAVALLI_MASTER_SPEC.md # Master Product Specification
-├── README.md                     # Repository landing documentation
-├── GEMINI.md                     # Repository isolation invariants
-└── package.json                  # Dependencies & scripts
+├── README.md                   # Project overview & quickstart
+└── package.json                # Dependencies & scripts
 ```
 
 ---
 
-## 3. Relational Data Model
+## 3. Key Invariants & Design Principles
 
-* **`Chapter`**: High-level knowledge domains (*Universe & Physics*, *Energy & Technology*, etc.).
-* **`Concept`**: Fundamental unit of understanding with 6-layer progressive disclosure (One-liner, Intuition, Mechanics, First Principles, Math, Misconceptions, Why it matters).
-* **`Source`**: First-class citation object for videos, podcasts, papers, and books.
-* **`SourceConcept`**: Join model linking sources to concepts with contextual notes.
-* **`Connection`**: Explicit typed cross-domain relationships (*depends_on, causes, enables, analogous_to, mathematically_related_to, emerges_from*).
+1. **Strict Repository Isolation**: Confined 100% to `vs00918/aravalli` on `main`.
+2. **DAL Abstraction**: UI components and server actions never query Prisma directly. All database access flows through `lib/db/`.
+3. **Pluggable Ingestion Provider**: Extracted proposals use the `ExtractionProvider` interface, currently powered by `LocalDemonstrationProcessor` without requiring external AI API keys.
+4. **KaTeX Math Engine**: Mathematical formulas rendered server-side and client-side with full overflow protection for mobile viewports.
+5. **Human-in-the-Loop Review Boundary**: Uncommitted research stays in `IngestionItem` until explicitly audited and promoted by the user.
+
+---
+
+## 4. Development & Build Commands
+
+```bash
+# Start local development server
+npm run dev
+
+# Run TypeScript type validation
+npm run type-check
+
+# Run ESLint validation
+npm run lint
+
+# Compile production build
+npm run build
+
+# Seed knowledge database
+npm run db:seed
+```
