@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen, Flame, Sparkles, CheckCircle2, Clock } from "lucide-react";
+import { BookOpen, Flame, Sparkles, CheckCircle2 } from "lucide-react";
 import { BankingCaMasterRegistry } from "@/lib/banking-ca/schema";
 
 interface KnowledgeOverviewProps {
@@ -13,32 +13,32 @@ export function KnowledgeOverview({ summary }: KnowledgeOverviewProps) {
       value: summary.totalCanonicalTopics,
       subtitle: "Deduplicated across all feeds",
       icon: BookOpen,
-      color: "text-blue-400",
-      bg: "bg-blue-950/20 border-blue-800/30"
+      color: "text-blue-700 dark:text-blue-400",
+      bg: "bg-blue-100/60 dark:bg-blue-950/20 border-blue-300/60 dark:border-blue-800/30"
     },
     {
       title: "Active P1 Master Deck",
       value: `${summary.activeP1Count} Topics`,
       subtitle: `${summary.activeP1RevisionMinutes} min total core study`,
       icon: Flame,
-      color: "text-emerald-400",
-      bg: "bg-emerald-950/20 border-emerald-800/30"
+      color: "text-emerald-800 dark:text-emerald-400",
+      bg: "bg-emerald-100/60 dark:bg-emerald-950/20 border-emerald-300/60 dark:border-emerald-800/30"
     },
     {
       title: "P2 High-Yield Items",
       value: summary.totalP2Count,
       subtitle: "Key indicators, acts & schemes",
       icon: Sparkles,
-      color: "text-amber-400",
-      bg: "bg-amber-950/20 border-amber-800/30"
+      color: "text-amber-800 dark:text-amber-400",
+      bg: "bg-amber-100/60 dark:bg-amber-950/20 border-amber-300/60 dark:border-amber-800/30"
     },
     {
       title: "P3 Quick Factoids",
       value: summary.totalP3Count,
       subtitle: "One-liners & quick scan items",
       icon: CheckCircle2,
-      color: "text-slate-400",
-      bg: "bg-slate-900/30 border-slate-700/30"
+      color: "text-stone-700 dark:text-slate-400",
+      bg: "bg-stone-200/50 dark:bg-slate-900/30 border-stone-300 dark:border-slate-700/30"
     }
   ];
 
@@ -51,7 +51,7 @@ export function KnowledgeOverview({ summary }: KnowledgeOverviewProps) {
           return (
             <div
               key={c.title}
-              className={`p-4 rounded-xl border ${c.bg} flex flex-col justify-between transition-transform hover:-translate-y-0.5 duration-150`}
+              className={`p-4 rounded-xl border ${c.bg} flex flex-col justify-between transition-transform hover:-translate-y-0.5 duration-150 shadow-sm`}
             >
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono text-[var(--text-muted)] font-medium">

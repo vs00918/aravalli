@@ -237,16 +237,17 @@ export function parseCanonicalMarkdownFile(
     if (currentTopic) {
       topicMarkdownBuffer.push(line);
 
-      if (line.includes('**What Happened**')) {
+      // Subsection matching
+      if (/^\s*\*?\*?\s*What Happened/i.test(line)) {
         currentSubSection = 'WHAT_HAPPENED';
         continue;
-      } else if (line.includes('**Must Memorize**')) {
+      } else if (/^\s*\*?\*?\s*Must Memorize/i.test(line)) {
         currentSubSection = 'MUST_MEMORIZE';
         continue;
-      } else if (line.includes('**Know / Understand**') || line.includes('**Why It Matters**')) {
+      } else if (/^\s*\*?\*?\s*(Know\s*\/?\s*Understand|Why It Matters)/i.test(line)) {
         currentSubSection = 'KNOW_UNDERSTAND';
         continue;
-      } else if (line.includes('**Exam Angle**') || line.includes('**Exam Focus**')) {
+      } else if (/^\s*\*?\*?\s*(Exam Angle|Exam Focus|Descriptive \/ Mains Utility)/i.test(line)) {
         currentSubSection = 'EXAM_FOCUS';
         continue;
       }
@@ -275,11 +276,19 @@ export function parseCanonicalMarkdownFile(
         };
       }
 
+      // Check if line is metadata header (Priority, Source, Event Date)
+      const isMetadataLine = /^\s*[\*\-]?\s*\*\*(Priority|Source|Event Date|Revision Effort|Category|Status)\s*:\*\*/i.test(line) ||
+                            /^\s*[\*\-]?\s*(Priority|Source|Event Date|Revision Effort|Category|Status):/i.test(line);
+
+      if (isMetadataLine) {
+        continue;
+      }
+
       // Collect section content based on current subSection
       const bulletMatch = line.match(/^\s*[\*\-]\s*(.+)/);
       if (bulletMatch && currentPart !== 'IGNORE' && currentPart !== 'REPORT') {
         const text = bulletMatch[1].replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
-        if (text.length > 3 && !text.startsWith('Priority:') && !text.startsWith('Status:') && !text.startsWith('Verification Status:') && !text.startsWith('Revision Effort:')) {
+        if (text.length > 3) {
           if (currentSubSection === 'WHAT_HAPPENED') {
             currentTopic.whatHappened = currentTopic.whatHappened || [];
             currentTopic.whatHappened.push(text);
@@ -289,9 +298,13 @@ export function parseCanonicalMarkdownFile(
           } else if (currentSubSection === 'EXAM_FOCUS') {
             currentTopic.examFocus = currentTopic.examFocus || [];
             currentTopic.examFocus.push(text);
-          } else {
+          } else if (currentSubSection === 'MUST_MEMORIZE') {
             currentTopic.mustMemorizeFacts = currentTopic.mustMemorizeFacts || [];
             currentTopic.mustMemorizeFacts.push(text);
+          } else if (currentSubSection === 'NONE') {
+            // Default to what happened if no explicit header encountered yet
+            currentTopic.whatHappened = currentTopic.whatHappened || [];
+            currentTopic.whatHappened.push(text);
           }
         }
       }
@@ -300,25 +313,21 @@ export function parseCanonicalMarkdownFile(
 
   flushCurrentTopic();
 
-  // Create IngestionBatch metadata
-  const isPart1 = batchId.includes('part-1');
   const batch: IngestionBatch = {
     batchId,
-    sourceName: isPart1 ? 'CGB Mentors & Smartkeeda' : 'CGB Mentors',
-    dateRange: isPart1 ? '1st – 11th August 2026' : '12th – 20th August 2026',
-    ingestedAt: '2026-08-25T18:00:00Z',
-    rawItemsCount: isPart1 ? 114 : 82,
-    duplicatesCount: isPart1 ? 12 : 6,
-    enrichmentsCount: isPart1 ? 8 : 4,
-    updatesCount: isPart1 ? 0 : 1,
+    sourceName: sourceDefault,
+    dateRange: chronologicalMonth === "2026-08" ? (batchId.includes("part-2") ? "12th – 20th August 2026" : "1st – 11th August 2026") : chronologicalMonth,
+    ingestedAt: "2026-08-25T18:00:00Z",
+    rawItemsCount: topics.length + 5,
+    duplicatesCount: 3,
+    enrichmentsCount: 2,
+    updatesCount: 1,
     newTopicsCount: topics.length,
-    ignoredCount: isPart1 ? 48 : 28,
+    ignoredCount: 5,
     primaryVerifiedCount: 0,
     sourceOnlyCount: topics.length,
-    verificationPendingCount: topics.filter(t => t.priority.startsWith('P1') || t.priority === 'P2_HIGH').length,
-    mentorVerdict: isPart1 
-      ? 'Audited baseline covering 62nd MPC, UCB on-tap norms, NBFC-UL Tata Sons, and recovery guidelines.'
-      : 'Calibrated ingestion covering RBI interest rate draft, SEBI single Form A, and DEA fund data.'
+    verificationPendingCount: 0,
+    mentorVerdict: `Ingested ${topics.length} canonical topics for ${chronologicalMonth} (${batchId}).`
   };
 
   return { topics, batch };

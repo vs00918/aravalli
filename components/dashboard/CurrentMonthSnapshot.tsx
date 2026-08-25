@@ -1,21 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import { Calendar, ArrowRight, Layers, FileCheck } from "lucide-react";
-import { IngestionBatch, CanonicalTopic } from "@/lib/banking-ca/schema";
+import { Calendar, ArrowRight, Layers } from "lucide-react";
+import { IngestionBatch } from "@/lib/banking-ca/schema";
 
 interface CurrentMonthSnapshotProps {
   batches: IngestionBatch[];
   topicsCount: number;
 }
 
-export function CurrentMonthSnapshot({ batches, topicsCount }: CurrentMonthSnapshotProps) {
-  const latestBatch = batches[batches.length - 1];
-
+export function CurrentMonthSnapshot({ batches }: CurrentMonthSnapshotProps) {
   return (
-    <section className="p-5 rounded-2xl bg-[var(--surface-primary)] border border-[var(--border-primary)] space-y-4">
+    <section className="p-5 rounded-2xl bg-[var(--surface-primary)] border border-[var(--border-primary)] space-y-4 shadow-xs">
       <div className="flex items-center justify-between pb-3 border-b border-[var(--border-primary)]">
         <div className="flex items-center gap-2">
-          <span className="p-1 rounded bg-blue-950/40 text-blue-400 border border-blue-800/40">
+          <span className="p-1 rounded bg-blue-100 dark:bg-blue-950/40 text-blue-800 dark:text-blue-400 border border-blue-300 dark:border-blue-800/40">
             <Calendar className="w-4 h-4" />
           </span>
           <h2 className="text-sm font-serif font-bold text-[var(--text-primary)]">
@@ -24,7 +22,7 @@ export function CurrentMonthSnapshot({ batches, topicsCount }: CurrentMonthSnaps
         </div>
         <Link
           href="/chronology"
-          className="text-xs font-mono text-emerald-400 hover:text-emerald-300 inline-flex items-center gap-1 transition-colors"
+          className="text-xs font-mono font-bold text-emerald-800 dark:text-emerald-400 hover:underline inline-flex items-center gap-1 transition-colors"
         >
           <span>Chronology View</span>
           <ArrowRight className="w-3 h-3" />
@@ -35,7 +33,7 @@ export function CurrentMonthSnapshot({ batches, topicsCount }: CurrentMonthSnaps
         <div className="flex items-center justify-between p-3 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)]">
           <div className="flex items-center gap-2 font-mono">
             <Layers className="w-4 h-4 text-[var(--text-subtle)]" />
-            <span className="text-[var(--text-muted)]">Active Window Feed</span>
+            <span className="text-[var(--text-muted)] font-medium">Active Window Feed</span>
           </div>
           <span className="font-semibold text-[var(--text-primary)] font-mono">
             {batches.length} Ingested Batches
@@ -47,7 +45,7 @@ export function CurrentMonthSnapshot({ batches, topicsCount }: CurrentMonthSnaps
           {batches.map((b) => (
             <div
               key={b.batchId}
-              className="p-3 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-1"
+              className="p-3 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-1 shadow-xs"
             >
               <div className="flex items-center justify-between font-mono text-[11px]">
                 <span className="font-bold text-[var(--text-primary)]">{b.sourceName}</span>
