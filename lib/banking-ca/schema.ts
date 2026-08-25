@@ -124,8 +124,11 @@ export const CanonicalTopicSchema = z.object({
   optionalFacts: z.array(z.string()).default([]),
   
   initialEventDate: z.string().min(1),
+  firstPublicationDate: z.string().optional(),
   lastUpdatedDate: z.string().min(1),
   chronologicalMonth: z.string().regex(/^\d{4}-\d{2}$/),
+  eventMonth: z.string().regex(/^\d{4}-\d{2}$/).optional(),
+  activeInMonths: z.array(z.string().regex(/^\d{4}-\d{2}$/)).default([]),
   chronologicalWeek: z.string().min(1),
   
   changeAlert: ChangeAlertSchema.optional(),
@@ -155,6 +158,18 @@ export const IngestionBatchSchema = z.object({
 });
 export type IngestionBatch = z.infer<typeof IngestionBatchSchema>;
 
+/** Exam Target Profile Schema (Decoupled Exam Window) */
+export const ExamTargetProfileSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  targetExamDate: z.string().regex(/^\d{4}-\d{2}$/),
+  windowStartMonth: z.string().regex(/^\d{4}-\d{2}$/),
+  windowEndMonth: z.string().regex(/^\d{4}-\d{2}$/),
+  isDefault: z.boolean().default(false),
+  description: z.string().optional()
+});
+export type ExamTargetProfile = z.infer<typeof ExamTargetProfileSchema>;
+
 /** Master Registry Schema */
 export const BankingCaMasterRegistrySchema = z.object({
   schemaVersion: z.literal('1.0.0'),
@@ -169,6 +184,8 @@ export const BankingCaMasterRegistrySchema = z.object({
     totalP3Count: z.number().int().nonnegative(),
     totalBatchesIngested: z.number().int().nonnegative()
   }),
+
+  examProfiles: z.array(ExamTargetProfileSchema).default([]),
   
   topics: z.record(z.string(), CanonicalTopicSchema),
   topicSlugMap: z.record(z.string(), z.string()),
@@ -184,6 +201,7 @@ export const BankingCaMasterRegistrySchema = z.object({
     byCategory: z.record(z.string(), z.array(z.string())),
     byInstitution: z.record(z.string(), z.array(z.string())),
     byMonth: z.record(z.string(), z.array(z.string())),
+    byYearMonth: z.record(z.string(), z.array(z.string())).default({}),
     changeSensitiveTopicIds: z.array(z.string())
   }),
   

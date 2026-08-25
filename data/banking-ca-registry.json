@@ -10,6 +10,35 @@
     "totalP3Count": 29,
     "totalBatchesIngested": 2
   },
+  "examProfiles": [
+    {
+      "id": "sbi-po-mains-2026",
+      "name": "SBI PO Mains — September 2026",
+      "targetExamDate": "2026-09",
+      "windowStartMonth": "2026-04",
+      "windowEndMonth": "2026-09",
+      "isDefault": true,
+      "description": "Active rolling 6-month high-yield window for SBI PO Mains."
+    },
+    {
+      "id": "ibps-po-mains-2026",
+      "name": "IBPS PO Mains — October 2026",
+      "targetExamDate": "2026-10",
+      "windowStartMonth": "2026-04",
+      "windowEndMonth": "2026-10",
+      "isDefault": false,
+      "description": "Extended 7-month high-yield window for IBPS PO Mains."
+    },
+    {
+      "id": "full-2026-archive",
+      "name": "2026 Annual Complete Master Archive",
+      "targetExamDate": "2026-12",
+      "windowStartMonth": "2026-01",
+      "windowEndMonth": "2026-12",
+      "isDefault": false,
+      "description": "Comprehensive annual knowledge repository including background and historical developments."
+    }
+  ],
   "topics": {
     "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026": {
       "id": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
@@ -41,8 +70,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "changeAlert": {
         "isChangeSensitive": true,
@@ -86,8 +120,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -122,8 +161,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -160,8 +204,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -195,8 +244,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -229,8 +283,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -261,8 +320,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -293,8 +357,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -325,8 +394,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -357,8 +431,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -389,8 +468,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -421,8 +505,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -453,8 +542,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -485,8 +579,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -517,8 +616,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -549,8 +653,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -581,8 +690,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -613,8 +727,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -645,8 +764,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -677,8 +801,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -709,8 +838,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -741,8 +875,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -773,8 +912,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -805,8 +949,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -843,8 +992,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -875,8 +1029,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -907,8 +1066,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -939,8 +1103,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -971,8 +1140,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1003,8 +1177,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1035,8 +1214,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1067,8 +1251,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1099,8 +1288,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1131,8 +1325,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1163,8 +1362,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1195,8 +1399,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-1-2",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1238,8 +1447,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1271,8 +1485,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1306,8 +1525,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1339,8 +1563,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1373,8 +1602,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1407,8 +1641,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1439,8 +1678,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1473,8 +1717,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1506,8 +1755,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1538,8 +1792,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1570,8 +1829,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1602,8 +1866,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1635,8 +1904,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1667,8 +1941,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1699,8 +1978,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1731,8 +2015,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1763,8 +2052,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1795,8 +2089,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1827,8 +2126,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1859,8 +2163,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1891,8 +2200,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1923,8 +2237,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1955,8 +2274,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -1987,8 +2311,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2019,8 +2348,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2051,8 +2385,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2083,8 +2422,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2115,8 +2459,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2147,8 +2496,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2179,8 +2533,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2211,8 +2570,13 @@
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
       "lastUpdatedDate": "2026-08-15",
       "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
       "chronologicalWeek": "week-3",
       "updatesHistory": [],
       "sourceReferences": [
@@ -2552,6 +2916,77 @@
       ]
     },
     "byMonth": {
+      "2026-08": [
+        "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+        "80th-independence-day-announcements",
+        "ad-category-ii-licences",
+        "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+        "apex-appointments-4-min",
+        "apex-financial-regulatory-appointments-4-min",
+        "bankers-books-evidence-act-2026-2-min",
+        "bharatnet-phase-iii-odisha",
+        "bimco-ics-seafarer-workforce-report-2026",
+        "blue-bonds",
+        "bofa-jio-credit",
+        "bse-msci",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
+        "day-nrlm-self-help-group-bank-credit-milestone-3-min",
+        "defence-srijan-portal",
+        "defence-vessels",
+        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "dot-sim-card-rule",
+        "eu-cbam",
+        "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
+        "fields-medals-2026",
+        "fitch-sovereign-rating",
+        "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
+        "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-master-regulations-protec-licence-3-min",
+        "jal-jeevan-mission-jjm",
+        "khelo-india-ansf-expansion-3-min",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "mca-accounting-rules",
+        "mha-e-zero-firs",
+        "national-sports-awards-2025",
+        "ncdex-nidhi",
+        "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
+        "parichha-dam-jhansi-betwa-river",
+        "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
+        "pmksy-10-year-review",
+        "postransfer-remittances",
+        "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
+        "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prudential-bharti-life",
+        "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
+        "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
+        "public-sector-banks-asset-quality-fy26-3-min",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
+        "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+        "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
+        "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
+        "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+        "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
+        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "repco-bank",
+        "samudra-manthan-national-offshore-exploration-scheme-3-min",
+        "sebi-bullion-vaulting",
+        "sebi-digital-kyc-proposal",
+        "sebi-fast-track-settlement",
+        "sebi-isin-limit",
+        "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
+        "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
+        "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
+        "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+        "sports",
+        "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "wipo-genai-patent-report"
+      ]
+    },
+    "byYearMonth": {
       "2026-08": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",

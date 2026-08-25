@@ -5,9 +5,7 @@ import {
   IngestionBatch,
   BankingCaMasterRegistry,
   BankingCaMasterRegistrySchema,
-  PriorityLevel,
-  CategoryId,
-  InstitutionId
+  ExamTargetProfile
 } from '../lib/banking-ca/schema';
 import { parseCanonicalMarkdownFile } from '../lib/banking-ca/markdown-parser';
 
@@ -39,11 +37,17 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
 
     for (const topic of topics) {
       if (allTopicsMap[topic.id]) {
-        // Deterministic merge: Append source references & updates
+        // Deterministic merge: Append source references, updates, and union activeInMonths
         const existing = allTopicsMap[topic.id];
         existing.sourceReferences = [...existing.sourceReferences, ...topic.sourceReferences];
         if (topic.updatesHistory && topic.updatesHistory.length > 0) {
           existing.updatesHistory = [...existing.updatesHistory, ...topic.updatesHistory];
+        }
+        // Union activeInMonths
+        const mergedMonths = Array.from(new Set([...(existing.activeInMonths || []), ...(topic.activeInMonths || [])])).sort();
+        existing.activeInMonths = mergedMonths;
+        if (topic.lastUpdatedDate > existing.lastUpdatedDate) {
+          existing.lastUpdatedDate = topic.lastUpdatedDate;
         }
       } else {
         allTopicsMap[topic.id] = topic;
@@ -51,6 +55,37 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
       }
     }
   }
+
+  // Predefined Exam Target Profiles (Decoupled Exam Window Invariant)
+  const examProfiles: ExamTargetProfile[] = [
+    {
+      id: 'sbi-po-mains-2026',
+      name: 'SBI PO Mains — September 2026',
+      targetExamDate: '2026-09',
+      windowStartMonth: '2026-04',
+      windowEndMonth: '2026-09',
+      isDefault: true,
+      description: 'Active rolling 6-month high-yield window for SBI PO Mains.'
+    },
+    {
+      id: 'ibps-po-mains-2026',
+      name: 'IBPS PO Mains — October 2026',
+      targetExamDate: '2026-10',
+      windowStartMonth: '2026-04',
+      windowEndMonth: '2026-10',
+      isDefault: false,
+      description: 'Extended 7-month high-yield window for IBPS PO Mains.'
+    },
+    {
+      id: 'full-2026-archive',
+      name: '2026 Annual Complete Master Archive',
+      targetExamDate: '2026-12',
+      windowStartMonth: '2026-01',
+      windowEndMonth: '2026-12',
+      isDefault: false,
+      description: 'Comprehensive annual knowledge repository including background and historical developments.'
+    }
+  ];
 
   // Build Deterministic Indexes
   const sortedTopicIds = Object.keys(allTopicsMap).sort();
@@ -66,6 +101,7 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     byCategory: {} as Record<string, string[]>,
     byInstitution: {} as Record<string, string[]>,
     byMonth: {} as Record<string, string[]>,
+    byYearMonth: {} as Record<string, string[]>,
     changeSensitiveTopicIds: [] as string[]
   };
 
@@ -96,9 +132,21 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     if (!indexes.byInstitution[topic.primaryInstitution]) indexes.byInstitution[topic.primaryInstitution] = [];
     indexes.byInstitution[topic.primaryInstitution].push(id);
 
-    // Month index
+    // Legacy byMonth index
     if (!indexes.byMonth[topic.chronologicalMonth]) indexes.byMonth[topic.chronologicalMonth] = [];
     indexes.byMonth[topic.chronologicalMonth].push(id);
+
+    // Multi-month byYearMonth index
+    const activeMonths = topic.activeInMonths && topic.activeInMonths.length > 0
+      ? topic.activeInMonths
+      : [topic.chronologicalMonth];
+
+    for (const m of activeMonths) {
+      if (!indexes.byYearMonth[m]) indexes.byYearMonth[m] = [];
+      if (!indexes.byYearMonth[m].includes(id)) {
+        indexes.byYearMonth[m].push(id);
+      }
+    }
 
     // Change sensitive index
     if (topic.changeAlert && topic.changeAlert.isChangeSensitive) {
@@ -110,6 +158,7 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
   for (const cat of Object.keys(indexes.byCategory)) indexes.byCategory[cat].sort();
   for (const inst of Object.keys(indexes.byInstitution)) indexes.byInstitution[inst].sort();
   for (const m of Object.keys(indexes.byMonth)) indexes.byMonth[m].sort();
+  for (const ym of Object.keys(indexes.byYearMonth)) indexes.byYearMonth[ym].sort();
   indexes.changeSensitiveTopicIds.sort();
 
   const registryPayload: BankingCaMasterRegistry = {
@@ -124,6 +173,7 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
       totalP3Count,
       totalBatchesIngested: batches.length
     },
+    examProfiles,
     topics: allTopicsMap,
     topicSlugMap,
     indexes,
@@ -180,26 +230,28 @@ if (require.main === module) {
             subtitle: b.mentorVerdict
           }))
         }
-      ],
-      topics: registry.topics,
-      summary: registry.summary,
-      indexes: registry.indexes
+      ]
     };
-    fs.writeFileSync(path.join(__dirname, '../data/knowledge-registry.json'), JSON.stringify(compatRegistry, null, 2));
 
-    console.log(`\n✅ CA Knowledge Compilation Successful!`);
-    console.log(`────────────────────────────────────────────────────────`);
+    const compatPath = path.join(__dirname, '../data/knowledge-registry.json');
+    fs.writeFileSync(compatPath, JSON.stringify(compatRegistry, null, 2));
+
+    console.log('\n✅ CA Knowledge Compilation Successful!');
+    console.log('────────────────────────────────────────────────────────');
     console.log(`Canonical Files Scanned : ${registry.batches.length}`);
     console.log(`Total Canonical Topics  : ${registry.summary.totalCanonicalTopics}`);
     console.log(`Active P1 Topics        : ${registry.summary.activeP1Count} (${registry.summary.activeP1RevisionMinutes} min total)`);
     console.log(`P2 High-Yield Topics    : ${registry.summary.totalP2Count}`);
     console.log(`P3 Moderate Topics      : ${registry.summary.totalP3Count}`);
     console.log(`Change-Sensitive Alerts : ${registry.indexes.changeSensitiveTopicIds.length}`);
-    console.log(`Errors: 0 | Warnings: 0`);
-    console.log(`Output: data/banking-ca-registry.json`);
-    console.log(`────────────────────────────────────────────────────────\n`);
-  } catch (err: any) {
-    console.error(`\n❌ FATAL COMPILER ERROR: ${err.message}`);
+    console.log(`Exam Target Profiles    : ${registry.examProfiles.length}`);
+    console.log(`Indexed Months (YYYY-MM): ${Object.keys(registry.indexes.byYearMonth).join(', ')}`);
+    console.log('Errors: 0 | Warnings: 0');
+    console.log('Output: data/banking-ca-registry.json');
+    console.log('────────────────────────────────────────────────────────\n');
+
+  } catch (error: any) {
+    console.error(`\n❌ COMPILATION CRASH: ${error.message}`);
     process.exit(1);
   }
 }

@@ -175,6 +175,38 @@ function runTests() {
     });
   });
 
+  // Test 10: Exam Target Profiles Structure & Decoupling Invariant
+  test('Exam Target Profiles Structure & Decoupling Invariant', () => {
+    const { registry } = compileBankingCaRegistry();
+    assert.ok(Array.isArray(registry.examProfiles), 'registry must contain examProfiles array');
+    assert.ok(registry.examProfiles.length >= 2, 'registry must have at least 2 predefined exam profiles');
+    
+    const defaultProfile = registry.examProfiles.find(p => p.isDefault);
+    assert.ok(defaultProfile, 'A default exam profile must be configured');
+    assert.ok(defaultProfile.windowStartMonth <= defaultProfile.windowEndMonth, 'Window start must be <= window end');
+  });
+
+  // Test 11: Multi-Month Temporal & Hierarchical Index Invariant
+  test('Multi-Month Temporal & Hierarchical Index Invariant', () => {
+    const { registry } = compileBankingCaRegistry();
+    assert.ok(registry.indexes.byYearMonth, 'registry.indexes.byYearMonth must exist');
+    const months = Object.keys(registry.indexes.byYearMonth);
+    assert.ok(months.length > 0, 'byYearMonth must index at least one month');
+
+    // Every canonical topic must be mapped to at least 1 month
+    const indexedTopicIds = new Set<string>();
+    for (const m of months) {
+      for (const id of registry.indexes.byYearMonth[m]) {
+        indexedTopicIds.add(id);
+      }
+    }
+    assert.strictEqual(
+      indexedTopicIds.size,
+      registry.summary.totalCanonicalTopics,
+      'Every canonical topic must be indexed in byYearMonth'
+    );
+  });
+
   console.log('\n────────────────────────────────────────────────────────');
   console.log(`Results: ${passed} / ${total} Tests Passed`);
   console.log('────────────────────────────────────────────────────────\n');
