@@ -126,8 +126,8 @@ function runTests() {
         }
 
         if (inP1) {
-          const h3Match = line.match(/^###\s*(\d+[\.\)]\s*)?(.+)/);
-          if (h3Match) {
+          const h3Match = line.match(/^###\s+(?!#)(?:(\d+)[\.\)]\s+)?(.+)/);
+          if (h3Match && !line.includes('Exam Angles') && !line.includes('Why It Matters') && !line.includes('Key Highlights') && !line.includes('Revision Protocol')) {
             const rawTitle = h3Match[2].trim();
             const slug = generateStableSlug(rawTitle);
             expectedP1Slugs.add(slug);
