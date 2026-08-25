@@ -27,6 +27,10 @@ model Concept {
   chapterId             String
   chapter               Chapter         @relation(fields: [chapterId], references: [id], onDelete: Cascade)
   
+  // Knowledge Architecture & Progression
+  difficulty            String          @default("CORE") // "FOUNDATION" | "CORE" | "INTERMEDIATE" | "ADVANCED" | "FRONTIER"
+  order                 Int             @default(0)
+
   // Layered Explanations
   oneLiner              String
   intuition             String?
@@ -37,7 +41,6 @@ model Concept {
   whyItMatters          String?
   example               String?
   
-  order                 Int             @default(0)
   createdAt             DateTime        @default(now())
   updatedAt             DateTime        @updatedAt
 

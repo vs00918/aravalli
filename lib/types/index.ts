@@ -11,12 +11,18 @@ export interface Chapter {
   concepts?: Concept[];
 }
 
+export type DifficultyTier = "FOUNDATION" | "CORE" | "INTERMEDIATE" | "ADVANCED" | "FRONTIER";
+
 export interface Concept {
   id: string;
   slug: string;
   title: string;
   chapterId: string;
   chapter?: Chapter;
+  difficulty: DifficultyTier | string;
+  order: number;
+  
+  // Layered Explanations
   oneLiner: string;
   intuition?: string | null;
   howItWorks?: string | null;
@@ -25,7 +31,7 @@ export interface Concept {
   commonMisconceptions?: string | null;
   whyItMatters?: string | null;
   example?: string | null;
-  order: number;
+  
   createdAt: Date;
   updatedAt: Date;
   sources?: SourceConcept[];
