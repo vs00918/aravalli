@@ -23,8 +23,9 @@ export function PwaRegister() {
 
       // 2. Service Worker Registration & Update Detection
       if ("serviceWorker" in navigator && process.env.NODE_ENV === "production") {
+        const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
         navigator.serviceWorker
-          .register("/sw.js")
+          .register(`${basePath}/sw.js`, { scope: `${basePath}/` || "/" })
           .then((registration) => {
             // Check for waiting worker
             if (registration.waiting) {

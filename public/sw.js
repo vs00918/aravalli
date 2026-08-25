@@ -8,26 +8,40 @@ const STATIC_CACHE = `ca-static-${CACHE_VERSION}`;
 const DATA_CACHE = `ca-data-${CACHE_VERSION}`;
 const PAGES_CACHE = `ca-pages-${CACHE_VERSION}`;
 
-const CORE_ASSETS = [
-  '/',
-  '/dashboard',
-  '/topics',
-  '/revision',
-  '/search',
-  '/institutions',
-  '/chronology',
-  '/offline',
-  '/manifest.json',
-  '/icons/icon-192.svg',
-  '/icons/icon-512.svg',
-  '/icons/icon-maskable-512.svg'
-];
+// Dynamically compute base path from service worker registration scope
+const getBasePath = () => {
+  try {
+    return new URL(self.registration.scope).pathname.replace(/\/$/, '');
+  } catch {
+    return '';
+  }
+};
+
+const getCoreAssets = () => {
+  const base = getBasePath();
+  return [
+    `${base}/`,
+    `${base}/dashboard`,
+    `${base}/topics`,
+    `${base}/revision`,
+    `${base}/search`,
+    `${base}/institutions`,
+    `${base}/chronology`,
+    `${base}/offline`,
+    `${base}/manifest.json`,
+    `${base}/icons/icon-192.svg`,
+    `${base}/icons/icon-512.svg`,
+    `${base}/icons/icon-maskable-512.svg`
+  ];
+};
 
 // 1. Installation: Pre-cache Core Offline Shell
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(STATIC_CACHE).then((cache) => {
-      return cache.addAll(CORE_ASSETS);
+      return cache.addAll(getCoreAssets()).catch((err) => {
+        console.warn('Failed to precache some assets:', err);
+      });
     })
   );
 });
@@ -65,6 +79,8 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  const base = getBasePath();
+
   // Strategy A: Stale-While-Revalidate for Canonical Data Registry & JSON
   if (url.pathname.includes('banking-ca-registry.json') || url.pathname.includes('/data/')) {
     event.respondWith(
@@ -88,8 +104,8 @@ self.addEventListener('fetch', (event) => {
 
   // Strategy B: Cache-First for Versioned Next.js Static Assets & Fonts & Images
   if (
-    url.pathname.startsWith('/_next/static/') ||
-    url.pathname.startsWith('/icons/') ||
+    url.pathname.includes('/_next/static/') ||
+    url.pathname.includes('/icons/') ||
     request.destination === 'style' ||
     request.destination === 'font' ||
     request.destination === 'image'
@@ -126,7 +142,7 @@ self.addEventListener('fetch', (event) => {
         .catch(() => {
           return caches.match(request).then((cachedPage) => {
             if (cachedPage) return cachedPage;
-            return caches.match('/offline');
+            return caches.match(`${base}/offline`) || caches.match('/offline');
           });
         })
     );
