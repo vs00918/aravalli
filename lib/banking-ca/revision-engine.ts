@@ -29,64 +29,68 @@ export interface RecallPrompt {
 }
 
 /**
- * Deterministic rank scoring function for topic prioritization in revision decks.
+ * Strict Lexicographic Rank Scoring:
+ * Enforces the permanent invariant: P1 > P2 > P3 under all circumstances.
+ * Student weakness and change sensitivity modulate rank within the priority tier only.
  */
 export function calculateTopicRevisionScore(
   topic: CanonicalTopic,
   userRecord?: TopicRevisionRecord | null
 ): { score: number; reasons: string[] } {
-  let score = 0;
   const reasons: string[] = [];
 
-  // 1. Priority Base Weight (Disproportionate exam weighting)
+  // 1. Strict Priority Tier (Guarantees P1 > P2 > P3)
+  let baseTierScore = 0;
   if (topic.priority === 'P1_CRITICAL_DEEP' || topic.priority === 'P1_CRITICAL_MEMORIZE') {
-    score += 10000;
+    baseTierScore = 10000000;
     reasons.push('P1 Master Priority');
   } else if (topic.priority === 'P2_HIGH') {
-    score += 5000;
+    baseTierScore = 1000000;
     reasons.push('P2 High-Yield');
   } else if (topic.priority === 'P3_MODERATE') {
-    score += 1000;
+    baseTierScore = 100000;
     reasons.push('P3 Moderate Factoid');
+  } else {
+    baseTierScore = 10000;
+    reasons.push('P4 Low Yield');
   }
 
-  // 2. Change-Sensitive / Regulatory Draft status boost
+  // 2. Intra-Tier Modulation (Bounded strictly within [0, 9999])
+  let intraTierModifier = 0;
+
+  // Weakness status (AGAIN / HARD)
+  if (userRecord && userRecord.isWeak) {
+    intraTierModifier += 4000;
+    reasons.push(`Marked ${userRecord.lastRating} in previous review`);
+  }
+
+  // Active Change-Sensitive Alert
   if (topic.changeAlert && topic.changeAlert.isChangeSensitive) {
-    score += 3000;
+    intraTierModifier += 2000;
     reasons.push('⚠️ Active Change-Sensitive Alert');
   }
-  if (topic.regulatoryStatus === 'DRAFT' || topic.regulatoryStatus === 'PROPOSAL') {
-    score += 1500;
-    reasons.push(`Regulatory Status: ${topic.regulatoryStatus}`);
-  }
 
-  // 3. User Study State Modulation (if student history exists)
-  if (userRecord) {
-    if (userRecord.isWeak) {
-      score += 4000;
-      reasons.push(`Marked ${userRecord.lastRating} in previous review`);
-    } else if (userRecord.lastRating === 'GOOD') {
-      score += 200;
-    } else if (userRecord.lastRating === 'EASY') {
-      score -= 500; // Deprioritize easily mastered items slightly
-    }
-
-    // Days since last review boost
+  // Unreviewed boost
+  if (!userRecord || userRecord.reviewCount === 0) {
+    intraTierModifier += 1000;
+    reasons.push('Unreviewed');
+  } else {
+    // Recency boost (older than 7 days)
     if (userRecord.lastReviewedAt) {
       const daysSince = Math.floor(
         (Date.now() - new Date(userRecord.lastReviewedAt).getTime()) / (1000 * 60 * 60 * 24)
       );
       if (daysSince >= 7) {
-        score += 800;
+        intraTierModifier += 500;
         reasons.push(`Last revised ${daysSince} days ago`);
+      } else if (userRecord.lastRating === 'EASY') {
+        reasons.push('Mastered (EASY)');
       }
     }
-  } else {
-    score += 1000;
-    reasons.push('Unreviewed');
   }
 
-  return { score, reasons };
+  const finalScore = baseTierScore + intraTierModifier;
+  return { score: finalScore, reasons };
 }
 
 /**
@@ -122,7 +126,7 @@ export function buildRevisionDeck(
     };
   }
 
-  // General Mode: Rank all topics deterministically
+  // General Mode: Rank all topics lexicographically
   const ranked = allTopics.map(topic => {
     const { score, reasons } = calculateTopicRevisionScore(topic, userStateMap[topic.id]);
     return { topic, score, reasons };
@@ -190,7 +194,7 @@ export function generateRecallPrompts(topic: CanonicalTopic): RecallPrompt[] {
     : [topic.title];
 
   return facts.map((fact, index) => {
-    let question = `Key fact for: ${topic.title}`;
+    let question = `Key factual rule for: ${topic.title}`;
     let answer = fact;
 
     // Pattern 1: Key-Value Split (e.g. "Policy Repo Rate: 5.25% (Unchanged)")
@@ -198,7 +202,7 @@ export function generateRecallPrompts(topic: CanonicalTopic): RecallPrompt[] {
       const parts = fact.split(/:\s*(.+)/);
       if (parts.length > 1 && parts[1].trim()) {
         const key = parts[0].replace(/^[\*\-•]\s*/, '').trim();
-        question = `${key}?`;
+        question = `What is the ${key}?`;
         answer = parts[1].trim();
       }
     } 
@@ -207,13 +211,13 @@ export function generateRecallPrompts(topic: CanonicalTopic): RecallPrompt[] {
       const parts = fact.split(/[→\->]\s*(.+)/);
       if (parts.length > 1 && parts[1].trim()) {
         const key = parts[0].replace(/^[\*\-•]\s*/, '').trim();
-        question = `What is the standard/rule for: ${key}?`;
+        question = `What is the requirement/rule for: ${key}?`;
         answer = parts[1].trim();
       }
     }
     // Pattern 3: Threshold / Number recall
     else if (/\b(\d+(\.\d+)?%|₹\s*\d+|[\$]\s*\d+|\d+\s*years?|\d+\s*months?)\b/i.test(fact)) {
-      question = `What is the key number / rule regarding: "${fact.substring(0, 45)}..."?`;
+      question = `What is the key number / threshold regarding: "${fact.length > 60 ? fact.substring(0, 57) + '...' : fact}"?`;
       answer = fact;
     }
 
