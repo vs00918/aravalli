@@ -41,10 +41,10 @@ export default function SearchIndexPage() {
         </h2>
         <div className="flex flex-wrap gap-2 text-xs font-mono">
           <Link href="/topics" className="px-3 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] text-[var(--text-muted)] hover:text-emerald-400 transition-colors">
-            All 67 Topics →
+            All Canonical Topics →
           </Link>
           <Link href="/dashboard" className="px-3 py-1.5 rounded-lg bg-emerald-950/30 hover:bg-emerald-900/40 border border-emerald-800/40 text-emerald-400 transition-colors">
-            7 P1 Master Deck →
+            P1 Master Deck →
           </Link>
           <Link href="/institutions" className="px-3 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] text-[var(--text-muted)] hover:text-emerald-400 transition-colors">
             Institutions →
