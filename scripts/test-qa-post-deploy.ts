@@ -192,8 +192,8 @@ function runPostDeployQaTests() {
     const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
     const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
 
-    assert.strictEqual(p1s.length, 18, 'Must have exactly 18 P1 topics');
-    assert.strictEqual(p2s.length, 62, 'Must have exactly 62 P2 topics');
+    assert.strictEqual(p1s.length, 15, 'Must have exactly 15 P1 topics');
+    assert.strictEqual(p2s.length, 65, 'Must have exactly 65 P2 topics');
     assert.strictEqual(p3s.length, 64, 'Must have exactly 64 P3 topics');
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
