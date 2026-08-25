@@ -168,8 +168,8 @@ export const BankingCaMasterRegistrySchema = z.object({
     totalBatchesIngested: z.number().int().nonnegative()
   }),
   
-  topics: z.record(CanonicalTopicSchema),
-  topicSlugMap: z.record(z.string()),
+  topics: z.record(z.string(), CanonicalTopicSchema),
+  topicSlugMap: z.record(z.string(), z.string()),
   
   indexes: z.object({
     byPriority: z.object({
@@ -179,9 +179,9 @@ export const BankingCaMasterRegistrySchema = z.object({
       P3_MODERATE: z.array(z.string()),
       P4_LOW_YIELD: z.array(z.string())
     }),
-    byCategory: z.record(z.array(z.string())),
-    byInstitution: z.record(z.array(z.string())),
-    byMonth: z.record(z.array(z.string())),
+    byCategory: z.record(z.string(), z.array(z.string())),
+    byInstitution: z.record(z.string(), z.array(z.string())),
+    byMonth: z.record(z.string(), z.array(z.string())),
     changeSensitiveTopicIds: z.array(z.string())
   }),
   

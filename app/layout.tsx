@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Lora, JetBrains_Mono } from "next/font/google";
-import { ThemeProvider } from "@/components/layout/ThemeProvider";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
+import { CaAppShell } from "@/components/ca-layout/CaAppShell";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,9 +23,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mind of Aravalli — A Living Map of Knowledge",
+  title: "Banking CA Mentor — Exam Intelligence & Study OS",
   description:
-    "A living personal encyclopedia that turns scattered information into structured, connected, durable understanding.",
+    "A dedicated, exam-filtered Current Affairs Study OS for SBI PO, IBPS PO, and Regulatory Mains examinations.",
 };
 
 export default function RootLayout({
@@ -41,22 +39,10 @@ export default function RootLayout({
       className={`dark ${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col antialiased selection:bg-emerald-600 selection:text-white bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-200">
-        <ThemeProvider>
-          {/* Subtle Topographic Background Texture */}
-          <div className="fixed inset-0 pointer-events-none z-[-1] opacity-[0.03] dark:opacity-[0.04] bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:24px_24px]" />
-
-          {/* Global Header */}
-          <Header />
-
-          {/* Main Reading Canvas */}
-          <main className="flex-1 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-            {children}
-          </main>
-
-          {/* Global Footer */}
-          <Footer />
-        </ThemeProvider>
+      <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased selection:bg-emerald-600 selection:text-white">
+        <CaAppShell>
+          {children}
+        </CaAppShell>
       </body>
     </html>
   );

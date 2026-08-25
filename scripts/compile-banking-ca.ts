@@ -135,7 +135,7 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
   const validationErrors: string[] = [];
 
   if (!parseResult.success) {
-    for (const err of parseResult.error.errors) {
+    for (const err of parseResult.error.issues) {
       validationErrors.push(`[${err.path.join('.')}] ${err.message}`);
     }
   }

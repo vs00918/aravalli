@@ -170,9 +170,9 @@ function runTests() {
       `Compiled P1 minutes (${registry.summary.activeP1RevisionMinutes}) must match canonical source P1 minutes (${expectedP1Minutes})`
     );
 
-    for (const slug of expectedP1Slugs) {
+    Array.from(expectedP1Slugs).forEach(slug => {
       assert.ok(compiledP1Slugs.has(slug), `P1 topic '${slug}' from canonical source must exist in compiled P1 registry index`);
-    }
+    });
   });
 
   console.log('\n────────────────────────────────────────────────────────');
