@@ -1,927 +1,108 @@
 {
-  "meta": {
-    "title": "Mind of Aravalli",
-    "tagline": "First-Principles Knowledge Tree & Epistemic Laboratory",
-    "totalNodes": 49,
-    "domains": [
-      "Energy Systems & Electrification",
-      "Macro-Economics & AI Infrastructure",
-      "Evolutionary & Cellular Biology",
-      "Physics & Thermodynamics of Life"
-    ],
-    "lastUpdated": "2026-08-24T18:16:27.127Z"
-  },
+  "generatedAt": "2026-08-25T01:49:58.371Z",
+  "totalDomains": 5,
   "nodes": [
     {
-      "id": "allometric-biomechanics-reynolds-numbers-plastrons",
-      "title": "Allometric Biomechanics: Reynolds Numbers, Surface Tension & Plastron Respiration",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Biological evolution engineered functional nanotechnology—superhydrophobic hairs, micro-grooved hydrophobic tarsal claws, and bristled rowing wings—hundreds of millions of years before human physics formulated the Navier-Stokes equations and fluid mechanics.",
-      "path": "knowledge-tree/branches/allometric-biomechanics-reynolds-numbers-plastrons.md",
-      "wordCount": 317,
-      "readTime": "2 min read",
-      "connections": [
-        "square-cube-law-and-dimensional-scaling-invariants",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "physical-regimes-across-scales-viscosity-to-gravity",
-        "kurzgesagt-size-square-cube-law-elephant"
-      ]
+      "id": "01-physics-quantum-and-spacetime",
+      "title": "Physics, Quantum Mechanics & The Fabric of Spacetime",
+      "tier": "domain",
+      "tierLabel": "Master Knowledge Domain",
+      "icon": "🌌",
+      "domain": "Physics & Quantum Spacetime",
+      "summary": "Reality at its most fundamental level is not a collection of isolated solid objects, but an interconnected tapestry of quantum fields, probability amplitudes, and spacetime geometry. From the femtometer scale of atomic nuclei to the event horizons of evaporating black holes, the universe is governed by strictly conserved information, dimensional scaling invariants, and holographic dualities.",
+      "path": "knowledge-tree/domains/01-physics-quantum-and-spacetime.md",
+      "wordCount": 1572,
+      "readTime": "8 min read",
+      "sections": [
+        "1. Executive Synthesis & Architectural Map",
+        "2. The Atomic Scale, Standard Model & The Illusion of Solidity",
+        "3. Degenerate Matter, Extreme Cosmic Densities & Indistinguishability",
+        "4. Black Hole Thermodynamics, Hawking Radiation & The Information Paradox",
+        "5. Bekenstein Entropy & The Holographic Principle",
+        "6. Synthesized Media Crucibles in this Domain"
+      ],
+      "connections": []
     },
     {
-      "id": "complex-adaptive-systems-and-cellular-automata",
-      "title": "Complex Adaptive Systems & Cellular Automata",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Complex adaptive systems exist at the Edge of Chaos—a delicate boundary between rigid crystalline order and turbulent entropy—where elementary local computational rules generate Turing-complete universal computation, self-reproduction, and open-ended evolution.",
-      "path": "knowledge-tree/branches/complex-adaptive-systems-and-cellular-automata.md",
-      "wordCount": 304,
-      "readTime": "2 min read",
-      "connections": [
-        "emergence-invariants-and-local-rule-networks",
-        "quantum-unitarity-and-information-conservation",
-        "decentralized-superorganisms-and-swarm-intelligence",
-        "three-super-cycles-energy-manufacturing-ai",
-        "kurzgesagt-emergence-how-stupid-things-become-smart"
-      ]
+      "id": "02-energy-electrification-and-materials",
+      "title": "Energy Storage, Electrification & Material Super-Cycles",
+      "tier": "domain",
+      "tierLabel": "Master Knowledge Domain",
+      "icon": "⚡",
+      "domain": "Energy & Electrification",
+      "summary": "The master bottleneck of modern civilization is the conversion of raw, intermittent primary energetic flows (solar, wind, nuclear) into dispatchable chemical potential wells. The global transition to abundant clean power is governed by the electrochemical quadrilemma of energy density, cycle life, thermal safety, and raw-material sovereignty, accelerating three converging industrial super-cycles: Abundant Energy, Precision Automated Manufacturing, and Exponential Compute.",
+      "path": "knowledge-tree/domains/02-energy-electrification-and-materials.md",
+      "wordCount": 1031,
+      "readTime": "6 min read",
+      "sections": [
+        "1. Executive Synthesis & Systemic Overview",
+        "2. Electrochemical Thermodynamics & First-Principles Invariants",
+        "3. The Battery Optimization Quadrilemma & Thermal Runaway Dynamics",
+        "4. Comparative Taxonomy of Energy Storage Chemistries",
+        "5. Long-Duration Energy Storage (LDES), V2G Buffers & The 3 Super-Cycles",
+        "6. Synthesized Media Crucibles in this Domain"
+      ],
+      "connections": []
     },
     {
-      "id": "crispr-cas9-gene-drives-and-vector-parasitology",
-      "title": "CRISPR-Cas9 Gene Drives & Vector-Borne Parasitology",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "Vector-borne infectious diseases operate via obligate tripartite ecological dependencies: Host $\\leftrightarrow$ Parasite $\\leftrightarrow$ Insect Vector. Intercepting the vector's capacity to host the parasite via molecular immunization eliminates human transmission without requiring the chemical poisoning of entire ecosystems.",
-      "path": "knowledge-tree/branches/crispr-cas9-gene-drives-and-vector-parasitology.md",
-      "wordCount": 333,
-      "readTime": "2 min read",
-      "connections": [
-        "mendelian-inheritance-and-super-mendelian-gene-drives",
-        "emergence-reductionism-and-informational-biology",
-        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-        "kurzgesagt-crispr-gene-drives-malaria"
-      ]
+      "id": "03-biology-genetics-and-synthetic-life",
+      "title": "Evolutionary Biology, Genetics & Synthetic Biospheres",
+      "tier": "domain",
+      "tierLabel": "Master Knowledge Domain",
+      "icon": "🧬",
+      "domain": "Biology & Synthetic Life",
+      "summary": "Biological life is an open, non-equilibrium thermodynamic system that sustains localized internal order by actively pumping out entropy into its environment. At the molecular scale, living systems operate as informational software (nucleic acids) executed by catalytic protein hardware. Modern synthetic biology—spanning CRISPR super-Mendelian gene drives to transgenic crop biofortification—transforms humanity from passive subjects of natural selection into active architects of the biosphere.",
+      "path": "knowledge-tree/domains/03-biology-genetics-and-synthetic-life.md",
+      "wordCount": 1110,
+      "readTime": "6 min read",
+      "sections": [
+        "1. Executive Synthesis & Conceptual Framework",
+        "2. The Physical Definition of Life & Schrödinger's Negentropy",
+        "3. CRISPR-Cas9 Super-Mendelian Gene Drives & Vector Parasitology",
+        "4. Agricultural Bioengineering, Selective Toxicity & Land Sparing",
+        "5. Synthesized Media Crucibles in this Domain"
+      ],
+      "connections": []
     },
     {
-      "id": "crop-bioengineering-bt-endotoxins-and-biofortification",
-      "title": "Crop Bioengineering: Bt Endotoxins, Viral Immunization & Biofortification",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Evolutionary & Cellular Biology",
-      "summary": "Applied crop biotechnology operates across three distinct functional paradigms: Endogenous Pest Defense (Bt endotoxins), Pathogen Immunization (viral coat protein expression), and Nutritional Biofortification (Golden Rice / Nitrogen Fixation), replacing external chemical inputs with self-contained biological programs.",
-      "path": "knowledge-tree/branches/crop-bioengineering-bt-endotoxins-and-biofortification.md",
-      "wordCount": 290,
-      "readTime": "2 min read",
-      "connections": [
-        "agricultural-energetics-and-land-sparing-invariants",
-        "mendelian-inheritance-and-super-mendelian-gene-drives",
-        "selective-toxicity-and-appeal-to-nature-fallacy",
-        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-        "kurzgesagt-gmo-food-genetic-engineering"
-      ]
+      "id": "04-complex-systems-scale-and-holobionts",
+      "title": "Complex Adaptive Systems, Dimensional Scaling & The Holobiont",
+      "tier": "domain",
+      "tierLabel": "Master Knowledge Domain",
+      "icon": "🕸️",
+      "domain": "Complex Systems & Holobionts",
+      "summary": "Nature organizes across scales through non-linear emergence and dimensional scaling laws. Macroscopic intelligence and functional harmony arise spontaneously from simple decentralized rules without a central executive. At the same time, the physical forces governing an organism—from the viscous, surface-tension-dominated world of microscopic wasps to the inertia-dominated realm of elephants, and the microbial ecosystem within our own guts—are strictly dictated by mathematical scaling invariants.",
+      "path": "knowledge-tree/domains/04-complex-systems-scale-and-holobionts.md",
+      "wordCount": 1133,
+      "readTime": "6 min read",
+      "sections": [
+        "1. Executive Synthesis & Architectural Hierarchy",
+        "2. The Axiom of Emergence & Decentralized Swarm Intelligence",
+        "3. The Square-Cube Law & Allometric Dimensional Scaling",
+        "4. Holobiont Theory, The Human Metagenome & The Gut-Brain Axis",
+        "5. Synthesized Media Crucibles in this Domain"
+      ],
+      "connections": []
     },
     {
-      "id": "cryptographic-asymmetry-and-systemic-backdoors",
-      "title": "Cryptographic Asymmetry & The Backdoor Fallacy",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "In pure mathematics and computer science, there is no such concept as a \"golden key\" or a \"law-enforcement-only backdoor.\" Weakening the cryptographic architecture of consumer hardware or communication protocols introduces an intrinsic vulnerability that is mathematically accessible to all adversaries.",
-      "path": "knowledge-tree/branches/cryptographic-asymmetry-and-systemic-backdoors.md",
-      "wordCount": 322,
-      "readTime": "2 min read",
-      "connections": [
-        "signal-detection-theory-and-haystack-fallacy",
-        "atomic-hypothesis-quantum-fields-scale",
-        "surveillance-function-creep-and-ratchet-effect",
-        "three-super-cycles-energy-manufacturing-ai",
-        "kurzgesagt-surveillance-terrorism-civil-liberties"
-      ]
-    },
-    {
-      "id": "definition-of-life-and-artificial-life",
-      "title": "Epistemology of Life: Carbon Chauvinism, Definitions & Artificial Life",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Epistemic Invariant: \"Life\" is a fuzzy set, not a binary boolean. As human technology approaches synthetic biology and autonomous artificial intelligence, binary definitions of life collapse into a continuous spectrum of system complexity, autonomy, and error-correcting information transmission.",
-      "path": "knowledge-tree/branches/definition-of-life-and-artificial-life.md",
-      "wordCount": 417,
-      "readTime": "3 min read",
-      "connections": [
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "electrochemical-energy-storage-axioms",
-        "emergence-reductionism-and-informational-biology",
-        "kurzgesagt-schrodinger-what-is-life-death"
-      ]
-    },
-    {
-      "id": "development-economics-tfr-and-peak-humanity",
-      "title": "Development Economics: TFR Compression, Leapfrogging & Peak Humanity",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "The Demographic Transition is not unique to Western culture; it is an invariant law of economic development. Developing nations traverse the transition orders of magnitude faster due to global technology, medical knowledge transfer, and educational diffusion.",
-      "path": "knowledge-tree/branches/development-economics-tfr-and-peak-humanity.md",
-      "wordCount": 330,
-      "readTime": "2 min read",
-      "connections": [
-        "demographic-transition-and-logistic-population-dynamics",
-        "three-super-cycles-energy-manufacturing-ai",
-        "demographic-momentum-and-fertility-transition",
-        "kurzgesagt-overpopulation-demographic-transition"
-      ]
-    },
-    {
-      "id": "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
-      "title": "Comparative Battery Chemistries: LFP vs. Sodium-Ion vs. Nickel-Hydrogen vs. Solid-State",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Different energy storage chemistries occupy distinct ecological niches. No single chemistry wins across all sectors; LFP dominates long-range EVs, Sodium-ion dominates low-cost urban mobility & short-duration ESS, and Nickel-Hydrogen dominates 30-year stationary grid and data center infrastructure.",
-      "path": "knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md",
-      "wordCount": 565,
-      "readTime": "3 min read",
-      "connections": [
-        "electrochemical-energy-storage-axioms",
-        "battery-tradeoff-trilemma-and-thermal-runaway",
-        "three-super-cycles-energy-manufacturing-ai",
-        "podcast-enervenue-hina-nikhil-kamath-batteries"
-      ]
-    },
-    {
-      "id": "holographic-principle-and-quantum-gravity",
-      "title": "The Holographic Principle, AdS/CFT Duality & Quantum Gravity",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "The three-dimensional bulk physics of a gravitational spacetime (including black holes and possibly our observable universe) can be fully encoded without loss of information on its two-dimensional spatial boundary—establishing that quantum entanglement is the fundamental constituent generating the emergent geometry of spacetime.",
-      "path": "knowledge-tree/branches/holographic-principle-and-quantum-gravity.md",
-      "wordCount": 315,
-      "readTime": "2 min read",
-      "connections": [
-        "quantum-unitarity-and-information-conservation",
-        "atomic-hypothesis-quantum-fields-scale",
-        "black-hole-information-paradox-and-bekenstein-entropy",
-        "emergence-reductionism-and-informational-biology",
-        "kurzgesagt-black-hole-information-paradox"
-      ]
-    },
-    {
-      "id": "microbial-ecology-dysbiosis-and-fecal-transplants",
-      "title": "Microbial Ecology: Dysbiosis, C. Difficile & Fecal Microbiota Transplants (FMT)",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "The human gut is a competitive climax ecological community. When broad-spectrum antibiotic intervention annihilates commensal diversity, opportunistic pathobionts fill the niche. Restoring ecological diversity via Fecal Microbiota Transplantation (FMT) achieves clinical remission rates exceeding $>90\\%$, outperforming single-molecule pharmaceuticals.",
-      "path": "knowledge-tree/branches/microbial-ecology-dysbiosis-and-fecal-transplants.md",
-      "wordCount": 290,
-      "readTime": "2 min read",
-      "connections": [
-        "holobiont-theory-and-symbiogenesis-invariants",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "gut-brain-axis-neurochemistry-and-feedback-cravings",
-        "emergence-reductionism-and-informational-biology",
-        "kurzgesagt-microbiome-gut-brain-axis"
-      ]
-    },
-    {
-      "id": "standard-model-and-particle-physics-taxonomy",
-      "title": "Standard Model of Particle Physics: The Taxonomy of Fundamental Matter",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "The visible complexity of the cosmos (all 118 elements of the periodic table, galaxies, and living organisms) is generated by the permutation of only three primary stable fundamental entities: Up Quarks, Down Quarks, and Electrons, bound by the Four Fundamental Interactions.",
-      "path": "knowledge-tree/branches/standard-model-and-particle-physics-taxonomy.md",
-      "wordCount": 376,
-      "readTime": "2 min read",
-      "connections": [
-        "atomic-hypothesis-quantum-fields-scale",
-        "electrochemical-energy-storage-axioms",
-        "degenerate-matter-and-extreme-cosmic-density",
-        "kurzgesagt-quantum-atomic-scale-feynman"
-      ]
-    },
-    {
-      "id": "universal-basic-income-architectures-and-automation",
-      "title": "Universal Basic Income Architectures, Georgism & Automation Levies",
-      "tier": "branches",
-      "tierLabel": "Branches: Taxonomies",
-      "icon": "🌿",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Financing an unconditional social floor does not necessitate currency hyperinflation or punitive corporate income taxes; non-distortive funding mechanisms exist via Land Value Taxes (Georgism), Carbon Dividends, Sovereign Resource Funds (Alaska Model), and AI/Compute Automation Dividends.",
-      "path": "knowledge-tree/branches/universal-basic-income-architectures-and-automation.md",
-      "wordCount": 318,
-      "readTime": "2 min read",
-      "connections": [
-        "marginal-propensity-to-consume-and-poverty-traps",
-        "agricultural-energetics-and-land-sparing-invariants",
-        "unconditional-floors-vs-welfare-cliffs",
-        "three-super-cycles-energy-manufacturing-ai",
-        "kurzgesagt-universal-basic-income-ubi"
-      ]
-    },
-    {
-      "id": "kurzgesagt-black-hole-information-paradox",
-      "title": "Why Black Holes Could Delete The Universe — Kurzgesagt (The Information Paradox)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Information—the distinct quantum arrangement of matter that differentiates a diamond from a lump of coal—is mathematically indestructible under quantum unitarity. Black holes threaten this fundamental law through Hawking evaporation. The resolution—the Holographic Principle—reveals that black holes store infalling matter as 2D boundary pixels at the Planck scale, implying that our 3D cosmos may itself be a holographic projection.",
-      "path": "knowledge-tree/leaves/kurzgesagt-black-hole-information-paradox.md",
-      "wordCount": 458,
-      "readTime": "3 min read",
-      "connections": [
-        "quantum-unitarity-and-information-conservation",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "atomic-hypothesis-quantum-fields-scale",
-        "black-hole-information-paradox-and-bekenstein-entropy",
-        "emergence-reductionism-and-informational-biology",
-        "holographic-principle-and-quantum-gravity",
-        "standard-model-and-particle-physics-taxonomy"
-      ]
-    },
-    {
-      "id": "kurzgesagt-crispr-gene-drives-malaria",
-      "title": "Genetic Engineering & Diseases — Kurzgesagt (Gene Drives & Malaria)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Malaria (*Plasmodium*) is historically the deadliest parasite in human history, killing nearly 500,000 people annually (primarily children under five). CRISPR-Cas9 super-Mendelian gene drives provide the first viable technology to permanently immunize or suppress wild mosquito vectors, transforming genetic engineering from localized lab therapy to biosphere-scale public health infrastructure.",
-      "path": "knowledge-tree/leaves/kurzgesagt-crispr-gene-drives-malaria.md",
-      "wordCount": 432,
-      "readTime": "3 min read",
-      "connections": [
-        "mendelian-inheritance-and-super-mendelian-gene-drives",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "atomic-hypothesis-quantum-fields-scale",
-        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-        "emergence-reductionism-and-informational-biology",
-        "crispr-cas9-gene-drives-and-vector-parasitology",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-emergence-how-stupid-things-become-smart",
-      "title": "Emergence — Kurzgesagt (How Stupid Things Become Smart Together)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Individual components in nature—whether water molecules, cardiomyocytes, foraging ants, or human neurons—possess neither global foresight nor central leadership. Yet, governed by elementary local interaction rules, their collective assembly generates liquid fluidity, rhythmic heartbeats, superorganism agriculture, and conscious intelligence.",
-      "path": "knowledge-tree/leaves/kurzgesagt-emergence-how-stupid-things-become-smart.md",
-      "wordCount": 422,
-      "readTime": "3 min read",
-      "connections": [
-        "emergence-invariants-and-local-rule-networks",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "holobiont-theory-and-symbiogenesis-invariants",
-        "decentralized-superorganisms-and-swarm-intelligence",
-        "emergence-reductionism-and-informational-biology",
-        "complex-adaptive-systems-and-cellular-automata",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-gmo-food-genetic-engineering",
-      "title": "Are GMOs Good or Bad? — Kurzgesagt (Genetic Engineering & Our Food)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Evolutionary & Cellular Biology",
-      "summary": "The scientific debate over GMO safety is settled: three decades of global empirical research demonstrate that bioengineered crops are as safe to consume as non-GMOs. The true ecological imperative of agricultural biotechnology is Intensification (Land Sparing): maximizing food yields on existing farmland to feed 10 billion people while halting deforestation and preserving Earth's wild biomes.",
-      "path": "knowledge-tree/leaves/kurzgesagt-gmo-food-genetic-engineering.md",
-      "wordCount": 457,
-      "readTime": "3 min read",
-      "connections": [
-        "agricultural-energetics-and-land-sparing-invariants",
-        "mendelian-inheritance-and-super-mendelian-gene-drives",
-        "demographic-transition-and-logistic-population-dynamics",
-        "selective-toxicity-and-appeal-to-nature-fallacy",
-        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-        "crop-bioengineering-bt-endotoxins-and-biofortification",
-        "development-economics-tfr-and-peak-humanity"
-      ]
-    },
-    {
-      "id": "kurzgesagt-microbiome-gut-brain-axis",
-      "title": "How Bacteria Rule Over Your Body — Kurzgesagt (The Microbiome)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "The human body is a multi-species commonwealth inhabited by over 38 trillion bacterial symbionts. The microbiome governs immune education, synthesizes $90\\%$ of bodily serotonin, communicates directly with the brain via the vagus nerve, and drives dietary craving feedback loops—demonstrating that mental health, metabolic vitality, and immune integrity are emergent properties of internal microbial ecology.",
-      "path": "knowledge-tree/leaves/kurzgesagt-microbiome-gut-brain-axis.md",
-      "wordCount": 466,
-      "readTime": "3 min read",
-      "connections": [
-        "holobiont-theory-and-symbiogenesis-invariants",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "emergence-reductionism-and-informational-biology",
-        "gut-brain-axis-neurochemistry-and-feedback-cravings",
-        "selective-toxicity-and-appeal-to-nature-fallacy",
-        "microbial-ecology-dysbiosis-and-fecal-transplants",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-overpopulation-demographic-transition",
-      "title": "Overpopulation — Kurzgesagt (The Human Explosion Explained)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "The global population explosion is not an apocalyptic runaway disaster, but a temporary four-stage demographic transition. Because global fertility rates have plummeted toward replacement level ($2.1$), world population growth is rapidly decelerating, guaranteeing that humanity will plateau at $\\approx 10-11\\text{ billion}$ and the 12th billion human will never be born.",
-      "path": "knowledge-tree/leaves/kurzgesagt-overpopulation-demographic-transition.md",
-      "wordCount": 433,
-      "readTime": "3 min read",
-      "connections": [
-        "demographic-transition-and-logistic-population-dynamics",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "signal-detection-theory-and-haystack-fallacy",
-        "demographic-momentum-and-fertility-transition",
-        "three-super-cycles-energy-manufacturing-ai",
-        "development-economics-tfr-and-peak-humanity",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-quantum-atomic-scale-feynman",
-      "title": "How Small Is An Atom? — Kurzgesagt (Quantum Scale & Particle Mechanics)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Atoms are not solid building blocks; they are energetic probability vortices composed of $99.999999999999\\%$ quantum vacuum fluctuations. The entirety of human physical mass is concentrated in sub-femtometer nuclei that could collectively fit within a single teaspoon.",
-      "path": "knowledge-tree/leaves/kurzgesagt-quantum-atomic-scale-feynman.md",
-      "wordCount": 510,
-      "readTime": "3 min read",
-      "connections": [
-        "atomic-hypothesis-quantum-fields-scale",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "electrochemical-energy-storage-axioms",
-        "degenerate-matter-and-extreme-cosmic-density",
-        "emergence-reductionism-and-informational-biology",
-        "standard-model-and-particle-physics-taxonomy",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-schrodinger-what-is-life-death",
-      "title": "What Is Life? Is Death Real? — Kurzgesagt (Schrödinger & Emergence)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Every constituent part of a living cell is dead inanimate matter. Life is not a special physical ingredient (vitalism is dead); it is a temporary, self-organizing thermodynamic storm fighting entropy through informational replication. Death is the cessation of this pattern, returning borrowed atoms to cosmic equilibrium.",
-      "path": "knowledge-tree/leaves/kurzgesagt-schrodinger-what-is-life-death.md",
-      "wordCount": 629,
-      "readTime": "4 min read",
-      "connections": [
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "electrochemical-energy-storage-axioms",
-        "emergence-reductionism-and-informational-biology",
-        "three-super-cycles-energy-manufacturing-ai",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-size-square-cube-law-elephant",
-      "title": "What Happens If We Throw an Elephant From a Skyscraper? — Kurzgesagt (Life & Size 1)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Physical size is the supreme architect of biological morphology and ecological experience. Because surface area scales quadratically ($L^2$) while mass scales cubically ($L^3$), a falling mouse walks away unscathed, a dog is broken, and an elephant detonates on impact—demonstrating that gravity, surface tension, and viscosity operate in completely separate regimes across the seven orders of magnitude of life.",
-      "path": "knowledge-tree/leaves/kurzgesagt-size-square-cube-law-elephant.md",
-      "wordCount": 517,
-      "readTime": "3 min read",
-      "connections": [
-        "square-cube-law-and-dimensional-scaling-invariants",
-        "electrochemical-energy-storage-axioms",
-        "atomic-hypothesis-quantum-fields-scale",
-        "physical-regimes-across-scales-viscosity-to-gravity",
-        "battery-tradeoff-trilemma-and-thermal-runaway",
-        "allometric-biomechanics-reynolds-numbers-plastrons",
-        "standard-model-and-particle-physics-taxonomy"
-      ]
-    },
-    {
-      "id": "kurzgesagt-surveillance-terrorism-civil-liberties",
-      "title": "Safe and Sorry — Kurzgesagt (Terrorism, Mass Surveillance & Civil Liberties)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Mass surveillance operates on a flawed mathematical premise: collecting more data from innocent citizens drowns intelligence analysts in false positives while failing to stop rare catastrophic attacks. Sacrificing fundamental privacy rights under the banner of security erodes democratic institutions without increasing physical safety.",
-      "path": "knowledge-tree/leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md",
-      "wordCount": 466,
-      "readTime": "3 min read",
-      "connections": [
-        "signal-detection-theory-and-haystack-fallacy",
-        "atomic-hypothesis-quantum-fields-scale",
-        "surveillance-function-creep-and-ratchet-effect",
-        "three-super-cycles-energy-manufacturing-ai",
-        "cryptographic-asymmetry-and-systemic-backdoors",
-        "definition-of-life-and-artificial-life"
-      ]
-    },
-    {
-      "id": "kurzgesagt-universal-basic-income-ubi",
-      "title": "Universal Basic Income Explained — Kurzgesagt (UBI & The Future of Work)",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Universal Basic Income is not a utopian fantasy or a vector for mass laziness; it is a structural mechanism to eliminate bureaucratic welfare cliffs, restore economic bargaining power to workers, and stimulate aggregate demand ($+\\$1.21$ GDP per $\\$1.00$ low-income transfer) as automated manufacturing and AI accelerate technological transformation.",
-      "path": "knowledge-tree/leaves/kurzgesagt-universal-basic-income-ubi.md",
-      "wordCount": 444,
-      "readTime": "3 min read",
-      "connections": [
-        "marginal-propensity-to-consume-and-poverty-traps",
-        "demographic-transition-and-logistic-population-dynamics",
-        "three-super-cycles-energy-manufacturing-ai",
-        "unconditional-floors-vs-welfare-cliffs",
-        "decentralized-superorganisms-and-swarm-intelligence",
-        "universal-basic-income-architectures-and-automation",
-        "development-economics-tfr-and-peak-humanity"
-      ]
-    },
-    {
-      "id": "podcast-enervenue-hina-nikhil-kamath-batteries",
-      "title": "WTF are Batteries? — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) with Nikhil Kamath",
-      "tier": "leaves",
-      "tierLabel": "Leaves: Lived Experience",
-      "icon": "🍃",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Energy generation is a solved cost problem (solar/wind marginal cost approaching zero); the entire modern energy transition bottleneck is fungibility, transport, and non-combustible stationary storage. Surviving the post-globalized era requires decoupling from rare-earth choke points and deploying chemistry-specific solutions rather than a one-size-fits-all battery.",
-      "path": "knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md",
-      "wordCount": 864,
+      "id": "05-political-economy-technology-and-society",
+      "title": "Political Economy, Information Security & Human Flourishing",
+      "tier": "domain",
+      "tierLabel": "Master Knowledge Domain",
+      "icon": "🏛️",
+      "domain": "Political Economy & Society",
+      "summary": "Modern civilization is a multi-layered complex system governed by demographic transitions, mathematical information security, and macroeconomic resource distribution. Ensuring long-term human flourishing requires understanding the systemic limits of population growth, the mathematical vulnerabilities of mass state surveillance, and the macroeconomic necessity of unconditional economic floors (UBI) as AI automation accelerates.",
+      "path": "knowledge-tree/domains/05-political-economy-technology-and-society.md",
+      "wordCount": 996,
       "readTime": "5 min read",
-      "connections": [
-        "electrochemical-energy-storage-axioms",
-        "battery-tradeoff-trilemma-and-thermal-runaway",
-        "three-super-cycles-energy-manufacturing-ai",
-        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen"
-      ]
-    },
-    {
-      "id": "agricultural-energetics-and-land-sparing-invariants",
-      "title": "Agricultural Energetics & The Land-Sparing Invariant",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Energy Systems & Electrification",
-      "summary": "To feed expanding human populations without driving global biosphere collapse, humanity must maximize caloric and nutrient yield per unit area ($E_{\\text{out}} / \\text{Area}$). Agricultural Intensification (Land Sparing) preserves wild primary biomes and carbon sinks, whereas low-yield Extensification (Land Sharing) consumes wilderness for agricultural clearance.",
-      "path": "knowledge-tree/roots/agricultural-energetics-and-land-sparing-invariants.md",
-      "wordCount": 286,
-      "readTime": "2 min read",
-      "connections": [
-        "selective-toxicity-and-appeal-to-nature-fallacy",
-        "demographic-momentum-and-fertility-transition",
-        "crop-bioengineering-bt-endotoxins-and-biofortification",
-        "kurzgesagt-gmo-food-genetic-engineering"
-      ]
-    },
-    {
-      "id": "atomic-hypothesis-quantum-fields-scale",
-      "title": "The Atomic Hypothesis & Quantum Field Foundations",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "All physical matter in the universe is composed of discrete, indivisible quantum excitations (atoms and subatomic particles) that attract across short distances through fundamental gauge fields and resist interpenetration due to Pauli Exclusion.",
-      "path": "knowledge-tree/roots/atomic-hypothesis-quantum-fields-scale.md",
-      "wordCount": 356,
-      "readTime": "2 min read",
-      "connections": [
-        "degenerate-matter-and-extreme-cosmic-density",
-        "standard-model-and-particle-physics-taxonomy",
-        "kurzgesagt-quantum-atomic-scale-feynman"
-      ]
-    },
-    {
-      "id": "demographic-transition-and-logistic-population-dynamics",
-      "title": "Demographic Transition Invariants & Logistic Population Dynamics",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "Human population growth does not follow unrestricted Malthusian exponential divergence ($N(t) = N_0 e^{rt}$); it is governed by an endogenous 4-Stage Demographic Transition that mathematically converges to a stable logistic equilibrium ($TFR \\approx 2.1$) as child mortality declines and human capital investment rises.",
-      "path": "knowledge-tree/roots/demographic-transition-and-logistic-population-dynamics.md",
-      "wordCount": 315,
-      "readTime": "2 min read",
-      "connections": [
-        "demographic-momentum-and-fertility-transition",
-        "development-economics-tfr-and-peak-humanity",
-        "kurzgesagt-overpopulation-demographic-transition"
-      ]
-    },
-    {
-      "id": "electrochemical-energy-storage-axioms",
-      "title": "Electrochemical Energy Storage — First Principles & Axiomatic Foundations",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Energy Systems & Electrification",
-      "summary": "A battery does not generate energy; it reversibly converts electrical potential into chemical potential by separating ions through an electrolyte while routing electrons through an external circuit.",
-      "path": "knowledge-tree/roots/electrochemical-energy-storage-axioms.md",
-      "wordCount": 392,
-      "readTime": "2 min read",
-      "connections": [
-        "battery-tradeoff-trilemma-and-thermal-runaway",
-        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
-        "podcast-enervenue-hina-nikhil-kamath-batteries"
-      ]
-    },
-    {
-      "id": "emergence-invariants-and-local-rule-networks",
-      "title": "Emergence Invariants, Stigmergy & Local Rule Networks",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Evolutionary & Cellular Biology",
-      "summary": "Macroscopic intelligence, self-organization, and novel physical properties are not programmed top-down; they emerge spontaneously from the non-linear local interactions of simple agents following decentralized behavioral heuristics (\"More is Different\").",
-      "path": "knowledge-tree/roots/emergence-invariants-and-local-rule-networks.md",
-      "wordCount": 287,
-      "readTime": "2 min read",
-      "connections": [
-        "emergence-reductionism-and-informational-biology",
-        "decentralized-superorganisms-and-swarm-intelligence",
-        "complex-adaptive-systems-and-cellular-automata",
-        "kurzgesagt-emergence-how-stupid-things-become-smart"
-      ]
-    },
-    {
-      "id": "holobiont-theory-and-symbiogenesis-invariants",
-      "title": "Holobiont Theory, Symbiogenesis & The Human Metagenome",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Evolutionary & Cellular Biology",
-      "summary": "A multicellular organism is not an autonomous genetic individual, but a Holobiont—an integrated meta-organism composed of a macroscopic eukaryotic host and trillions of symbiotic, co-evolved microscopic organisms ($>3.8 \\times 10^{13}$ bacteria). Over $99\\%$ of the distinct functional genetic repertoire expressed within a human body is encoded by its microbial symbionts.",
-      "path": "knowledge-tree/roots/holobiont-theory-and-symbiogenesis-invariants.md",
-      "wordCount": 278,
-      "readTime": "2 min read",
-      "connections": [
-        "gut-brain-axis-neurochemistry-and-feedback-cravings",
-        "emergence-reductionism-and-informational-biology",
-        "microbial-ecology-dysbiosis-and-fecal-transplants",
-        "kurzgesagt-microbiome-gut-brain-axis"
-      ]
-    },
-    {
-      "id": "marginal-propensity-to-consume-and-poverty-traps",
-      "title": "Marginal Propensity to Consume & The Poverty Trap Invariant",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Energy Systems & Electrification",
-      "summary": "In low-income deciles, the Marginal Propensity to Consume approaches unity ($\\text{MPC} \\approx 1.0$), maximizing the Keynesian multiplier on direct cash transfers ($\\Delta Y = \\frac{\\Delta G}{1 - \\text{MPC}}$). Conversely, means-tested conditional welfare creates Welfare Cliffs where Effective Marginal Tax Rates exceed $100\\%$ ($\\text{EMTR} > 1.0$), punishing labor entry and trapping recipients in poverty.",
-      "path": "knowledge-tree/roots/marginal-propensity-to-consume-and-poverty-traps.md",
-      "wordCount": 346,
-      "readTime": "2 min read",
-      "connections": [
-        "unconditional-floors-vs-welfare-cliffs",
-        "three-super-cycles-energy-manufacturing-ai",
-        "universal-basic-income-architectures-and-automation",
-        "kurzgesagt-universal-basic-income-ubi"
-      ]
-    },
-    {
-      "id": "mendelian-inheritance-and-super-mendelian-gene-drives",
-      "title": "Mendelian Inheritance vs. Super-Mendelian Gene Drive Mechanics",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "Under standard Mendelian inheritance, sexually reproducing diploid organisms transmit any specific heterozygous allele to exactly $50\\%$ of their progeny. A CRISPR Gene Drive bypasses Mendelian segregation by converting heterozygous alleles into homozygous copies in the germline, achieving $>99\\%$ inheritance and forcing an engineered trait through an entire wild population.",
-      "path": "knowledge-tree/roots/mendelian-inheritance-and-super-mendelian-gene-drives.md",
-      "wordCount": 281,
-      "readTime": "2 min read",
-      "connections": [
-        "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-        "emergence-reductionism-and-informational-biology",
-        "crispr-cas9-gene-drives-and-vector-parasitology",
-        "kurzgesagt-crispr-gene-drives-malaria"
-      ]
-    },
-    {
-      "id": "quantum-unitarity-and-information-conservation",
-      "title": "Quantum Unitarity & Information Conservation Invariants",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "In quantum mechanics, physical information is strictly non-destructible. All closed quantum systems evolve via a unitary time-evolution operator ($U^\\dagger U = I$), guaranteeing that pure quantum states evolve exclusively into pure states, total probability is conserved ($\\sum P_i = 1$), and the complete history of any system is theoretically reconstructible from its wave function.",
-      "path": "knowledge-tree/roots/quantum-unitarity-and-information-conservation.md",
-      "wordCount": 312,
-      "readTime": "2 min read",
-      "connections": [
-        "black-hole-information-paradox-and-bekenstein-entropy",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "holographic-principle-and-quantum-gravity",
-        "kurzgesagt-black-hole-information-paradox"
-      ]
-    },
-    {
-      "id": "signal-detection-theory-and-haystack-fallacy",
-      "title": "Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "In rare-event detection, indiscriminately expanding the data ingestion volume (adding more \"hay\") without increasing the diagnostic specificity of the sensor exponentially increases false positives, paralyzing investigative processing capacity.",
-      "path": "knowledge-tree/roots/signal-detection-theory-and-haystack-fallacy.md",
-      "wordCount": 325,
-      "readTime": "2 min read",
-      "connections": [
-        "surveillance-function-creep-and-ratchet-effect",
-        "cryptographic-asymmetry-and-systemic-backdoors",
-        "kurzgesagt-surveillance-terrorism-civil-liberties"
-      ]
-    },
-    {
-      "id": "square-cube-law-and-dimensional-scaling-invariants",
-      "title": "The Square-Cube Law & Allometric Dimensional Scaling",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Energy Systems & Electrification",
-      "summary": "When an organism or physical structure scales uniformly by a linear factor of $L$, its surface area scales quadratically ($A \\propto L^2$), while its volume and mass scale cubically ($V, M \\propto L^3$). Consequently, the surface-area-to-volume ratio decays inversely with size ($\\frac{A}{V} \\propto \\frac{1}{L}$), fundamentally altering the governing physical forces at each biological scale.",
-      "path": "knowledge-tree/roots/square-cube-law-and-dimensional-scaling-invariants.md",
-      "wordCount": 345,
-      "readTime": "2 min read",
-      "connections": [
-        "physical-regimes-across-scales-viscosity-to-gravity",
-        "allometric-biomechanics-reynolds-numbers-plastrons",
-        "kurzgesagt-size-square-cube-law-elephant"
-      ]
-    },
-    {
-      "id": "thermodynamics-entropy-and-schrodinger-negentropy",
-      "title": "Thermodynamic Entropy & Schrödinger's Negentropy — The Physics of Life",
-      "tier": "roots",
-      "tierLabel": "Roots: First Principles",
-      "icon": "🌱",
-      "domain": "Energy Systems & Electrification",
-      "summary": "A living system is a localized, non-equilibrium open thermodynamic structure that temporarily evades decay into maximum entropy (equilibrium) by continually drawing \"negative entropy\" (free energy) from its environment and dissipating waste heat.",
-      "path": "knowledge-tree/roots/thermodynamics-entropy-and-schrodinger-negentropy.md",
-      "wordCount": 293,
-      "readTime": "2 min read",
-      "connections": [
-        "emergence-reductionism-and-informational-biology",
-        "definition-of-life-and-artificial-life",
-        "kurzgesagt-schrodinger-what-is-life-death"
-      ]
-    },
-    {
-      "id": "battery-tradeoff-trilemma-and-thermal-runaway",
-      "title": "The Battery Trade-Off Quadrilemma & Thermal Runaway Dynamics",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Energy Systems & Electrification",
-      "summary": "There is no universally superior battery cell. Battery engineering is a constrained optimization problem balancing four interdependent variables: Energy Density, Cycle Life, Thermal Safety, and Precursor Cost/Supply Chain Decoupling.",
-      "path": "knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md",
-      "wordCount": 483,
-      "readTime": "3 min read",
-      "connections": [
-        "electrochemical-energy-storage-axioms",
-        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
-        "podcast-enervenue-hina-nikhil-kamath-batteries"
-      ]
-    },
-    {
-      "id": "black-hole-information-paradox-and-bekenstein-entropy",
-      "title": "The Black Hole Information Paradox & Bekenstein-Hawking Entropy",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Black holes are not infinitely dense bottomless pits, but the ultimate maximum-entropy information storage drives in the cosmos. Their maximum information capacity scales strictly with the surface area of the event horizon ($S_{BH} \\propto A$) rather than their interior volume, with exactly one bit of quantum information encoded per four Planck areas ($4\\ell_P^2$).",
-      "path": "knowledge-tree/trunk/black-hole-information-paradox-and-bekenstein-entropy.md",
-      "wordCount": 348,
-      "readTime": "2 min read",
-      "connections": [
-        "quantum-unitarity-and-information-conservation",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "atomic-hypothesis-quantum-fields-scale",
-        "holographic-principle-and-quantum-gravity",
-        "kurzgesagt-black-hole-information-paradox"
-      ]
-    },
-    {
-      "id": "decentralized-superorganisms-and-swarm-intelligence",
-      "title": "Decentralized Superorganisms, Phase Synchronization & Swarm Intelligence",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Evolutionary & Cellular Biology",
-      "summary": "High-order systemic optimization, resilient division of labor, and collective survival do not require a central command executive. Decentralized networks achieve dynamic equilibrium through stigmergy, local threshold response, and phase-locking synchronization.",
-      "path": "knowledge-tree/trunk/decentralized-superorganisms-and-swarm-intelligence.md",
-      "wordCount": 298,
-      "readTime": "2 min read",
-      "connections": [
-        "emergence-invariants-and-local-rule-networks",
-        "holobiont-theory-and-symbiogenesis-invariants",
-        "complex-adaptive-systems-and-cellular-automata",
-        "kurzgesagt-emergence-how-stupid-things-become-smart"
-      ]
-    },
-    {
-      "id": "degenerate-matter-and-extreme-cosmic-density",
-      "title": "Degenerate Matter, Extreme Cosmic Density & Quantum Indistinguishability",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Normal solid matter's rigidity and volume are not produced by physical contact of solid spheres, but by the electrostatic repulsion of electron clouds and the Pauli Exclusion Principle. When gravity overcomes degeneracy pressure, atomic voids vanish, collapsing massive stellar objects into nuclear fluid.",
-      "path": "knowledge-tree/trunk/degenerate-matter-and-extreme-cosmic-density.md",
-      "wordCount": 332,
-      "readTime": "2 min read",
-      "connections": [
-        "atomic-hypothesis-quantum-fields-scale",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "standard-model-and-particle-physics-taxonomy",
-        "kurzgesagt-quantum-atomic-scale-feynman"
-      ]
-    },
-    {
-      "id": "demographic-momentum-and-fertility-transition",
-      "title": "Demographic Momentum, Fertility Collapse & The 4-Stage Transition Model",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Population growth exhibits Demographic Momentum: even after fertility drops to replacement levels ($2.1$), overall population continues to expand for several decades due to the large cohort of historical youth reaching reproductive age. Once this demographic wave passes, population growth decelerates permanently.",
-      "path": "knowledge-tree/trunk/demographic-momentum-and-fertility-transition.md",
-      "wordCount": 350,
-      "readTime": "2 min read",
-      "connections": [
-        "demographic-transition-and-logistic-population-dynamics",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "development-economics-tfr-and-peak-humanity",
-        "kurzgesagt-overpopulation-demographic-transition"
-      ]
-    },
-    {
-      "id": "ecological-engineering-biocatalytic-cascades-and-irreversibility",
-      "title": "Ecological Engineering, Biocatalytic Cascades & The Irreversibility Invariant",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Releasing self-propagating genetic algorithms (gene drives) into open wild ecosystems crosses an Irreversibility Threshold. Once released, the code propagates autonomously across biological networks, creating an asymmetric ethical tension between the Moral Cost of Inaction (ongoing catastrophic mortality) and the Ecological Risk of Unintended Cascades.",
-      "path": "knowledge-tree/trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md",
-      "wordCount": 325,
-      "readTime": "2 min read",
-      "connections": [
-        "mendelian-inheritance-and-super-mendelian-gene-drives",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "crispr-cas9-gene-drives-and-vector-parasitology",
-        "kurzgesagt-crispr-gene-drives-malaria"
-      ]
-    },
-    {
-      "id": "emergence-reductionism-and-informational-biology",
-      "title": "Emergence, Reductionism & Informational Biology",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Systemic Thesis: Life is not a material substance (vitalism is false); it is a computational, emergent process. At the reductionist level, every constituent molecule of a cell is dead matter following blind chemical kinetics. \"Aliveness\" emerges strictly from dynamic network topology.",
-      "path": "knowledge-tree/trunk/emergence-reductionism-and-informational-biology.md",
-      "wordCount": 441,
-      "readTime": "3 min read",
-      "connections": [
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "electrochemical-energy-storage-axioms",
-        "definition-of-life-and-artificial-life",
-        "kurzgesagt-schrodinger-what-is-life-death"
-      ]
-    },
-    {
-      "id": "gut-brain-axis-neurochemistry-and-feedback-cravings",
-      "title": "The Gut-Brain Axis, Enteric Neurochemistry & Feedback Craving Loops",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Human cognitive, emotional, and dietary preferences are not generated in neurological isolation. The Enteric Nervous System (ENS) and gut microbiome communicate with the Central Nervous System via the Vagus Nerve and systemic metabolite circulation, producing over $90\\%$ of bodily serotonin and executing self-reinforcing behavioral feedback loops.",
-      "path": "knowledge-tree/trunk/gut-brain-axis-neurochemistry-and-feedback-cravings.md",
-      "wordCount": 306,
-      "readTime": "2 min read",
-      "connections": [
-        "holobiont-theory-and-symbiogenesis-invariants",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "microbial-ecology-dysbiosis-and-fecal-transplants",
-        "kurzgesagt-microbiome-gut-brain-axis"
-      ]
-    },
-    {
-      "id": "physical-regimes-across-scales-viscosity-to-gravity",
-      "title": "Physical Regimes Across Scales: From Viscous Air to Gravitational Rupture",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "There is no universal \"objective\" physical reality experienced identically by all organisms. Life spans seven orders of magnitude ($10^{-6}\\text{ m} \\to 10^1\\text{ m}$), and each scale is dominated by entirely different governing forces: Viscosity at the micro-scale, Surface Tension at the meso-scale, and Inertial Gravity at the macro-scale.",
-      "path": "knowledge-tree/trunk/physical-regimes-across-scales-viscosity-to-gravity.md",
-      "wordCount": 399,
-      "readTime": "2 min read",
-      "connections": [
-        "square-cube-law-and-dimensional-scaling-invariants",
-        "atomic-hypothesis-quantum-fields-scale",
-        "allometric-biomechanics-reynolds-numbers-plastrons",
-        "kurzgesagt-size-square-cube-law-elephant"
-      ]
-    },
-    {
-      "id": "selective-toxicity-and-appeal-to-nature-fallacy",
-      "title": "Selective Toxicity Invariants & The \"Appeal to Nature\" Fallacy",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Physics & Thermodynamics of Life",
-      "summary": "Toxicity is not an absolute chemical property; it is an Isomorphic Biological Lock-and-Key Relationship. A molecule that is acutely lethal to an insect gut receptor can be completely benign and nutritionally digestible to mammalian biology. Furthermore, human selective breeding for 10,000 years has always been genetic modification—modern biotechnology simply eliminates random trial-and-error.",
-      "path": "knowledge-tree/trunk/selective-toxicity-and-appeal-to-nature-fallacy.md",
-      "wordCount": 363,
-      "readTime": "2 min read",
-      "connections": [
-        "agricultural-energetics-and-land-sparing-invariants",
-        "thermodynamics-entropy-and-schrodinger-negentropy",
-        "crop-bioengineering-bt-endotoxins-and-biofortification",
-        "kurzgesagt-gmo-food-genetic-engineering"
-      ]
-    },
-    {
-      "id": "surveillance-function-creep-and-ratchet-effect",
-      "title": "Surveillance Function Creep, The Ratchet Effect & The \"Nothing to Hide\" Fallacy",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "Extraordinary emergency surveillance powers granted to state or corporate actors during crises are subject to the Institutional Ratchet Effect: they never revert to baseline; instead, they experience Function Creep, expanding from rare external threats into routine domestic policing and social control.",
-      "path": "knowledge-tree/trunk/surveillance-function-creep-and-ratchet-effect.md",
-      "wordCount": 373,
-      "readTime": "2 min read",
-      "connections": [
-        "signal-detection-theory-and-haystack-fallacy",
-        "cryptographic-asymmetry-and-systemic-backdoors",
-        "kurzgesagt-surveillance-terrorism-civil-liberties"
-      ]
-    },
-    {
-      "id": "three-super-cycles-energy-manufacturing-ai",
-      "title": "The Three Converging Super-Cycles: Energy, Manufacturing & AI",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Energy Systems & Electrification",
-      "summary": "Global industrial wealth and civilization scaling over the next 30 years will be determined by the intersection of three compounding super-cycles: Abundant Electrification, Autonomous Precision Manufacturing, and Exponential AI Compute.",
-      "path": "knowledge-tree/trunk/three-super-cycles-energy-manufacturing-ai.md",
-      "wordCount": 427,
-      "readTime": "3 min read",
-      "connections": [
-        "electrochemical-energy-storage-axioms",
-        "battery-tradeoff-trilemma-and-thermal-runaway",
-        "energy-storage-chemistries-lfp-sodium-nickel-hydrogen",
-        "podcast-enervenue-hina-nikhil-kamath-batteries"
-      ]
-    },
-    {
-      "id": "unconditional-floors-vs-welfare-cliffs",
-      "title": "Unconditional Floors vs. Welfare Cliffs & Administrative Deadweight Loss",
-      "tier": "trunk",
-      "tierLabel": "Trunk: Mental Models",
-      "icon": "🪵",
-      "domain": "Macro-Economics & AI Infrastructure",
-      "summary": "Bureaucratic paternalism in means-tested social welfare creates massive Administrative Deadweight Loss (15–30% of budget spent on policing recipients) and imposes a Cognitive Bandwidth Tax on the poor. Replacing conditional bureaucratic hurdles with an unconditional financial floor optimizes resource allocation and preserves individual agency.",
-      "path": "knowledge-tree/trunk/unconditional-floors-vs-welfare-cliffs.md",
-      "wordCount": 257,
-      "readTime": "2 min read",
-      "connections": [
-        "marginal-propensity-to-consume-and-poverty-traps",
-        "demographic-transition-and-logistic-population-dynamics",
-        "universal-basic-income-architectures-and-automation",
-        "kurzgesagt-universal-basic-income-ubi"
-      ]
+      "sections": [
+        "1. Executive Synthesis & Structural Framework",
+        "2. Demographic Transition Invariants & Peak Humanity",
+        "3. Signal Detection Theory, Mass Surveillance & The Haystack Fallacy",
+        "4. Universal Basic Income (UBI), Welfare Cliffs & AI Automation",
+        "5. Synthesized Media Crucibles in this Domain"
+      ],
+      "connections": []
     }
   ]
 }

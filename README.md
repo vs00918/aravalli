@@ -1,173 +1,36 @@
 # Mind of Aravalli 🌳
 
-> An interconnected, first-principles Personal Knowledge System (PKM) and epistemic laboratory. Knowledge grows systematically from **Roots** (irreducible axioms) through the **Trunk** (universal mental models) into **Branches** (specialized domains) and **Leaves** (lived experiences, long-form podcast crucibles, and case studies).
+> An interconnected, first-principles Personal Knowledge System (PKM) and epistemic laboratory. Knowledge is unified into **5 Master Knowledge Domains**, connecting fundamental physical axioms, core mental models, and empirical crucibles into an integrated, PhD-grade living treatise.
 
 ---
 
 ```mermaid
 graph TD
-    RootNode["🌳 Aravalli Knowledge Tree"] --> Roots["🌱 Roots: First Principles & Axioms"]
-    RootNode --> Trunk["🪵 Trunk: Core Systems & Mental Models"]
-    RootNode --> Branches["🌿 Branches: Domains & Taxonomies"]
-    RootNode --> Leaves["🍃 Leaves: Lived Experiences & Media Distillations"]
+    Aravalli["🌳 Mind of Aravalli"] --> D1["🌌 1. Physics, Quantum Mechanics & Spacetime"]
+    Aravalli --> D2["⚡ 2. Energy Storage, Electrification & Materials"]
+    Aravalli --> D3["🧬 3. Evolutionary Biology, Genetics & Synthetic Life"]
+    Aravalli --> D4["🕸️ 4. Complex Systems, Scaling & The Holobiont"]
+    Aravalli --> D5["🏛️ 5. Political Economy, Information & Society"]
 
-    %% Roots
-    Roots --> R1["Electrochemical Energy Storage Axioms"]
-    Roots --> R2["Thermodynamics, Entropy & Schrödinger's Negentropy"]
-    Roots --> R3["Atomic Hypothesis & Quantum Fields Scale"]
-    Roots --> R4["Signal Detection Theory & The Haystack Fallacy"]
-    Roots --> R5["Mendelian vs Super-Mendelian Gene Drive Mechanics"]
-    Roots --> R6["Demographic Transition & Logistic Population Dynamics"]
-    Roots --> R7["Agricultural Energetics & Land Sparing Invariants"]
-    Roots --> R8["Square-Cube Law & Allometric Scaling Invariants"]
-    Roots --> R9["Quantum Unitarity & Information Conservation"]
-    Roots --> R10["Holobiont Theory & Symbiogenesis Invariants"]
-    Roots --> R11["Emergence Invariants & Local Rule Networks"]
-    Roots --> R12["Marginal Propensity to Consume & Poverty Traps"]
-
-    %% Trunk
-    Trunk --> T1["Battery Quadrilemma & Thermal Runaway Dynamics"]
-    Trunk --> T2["Three Super Cycles: Energy, Mfg & AI"]
-    Trunk --> T3["Emergence, Reductionism & Informational Biology"]
-    Trunk --> T4["Degenerate Matter & Extreme Cosmic Density"]
-    Trunk --> T5["Surveillance Function Creep & The Ratchet Effect"]
-    Trunk --> T6["Ecological Engineering & Irreversibility Invariants"]
-    Trunk --> T7["Demographic Momentum & Fertility Collapse"]
-    Trunk --> T8["Selective Toxicity & The Appeal-to-Nature Fallacy"]
-    Trunk --> T9["Physical Regimes Across Scales: Viscosity to Gravity"]
-    Trunk --> T10["Black Hole Information Paradox & Bekenstein Entropy"]
-    Trunk --> T11["Gut-Brain Axis & Enteric Neurochemistry"]
-    Trunk --> T12["Decentralized Superorganisms & Swarm Intelligence"]
-    Trunk --> T13["Unconditional Floors vs Welfare Cliffs"]
-
-    %% Branches
-    Branches --> B1["Comparative Chemistries: LFP, Sodium, Ni-H2, Solid-State"]
-    Branches --> B2["Epistemology of Life & Artificial Silicon Life"]
-    Branches --> B3["Standard Model & Fundamental Particle Taxonomy"]
-    Branches --> B4["Cryptographic Asymmetry & Systemic Backdoors"]
-    Branches --> B5["CRISPR-Cas9 Gene Drives & Vector Parasitology"]
-    Branches --> B6["Development Economics & Peak Humanity Dynamics"]
-    Branches --> B7["Crop Bioengineering & Synthetic Biofortification"]
-    Branches --> B8["Allometric Biomechanics: Reynolds Numbers & Plastrons"]
-    Branches --> B9["The Holographic Principle & Quantum Gravity"]
-    Branches --> B10["Microbial Ecology, Dysbiosis & FMT Therapeutics"]
-    Branches --> B11["Complex Adaptive Systems & Cellular Automata"]
-    Branches --> B12["Universal Basic Income Architectures & Automation"]
-
-    %% Leaves
-    Leaves --> L1["WTF are Batteries? — EnerVenue x HiNa with Nikhil Kamath"]
-    Leaves --> L2["What Is Life? Is Death Real? — Kurzgesagt & Schrödinger"]
-    Leaves --> L3["How Small Is An Atom? — Kurzgesagt & Feynman"]
-    Leaves --> L4["Safe and Sorry: Mass Surveillance — Kurzgesagt & Liberties"]
-    Leaves --> L5["Gene Drives & Malaria — Kurzgesagt & CRISPR"]
-    Leaves --> L6["Overpopulation: The Human Explosion — Kurzgesagt & Roser"]
-    Leaves --> L7["Are GMOs Good or Bad? — Kurzgesagt & Food Genetics"]
-    Leaves --> L8["What Happens If We Throw an Elephant? — Kurzgesagt & Haldane"]
-    Leaves --> L9["Why Black Holes Delete the Universe — Kurzgesagt & Hawking"]
-    Leaves --> L10["How Bacteria Rule Your Body — Kurzgesagt & Microbiome"]
-    Leaves --> L11["Emergence: How Stupid Things Become Smart — Kurzgesagt"]
-    Leaves --> L12["Universal Basic Income Explained — Kurzgesagt & UBI"]
-
-    %% Cross-Tier Connections
-    R1 --> T1
-    R2 --> T3
-    R3 --> T4
-    R4 --> T5
-    R5 --> T6
-    R6 --> T7
-    R7 --> T8
-    R8 --> T9
-    R9 --> T10
-    R10 --> T11
-    R11 --> T12
-    R12 --> T13
-    T1 --> B1
-    T3 --> B2
-    T4 --> B3
-    T5 --> B4
-    T6 --> B5
-    T7 --> B6
-    T8 --> B7
-    T9 --> B8
-    T10 --> B9
-    T11 --> B10
-    T12 --> B11
-    T13 --> B12
-    B1 --> L1
-    B2 --> L2
-    B3 --> L3
-    B4 --> L4
-    B5 --> L5
-    B6 --> L6
-    B7 --> L7
-    B8 --> L8
-    B9 --> L9
-    B10 --> L10
-    B11 --> L11
-    B12 --> L12
-    T2 --> L1
+    %% Cross-Domain Interconnections
+    D1 <===>|Thermodynamics & Negentropy| D3
+    D1 <===>|Information Theory & Computation| D5
+    D2 <===>|Industrial Super-Cycles & AI Compute| D5
+    D3 <===>|Emergent Biocatalysis & Microbiome| D4
+    D4 <===>|Allometric Scaling & Swarm Intelligence| D1
 ```
 
 ---
 
-## 📚 The Knowledge Tree Structure
+## 📚 Master Knowledge Domains
 
-### 1. 🌱 Roots (Axioms & Physical Invariants)
-* [**Electrochemical Energy Storage Axioms**](./knowledge-tree/roots/electrochemical-energy-storage-axioms.md) — Fundamental physics of charge separation, potential wells, Faraday/Nernst limits, and Gibbs free energy.
-* [**Thermodynamics, Entropy & Schrödinger's Negentropy**](./knowledge-tree/roots/thermodynamics-entropy-and-schrodinger-negentropy.md) — Physical definition of life as open non-equilibrium thermodynamic systems resisting entropy ($\frac{dS_{\text{int}}}{dt} < 0$).
-* [**The Atomic Hypothesis & Quantum Field Foundations**](./knowledge-tree/roots/atomic-hypothesis-quantum-fields-scale.md) — Feynman's atomic invariant, $10^5:1$ nuclear scale ratio, QED zero-point vacuum fluctuations, and probability density clouds.
-* [**Signal Detection Theory, Base Rate Fallacy & The Haystack Invariant**](./knowledge-tree/roots/signal-detection-theory-and-haystack-fallacy.md) — Bayesian rare event detection, base rate fallacy in intelligence dragnets, and the mathematical limits of bulk data ingestion.
-* [**Mendelian Inheritance vs. Super-Mendelian Gene Drive Mechanics**](./knowledge-tree/roots/mendelian-inheritance-and-super-mendelian-gene-drives.md) — Population genetics mathematics, Mendelian $50\%$ segregation vs. CRISPR active Homology-Directed Repair ($>99.5\%$ super-inheritance).
-* [**Demographic Transition Invariants & Logistic Population Dynamics**](./knowledge-tree/roots/demographic-transition-and-logistic-population-dynamics.md) — Verhulst logistic population curve, dynamic carrying capacity, and endogenous convergence to replacement fertility ($TFR \approx 2.1$).
-* [**Agricultural Energetics & The Land-Sparing Invariant**](./knowledge-tree/roots/agricultural-energetics-and-land-sparing-invariants.md) — Photosynthetic conversion limits, Haber-Bosch nitrogen bottlenecks, and the Land-Sparing vs. Land-Sharing ecological paradigm.
-* [**The Square-Cube Law & Allometric Dimensional Scaling**](./knowledge-tree/roots/square-cube-law-and-dimensional-scaling-invariants.md) — The Square-Cube Law ($\frac{A}{V} \propto \frac{1}{L}$), impact stress scaling ($\sigma \propto L^2$), and the mathematical transition of physical forces across scales.
-* [**Quantum Unitarity & Information Conservation Invariants**](./knowledge-tree/roots/quantum-unitarity-and-information-conservation.md) — Unitary time-evolution ($U^\dagger U = I$), pure vs. mixed quantum states ($\text{Tr}(\rho^2)=1$), and the strict physical conservation of quantum information.
-* [**Holobiont Theory, Symbiogenesis & The Human Metagenome**](./knowledge-tree/roots/holobiont-theory-and-symbiogenesis-invariants.md) — The Holobiont Superorganism, metagenomic dominance ($>2,000,000$ microbial genes), and evolutionary neonatal inoculation.
-* [**Emergence Invariants, Stigmergy & Local Rule Networks**](./knowledge-tree/roots/emergence-invariants-and-local-rule-networks.md) — Philip Anderson's "More is Different", non-linear network interactions, and macroscopic order generated by decentralized local threshold heuristics.
-* [**Marginal Propensity to Consume & The Poverty Trap Invariant**](./knowledge-tree/roots/marginal-propensity-to-consume-and-poverty-traps.md) — Effective Marginal Tax Rate ($\text{EMTR} > 1.0$) welfare cliffs, Keynesian multiplier dynamics, and cash transfer efficiency.
-
-### 2. 🪵 Trunk (Core Mental Models & Systems)
-* [**The Battery Quadrilemma & Thermal Runaway Dynamics**](./knowledge-tree/trunk/battery-tradeoff-trilemma-and-thermal-runaway.md) — 4-way optimization trade-off space and positive-feedback exothermic chain reaction mechanics.
-* [**The Three Converging Super-Cycles: Energy, Manufacturing & AI**](./knowledge-tree/trunk/three-super-cycles-energy-manufacturing-ai.md) — Electrification + Automated Manufacturing + Exponential AI Compute, 98% idle vehicle V2G buffers, and local-for-local supply chain sovereignty.
-* [**Emergence, Reductionism & Informational Biology**](./knowledge-tree/trunk/emergence-reductionism-and-informational-biology.md) — The Reductionist Paradox: zero living molecules in a cell, life as an emergent catalytic orchestra, informational code (DNA as software), and the boundary spectrum.
-* [**Degenerate Matter, Extreme Cosmic Density & Quantum Indistinguishability**](./knowledge-tree/trunk/degenerate-matter-and-extreme-cosmic-density.md) — Pauli Exclusion breakdown, degenerate electron/neutron pressures, the Teaspoon of Humanity Gedankenexperiment, and universal quantum indistinguishability.
-* [**Surveillance Function Creep, The Ratchet Effect & The "Nothing to Hide" Fallacy**](./knowledge-tree/trunk/surveillance-function-creep-and-ratchet-effect.md) — The Institutional Ratchet Effect, mission creep from counter-terrorism into civil protest suppression, and deconstruction of the "Nothing to Hide" fallacy.
-* [**Ecological Engineering, Biocatalytic Cascades & The Irreversibility Invariant**](./knowledge-tree/trunk/ecological-engineering-biocatalytic-cascades-and-irreversibility.md) — The Irreversibility Invariant in synthetic biology, omission bias in bioethics, and immunizing reversal drive counter-measures.
-* [**Demographic Momentum, Fertility Collapse & The 4-Stage Transition Model**](./knowledge-tree/trunk/demographic-momentum-and-fertility-transition.md) — Demographic Momentum lag dynamics, the 4 stages of the Demographic Transition Model (DTM), and the Beckerian human capital shift.
-* [**Selective Toxicity Invariants & The "Appeal to Nature" Fallacy**](./knowledge-tree/trunk/selective-toxicity-and-appeal-to-nature-fallacy.md) — Receptor-specific toxicity (Bt Cry proteins vs. caffeine vs. theobromine), and dismantling the "natural equals safe" bias.
-* [**Physical Regimes Across Scales: From Viscous Air to Gravitational Rupture**](./knowledge-tree/trunk/physical-regimes-across-scales-viscosity-to-gravity.md) — The 7-order scale continuum: from micro-wasp Stokes flow viscosity ($Re \ll 1$) to insect surface tension traps and elephant gravitational rupture.
-* [**The Black Hole Information Paradox & Bekenstein-Hawking Entropy**](./knowledge-tree/trunk/black-hole-information-paradox-and-bekenstein-entropy.md) — The Relativity vs. Quantum Mechanics crisis, Hawking evaporation, and Bekenstein-Hawking horizon surface area entropy scaling ($S_{BH} \propto \frac{A}{4\ell_P^2}$).
-* [**The Gut-Brain Axis, Enteric Neurochemistry & Feedback Craving Loops**](./knowledge-tree/trunk/gut-brain-axis-neurochemistry-and-feedback-cravings.md) — The Vagus nerve highway, 90% peripheral serotonin synthesis, and self-reinforcing dietary craving feedback loops.
-* [**Decentralized Superorganisms, Phase Synchronization & Swarm Intelligence**](./knowledge-tree/trunk/decentralized-superorganisms-and-swarm-intelligence.md) — Ant colony olfactory encounter switching, Kuramoto pacemaker phase synchronization, and the emergence of human national superorganisms.
-* [**Unconditional Floors vs. Welfare Cliffs & Administrative Deadweight Loss**](./knowledge-tree/trunk/unconditional-floors-vs-welfare-cliffs.md) — Administrative deadweight loss of means-testing, scarcity cognitive bandwidth tax, and worker bargaining power.
-
-### 3. 🌿 Branches (Disciplines & Applied Economics/Policy Paradigms)
-* [**Comparative Battery Chemistries Matrix**](./knowledge-tree/branches/energy-storage-chemistries-lfp-sodium-nickel-hydrogen.md) — Direct benchmark: LFP vs. Sodium-Ion ($\text{Na-ion}$) vs. Nickel-Hydrogen ($\text{Ni-H}_2$) vs. Solid-State (TRL 4).
-* [**Epistemology of Life: Definitions & Artificial Silicon Life**](./knowledge-tree/branches/definition-of-life-and-artificial-life.md) — Astrobiology, NASA/Thermodynamic/Cybernetic operational definitions, substrate neutrality, and artificial silicon life.
-* [**Standard Model of Particle Physics: The Taxonomy of Fundamental Matter**](./knowledge-tree/branches/standard-model-and-particle-physics-taxonomy.md) — Taxonomy of matter: Quarks, Leptons, Gauge Bosons (Gluons, Photons, W/Z), Higgs mechanism, and the 4 Fundamental Forces.
-* [**Cryptographic Asymmetry & The Backdoor Fallacy**](./knowledge-tree/branches/cryptographic-asymmetry-and-systemic-backdoors.md) — Mathematical asymmetry in public-key cryptography, Kerckhoffs's principle, and why "law-enforcement-only" golden keys create universal vulnerabilities.
-* [**CRISPR-Cas9 Gene Drives & Vector-Borne Parasitology**](./knowledge-tree/branches/crispr-cas9-gene-drives-and-vector-parasitology.md) — Pathogenic life cycle of Plasmodium, population modification vs. suppression strategies, and gene drive applications across vector diseases.
-* [**Development Economics: TFR Compression, Leapfrogging & Peak Humanity**](./knowledge-tree/branches/development-economics-tfr-and-peak-humanity.md) — TFR leapfrogging trajectories (UK vs. Bangladesh vs. Iran), human intelligence density, and the 12th billion human invariant.
-* [**Crop Bioengineering: Bt Endotoxins, Viral Immunization & Biofortification**](./knowledge-tree/branches/crop-bioengineering-bt-endotoxins-and-biofortification.md) — Applied agricultural transgenics: Bt Brinjal, Hawaiian Rainbow Papaya, Golden Rice, and climate-resilient Sub1 rice.
-* [**Allometric Biomechanics: Reynolds Numbers, Surface Tension & Plastron Respiration**](./knowledge-tree/branches/allometric-biomechanics-reynolds-numbers-plastrons.md) — Fluid mechanics scaling: Reynolds numbers, fairyfly comb flight, superhydrophobic micro-hair meshes, and continuous plastron gills.
-* [**The Holographic Principle, AdS/CFT Duality & Quantum Gravity**](./knowledge-tree/branches/holographic-principle-and-quantum-gravity.md) — Maldacena AdS/CFT duality (3D Bulk Gravity $\leftrightarrow$ 2D Boundary CFT), the Page curve, and spacetime geometry as emergent quantum entanglement.
-* [**Microbial Ecology: Dysbiosis, C. Difficile & Fecal Microbiota Transplants (FMT)**](./knowledge-tree/branches/microbial-ecology-dysbiosis-and-fecal-transplants.md) — The 3 symbiotic classes, antibiotic dysbiosis, and Fecal Microbiota Transplantation (FMT) clinical paradigms.
-* [**Complex Adaptive Systems & Cellular Automata**](./knowledge-tree/branches/complex-adaptive-systems-and-cellular-automata.md) — Conway's Game of Life, Wolfram complexity classes, self-organized criticality (sandpile avalanches), and computation at the edge of chaos.
-* [**Universal Basic Income Architectures, Georgism & Automation Levies**](./knowledge-tree/branches/universal-basic-income-architectures-and-automation.md) — Land Value Taxation (Georgism), Carbon Fee & Dividend, Sovereign Wealth Funds (Alaska Model), and AI automation dividends.
-
-### 4. 🍃 Leaves (Podcasts, Essays & Empirical Crucibles)
-* [**Podcast: WTF are Batteries?**](./knowledge-tree/leaves/podcast-enervenue-hina-nikhil-kamath-batteries.md) — EnerVenue (Henning Rath) x HiNa Battery (Dr. Kun Tang) hosted by Nikhil Kamath.
-* [**Visual Essay: What Is Life? Is Death Real?**](./knowledge-tree/leaves/kurzgesagt-schrodinger-what-is-life-death.md) — Kurzgesagt & Schrödinger: negentropy, protein nanomachines, viruses, and the dissolution of the life/death binary.
-* [**Visual Essay: How Small Is An Atom?**](./knowledge-tree/leaves/kurzgesagt-quantum-atomic-scale-feynman.md) — Kurzgesagt & Feynman: Spatial scale progression, the Empire State grain of rice, and Feynman's atomic legacy.
-* [**Visual Essay: Safe and Sorry — Terrorism & Mass Surveillance**](./knowledge-tree/leaves/kurzgesagt-surveillance-terrorism-civil-liberties.md) — Kurzgesagt & Liberties: Mass surveillance failures, the Apple vs. FBI encryption battle, and the preservation of democratic institutions.
-* [**Visual Essay: Genetic Engineering & Diseases — Gene Drive & Malaria**](./knowledge-tree/leaves/kurzgesagt-crispr-gene-drives-malaria.md) — Kurzgesagt & CRISPR: Plasmodium biology, CRISPR super-Mendelian sweeps, and the bioethics of ecological editing.
-* [**Visual Essay: Overpopulation — The Human Explosion Explained**](./knowledge-tree/leaves/kurzgesagt-overpopulation-demographic-transition.md) — Kurzgesagt & Roser: The 4 stages of the DTM, compressed leapfrogging, and the 12th billion human barrier.
-* [**Visual Essay: Are GMOs Good or Bad? — Genetic Engineering & Our Food**](./knowledge-tree/leaves/kurzgesagt-gmo-food-genetic-engineering.md) — Kurzgesagt & Food Genetics: 30-year safety consensus, selective toxicity, and Land Sparing vs. Extensification.
-* [**Visual Essay: What Happens If We Throw an Elephant From a Skyscraper?**](./knowledge-tree/leaves/kurzgesagt-size-square-cube-law-elephant.md) — Kurzgesagt & Haldane: The Skyscraper fall thought experiment, surface tension adhesive traps, and Haldane's scaling law.
-* [**Visual Essay: Why Black Holes Delete The Universe**](./knowledge-tree/leaves/kurzgesagt-black-hole-information-paradox.md) — Kurzgesagt & Hawking: Quantum unitarity, Hawking radiation, and the 2D Holographic Principle.
-* [**Visual Essay: How Bacteria Rule Over Your Body — The Microbiome**](./knowledge-tree/leaves/kurzgesagt-microbiome-gut-brain-axis.md) — Kurzgesagt & Microbiome: The Holobiont superorganism, vagal signalling, and FMT ecological therapy.
-* [**Visual Essay: Emergence — How Stupid Things Become Smart Together**](./knowledge-tree/leaves/kurzgesagt-emergence-how-stupid-things-become-smart.md) — Kurzgesagt & Complexity: The wetness of water, stigmergic ant task switching, cardiac synchronization, and national superorganisms.
-* [**Visual Essay: Universal Basic Income Explained — Free Money for Everybody?**](./knowledge-tree/leaves/kurzgesagt-universal-basic-income-ubi.md) — Kurzgesagt & UBI: The welfare cliff, Canadian Mincome results, and fiscal stimulus multipliers.
+| Domain | File Path | Focus & Integrated Systems |
+| :--- | :--- | :--- |
+| **🌌 Domain 1** | [**Physics, Quantum Mechanics & The Fabric of Spacetime**](./knowledge-tree/domains/01-physics-quantum-and-spacetime.md) | The subatomic scale, Standard Model, degenerate cosmic density, Hawking evaporation, the Black Hole Information Paradox ($U^\dagger U = I$), and the 2D Holographic Principle ($S_{BH} \propto A$). |
+| **⚡ Domain 2** | [**Energy Storage, Electrification & Material Super-Cycles**](./knowledge-tree/domains/02-energy-electrification-and-materials.md) | Electrochemical thermodynamics ($\Delta G = -nFE$), the battery quadrilemma & thermal runaway, comparative chemistry matrix (LFP, Na-ion, Ni-H2, Solid-State), and the 3 converging industrial super-cycles. |
+| **🧬 Domain 3** | [**Evolutionary Biology, Genetics & Synthetic Biospheres**](./knowledge-tree/domains/03-biology-genetics-and-synthetic-life.md) | Physical definition of life (Schrödinger's negentropy), molecular reductionism vs. informational software, super-Mendelian CRISPR gene drives ($>99.5\%$ inheritance), vector parasitology, and agricultural land sparing. |
+| **🕸️ Domain 4** | [**Complex Adaptive Systems, Dimensional Scaling & The Holobiont**](./knowledge-tree/domains/04-complex-systems-scale-and-holobionts.md) | The axiom of emergence ("More is Different"), ant superorganism stigmergy, Kuramoto biological pacemakers, the Square-Cube Law ($\sigma \propto L$), the human microbiome metagenome, and 90% colonic serotonin synthesis. |
+| **🏛️ Domain 5** | [**Political Economy, Information Security & Human Flourishing**](./knowledge-tree/domains/05-political-economy-technology-and-society.md) | The 4-stage demographic transition & peak humanity ($10.5-11\text{B}$ cap), Bayesian base rate fallacy in mass surveillance dragnets, cryptographic asymmetry, and Universal Basic Income ($\text{EMTR} > 100\%$ cliff removal). |
 
 ---
 

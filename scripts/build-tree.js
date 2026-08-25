@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT_DIR = 'c:/Users/visha/OneDrive/Documents/mind of aravalli';
-const TREE_DIR = path.join(ROOT_DIR, 'knowledge-tree');
+const DOMAINS_DIR = path.join(ROOT_DIR, 'knowledge-tree', 'domains');
 const OUTPUT_FILE = path.join(ROOT_DIR, 'data', 'knowledge-registry.json');
 
 // Ensure data directory exists
@@ -10,113 +10,93 @@ if (!fs.existsSync(path.join(ROOT_DIR, 'data'))) {
     fs.mkdirSync(path.join(ROOT_DIR, 'data'), { recursive: true });
 }
 
-function getAllFiles(dirPath, arrayOfFiles = []) {
-    const files = fs.readdirSync(dirPath);
-    files.forEach(file => {
-        const fullPath = path.join(dirPath, file);
-        if (fs.statSync(fullPath).isDirectory()) {
-            getAllFiles(fullPath, arrayOfFiles);
-        } else if (file.endsWith('.md') && file !== 'INDEX.md') {
-            arrayOfFiles.push(fullPath);
-        }
-    });
-    return arrayOfFiles;
-}
-
-function parseMarkdownMetadata(filePath) {
+function parseDomainMetadata(filePath) {
     const content = fs.readFileSync(filePath, 'utf8');
     const relPath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
     const filename = path.basename(filePath, '.md');
     
     // Extract Title (# Heading)
     const titleMatch = content.match(/^#\s+(.+)$/m);
-    const title = titleMatch ? titleMatch[1].replace(/Leaf Node:\s*|\*|🌱|🪵|🌿|🍃/g, '').trim() : filename;
+    const title = titleMatch ? titleMatch[1].replace(/Domain\s+\d+:\s*/i, '').trim() : filename;
 
-    // Extract Kernel / Blockquote
-    const quoteMatch = content.match(/>\s*\*\*(?:First-Principles Kernel|Axiomatic Kernel|System Invariant|Macro Thesis|Taxonomic Thesis|Synthesized Epistemic Thesis|Core Idea).*?\*\*:\s*([^\n]+)/i) || content.match(/>\s*([^\n]+)/);
-    const summary = quoteMatch ? quoteMatch[1].replace(/\*\*|\[|\]/g, '').trim() : 'Comprehensive conceptual analysis and structural deconstruction.';
+    // Extract Kernel Blockquote
+    const quoteMatch = content.match(/>\s*\*\*Domain Kernel\*\*:\s*([^\n]+)/i) || content.match(/>\s*([^\n]+)/);
+    const summary = quoteMatch ? quoteMatch[1].replace(/\*\*|\[|\]/g, '').trim() : 'Master comprehensive synthesis across foundational physical and cognitive systems.';
 
-    // Determine Tier & Domain
-    let tier = 'leaves';
-    let tierLabel = 'Leaves: Lived Experience';
-    let icon = '🍃';
+    // Assign Domain Metadata and Icons
+    let icon = '🌌';
+    let domainName = 'Physical Sciences';
+    let tierLabel = 'Master Knowledge Domain';
 
-    if (relPath.includes('/roots/')) {
-        tier = 'roots';
-        tierLabel = 'Roots: First Principles';
-        icon = '🌱';
-    } else if (relPath.includes('/trunk/')) {
-        tier = 'trunk';
-        tierLabel = 'Trunk: Mental Models';
-        icon = '🪵';
-    } else if (relPath.includes('/branches/')) {
-        tier = 'branches';
-        tierLabel = 'Branches: Taxonomies';
-        icon = '🌿';
+    if (filename.includes('physics')) {
+        icon = '🌌';
+        domainName = 'Physics & Quantum Spacetime';
+    } else if (filename.includes('energy')) {
+        icon = '⚡';
+        domainName = 'Energy & Electrification';
+    } else if (filename.includes('biology')) {
+        icon = '🧬';
+        domainName = 'Biology & Synthetic Life';
+    } else if (filename.includes('complex')) {
+        icon = '🕸️';
+        domainName = 'Complex Systems & Holobionts';
+    } else if (filename.includes('political')) {
+        icon = '🏛️';
+        domainName = 'Political Economy & Society';
     }
 
-    // Determine Domain Cluster
-    let domain = 'General Synthesis';
-    const lowerContent = content.toLowerCase();
-    if (lowerContent.includes('battery') || lowerContent.includes('electrochemical') || lowerContent.includes('energy') || lowerContent.includes('grid')) {
-        domain = 'Energy Systems & Electrification';
-    } else if (lowerContent.includes('entropy') || lowerContent.includes('schrodinger') || lowerContent.includes('negentropy') || lowerContent.includes('thermodynamics')) {
-        domain = 'Physics & Thermodynamics of Life';
-    } else if (lowerContent.includes('dna') || lowerContent.includes('mitochondria') || lowerContent.includes('virus') || lowerContent.includes('cellular')) {
-        domain = 'Evolutionary & Cellular Biology';
-    } else if (lowerContent.includes('ai') || lowerContent.includes('super-cycles') || lowerContent.includes('manufacturing') || lowerContent.includes('compute')) {
-        domain = 'Macro-Economics & AI Infrastructure';
+    // Extract Sections (H2 headings for sub-table of contents)
+    const sectionMatches = content.matchAll(/^##\s+(\d+\.\s+[^#\n]+)$/gm);
+    const sections = [];
+    for (const match of sectionMatches) {
+        sections.push(match[1].trim());
     }
 
-    // Extract Wikilinks [[target]]
-    const wikilinks = [];
-    const linkMatches = content.matchAll(/\[\[(.*?)\]\]/g);
-    for (const match of linkMatches) {
-        const target = match[1].trim().toLowerCase().replace(/\s+/g, '-');
-        if (!wikilinks.includes(target)) {
-            wikilinks.push(target);
-        }
-    }
-
-    // Estimate Read Time
+    // Estimate Read Time & Word Count
     const wordCount = content.split(/\s+/).length;
     const readTimeMin = Math.max(1, Math.ceil(wordCount / 200));
 
     return {
         id: filename,
         title: title,
-        tier: tier,
+        tier: 'domain',
         tierLabel: tierLabel,
         icon: icon,
-        domain: domain,
+        domain: domainName,
         summary: summary,
         path: relPath,
         wordCount: wordCount,
         readTime: `${readTimeMin} min read`,
-        connections: wikilinks
+        sections: sections,
+        connections: []
     };
 }
 
 function buildRegistry() {
-    const mdFiles = getAllFiles(TREE_DIR);
-    const nodes = mdFiles.map(parseMarkdownMetadata);
+    console.log('Scanning Domain Volumes in:', DOMAINS_DIR);
+    
+    if (!fs.existsSync(DOMAINS_DIR)) {
+        console.error('Domains directory does not exist!');
+        return;
+    }
 
-    // Group domains
-    const domains = [...new Set(nodes.map(n => n.domain))];
+    const files = fs.readdirSync(DOMAINS_DIR).filter(f => f.endsWith('.md')).sort();
+    const nodes = [];
+
+    files.forEach(file => {
+        const fullPath = path.join(DOMAINS_DIR, file);
+        const meta = parseDomainMetadata(fullPath);
+        nodes.push(meta);
+    });
 
     const registry = {
-        meta: {
-            title: "Mind of Aravalli",
-            tagline: "First-Principles Knowledge Tree & Epistemic Laboratory",
-            totalNodes: nodes.length,
-            domains: domains,
-            lastUpdated: new Date().toISOString()
-        },
+        generatedAt: new Date().toISOString(),
+        totalDomains: nodes.length,
         nodes: nodes
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(registry, null, 2), 'utf8');
-    console.log(`Knowledge Registry built successfully! Total nodes: ${nodes.length}`);
+    console.log(`Knowledge Registry built successfully! Total Master Domains: ${nodes.length}`);
 }
 
 buildRegistry();

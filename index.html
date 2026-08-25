@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mind of Aravalli — First-Principles Knowledge Tree</title>
-  <meta name="description" content="Institutional-grade Personal Knowledge System & Epistemic Laboratory. Scalable to thousands of distilled assets.">
+  <title>Mind of Aravalli — First-Principles Master Knowledge Domains</title>
+  <meta name="description" content="Institutional-grade Personal Knowledge System & Epistemic Laboratory. PhD-level synthesis across core physical and cognitive domains.">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,7 +59,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    /* Premium Smooth Scrollbars */
+    /* Smooth Scrollbars */
     ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: rgba(100, 116, 139, 0.3); border-radius: 4px; }
@@ -67,95 +67,83 @@
 
     /* Editorial Typography */
     .prose-editorial { font-family: 'Inter', sans-serif; color: #e2e8f0; }
-    .prose-editorial h1 { font-size: 2.2rem; font-weight: 800; line-height: 1.25; margin-bottom: 1.25rem; color: #ffffff; letter-spacing: -0.02em; }
-    .prose-editorial h2 { font-size: 1.45rem; font-weight: 700; line-height: 1.35; margin-top: 2.25rem; margin-bottom: 1rem; color: #f8fafc; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
-    .prose-editorial h3 { font-size: 1.15rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #34d399; }
-    .prose-editorial p { margin-bottom: 1.2rem; line-height: 1.8; font-size: 1.02rem; color: #cbd5e1; }
-    .prose-editorial ul { list-style-type: none; padding-left: 0; margin-bottom: 1.25rem; }
-    .prose-editorial ul li { position: relative; padding-left: 1.5rem; margin-bottom: 0.6rem; line-height: 1.7; color: #cbd5e1; }
+    .prose-editorial h1 { font-size: 2.3rem; font-weight: 800; line-height: 1.25; margin-bottom: 1.25rem; color: #ffffff; letter-spacing: -0.02em; }
+    .prose-editorial h2 { font-size: 1.5rem; font-weight: 700; line-height: 1.35; margin-top: 2.75rem; margin-bottom: 1.1rem; color: #f8fafc; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; scroll-margin-top: 5rem; }
+    .prose-editorial h3 { font-size: 1.2rem; font-weight: 600; margin-top: 1.75rem; margin-bottom: 0.85rem; color: #34d399; scroll-margin-top: 5rem; }
+    .prose-editorial p { margin-bottom: 1.25rem; line-height: 1.85; font-size: 1.04rem; color: #cbd5e1; }
+    .prose-editorial ul { list-style-type: none; padding-left: 0; margin-bottom: 1.35rem; }
+    .prose-editorial ul li { position: relative; padding-left: 1.5rem; margin-bottom: 0.65rem; line-height: 1.75; color: #cbd5e1; }
     .prose-editorial ul li::before { content: "•"; position: absolute; left: 0.5rem; color: #10b981; font-weight: bold; font-size: 1.2em; }
-    .prose-editorial ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1.25rem; color: #cbd5e1; }
-    .prose-editorial ol li { margin-bottom: 0.6rem; line-height: 1.7; }
+    .prose-editorial ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1.35rem; color: #cbd5e1; }
+    .prose-editorial ol li { margin-bottom: 0.65rem; line-height: 1.75; }
     
-    .prose-editorial blockquote { border-left: 4px solid #10b981; padding: 1rem 1.5rem; margin: 1.5rem 0; background: rgba(16, 185, 129, 0.05); border-radius: 0 10px 10px 0; font-family: 'Lora', serif; font-size: 1.08rem; color: #e2e8f0; }
+    .prose-editorial blockquote { border-left: 4px solid #10b981; padding: 1.1rem 1.6rem; margin: 1.75rem 0; background: rgba(16, 185, 129, 0.05); border-radius: 0 10px 10px 0; font-family: 'Lora', serif; font-size: 1.1rem; color: #e2e8f0; line-height: 1.8; }
     
     /* Tables */
-    .prose-editorial table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 1.75rem 0; font-size: 0.92rem; border-radius: 8px; overflow: hidden; border: 1px solid #212836; }
-    .prose-editorial th { background: #131a24; padding: 0.85rem 1.1rem; text-align: left; font-weight: 600; color: #f1f5f9; border-bottom: 1px solid #212836; }
-    .prose-editorial td { padding: 0.85rem 1.1rem; border-bottom: 1px solid #1a2230; color: #94a3b8; }
+    .prose-editorial table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 2rem 0; font-size: 0.94rem; border-radius: 8px; overflow: hidden; border: 1px solid #212836; }
+    .prose-editorial th { background: #131a24; padding: 0.9rem 1.2rem; text-align: left; font-weight: 600; color: #f1f5f9; border-bottom: 1px solid #212836; }
+    .prose-editorial td { padding: 0.9rem 1.2rem; border-bottom: 1px solid #1a2230; color: #94a3b8; }
     .prose-editorial tr:last-child td { border-bottom: none; }
     .prose-editorial tr:nth-child(even) { background: rgba(15, 20, 28, 0.5); }
     .prose-editorial tr:hover td { background: rgba(16, 185, 129, 0.04); color: #f1f5f9; }
 
     /* Code & Formulas */
-    .prose-editorial pre { background: #05080c !important; border: 1px solid #212836; border-radius: 10px; padding: 1.25rem; overflow-x: auto; margin: 1.5rem 0; }
-    .prose-editorial code:not(pre code) { background: rgba(16, 185, 129, 0.12); color: #34d399; padding: 0.2rem 0.45rem; border-radius: 5px; font-family: 'Fira Code', monospace; font-size: 0.88em; }
+    .prose-editorial pre { background: #05080c !important; border: 1px solid #212836; border-radius: 10px; padding: 1.35rem; overflow-x: auto; margin: 1.75rem 0; }
+    .prose-editorial code:not(pre code) { background: rgba(16, 185, 129, 0.12); color: #34d399; padding: 0.2rem 0.45rem; border-radius: 5px; font-family: 'Fira Code', monospace; font-size: 0.9em; }
 
     /* GitHub Alert Callouts */
-    .alert-card { border-left: 4px solid; padding: 1rem 1.25rem; border-radius: 0 10px 10px 0; margin: 1.5rem 0; }
+    .alert-card { border-left: 4px solid; padding: 1.1rem 1.35rem; border-radius: 0 10px 10px 0; margin: 1.75rem 0; }
     .alert-note { border-color: #3b82f6; background: rgba(59, 130, 246, 0.07); }
     .alert-important { border-color: #a855f7; background: rgba(168, 85, 247, 0.07); }
     .alert-tip { border-color: #10b981; background: rgba(16, 185, 129, 0.07); }
     .alert-warning { border-color: #f59e0b; background: rgba(245, 158, 11, 0.07); }
 
     /* Interactive Mermaid Schema Wrapper */
-    .mermaid-viewport { background: #0b0f16; border: 1px solid #212836; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; overflow-x: auto; display: flex; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
-    .light .mermaid-viewport { background: #ffffff; border-color: #e2e8f0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-
-    /* Wikilinks */
-    .wikilink-badge { display: inline-flex; align-items: center; gap: 0.3rem; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.25); color: #34d399; padding: 0.15rem 0.55rem; border-radius: 6px; font-weight: 500; font-size: 0.9em; cursor: pointer; text-decoration: none; transition: all 0.2s ease; }
-    .wikilink-badge:hover { background: rgba(16, 185, 129, 0.25); border-color: #10b981; transform: translateY(-1px); color: #ffffff; }
-
-    /* Accordion Animations */
-    .accordion-content { transition: max-height 0.25s ease-out, opacity 0.2s ease-out; overflow: hidden; }
-    .accordion-content.collapsed { max-height: 0; opacity: 0; }
+    .mermaid-viewport { background: #0b0f16; border: 1px solid #212836; border-radius: 12px; padding: 1.75rem; margin: 2.25rem 0; overflow-x: auto; display: flex; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
   </style>
 </head>
 
 <body class="bg-[#080c10] text-gray-200 min-h-screen flex flex-col font-sans transition-colors duration-200 antialiased selection:bg-emerald-500 selection:text-white">
 
-  <!-- Institutional Top Header -->
-  <header class="sticky top-0 z-40 bg-[#0b0f16]/95 backdrop-blur-md border-b border-[#212836] px-4 lg:px-8 py-3 flex items-center justify-between">
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-40 bg-[#0b0f16]/95 backdrop-blur-md border-b border-[#212836] px-4 lg:px-8 py-3.5 flex items-center justify-between">
     
-    <!-- Left Logo & Title -->
-    <div class="flex items-center space-x-3">
-      <button id="mobile-toggle" class="lg:hidden text-gray-400 hover:text-white p-1.5 rounded-lg bg-[#131a24] border border-[#212836]">
-        <i class="fa-solid fa-bars-staggered text-sm"></i>
+    <!-- Left Brand -->
+    <div class="flex items-center space-x-3.5">
+      <button id="mobile-toggle" class="lg:hidden text-gray-400 hover:text-white focus:outline-none">
+        <i class="fa-solid fa-bars text-lg"></i>
       </button>
-      <div class="flex items-center space-x-3 cursor-pointer" onclick="loadOverview()">
-        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-lg shadow-md shadow-emerald-900/40">
-          🌳
+      <a href="#" onclick="loadOverview(); return false;" class="flex items-center space-x-3 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-400 to-green-700 flex items-center justify-center text-black font-extrabold text-base shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
+          🌲
         </div>
         <div>
-          <div class="flex items-center gap-2">
-            <span class="text-sm font-bold tracking-tight text-white">Mind of Aravalli</span>
-            <span class="text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/25 px-2 py-0.2 rounded-full font-mono">Council Audited</span>
-          </div>
-          <p class="text-[11px] text-gray-400 hidden sm:block">First-Principles Knowledge Tree • 500+ Node Capacity</p>
+          <span class="font-extrabold text-base tracking-tight text-white group-hover:text-emerald-400 transition-colors">MIND OF ARAVALLI</span>
+          <span class="hidden sm:inline-block ml-2 text-[10px] uppercase font-bold tracking-widest px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Master Domains</span>
         </div>
-      </div>
+      </a>
     </div>
 
-    <!-- Right Controls (Search, Reading Depth, GitHub, Theme) -->
-    <div class="flex items-center space-x-3">
-      
-      <!-- Fuzzy Search Modal Trigger -->
-      <button onclick="openSearchModal()" class="flex items-center space-x-2.5 bg-[#0f141c] hover:bg-[#151c27] border border-[#212836] hover:border-emerald-500/40 text-gray-400 hover:text-gray-200 px-3.5 py-1.5 rounded-xl text-xs transition-all w-36 sm:w-64">
-        <i class="fa-solid fa-magnifying-glass text-emerald-400"></i>
-        <span class="truncate">Search 500+ concepts...</span>
-        <kbd class="hidden sm:inline-block ml-auto text-[10px] bg-[#212836] text-gray-300 px-1.5 py-0.5 rounded font-mono">⌘K</kbd>
+    <!-- Center Search Trigger Button -->
+    <div class="flex-1 max-w-md mx-4 hidden md:block">
+      <button onclick="openSearchModal()" class="w-full flex items-center justify-between px-3.5 py-1.5 rounded-xl bg-[#0f141c] border border-[#212836] text-xs text-gray-400 hover:border-emerald-500/40 hover:text-gray-200 transition-all shadow-inner">
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-magnifying-glass text-emerald-400 text-[11px]"></i>
+          <span>Search across all Master Domains & Axioms...</span>
+        </span>
+        <kbd class="font-mono text-[10px] bg-[#1a2230] px-2 py-0.5 rounded text-gray-400 border border-[#2d3748]">Ctrl K</kbd>
       </button>
+    </div>
 
-      <!-- Reading Depth Controller -->
+    <!-- Right Controls -->
+    <div class="flex items-center space-x-3">
+      <!-- Reading Depth Selector -->
       <div class="hidden sm:flex items-center bg-[#0f141c] border border-[#212836] p-1 rounded-xl text-xs">
-        <button id="depth-flash" onclick="setReadingDepth('flash')" class="px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition" title="10-Second Executive Kernel">
-          ⚡ Flash
+        <button id="depth-flash" onclick="setReadingDepth('flash')" class="px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition" title="Executive Kernel">
+          ⚡ Summary
         </button>
-        <button id="depth-visual" onclick="setReadingDepth('visual')" class="px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition" title="2-Minute Visual Blueprint">
-          📊 Visual
-        </button>
-        <button id="depth-deep" onclick="setReadingDepth('deep')" class="px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-medium shadow-sm transition" title="Complete First-Principles Deep Dive">
-          📖 Deep Dive
+        <button id="depth-deep" onclick="setReadingDepth('deep')" class="px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-medium shadow-sm transition" title="Complete Comprehensive Chapter">
+          📖 Master Treatise
         </button>
       </div>
 
@@ -165,7 +153,7 @@
       </a>
 
       <!-- Theme Switcher -->
-      <button onclick="toggleTheme()" class="text-gray-400 hover:text-white p-2 rounded-xl bg-[#0f141c] border border-[#212836] hover:border-emerald-500/40 transition" title="Toggle Dark/Light Mode">
+      <button onclick="toggleTheme()" class="text-gray-400 hover:text-white p-2 rounded-xl bg-[#0f141c] border border-[#212836] hover:border-emerald-500/40 transition" title="Toggle Theme">
         <i id="theme-icon" class="fa-solid fa-moon text-sm"></i>
       </button>
     </div>
@@ -174,48 +162,42 @@
   <!-- Main Split Layout -->
   <div class="flex-1 flex overflow-hidden">
     
-    <!-- Scalable Multi-Domain Sidebar -->
-    <aside id="sidebar" class="fixed inset-y-0 left-0 z-30 w-84 sm:w-96 bg-[#0b0f16] border-r border-[#212836] transform -translate-x-full lg:translate-x-0 lg:static transition-transform duration-200 flex flex-col overflow-hidden">
+    <!-- Sidebar: Clean List of 5 Master Knowledge Domains -->
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-30 w-80 sm:w-88 bg-[#0b0f16] border-r border-[#212836] transform -translate-x-full lg:translate-x-0 lg:static transition-transform duration-200 flex flex-col overflow-hidden">
       
-      <!-- Sidebar Filter Bar -->
-      <div class="p-3.5 border-b border-[#212836] space-y-2.5 bg-[#0f141c]/50">
-        <div class="flex items-center justify-between">
-          <span class="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
-            <i class="fa-solid fa-folder-tree text-emerald-400"></i> Domain Clusters
-          </span>
-          <span id="active-count-badge" class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-950/80 text-emerald-400 font-mono border border-emerald-800/60">Loading...</span>
-        </div>
-
-        <!-- Tier Quick Filter Pills -->
-        <div class="flex items-center gap-1 text-[11px] overflow-x-auto pb-1">
-          <button onclick="filterTier('all')" class="tier-pill active px-2 py-0.5 rounded-md bg-emerald-600 text-white font-medium">All</button>
-          <button onclick="filterTier('roots')" class="tier-pill px-2 py-0.5 rounded-md bg-[#131a24] text-gray-400 hover:text-white">🌱 Roots</button>
-          <button onclick="filterTier('trunk')" class="tier-pill px-2 py-0.5 rounded-md bg-[#131a24] text-gray-400 hover:text-white">🪵 Trunk</button>
-          <button onclick="filterTier('branches')" class="tier-pill px-2 py-0.5 rounded-md bg-[#131a24] text-gray-400 hover:text-white">🌿 Branches</button>
-          <button onclick="filterTier('leaves')" class="tier-pill px-2 py-0.5 rounded-md bg-[#131a24] text-gray-400 hover:text-white">🍃 Leaves</button>
-        </div>
+      <!-- Sidebar Header -->
+      <div class="p-4 border-b border-[#212836] flex items-center justify-between bg-[#0f141c]/50">
+        <span class="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
+          <i class="fa-solid fa-book-open-cover text-emerald-400"></i> Table of Contents
+        </span>
+        <span class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-950/80 text-emerald-400 font-mono border border-emerald-800/60">5 Master Domains</span>
       </div>
 
-      <!-- Domain Group Accordions -->
-      <div class="flex-1 overflow-y-auto p-3 space-y-3" id="cluster-container">
+      <!-- Master Domain List -->
+      <div class="flex-1 overflow-y-auto p-3 space-y-2.5" id="domain-list">
         
-        <!-- Master Map Entry -->
-        <button onclick="loadOverview()" class="w-full text-left flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold bg-[#131a24] text-emerald-400 border border-[#212836] hover:border-emerald-500/40 transition">
-          <span class="flex items-center gap-2"><i class="fa-solid fa-compass"></i> Master Tree Overview</span>
-          <i class="fa-solid fa-arrow-right text-[10px] opacity-70"></i>
+        <!-- Overview Item -->
+        <button onclick="loadOverview()" id="nav-overview" class="w-full text-left p-3 rounded-xl text-xs font-semibold bg-[#131a24] text-emerald-400 border border-[#212836] hover:border-emerald-500/40 transition flex items-center justify-between">
+          <span class="flex items-center gap-2.5">
+            <span class="text-base">🌳</span>
+            <span>Master Knowledge Tree Overview</span>
+          </span>
+          <i class="fa-solid fa-chevron-right text-[10px] opacity-70"></i>
         </button>
 
-        <!-- Dynamic Cluster Groups Inserted Here -->
-        <div id="dynamic-clusters" class="space-y-3"></div>
+        <div class="pt-2 text-[10px] font-bold uppercase tracking-wider text-gray-500 px-1">Core Knowledge Volumes</div>
+
+        <!-- Domains Rendered Dynamically -->
+        <div id="dynamic-domains" class="space-y-2"></div>
 
       </div>
 
-      <!-- Sidebar Institutional Audit Status -->
-      <div class="p-3 bg-[#0f141c] border-t border-[#212836] text-[11px] text-gray-400 flex items-center justify-between">
+      <!-- Sidebar Footer -->
+      <div class="p-3.5 bg-[#0f141c] border-t border-[#212836] text-[11px] text-gray-400 flex items-center justify-between">
         <span class="flex items-center gap-1.5 text-emerald-400">
-          <i class="fa-solid fa-shield-check"></i> Senior Council Audited
+          <i class="fa-solid fa-shield-check"></i> PhD Synthesis Engine
         </span>
-        <span class="font-mono text-gray-500">v2.4 Scalable</span>
+        <span class="font-mono text-gray-500">v3.0 Domain-Level</span>
       </div>
 
     </aside>
@@ -225,7 +207,7 @@
       
       <div class="w-full max-w-4xl">
         
-        <!-- Human Auditor Quality Scorecard -->
+        <!-- Auditor Quality Scorecard -->
         <div id="auditor-scorecard" class="mb-6 p-4 rounded-2xl bg-[#0f141c] border border-[#212836] flex flex-wrap items-center justify-between gap-4 text-xs">
           <div class="flex items-center space-x-3">
             <div class="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center font-bold">
@@ -233,35 +215,32 @@
             </div>
             <div>
               <div class="font-semibold text-white flex items-center gap-2">
-                Senior Council & Auditor Verification
-                <span id="score-badge" class="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] px-1.5 py-0.2 rounded">Epistemic Grade A+</span>
+                Domain Treatise
+                <span class="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] px-1.5 py-0.2 rounded">Epistemic Synthesis</span>
               </div>
-              <p class="text-[11px] text-gray-400">Zero conversational noise • Verified against first-principles axioms • Deduplicated</p>
+              <p class="text-[11px] text-gray-400">Consolidated first-principles • Mathematical derivations • Empirical case studies</p>
             </div>
           </div>
           
           <div class="flex items-center space-x-4 text-[11px] font-mono text-gray-400">
             <span id="score-words">Word Count: 0</span>
             <span class="text-gray-600">•</span>
-            <span id="score-readtime">3 min read</span>
+            <span id="score-readtime">8 min read</span>
           </div>
+        </div>
+
+        <!-- In-Page Table of Contents / Outline -->
+        <div id="inpage-toc" class="mb-8 p-4 rounded-2xl bg-[#0b0f16] border border-[#212836] hidden">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2.5 flex items-center gap-2">
+            <i class="fa-solid fa-list-tree"></i> Chapter Outline & Key Sub-Topics
+          </h4>
+          <div id="toc-links" class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs"></div>
         </div>
 
         <!-- Rendered Note Body -->
         <article id="note-canvas" class="prose-editorial min-h-[400px]">
-          <!-- Note Content Rendered Dynamically -->
+          <!-- Content Rendered Dynamically -->
         </article>
-
-        <!-- Dynamic Lateral Connections Footer -->
-        <div id="lateral-connections" class="mt-14 pt-8 border-t border-[#212836] hidden">
-          <div class="flex items-center justify-between mb-4">
-            <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-2">
-              <i class="fa-solid fa-network-wired text-emerald-400"></i> Interconnected Tree Lattice
-            </h4>
-            <span class="text-[11px] text-gray-500 font-mono">Cross-Domain Isomorphisms</span>
-          </div>
-          <div id="connection-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3.5"></div>
-        </div>
 
       </div>
 
@@ -275,14 +254,14 @@
       
       <div class="p-4 border-b border-[#212836] flex items-center space-x-3 bg-[#131a24]">
         <i class="fa-solid fa-magnifying-glass text-emerald-400"></i>
-        <input id="search-query" type="text" placeholder="Search across all 500+ axioms, models, chemistries, and podcasts..." 
+        <input id="search-query" type="text" placeholder="Search concepts, equations, mental models, or authors..." 
                class="bg-transparent text-white placeholder-gray-500 text-sm focus:outline-none w-full"
                oninput="liveSearch()">
         <button onclick="closeSearchModal()" class="text-gray-400 hover:text-white text-xs bg-[#212836] px-2.5 py-1 rounded-lg">ESC</button>
       </div>
 
       <div id="search-results-box" class="max-h-[450px] overflow-y-auto p-3 space-y-2">
-        <div class="text-center text-xs text-gray-500 py-10">Type any concept, author, formula, or discipline to search the Knowledge Tree.</div>
+        <div class="text-center text-xs text-gray-500 py-10">Type any concept or domain to search.</div>
       </div>
 
     </div>
@@ -292,7 +271,6 @@
   <script>
     let registryData = null;
     let activeNode = null;
-    let currentTierFilter = 'all';
     let currentReadingDepth = 'deep';
 
     async function bootstrap() {
@@ -300,8 +278,7 @@
         const resp = await fetch('data/knowledge-registry.json');
         registryData = await resp.json();
         
-        document.getElementById('active-count-badge').innerText = `${registryData.nodes.length} Verified Nodes`;
-        renderDomainClusters();
+        renderDomainSidebar();
 
         const hash = window.location.hash.replace('#', '');
         if (hash && registryData.nodes.some(n => n.id === hash)) {
@@ -324,58 +301,32 @@
       });
     }
 
-    // Render Clustered Accordion Sidebar
-    function renderDomainClusters() {
-      const container = document.getElementById('dynamic-clusters');
+    // Render Clean List of 5 Master Domains
+    function renderDomainSidebar() {
+      const container = document.getElementById('dynamic-domains');
       container.innerHTML = '';
 
-      // Group nodes by domain
-      const grouped = {};
       registryData.nodes.forEach(node => {
-        if (currentTierFilter !== 'all' && node.tier !== currentTierFilter) return;
-        if (!grouped[node.domain]) grouped[node.domain] = [];
-        grouped[node.domain].push(node);
-      });
-
-      Object.keys(grouped).forEach((domain, idx) => {
-        const nodes = grouped[domain];
-        const groupWrapper = document.createElement('div');
-        groupWrapper.className = 'bg-[#0f141c] border border-[#212836] rounded-xl overflow-hidden';
-        
-        groupWrapper.innerHTML = `
-          <button onclick="toggleAccordion('acc-${idx}')" class="w-full text-left px-3 py-2.5 flex items-center justify-between text-xs font-semibold text-gray-300 hover:text-white hover:bg-[#151c27] transition">
-            <span class="flex items-center gap-2 truncate">
-              <i class="fa-solid fa-layer-group text-emerald-400 text-[10px]"></i>
-              <span class="truncate">${domain}</span>
-            </span>
-            <span class="text-[10px] px-1.5 py-0.2 rounded bg-[#212836] text-gray-400 font-mono">${nodes.length}</span>
+        const item = document.createElement('div');
+        item.innerHTML = `
+          <button id="nav-item-${node.id}" onclick="loadNode('${node.id}')" class="w-full text-left p-3 rounded-xl text-xs bg-[#0f141c] text-gray-300 border border-[#212836] hover:border-emerald-500/40 hover:text-white transition flex items-start space-x-3 group">
+            <span class="text-lg p-1.5 rounded-lg bg-[#131a24] text-emerald-400 group-hover:bg-emerald-500/10 group-hover:text-emerald-300 transition">${node.icon}</span>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-200 group-hover:text-white truncate">${node.title}</div>
+              <div class="text-[11px] text-gray-400 line-clamp-1 mt-0.5">${node.domain}</div>
+              <div class="flex items-center space-x-2 text-[10px] text-gray-500 mt-1 font-mono">
+                <span>${node.readTime}</span>
+                <span>•</span>
+                <span>${node.sections ? node.sections.length : 5} sub-sections</span>
+              </div>
+            </div>
           </button>
-          <div id="acc-${idx}" class="accordion-content px-2 pb-2 pt-1 space-y-1">
-            ${nodes.map(n => `
-              <button id="nav-item-${n.id}" onclick="loadNode('${n.id}')" class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs text-gray-400 hover:text-white hover:bg-[#1a2230] transition flex items-center space-x-2 truncate">
-                <span class="text-[11px] opacity-80">${n.icon}</span>
-                <span class="truncate">${n.title}</span>
-              </button>
-            `).join('')}
-          </div>
         `;
-        container.appendChild(groupWrapper);
+        container.appendChild(item);
       });
     }
 
-    function toggleAccordion(id) {
-      const el = document.getElementById(id);
-      el.classList.toggle('collapsed');
-    }
-
-    function filterTier(tier) {
-      currentTierFilter = tier;
-      document.querySelectorAll('.tier-pill').forEach(p => p.className = 'tier-pill px-2 py-0.5 rounded-md bg-[#131a24] text-gray-400 hover:text-white text-[11px]');
-      event.target.className = 'tier-pill active px-2 py-0.5 rounded-md bg-emerald-600 text-white font-medium text-[11px]';
-      renderDomainClusters();
-    }
-
-    // Load Specific Node
+    // Load Master Domain
     async function loadNode(nodeId) {
       activeNode = registryData.nodes.find(n => n.id === nodeId);
       if (!activeNode) { loadOverview(); return; }
@@ -383,34 +334,60 @@
       window.location.hash = nodeId;
       if (window.innerWidth < 1024) document.getElementById('sidebar').classList.add('-translate-x-full');
 
-      // Update sidebar highlight
-      document.querySelectorAll('#dynamic-clusters button').forEach(b => b.classList.remove('bg-emerald-950/70', 'text-emerald-300', 'font-medium'));
+      // Update sidebar highlights
+      document.querySelectorAll('#sidebar button').forEach(b => b.classList.remove('border-emerald-500', 'bg-emerald-950/30', 'text-white'));
       const activeBtn = document.getElementById(`nav-item-${activeNode.id}`);
-      if (activeBtn) activeBtn.classList.add('bg-emerald-950/70', 'text-emerald-300', 'font-medium');
+      if (activeBtn) activeBtn.classList.add('border-emerald-500', 'bg-emerald-950/30', 'text-white');
 
       // Update scorecard
-      document.getElementById('score-words').innerText = `Words: ${activeNode.wordCount}`;
+      document.getElementById('score-words').innerText = `Word Count: ${activeNode.wordCount}`;
       document.getElementById('score-readtime').innerText = activeNode.readTime;
       document.getElementById('auditor-scorecard').classList.remove('hidden');
+
+      // Render In-Page TOC
+      renderInPageTOC(activeNode);
 
       try {
         const resp = await fetch(activeNode.path);
         const md = await resp.text();
         renderArticle(md);
-        renderLateralLattice(activeNode);
       } catch (err) {
-        document.getElementById('note-canvas').innerHTML = `<div class="p-8 text-center text-red-400">Failed to load note content.</div>`;
+        document.getElementById('note-canvas').innerHTML = `<div class="p-8 text-center text-red-400">Failed to load domain content.</div>`;
       }
     }
 
-    // Load Overview
+    // Render In-Page TOC
+    function renderInPageTOC(node) {
+      const tocBox = document.getElementById('inpage-toc');
+      const tocLinks = document.getElementById('toc-links');
+      
+      if (node.sections && node.sections.length > 0) {
+        tocBox.classList.remove('hidden');
+        tocLinks.innerHTML = node.sections.map(sec => {
+          const cleanAnchor = sec.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+          return `
+            <a href="#${cleanAnchor}" class="text-gray-400 hover:text-emerald-400 py-1 px-2 rounded hover:bg-[#131a24] transition truncate flex items-center gap-2">
+              <i class="fa-solid fa-angle-right text-[10px] text-emerald-500"></i>
+              <span class="truncate">${sec}</span>
+            </a>
+          `;
+        }).join('');
+      } else {
+        tocBox.classList.add('hidden');
+      }
+    }
+
+    // Load Overview Index
     async function loadOverview() {
       activeNode = null;
       window.location.hash = '';
       if (window.innerWidth < 1024) document.getElementById('sidebar').classList.add('-translate-x-full');
 
       document.getElementById('auditor-scorecard').classList.add('hidden');
-      document.getElementById('lateral-connections').classList.add('hidden');
+      document.getElementById('inpage-toc').classList.add('hidden');
+
+      document.querySelectorAll('#sidebar button').forEach(b => b.classList.remove('border-emerald-500', 'bg-emerald-950/30', 'text-white'));
+      document.getElementById('nav-overview').classList.add('border-emerald-500', 'bg-emerald-950/30', 'text-white');
 
       try {
         const resp = await fetch('knowledge-tree/INDEX.md');
@@ -421,27 +398,20 @@
       }
     }
 
-    // Render Article with KaTeX, Alerts, Wikilinks & Mermaid
+    // Render Article with KaTeX, Alerts & Mermaid
     function renderArticle(rawMd) {
       let processed = rawMd;
 
-      // Handle Progressive Reading Depth Filtering
       if (currentReadingDepth === 'flash' && activeNode) {
-        processed = `# ⚡ Executive Kernel: ${activeNode.title}\n\n> **First-Principles Axiom**: ${activeNode.summary}\n\n## Core Actionable Heuristic\n- Optimize for high-leverage physical and structural invariants rather than localized symptoms.\n\n*Switch to [Visual] or [Deep Dive] at top right for complete technical proofs.*`;
+        processed = `# ⚡ Executive Synthesis: ${activeNode.title}\n\n> **Domain Invariant**: ${activeNode.summary}\n\n## Key Architectural Sections\n${activeNode.sections ? activeNode.sections.map(s => `- **${s}**`).join('\n') : ''}\n\n*Switch to [Master Treatise] at top right for complete technical derivations, equations, and visual diagrams.*`;
       }
 
       // Convert Alerts
       processed = processed
-        .replace(/> \[!NOTE\]\n> (.*)/g, '<div class="alert-card alert-note"><strong class="text-blue-400"><i class="fa-solid fa-info-circle mr-1"></i> Auditor Context:</strong> $1</div>')
-        .replace(/> \[!IMPORTANT\]\n> (.*)/g, '<div class="alert-card alert-important"><strong class="text-purple-400"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Critical Invariant:</strong> $1</div>')
+        .replace(/> \[!NOTE\]\n> (.*)/g, '<div class="alert-card alert-note"><strong class="text-blue-400"><i class="fa-solid fa-info-circle mr-1"></i> Context:</strong> $1</div>')
+        .replace(/> \[!IMPORTANT\]\n> (.*)/g, '<div class="alert-card alert-important"><strong class="text-purple-400"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Invariant:</strong> $1</div>')
         .replace(/> \[!TIP\]\n> (.*)/g, '<div class="alert-card alert-tip"><strong class="text-emerald-400"><i class="fa-solid fa-lightbulb mr-1"></i> Heuristic:</strong> $1</div>')
-        .replace(/> \[!WARNING\]\n> (.*)/g, '<div class="alert-card alert-warning"><strong class="text-amber-400"><i class="fa-solid fa-circle-exclamation mr-1"></i> Boundary Constraint:</strong> $1</div>');
-
-      // Convert Wikilinks [[target]]
-      processed = processed.replace(/\[\[(.*?)\]\]/g, (match, slug) => {
-        const cleanSlug = slug.trim().toLowerCase().replace(/\s+/g, '-');
-        return `<span class="wikilink-badge" onclick="loadNode('${cleanSlug}')"><i class="fa-solid fa-link text-[10px]"></i> ${slug}</span>`;
-      });
+        .replace(/> \[!WARNING\]\n> (.*)/g, '<div class="alert-card alert-warning"><strong class="text-amber-400"><i class="fa-solid fa-circle-exclamation mr-1"></i> Constraint:</strong> $1</div>');
 
       marked.setOptions({ gfm: true, breaks: true });
       const rawHtml = marked.parse(processed);
@@ -450,7 +420,19 @@
       const canvas = document.getElementById('note-canvas');
       canvas.innerHTML = cleanHtml;
 
-      // KaTeX Math Rendering
+      // Transform Mermaid Code Blocks
+      const codeBlocks = canvas.querySelectorAll('pre code.language-mermaid');
+      codeBlocks.forEach((block, index) => {
+        const pre = block.parentElement;
+        const code = block.textContent;
+        const div = document.createElement('div');
+        div.className = 'mermaid-viewport';
+        div.id = `mermaid-${index}`;
+        div.textContent = code;
+        pre.replaceWith(div);
+      });
+
+      // Render KaTeX Math
       if (window.renderMathInElement) {
         renderMathInElement(canvas, {
           delimiters: [
@@ -463,77 +445,36 @@
         });
       }
 
-      // Mermaid Rendering
-      renderMermaidBlocks();
-    }
-
-    function renderMermaidBlocks() {
-      mermaid.initialize({
-        startOnLoad: false,
-        theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
-        themeVariables: {
-          darkMode: true,
-          background: '#0b0f16',
-          primaryColor: '#10b981',
-          primaryTextColor: '#ffffff',
-          lineColor: '#64748b'
-        }
-      });
-
-      document.querySelectorAll('#note-canvas pre code.language-mermaid').forEach((block, idx) => {
-        const code = block.textContent;
-        const parent = block.parentElement;
-        const wrapper = document.createElement('div');
-        wrapper.className = 'mermaid-viewport';
-        const graphId = `mermaid-svg-${idx}-${Date.now()}`;
-
-        mermaid.render(graphId, code).then(({ svg }) => {
-          wrapper.innerHTML = svg;
-          parent.replaceWith(wrapper);
-        }).catch(err => {
-          console.warn('Mermaid skipped:', err);
+      // Render Mermaid Diagrams
+      if (window.mermaid) {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: 'dark',
+          themeVariables: {
+            darkMode: true,
+            background: '#0b0f16',
+            primaryColor: '#10b981',
+            primaryTextColor: '#ffffff',
+            primaryBorderColor: '#059669',
+            lineColor: '#34d399',
+            secondaryColor: '#1e293b',
+            tertiaryColor: '#0f172a'
+          }
         });
-      });
-    }
-
-    function renderLateralLattice(node) {
-      const footer = document.getElementById('lateral-connections');
-      const grid = document.getElementById('connection-grid');
-      grid.innerHTML = '';
-
-      if (!node.connections || node.connections.length === 0) {
-        footer.classList.add('hidden');
-        return;
+        mermaid.run({ querySelector: '.mermaid-viewport' });
       }
-
-      node.connections.forEach(connId => {
-        const target = registryData.nodes.find(n => n.id === connId);
-        if (target) {
-          const card = document.createElement('div');
-          card.className = 'bg-[#0f141c] border border-[#212836] hover:border-emerald-500/50 p-4 rounded-xl cursor-pointer transition-all hover:-translate-y-0.5 shadow-sm';
-          card.onclick = () => loadNode(target.id);
-          card.innerHTML = `
-            <div class="flex items-center justify-between text-[10px] text-emerald-400 font-mono uppercase mb-1">
-              <span>${target.icon} ${target.tierLabel}</span>
-              <span class="text-gray-500">${target.readTime}</span>
-            </div>
-            <h5 class="text-xs font-semibold text-white mb-1">${target.title}</h5>
-            <p class="text-[11px] text-gray-400 line-clamp-2">${target.summary}</p>
-          `;
-          grid.appendChild(card);
-        }
-      });
-
-      footer.classList.remove('hidden');
     }
 
     function setReadingDepth(depth) {
       currentReadingDepth = depth;
-      document.querySelectorAll('#depth-flash, #depth-visual, #depth-deep').forEach(btn => {
-        btn.className = 'px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition';
-      });
-      document.getElementById(`depth-${depth}`).className = 'px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-medium shadow-sm transition';
-      if (activeNode) loadNode(activeNode.id);
+      document.getElementById('depth-flash').className = depth === 'flash' ? 'px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-medium shadow-sm transition' : 'px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition';
+      document.getElementById('depth-deep').className = depth === 'deep' ? 'px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-medium shadow-sm transition' : 'px-2.5 py-1 rounded-lg text-gray-400 hover:text-white transition';
+      
+      if (activeNode) {
+        loadNode(activeNode.id);
+      } else {
+        loadOverview();
+      }
     }
 
     function openSearchModal() {
@@ -549,44 +490,47 @@
 
     function liveSearch() {
       const q = document.getElementById('search-query').value.toLowerCase().trim();
-      const results = document.getElementById('search-results-box');
-
-      if (!q) {
-        results.innerHTML = `<div class="text-center text-xs text-gray-500 py-10">Type any concept or keyword...</div>`;
+      const resultsBox = document.getElementById('search-results-box');
+      if (!q || !registryData) {
+        resultsBox.innerHTML = '<div class="text-center text-xs text-gray-500 py-10">Type any concept or domain to search.</div>';
         return;
       }
 
-      const matches = registryData.nodes.filter(n =>
-        n.title.toLowerCase().includes(q) ||
+      const matches = registryData.nodes.filter(n => 
+        n.title.toLowerCase().includes(q) || 
+        n.domain.toLowerCase().includes(q) || 
         n.summary.toLowerCase().includes(q) ||
-        n.domain.toLowerCase().includes(q)
+        (n.sections && n.sections.some(s => s.toLowerCase().includes(q)))
       );
 
       if (matches.length === 0) {
-        results.innerHTML = `<div class="text-center text-xs text-gray-500 py-10">No matching concepts found.</div>`;
+        resultsBox.innerHTML = '<div class="text-center text-xs text-gray-400 py-8">No matching domains found.</div>';
         return;
       }
 
-      results.innerHTML = matches.map(n => `
-        <div onclick="loadNode('${n.id}'); closeSearchModal();" 
-             class="p-3 rounded-xl hover:bg-[#151c27] cursor-pointer transition flex items-start space-x-3 border border-transparent hover:border-[#212836]">
-          <span class="text-lg mt-0.5">${n.icon}</span>
-          <div class="flex-1 min-w-0">
-            <div class="flex items-center space-x-2">
-              <span class="text-xs font-bold text-white truncate">${n.title}</span>
-              <span class="text-[9px] px-1.5 py-0.2 rounded bg-[#212836] text-emerald-400 font-mono">${n.domain}</span>
-            </div>
-            <p class="text-[11px] text-gray-400 truncate mt-0.5">${n.summary}</p>
+      resultsBox.innerHTML = matches.map(m => `
+        <div onclick="loadNode('${m.id}'); closeSearchModal();" class="p-3 bg-[#131a24] hover:bg-[#1a2230] border border-[#212836] rounded-xl cursor-pointer transition flex items-start space-x-3">
+          <span class="text-base p-1 rounded bg-[#0b0f16]">${m.icon}</span>
+          <div>
+            <div class="text-xs font-semibold text-emerald-400">${m.title}</div>
+            <div class="text-[11px] text-gray-400 mt-0.5 line-clamp-1">${m.summary}</div>
+            <div class="text-[10px] text-gray-500 mt-1 font-mono">${m.domain} • ${m.readTime}</div>
           </div>
         </div>
       `).join('');
     }
 
     function toggleTheme() {
-      const isDark = document.documentElement.classList.toggle('dark');
-      document.documentElement.classList.toggle('light', !isDark);
-      document.getElementById('theme-icon').className = isDark ? 'fa-solid fa-moon text-sm' : 'fa-solid fa-sun text-sm text-amber-400';
-      renderMermaidBlocks();
+      const html = document.documentElement;
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        html.classList.add('light');
+        document.getElementById('theme-icon').className = 'fa-solid fa-sun text-sm text-amber-400';
+      } else {
+        html.classList.remove('light');
+        html.classList.add('dark');
+        document.getElementById('theme-icon').className = 'fa-solid fa-moon text-sm';
+      }
     }
 
     window.addEventListener('DOMContentLoaded', bootstrap);
