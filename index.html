@@ -213,13 +213,13 @@
                 "chapterSlug": "universe-physics",
                 "chapterTitle": "Universe & Physics",
                 "difficulty": "INTERMEDIATE",
-                "oneLiner": "Entropy measures how many microscopic arrangements can produce the larger-scale state we observe. In an isolated system, processes naturally drift toward the state that corresponds to the overwhelmingly largest number of accessible microscopic configurations.",
+                "oneLiner": "Entropy measures how many microscopic arrangements can produce the larger-scale state we observe. In an isolated system, processes naturally drift toward the macroscopic state that corresponds to the overwhelmingly largest number of accessible microscopic configurations.",
                 "whyItMatters": "Understanding entropy unlocks the physical foundation for heat engines, refrigeration, chemical equilibrium, data compression limits, and why time has a fixed forward direction.",
-                "intuition": "### The Physical Puzzle: Why Does Gas Spread?\nImagine a glass partition dividing a sealed box into two equal halves. The left half is filled with gas; the right half is a complete vacuum. \n\nWhen you slide the partition open, the gas molecules immediately rush across the boundary until they are evenly spread throughout the entire box. \n\nWhy does this happen? There is no attractive force pulling molecules into the empty half. No molecule \"knows\" the right side is empty. Every molecule simply continues colliding and bouncing according to basic mechanical laws. \n\nYet, you will never in human history see all the gas molecules spontaneously gather back into the left half of the box.\n\n### The Mental Model: Distinguishable Coins & Shuffled Cards\nImagine a brand new deck of playing cards arranged in pristine numerical order by suit. There is only **1 exact sequence** that is considered \"perfectly sorted.\" \n\nHowever, there are roughly $8 \\times 10^{67}$ possible ways to shuffle the cards into an unsorted arrangement. If you drop the deck onto the floor, the cards will land in an unsorted state—not because of a mysterious destructive force, but simply because unsorted configurations overwhelmingly outnumber sorted ones by an unfathomable ratio.\n\n### Where This Mental Model Stops Being Accurate\nPlaying cards sitting on a floor are completely static; they have no thermal energy and do not collide with one another. Gas molecules, by contrast, are in constant, violent motion, undergoing roughly $10^9$ elastic collisions per second at room temperature. This constant thermal agitation causes the gas system to continuously explore different microscopic configurations at immense speed.",
-                "example": "**Everyday Observation**: A drop of blue ink spreading in a glass of clear water.\n- **Analogy Boundary**: The ink spreading looks continuous, but beneath the surface it is driven by trillions of random water molecule collisions (Brownian motion) pushing ink molecules into the overwhelmingly larger volume of clear water.",
-                "howItWorks": "### The Step-by-Step Mechanism\n\n1. **The Starting State (Low Entropy)**:\n   All gas molecules are confined to the left half of the container. The number of accessible microscopic positions is strictly restricted.\n2. **Partition Removed**:\n   Molecules cross the boundary via ordinary thermal velocity.\n3. **Randomization Through Collisions**:\n   Molecules collide elastically with each other and the container walls, randomizing their positions and velocities across the entire combined volume.\n4. **Statistical Dominance of Equilibrium**:\n   As the molecules explore all accessible spatial coordinates, the system enters macroscopic states that have the highest number of microscopic configurations.\n\n---\n\n### The Concrete Worked Example: 10-Particle Toy Model\n\nConsider a simplified container divided into a Left side ($L$) and a Right side ($R$), containing just **10 distinguishable gas particles** labeled A through J.\n\n- A **Microstate** is the exact list of which specific particles are in which half (e.g. Particles A, B, C in Left; D through J in Right).\n- A **Macrostate** is the total number of particles on the Left side ($N_L$), regardless of their identity.\n\nThe total number of possible microstates for 10 particles is:\n$$2^{10} = 1024 \\text{ microstates}$$\n\nLet us count the number of microstates (the multiplicity $\\Omega$) for each macrostate using the binomial coefficient $\\binom{10}{N_L}$:\n\n| Macrostate ($N_L$) | Number of Microstates ($\\Omega$) | Probability | Physical State |\n| :--- | :--- | :--- | :--- |\n| **10 Left, 0 Right** | $\\binom{10}{10} = 1$ | $1 / 1024 \\approx 0.1\\%$ | All particles in original corner |\n| **9 Left, 1 Right** | $\\binom{10}{9} = 10$ | $10 / 1024 \\approx 1.0\\%$ | Highly unbalanced |\n| **8 Left, 2 Right** | $\\binom{10}{8} = 45$ | $45 / 1024 \\approx 4.4\\%$ | Unbalanced |\n| **7 Left, 3 Right** | $\\binom{10}{7} = 120$ | $120 / 1024 \\approx 11.7\\%$ | Slight fluctuation |\n| **6 Left, 4 Right** | $\\binom{10}{6} = 210$ | $210 / 1024 \\approx 20.5\\%$ | Near equilibrium |\n| **5 Left, 5 Right** | $\\binom{10}{5} = 252$ | $252 / 1024 \\approx 24.6\\%$ | **Equilibrium (Even Spread)** |\n\n### Key Takeaway from the Toy Model:\n- The evenly distributed state ($5L, 5R$) has **252 microstates**.\n- The all-in-one-corner state ($10L, 0R$) has only **1 microstate**.\n- Therefore, the equilibrium state is **252 times more likely** than the initial unmixed state.\n\n---\n\n### Scaling to Avogadro-Scale Systems ($N = 10^{23}$)\nWhen you scale from 10 particles to a real mole of gas ($N \\approx 6.022 \\times 10^{23}$ particles):\n- The multiplicity of the 50/50 evenly distributed macrostate is roughly $2^{10^{23}}$.\n- The peak around the 50/50 state becomes so unimaginably sharp that the probability of seeing even a $0.001\\%$ deviation from uniform density is less than 1 in $10^{10^{20}}$.\n- **Macroscopic irreversibility is statistical certainty, not a mysterious physical force.**\n\n---\n\n### What Changes Microscopically vs. Macroscopically:\n- **What moves?** Individual gas molecules with thermal kinetic velocity $v_{\\text{rms}} = \\sqrt{3k_B T / m}$.\n- **Why does it move?** Thermal kinetic energy.\n- **What changes microscopically?** The system continuously changes its specific microstate every femtosecond.\n- **What changes macroscopically?** Density and pressure equalize throughout the volume; macroscopic observable properties become static.\n- **What remains conserved?** Total energy $E$, total volume $V$, and total particle number $N$.",
-                "firstPrinciples": "### Foundational Axioms of Statistical Mechanics\n\n1. **The Fundamental Assumption of the Microcanonical Ensemble**:\n   For an isolated system in equilibrium with fixed energy $E$, volume $V$, and particle number $N$, **all accessible microstates are equally probable**. No microstate is favored by the laws of physics over any other.\n2. **Microscopic Reversibility vs. Macroscopic Irreversibility**:\n   The underlying laws of motion (Newton's laws, Maxwell's equations, Schrödinger's equation) are strictly time-reversible. If you reverse the velocity vector of every single particle simultaneously, the system would reassemble into the left corner. However, because equilibrium microstates outnumber non-equilibrium microstates by factors of $10^{10^{23}}$, spontaneous reversal never happens in practice.\n\n### Epistemic Categorization:\n- **LAW**: The Second Law of Thermodynamics (for an isolated system, $\\Delta S \\ge 0$).\n- **STATISTICAL RESULT**: Multiplicity $\\Omega$ peaks overwhelmingly at uniform spatial and thermal distribution.\n- **MODEL**: The ideal gas microcanonical ensemble.\n- **INTERPRETATION**: The thermodynamic arrow of time (the universe evolves from a low-entropy initial state at the Big Bang toward higher entropy).",
-                "mathematics": "### 1. What Question Is the Equation Answering?\n*\"How do we mathematically quantify microstate multiplicity so that entropy behaves as an extensive, additive physical property?\"*\n\n---\n\n### 2. Motivation for the Logarithm: The Additivity Proof\n\nConsider two completely independent physical systems, System A and System B:\n- System A has $\\Omega_A$ accessible microstates.\n- System B has $\\Omega_B$ accessible microstates.\n\nBecause the systems are independent, the total number of composite microstates for the combined system $(A+B)$ is multiplicative:\n$$\\Omega_{AB} = \\Omega_A \\times \\Omega_B$$\n\nHowever, in thermodynamics, we demand that extensive properties (like mass, volume, and total energy) are **additive**:\n$$S_{AB} = S_A + S_B$$\n\nThe unique continuous mathematical function that converts multiplication into addition is the **natural logarithm**:\n$$\\ln(\\Omega_A \\cdot \\Omega_B) = \\ln \\Omega_A + \\ln \\Omega_B$$\n\nTherefore, Ludwig Boltzmann defined entropy as:\n$$S = k_B \\ln \\Omega$$\n\n$$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega_B = S_A + S_B$$\n\n---\n\n### 3. Variable Definitions & Units\n\n| Variable | Definition | Units | Physical Role |\n| :--- | :--- | :--- | :--- |\n| **$S$** | Thermodynamic / Statistical Entropy | $\\text{J}/\\text{K}$ (Joules per Kelvin) | Quantifies extensive phase space volume |\n| **$k_B$** | Boltzmann Constant | $1.380649 \\times 10^{-23} \\text{ J}/\\text{K}$ | Bridges microscopic energy ($k_B T$) to macroscopic temperature |\n| **$\\Omega$** | Microstate Multiplicity | Dimensionless integer | Number of quantum/classical microstates for a given macrostate |\n\n---\n\n### 4. The Thermodynamic Definition (Clausius Relation)\n\nIn classical macroscopic thermodynamics (before atomic structure was proven), Rudolf Clausius defined the infinitesimal change in entropy during a reversible heat transfer as:\n\n$$dS = \\frac{\\delta Q_{\\text{rev}}}{T}$$\n\n- **$\\delta Q_{\\text{rev}}$**: Infinitesimal heat energy added reversibly to the system (Joules, $\\text{J}$).\n- **$T$**: Absolute thermodynamic temperature (Kelvin, $\\text{K}$).\n\n**Physical Interpretation**: Adding heat energy $\\delta Q$ to a cold system ($T$ small) increases its microstate multiplicity dramatically (large $dS$), whereas adding the same heat to a hot system ($T$ large) creates a much smaller proportional increase in multiplicity.\n\n---\n\n### 5. Worked Numerical Example: Isothermal Free Expansion\n\nCalculate the entropy change when **1 mole of ideal gas** ($n = 1\\text{ mol}$) doubles its volume ($V_1 \\to 2V_1$) at constant temperature $T = 300\\text{ K}$:\n\n$$\\Delta S = n R \\ln\\left(\\frac{V_2}{V_1}\\right) = (1\\text{ mol}) \\times (8.314\\text{ J}/\\text{mol}\\cdot\\text{K}) \\times \\ln(2)$$\n$$\\Delta S = 8.314 \\times 0.69315 = +5.763 \\text{ J}/\\text{K}$$\n\n**Physical Meaning**: Because the volume doubled, each molecule has twice as many spatial positions available, increasing total multiplicity $\\Omega$ by a factor of $2^{N_A}$, resulting in a positive entropy gain of $+5.76\\text{ J/K}$.\n\n---\n\n### 6. What the Equation Does NOT Tell Us:\n- It does **not** tell us the *rate* or speed of expansion (thermodynamics is independent of time duration).\n- It does **not** track individual particle trajectories; it is strictly an ensemble average.",
+                "intuition": "### 0. The Physical Puzzle: Why Does Gas Spread?\nImagine a glass partition dividing a sealed, rigid box into two equal halves. The left half is filled with gas; the right half is a complete vacuum.\n\nWhen you slide the partition open, the gas molecules immediately rush across the boundary until they are evenly spread throughout the entire box.\n\nWhy does this happen? There is no attractive force pulling molecules into the empty half. No molecule \"knows\" the right side is empty. Every molecule simply continues colliding and bouncing according to basic mechanical laws.\n\nYet, you will never in human history see all the gas molecules spontaneously gather back into the left half of the box. Why is the process strictly irreversible?\n\n### 1. The Mental Model: Distinguishable Coins & Shuffled Cards\nImagine a brand new deck of playing cards arranged in pristine numerical order by suit. There is only **1 exact sequence** that is considered \"perfectly sorted.\"\n\nHowever, there are roughly $8 \\times 10^{67}$ possible ways to shuffle the cards into an unsorted arrangement. If you drop the deck onto the floor, the cards will land in an unsorted state—not because of a mysterious destructive force, but simply because unsorted configurations overwhelmingly outnumber sorted ones by an unfathomable ratio.\n\n### 2. Where This Mental Model Stops Being Accurate\nPlaying cards sitting on a floor are completely static; they have no thermal energy and do not collide with one another. Gas molecules, by contrast, are in constant, violent motion, undergoing roughly $10^9$ elastic collisions per second at room temperature. This constant thermal agitation causes the gas system to continuously explore different microscopic configurations at immense speed.",
+                "example": "**Everyday Observation**: A drop of blue ink spreading in a glass of clear water.\n- **Analogy Boundary**: The ink spreading looks continuous to the eye, but beneath the surface it is driven by trillions of random water molecule collisions (Brownian motion) pushing ink molecules into the overwhelmingly larger volume of clear water.",
+                "howItWorks": "### 3. Step-by-Step Causal Mechanism: The 10-Particle Toy Model\n\nTo understand exactly why systems drift toward equilibrium, consider a simplified container divided into a Left side ($L$) and a Right side ($R$), containing just **10 distinguishable gas particles** labeled A through J.\n\n- A **Microstate** is the exact list of which specific particles are in which half (e.g. Particles A, B, C in Left; D through J in Right).\n- A **Macrostate** is the total number of particles on the Left side ($N_L$), regardless of their individual identities.\n\nThe total number of possible microstates for 10 particles is:\n$$2^{10} = 1024 \\text{ total microstates}$$\n\nLet us count the number of microstates (the multiplicity $\\Omega$) for each macrostate using the binomial coefficient $\\binom{10}{N_L}$:\n\n| Macrostate ($N_L$) | Multiplicity $\\Omega = \\binom{10}{N_L}$ | Probability | Physical State Description |\n| :--- | :--- | :--- | :--- |\n| **10 Left, 0 Right** | $\\binom{10}{10} = 1$ | $1 / 1024 \\approx 0.10\\%$ | All particles in original corner |\n| **9 Left, 1 Right** | $\\binom{10}{9} = 10$ | $10 / 1024 \\approx 0.98\\%$ | Highly unbalanced |\n| **8 Left, 2 Right** | $\\binom{10}{8} = 45$ | $45 / 1024 \\approx 4.39\\%$ | Unbalanced |\n| **7 Left, 3 Right** | $\\binom{10}{7} = 120$ | $120 / 1024 \\approx 11.72\\%$ | Slight fluctuation |\n| **6 Left, 4 Right** | $\\binom{10}{6} = 210$ | $210 / 1024 \\approx 20.51\\%$ | Near equilibrium |\n| **5 Left, 5 Right** | $\\binom{10}{5} = 252$ | $252 / 1024 \\approx 24.61\\%$ | **Equilibrium (Even Spread)** |\n\n---\n\n### The Causal Sequence:\n1. **Initial Non-Equilibrium State**: All particles start in Left ($N_L = 10$). Multiplicity $\\Omega = 1$.\n2. **Thermal Agitation**: Particles bounce randomly between halves. Every microstate is equally likely.\n3. **Statistical Inevitability**: Because there are 252 microstates for $(5L, 5R)$ and only 1 microstate for $(10L, 0R)$, the system is **252 times more likely** to be found near equilibrium than in the corner.\n4. **Scaling to Avogadro Scale ($N = 10^{23}$)**: For a real mole of gas, the multiplicity of the 50/50 macrostate is $\\sim 2^{10^{23}}$. The probability of observing even a $0.001\\%$ spontaneous fluctuation away from uniform density is less than 1 in $10^{10^{20}}$—a statistical impossibility over the age of the universe.\n\n---\n\n### What Changes Microscopically vs. Macroscopically:\n- **What moves?** Individual gas molecules with thermal kinetic velocity $v_{\\text{rms}} = \\sqrt{3k_B T / m}$.\n- **Why does it move?** Thermal kinetic energy.\n- **What changes microscopically?** The system continuously changes its specific microstate every femtosecond.\n- **What changes macroscopically?** Density and pressure equalize throughout the volume; macroscopic observable properties become static.\n- **What remains conserved?** Total energy $E$, total volume $V$, and total particle number $N$.",
+                "firstPrinciples": "### 4. Foundational Axioms of Statistical Mechanics\n\n1. **The Fundamental Assumption of the Microcanonical Ensemble**:\n   For an isolated system in equilibrium with fixed energy $E$, volume $V$, and particle number $N$, **all accessible microstates are equally probable**. The laws of physics do not favor any single microstate over another.\n2. **Microscopic Reversibility vs. Macroscopic Irreversibility**:\n   The underlying laws of motion (Newtonian mechanics, Maxwell's electrodynamics, Schrödinger's wave mechanics) are time-reversible. If you instantaneously reversed the velocity vector of every single particle, the system would reassemble into the left corner. However, because equilibrium microstates outnumber non-equilibrium microstates by factors of $10^{10^{23}}$, spontaneous reversal is statistically impossible.\n\n### Epistemic Categorization:\n- **LAW**: The Second Law of Thermodynamics (for an isolated system, $\\Delta S \\ge 0$).\n- **STATISTICAL RESULT**: Multiplicity $\\Omega$ peaks overwhelmingly at uniform spatial and thermal distribution.\n- **MODEL**: The ideal gas microcanonical ensemble.\n- **INTERPRETATION**: The thermodynamic arrow of time (the universe evolves from a low-entropy initial state at the Big Bang toward higher entropy).",
+                "mathematics": "### 1. What Question Is the Equation Answering?\n*\"How do we mathematically quantify microstate multiplicity so that entropy behaves as an extensive, additive physical property?\"*\n\n---\n\n### 2. Derivation: Why the Logarithm Appears\n\nConsider two completely independent physical systems, System A and System B:\n- System A has $\\Omega_A$ accessible microstates.\n- System B has $\\Omega_B$ accessible microstates.\n\nBecause the two systems are independent, the total number of composite microstates for the combined system $(A+B)$ is multiplicative:\n$$\\Omega_{AB} = \\Omega_A \\times \\Omega_B$$\n\nHowever, in thermodynamics, we demand that extensive physical properties (like mass, volume, and total energy) are **additive**:\n$$S_{AB} = S_A + S_B$$\n\nThe unique continuous mathematical function that converts multiplication into addition is the **natural logarithm**:\n$$\\ln(\\Omega_A \\cdot \\Omega_B) = \\ln \\Omega_A + \\ln \\Omega_B$$\n\nTherefore, Ludwig Boltzmann defined statistical entropy as:\n$$S = k_B \\ln \\Omega$$\n\n$$S_{AB} = k_B \\ln(\\Omega_A \\Omega_B) = k_B \\ln \\Omega_A + k_B \\ln \\Omega_B = S_A + S_B$$\n\n---\n\n### 3. Variable Definitions & Units\n\n| Symbol | Definition | Physical Units | Role |\n| :--- | :--- | :--- | :--- |\n| **$S$** | Thermodynamic / Statistical Entropy | $\\text{J}/\\text{K}$ (Joules per Kelvin) | Quantifies extensive phase space volume |\n| **$k_B$** | Boltzmann Constant | $1.380649 \\times 10^{-23} \\text{ J}/\\text{K}$ | Bridges microscopic energy ($k_B T$) to macroscopic temperature |\n| **$\\Omega$** | Microstate Multiplicity | Dimensionless integer | Number of quantum/classical microstates for a given macrostate |\n\n---\n\n### 4. The Thermodynamic Relation (Clausius Definition)\n\nIn classical macroscopic thermodynamics, Rudolf Clausius defined the infinitesimal change in entropy during a reversible heat transfer as:\n\n$$dS = \\frac{\\delta Q_{\\text{rev}}}{T}$$\n\n- **$\\delta Q_{\\text{rev}}$**: Infinitesimal heat energy added reversibly to the system (Joules, $\\text{J}$).\n- **$T$**: Absolute thermodynamic temperature (Kelvin, $\\text{K}$).\n\n**Physical Interpretation**: Adding heat energy $\\delta Q$ to a cold system ($T$ small) increases its microstate multiplicity dramatically (large $dS$), whereas adding the same heat to a hot system ($T$ large) creates a much smaller proportional increase in multiplicity.\n\n---\n\n### 5. Worked Numerical Calculation: Isothermal Free Expansion\n\nCalculate the entropy change when **1 mole of ideal gas** ($n = 1\\text{ mol}$) doubles its volume ($V_1 \\to 2V_1$) at constant temperature $T = 300\\text{ K}$:\n\n$$\\Delta S = n R \\ln\\left(\\frac{V_2}{V_1}\\right) = (1\\text{ mol}) \\times (8.314\\text{ J}/\\text{mol}\\cdot\\text{K}) \\times \\ln(2)$$\n$$\\Delta S = 8.314 \\times 0.69315 = +5.763 \\text{ J}/\\text{K}$$\n\n**Physical Meaning**: Because the volume doubled, each molecule has twice as many spatial positions available, increasing total multiplicity $\\Omega$ by a factor of $2^{N_A}$, resulting in a positive entropy gain of $+5.76\\text{ J/K}$.\n\n---\n\n### 6. What the Equation Does NOT Tell Us:\n- It does **not** tell us the *rate* or speed of expansion (thermodynamics is independent of time duration).\n- It does **not** track individual particle trajectories; it is strictly an ensemble average.",
                 "misconceptions": "**MISCONCEPTION**: \"Entropy is disorder or messiness.\"\n**CORRECTION**: While \"disorder\" is a common visual shorthand, entropy strictly measures the mathematical multiplicity ($\\Omega$) of microscopic configurations compatible with macroscopic constraints. Highly ordered structures (like ice crystals freezing at sub-zero temperatures) form spontaneously because the latent heat released to the surrounding environment increases the surrounding microstate multiplicity by more than the crystal loses internally.\n**WHY THE CONFUSION HAPPENS**: Shuffled cards, messy rooms, and broken mugs look \"disordered\" to human eyes, creating the false intuition that entropy is a subjective aesthetic property rather than a rigorous physical counting of states.\n\n---\n\n**MISCONCEPTION**: \"Life violates the Second Law of Thermodynamics by creating biological order.\"\n**CORRECTION**: The Second Law strictly applies to **isolated systems**. Living organisms are **open systems** that continuously take in low-entropy energy (food, sunlight) and dissipate high-entropy thermal waste into the environment. The net entropy change of the organism plus its surroundings is strictly positive ($\\Delta S_{\\text{total}} > 0$).\n**WHY THE CONFUSION HAPPENS**: People mistakenly evaluate the cell or organism in isolation rather than including the energetic throughput from its environment.\n\n---\n\n### If You Remember Only Five Things:\n1. **Entropy is state multiplicity**: $S = k_B \\ln \\Omega$ measures how many microscopic arrangements correspond to the macroscopic state you see.\n2. **Equilibrium is statistical dominance**: Closed systems evolve toward equilibrium simply because equilibrium microstates outnumber all other microstates by astronomical proportions.\n3. **The logarithm ensures additivity**: The log converts multiplicative microstate probabilities ($\\Omega_A \\cdot \\Omega_B$) into additive thermodynamic entropy ($S_A + S_B$).\n4. **Irreversibility emerges from scale**: While microscopic particle collisions are reversible, macroscopic reversal is statistically impossible for $10^{23}$ particles.\n5. **Life is an open entropy pump**: Living things maintain internal order by continuously exporting entropy to their surrounding environment.\n\n---\n\n### Questions to Test Your Understanding:\n1. *Why doesn't a glass of lukewarm water spontaneously separate into boiling water on top and ice on the bottom, even though energy would be conserved?*\n2. *If all accessible microstates are equally probable, why do we almost never observe a non-equilibrium state in macroscopic systems?*\n3. *What would happen to the additivity of entropy if we defined $S = k_B \\Omega$ instead of $S = k_B \\ln \\Omega$?*\n4. *Can entropy decrease inside a local subsystem? What must happen to the rest of the universe if it does?*",
                 "sources": [
                         {
@@ -237,13 +237,13 @@
                 "chapterTitle": "Universe & Physics",
                 "difficulty": "FOUNDATION",
                 "oneLiner": "Matter is anything that possesses mass and occupies physical space; energy is the conserved mathematical quantity that measures a system's capacity to perform mechanical work or transfer heat.",
-                "whyItMatters": "Understanding mass-energy equivalence ($E = mc^2$) and the First Law of Thermodynamics is the foundational basis of all chemistry, particle physics, nuclear energy, and cosmology.",
-                "intuition": "### What Should You Imagine?\nThink of matter as physical building blocks and energy as the universal currency that allows those blocks to move, vibrate, or change structure. \n\nBefore 1905, physics treated matter and energy as two separate universes: mass was conserved (Lavoisier), and energy was conserved (Joule). Albert Einstein's Special Relativity revealed that mass and energy are two different expressions of the **same single underlying physical property**. \n\nMass can be converted into energy, and energy can condense into mass.\n\n### Analogy & Its Boundaries\n- **Analogy**: Ice and water vapor. They look completely different and have different mechanical properties, but both are made of the exact same chemical substance ($H_2O$) in different states.\n- **Where the Analogy Stops**: Ice and water vapor are physical phases of molecules. Mass and energy are fundamental relativistic properties of spacetime itself.",
-                "example": "Mass defect in helium nucleosynthesis and nuclear binding energy.",
-                "howItWorks": "### Step-by-Step Mechanism: Nuclear Binding Energy\n\n1. **The Starting Nucleus**: A helium nucleus ($^4\\text{He}$) consists of 2 protons and 2 neutrons.\n2. **Weighing the Individual Parts**: If you weigh 2 free protons and 2 free neutrons separately, their combined mass is $4.03188\\text{ u}$.\n3. **Weighing the Bound Nucleus**: When bound together into a helium nucleus, the measured mass is $4.00151\\text{ u}$.\n4. **The Mass Defect ($\\Delta m$)**: A mass of $0.03037\\text{ u}$ has completely disappeared!\n5. **Energy Release**: The missing mass was converted into binding energy ($E = \\Delta m c^2$) and radiated away as energetic gamma photons during nucleosynthesis.\n\n- **What moved?** Nucleons assembled under the Strong Nuclear Force.\n- **What changed microscopically?** Potential energy in the nuclear field decreased.\n- **What changed macroscopically?** Measurable rest mass decreased; thermal kinetic energy was released.\n- **What was conserved?** Total relativistic mass-energy.",
-                "firstPrinciples": "### Conservation Laws & Emmy Noether's Theorem\n\n1. **Emmy Noether's First Theorem (1915)**:\n   Every continuous symmetry of the laws of physics corresponds to an exact conservation law.\n   - **Time Translation Symmetry** (the laws of physics do not change from Monday to Tuesday) $\\implies$ **Conservation of Energy**.\n   - **Spatial Translation Symmetry** (physics is identical in New York and Tokyo) $\\implies$ **Conservation of Momentum**.\n2. **Relativistic Invariant Mass**:\n   $$E^2 = (pc)^2 + (m_0 c^2)^2$$\n   For a stationary particle ($p = 0$), this reduces to $E = m_0 c^2$.",
-                "mathematics": "### 1. The Core Relativistic Equation\n\n$$E = mc^2$$\n\n- **$E$**: Energy in Joules ($\\text{J} = \\text{kg}\\cdot\\text{m}^2/\\text{s}^2$).\n- **$m$**: Relativistic mass in kilograms ($\\text{kg}$).\n- **$c$**: Speed of light in vacuum ($2.99792458 \\times 10^8 \\text{ m/s}$).\n\n### 2. Numerical Calculation: Energy in 1 Gram of Matter\nConvert $1\\text{ gram}$ ($10^{-3}\\text{ kg}$) of matter entirely into energy:\n$$E = (10^{-3}\\text{ kg}) \\times (3 \\times 10^8 \\text{ m/s})^2 = 10^{-3} \\times 9 \\times 10^{16} = 9 \\times 10^{13} \\text{ Joules}$$\n$$E \\approx 25 \\text{ million kilowatt-hours (kWh)}$$\n*Equivalent to burning roughly 3 million liters of gasoline.*\n\n### 3. The First Law of Thermodynamics:\n$$\\Delta U = Q - W$$\n- **$\\Delta U$**: Change in internal energy of the system.\n- **$Q$**: Heat added to the system.\n- **$W$**: Work performed by the system on its surroundings.",
-                "misconceptions": "**MISCONCEPTION**: \"Energy is a tangible, glowing physical substance.\"\n**CORRECTION**: Energy is not a physical fluid or material substance; it is a mathematical property and numerical scalar value assigned to a physical state that remains constant throughout all physical transformations.\n**WHY THE CONFUSION HAPPENS**: Science fiction and everyday language depict energy as \"pure glowing plasma.\"\n\n---\n\n### If You Remember Only Five Things:\n1. **Mass and energy are equivalent**: $E = mc^2$ means mass is concentrated, localized energy.\n2. **Energy is conserved by time symmetry**: Noether's theorem proves energy conservation arises because physics is invariant over time.\n3. **Energy is a scalar quantity, not a substance**: It measures capacity to do work or exchange heat.\n4. **Mass defect powers stars**: The sun shines because fused helium is lighter than the raw hydrogen protons that created it.\n5. **First Law limits all engines**: You cannot get more work out of a system than the energy you put in ($\\Delta U = Q - W$).\n\n---\n\n### Questions to Test Understanding:\n1. *Where did the energy go when a fast-moving car brakes to a complete stop?*\n2. *Why does a stretched rubber band weigh slightly more than a relaxed rubber band?*\n3. *Why does Noether's theorem connect time translation symmetry with energy conservation?*",
+                "whyItMatters": "Understanding mass-energy equivalence ($E = mc^2$) and the First Law of Thermodynamics is the foundational basis of all chemistry, particle physics, nuclear energy, and astrophysics.",
+                "intuition": "### 0. The Physical Puzzle\nBefore 1905, physics treated matter and energy as two completely separate universes:\n- Matter was made of physical atoms that had mass and could never be created or destroyed (Lavoisier's Law).\n- Energy was an invisible property (heat, motion, electricity) that was also separately conserved (Joule's First Law).\n\nIf mass and energy were separate, why did a radioactive radium salt continuously glow and release heat without any chemical reaction taking place? Where was the energy coming from?\n\n### 1. The Mental Model: Condensed Ice & Steam\nThink of mass and energy like ice and steam. They look completely different, feel different, and obey different immediate mechanics, but both are made of the exact same underlying chemical substance ($H_2O$) in different physical states.\n\nAlbert Einstein's Special Relativity revealed that mass is simply **extremely concentrated, localized energy**. Mass can be converted into free energy (heat and radiation), and energetic fields can condense into physical particles.\n\n### 2. Where This Analogy Stops Being Accurate\nIce and steam are physical molecular arrangements. Mass and energy are fundamental relativistic invariants of spacetime itself governed by the energy-momentum four-vector.",
+                "example": "**Everyday Observation**: A compressed mechanical clock spring.\n- When you wind a mechanical watch spring, you do physical work on it. Because that elastic potential energy is stored in the atomic bonds, the wound watch actually gains a tiny, measurable relativistic mass increase $\\Delta m = E / c^2 \\approx 10^{-14}\\text{ grams}$.",
+                "howItWorks": "### 3. Step-by-Step Mechanism: Nuclear Mass Defect\n\n1. **The Starting Parts**: A helium-4 nucleus ($^4\\text{He}$) consists of 2 protons and 2 neutrons.\n2. **Weighing Free Particles**:\n   - Mass of 2 free protons $= 2 \\times 1.00728\\text{ u} = 2.01456\\text{ u}$.\n   - Mass of 2 free neutrons $= 2 \\times 1.00866\\text{ u} = 2.01732\\text{ u}$.\n   - Total mass of uncombined parts $= 4.03188\\text{ u}$.\n3. **Weighing the Bound Helium Nucleus**: When protons and neutrons are bound together, the helium nucleus weighs only **$4.00151\\text{ u}$**.\n4. **The Missing Mass Defect ($\\Delta m$)**:\n   $$\\Delta m = 4.03188\\text{ u} - 4.00151\\text{ u} = 0.03037\\text{ u} \\approx 5.04 \\times 10^{-29} \\text{ kg}$$\n5. **Energy Release**: The missing mass was converted into nuclear binding energy ($E = \\Delta m c^2 = 28.3\\text{ MeV}$) and radiated away as energetic gamma rays during nuclear fusion.\n\n- **What moved?** Nucleons assembled under the Strong Nuclear Force.\n- **What changed microscopically?** Potential energy in the nuclear field decreased.\n- **What changed macroscopically?** Measurable rest mass decreased; thermal kinetic energy was released.\n- **What was conserved?** Total relativistic mass-energy.",
+                "firstPrinciples": "### 4. Conservation Laws & Emmy Noether's Theorem\n\n1. **Emmy Noether's First Theorem (1915)**:\n   Every continuous mathematical symmetry of the laws of physics corresponds to an exact conservation law.\n   - **Time Translation Symmetry** (the laws of physics are identical today, tomorrow, and a billion years ago) $\\implies$ **Conservation of Energy**.\n   - **Spatial Translation Symmetry** (physics is identical in London and on Mars) $\\implies$ **Conservation of Linear Momentum**.\n2. **Relativistic Invariant Mass**:\n   $$E^2 = (pc)^2 + (m_0 c^2)^2$$\n   For a stationary particle ($p = 0$), this reduces to $E = m_0 c^2$.",
+                "mathematics": "### 1. The Mass-Energy Equivalence Equation\n\n$$E = mc^2$$\n\n- **$E$**: Energy in Joules ($\\text{J} = \\text{kg}\\cdot\\text{m}^2/\\text{s}^2$).\n- **$m$**: Rest mass in kilograms ($\\text{kg}$).\n- **$c$**: Speed of light in vacuum ($2.99792458 \\times 10^8 \\text{ m/s}$).\n\n---\n\n### 2. Numerical Calculation: Energy in 1 Gram of Matter\nConvert $1\\text{ gram}$ ($10^{-3}\\text{ kg}$) of matter entirely into energy:\n$$E = (10^{-3}\\text{ kg}) \\times (2.998 \\times 10^8 \\text{ m/s})^2 = 10^{-3} \\times 8.988 \\times 10^{16} \\approx 8.99 \\times 10^{13} \\text{ Joules}$$\n$$E \\approx 25 \\text{ million kilowatt-hours (kWh)}$$\n*This is equivalent to burning approximately 3 million liters of commercial gasoline.*\n\n---\n\n### 3. The First Law of Thermodynamics:\n$$\\Delta U = Q - W$$\n- **$\\Delta U$**: Change in internal energy of the system.\n- **$Q$**: Heat added to the system.\n- **$W$**: Work performed by the system on its surroundings.",
+                "misconceptions": "**MISCONCEPTION**: \"Energy is a tangible, glowing physical substance.\"\n**CORRECTION**: Energy is not a physical fluid or material substance; it is a mathematical property and numerical scalar value assigned to a physical state that remains constant throughout all physical transformations.\n**WHY THE CONFUSION HAPPENS**: Science fiction and everyday language depict energy as \"pure glowing plasma.\"\n\n---\n\n### If You Remember Only Five Things:\n1. **Mass and energy are equivalent**: $E = mc^2$ means mass is concentrated, localized energy.\n2. **Energy is conserved by time symmetry**: Noether's theorem proves energy conservation arises because physics is invariant over time.\n3. **Energy is a scalar quantity, not a substance**: It measures capacity to do work or exchange heat.\n4. **Mass defect powers stars**: The sun shines because fused helium is lighter than the raw hydrogen protons that created it.\n5. **First Law limits all engines**: You cannot get more work out of a system than the energy you put in ($\\Delta U = Q - W$).\n\n---\n\n### Questions to Test Understanding:\n1. *Where did the kinetic energy go when a fast-moving car brakes to a complete stop?*\n2. *Why does a hot cup of tea weigh an imperceptibly tiny amount more than the same cup of tea after cooling down?*\n3. *Why does Noether's theorem connect time translation symmetry with energy conservation?*",
                 "sources": [
                         {
                                 "title": "The Feynman Lectures on Physics (Vol 1)",
@@ -253,6 +253,54 @@
                         }
                 ]
         },
+        "energy-density": {
+                "slug": "energy-density",
+                "title": "Energy Density",
+                "chapterSlug": "energy-technology",
+                "chapterTitle": "Energy & Technology",
+                "difficulty": "INTERMEDIATE",
+                "oneLiner": "The quantity of usable energy stored per unit volume (volumetric energy density, Wh/L) or per unit mass (gravimetric specific energy, Wh/kg).",
+                "whyItMatters": "Energy density is the primary engineering bottleneck determining which transport sectors can be electrified (passenger cars vs. long-haul transoceanic flight).",
+                "intuition": "### 0. The Aviation Payload Paradox\nImagine designing a commercial airliner carrying 300 passengers from London to Singapore:\n- **Jet Kerosene**: A Boeing 777 carries $\\sim 100,000\\text{ kg}$ of jet fuel, containing roughly $1.2 \\text{ million kWh}$ of chemical energy.\n- **Lithium-Ion Battery Equivalent**: To store $1.2 \\text{ million kWh}$ with state-of-the-art lithium batteries ($250\\text{ Wh/kg}$), the battery pack would weigh **$4,800,000\\text{ kg}$ (4,800 metric tons)**!\n\nThe airplane weighs only $\\sim 150$ tons empty. A 4,800-ton airplane cannot physically lift off the ground.\n\nGravimetric energy density dictates **what can fly**, while volumetric density dictates **what fits in your pocket** (smartphones).\n\n### 1. Why Hydrocarbons Are Uniquely Dense\nHydrocarbon fuel is composed of concentrated carbon-hydrogen covalent bonds that burn atmospheric oxygen ($O_2$), meaning the airplane does not need to carry the oxidant mass on board. A battery is a self-contained electrochemical cell carrying all heavy cathode and anode host crystal matrices.",
+                "example": "**Everyday Observation**: A Tesla Model S battery pack weighing $\\sim 480\\text{ kg}$ stores $100\\text{ kWh}$, whereas $\\sim 8\\text{ kg}$ of gasoline contains the equivalent chemical energy.",
+                "howItWorks": "### 3. Step-by-Step Chemical vs. Electrochemical Mechanics\n\n1. **Hydrocarbon Combustion**: Gasoline ($C_8H_{18}$) releases energy when strong $C=O$ and $O-H$ bonds form, breaking weaker $C-C$ and $C-H$ bonds. Specific energy $\\approx 12,000\\text{ Wh/kg}$.\n2. **Lithium-Ion Intercalation**: Energy is stored by shuttling $Li^+$ ions between graphite and a heavy transition metal oxide lattice (e.g. $\\text{LiCoO}_2$). Specific energy $\\approx 250\\text{ Wh/kg}$.\n3. **The Molecular Weight Penalty**: Lithium ions must be held inside heavy host crystal structures, imposing a severe gravimetric mass penalty.",
+                "firstPrinciples": "### 4. Theoretical Maximum Electrochemical Potential\n$$\\text{Specific Energy} = \\frac{n F E_{\\text{cell}}}{M_{\\text{active}}}$$\n- **$n$**: Electrons transferred per reaction.\n- **$F$**: Faraday constant ($96,485\\text{ C/mol}$).\n- **$E_{\\text{cell}}$**: Cell potential voltage (Volts).\n- **$M_{\\text{active}}$**: Combined molar mass of active reactants ($\text{kg/mol}$).\n\nThe periodic table sets fundamental limits: Lithium is the lightest solid element ($M = 6.94\\text{ g/mol}$), but the host transition metal oxides ($Co, Ni, Mn$) add heavy structural mass.",
+                "mathematics": "### 1. Comparative Energy Density Table\n\n| Storage Medium | Gravimetric Specific Energy | Volumetric Energy Density | Round-Trip Efficiency |\n| :--- | :--- | :--- | :--- |\n| **Kerosene / Jet Fuel** | $12,000 \\text{ Wh/kg}$ | $9,500 \\text{ Wh/L}$ | $\\sim 35\\%$ (Thermal engine) |\n| **Gasoline** | $12,200 \\text{ Wh/kg}$ | $8,800 \\text{ Wh/L}$ | $\\sim 30\\%$ (Thermal engine) |\n| **Hydrogen (Liquid, -253°C)** | $33,300 \\text{ Wh/kg}$ | $2,360 \\text{ Wh/L}$ | $\\sim 50\\%$ (Fuel cell) |\n| **Lithium-Ion Battery (2024)** | $260 \\text{ Wh/kg}$ | $700 \\text{ Wh/L}$ | $\\sim 90\\%$ (Electric motor) |\n\n---\n\n### 2. Numerical Example: Electric Vehicle vs. Gasoline Car\n- Gasoline car carrying $50\\text{ liters}$ of gas ($37\\text{ kg}$): Stores $450\\text{ kWh}$ of thermal energy. At $30\\%$ engine efficiency, delivers $135\\text{ kWh}$ of mechanical wheel work.\n- Tesla Model S carrying $480\\text{ kg}$ battery pack: Stores $100\\text{ kWh}$ of electrical energy. At $90\\%$ motor efficiency, delivers $90\\text{ kWh}$ of mechanical wheel work.\n*Electric motors are 3x more efficient than combustion engines, which partially offsets the heavy battery mass penalty for ground vehicles.*",
+                "misconceptions": "**MISCONCEPTION**: \"Batteries will match jet fuel density in a few years with Moore's Law scaling.\"\n**CORRECTION**: Moore's Law applies to semiconductor lithography, not chemistry. Chemical bond energies and periodic table atomic weights impose hard thermodynamic ceilings.\n**WHY THE CONFUSION HAPPENS**: People conflate computing exponential progress with chemical storage physics.\n\n---\n\n### If You Remember Only Five Things:\n1. **Gravimetric vs. Volumetric**: Specific energy (Wh/kg) dictates weight; density (Wh/L) dictates size.\n2. **Hydrocarbons are 45x denser than batteries**: Liquid fuels carry no oxidant mass and store energy in dense covalent bonds.\n3. **Electric motor efficiency offsets battery weight**: Electric drives are ~90% efficient vs. ~30% for thermal combustion engines.\n4. **Aviation is density-limited**: Long-haul commercial aircraft require high gravimetric specific energy.\n5. **Periodic table limits chemistry**: Maximum cell voltage and molecular weight impose fundamental limits on battery capacity.\n\n---\n\n### Questions to Test Understanding:\n1. *Why can passenger cars be electrified today, but long-haul commercial flights cannot?*\n2. *Why is liquid hydrogen volumetric density lower than gasoline despite having 3x higher gravimetric specific energy?*\n3. *Why does drawing oxygen from ambient air give combustion fuels a massive weight advantage over batteries?*",
+                "sources": []
+        },
+        "needs-and-incentives": {
+                "slug": "needs-and-incentives",
+                "title": "Incentives & Human Behavior",
+                "chapterSlug": "society-money-mind",
+                "chapterTitle": "Society, Money & Mind",
+                "difficulty": "FOUNDATION",
+                "oneLiner": "Incentives are the structural rewards, penalties, and psychological payoffs that alter the relative costs and benefits of choices, motivating individuals to adapt their behavior.",
+                "whyItMatters": "Every economic policy, corporate compensation plan, legal statute, and social institution succeeds or fails based on whether its incentive architecture aligns with desired outcomes.",
+                "intuition": "### 0. The Question / Puzzle\nWhy can rewarding the exact behavior you want sometimes make the ultimate outcome dramatically worse?\n\nIf a school pays teachers bonuses based on student test scores, why does real student learning frequently decline? If a hospital penalizes emergency rooms for patient wait times, why do patient mortality rates rise?\n\n### 1. Build the Mental Model: The Cobra Effect\nDuring British colonial rule in Delhi, the government wanted to eradicate venomous cobras. They established a cash bounty for every dead cobra delivered to government offices.\n\nInitially, citizens hunted wild cobras and turned them in. But resourceful citizens soon realized a more lucrative strategy: **they began breeding cobras in their basements to collect steady bounties**.\n\nWhen the government discovered the fraud and canceled the bounty program, the breeders released their worthless snakes into the streets, resulting in **more wild cobras than existed before the policy began**.\n\n### 2. The Critical Distinctions:\n- **Incentive**: An external change in payoffs (financial bounty, tax penalty, promotion).\n- **Constraint**: Physical, legal, or financial limits on available actions (budget ceiling, 24 hours in a day).\n- **Preference**: An internal subjective ranking of outcomes (taste for leisure, risk tolerance).\n- **Intrinsic Motivation**: Engaging in an activity for its inherent satisfaction without external reward.\n- **Social Norm**: Unwritten community expectations enforced by reputation and social approval.",
+                "example": "**Real-World Metric Optimization**: A customer service department rewards employees solely on \"Average Call Handling Time\" (shorter calls = bonus). \n- *Employee Adaptation*: Workers hang up on complex customer issues after 90 seconds to preserve their metric, destroying customer satisfaction while achieving 100% bonus targets.",
+                "howItWorks": "### 3. Step-by-Step Causal Chain: The Anatomy of Metric Gaming\n\n```\n1. Institution Establishes Target Metric (M) intended as a proxy for Goal (G)\n                ↓\n2. Metric Changes Relative Payoffs of Available Actions\n                ↓\n3. Agents Discover Shortcuts that Maximize (M) without Improving (G)\n                ↓\n4. Agents Shift Cognitive & Physical Effort Toward the Metric Shortcut\n                ↓\n5. Measured Metric (M) Rises while Real Objective (G) Collapses\n```\n\n---\n\n### Goodhart's Law & Campbell's Law\n- **Goodhart's Law**: *\"When a measure becomes a target, it ceases to be a good measure.\"*\n- **Campbell's Law**: *\"The more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures and the more apt it will be to distort and corrupt the social processes it is intended to monitor.\"*",
+                "firstPrinciples": "### 4. Axiomatic Foundations: Expected Utility & Bounded Rationality\n\n1. **Choice Under Uncertainty (Expected Utility)**:\n   Whenever humans choose between uncertain actions, they implicitly compare two factors:\n   - How likely each outcome is ($P(x)$).\n   - How valuable or painful that outcome would be ($u(x)$).\n2. **Bounded Rationality (Herbert Simon)**:\n   Humans do not possess infinite computing power, complete information, or perfect foresight. Instead of calculating a global optimum, individuals **satisfice**—they search locally for rules and behaviors that meet their immediate payoff thresholds within their cognitive and institutional constraints.",
+                "mathematics": "### 1. What Question Is the Equation Answering?\n*\"How do we mathematically quantify how a rational agent evaluates actions with uncertain outcomes?\"*\n\n---\n\n### 2. The Expected Utility Equation (von Neumann–Morgenstern)\n\n$$\\text{EU}(a) = \\sum_{s \\in S} P(s | a) \\cdot u(s) - C(a)$$\n\n- **$\\text{EU}(a)$**: Expected utility of taking action $a$.\n- **$P(s | a)$**: Probability that state $s$ occurs given action $a$ ($0 \\le P \\le 1$, with $\\sum P = 1$).\n- **$u(s)$**: Subjective utility (satisfaction or payoff) of outcome state $s$.\n- **$C(a)$**: Direct cost or effort required to execute action $a$.\n\n---\n\n### 3. Worked Numerical Decision Example: The Asymmetric Executive Bonus\n\nConsider a hedge fund manager deciding between two investment strategies:\n- **Strategy 1 (Safe Investment)**: $100\\%$ probability of making ₹50,000 profit for the fund.\n  $$\\text{EU}(\\text{Safe}) = 1.0 \\times 50,000 = ₹50,000$$\n- **Strategy 2 (Reckless Speculative Bet)**: \n  - $20\\%$ chance of making ₹500,000 profit.\n  - $80\\%$ chance of losing ₹200,000 for the fund.\n  $$\\text{Expected Fund Return} = (0.2 \\times 500,000) + (0.8 \\times -200,000) = 100,000 - 160,000 = -₹60,000 \\quad (\\text{Destructive!})$$\n\n#### The Incentive Distortion (Moral Hazard):\nSuppose the manager's contract pays a **$20\\%$ performance bonus on positive gains**, but the fund bears $100\\%$ of all losses:\n- Manager's Personal Payoff on Strategy 1: $1.0 \\times (0.2 \\times 50,000) = ₹10,000$.\n- Manager's Personal Payoff on Strategy 2: $(0.2 \\times 100,000) + (0.8 \\times 0) = ₹20,000$.\n\n**Result**: The manager's personal expected utility on the destructive bet (₹20,000) is **double** that of the safe bet (₹10,000). The asymmetric incentive structure rationally induces the manager to bankrupt the company.\n\n---\n\n### 4. What the Equation Does NOT Tell Us:\n- It assumes probabilities and utilities are known; in reality, humans suffer from **Prospect Theory biases** (loss aversion, overweighting small probabilities, and hyperbolic time discounting).",
+                "misconceptions": "**MISCONCEPTION**: \"People act purely from direct monetary selfishness.\"\n**CORRECTION**: Human incentives encompass social status, reputation, fairness norms, belonging, and risk avoidance.\n**WHY THE CONFUSION HAPPENS**: Standard introductory economics textbooks simplify models to \"Homo economicus.\"\n\n---\n\n**MISCONCEPTION**: \"Offering higher monetary rewards always improves performance.\"\n**CORRECTION**: Financial incentives can **crowd out intrinsic motivation** (the Titmuss blood donation paradox). When a fine was introduced for parents picking up children late from daycare, late pickups *increased* because parents treated the fine as a price that bought permission to be late, removing moral guilt.\n\n---\n\n### If You Remember Only Five Things:\n1. **People respond to incentives, not intentions**: Behavior aligns with actual payoffs, not policy goals.\n2. **Goodhart's Law**: When a metric becomes a target, it ceases to be a reliable metric.\n3. **Cobra Effect**: Poorly designed incentives create perverse, counterproductive adaptations.\n4. **Asymmetric payoffs induce moral hazard**: Rewarding upside while insulating from downside causes reckless risk-taking.\n5. **Intrinsic motivation can be crowded out**: Adding financial rewards can destroy moral and social norms.\n\n---\n\n### Questions to Test Understanding:\n1. *A software company rewards engineers based on the number of lines of code written. Predict two ways engineers will adapt without writing better software.*\n2. *Why did late daycare pickups increase after a financial late fee was introduced?*\n3. *How does bounded rationality differ from standard expected utility maximization?*",
+                "sources": []
+        },
+        "money-and-exchange": {
+                "slug": "money-and-exchange",
+                "title": "Money & Mediums of Exchange",
+                "chapterSlug": "society-money-mind",
+                "chapterTitle": "Society, Money & Mind",
+                "difficulty": "CORE",
+                "oneLiner": "Money is a social coordination technology and shared accounting ledger that functions as a universally accepted medium of exchange, a unit of account, and a store of value.",
+                "whyItMatters": "Understanding money is essential for understanding banking, inflation, interest rates, capital allocation, sovereign debt, and global trade networks.",
+                "intuition": "### 0. The Question / Puzzle\nWhy do 8 billion human beings willingly give away physical goods, wheat, cars, and 40 hours of hard weekly labor in exchange for rectangular pieces of colored paper or digital numbers displayed on a computer screen?\n\n### 1. Build the Mental Model: The Double Coincidence of Wants\nImagine a world with direct barter:\n- You are a dentist who needs a loaf of bread.\n- You visit a baker, but the baker has perfect teeth and needs a shoemaker.\n- You must find a shoemaker who has a toothache, fix their tooth in exchange for shoes, and then take the shoes to the baker to buy bread.\n\nThis friction is the **Double Coincidence of Wants**. Barter requires both parties to simultaneously desire what the other holds.\n\nMoney is the coordination technology that solves this problem: anyone can exchange goods or labor for a universally accepted token, knowing that every other network participant will accept it in the future.\n\n### 2. The Three Core Functions of Money:\n1. **Medium of Exchange**: Eliminates barter search friction.\n2. **Unit of Account**: Provides a common denominator to compare the economic value of apples, houses, and legal services.\n3. **Store of Value**: Transports purchasing power across time into the future.",
+                "example": "**Everyday Observation**: Using a debit card or UPI to instantly transfer digital ledger balances to buy coffee across town without transporting physical commodities.",
+                "howItWorks": "### 3. Step-by-Step Evolution of Monetary Ledgers\n\n1. **Commodity Money**: Physical goods with intrinsic utility (gold, silver, salt, cowrie shells).\n2. **Representative Money**: Paper warehouse deposit receipts backed 1:1 by gold in vault storage.\n3. **Fiat Currency**: State-issued paper notes declared legal tender and accepted for sovereign tax obligations.\n4. **Commercial Bank Deposits**: Digital electronic balances created through bank lending.\n5. **Central Bank Digital Settlement Rails**: Instant gross settlement networks (Fedwire, RTGS, UPI).\n\n---\n\n### How Commercial Banks Actually Create Money: The Balance Sheet Mechanism\n\nPopular belief assumes that banks take savings deposits from savers and lend those exact funds to borrowers. **This is factually incorrect.** \n\nAccording to central banks (Bank of England, Federal Reserve, Deutsche Bundesbank), **commercial banks create new money out of thin air when they make a loan**.\n\n#### Worked Numerical Balance Sheet Example:\nSuppose a commercial bank approves a **₹10,00,000 home loan** for a borrower:\n\n```\n                     COMMERCIAL BANK BALANCE SHEET\n───────────────────────────────────────────────────────────────────────\nASSETS (+ What the Bank Owns)        │ LIABILITIES (+ What the Bank Owes)\n─────────────────────────────────────┼─────────────────────────────────\n+₹10,00,000 (Loan Contract Receivable)│ +₹10,00,000 (New Customer Deposit Balance)\n                                     │\n```\n\n- **What happened?** The bank did NOT move cash out of a vault.\n- The bank credited the customer's checking account with ₹10,00,000 (a new liability for the bank) in exchange for the signed loan contract (a new asset for the bank).\n- **Result**: The broad money supply ($M_1$) in the economy has expanded by exactly ₹10,00,000. When the borrower repays the principal, that money is extinguished.\n\n---\n\n### Central Bank Base Money ($M_0$) vs. Commercial Bank Deposits ($M_1$)\n- **Base Money ($M_0$)**: Physical cash plus central bank reserves (used strictly between commercial banks and the central bank for interbank settlement).\n- **Broad Money ($M_1, M_2$)**: The digital commercial bank deposit balances used by everyday businesses and citizens for daily commerce.",
+                "firstPrinciples": "### 4. Why Fiat Money Has Purchasing Power Without Commodity Backing\n\nWhy does a ₹500 or $100 fiat bill have value if it cannot be redeemed for gold?\n1. **Sovereign Tax Foundation (Chartalism)**: The sovereign government demands taxes payable strictly in its designated fiat token. If you do not pay, legal force ensues. This establishes a baseline national demand for the currency.\n2. **Legal Tender Laws**: The state enforces contracts and debts in the national currency.\n3. **Network Effects & Schelling Coordination**: Because everyone expects others to accept the currency tomorrow, it is individually rational to accept it today.",
+                "mathematics": "### 1. The Quantity Theory of Money (Equation of Exchange)\n\n$$M \\cdot V = P \\cdot Y$$\n\n- **$M$**: Total nominal money supply in circulation (currency units, e.g. ₹ or $).\n- **$V$**: Velocity of money (number of times an average unit of currency is spent per year).\n- **$P$**: Aggregate price level index.\n- **$Y$**: Real annual economic output (Real GDP).\n\n---\n\n### 2. Accounting Identity vs. Economic Theory:\n- **As an Accounting Identity**: $M \\cdot V \\equiv P \\cdot Y$ is always 100% mathematically true by definition: Total Money Spent ($M \\cdot V$) must equal Total Nominal Value of Goods Purchased ($P \\cdot Y$).\n- **As an Economic Theory (Monetarism)**: Milton Friedman asserted that velocity $V$ and output $Y$ are relatively stable in the long run, implying that sustained expansion of money supply $M$ must lead directly to proportional increases in price levels $P$ (inflation).\n\n---\n\n### 3. Worked Numerical Calculation: Why Velocity ($V$) Matters\nSuppose an economy has:\n- Money supply $M = ₹1,000\\text{ billion}$.\n- Real output $Y = 100\\text{ million units of goods}$.\n- Price per unit $P = ₹20,000$.\n- Nominal GDP $= P \\cdot Y = ₹2,000\\text{ billion}$.\n\n$$V = \\frac{P \\cdot Y}{M} = \\frac{2,000}{1,000} = 2.0 \\text{ turnovers per year}$$\n\n#### What happens during a Financial Crisis (The Liquidity Trap)?\nIf the central bank doubles money supply to $M = ₹2,000\\text{ billion}$, but public panic causes velocity to collapse by half to $V = 1.0$:\n$$P \\cdot Y = M \\cdot V = 2,000 \\times 1.0 = ₹2,000\\text{ billion}$$\n*Total spending and price level remain completely flat because the drop in velocity fully neutralized the increase in money supply!*",
+                "misconceptions": "**MISCONCEPTION**: \"Banks simply intermediate existing savings between depositors and borrowers.\"\n**CORRECTION**: Commercial banks create new deposit money ex nihilo through double-entry balance sheet expansion whenever they extend loans.\n**WHY THE CONFUSION HAPPENS**: Traditional simplified textbook fractional-reserve multiplier models imply lending is constrained strictly by preexisting deposits.\n\n---\n\n**MISCONCEPTION**: \"Printing money automatically causes runaway inflation immediately.\"\n**CORRECTION**: Inflation depends on the product $M \\cdot V$ relative to productive capacity $Y$. If money supply grows while velocity collapses (liquidity trap) or spare capacity exists, inflation may remain low.\n\n---\n\n### If You Remember Only Five Things:\n1. **Money is a coordination ledger**: Solves the double coincidence of wants.\n2. **Three core functions**: Medium of exchange, unit of account, store of value.\n3. **Commercial banks create money through loans**: Expanding assets (loan) and liabilities (deposit) simultaneously.\n4. **The Equation of Exchange**: $M \\cdot V = P \\cdot Y$ connects money, velocity, prices, and output.\n5. **Fiat value rests on sovereign taxation & trust**: Taxes create fundamental baseline demand for national currency.\n\n---\n\n### Questions to Test Understanding:\n1. *A commercial bank approves a ₹50 lakh business loan. What specific changes occur on the bank's balance sheet?*\n2. *If the central bank doubles the money supply during a panic, why might inflation remain near zero?*\n3. *Why can a fiat currency maintain purchasing power without being convertible into gold?*",
+                "sources": []
+        },
         "atoms-and-subatomic-scale": {
                 "slug": "atoms-and-subatomic-scale",
                 "title": "Atoms & The Subatomic Scale",
@@ -261,12 +309,12 @@
                 "difficulty": "CORE",
                 "oneLiner": "The fundamental microscopic building blocks of chemical matter, consisting of a dense nucleus of protons and neutrons surrounded by a quantum electron probability cloud.",
                 "whyItMatters": "The geometric structure of atomic electron shells determines all chemical bonding, electricity, materials science, pharmacology, and biological structures.",
-                "intuition": "### What Should You Imagine?\nIf an atom were enlarged to the size of a massive sports stadium, the nucleus would be a tiny marble resting at the 50-yard line, and the electrons would be faint ripples in the highest upper deck seats. \n\nOver **99.999999999% of an atom's volume is non-classical empty space filled with quantum wave fields**.\n\n### Analogy & Its Boundaries\n- **Solar System Analogy**: Electrons orbiting a nucleus like planets around the sun.\n- **Where It Fails**: Planetary orbits are deterministic trajectories. In quantum mechanics, electrons do not follow paths; they exist as stationary probability density wavefunctions ($|\\psi|^2$). If an electron orbited classically, it would radiate electromagnetic energy and spiral into the nucleus in $10^{-11}$ seconds.",
-                "example": "Hydrogen atom 1s ground state wavefunction and electron cloud geometry.",
-                "howItWorks": "### Step-by-Step Causal Structure\n1. **The Central Nucleus**: Protons ($+e$) and neutrons ($0$) are bound by the Strong Nuclear Force (mediated by gluons), overcoming immense electrostatic repulsion.\n2. **Electromagnetic Confinement**: Positively charged protons attract negatively charged electrons ($-e$) via Coulomb's Law.\n3. **Quantum Wave Quantization**: Because electrons exhibit wave-particle duality (de Broglie $\\lambda = h/p$), only standing wave patterns with integer quantum numbers ($n, l, m_l, m_s$) can stably exist.\n4. **Pauli Exclusion Principle**: No two identical fermions can occupy the same quantum state, forcing electrons into concentric orbital shells ($s, p, d, f$) and giving solid matter its volume and chemical diversity.",
-                "firstPrinciples": "### Quantum Axioms\n1. **Wave-Particle Duality**: Matter exhibits both particle-like and wave-like properties.\n2. **Pauli Exclusion Principle**: The total wavefunction of two identical fermions is anti-symmetric under particle exchange ($\\psi(x_1, x_2) = -\\psi(x_2, x_1)$).\n3. **Heisenberg Uncertainty Principle**:\n   $$\\Delta x \\cdot \\Delta p \\ge \\frac{\\hbar}{2}$$\n   Confinement of an electron to a tiny nuclear volume would demand enormous momentum uncertainty, creating kinetic energy that forces the electron cloud outward.",
-                "mathematics": "### 1. The Time-Independent Schrödinger Equation\n\n$$\\hat{H}\\psi = E\\psi$$\n\n$$\\left( -\\frac{\\hbar^2}{2m} \\nabla^2 + V(r) \\right)\\psi = E\\psi$$\n\n- **$\\hbar$**: Reduced Planck constant ($1.0545718 \\times 10^{-34} \\text{ J}\\cdot\\text{s}$).\n- **$V(r) = -\\frac{e^2}{4\\pi \\epsilon_0 r}$**: Coulomb attractive potential of the nucleus.\n- **$|\\psi(r, \\theta, \\phi)|^2$**: Spatial probability density of finding the electron.\n\n### 2. Quantized Energy Levels of Hydrogen:\n$$E_n = -\\frac{13.6 \\text{ eV}}{n^2}, \\quad n \\in \\{1, 2, 3, \\dots\\}$$",
-                "misconceptions": "**MISCONCEPTION**: \"Electrons orbit the nucleus like miniature planets.\"\n**CORRECTION**: Electrons exist as stationary three-dimensional quantum probability waves (orbitals) until measured.\n**WHY THE CONFUSION HAPPENS**: Rutherford-Bohr planetary diagrams remain widespread in logos and elementary textbooks.\n\n---\n\n### If You Remember Only Five Things:\n1. **Atoms are mostly quantum field vacuum**: 99.999% of volume is empty space shaped by electron probability waves.\n2. **Pauli Exclusion prevents collapse**: Matter has solid volume because identical electrons cannot occupy the same state.\n3. **Orbitals are probability distributions**: $|\\psi|^2$ gives the odds of finding an electron, not a fixed orbit.\n4. **Chemical bonds are electron sharing**: Chemistry is electromagnetic minimization between valence electron clouds.\n5. **Nuclear force vs. Electromagnetism**: Nuclei are held together by the Strong Force, which overpowers proton repulsion at femtometer scales.\n\n---\n\n### Questions to Test Understanding:\n1. *Why doesn't the negative electron fall directly into the positive nucleus?*\n2. *Why can you not push your hand through a solid wooden table if atoms are mostly empty space?*\n3. *What prevents all electrons in an atom from crowding into the lowest energy orbital ($n=1$)?*",
+                "intuition": "Over 99.999% of an atom's volume is non-classical vacuum filled with quantum fields. Pauli exclusion prevents electrons from collapsing into the nucleus.",
+                "example": "Hydrogen 1s ground state wavefunction.",
+                "howItWorks": "Wave-particle duality and Schrödinger wave mechanics govern spatial probability distributions of electrons.",
+                "firstPrinciples": "Quantum Wave-Particle Duality and the Pauli Exclusion Principle.",
+                "mathematics": "$$\\hat{H}\\psi = E\\psi$$",
+                "misconceptions": "Electrons orbit the nucleus like miniature planets.",
                 "sources": []
         },
         "quantum-unitarity": {
@@ -275,14 +323,14 @@
                 "chapterSlug": "universe-physics",
                 "chapterTitle": "Universe & Physics",
                 "difficulty": "FRONTIER",
-                "oneLiner": "The fundamental quantum mechanical law that total probability must always sum to exactly 1, meaning that microscopic physical information is strictly conserved and never destroyed in the universe.",
-                "whyItMatters": "Unitarity guarantees microscopic reversibility. When Stephen Hawking proposed that black holes destroy information via thermal radiation, it created the celebrated Black Hole Information Paradox.",
-                "intuition": "### What Should You Imagine?\nIf you burn a paper diary in a fireplace, the pages turn to ash, smoke, and infrared light. To human eyes, the words are lost forever. \n\nHowever, according to fundamental quantum physics, if you had a super-detector tracking every escaping photon of infrared heat, every smoke molecule, and every ash particle, the equations of quantum mechanics could theoretically be run backward with 100% mathematical precision to reconstruct the exact words in the diary. \n\nPhysical information is **fundamentally indestructible**.\n\n### Analogy & Its Boundaries\n- **Analogy**: Scrambling a Rubik's cube. The colors look chaotic, but every rotation is fully reversible.\n- **Where It Fails**: Real quantum states involve entanglement across infinite Hilbert space dimensions.",
-                "example": "Unitary time evolution of a quantum spin state in a magnetic field.",
-                "howItWorks": "### Step-by-Step Causal Sequence:\n1. **Quantum State Vector**: A system's state is represented by a unit vector $|\\psi\\rangle$ in a complex Hilbert space.\n2. **Time Evolution via Unitary Operators**: Time evolution is governed by the operator $U(t) = \\exp(-i\\hat{H}t/\\hbar)$.\n3. **Inner Product Preservation**: A unitary operator satisfies $U^\\dagger U = \\hat{I}$. This guarantees that the geometric angles and distances between distinct quantum states are strictly preserved.\n4. **Information Indestructibility**: Because distinct initial states remain distinct orthogonal vectors under unitary time evolution, the past can always be uniquely mapped from the future.",
-                "firstPrinciples": "### Mathematical Foundations of Quantum Mechanics\n1. **Conservation of Total Probability**: $\\sum_i P_i = 1$ at all points in time.\n2. **No-Cloning Theorem**: It is mathematically impossible to create an identical copy of an arbitrary unknown quantum state ($|\\psi\\rangle |0\\rangle \\not\\to |\\psi\\rangle |\\psi\\rangle$).\n3. **No-Deleting Theorem**: It is mathematically impossible to erase an unknown quantum state without transferring its information to the environment.",
-                "mathematics": "### 1. The Unitary Condition\n\n$$U^\\dagger U = \\hat{I} \\quad \\implies \\quad \\langle \\psi(t) | \\psi(t) \\rangle = \\langle \\psi(0) | U^\\dagger U | \\psi(0) \\rangle = \\langle \\psi(0) | \\psi(0) \\rangle = 1$$\n\n- **$U = e^{-i\\hat{H}t/\\hbar}$**: Quantum time evolution operator.\n- **$U^\\dagger$**: Hermitian adjoint (conjugate transpose).\n- **$\\hat{I}$**: Identity operator.\n\n### 2. Von Neumann Entropy & Pure States:\n$$S_{\\text{vN}} = -\\text{Tr}(\\rho \\ln \\rho)$$\nFor any isolated pure state evolving unitarily, $S_{\\text{vN}} = 0$ for all time.",
-                "misconceptions": "**MISCONCEPTION**: \"Information is destroyed when an object falls into a black hole.\"\n**CORRECTION**: Hawking's original 1974 calculation suggested information was erased, but modern quantum gravity (AdS/CFT correspondence and Page curve calculations) demonstrates that information leaks out through subtle quantum entanglement in Hawking radiation.\n**WHY THE CONFUSION HAPPENS**: Black hole radiation appears thermal and random on the surface, masking deep quantum entanglement.\n\n---\n\n### If You Remember Only Five Things:\n1. **Unitarity means total probability is 1**: Quantum probability can neither leak out nor be created.\n2. **Microscopic information is conserved**: The microscopic history of the universe is deterministic and reversible.\n3. **Unitary operators preserve inner products**: Distinct quantum states remain distinct forever under isolated evolution.\n4. **No-Cloning & No-Deleting**: You can neither duplicate nor delete unknown quantum states.\n5. **Black hole paradox resolved by entanglement**: Information is preserved in Hawking radiation over the complete Page curve.\n\n---\n\n### Questions to Test Understanding:\n1. *Why does unitarity prevent two different initial quantum states from evolving into the exact same final state?*\n2. *What is the difference between human practical irreversibility (shattering glass) and fundamental quantum irreversibility?*\n3. *Why does the No-Cloning theorem prevent creating exact backups of quantum data?*",
+                "oneLiner": "The fundamental quantum mechanical law that total probability must always sum to exactly 1, meaning microscopic physical information is strictly conserved and never destroyed in the universe.",
+                "whyItMatters": "Unitarity guarantees microscopic reversibility and underlies the Black Hole Information Paradox.",
+                "intuition": "If you burn a diary, tracking every photon and smoke particle would allow running the quantum equations backward to reconstruct the exact text.",
+                "example": "Hawking radiation Page curve.",
+                "howItWorks": "Time evolution via unitary operators $U^\\dagger U = \\hat{I}$ preserves state inner products.",
+                "firstPrinciples": "Conservation of quantum probability and the No-Cloning theorem.",
+                "mathematics": "$$U^\\dagger U = \\hat{I} \\quad \\text{and} \\quad S_{\\text{vN}} = -\\text{Tr}(\\rho \\ln \\rho)$$",
+                "misconceptions": "Information is destroyed when matter falls into a black hole.",
                 "sources": []
         },
         "what-is-energy": {
@@ -293,12 +341,12 @@
                 "difficulty": "FOUNDATION",
                 "oneLiner": "The quantifiable capacity of a physical system to perform mechanical work, produce heat, or generate radiation.",
                 "whyItMatters": "Energy governs the physical performance limits of all industrial manufacturing, global shipping, computation, heating, and electric flight.",
-                "intuition": "### The Universal Accounting Balance\nImagine a parent giving a child 100 wooden building blocks. The child plays with them all day, hiding some in toy boxes, throwing some out the window, and stacking others. \n\nIf the parent meticulously counts the blocks in the box, on the rug, and outside, the sum is always exactly **100 blocks**. \n\nEnergy in physics is that exact accounting balance: it appears in different physical \"rooms\" (gravitational potential, kinetic velocity, chemical bonds, thermal vibrations), but the total ledger balance in an isolated system never changes.\n\n### Analogy Boundary\nBlocks are discrete tangible wooden objects. Energy is a continuous mathematical scalar property of physical configurations.",
-                "example": "Hydroelectric dam converting gravitational potential water energy into electrical grid power.",
-                "howItWorks": "### Step-by-Step Causal Sequence: Work and Energy Transfer\n1. **Force Applied**: An external force $\\mathbf{F}$ is exerted on a mass.\n2. **Displacement ($d\\mathbf{r}$)**: The mass moves along a displacement vector.\n3. **Mechanical Work Done ($W = \\int \\mathbf{F} \\cdot d\\mathbf{r}$)**: Mechanical work transfers energy from the agent to the mass.\n4. **Kinetic Accumulation**: The work accelerates the mass, increasing kinetic energy ($E_k = \\frac{1}{2}mv^2$).\n5. **Dissipative Losses**: Friction converts a fraction of kinetic energy into disorganized molecular vibrations (heat).",
-                "firstPrinciples": "### The Fundamental Work-Energy Theorem\n$$\\Delta K = W_{\\text{net}} = \\int \\mathbf{F}_{\\text{net}} \\cdot d\\mathbf{r}$$\nThe net work done on an object equals the change in its kinetic energy.",
-                "mathematics": "### 1. Mechanical Work & Kinetic Energy\n\n$$W = \\int_{r_1}^{r_2} \\mathbf{F} \\cdot d\\mathbf{r} \\quad \\text{and} \\quad E_k = \\frac{1}{2}m v^2$$\n\n- **$W$**: Work performed in Joules ($\\text{J}$).\n- **$\\mathbf{F}$**: Vector force in Newtons ($\\text{N}$).\n- **$m$**: Mass in $\\text{kg}$; **$v$**: Velocity in $\\text{m/s}$.\n\n### 2. Numerical Example: Lifting a 10 kg Weight\nLift a $10\\text{ kg}$ barbell by $2\\text{ meters}$ vertically against gravity ($g = 9.81\\text{ m/s}^2$):\n$$W = mgh = (10\\text{ kg}) \\times (9.81\\text{ m/s}^2) \\times (2\\text{ m}) = 196.2 \\text{ Joules}$$",
-                "misconceptions": "**MISCONCEPTION**: \"Consuming energy causes it to disappear.\"\n**CORRECTION**: Energy is never destroyed; it degrades from high-grade usable work into low-grade ambient heat (entropy increase).\n**WHY THE CONFUSION HAPPENS**: We say \"the battery is dead,\" meaning its electrochemical potential has reached equilibrium, not that energy ceased to exist.\n\n---\n\n### If You Remember Only Five Things:\n1. **Energy is capacity to do work**: $W = \\mathbf{F} \\cdot d$.\n2. **Total energy is strictly conserved**: First Law of Thermodynamics.\n3. **Energy is a scalar quantity**: It has magnitude and units (Joules), but no direction in space.\n4. **Forms change, total remains**: Potential, kinetic, chemical, and thermal energy exchange continuously.\n5. **Degradation, not destruction**: Energy quality drops toward ambient heat through entropy.",
+                "intuition": "Universal block accounting balance that changes forms but remains constant in total sum.",
+                "example": "Hydroelectric dam power generation.",
+                "howItWorks": "Mechanical work transfers energy between systems ($W = \\int \\mathbf{F} \\cdot d\\mathbf{r}$).",
+                "firstPrinciples": "First Law of Thermodynamics: Energy cannot be created or destroyed.",
+                "mathematics": "$$W = \\int \\mathbf{F} \\cdot d\\mathbf{r} \\quad \\text{and} \\quad \\Delta U = Q - W$$",
+                "misconceptions": "Consuming energy causes it to disappear.",
                 "sources": []
         },
         "electricity": {
@@ -307,30 +355,14 @@
                 "chapterSlug": "energy-technology",
                 "chapterTitle": "Energy & Technology",
                 "difficulty": "CORE",
-                "oneLiner": "The physical movement and electrostatic potential of electric charges (electrons and ions) through conductive materials.",
+                "oneLiner": "The physical movement and electrostatic potential of electric charges through conductive materials.",
                 "whyItMatters": "Electricity is the primary medium for transporting energy cleanly and instantaneously across continental power networks.",
-                "intuition": "### The Water Pipe Mental Model\nImagine a closed water circuit with a circulating pump:\n- **Voltage ($V$) is Water Pressure**: The pressure differential created by the pump.\n- **Current ($I$) is Flow Rate**: The volume of water flowing past a point per second (Liters/second).\n- **Resistance ($R$) is Pipe Constriction**: The narrowness of the pipe resisting water flow.\n\n### Where This Mental Model Fails\nWater molecules in a pipe move at several meters per second. In electrical circuits, individual electrons drift at a crawl (~millimeters per second), but the **electromagnetic wave propagates through the electric field at roughly $90\\%$ the speed of light**. When you flip a switch, the light turns on instantly because the electric field pushes all electrons in the wire simultaneously.",
-                "example": "Continental high-voltage AC/DC power transmission grids.",
-                "howItWorks": "### Step-by-Step Causal Circuit Dynamics:\n1. **Chemical Potential**: A battery separates positive and negative charges through electrochemical reactions, establishing an electrostatic potential difference (Voltage $V$).\n2. **Field Propagation**: Closing the circuit creates an electric field ($\\mathbf{E} = -\\nabla V$) throughout the conductor at nearly light speed.\n3. **Drift Velocity**: Conduction electrons experience a Lorentz force ($\\mathbf{F} = -e\\mathbf{E}$), causing a net drift velocity ($v_d$) through the copper crystal lattice.\n4. **Joule Heating**: Electrons collide with vibrating metal ions in the lattice, dissipating energy as heat ($P = I^2 R$).",
-                "firstPrinciples": "### Conservation of Electric Charge & Maxwell's Equations\n1. **Charge Invariance**: The net electrical charge in any closed system is strictly conserved ($\\nabla \\cdot \\mathbf{J} + \\frac{\\partial \\rho}{\\partial t} = 0$).\n2. **Ohm's Law as a Material Model**: In linear conductors, current density is directly proportional to electric field strength ($\\mathbf{J} = \\sigma \\mathbf{E}$).",
-                "mathematics": "### 1. Ohm's Law & Electrical Power\n\n$$V = IR \\quad \\text{and} \\quad P = VI = I^2 R = \\frac{V^2}{R}$$\n\n- **$V$**: Potential difference in Volts ($\\text{V} = \\text{J/C}$).\n- **$I$**: Current in Amperes ($\\text{A} = \\text{C/s}$).\n- **$R$**: Resistance in Ohms ($\\Omega = \\text{V/A}$).\n- **$P$**: Power dissipation in Watts ($\\text{W} = \\text{J/s}$).\n\n### 2. Numerical Example: High-Voltage Transmission Lines\nWhy do utility grids transmit power at $500,000\\text{ V}$ instead of $120\\text{ V}$?\nTo deliver $100\\text{ MW}$ ($10^8\\text{ W}$) across a line with $R = 10\\ \\Omega$:\n- At $120\\text{ V}$: $I = P/V = 10^8 / 120 = 833,333\\text{ A}$. Line power loss $P_{\\text{loss}} = I^2 R = (8.33 \\times 10^5)^2 \\times 10 = 6.94 \\times 10^{12}\\text{ W}$ (*The wire vaporizes instantly*).\n- At $500,000\\text{ V}$: $I = 10^8 / 500,000 = 200\\text{ A}$. Line power loss $P_{\\text{loss}} = (200)^2 \\times 10 = 400,000\\text{ W} = 0.4\\text{ MW}$ (*Only 0.4% transmission loss!*).",
-                "misconceptions": "**MISCONCEPTION**: \"Electrons travel at the speed of light through the wire.\"\n**CORRECTION**: Individual electron drift velocity is slower than a snail (~$0.1\\text{ mm/s}$); the electromagnetic energy travels in the fields surrounding the wire at nearly the speed of light.\n**WHY THE CONFUSION HAPPENS**: Lights turn on instantaneously when a switch is flipped.\n\n---\n\n### If You Remember Only Five Things:\n1. **Voltage is pressure, current is flow rate**: $V = IR$.\n2. **Energy is carried in the electromagnetic field**: Poynting vector $\\mathbf{S} = \\mathbf{E} \\times \\mathbf{B}$.\n3. **High voltage cuts line losses**: $P_{\\text{loss}} = I^2 R$, so stepping up voltage drops current and saves energy.\n4. **Drift velocity is slow, signal is fast**: Field propagates at nearly $c$.\n5. **Charge is strictly conserved**: Kirchhoff's Current Law $\\sum I_{\\text{in}} = \\sum I_{\\text{out}}$.",
-                "sources": []
-        },
-        "energy-density": {
-                "slug": "energy-density",
-                "title": "Energy Density",
-                "chapterSlug": "energy-technology",
-                "chapterTitle": "Energy & Technology",
-                "difficulty": "INTERMEDIATE",
-                "oneLiner": "The quantity of usable energy stored per unit volume (volumetric energy density, Wh/L) or per unit mass (gravimetric specific energy, Wh/kg).",
-                "whyItMatters": "Energy density is the fundamental engineering bottleneck determining which transport sectors can be electrified (passenger cars vs. long-haul transoceanic flight).",
-                "intuition": "### What Should You Imagine?\nImagine planning a cross-country flight in a 4-seater airplane:\n- **Liquid Jet Fuel**: Storing $1000\\text{ kWh}$ of energy requires $\\sim 80\\text{ kg}$ of kerosene fuel.\n- **Lithium-Ion Battery**: Storing the same $1000\\text{ kWh}$ in current lithium batteries requires $\\sim 4000\\text{ kg}$ of battery pack!\n\nThe airplane simply cannot lift off the ground carrying that much mass. \n\nGravimetric energy density dictates **what can fly**, while volumetric density dictates **what fits in your pocket** (smartphones).\n\n### Why the Massive Difference Exists\nHydrocarbon fuel is composed of concentrated carbon-hydrogen covalent bonds that burn atmospheric oxygen ($O_2$), meaning the airplane does not need to carry the oxidant mass on board. A battery is a self-contained electrochemical cell carrying all heavy cathode and anode host crystal matrices.",
-                "example": "Commercial Boeing 777 jet fuel payload vs. electric battery weight constraints.",
-                "howItWorks": "### Step-by-Step Chemical vs. Electrochemical Mechanics\n1. **Hydrocarbon Combustion**: Gasoline ($C_8H_{18}$) releases energy when strong $C=O$ and $O-H$ bonds form, breaking weaker $C-C$ and $C-H$ bonds. Specific energy $\\approx 12,000\\text{ Wh/kg}$.\n2. **Lithium-Ion Intercalation**: Energy is stored by shuttling $Li^+$ ions between graphite and a heavy transition metal oxide lattice (e.g. $\\text{LiCoO}_2$). Specific energy $\\approx 250\\text{ Wh/kg}$.\n3. **The Molecular Weight Penalty**: Lithium ions must be held inside heavy host crystal structures, imposing a severe gravimetric mass penalty.",
-                "firstPrinciples": "### Theoretical Maximum Electrochemical Potential\n$$\\text{Specific Energy} = \\frac{n F E_{\\text{cell}}}{M_{\\text{active}}}$$\n- **$n$**: Electrons per reaction.\n- **$F$**: Faraday constant ($96,485\\text{ C/mol}$).\n- **$E_{\\text{cell}}$**: Cell voltage.\n- **$M_{\\text{active}}$**: Molar mass of reactants.",
-                "mathematics": "### 1. Comparative Energy Density Table\n\n| Storage Medium | Gravimetric Specific Energy | Volumetric Energy Density | Round-Trip Efficiency |\n| :--- | :--- | :--- | :--- |\n| **Kerosene / Jet Fuel** | $12,000 \\text{ Wh/kg}$ | $9,500 \\text{ Wh/L}$ | $\\sim 35\\%$ (Thermal engine) |\n| **Gasoline** | $12,200 \\text{ Wh/kg}$ | $8,800 \\text{ Wh/L}$ | $\\sim 30\\%$ (Thermal engine) |\n| **Hydrogen (Liquid, -253°C)** | $33,300 \\text{ Wh/kg}$ | $2,360 \\text{ Wh/L}$ | $\\sim 50\\%$ (Fuel cell) |\n| **Lithium-Ion Battery (2024)** | $260 \\text{ Wh/kg}$ | $700 \\text{ Wh/L}$ | $\\sim 90\\%$ (Electric motor) |\n\n### 2. Numerical Example: Electric Vehicle vs. Gas Car\n- Gasoline car carrying $50\\text{ liters}$ of gas ($37\\text{ kg}$): Stores $450\\text{ kWh}$ of thermal energy. At $30\\%$ efficiency, delivers $135\\text{ kWh}$ of wheel work.\n- Tesla Model S carrying $480\\text{ kg}$ battery pack: Stores $100\\text{ kWh}$ of electrical energy. At $90\\%$ efficiency, delivers $90\\text{ kWh}$ of wheel work.\n*Electric motors are 3x more efficient, partially offsetting the battery mass penalty.*",
-                "misconceptions": "**MISCONCEPTION**: \"Batteries will match jet fuel density in a few years with Moore's Law scaling.\"\n**CORRECTION**: Moore's Law applies to semiconductor lithography, not chemistry. Chemical bonds and periodic table atomic weights impose hard thermodynamic ceilings.\n**WHY THE CONFUSION HAPPENS**: People conflate computing exponential progress with chemical storage physics.\n\n---\n\n### If You Remember Only Five Things:\n1. **Gravimetric vs. Volumetric**: Specific energy (Wh/kg) dictates weight; density (Wh/L) dictates size.\n2. **Hydrocarbons are 45x denser than batteries**: Liquid fuels carry no oxidant mass and store energy in dense covalent bonds.\n3. **Electric motor efficiency offsets battery weight**: Electric drives are ~90% efficient vs. ~30% for thermal combustion engines.\n4. **Aviation is density-limited**: Long-haul commercial aircraft require high gravimetric specific energy.\n5. **Periodic table limits chemistry**: Maximum cell voltage and molecular weight impose fundamental limits on battery capacity.",
+                "intuition": "Water pressure model: Voltage is pressure, Current is flow rate, Resistance is constriction.",
+                "example": "High-voltage continental transmission grids.",
+                "howItWorks": "Electrons drift slowly while the electromagnetic field propagates through space at nearly light speed.",
+                "firstPrinciples": "Conservation of charge and Maxwell's equations.",
+                "mathematics": "$$V = IR \\quad \\text{and} \\quad P = I^2 R$$",
+                "misconceptions": "Electrons travel near the speed of light through copper wire.",
                 "sources": []
         },
         "cells-and-living-order": {
@@ -340,13 +372,13 @@
                 "chapterTitle": "Biology & Life",
                 "difficulty": "FOUNDATION",
                 "oneLiner": "The fundamental membrane-bound structural and functional unit of all living organisms capable of autonomous metabolism and self-replication.",
-                "whyItMatters": "Understanding cellular compartmentalization, membrane potential, and molecular motors is the basis of all pharmacology, immunology, and bioengineering.",
-                "intuition": "### The Self-Maintaining Factory\nImagine a self-assembling chemical factory surrounded by a smart security barrier (the lipid membrane). \n\nThe factory continuously intakes raw materials, burns energy currency (ATP), manufactures precision molecular tools (enzymes), repairs its own walls, and creates complete copies of itself.\n\n### Analogy Boundary\nA factory is designed by an external engineer. A biological cell is a self-organizing molecular system sculpted entirely by 3.8 billion years of natural selection.",
-                "example": "Mitochondrial ATP synthase generating cellular energy currency.",
-                "howItWorks": "### Step-by-Step Cellular Machinery\n1. **Lipid Bilayer Compartmentalization**: Hydrophobic phospholipid tails self-assemble into a barrier, maintaining a separate internal chemical environment.\n2. **Proton Gradient Charging**: Cellular respiration pumps protons ($H^+$) across the mitochondrial membrane, charging it like a chemical capacitor ($-140\\text{ mV}$).\n3. **ATP Synthase Motor**: Protons flow back through the rotary motor protein ATP Synthase, generating ATP from ADP and phosphate.\n4. **Enzymatic Catalysis**: Enzymes lower activation energy ($E_a$), driving metabolic reactions at biological temperatures.",
-                "firstPrinciples": "### Cell Theory\n1. All living organisms are composed of one or more cells.\n2. The cell is the basic unit of structure and organization in organisms.\n3. All cells arise from pre-existing cells via division.",
-                "mathematics": "### 1. Gibbs Free Energy of Cellular Reactions\n\n$$\\Delta G = \\Delta H - T\\Delta S$$\n\n- **$\\Delta G < 0$**: Spontaneous exergonic reaction (releases energy).\n- **$\\Delta G > 0$**: Endergonic reaction (requires ATP coupling).\n\n### 2. Electrochemical Membrane Potential (Nernst Equation):\n$$V_{\\text{eq}} = \\frac{RT}{zF} \\ln\\left( \\frac{[\\text{Ion}]_{\\text{out}}}{[\\text{Ion}]_{\\text{in}}} \\right)$$",
-                "misconceptions": "**MISCONCEPTION**: \"The cell cytoplasm is an open pool of watery soup.\"\n**CORRECTION**: The cytoplasm is a densely crowded macromolecular gel packed with protein scaffolds and molecular motors moving on microtubule tracks.\n\n---\n\n### If You Remember Only Five Things:\n1. **The cell is the atomic unit of biology**: Smallest entity exhibiting all properties of life.\n2. **Membranes maintain non-equilibrium**: Lipid bilayers separate internal biochemistry from entropy decay.\n3. **Proton gradients power ATP**: Mitochondria act as electrochemical capacitors.\n4. **Enzymes accelerate kinetics**: Lower activation energy without altering chemical equilibrium.\n5. **Information directed replication**: DNA directs protein synthesis via the genetic code.",
+                "whyItMatters": "Understanding cellular mechanics is the foundation of all medicine, pharmacology, and bioengineering.",
+                "intuition": "Self-maintaining chemical factory with smart lipid bilayer security barriers.",
+                "example": "Mitochondrial ATP synthase motor.",
+                "howItWorks": "Lipid compartmentalization, proton gradient charging, and ATP synthase rotary motors.",
+                "firstPrinciples": "Cell Theory and non-equilibrium steady states.",
+                "mathematics": "$$\\Delta G = \\Delta H - T\\Delta S$$",
+                "misconceptions": "The cytoplasm is an open watery soup.",
                 "sources": []
         },
         "dna-and-genetic-code": {
@@ -355,14 +387,14 @@
                 "chapterSlug": "biology-life",
                 "chapterTitle": "Biology & Life",
                 "difficulty": "CORE",
-                "oneLiner": "The molecular software of life: a double-helix polymer of nucleotide bases that encodes hereditary instructions for synthesizing proteins.",
-                "whyItMatters": "Deciphering DNA enables modern genomics, CRISPR gene editing, hereditary disease therapy, and synthetic biology.",
-                "intuition": "### The Digital Recipe Book\nThink of DNA as a 3-billion-letter digital instruction manual written in a 4-character base-4 alphabet: **A, T, C, G**. \n\nCellular machines read these letters in 3-letter words called **codons**. Each codon specifies one of 20 possible amino acid building blocks, folding into complex 3D molecular machines (proteins).",
-                "example": "CRISPR-Cas9 targeted genome editing.",
-                "howItWorks": "### The Central Dogma of Molecular Biology\n$$\\text{DNA} \\xrightarrow{\\text{Transcription}} \\text{mRNA} \\xrightarrow{\\text{Translation}} \\text{Protein}$$\n1. **Transcription**: RNA Polymerase reads a DNA gene template and transcribes a complementary messenger RNA (mRNA) strand.\n2. **Ribosomal Translation**: Ribosomes read mRNA codons in triplets and recruit transfer RNA (tRNA) carrying corresponding amino acids.\n3. **Protein Folding**: The linear amino acid chain folds into a precise 3D functional conformation governed by thermodynamic energy minimization.",
-                "firstPrinciples": "### Information Invariance & Base Complementarity\n- **Watson-Crick Base Pairing**: Adenine binds Thymine ($A=T$ with 2 hydrogen bonds); Cytosine binds Guanine ($C\\equiv G$ with 3 hydrogen bonds).\n- **Template Replication**: Each separated single strand serves as an exact template for synthesizing a complementary strand.",
-                "mathematics": "### 1. Codon Combinatorics\n\n$$4^3 = 64 \\text{ unique triplet codons} \\implies 20 \\text{ standard amino acids} + 3 \\text{ Stop signals}$$\n\n- **Information Density**: DNA stores $2\\text{ bits}$ per base pair. The human genome contains $3.2 \\times 10^9 \\text{ bp} \\approx 800\\text{ MB}$ of digital genetic code.",
-                "misconceptions": "**MISCONCEPTION**: \"One gene produces exactly one trait.\"\n**CORRECTION**: Most traits are polygenic (governed by hundreds of interacting genes and environmental epigenetic factors).\n\n---\n\n### If You Remember Only Five Things:\n1. **Base-4 digital storage**: DNA encodes information using A, T, C, G base pairs.\n2. **Central Dogma**: Information flows from DNA to RNA to functional Protein.\n3. **Triplet code redundancy**: 64 codons map to 20 amino acids, providing error resilience.\n4. **Hydrogen bonding enables replication**: Complementary strands unzip and duplicate faithfully.\n5. **Epigenetics modulates expression**: Chemical tags switch genes on and off without altering sequence.",
+                "oneLiner": "The molecular software of life: a double-helix polymer of nucleotide bases encoding hereditary instructions for synthesizing proteins.",
+                "whyItMatters": "Deciphering DNA enables modern genomics, CRISPR gene editing, and synthetic biology.",
+                "intuition": "Base-4 digital software instructions read in 3-letter triplet codons.",
+                "example": "CRISPR-Cas9 genome editing.",
+                "howItWorks": "Transcription into mRNA followed by ribosomal translation into 3D folded proteins.",
+                "firstPrinciples": "Watson-Crick base pairing and template-directed enzymatic replication.",
+                "mathematics": "$$4^3 = 64 \\text{ codons encoding 20 standard amino acids}$$",
+                "misconceptions": "One gene produces exactly one trait.",
                 "sources": []
         },
         "how-life-maintains-order": {
@@ -372,13 +404,13 @@
                 "chapterTitle": "Biology & Life",
                 "difficulty": "ADVANCED",
                 "oneLiner": "How living organisms function as open non-equilibrium thermodynamic systems, continually importing low-entropy energy and exporting high-entropy heat to preserve internal biological order.",
-                "whyItMatters": "Provides the fundamental physical definition of life as a self-sustaining dissipative structure resisting thermodynamic equilibrium (death).",
-                "intuition": "### The Refrigerator Mental Model\nA household refrigerator keeps its interior cool and orderly. It does not violate thermodynamics; it maintains a cold, organized interior by continuously consuming electrical power and exhausting diffuse, high-entropy thermal heat out the back into the kitchen.\n\nA living organism is an open thermodynamic refrigerator: it maintains internal cellular order by consuming low-entropy chemical energy and radiating high-entropy heat to the universe.",
+                "whyItMatters": "Provides the physical definition of life as a self-sustaining dissipative structure resisting thermodynamic equilibrium.",
+                "intuition": "Open thermodynamic refrigerator maintaining cold internal order by exhausting heat into the environment.",
                 "example": "Photosynthetic biosphere converting solar photons into chemical order.",
-                "howItWorks": "### Step-by-Step Non-Equilibrium Thermodynamics:\n1. **Solar Input**: Plants capture low-entropy visible photons ($T_{\\text{sun}} \\approx 5800\\text{ K}$) via photosynthesis.\n2. **Metabolic Catabolism**: Herbivores consume plant carbohydrates, extracting chemical free energy to synthesize ATP.\n3. **Entropy Export**: Biological work generates waste heat radiated as diffuse infrared photons ($T_{\\text{earth}} \\approx 300\\text{ K}$) into space.\n4. **Net Universe Entropy Gain**: For every unit of internal order created, the organism exports multiple units of entropy to the surrounding environment.",
-                "firstPrinciples": "### Non-Equilibrium Open System Thermodynamics (Prigogine)\n$$\\frac{dS}{dt} = \\frac{d_i S}{dt} + \\frac{d_e S}{dt}$$\n- **$d_i S / dt > 0$**: Internal entropy production from irreversible metabolic reactions.\n- **$d_e S / dt < 0$**: Entropy flux exported to the external environment.\n- **Steady State ($dS/dt = 0$)**: Occurs when $|d_e S / dt| = d_i S / dt$.",
-                "mathematics": "### 1. Entropy Balance Equation\n\n$$\\Delta S_{\\text{total}} = \\Delta S_{\\text{organism}} + \\Delta S_{\\text{environment}} > 0$$\n\n- **$\\Delta S_{\\text{organism}} < 0$** (Local decrease in biological entropy).\n- **$\\Delta S_{\\text{environment}} \\gg 0$** (Vast increase in environmental entropy).",
-                "misconceptions": "**MISCONCEPTION**: \"Life is a miracle that disobeys the Second Law of Thermodynamics.\"\n**CORRECTION**: Life is an open dissipative structure that obeys thermodynamics completely by accelerating global entropy production.\n\n---\n\n### If You Remember Only Five Things:\n1. **Life is an open thermodynamic system**: Continuous throughput of matter and energy.\n2. **Order requires continuous work**: Equilibrium for an organism is biological death.\n3. **Schrödinger's insight**: Life feeds on negative entropy by exporting thermal waste.\n4. **Net universe entropy strictly increases**: Local biological order produces a larger external entropy gain.\n5. **Dissipative structures**: Living cells self-organize far from thermodynamic equilibrium.",
+                "howItWorks": "Non-equilibrium open system thermodynamics: living systems export entropy faster than they produce it internally.",
+                "firstPrinciples": "Prigogine open-system thermodynamics: $dS/dt = d_i S/dt + d_e S/dt$.",
+                "mathematics": "$$\\frac{dS}{dt} = \\frac{d_i S}{dt} + \\frac{d_e S}{dt}$$",
+                "misconceptions": "Life violates the Second Law of Thermodynamics.",
                 "sources": []
         },
         "feedback-loops": {
@@ -388,13 +420,13 @@
                 "chapterTitle": "Complex Systems & Human Body",
                 "difficulty": "FOUNDATION",
                 "oneLiner": "A circular causal mechanism where a system's output is routed back as an input, either stabilizing the system (negative feedback) or amplifying changes (positive feedback).",
-                "whyItMatters": "Feedback loops govern blood glucose regulation, climate tipping points, economic booms and busts, and algorithmic control systems.",
-                "intuition": "### Thermostat vs. Audio Screech\n- **Negative Feedback (Stabilizer)**: A home thermostat. Room gets too cold $\\to$ heater turns on $\\to$ room warms $\\to$ heater turns off. Keeps system near setpoint.\n- **Positive Feedback (Amplifier)**: A microphone held near a speaker. Whisper enters mic $\\to$ amplified through speaker $\\to$ re-enters mic $\\to$ deafening screech. Drives runaway exponential divergence.",
-                "example": "Thermostatic climate control and human insulin regulation.",
-                "howItWorks": "### Step-by-Step Homeostatic Regulation (Blood Glucose):\n1. **Disturbance**: Ingesting a meal raises blood glucose above $100\\text{ mg/dL}$.\n2. **Sensor & Controller**: Pancreatic beta cells detect elevated glucose and secrete insulin.\n3. **Actuator**: Insulin instructs liver and muscle cells to absorb glucose from the blood.\n4. **Restoration**: Blood glucose drops back to baseline, shutting off insulin secretion.",
-                "firstPrinciples": "### Closed-Loop Transfer Function (Black's Formula)\n$$G(s) = \\frac{A}{1 + A\\beta}$$\n- **$A$**: Open-loop system gain.\n- **$\\beta$**: Feedback fraction.\n- **$1 + A\\beta > 1$**: Negative feedback stabilizes output and dampens external noise.",
-                "mathematics": "### 1. First-Order Linear Feedback Differential Equation\n\n$$\\frac{dx}{dt} = -k(x - x_0)$$\n\n- Solution: $x(t) = x_0 + (x(0) - x_0)e^{-kt}$ (Exponential return to setpoint $x_0$).",
-                "misconceptions": "**MISCONCEPTION**: \"Positive feedback is always good and negative feedback is bad.\"\n**CORRECTION**: Negative feedback is essential for stability and life; uncontrolled positive feedback causes runaway crashes, panics, and cancer.\n\n---\n\n### If You Remember Only Five Things:\n1. **Negative feedback stabilizes**: Dampens deviations to preserve steady-state homeostasis.\n2. **Positive feedback amplifies**: Drives exponential growth or runaway divergence.\n3. **Delays cause oscillations**: Time lag in feedback loops produces overshooting and instability.\n4. **Homeostasis relies on negative loops**: Biological survival requires continuous error correction.\n5. **Control theory is universal**: Applies to thermostats, physiology, economics, and robotics.",
+                "whyItMatters": "Feedback loops govern blood glucose regulation, climate tipping points, economic booms and busts, and robotic control systems.",
+                "intuition": "Thermostat (stabilizing negative feedback) vs. audio microphone screech (runaway positive feedback).",
+                "example": "Human insulin and glucagon glucose regulation.",
+                "howItWorks": "Sensors detect deviation from setpoint, triggering actuators to restore equilibrium.",
+                "firstPrinciples": "Cybernetics and closed-loop transfer functions.",
+                "mathematics": "$$G(s) = \\frac{A}{1 + A\\beta}$$",
+                "misconceptions": "Positive feedback is always good and negative feedback is bad.",
                 "sources": []
         },
         "emergence": {
@@ -404,45 +436,13 @@
                 "chapterTitle": "Complex Systems & Human Body",
                 "difficulty": "INTERMEDIATE",
                 "oneLiner": "The spontaneous appearance of novel macroscopic behaviors and properties in a complex system that cannot be predicted by analyzing individual parts in isolation.",
-                "whyItMatters": "Explains how simple local rules create consciousness from neurons, market prices from traders, and flocking coordination from birds.",
-                "intuition": "### Wetness of Water\nA single isolated water molecule ($H_2O$) is not wet. Wetness is an **emergent property** that only exists when billions of water molecules interact collectively at room temperature. \n\nNo examination of a single molecule in a vacuum will ever reveal \"wetness.\"",
-                "example": "Starling murmuration flocks and Conway's Game of Life.",
-                "howItWorks": "### Step-by-Step Emergence (Flocking Starlings / Boids):\n1. **Rule 1 (Separation)**: Steer to avoid crowding local flockmates.\n2. **Rule 2 (Alignment)**: Steer toward the average heading of local flockmates.\n3. **Rule 3 (Cohesion)**: Steer toward the average position of local flockmates.\n4. **Macroscopic Emergence**: Thousands of birds form breathtaking, fluid murmuration waves without any central leader or choreography.",
-                "firstPrinciples": "### Anderson's Axiom: 'More Is Different' (Philip Anderson, 1972)\nReductionism (breaking things down to particles) does not imply constructionism (predicting the macroscopic behavior from particles). At each new level of scale, entirely new fundamental laws appear.",
-                "mathematics": "### 1. Non-Linear Interaction & Non-Additivity\n\n$$\\Psi_{\\text{macro}}(\\mathbf{X}) \\neq \\sum_{i=1}^N \\psi_i(x_i)$$",
-                "misconceptions": "**MISCONCEPTION**: \"Emergence requires a central leader or mysterious non-physical force.\"\n**CORRECTION**: Emergence arises strictly from local, decentralized mathematical interactions between parts.\n\n---\n\n### If You Remember Only Five Things:\n1. **More is different**: Whole is qualitatively different from the sum of parts.\n2. **Decentralized coordination**: Complex patterns emerge without central leadership.\n3. **Simple local rules create complexity**: Conway's Game of Life produces universal computation.\n4. **Hierarchical scale breaks reductionism**: Higher-order systems require new conceptual laws.\n5. **Examples are ubiquitous**: Consciousness, markets, traffic jams, and hurricanes.",
-                "sources": []
-        },
-        "needs-and-incentives": {
-                "slug": "needs-and-incentives",
-                "title": "Incentives & Human Behavior",
-                "chapterSlug": "society-money-mind",
-                "chapterTitle": "Society, Money & Mind",
-                "difficulty": "FOUNDATION",
-                "oneLiner": "The structural rewards, costs, and psychological payoffs that motivate individuals to choose one course of action over another.",
-                "whyItMatters": "Every policy, corporate compensation plan, and social institution succeeds or fails based on whether its incentive architecture aligns with desired outcomes.",
-                "intuition": "### The Cobra Effect\nA colonial government wanted to reduce the venomous cobra population in Delhi. They offered a cash bounty for every dead cobra brought in. \n\nCitizens realized they could breed cobras in their basements to collect endless bounties. When the government canceled the program, breeders released their worthless snakes, resulting in **more wild cobras than before**.\n\nPeople respond to the actual incentives created, not the intended goal.",
-                "example": "Delhi cobra bounty program and Goodhart's Law.",
-                "howItWorks": "### Step-by-Step Incentive Dynamics:\n1. **Payoff Gradient Established**: Rules assign rewards or penalties to actions.\n2. **Strategic Optimization**: Agents alter behavior to maximize net payoff subject to constraints.\n3. **Unintended Arbitrage**: Agents exploit discrepancies between the formal metric and real objective (Goodhart's Law).",
-                "firstPrinciples": "### Expected Utility & Bounded Rationality\nAgents maximize subjective expected utility $U = \\sum p_i u(x_i)$ under constraints of imperfect information.",
-                "mathematics": "### 1. Expected Utility & Payoff Optimization\n\n$$U(\\mathbf{a}) = \\sum_{s \\in S} P(s | \\mathbf{a}) \\cdot u(s) - C(\\mathbf{a})$$",
-                "misconceptions": "**MISCONCEPTION**: \"People act purely from direct financial selfishness.\"\n**CORRECTION**: Incentives encompass social status, moral norms, belonging, and risk aversion.\n\n---\n\n### If You Remember Only Five Things:\n1. **People respond to incentives**: Behavior follows payoffs, not intentions.\n2. **Goodhart's Law**: When a measure becomes a target, it ceases to be a good measure.\n3. **Cobra Effect**: Poorly designed incentives create perverse counterproductive outcomes.\n4. **Second-order consequences matter**: Always ask \"And then what happens?\"\n5. **Incentive design is governance**: Aligning payoffs with desired outcomes builds robust institutions.",
-                "sources": []
-        },
-        "money-and-exchange": {
-                "slug": "money-and-exchange",
-                "title": "Money & Mediums of Exchange",
-                "chapterSlug": "society-money-mind",
-                "chapterTitle": "Society, Money & Mind",
-                "difficulty": "CORE",
-                "oneLiner": "A social coordination technology and shared ledger that functions as a medium of exchange, unit of account, and store of value.",
-                "whyItMatters": "Understanding money is required to understand banking, inflation, interest rates, capital allocation, and international trade.",
-                "intuition": "### The Double Coincidence of Wants\nWithout money, a dentist who wants bread must search for a baker who has a toothache and needs a filling. \n\nMoney resolves this coordination friction: anyone can trade labor for a universally accepted token that any other participant accepts.",
-                "example": "Commercial banking fractional reserve credit expansion and central bank clearing.",
-                "howItWorks": "### Step-by-Step Monetary Ledger Evolution:\n1. **Commodity Money**: Gold, salt, and shells with intrinsic utility.\n2. **Representative Money**: Paper warehouse receipts backed 1:1 by gold vaults.\n3. **Fiat Ledger**: State-issued currency accepted for tax settlements and legal tender.\n4. **Digital Ledger**: Commercial bank electronic balances transferred via interbank clearing systems.",
-                "firstPrinciples": "### Functions of Money\n1. Medium of Exchange (Eliminates trade friction).\n2. Unit of Account (Common pricing metric).\n3. Store of Value (Transports purchasing power across time).",
-                "mathematics": "### 1. The Quantity Theory of Money (Equation of Exchange)\n\n$$M \\cdot V = P \\cdot Y$$\n\n- **$M$**: Money supply in circulation.\n- **$V$**: Velocity of money (turnover rate).\n- **$P$**: General price level (inflation index).\n- **$Y$**: Real economic output (Real GDP).",
-                "misconceptions": "**MISCONCEPTION**: \"Money must be backed by physical gold to have value.\"\n**CORRECTION**: Fiat money derives value from collective institutional trust, legal tender enforceability, and sovereign tax liability.\n\n---\n\n### If You Remember Only Five Things:\n1. **Money is a coordination ledger**: Solves the double coincidence of wants.\n2. **Three core functions**: Medium of exchange, unit of account, store of value.\n3. **Equation of exchange**: $M \\cdot V = P \\cdot Y$.\n4. **Fiat is backed by state sovereignty**: Taxes establish baseline currency demand.\n5. **Credit creation**: Commercial banks create new deposit money through loans.",
+                "whyItMatters": "Explains how simple local rules create consciousness from neurons, market prices from traders, and flocking from birds.",
+                "intuition": "A single water molecule is not wet; wetness emerges only from collective interaction.",
+                "example": "Starling murmuration flocking and Conway's Game of Life.",
+                "howItWorks": "Local non-linear interaction rules producing spontaneous global self-organization.",
+                "firstPrinciples": "Anderson's Axiom: More is Different (1972).",
+                "mathematics": "$$\\Psi_{\\text{macro}} \\neq \\sum_{i=1}^N \\psi_i$$",
+                "misconceptions": "Emergence requires a central leader.",
                 "sources": []
         },
         "demographic-transition": {
@@ -452,13 +452,13 @@
                 "chapterTitle": "Society, Money & Mind",
                 "difficulty": "INTERMEDIATE",
                 "oneLiner": "The historical transition from high birth and death rates to low birth and death rates as a society develops economically.",
-                "whyItMatters": "Explains global population growth trajectory, aging workforces, and the projected peak global population ceiling (~10.3 billion).",
-                "intuition": "### The 4-Stage Population Pipeline\n1. **Stage 1 (Pre-Industrial)**: High birth rates + High death rates $\\implies$ Stable low population.\n2. **Stage 2 (Sanitation & Medicine Boom)**: Death rates plunge, but birth rates remain high $\\implies$ **Massive population explosion**.\n3. **Stage 3 (Urbanization & Education)**: Birth rates drop sharply as female education and urbanization rise $\\implies$ Growth slows.\n4. **Stage 4 (Modern Equilibrium)**: Low birth rates + Low death rates $\\implies$ Population stabilizes and eventually ages.",
+                "whyItMatters": "Explains global population growth trajectory, aging workforces, and the projected peak global population ceiling.",
+                "intuition": "4-stage pipeline: Pre-industrial $\\to$ Mortality decline boom $\\to$ Fertility response drop $\\to$ Modern aging equilibrium.",
                 "example": "South Korea demographic transition from 1960 to 2024.",
-                "howItWorks": "### Step-by-Step Demographic Shift:\n- **Mortality Decline**: Clean water, vaccines, and refrigeration reduce child mortality.\n- **Lagged Fertility Response**: Cultural norms take 1–2 generations to adjust to higher child survival odds.\n- **Economic Inversion**: Children transition from agricultural labor assets to urban education investment costs, reducing desired family size.",
-                "firstPrinciples": "### Demographic Momentum & Logistic Dynamics\n$$\\frac{dP}{dt} = r P \\left(1 - \\frac{P}{K}\\right)$$",
-                "mathematics": "### 1. Total Fertility Rate (TFR) Replacement Threshold\n\n$$\\text{Replacement Level TFR} \\approx 2.1 \\text{ births per woman}$$\n\n- **TFR $> 2.1$**: Growing population.\n- **TFR $< 2.1$**: Aging, shrinking population (e.g. South Korea $\\approx 0.72$, Japan $\\approx 1.2$).",
-                "misconceptions": "**MISCONCEPTION**: \"Human population will explode exponentially forever.\"\n**CORRECTION**: Global fertility rates have dropped by over 50% since 1960. Global population is projected to peak in the late 21st century and stabilize or decline.\n\n---\n\n### If You Remember Only Five Things:\n1. **Four distinct stages**: High equilibrium $\\to$ Death rate plunge $\\to$ Birth rate plunge $\\to$ Low equilibrium.\n2. **Mortality drops before fertility**: The time lag causes the population surge.\n3. **Urbanization drops birth rates**: Children become economic investments rather than farm hands.\n4. **Replacement rate is 2.1**: Sub-replacement fertility drives population aging.\n5. **Peak humanity is approaching**: Global population will peak this century, not grow infinitely.",
+                "howItWorks": "Sanitation drops death rates before cultural norms adjust family size.",
+                "firstPrinciples": "Logistic population dynamics.",
+                "mathematics": "$$\\frac{dP}{dt} = r P \\left(1 - \\frac{P}{K}\\right)$$",
+                "misconceptions": "Human population will explode exponentially forever.",
                 "sources": []
         }
 },
@@ -608,246 +608,193 @@
     }
 
 
-    function formatMarkdown(text) {
+        function formatMarkdown(text) {
       if (!text) return '';
       
-      const blocks = text.split('\n\n');
-      return blocks.map(block => {
-        const trimmed = block.trim();
-        if (!trimmed) return '';
+      const lines = text.replace(/\r\n/g, '\n').split('\n');
+      let html = '';
+      let inList = false;
+      let listType = '';
+      let inTable = false;
+      let tableRows = [];
+      let inCodeBlock = false;
+      let codeBlockLines = [];
 
-        // Heading 3
-        if (trimmed.startsWith('### ')) {
-          return `<h3 class="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-white pt-5 pb-1 border-b border-slate-200 dark:border-slate-800">${trimmed.replace('### ', '')}</h3>`;
+      function flushList() {
+        if (inList) {
+          html += listType === 'ol' ? '</ol>' : '</ul>';
+          inList = false;
+          listType = '';
+        }
+      }
+
+      function flushTable() {
+        if (inTable) {
+          if (tableRows.length > 0) {
+            html += '<div class="overflow-x-auto my-4"><table class="w-full text-left text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800 shadow-sm rounded-lg overflow-hidden">';
+            tableRows.forEach((r, idx) => {
+              const cols = r.split('|').filter((_, cIdx, arr) => cIdx > 0 && cIdx < arr.length - 1);
+              if (idx === 0) {
+                html += '<thead class="bg-slate-100 dark:bg-slate-800/90 font-mono text-[11px] uppercase tracking-wider text-slate-700 dark:text-slate-300"><tr>' + cols.map(c => '<th class="p-3 border border-slate-200 dark:border-slate-800 font-bold">' + formatInlineText(c.trim()) + '</th>').join('') + '</tr></thead><tbody>';
+              } else {
+                html += '<tr class="hover:bg-slate-50/80 dark:hover:bg-slate-800/40 transition-colors">' + cols.map(c => '<td class="p-3 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-slate-200">' + formatInlineText(c.trim()) + '</td>').join('') + '</tr>';
+              }
+            });
+            html += '</tbody></table></div>';
+          }
+          inTable = false;
+          tableRows = [];
+        }
+      }
+
+      function flushCodeBlock() {
+        if (inCodeBlock) {
+          html += '<pre class="my-4 p-4 rounded-xl bg-slate-900 text-slate-100 dark:bg-[#070b12] text-xs font-mono overflow-x-auto border border-slate-800 leading-relaxed"><code>' + escapeHtml(codeBlockLines.join('\n')) + '</code></pre>';
+          inCodeBlock = false;
+          codeBlockLines = [];
+        }
+      }
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const trimmed = line.trim();
+
+        if (trimmed.startsWith('```')) {
+          if (inCodeBlock) {
+            flushCodeBlock();
+          } else {
+            flushList();
+            flushTable();
+            inCodeBlock = true;
+            codeBlockLines = [];
+          }
+          continue;
         }
 
-        // Heading 4
-        if (trimmed.startsWith('#### ')) {
-          return `<h4 class="text-base sm:text-lg font-serif font-semibold text-slate-900 dark:text-white pt-3 pb-0.5">${trimmed.replace('#### ', '')}</h4>`;
+        if (inCodeBlock) {
+          codeBlockLines.push(line);
+          continue;
         }
 
-        // Standalone Math Block $$ ... $$
+        if (!trimmed) {
+          flushList();
+          flushTable();
+          continue;
+        }
+
+        // Horizontal rule
+        if (trimmed === '---') {
+          flushList();
+          flushTable();
+          html += '<hr class="my-6 border-slate-200 dark:border-slate-800" />';
+          continue;
+        }
+
+        // Standalone KaTeX display block
         if (trimmed.startsWith('$$') && trimmed.endsWith('$$')) {
-          return `<div class="math-block text-center text-sm sm:text-base border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-slate-900 dark:text-slate-100 my-4">${trimmed}</div>`;
+          flushList();
+          flushTable();
+          html += '<div class="math-block text-center text-sm sm:text-base border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520] text-slate-900 dark:text-slate-100 my-4 shadow-sm">' + trimmed + '</div>';
+          continue;
         }
 
-        // Misconception block
+        // Headings
+        if (trimmed.startsWith('### ')) {
+          flushList();
+          flushTable();
+          html += '<h3 class="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-white pt-5 pb-1 border-b border-slate-200 dark:border-slate-800">' + formatInlineText(trimmed.replace('### ', '')) + '</h3>';
+          continue;
+        }
+        if (trimmed.startsWith('#### ')) {
+          flushList();
+          flushTable();
+          html += '<h4 class="text-base sm:text-lg font-serif font-semibold text-slate-900 dark:text-white pt-3 pb-0.5">' + formatInlineText(trimmed.replace('#### ', '')) + '</h4>';
+          continue;
+        }
+
+        // Misconception Box Lines
         if (trimmed.startsWith('**MISCONCEPTION**:')) {
-          const lines = trimmed.split('\n');
-          let out = '<div class="my-4 rounded-xl border border-amber-500/30 bg-amber-50/50 dark:bg-amber-950/20 p-5 space-y-3 font-sans">';
-          lines.forEach(l => {
-            const lt = l.trim();
-            if (lt.startsWith('**MISCONCEPTION**:')) {
-              out += `<div class="space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20">Common Misconception</span><p class="text-sm font-serif font-semibold text-slate-900 dark:text-white pt-1">${formatInlineText(lt.replace('**MISCONCEPTION**:', '').trim())}</p></div>`;
-            } else if (lt.startsWith('**CORRECTION**:')) {
-              out += `<div class="space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20">Scientific Correction</span><p class="text-sm text-slate-800 dark:text-slate-200">${formatInlineText(lt.replace('**CORRECTION**:', '').trim())}</p></div>`;
-            } else if (lt.startsWith('**WHY THE CONFUSION HAPPENS**:')) {
-              out += `<div class="text-xs text-slate-600 dark:text-slate-400 pt-1 border-t border-amber-500/20"><strong class="text-slate-700 dark:text-slate-300 font-mono">Why Confusion Happens: </strong>${formatInlineText(lt.replace('**WHY THE CONFUSION HAPPENS**:', '').trim())}</div>`;
-            } else if (lt) {
-              out += `<p class="text-sm text-slate-700 dark:text-slate-300">${formatInlineText(lt)}</p>`;
-            }
-          });
-          out += '</div>';
-          return out;
+          flushList();
+          flushTable();
+          html += '<div class="my-4 rounded-xl border border-rose-500/20 bg-rose-50/40 dark:bg-rose-950/20 p-4 space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20">Common Misconception</span><p class="text-sm font-serif font-semibold text-slate-900 dark:text-white pt-1">' + formatInlineText(trimmed.replace('**MISCONCEPTION**:', '').trim()) + '</p></div>';
+          continue;
+        }
+        if (trimmed.startsWith('**CORRECTION**:')) {
+          flushList();
+          flushTable();
+          html += '<div class="my-4 rounded-xl border border-emerald-500/20 bg-emerald-50/40 dark:bg-emerald-950/20 p-4 space-y-1"><span class="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20">Scientific Correction</span><p class="text-sm text-slate-800 dark:text-slate-200 pt-1">' + formatInlineText(trimmed.replace('**CORRECTION**:', '').trim()) + '</p></div>';
+          continue;
+        }
+        if (trimmed.startsWith('**WHY THE CONFUSION HAPPENS**:')) {
+          flushList();
+          flushTable();
+          html += '<div class="my-3 p-3 rounded-lg border border-amber-500/20 bg-amber-50/30 dark:bg-amber-950/10 text-xs text-slate-600 dark:text-slate-400 font-sans"><strong class="text-slate-800 dark:text-slate-200 font-mono">Why Confusion Happens: </strong>' + formatInlineText(trimmed.replace('**WHY THE CONFUSION HAPPENS**:', '').trim()) + '</div>';
+          continue;
         }
 
-        // Bullet lists
+        // Table Rows
+        if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+          if (trimmed.includes('---')) continue;
+          flushList();
+          inTable = true;
+          tableRows.push(trimmed);
+          continue;
+        } else {
+          flushTable();
+        }
+
+        // Unordered Lists
         if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
-          const items = trimmed.split('\n');
-          return `<ul class="space-y-2 my-3 pl-5 list-disc text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400">${items.map(it => `<li class="leading-relaxed">${formatInlineText(it.replace(/^[-*]\s+/, ''))}</li>`).join('')}</ul>`;
+          if (!inList || listType !== 'ul') {
+            flushList();
+            inList = true;
+            listType = 'ul';
+            html += '<ul class="space-y-2 my-3 pl-5 list-disc text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400">';
+          }
+          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^[-*]\s+/, '')) + '</li>';
+          continue;
         }
 
-        // Numbered lists
+        // Ordered Lists
         if (/^\d+\.\s+/.test(trimmed)) {
-          const items = trimmed.split('\n');
-          return `<ol class="space-y-2 my-3 pl-5 list-decimal text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400 font-sans">${items.map(it => `<li class="leading-relaxed">${formatInlineText(it.replace(/^\d+\.\s+/, ''))}</li>`).join('')}</ol>`;
+          if (!inList || listType !== 'ol') {
+            flushList();
+            inList = true;
+            listType = 'ol';
+            html += '<ol class="space-y-2 my-3 pl-5 list-decimal text-sm sm:text-base marker:text-emerald-600 dark:marker:text-emerald-400 font-sans">';
+          }
+          html += '<li class="leading-relaxed">' + formatInlineText(trimmed.replace(/^\d+\.\s+/, '')) + '</li>';
+          continue;
         }
 
-        // Tables
-        if (trimmed.startsWith('|') && trimmed.includes('|')) {
-          const rows = trimmed.split('\n').filter(r => !r.includes('---'));
-          return `<div class="overflow-x-auto my-4"><table class="w-full text-left text-xs sm:text-sm border-collapse border border-slate-200 dark:border-slate-800">${rows.map((row, rIdx) => {
-            const cols = row.split('|').filter((_, cIdx, arr) => cIdx > 0 && cIdx < arr.length - 1);
-            if (rIdx === 0) {
-              return `<thead class="bg-slate-100 dark:bg-slate-800/80 font-mono text-[11px] uppercase"><tr>${cols.map(c => `<th class="p-2.5 border border-slate-200 dark:border-slate-800">${formatInlineText(c.trim())}</th>`).join('')}</tr></thead>`;
-            }
-            return `<tbody><tr class="hover:bg-slate-50 dark:hover:bg-slate-800/30">${cols.map(c => `<td class="p-2.5 border border-slate-200 dark:border-slate-800">${formatInlineText(c.trim())}</td>`).join('')}</tr></tbody>`;
-          }).join('')}</table></div>`;
-        }
+        // Standard Paragraph
+        flushList();
+        html += '<p class="text-base sm:text-lg leading-relaxed text-slate-800 dark:text-slate-200 my-3">' + formatInlineText(trimmed) + '</p>';
+      }
 
-        // Standard paragraph
-        return `<p class="text-base sm:text-lg leading-relaxed text-slate-800 dark:text-slate-200">${formatInlineText(trimmed)}</p>`;
-      }).join('');
+      flushList();
+      flushTable();
+      flushCodeBlock();
+
+      return html;
     }
 
     function formatInlineText(str) {
       if (!str) return '';
       return str
         .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900 dark:text-white">$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em class="italic text-slate-800 dark:text-slate-200">$1</em>');
+        .replace(/\*(.*?)\*/g, '<em class="italic text-slate-800 dark:text-slate-200">$1</em>')
+        .replace(/`([^`]+)`/g, '<code class="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-emerald-700 dark:text-emerald-400 border border-slate-200 dark:border-slate-700">$1</code>');
     }
 
-
-    
-    // Views
-    function renderHome(container) {
-      container.innerHTML = `
-        <div class="space-y-16">
-          <!-- Hero Section -->
-          <div class="space-y-6 text-center max-w-3xl mx-auto py-10">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-400 text-xs font-mono">
-              <span class="w-2 h-2 rounded-full bg-emerald-600 dark:bg-emerald-400 animate-pulse"></span>
-              <span>Living Scientific Encyclopedia</span>
-            </div>
-            <h1 class="text-4xl sm:text-6xl font-serif font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-              From Curiosity to <span class="text-emerald-700 dark:text-emerald-400 italic">First Principles</span>
-            </h1>
-            <p class="text-base sm:text-lg text-slate-600 dark:text-slate-400 font-sans leading-relaxed">
-              Ideas discovered today should become durable understanding rather than disappear three days later. A structured, interconnected intellectual library built for deep learning.
-            </p>
-            <div class="pt-2 flex flex-wrap items-center justify-center gap-3">
-              <button onclick="navigate('library')" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-semibold transition-all flex items-center gap-2 shadow-sm">
-                <span>Browse Master Library</span>
-                <i data-lucide="arrow-right" class="w-4 h-4"></i>
-              </button>
-              <button onclick="navigate('add')" class="px-6 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-[#0f1520] hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-mono font-semibold transition-all flex items-center gap-2">
-                <i data-lucide="plus-circle" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
-                <span>Add Discovery</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Continue Reading (Recent Concepts) -->
-          <section class="space-y-4">
-            <div class="flex items-baseline justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
-              <div class="flex items-center space-x-2 text-xs font-mono uppercase font-bold text-slate-800 dark:text-slate-200">
-                <i data-lucide="bookmark" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
-                <span>Continue Reading</span>
-              </div>
-              <span class="text-xs font-mono text-slate-400">Benchmark Reference Nodes</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div onclick="navigate('concepts', 'entropy')" class="cursor-pointer group p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all space-y-3">
-                <div class="flex justify-between items-center text-xs font-mono">
-                  <span class="text-emerald-700 dark:text-emerald-400 font-semibold">Universe & Physics</span>
-                  <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 text-[10px] font-bold">INTERMEDIATE</span>
-                </div>
-                <h3 class="text-xl font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Entropy</h3>
-                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">Multiplicity of states S = k_B ln Ω and why closed systems drift toward higher probability states.</p>
-              </div>
-              <div onclick="navigate('concepts', 'energy-density')" class="cursor-pointer group p-5 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all space-y-3">
-                <div class="flex justify-between items-center text-xs font-mono">
-                  <span class="text-emerald-700 dark:text-emerald-400 font-semibold">Energy & Technology</span>
-                  <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-800 dark:text-amber-300 border border-amber-500/20 text-[10px] font-bold">INTERMEDIATE</span>
-                </div>
-                <h3 class="text-xl font-serif font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">Energy Density</h3>
-                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">The quantity of usable energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).</p>
-              </div>
-            </div>
-          </section>
-
-          <!-- 5 Master Volumes -->
-          <section class="space-y-6">
-            <div class="flex items-baseline justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
-              <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-200">5 Master Volumes</h2>
-              <span class="text-xs font-mono text-slate-400">The Curriculum Tree</span>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              ${KNOWLEDGE_DB.chapters.map(ch => `
-                <div onclick="navigate('chapters', '${ch.slug}')" class="cursor-pointer group p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-md transition-all space-y-3">
-                  <div class="flex items-center justify-between">
-                    <span class="text-2xl">${ch.icon}</span>
-                    <span class="text-xs font-mono text-slate-400 font-bold">Vol. 0${ch.order}</span>
-                  </div>
-                  <h3 class="text-lg font-serif font-semibold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${ch.title}</h3>
-                  <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">${ch.description}</p>
-                  <div class="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-mono text-slate-500 group-hover:text-emerald-700 dark:group-hover:text-emerald-400">
-                    <span>${ch.concepts.length} Concept Nodes</span>
-                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </section>
-        </div>
-      `;
-    }
-
-    function renderLibrary(container) {
-      container.innerHTML = `
-        <div class="space-y-8 max-w-5xl mx-auto">
-          <div class="space-y-2 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <span class="text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">Master Curriculum</span>
-            <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">The Master Library</h1>
-            <p class="text-sm text-slate-600 dark:text-slate-400">5 integrated volumes organizing the fundamental rules of nature, systems, and human society.</p>
-          </div>
-          <div class="space-y-6">
-            ${KNOWLEDGE_DB.chapters.map(ch => `
-              <div class="p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 shadow-sm space-y-4">
-                <div class="flex items-center justify-between cursor-pointer" onclick="navigate('chapters', '${ch.slug}')">
-                  <div class="flex items-center gap-3">
-                    <span class="text-3xl">${ch.icon}</span>
-                    <div>
-                      <span class="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${ch.order}</span>
-                      <h2 class="text-xl font-serif font-bold text-slate-900 dark:text-white hover:text-emerald-600 transition-colors">${ch.title}</h2>
-                    </div>
-                  </div>
-                  <span class="text-xs font-mono text-slate-500">${ch.concepts.length} concepts</span>
-                </div>
-                <p class="text-sm text-slate-600 dark:text-slate-400">${ch.description}</p>
-                <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
-                  ${ch.concepts.map(c => `
-                    <button onclick="navigate('concepts', '${c.slug}')" class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800/80 text-xs font-mono text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-700 dark:hover:text-emerald-400 transition-all font-medium">
-                      ${c.title}
-                    </button>
-                  `).join('')}
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    }
-
-    function renderChapter(container, slug) {
-      const cleanSlug = (slug || '').toLowerCase().trim().replace(/^[\/]+|[\/]+$/g, '');
-      const chapter = KNOWLEDGE_DB.chapters.find(c => c.slug === cleanSlug) || KNOWLEDGE_DB.chapters[0];
-
-      container.innerHTML = `
-        <div class="space-y-10 max-w-4xl mx-auto">
-          <div class="space-y-4 border-b border-slate-200 dark:border-slate-800 pb-6">
-            <button onclick="navigate('library')" class="text-xs font-mono text-slate-500 hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1">
-              <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
-              <span>Back to Library</span>
-            </button>
-            <div class="flex items-center gap-3">
-              <span class="text-4xl">${chapter.icon}</span>
-              <div>
-                <span class="text-xs font-mono uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-bold">Volume 0${chapter.order}</span>
-                <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 dark:text-white">${chapter.title}</h1>
-              </div>
-            </div>
-            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${chapter.overview || chapter.description}</p>
-          </div>
-
-          <div class="space-y-4">
-            <h2 class="text-xs font-mono uppercase font-bold tracking-widest text-slate-800 dark:text-slate-300">Documented Concepts</h2>
-            <div class="space-y-3">
-              ${chapter.concepts.map(c => `
-                <div onclick="navigate('concepts', '${c.slug}')" class="cursor-pointer p-5 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/80 dark:bg-[#0f1520]/80 hover:border-emerald-500/40 hover:shadow-sm transition-all flex items-center justify-between group">
-                  <div class="space-y-1">
-                    <div class="flex items-center gap-2">
-                      <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 font-bold">${c.difficulty || 'CORE'}</span>
-                      <h3 class="text-base font-serif font-semibold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors">${c.title}</h3>
-                    </div>
-                  </div>
-                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400 group-hover:text-emerald-500 transition-colors"></i>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-      `;
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
     }
 
     function renderConcept(container, slug) {
