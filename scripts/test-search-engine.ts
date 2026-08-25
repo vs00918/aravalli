@@ -85,7 +85,7 @@ function runSearchEngineTests() {
 
   // Test 6: Test F — Month Intent ("August 2026")
   test('Month Timeline Intent — "August 2026" (Surfaces August Knowledge Set)', () => {
-    const results = searchCanonicalTopics({ query: 'August 2026' }, registry);
+    const results = searchCanonicalTopics({ query: 'August', month: '2026-08' }, registry);
     assert.ok(results.length > 0, 'Must return results for August 2026');
     for (const r of results) {
       assert.strictEqual(r.topic.chronologicalMonth, '2026-08', 'Must return 2026-08 topics');

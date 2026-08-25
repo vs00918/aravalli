@@ -21,6 +21,12 @@
           "number": 2,
           "title": "Banking & Economy CA: 2026-08 (week-3)",
           "subtitle": "Successfully processed 31 canonical topics for 2026-08 week-3."
+        },
+        {
+          "slug": "03-january-2026-cgb",
+          "number": 3,
+          "title": "Banking & Economy CA: 2026-01 (week-1-4)",
+          "subtitle": "Successfully processed 100 canonical topics for 2026-01 week-1-4."
         }
       ]
     }

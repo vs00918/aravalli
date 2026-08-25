@@ -29,8 +29,25 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     const filePath = path.join(caDir, file);
     const batchId = path.basename(file, '.md');
     const sourceDefault = file.includes('smartkeeda') ? 'SMARTKEEDA' : 'CGB_MENTORS';
-    const month = '2026-08';
-    const week = file.includes('part-2') ? 'week-3' : 'week-1-2';
+    
+    // Dynamic month extraction
+    let month = '2026-08';
+    if (file.includes('january')) month = '2026-01';
+    else if (file.includes('february')) month = '2026-02';
+    else if (file.includes('march')) month = '2026-03';
+    else if (file.includes('april')) month = '2026-04';
+    else if (file.includes('may')) month = '2026-05';
+    else if (file.includes('june')) month = '2026-06';
+    else if (file.includes('july')) month = '2026-07';
+    else if (file.includes('august')) month = '2026-08';
+    else if (file.includes('september')) month = '2026-09';
+    else if (file.includes('october')) month = '2026-10';
+    else if (file.includes('november')) month = '2026-11';
+    else if (file.includes('december')) month = '2026-12';
+
+    let week = 'week-1-4';
+    if (file.includes('part-2')) week = 'week-3';
+    else if (file.includes('part-1')) week = 'week-1-2';
 
     const { topics, batch } = parseCanonicalMarkdownFile(filePath, batchId, sourceDefault, month, week);
     batches.push(batch);
