@@ -55,10 +55,18 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
           </span>
         )}
 
-        <span className="flex items-center gap-1 text-[var(--text-subtle)] ml-auto font-semibold">
-          <Clock className="w-3.5 h-3.5 text-emerald-400" />
-          <span>~{topic.revisionMinutes} min revision</span>
-        </span>
+        <div className="flex items-center gap-3 ml-auto">
+          <span className="flex items-center gap-1 text-[var(--text-subtle)] font-semibold">
+            <Clock className="w-3.5 h-3.5 text-emerald-400" />
+            <span>~{topic.revisionMinutes} min</span>
+          </span>
+          <Link
+            href={`/revision?topic=${topic.slug}`}
+            className="px-2.5 py-1 rounded bg-emerald-700 hover:bg-emerald-600 text-white font-mono text-xs font-bold transition-colors inline-flex items-center gap-1"
+          >
+            <span>Revise Topic</span>
+          </Link>
+        </div>
       </div>
 
       {/* Title & Subtitle */}
