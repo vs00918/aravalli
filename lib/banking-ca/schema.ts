@@ -117,8 +117,10 @@ export const CanonicalTopicSchema = z.object({
   regulatoryStatus: RegulatoryStatusSchema.default('IMPLEMENTED'),
   verificationStatus: VerificationStatusSchema.default('SOURCE_ONLY'),
   
+  whatHappened: z.array(z.string()).default([]),
   mustMemorizeFacts: z.array(z.string().min(1)),
   knowUnderstandContext: z.array(z.string().min(1)).default([]),
+  examFocus: z.array(z.string()).default([]),
   optionalFacts: z.array(z.string()).default([]),
   
   initialEventDate: z.string().min(1),

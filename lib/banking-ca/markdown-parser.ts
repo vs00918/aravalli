@@ -81,10 +81,17 @@ export function parseCanonicalMarkdownFile(
   let currentPart: 'P1' | 'P2' | 'P3' | 'IGNORE' | 'REPORT' = 'P1';
 
   let currentTopic: Partial<CanonicalTopic> | null = null;
+  let currentSubSection: 'NONE' | 'WHAT_HAPPENED' | 'MUST_MEMORIZE' | 'KNOW_UNDERSTAND' | 'EXAM_FOCUS' = 'NONE';
   let topicMarkdownBuffer: string[] = [];
 
   const flushCurrentTopic = () => {
-    if (currentTopic && currentTopic.title && currentTopic.mustMemorizeFacts && currentTopic.mustMemorizeFacts.length > 0) {
+    if (currentTopic && currentTopic.title) {
+      const mustMem = (currentTopic.mustMemorizeFacts && currentTopic.mustMemorizeFacts.length > 0)
+        ? currentTopic.mustMemorizeFacts
+        : (currentTopic.whatHappened && currentTopic.whatHappened.length > 0)
+        ? currentTopic.whatHappened
+        : [currentTopic.title];
+
       const slug = currentTopic.slug || generateStableSlug(currentTopic.title);
       const fullMd = topicMarkdownBuffer.join('\n').trim();
       const institution = identifyInstitution(currentTopic.title, fullMd);
@@ -102,8 +109,10 @@ export function parseCanonicalMarkdownFile(
         primaryInstitution: institution,
         regulatoryStatus: currentTopic.regulatoryStatus || 'IMPLEMENTED',
         verificationStatus: currentTopic.verificationStatus || 'SOURCE_ONLY',
-        mustMemorizeFacts: currentTopic.mustMemorizeFacts,
+        whatHappened: currentTopic.whatHappened || [],
+        mustMemorizeFacts: mustMem,
         knowUnderstandContext: currentTopic.knowUnderstandContext || [],
+        examFocus: currentTopic.examFocus || [],
         optionalFacts: currentTopic.optionalFacts || [],
         initialEventDate: currentTopic.initialEventDate || `${chronologicalMonth}-01`,
         lastUpdatedDate: currentTopic.lastUpdatedDate || `${chronologicalMonth}-15`,
@@ -124,6 +133,7 @@ export function parseCanonicalMarkdownFile(
       topics.push(topic);
     }
     currentTopic = null;
+    currentSubSection = 'NONE';
     topicMarkdownBuffer = [];
   };
 
@@ -169,10 +179,13 @@ export function parseCanonicalMarkdownFile(
         revisionMinutes: currentPart === 'P1' ? 8 : 3,
         regulatoryStatus: isDraft ? 'DRAFT' : 'IMPLEMENTED',
         verificationStatus: 'SOURCE_ONLY',
+        whatHappened: [],
         mustMemorizeFacts: [],
         knowUnderstandContext: [],
+        examFocus: [],
         optionalFacts: []
       };
+      currentSubSection = 'NONE';
       topicMarkdownBuffer.push(line);
       continue;
     } else if (p2NumMatch && currentPart === 'P2') {
@@ -188,10 +201,13 @@ export function parseCanonicalMarkdownFile(
         revisionMinutes: revTime,
         regulatoryStatus: isDraft ? 'PROPOSAL' : 'IMPLEMENTED',
         verificationStatus: 'SOURCE_ONLY',
+        whatHappened: [],
         mustMemorizeFacts: [],
         knowUnderstandContext: [],
+        examFocus: [],
         optionalFacts: []
       };
+      currentSubSection = 'MUST_MEMORIZE';
       topicMarkdownBuffer.push(line);
       continue;
     } else if (p3BulletMatch && currentPart === 'P3') {
@@ -206,8 +222,10 @@ export function parseCanonicalMarkdownFile(
         revisionMinutes: 1,
         regulatoryStatus: 'IMPLEMENTED',
         verificationStatus: 'SOURCE_ONLY',
+        whatHappened: [],
         mustMemorizeFacts: [factBody],
         knowUnderstandContext: [],
+        examFocus: [],
         optionalFacts: []
       };
       topicMarkdownBuffer.push(line);
@@ -215,9 +233,23 @@ export function parseCanonicalMarkdownFile(
       continue;
     }
 
-    // Accumulate topic body and metadata
+    // Identify Subsections
     if (currentTopic) {
       topicMarkdownBuffer.push(line);
+
+      if (line.includes('**What Happened**')) {
+        currentSubSection = 'WHAT_HAPPENED';
+        continue;
+      } else if (line.includes('**Must Memorize**')) {
+        currentSubSection = 'MUST_MEMORIZE';
+        continue;
+      } else if (line.includes('**Know / Understand**') || line.includes('**Why It Matters**')) {
+        currentSubSection = 'KNOW_UNDERSTAND';
+        continue;
+      } else if (line.includes('**Exam Angle**') || line.includes('**Exam Focus**')) {
+        currentSubSection = 'EXAM_FOCUS';
+        continue;
+      }
 
       // Extract revision effort e.g. "**Revision Effort:** ~10 min"
       const revMatch = line.match(/Revision Effort:\*\*\s*~?(\d+)\s*min/i);
@@ -243,13 +275,24 @@ export function parseCanonicalMarkdownFile(
         };
       }
 
-      // Collect Must Memorize facts from bullets
+      // Collect section content based on current subSection
       const bulletMatch = line.match(/^\s*[\*\-]\s*(.+)/);
       if (bulletMatch && currentPart !== 'IGNORE' && currentPart !== 'REPORT') {
         const text = bulletMatch[1].replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
         if (text.length > 3 && !text.startsWith('Priority:') && !text.startsWith('Status:') && !text.startsWith('Verification Status:') && !text.startsWith('Revision Effort:')) {
-          currentTopic.mustMemorizeFacts = currentTopic.mustMemorizeFacts || [];
-          currentTopic.mustMemorizeFacts.push(text);
+          if (currentSubSection === 'WHAT_HAPPENED') {
+            currentTopic.whatHappened = currentTopic.whatHappened || [];
+            currentTopic.whatHappened.push(text);
+          } else if (currentSubSection === 'KNOW_UNDERSTAND') {
+            currentTopic.knowUnderstandContext = currentTopic.knowUnderstandContext || [];
+            currentTopic.knowUnderstandContext.push(text);
+          } else if (currentSubSection === 'EXAM_FOCUS') {
+            currentTopic.examFocus = currentTopic.examFocus || [];
+            currentTopic.examFocus.push(text);
+          } else {
+            currentTopic.mustMemorizeFacts = currentTopic.mustMemorizeFacts || [];
+            currentTopic.mustMemorizeFacts.push(text);
+          }
         }
       }
     }
