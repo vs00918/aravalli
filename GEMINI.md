@@ -1,8 +1,12 @@
 # Mind of Aravalli — Project Instructions & Guidelines
 
-## 1. Scope & Isolation Boundary
+## 1. Scope, Boundary & Strict Repository Isolation Invariant
 - **Workspace Root**: `c:\Users\visha\OneDrive\Documents\mind of aravalli`
-- All files, research, notes, schemas, books, and operations are strictly confined within this workspace. Never write to, modify, or read outside this directory.
+- **Dedicated GitHub Repository**: `https://github.com/vs00918/aravalli`
+- **Isolation Invariant**: *Mind of Aravalli* is a strictly independent, standalone project. 
+  - **NEVER** read from, write to, or reference any external project directories outside `c:\Users\visha\OneDrive\Documents\mind of aravalli`.
+  - **NEVER** mix, reuse, or reference git remotes, repositories, access tokens, API credentials, or configuration files belonging to any other project.
+  - All operations, commits, branch management, and deployments are strictly confined to `vs00918/aravalli`.
 
 ---
 
@@ -28,12 +32,13 @@ When creating notes, research documents, or summaries, use the following layout:
 ```
 mind of aravalli/
 ├── .agents/skills/           # Agent skill definitions
-├── knowledge-tree/           # The growing Roots-to-Leaves Knowledge Tree
-│   ├── roots/                # Axioms & First Principles
-│   ├── trunk/                # Core Systems & Mental Models
-│   ├── branches/             # Disciplines & Fields
-│   ├── leaves/               # Podcast nodes, case studies & empirical insights
+├── knowledge-tree/           # Master Knowledge Tree
+│   ├── domains/              # 5 Consolidated Master Domain Treatises
 │   └── INDEX.md              # Master Knowledge Tree index & graph
+├── data/
+│   └── knowledge-registry.json # Compiled Domain Registry
+├── scripts/
+│   └── build-tree.js         # Automated compiler
 ├── notes/
 │   ├── atomic/               # Single-concept evergreen notes
 │   └── subjects/             # Subject-specific deep notes
@@ -41,5 +46,7 @@ mind of aravalli/
 ├── models/                   # Cross-domain mental models and isomorphisms
 ├── philosophy-and-mind/      # Epistemology, psychology, and metacognition studies
 ├── visual-maps/              # Flowcharts, mind maps, and concept diagrams
-└── GEMINI.md                 # Master workspace index & rules
+├── index.html                # Live Web Portal SPA
+├── README.md                 # Project Overview
+└── GEMINI.md                 # Master workspace index & isolation rules
 ```
