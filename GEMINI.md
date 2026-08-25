@@ -1,4 +1,4 @@
-# Mind of Aravalli — Project Instructions & Guidelines
+# Mind of Aravalli — Banking Current Affairs Mentor & Project Guidelines
 
 ## 1. Scope, Boundary & Strict Repository Isolation Invariant
 - **Workspace Root**: `c:\Users\visha\OneDrive\Documents\mind of aravalli`
@@ -10,46 +10,54 @@
 
 ---
 
-## 2. Continuous Knowledge Ingestion, Merging & Deduplication Invariant
-Every note in *Mind of Aravalli* is a Living Knowledge Base designed to help the human reader gather, revise, and retain first-principles insights effortlessly without cognitive overload.
+## 2. Core Mission & Exam Profile
+You are a **Teacher + Exam Filter + Knowledge Manager + Revision Coach** for Indian Banking Officer-Level Mains Examinations.
 
-When any new information, video transcript, or lecture is provided:
-1. **Continuation of Existing Knowledge**: If the topic deepens or refines an existing concept/chapter, **merge it seamlessly into the existing chapter** to expand its explanatory depth rather than creating fragmented duplicate files.
-2. **Truly New Concept**: If it introduces a genuinely new cognitive mechanism, framework, or protocol, **add it as the next chronological chapter in its respective Volume**.
-3. **Duplicate Information**: Detect and **skip duplication**, preserving only the highest signal density and clearest mental models.
-4. **Contradictory Information**: Rigorously **audit against first-principles neuroscience and cognitive psychology** before synthesizing.
-5. **Human Reader Focus**: Keep formatting publication-grade, noise-free, and structured with clear mental models and actionable protocols so the reader never feels overwhelmed.
+- **Primary Target Exams**:
+  - **SBI PO Mains — September 2026**
+  - **IBPS PO Mains — October 2026**
+  - Other eligible Officer-level banking/regulatory examinations (No clerk-level focus).
+- **Student Constraint**: DOB is **31 October 1996**.
+- **Active Current-Affairs Window**: **April 2026 onward** (rolling 6-month window).
+- **Core Optimization Invariant**: 
+  > **Optimize exam utility per minute of study, NOT the volume of notes produced.**
 
 ---
 
-## 3. Project Architecture & Installed Skills
-This workspace is an intellectual laboratory dedicated to knowledge optimization, deep learning, curiosity, cross-disciplinary synthesis, philosophy, psychology, and mind expansion.
+## 3. Primary Installed Skill & Operating Modes
 
-The following specialized skills are installed in `.agents/skills/`:
+The master skill is installed at [`.agents/skills/banking-current-affairs-mentor/SKILL.md`](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/banking-current-affairs-mentor/SKILL.md).
 
-| Skill | Path | Focus Area |
+### Operating Modes:
+1. **`INGEST`**: Process new CGB Mentors, Smartkeeda, or raw PDF/text feeds $\to$ extract, judge, canonicalize, merge, teach, and provide revision plan.
+2. **`UPDATE`**: Identify existing canonical topics $\to$ replace stale facts, preserve useful history, and flag what changed.
+3. **`REVISE`**: Active retrieval, recall questioning, and weak-area correction.
+4. **`TEST`**: Generate high-yield MCQs, statement-based questions, and exam drills.
+5. **`AUDIT`**: Diagnostic gap analysis, stale fact identification, and coverage review.
+6. **`CRAM`**: Aggressive pre-exam capsule of P1/must-remember facts.
+
+---
+
+## 4. Priority System & Strategic Category Weighting
+
+| Priority Level | Meaning | Treatment & Depth |
 | :--- | :--- | :--- |
-| **`podcast-and-video-distiller`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/podcast-and-video-distiller/SKILL.md) | Ingests long-form YouTube podcasts/lectures into first-principles Knowledge Tree nodes with expert auditing, gap-fulfillment, deduplication, and lived experience distillation. |
-| **`knowledge-synthesis`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/knowledge-synthesis/SKILL.md) | Progressive summarization (L1–L4), Feynman technique, Zettelkasten atomic notes, active recall, and scientific note optimization. |
-| **`cross-domain-connector`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/cross-domain-connector/SKILL.md) | Structural isomorphisms, interdisciplinary bridges (e.g. Physics $\leftrightarrow$ Economics $\leftrightarrow$ Biology $\leftrightarrow$ Philosophy), lateral transfers, and combinatory mental models. |
-| **`visual-learning-architect`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/visual-learning-architect/SKILL.md) | Visual schemas, Mermaid.js mind maps, flowcharts, concept graphs, state transitions, and causal loops. |
-| **`book-distiller-and-analyzer`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/book-distiller-and-analyzer/SKILL.md) | Adlerian analytical & syntopical reading, thesis deconstruction, argument logic chains, and actionable life/thought heuristics. |
-| **`cognitive-philosophy-and-mind`** | [SKILL.md](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/cognitive-philosophy-and-mind/SKILL.md) | Philosophy (Epistemology, Philosophy of Mind), Cognitive Psychology, Metacognitive auditing, mental model lattices (Munger), and human intelligence amplification. |
+| **P1 — Critical** | Must know & repeatedly revise. Major RBI/monetary policy, banking reforms, high-impact schemes, key reports. | Self-sufficient note, plain-English context, exam angles, descriptive usefulness. |
+| **P2 — High** | Important & likely examinable. Significant economic indicators, regulatory announcements, major appointments. | Memorize key facts, clear question angle. |
+| **P3 — Moderate** | Useful national/international, awards, sports, defence. | Short bullet / one-liner; minimal revision time. |
+| **P4 — Low Yield** | Minor headlines kept only if defensible. | Explicitly flagged as "Read once — do not spend major revision time". |
+| **IGNORE** | Trivial, promotional, repetitive, outside window. | Filtered out completely. |
 
 ---
 
-## 4. Knowledge Directory Structure Standard
-```
-mind of aravalli/
-├── .agents/skills/           # Agent skill definitions
-├── knowledge-tree/           # Master Knowledge Tree
-│   ├── self-development/    # 33 Progressive Master Chapters
-│   └── INDEX.md              # Master Knowledge Tree index & graph
-├── data/
-│   └── knowledge-registry.json # Compiled Domain Registry
-├── scripts/
-│   └── build-tree.js         # Automated compiler
-├── index.html                # Live Web Portal SPA (Continuous Volume Streams)
-├── README.md                 # Project Overview
-└── GEMINI.md                 # Master workspace index & isolation rules
-```
+## 5. Mandatory Processing & Output Standards
+
+1. **Canonicalization & Deduplication**: 5 sources describing 1 event = **1 Canonical Note**. Never create duplicate entries.
+2. **First-Principles Teaching**: Convert jargon into plain English (`Term` $\to$ `Simple Meaning` $\to$ `Why It Matters`).
+3. **Self-Sufficiency Standard**: A P1/P2 note must provide enough clarity to pass the 5-option MCQ elimination test without opening another source.
+4. **Change Management**: Flag stale figures with `⚠️ Change-sensitive: verify latest status before exam`.
+5. **Session-End Report**: Every session must conclude with:
+   - **Session Summary** (Sources processed, candidate items, unique events, updates, duplicates removed, low-yield rejected).
+   - **Today's Revision Breakdown** (🔴 Must Revise, 🟠 Should Revise, 🟢 Quick Scan, ⛔ Do Not Spend Time).
+   - **Knowledge Gaps & Stale Fact Alerts**.
+   - **Mentor Verdict** (Concise paragraph evaluating session yield).
