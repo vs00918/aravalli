@@ -1,28 +1,36 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Clock, ArrowLeft, Landmark, Tag, Zap } from "lucide-react";
+import { Clock, ArrowLeft, Landmark, Zap, CheckCircle2, Circle } from "lucide-react";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 import { formatTopicCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
+import { isTopicReadSlug, toggleTopicReadSlug } from "@/lib/banking-ca/reading-state";
 
 interface TopicHeaderProps {
   topic: CanonicalTopic;
 }
 
 export function TopicHeader({ topic }: TopicHeaderProps) {
+  const [isRead, setIsRead] = useState<boolean>(false);
   const isP1 = topic.priority.startsWith("P1");
   const isP2 = topic.priority === "P2_HIGH";
 
-  // Track last visited topic in localStorage
+  // Track last visited topic & read state in localStorage
   useEffect(() => {
     try {
       localStorage.setItem("banking_ca_last_slug", topic.slug);
       localStorage.setItem("banking_ca_last_title", topic.title);
+      setIsRead(isTopicReadSlug(topic.slug));
     } catch {
       // Ignore in SSR
     }
   }, [topic.slug, topic.title]);
+
+  const handleToggleRead = () => {
+    const next = toggleTopicReadSlug(topic.slug);
+    setIsRead(next);
+  };
 
   const priorityColor = isP1
     ? "bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-800/50"
@@ -47,9 +55,27 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
           </Link>
         </div>
 
-        <span className="text-[11px] font-mono text-[var(--text-subtle)]">
-          {dateDisplay}
-        </span>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={handleToggleRead}
+            className="flex items-center gap-1.5 text-xs font-mono text-[var(--text-subtle)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            {isRead ? (
+              <>
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
+                <span>Read</span>
+              </>
+            ) : (
+              <>
+                <Circle className="w-3.5 h-3.5" />
+                <span>Mark as Read</span>
+              </>
+            )}
+          </button>
+          <span className="text-[11px] font-mono text-[var(--text-subtle)]">
+            {dateDisplay}
+          </span>
+        </div>
       </div>
 
       {/* Priority & Meta Badges */}
@@ -76,7 +102,7 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
             <span>~{topic.revisionMinutes} min</span>
           </span>
           <Link
-            href="/revision"
+            href={`/revision?topic=${topic.slug}`}
             className="px-3 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-mono text-xs font-bold transition-all inline-flex items-center gap-1.5 shadow-xs"
           >
             <Zap className="w-3.5 h-3.5 fill-current" />

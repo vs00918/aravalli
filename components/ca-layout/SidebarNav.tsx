@@ -266,7 +266,16 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
                             return (
                               <Link
                                 key={catKey}
-                                href={`/briefing/${m.id}?category=${catKey}`}
+                                href={`/briefing/${m.id}#category-${catKey}`}
+                                onClick={(e) => {
+                                  if (pathname === `/briefing/${m.id}`) {
+                                    const el = document.getElementById(`category-${catKey}`);
+                                    if (el) {
+                                      e.preventDefault();
+                                      el.scrollIntoView({ behavior: "smooth", block: "start" });
+                                    }
+                                  }
+                                }}
                                 className="flex items-center justify-between px-2 py-1 rounded text-[11px] font-mono text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)] transition-colors"
                               >
                                 <span className="truncate pr-1">{label}</span>

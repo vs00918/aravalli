@@ -4,7 +4,7 @@ import { normalizePresentationText, formatTopicCategory, formatTopicDate } from 
 
 function runPostDeployQaTests() {
   console.log('────────────────────────────────────────────────────────');
-  console.log('🧪 Running W7.3 Information Architecture & QA Suite...');
+  console.log('🧪 Running W7.4 Reading Experience & QA Suite...');
   console.log('────────────────────────────────────────────────────────\n');
 
   let passed = 0;
@@ -171,6 +171,47 @@ function runPostDeployQaTests() {
       assert.ok(label && label.length > 2, `Category ${cat} must produce clean label`);
       assert.ok(!label.includes('OTHER'), `Category label '${label}' must not contain OTHER`);
       assert.ok(!label.includes('_'), `Category label '${label}' must not contain underscores`);
+    }
+  });
+
+  // Test 10: Category Partitioning & Grouping Invariant
+  test('Category Partitioning & Grouping Invariant (All 67 Topics Accounted)', () => {
+    const augTopicIds = registry.indexes.byYearMonth['2026-08'];
+    const groupedMap = new Map<string, number>();
+
+    for (const id of augTopicIds) {
+      const topic = registry.topics[id];
+      assert.ok(topic, `Topic ${id} must exist in registry`);
+      groupedMap.set(topic.primaryCategory, (groupedMap.get(topic.primaryCategory) || 0) + 1);
+    }
+
+    let totalGrouped = 0;
+    for (const count of Array.from(groupedMap.values())) {
+      totalGrouped += count;
+    }
+
+    assert.strictEqual(totalGrouped, 67, 'All 67 August topics must be strictly grouped into categories without loss');
+  });
+
+  // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
+  test('Priority Density Integrity (P1, P2, P3 Content Fidelity)', () => {
+    const p1s = allTopics.filter(t => t.priority.startsWith('P1'));
+    const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
+    const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
+
+    assert.strictEqual(p1s.length, 7, 'Must have exactly 7 P1 topics');
+    assert.strictEqual(p2s.length, 31, 'Must have exactly 31 P2 topics');
+    assert.strictEqual(p3s.length, 29, 'Must have exactly 29 P3 topics');
+
+    // Verify all P3s have exactly 1-min load and valid mustMemorize fact
+    for (const p3 of p3s) {
+      assert.strictEqual(p3.revisionMinutes, 1, `P3 topic '${p3.slug}' must have 1-min revision load`);
+      assert.ok(p3.mustMemorizeFacts.length > 0, `P3 topic '${p3.slug}' must have at least 1 must-memorize fact`);
+    }
+
+    // Verify all P1s have multi-minute load and rich context
+    for (const p1 of p1s) {
+      assert.ok(p1.revisionMinutes >= 5, `P1 topic '${p1.slug}' must have >= 5 min revision load`);
     }
   });
 
