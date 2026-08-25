@@ -24,6 +24,17 @@ function main() {
   janP1s.forEach((t, i) => {
     console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
   });
+
+  const febTopicIds = registry.indexes.byYearMonth['2026-02'] || [];
+  const febP1s = febTopicIds.map(id => registry.topics[id]).filter(t => t && t.priority.startsWith('P1'));
+  
+  console.log('\n========================================================');
+  console.log('FEBRUARY 2026 P1 AUDIT:');
+  console.log('Total February P1 Count:', febP1s.length);
+  console.log('Total February P1 Minutes:', febP1s.reduce((sum, t) => sum + t.revisionMinutes, 0));
+  febP1s.forEach((t, i) => {
+    console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
+  });
   
   console.log('\n========================================================');
   console.log('COMBINED MASTER REGISTRY SUMMARY:');
