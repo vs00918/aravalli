@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { Search, ShieldAlert, Sparkles } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface HeaderProps {
   activeP1Count: number;
@@ -44,6 +45,8 @@ export function Header({ activeP1Count, activeP1Minutes, changeAlertCount }: Hea
             ⌘K
           </kbd>
         </Link>
+
+        <ThemeToggle />
       </div>
     </header>
   );

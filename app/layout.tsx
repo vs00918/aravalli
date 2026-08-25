@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#059669",
+  themeColor: "#f8f1e3",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black-translucent",
+    statusBarStyle: "default",
     title: "Banking CA",
   },
 };
@@ -59,10 +59,25 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark ${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
+      className={`sepia ${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased selection:bg-emerald-600 selection:text-white">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var t = localStorage.getItem('banking_ca_theme') || 'sepia';
+                  document.documentElement.classList.remove('dark', 'sepia', 'light');
+                  document.documentElement.classList.add(t);
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased selection:bg-amber-700 selection:text-white">
         <PwaRegister />
         <CaAppShell>
           {children}

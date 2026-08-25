@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeToggle } from "./ThemeToggle";
 import { 
   Menu, 
   X, 
@@ -47,13 +48,16 @@ export function MobileNav({ totalTopics, p1Count, p1Minutes, changeAlertCount }:
             CA Mentor OS
           </span>
         </Link>
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="p-2 rounded-md hover:bg-[var(--surface-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] focus:outline-none"
-          aria-label="Toggle Menu"
-        >
-          {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-2 rounded-md hover:bg-[var(--surface-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] focus:outline-none"
+            aria-label="Toggle Menu"
+          >
+            {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
 
       {/* Slide-out Mobile Menu */}
