@@ -2,8 +2,9 @@
 
 import React, { useEffect } from "react";
 import Link from "next/link";
-import { Clock, ArrowLeft, Landmark, Tag, Zap, Layers } from "lucide-react";
+import { Clock, ArrowLeft, Landmark, Tag, Zap } from "lucide-react";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
+import { formatTopicCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
 
 interface TopicHeaderProps {
   topic: CanonicalTopic;
@@ -29,6 +30,9 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
     ? "bg-[var(--surface-elevated)] text-[var(--text-primary)] border border-[var(--border-primary)]"
     : "bg-[var(--surface-elevated)] text-[var(--text-subtle)] border border-[var(--border-primary)]";
 
+  const categoryDisplay = formatTopicCategory(topic.primaryInstitution, topic.primaryCategory);
+  const dateDisplay = formatTopicDate(topic.initialEventDate, topic.chronologicalMonth, topic.chronologicalWeek);
+
   return (
     <header className="space-y-4 pb-6 border-b border-[var(--border-primary)] select-none">
       {/* Navigation Breadcrumb */}
@@ -44,7 +48,7 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
         </div>
 
         <span className="text-[11px] font-mono text-[var(--text-subtle)]">
-          {topic.chronologicalMonth} ({topic.chronologicalWeek})
+          {dateDisplay}
         </span>
       </div>
 
@@ -56,15 +60,11 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
 
         <span className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-[var(--surface-elevated)] text-[var(--text-primary)] font-semibold border border-[var(--border-primary)]">
           <Landmark className="w-3.5 h-3.5 text-amber-900 dark:text-amber-400" />
-          <span>{topic.primaryInstitution}</span>
+          <span>{categoryDisplay}</span>
         </span>
 
-        <span className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-[var(--surface-elevated)] text-[var(--text-muted)] border border-[var(--border-primary)]">
-          <Tag className="w-3 h-3 text-[var(--text-subtle)]" />
-          <span>{topic.primaryCategory.replace(/_/g, " ")}</span>
-        </span>
-
-        {topic.regulatoryStatus !== "IMPLEMENTED" && (
+        {/* ONLY render regulatory status if explicitly defined */}
+        {topic.regulatoryStatus && (
           <span className="px-2 py-1 rounded-md bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 font-bold border border-amber-300 dark:border-amber-800/40">
             STATUS: {topic.regulatoryStatus}
           </span>

@@ -114,7 +114,7 @@ export const CanonicalTopicSchema = z.object({
   secondaryCategories: z.array(CategoryIdSchema).default([]),
   primaryInstitution: InstitutionIdSchema,
   
-  regulatoryStatus: RegulatoryStatusSchema.default('IMPLEMENTED'),
+  regulatoryStatus: RegulatoryStatusSchema.optional(),
   verificationStatus: VerificationStatusSchema.default('SOURCE_ONLY'),
   
   whatHappened: z.array(z.string()).default([]),

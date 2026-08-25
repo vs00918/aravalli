@@ -13,14 +13,14 @@
         {
           "slug": "01-august-2026-cgb-part-1",
           "number": 1,
-          "title": "Banking & Economy CA: 1st – 11th August 2026",
-          "subtitle": "Ingested 36 canonical topics for 2026-08 (01-august-2026-cgb-part-1)."
+          "title": "Banking & Economy CA: 2026-08 (week-1-2)",
+          "subtitle": "Successfully processed 36 canonical topics for 2026-08 week-1-2."
         },
         {
           "slug": "02-august-2026-cgb-part-2",
           "number": 2,
-          "title": "Banking & Economy CA: 12th – 20th August 2026",
-          "subtitle": "Ingested 31 canonical topics for 2026-08 (02-august-2026-cgb-part-2)."
+          "title": "Banking & Economy CA: 2026-08 (week-3)",
+          "subtitle": "Successfully processed 31 canonical topics for 2026-08 week-3."
         }
       ]
     }

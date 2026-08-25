@@ -8,14 +8,13 @@ import {
   PriorityLevel 
 } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
+import { formatTopicCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
 import { 
   BookOpen, 
   Clock, 
   Zap, 
   ArrowRight, 
-  Filter, 
   AlertTriangle,
-  CheckCircle2,
   Calendar,
   Layers
 } from "lucide-react";
@@ -29,7 +28,7 @@ interface BriefingStreamViewProps {
   initialPriority?: string;
 }
 
-const CATEGORY_NAMES: Record<string, string> = {
+const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
   BANKING_REGULATION: "Banking & Regulation",
   MONETARY_POLICY: "Monetary Policy",
   CAPITAL_MARKETS: "Capital Markets",
@@ -59,7 +58,7 @@ export function BriefingStreamView({
 
   // Filter topics
   const filteredTopics = useMemo(() => {
-    return topics.filter((t) => {
+    const filtered = topics.filter((t) => {
       if (selectedPriority !== "ALL") {
         if (selectedPriority === "P1" && !t.priority.startsWith("P1")) return false;
         if (selectedPriority === "P2" && t.priority !== "P2_HIGH") return false;
@@ -72,6 +71,24 @@ export function BriefingStreamView({
         return false;
       }
       return true;
+    });
+
+    // Deterministic stream ordering: Priority Tier (P1 -> P2 -> P3) -> Event Date -> Slug
+    const priorityWeight: Record<PriorityLevel, number> = {
+      P1_CRITICAL_DEEP: 1,
+      P1_CRITICAL_MEMORIZE: 2,
+      P2_HIGH: 3,
+      P3_MODERATE: 4,
+      P4_LOW_YIELD: 5
+    };
+
+    return [...filtered].sort((a, b) => {
+      const pDiff = (priorityWeight[a.priority] || 9) - (priorityWeight[b.priority] || 9);
+      if (pDiff !== 0) return pDiff;
+      if (a.initialEventDate !== b.initialEventDate) {
+        return b.initialEventDate.localeCompare(a.initialEventDate);
+      }
+      return a.slug.localeCompare(b.slug);
     });
   }, [topics, selectedPriority, selectedCategory, selectedInstitution]);
 
@@ -86,15 +103,6 @@ export function BriefingStreamView({
     const counts: Record<string, number> = {};
     for (const t of topics) {
       counts[t.primaryCategory] = (counts[t.primaryCategory] || 0) + 1;
-    }
-    return Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-  }, [topics]);
-
-  // Available institutions in this month
-  const availableInstitutions = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const t of topics) {
-      counts[t.primaryInstitution] = (counts[t.primaryInstitution] || 0) + 1;
     }
     return Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
   }, [topics]);
@@ -172,7 +180,7 @@ export function BriefingStreamView({
               </button>
               {availableCategories.map((catKey) => {
                 const count = topics.filter(t => t.primaryCategory === catKey).length;
-                const label = CATEGORY_NAMES[catKey] || catKey.replace(/_/g, " ");
+                const label = CATEGORY_DISPLAY_NAMES[catKey] || catKey.replace(/_/g, " ");
 
                 return (
                   <button
@@ -193,19 +201,19 @@ export function BriefingStreamView({
         </div>
       </div>
 
-      {/* 3. Empty State (if no topics in this month) */}
+      {/* 3. Empty Month State (if no topics ingested yet) */}
       {topics.length === 0 && (
-        <div className="p-12 text-center rounded-2xl bg-[var(--surface-primary)] border border-[var(--border-primary)] space-y-3">
+        <div className="p-12 text-center rounded-2xl bg-[var(--surface-primary)] border border-[var(--border-primary)] space-y-3 shadow-xs">
           <BookOpen className="w-10 h-10 mx-auto text-[var(--text-subtle)] opacity-60" />
           <h3 className="font-serif font-bold text-lg text-[var(--text-primary)]">
-            No Canonical Topics Ingested Yet for {monthTitle}
+            {monthTitle} — No Canonical Notes Ingested Yet
           </h3>
           <p className="text-xs text-[var(--text-muted)] max-w-md mx-auto">
-            This month is indexed in the 2026 Master Archive. Canonical notes and exam intelligence will be populated as source PDFs are processed.
+            This month is indexed in the 2026 Master Archive. Canonical notes and exam intelligence will appear automatically as new coaching PDF batches are ingested.
           </p>
           <Link
             href="/briefing/2026-08"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-800 text-white text-xs font-mono font-bold mt-2"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-800 text-white text-xs font-mono font-bold mt-2 shadow-xs"
           >
             <span>Read Active August 2026 Stream</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -214,32 +222,38 @@ export function BriefingStreamView({
       )}
 
       {/* 4. Stream Cards List */}
-      <div className="space-y-6">
+      <div className="space-y-5">
         {filteredTopics.map((topic, index) => {
           const isP1 = topic.priority.startsWith("P1");
           const isP2 = topic.priority === "P2_HIGH";
+          const isP3 = topic.priority === "P3_MODERATE";
+
+          const categoryDisplay = formatTopicCategory(topic.primaryInstitution, topic.primaryCategory);
+          const dateDisplay = formatTopicDate(topic.initialEventDate, topic.chronologicalMonth, topic.chronologicalWeek);
 
           return (
             <article
               key={topic.id}
               id={topic.slug}
-              className={`p-6 sm:p-7 rounded-2xl bg-[var(--surface-primary)] border transition-all space-y-4 shadow-sm ${
+              className={`rounded-2xl bg-[var(--surface-primary)] border transition-all shadow-sm ${
                 isP1
-                  ? "border-amber-800/40 dark:border-amber-700/40 shadow-xs"
-                  : "border-[var(--border-primary)]"
+                  ? "p-6 sm:p-7 border-amber-800/40 dark:border-amber-700/40 shadow-xs space-y-4"
+                  : isP2
+                  ? "p-5 sm:p-6 border-[var(--border-primary)] space-y-3.5"
+                  : "p-4 sm:p-5 border-[var(--border-primary)] space-y-2.5" /* High density for P3 */
               }`}
             >
               {/* Card Meta Top Bar */}
-              <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-[var(--border-primary)]">
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-[var(--border-primary)]/80">
                 <div className="flex items-center gap-2 text-xs font-mono text-[var(--text-muted)]">
                   <span className="font-bold text-[var(--text-primary)]">
                     NOTE {String(index + 1).padStart(2, "0")}
                   </span>
                   <span>·</span>
-                  <span>{topic.initialEventDate}</span>
+                  <span>{dateDisplay}</span>
                   <span>·</span>
                   <span className="font-semibold text-amber-900 dark:text-amber-400">
-                    {topic.primaryInstitution} / {CATEGORY_NAMES[topic.primaryCategory] || topic.primaryCategory}
+                    {categoryDisplay}
                   </span>
                 </div>
 
@@ -251,11 +265,12 @@ export function BriefingStreamView({
                       ? "bg-[var(--surface-elevated)] text-[var(--text-primary)] border border-[var(--border-primary)]"
                       : "bg-[var(--surface-elevated)] text-[var(--text-subtle)] border border-[var(--border-primary)]"
                   }`}>
-                    {topic.priority.replace(/_/g, " ")} · ~{topic.revisionMinutes} MIN
+                    {topic.priority.replace(/_/g, " ")} · ~{topic.revisionMinutes}m
                   </span>
 
+                  {/* ONLY render regulatory status if explicitly present */}
                   {topic.regulatoryStatus && (
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface-elevated)] text-[var(--text-subtle)] border border-[var(--border-primary)]">
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 font-bold border border-amber-300 dark:border-amber-800/40">
                       {topic.regulatoryStatus}
                     </span>
                   )}
@@ -264,13 +279,15 @@ export function BriefingStreamView({
 
               {/* Title */}
               <div>
-                <h2 className="text-xl sm:text-2xl font-serif font-bold text-[var(--text-primary)] leading-tight tracking-tight">
+                <h2 className={`font-serif font-bold text-[var(--text-primary)] leading-snug tracking-tight ${
+                  isP1 ? "text-xl sm:text-2xl" : isP2 ? "text-lg sm:text-xl" : "text-base sm:text-lg"
+                }`}>
                   <Link href={`/topics/${topic.slug}`} className="hover:underline">
                     {topic.title}
                   </Link>
                 </h2>
                 {topic.subtitle && (
-                  <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-1">
+                  <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-1 font-serif italic">
                     {topic.subtitle}
                   </p>
                 )}
@@ -278,7 +295,7 @@ export function BriefingStreamView({
 
               {/* Change Alert (if active) */}
               {topic.changeAlert?.isChangeSensitive && (
-                <div className="p-3.5 rounded-xl bg-amber-100/60 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 text-xs space-y-1">
+                <div className="p-3 rounded-xl bg-amber-100/70 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 text-xs space-y-1">
                   <div className="flex items-center gap-1.5 font-mono font-bold">
                     <AlertTriangle className="w-3.5 h-3.5" />
                     <span>Change-Sensitive Fact Alert</span>
@@ -291,11 +308,11 @@ export function BriefingStreamView({
 
               {/* WHAT HAPPENED Section */}
               {topic.whatHappened && topic.whatHappened.length > 0 && (
-                <div className="space-y-1.5">
+                <div className="space-y-1">
                   <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--text-muted)]">
                     What Happened
                   </div>
-                  <div className="text-xs sm:text-sm text-[var(--text-primary)] leading-relaxed space-y-1.5">
+                  <div className="text-xs sm:text-sm text-[var(--text-primary)] leading-relaxed space-y-1">
                     {topic.whatHappened.map((para, pIdx) => (
                       <p key={pIdx}>
                         <FormattedText text={para} />
@@ -307,11 +324,11 @@ export function BriefingStreamView({
 
               {/* MUST MEMORIZE Section */}
               {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-                <div className="space-y-2 p-4 rounded-xl bg-[var(--surface-elevated)]/60 border border-[var(--border-primary)]">
+                <div className="space-y-1.5 p-3.5 rounded-xl bg-[var(--surface-elevated)]/60 border border-[var(--border-primary)]">
                   <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-amber-900 dark:text-amber-400">
                     Must Memorize (Core Exam Numbers)
                   </div>
-                  <ul className="space-y-1.5 text-xs sm:text-sm text-[var(--text-primary)]">
+                  <ul className="space-y-1 text-xs sm:text-sm text-[var(--text-primary)]">
                     {topic.mustMemorizeFacts.map((fact, fIdx) => (
                       <li key={fIdx} className="flex items-start gap-2">
                         <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5">•</span>
@@ -322,9 +339,9 @@ export function BriefingStreamView({
                 </div>
               )}
 
-              {/* EXAM FOCUS Section */}
+              {/* EXAM FOCUS Section (Only if explicitly present) */}
               {topic.examFocus && topic.examFocus.length > 0 && (
-                <div className="space-y-1.5 pt-1">
+                <div className="space-y-1 pt-1">
                   <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
                     Exam Focus &amp; Tested Angles
                   </div>
@@ -340,11 +357,11 @@ export function BriefingStreamView({
               )}
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-[var(--border-primary)]">
+              <div className="flex flex-wrap items-center justify-between gap-3 pt-2.5 border-t border-[var(--border-primary)]/80">
                 <div className="flex items-center gap-2">
                   <Link
                     href={`/revision`}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-mono text-xs font-bold transition-colors shadow-xs"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-mono text-xs font-bold transition-colors shadow-xs"
                   >
                     <Zap className="w-3.5 h-3.5 fill-current" />
                     <span>⚡ Drill Unit</span>
@@ -352,7 +369,7 @@ export function BriefingStreamView({
 
                   <Link
                     href={`/topics/${topic.slug}`}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] text-[var(--text-primary)] font-mono text-xs font-semibold transition-colors"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] text-[var(--text-primary)] font-mono text-xs font-semibold transition-colors"
                   >
                     <span>Open Deep Reader</span>
                     <ArrowRight className="w-3 h-3" />

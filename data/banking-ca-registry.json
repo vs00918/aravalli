@@ -49,7 +49,6 @@
       "primaryCategory": "MONETARY_POLICY",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [
         "The 6-member Monetary Policy Committee (MPC), chaired by **Governor Sanjay Malhotra**, kept the Policy Repo Rate unchanged at **5.25%**.",
@@ -103,7 +102,6 @@
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -138,16 +136,15 @@
       ],
       "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**Must Memorize (Eligibility Thresholds)**\n* **Operating Track Record**: Minimum **10 years** of continuous operations.\n* **Deposit Base**: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).\n* **Net Worth**: Minimum **₹300 crore**.\n* **Capital Adequacy (CRAR)**: Minimum **12%**.\n* **Asset Quality (Net NPA)**: Maximum **3%**.\n* **Financial Trend**: Positive, progressive trend over the previous **5 years**.\n* **Initial Phase Scope**: Restricted to societies registered under the **Multi-State Cooperative Societies Act, 2002** with multi-state operations.\n* **Governance Norm**: Individual shareholding capped at **5%**.\n\n---"
     },
-    "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27": {
-      "id": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
-      "slug": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
+    "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627": {
+      "id": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+      "slug": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
       "title": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
       "priority": "P1_CRITICAL_DEEP",
       "revisionMinutes": 7,
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -188,12 +185,10 @@
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [
-        "**Effective Date:** **1 January 2027** | **Source:** CGB Mentors"
-      ],
+      "whatHappened": [],
       "mustMemorizeFacts": [
+        "**Effective Date:** **1 January 2027** | **Source:** CGB Mentors",
         "Calling Hours: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).",
         "Mandatory Certification: All agents must hold **IIBF Certification**.",
         "Smartphone Locks: No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.",
@@ -231,7 +226,6 @@
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -271,7 +265,6 @@
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -301,16 +294,15 @@
       ],
       "contentMarkdown": "### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).\n* **CRR/SLR Exemption**: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).\n* **ANBC Deduction**: Advances against these eligible fresh NRI deposits are **excluded from ANBC** for PSL target calculations.\n\n---"
     },
-    "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-": {
-      "id": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
-      "slug": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+    "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min": {
+      "id": "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+      "slug": "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
       "title": "DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)' (~4 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "INSURANCE_SECTOR",
       "secondaryCategories": [],
-      "primaryInstitution": "IRDAI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -338,16 +330,15 @@
       ],
       "contentMarkdown": "1. **DFS Launches India's 1st Sovereign-Backed 'Bharat Maritime Insurance Pool (BMIP)' (~4 min)**:\n   * Protection & Indemnity (P&I) product designed by The New India Assurance Company; 1st policy to Shipping Corporation of India (SCI); **$1.5 billion indemnity capacity** (reduced war-risk rates by 35–40%)."
     },
-    "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min": {
-      "id": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
-      "slug": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+    "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min": {
+      "id": "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
+      "slug": "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
       "title": "Cabinet Approves PM-KISAN Continuation for 5 Years (₹3,15,614 Cr Outlay) (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -384,7 +375,6 @@
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
       "primaryInstitution": "INTERNATIONAL_BODIES",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -421,7 +411,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -458,7 +447,6 @@
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -495,7 +483,6 @@
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -531,8 +518,7 @@
       "revisionMinutes": 3,
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
-      "primaryInstitution": "INTERNATIONAL_BODIES",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -568,8 +554,7 @@
       "revisionMinutes": 3,
       "primaryCategory": "DIGITAL_PAYMENTS",
       "secondaryCategories": [],
-      "primaryInstitution": "NPCI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -603,10 +588,9 @@
       "title": "Bankers' Books Evidence Act, 2026 (~2 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "BANKING_REGULATION",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -640,10 +624,9 @@
       "title": "Urban Challenge Fund (UCF) & ADB $1 Billion Loan (~4 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "INTERNATIONAL_BODIES",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -680,7 +663,6 @@
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -708,16 +690,15 @@
       ],
       "contentMarkdown": "11. **Samudra Manthan National Offshore Exploration Scheme (~3 min)**:\n    * Ministry of Petroleum & Natural Gas Phase-I outlay **₹84,084 crore** through FY31 (aims to increase domestic oil/gas from 62 to 80 MMTOE)."
     },
-    "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min": {
-      "id": "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
-      "slug": "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+    "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min": {
+      "id": "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
+      "slug": "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
       "title": "REC & PFC ₹26,850 Crore Loan Agreement for Meja Thermal Power (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -745,16 +726,15 @@
       ],
       "contentMarkdown": "12. **REC & PFC ₹26,850 Crore Loan Agreement for Meja Thermal Power (~3 min)**:\n    * Common loan agreement with Meja Urja Nigam (50:50 JV of NTPC & UPRVUNL) for 2,400 MW ($3\\times 800$ MW) plant in Prayagraj (total cost ₹38,358 cr)."
     },
-    "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min": {
-      "id": "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
-      "slug": "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+    "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min": {
+      "id": "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
+      "slug": "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
       "title": "Credit Guarantee Scheme for MFIs (CGSMFI 2.0) (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
-      "primaryInstitution": "NCGTC",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -791,7 +771,6 @@
       "primaryCategory": "INSURANCE_SECTOR",
       "secondaryCategories": [],
       "primaryInstitution": "IRDAI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -828,7 +807,6 @@
       "primaryCategory": "INSURANCE_SECTOR",
       "secondaryCategories": [],
       "primaryInstitution": "IRDAI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -865,7 +843,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -899,10 +876,9 @@
       "title": "Khelo India & ANSF Expansion (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -936,10 +912,9 @@
       "title": "Public Examinations (Prevention of Unfair Means) Amendment Bill 2026 Assent (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "NATIONAL_AND_STATES",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -973,10 +948,9 @@
       "title": "Apex Financial & Regulatory Appointments (~4 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "APPOINTMENTS",
       "secondaryCategories": [],
-      "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1018,8 +992,7 @@
       "revisionMinutes": 1,
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
-      "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1056,7 +1029,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1093,7 +1065,6 @@
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1130,7 +1101,6 @@
       "primaryCategory": "SPORTS_AND_AWARDS",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1167,7 +1137,6 @@
       "primaryCategory": "REPORTS_AND_INDICES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1204,7 +1173,6 @@
       "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1241,7 +1209,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1275,10 +1242,9 @@
       "title": "SEBI ISIN Limit",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1312,10 +1278,9 @@
       "title": "AD Category-II Licences",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "DIGITAL_PAYMENTS",
+      "primaryCategory": "MACRO_ECONOMY",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1349,10 +1314,9 @@
       "title": "REPCO Bank",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "NATIONAL_AND_STATES",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1386,10 +1350,9 @@
       "title": "Sports",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "SPORTS_AND_AWARDS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1429,10 +1392,10 @@
       "regulatoryStatus": "DRAFT",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [
-        "**Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)",
         "The RBI issued draft directions titled *RBI (Interest Rates on Loans and Advances) Directions, 2026* inviting stakeholder comments."
       ],
       "mustMemorizeFacts": [
+        "**Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)",
         "Benchmark Pricing: Lenders can offer loans at fixed or floating rates linked to an internal or external benchmark plus a risk-based spread. A lender **would not be allowed to price a loan below the applicable benchmark**.",
         "Reset Frequency for Floating Loans:",
         "The benchmark, reset frequency, and reset date must be clearly specified in the loan agreement.",
@@ -1471,10 +1434,9 @@
       "title": "Public Sector Banks' Asset Quality (FY26) (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "BANKING_REGULATION",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1512,7 +1474,6 @@
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1549,10 +1510,9 @@
       "title": "Government Approves 1 Billion Polymer Banknotes of ₹10 & ₹20 (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "BANKING_REGULATION",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1590,7 +1550,6 @@
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1626,7 +1585,7 @@
       "title": "SEBI Proposal: Colour-Coded \"Credit Risk-o-Meter\" for Debt Securities (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
       "regulatoryStatus": "PROPOSAL",
@@ -1665,7 +1624,7 @@
       "title": "PSBs Proposal: 2% PSL Sub-Target for Climate & Transition Finance (~3 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "BANKING_REGULATION",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
       "regulatoryStatus": "PROPOSAL",
@@ -1705,7 +1664,6 @@
       "primaryCategory": "GOVERNMENT_SCHEMES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1741,10 +1699,9 @@
       "title": "SEBI Municipal Debt Securities: Face Value & Reporting Timelines (~2 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "REPORTS_AND_INDICES",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1773,16 +1730,15 @@
       ],
       "contentMarkdown": "8. **SEBI Municipal Debt Securities: Face Value & Reporting Timelines (~2 min)**:\n   * Face value for private placement: either **₹1 lakh or ₹10,000** (₹10,000 securities have fixed maturity without structured obligations).\n   * Reporting timelines: Half-yearly unaudited results extended from 45 to **60 days**; Annual audited results extended from 60 to **90 days**. Two-step escrow mechanism introduced for Pooled Finance Development Fund SPVs (maintaining 1-year interest obligation)."
     },
-    "sebi-retail-equity-f-o-loss-curtailment-report-2-min": {
-      "id": "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
-      "slug": "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+    "sebi-retail-equity-fo-loss-curtailment-report-2-min": {
+      "id": "sebi-retail-equity-fo-loss-curtailment-report-2-min",
+      "slug": "sebi-retail-equity-fo-loss-curtailment-report-2-min",
       "title": "SEBI Retail Equity F&O Loss Curtailment Report (~2 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1819,7 +1775,6 @@
       "primaryCategory": "PENSION_SYSTEMS",
       "secondaryCategories": [],
       "primaryInstitution": "PFRDA",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1847,16 +1802,15 @@
       ],
       "contentMarkdown": "10. **PFRDA 'NPS e-Shramik' Model for Gig Workers (~3 min)**:\n    * Platform Service Partner model under PFRDA for gig and platform workers. No fixed minimum or maximum contribution; worker and aggregator can contribute jointly or individually under the NPS Corporate Model structure."
     },
-    "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min": {
-      "id": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
-      "slug": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+    "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min": {
+      "id": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
+      "slug": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
       "title": "LIC Gets RBI Approval to Raise Stake in HDFC Bank up to 9.99% (~2 min)",
       "priority": "P2_HIGH",
       "revisionMinutes": 3,
-      "primaryCategory": "NATIONAL_AND_STATES",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1893,7 +1847,6 @@
       "primaryCategory": "APPOINTMENTS",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1928,10 +1881,9 @@
       "title": "Blue Bonds",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -1965,10 +1917,9 @@
       "title": "SEBI Digital KYC Proposal",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2002,10 +1953,9 @@
       "title": "SEBI Fast-Track Settlement",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2039,10 +1989,9 @@
       "title": "SEBI Bullion Vaulting",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "CAPITAL_MARKETS",
+      "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "SEBI",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2079,7 +2028,6 @@
       "primaryCategory": "CAPITAL_MARKETS",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2107,16 +2055,15 @@
       ],
       "contentMarkdown": "* **BSE + MSCI**: Partnership to launch MSCI index derivative contracts in India (F&O)."
     },
-    "bofa-jio-credit": {
-      "id": "bofa-jio-credit",
-      "slug": "bofa-jio-credit",
+    "bofajio-credit": {
+      "id": "bofajio-credit",
+      "slug": "bofajio-credit",
       "title": "BofA–Jio Credit",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2144,16 +2091,15 @@
       ],
       "contentMarkdown": "* **BofA–Jio Credit**: NB Holdings Corporation (wholly owned subsidiary of Bank of America) acquired 49.9% in Jio Credit for ₹18,268.22 crore ($1.9 billion)."
     },
-    "prudential-bharti-life": {
-      "id": "prudential-bharti-life",
-      "slug": "prudential-bharti-life",
+    "prudentialbharti-life": {
+      "id": "prudentialbharti-life",
+      "slug": "prudentialbharti-life",
       "title": "Prudential–Bharti Life",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "INSURANCE_SECTOR",
+      "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
-      "primaryInstitution": "IRDAI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2189,8 +2135,7 @@
       "revisionMinutes": 1,
       "primaryCategory": "DIGITAL_PAYMENTS",
       "secondaryCategories": [],
-      "primaryInstitution": "NPCI",
-      "regulatoryStatus": "IMPLEMENTED",
+      "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2227,7 +2172,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2264,7 +2208,6 @@
       "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2301,7 +2244,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2338,7 +2280,6 @@
       "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2372,10 +2313,9 @@
       "title": "National Sports Awards 2025",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
-      "primaryCategory": "SPORTS_AND_AWARDS",
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2412,7 +2352,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2449,7 +2388,6 @@
       "primaryCategory": "REPORTS_AND_INDICES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2486,7 +2424,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2523,7 +2460,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2560,7 +2496,6 @@
       "primaryCategory": "NATIONAL_AND_STATES",
       "secondaryCategories": [],
       "primaryInstitution": "OTHER",
-      "regulatoryStatus": "IMPLEMENTED",
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
@@ -2592,12 +2527,12 @@
   "topicSlugMap": {
     "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
     "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs": "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-    "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
+    "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
     "rbi-loan-recovery-directions-financed-smartphone-lockout-norms": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
     "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
     "priority-sector-lending-psl-nri-deposit-forex-swap-relief": "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
-    "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-": "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
-    "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min": "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+    "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min": "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+    "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min": "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
     "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min": "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
     "d-sib-framework-rbi-leverage-ratio-buffer-4-min": "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
     "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min": "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
@@ -2607,8 +2542,8 @@
     "bankers-books-evidence-act-2026-2-min": "bankers-books-evidence-act-2026-2-min",
     "urban-challenge-fund-ucf-adb-1-billion-loan-4-min": "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
     "samudra-manthan-national-offshore-exploration-scheme-3-min": "samudra-manthan-national-offshore-exploration-scheme-3-min",
-    "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min": "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
-    "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min": "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+    "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min": "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
+    "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min": "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
     "irdai-master-regulations-protec-licence-3-min": "irdai-master-regulations-protec-licence-3-min",
     "irdai-approves-magma-general-insurance-acquisition-2-min": "irdai-approves-magma-general-insurance-acquisition-2-min",
     "day-nrlm-self-help-group-bank-credit-milestone-3-min": "day-nrlm-self-help-group-bank-credit-milestone-3-min",
@@ -2635,17 +2570,17 @@
     "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min": "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
     "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min": "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
     "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min": "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
-    "sebi-retail-equity-f-o-loss-curtailment-report-2-min": "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+    "sebi-retail-equity-fo-loss-curtailment-report-2-min": "sebi-retail-equity-fo-loss-curtailment-report-2-min",
     "pfrda-nps-e-shramik-model-for-gig-workers-3-min": "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
-    "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+    "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min": "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
     "apex-appointments-4-min": "apex-appointments-4-min",
     "blue-bonds": "blue-bonds",
     "sebi-digital-kyc-proposal": "sebi-digital-kyc-proposal",
     "sebi-fast-track-settlement": "sebi-fast-track-settlement",
     "sebi-bullion-vaulting": "sebi-bullion-vaulting",
     "bse-msci": "bse-msci",
-    "bofa-jio-credit": "bofa-jio-credit",
-    "prudential-bharti-life": "prudential-bharti-life",
+    "bofajio-credit": "bofajio-credit",
+    "prudentialbharti-life": "prudentialbharti-life",
     "postransfer-remittances": "postransfer-remittances",
     "mca-accounting-rules": "mca-accounting-rules",
     "80th-independence-day-announcements": "80th-independence-day-announcements",
@@ -2665,7 +2600,7 @@
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27"
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627"
       ],
       "P1_CRITICAL_MEMORIZE": [
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
@@ -2676,18 +2611,18 @@
         "apex-appointments-4-min",
         "apex-financial-regulatory-appointments-4-min",
         "bankers-books-evidence-act-2026-2-min",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
         "irdai-master-regulations-protec-licence-3-min",
         "khelo-india-ansf-expansion-3-min",
-        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
@@ -2696,12 +2631,12 @@
         "public-sector-banks-asset-quality-fy26-3-min",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
-        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
-        "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+        "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
       ],
       "P3_MODERATE": [
@@ -2710,7 +2645,7 @@
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
-        "bofa-jio-credit",
+        "bofajio-credit",
         "bse-msci",
         "defence-srijan-portal",
         "defence-vessels",
@@ -2726,7 +2661,7 @@
         "parichha-dam-jhansi-betwa-river",
         "pmksy-10-year-review",
         "postransfer-remittances",
-        "prudential-bharti-life",
+        "prudentialbharti-life",
         "repco-bank",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
@@ -2744,105 +2679,108 @@
       "DEFENCE_AND_SCIENCE": [
         "80th-independence-day-announcements",
         "defence-srijan-portal",
-        "defence-vessels"
+        "defence-vessels",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
+        "national-sports-awards-2025",
+        "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
+        "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
+        "repco-bank",
+        "sebi-isin-limit"
       ],
-      "DIGITAL_PAYMENTS": [
-        "ad-category-ii-licences",
-        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
-        "postransfer-remittances"
+      "MACRO_ECONOMY": [
+        "ad-category-ii-licences"
       ],
       "GOVERNMENT_SCHEMES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
-        "khelo-india-ansf-expansion-3-min",
         "pmksy-10-year-review",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
-        "samudra-manthan-national-offshore-exploration-scheme-3-min",
-        "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
+        "samudra-manthan-national-offshore-exploration-scheme-3-min"
       ],
       "APPOINTMENTS": [
-        "apex-appointments-4-min"
-      ],
-      "CAPITAL_MARKETS": [
-        "apex-financial-regulatory-appointments-4-min",
-        "blue-bonds",
-        "bse-msci",
-        "ncdex-nidhi",
-        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
-        "sebi-bullion-vaulting",
-        "sebi-digital-kyc-proposal",
-        "sebi-fast-track-settlement",
-        "sebi-isin-limit",
-        "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
-        "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
-        "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
-        "sebi-retail-equity-f-o-loss-curtailment-report-2-min"
-      ],
-      "BANKING_REGULATION": [
-        "bankers-books-evidence-act-2026-2-min",
-        "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
-        "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
-        "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
-        "public-sector-banks-asset-quality-fy26-3-min",
-        "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
-        "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
-        "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
-        "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
-        "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27"
+        "apex-appointments-4-min",
+        "apex-financial-regulatory-appointments-4-min"
       ],
       "NATIONAL_AND_STATES": [
+        "bankers-books-evidence-act-2026-2-min",
         "bharatnet-phase-iii-odisha",
-        "bofa-jio-credit",
+        "blue-bonds",
+        "bofajio-credit",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "dot-sim-card-rule",
         "eu-cbam",
         "fitch-sovereign-rating",
+        "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "jal-jeevan-mission-jjm",
-        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "khelo-india-ansf-expansion-3-min",
         "mca-accounting-rules",
         "mha-e-zero-firs",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "parichha-dam-jhansi-betwa-river",
-        "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
-        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
-        "repco-bank"
+        "public-sector-banks-asset-quality-fy26-3-min",
+        "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "sebi-bullion-vaulting",
+        "sebi-digital-kyc-proposal",
+        "sebi-fast-track-settlement",
+        "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
+        "sports",
+        "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
       ],
       "REPORTS_AND_INDICES": [
         "bimco-ics-seafarer-workforce-report-2026",
+        "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "wipo-genai-patent-report"
       ],
+      "CAPITAL_MARKETS": [
+        "bse-msci",
+        "ncdex-nidhi",
+        "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
+        "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
+        "sebi-retail-equity-fo-loss-curtailment-report-2-min"
+      ],
+      "DIGITAL_PAYMENTS": [
+        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "postransfer-remittances"
+      ],
       "INSURANCE_SECTOR": [
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-3-min",
-        "prudential-bharti-life"
+        "irdai-master-regulations-protec-licence-3-min"
       ],
       "SPORTS_AND_AWARDS": [
-        "fields-medals-2026",
-        "national-sports-awards-2025",
-        "sports"
+        "fields-medals-2026"
       ],
       "PENSION_SYSTEMS": [
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min"
+      ],
+      "BANKING_REGULATION": [
+        "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prudentialbharti-life",
+        "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+        "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
+        "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
+        "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+        "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627"
       ]
     },
     "byInstitution": {
       "RBI": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+        "apex-financial-regulatory-appointments-4-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
-        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits-4-min",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27"
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627"
       ],
       "OTHER": [
         "80th-independence-day-announcements",
@@ -2852,12 +2790,15 @@
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
-        "bofa-jio-credit",
+        "bofajio-credit",
         "bse-msci",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
+        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "defence-srijan-portal",
         "defence-vessels",
+        "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "dot-sim-card-rule",
         "eu-cbam",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
@@ -2868,14 +2809,18 @@
         "mca-accounting-rules",
         "mha-e-zero-firs",
         "national-sports-awards-2025",
+        "ncdex-nidhi",
+        "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "parichha-dam-jhansi-betwa-river",
         "pmksy-10-year-review",
+        "postransfer-remittances",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
-        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "repco-bank",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sports",
@@ -2883,12 +2828,16 @@
       ],
       "INTERNATIONAL_BODIES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
-        "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min"
       ],
+      "IRDAI": [
+        "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-master-regulations-protec-licence-3-min"
+      ],
+      "PFRDA": [
+        "pfrda-nps-e-shramik-model-for-gig-workers-3-min"
+      ],
       "SEBI": [
-        "apex-financial-regulatory-appointments-4-min",
-        "ncdex-nidhi",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
         "sebi-fast-track-settlement",
@@ -2896,23 +2845,7 @@
         "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
-        "sebi-retail-equity-f-o-loss-curtailment-report-2-min"
-      ],
-      "NCGTC": [
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min"
-      ],
-      "NPCI": [
-        "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
-        "postransfer-remittances"
-      ],
-      "IRDAI": [
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
-        "irdai-approves-magma-general-insurance-acquisition-2-min",
-        "irdai-master-regulations-protec-licence-3-min",
-        "prudential-bharti-life"
-      ],
-      "PFRDA": [
-        "pfrda-nps-e-shramik-model-for-gig-workers-3-min"
+        "sebi-retail-equity-fo-loss-curtailment-report-2-min"
       ]
     },
     "byMonth": {
@@ -2927,16 +2860,16 @@
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
-        "bofa-jio-credit",
+        "bofajio-credit",
         "bse-msci",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "defence-srijan-portal",
         "defence-vessels",
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "dot-sim-card-rule",
         "eu-cbam",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
@@ -2947,7 +2880,7 @@
         "irdai-master-regulations-protec-licence-3-min",
         "jal-jeevan-mission-jjm",
         "khelo-india-ansf-expansion-3-min",
-        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "mca-accounting-rules",
         "mha-e-zero-firs",
         "national-sports-awards-2025",
@@ -2959,7 +2892,7 @@
         "postransfer-remittances",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
-        "prudential-bharti-life",
+        "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
@@ -2969,8 +2902,8 @@
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
-        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+        "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "repco-bank",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-bullion-vaulting",
@@ -2980,7 +2913,7 @@
         "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
-        "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+        "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "sports",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
         "wipo-genai-patent-report"
@@ -2998,16 +2931,16 @@
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
-        "bofa-jio-credit",
+        "bofajio-credit",
         "bse-msci",
-        "cabinet-approves-pm-kisan-continuation-for-5-years-3-15-614-cr-outlay-3-min",
-        "credit-guarantee-scheme-for-mfis-cgsmfi-2-0-3-min",
+        "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
+        "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "defence-srijan-portal",
         "defence-vessels",
-        "dfs-launches-india-s-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-",
+        "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "dot-sim-card-rule",
         "eu-cbam",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
@@ -3018,7 +2951,7 @@
         "irdai-master-regulations-protec-licence-3-min",
         "jal-jeevan-mission-jjm",
         "khelo-india-ansf-expansion-3-min",
-        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-9-99-2-min",
+        "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "mca-accounting-rules",
         "mha-e-zero-firs",
         "national-sports-awards-2025",
@@ -3030,7 +2963,7 @@
         "postransfer-remittances",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
-        "prudential-bharti-life",
+        "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
@@ -3040,8 +2973,8 @@
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
-        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-2026-27",
-        "rec-pfc-26-850-crore-loan-agreement-for-meja-thermal-power-3-min",
+        "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+        "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "repco-bank",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-bullion-vaulting",
@@ -3051,7 +2984,7 @@
         "sebi-municipal-debt-securities-face-value-reporting-timelines-2-min",
         "sebi-mutual-fund-registration-single-form-a-route-2-sponsor-norms-4-min",
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
-        "sebi-retail-equity-f-o-loss-curtailment-report-2-min",
+        "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "sports",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
         "wipo-genai-patent-report"
@@ -3065,34 +2998,34 @@
     {
       "batchId": "01-august-2026-cgb-part-1",
       "sourceName": "CGB_MENTORS",
-      "dateRange": "1st – 11th August 2026",
+      "dateRange": "2026-08 (week-1-2)",
       "ingestedAt": "2026-08-25T18:00:00Z",
-      "rawItemsCount": 41,
-      "duplicatesCount": 3,
-      "enrichmentsCount": 2,
-      "updatesCount": 1,
+      "rawItemsCount": 36,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
       "newTopicsCount": 36,
-      "ignoredCount": 5,
+      "ignoredCount": 0,
       "primaryVerifiedCount": 0,
       "sourceOnlyCount": 36,
       "verificationPendingCount": 0,
-      "mentorVerdict": "Ingested 36 canonical topics for 2026-08 (01-august-2026-cgb-part-1)."
+      "mentorVerdict": "Successfully processed 36 canonical topics for 2026-08 week-1-2."
     },
     {
       "batchId": "02-august-2026-cgb-part-2",
       "sourceName": "CGB_MENTORS",
-      "dateRange": "12th – 20th August 2026",
+      "dateRange": "2026-08 (week-3)",
       "ingestedAt": "2026-08-25T18:00:00Z",
-      "rawItemsCount": 36,
-      "duplicatesCount": 3,
-      "enrichmentsCount": 2,
-      "updatesCount": 1,
+      "rawItemsCount": 31,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
       "newTopicsCount": 31,
-      "ignoredCount": 5,
+      "ignoredCount": 0,
       "primaryVerifiedCount": 0,
       "sourceOnlyCount": 31,
       "verificationPendingCount": 0,
-      "mentorVerdict": "Ingested 31 canonical topics for 2026-08 (02-august-2026-cgb-part-2)."
+      "mentorVerdict": "Successfully processed 31 canonical topics for 2026-08 week-3."
     }
   ]
 }

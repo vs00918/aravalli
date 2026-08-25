@@ -5,19 +5,23 @@ import { FormattedText } from "@/components/common/FormattedText";
 
 interface ChangeAlertSectionProps {
   alert?: ChangeAlert;
-  status: string;
+  status?: string;
 }
 
 export function ChangeAlertSection({ alert, status }: ChangeAlertSectionProps) {
-  if (!alert && status === "IMPLEMENTED") {
+  if (!alert && (!status || status === "IMPLEMENTED")) {
     return null;
   }
 
+  const title = alert
+    ? "Change-Sensitive Alert"
+    : `Regulatory Status Notice (${status})`;
+
   return (
-    <section className="p-4 sm:p-5 rounded-2xl bg-amber-100/60 dark:bg-amber-950/20 border border-amber-300 dark:border-amber-800/40 space-y-2 shadow-xs">
+    <section className="p-4 sm:p-5 rounded-2xl bg-amber-100/70 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800/40 space-y-2 shadow-xs select-none">
       <div className="flex items-center gap-2 font-mono text-xs font-bold text-amber-900 dark:text-amber-400 uppercase tracking-wider">
         <AlertTriangle className="w-4 h-4 text-amber-800 dark:text-amber-400 flex-shrink-0" />
-        <span>Change-Sensitive Alert / Regulatory Status ({status})</span>
+        <span>{title}</span>
       </div>
 
       {alert && (

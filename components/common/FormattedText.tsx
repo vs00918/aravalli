@@ -1,4 +1,5 @@
 import React from "react";
+import { normalizePresentationText } from "@/lib/banking-ca/formatters";
 
 interface FormattedTextProps {
   text: string;
@@ -6,26 +7,31 @@ interface FormattedTextProps {
 }
 
 /**
- * Lightweight, zero-dependency inline markdown text renderer.
- * Converts **bold**, `code`, and *italic* into semantic styled HTML.
+ * Presentation Normalizer & Inline Markdown / Symbol Renderer.
+ * Cleans LaTeX math tokens, duplicate bullets, backticks, bold, and italics.
  */
 export function FormattedText({ text, className = "" }: FormattedTextProps) {
   if (!text) return null;
 
-  // Split by inline markdown tokens: **bold**, `code`, *italic*
-  const tokens = text.split(/(\*\*.*?\*\*|`.*?`|\*.*?\*)/g);
+  // 1. Normalize LaTeX math tokens and leading artifacts
+  const normalized = normalizePresentationText(text);
+
+  // 2. Split by inline markdown tokens: **bold**, `code`, *italic*
+  const tokens = normalized.split(/(\*\*.*?\*\*|`.*?`|\*.*?\*)/g);
 
   return (
     <span className={className}>
       {tokens.map((token, idx) => {
-        if (token.startsWith("**") && token.endsWith("**")) {
+        // Bold token: **bold**
+        if (token.startsWith("**") && token.endsWith("**") && token.length > 4) {
           return (
             <strong key={idx} className="font-bold text-[var(--text-primary)]">
               {token.slice(2, -2)}
             </strong>
           );
         }
-        if (token.startsWith("`") && token.endsWith("`")) {
+        // Code / Threshold token: `code`
+        if (token.startsWith("`") && token.endsWith("`") && token.length > 2) {
           return (
             <code
               key={idx}
@@ -35,6 +41,7 @@ export function FormattedText({ text, className = "" }: FormattedTextProps) {
             </code>
           );
         }
+        // Italic token: *italic*
         if (token.startsWith("*") && token.endsWith("*") && token.length > 2) {
           return (
             <em key={idx} className="italic text-[var(--text-primary)] font-serif">

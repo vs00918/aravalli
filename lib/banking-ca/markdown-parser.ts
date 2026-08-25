@@ -5,72 +5,56 @@ import {
   IngestionBatch,
   PriorityLevel,
   CategoryId,
-  InstitutionId,
-  RegulatoryStatus,
-  VerificationStatus,
-  BankingCaMasterRegistry,
-  BankingCaMasterRegistrySchema
+  InstitutionId
 } from './schema';
 
-/**
- * Utility to generate a stable, deterministic slug from a title string.
- */
-export function generateStableSlug(text: string): string {
-  return text
+export function generateStableSlug(title: string): string {
+  return title
     .toLowerCase()
-    .replace(/^(\d+[\.\)]\s*)/, '') // remove leading numbers like "1. "
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .substring(0, 80);
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
-/**
- * Helper to identify primary institution from topic text
- */
-export function identifyInstitution(title: string, body: string): InstitutionId {
-  const t = (title + ' ' + body).toUpperCase();
-  if (t.includes('RESERVE BANK OF INDIA') || t.includes('RBI ') || t.includes('MPC') || t.includes('DEA FUND')) return 'RBI';
-  if (t.includes('SEBI') || t.includes('SECURITIES AND EXCHANGE BOARD') || t.includes('GARUDA') || t.includes('MUTUAL FUND')) return 'SEBI';
-  if (t.includes('IRDAI') || t.includes('INSURANCE REGULATORY') || t.includes('P&I') || t.includes('BMIP') || t.includes('BHARTI LIFE') || t.includes('MAGMA GENERAL')) return 'IRDAI';
-  if (t.includes('PFRDA') || t.includes('PENSION FUND') || t.includes('NPS')) return 'PFRDA';
-  if (t.includes('NPCI') || t.includes('UPI') || t.includes('NIPL') || t.includes('FAVARA')) return 'NPCI';
-  if (t.includes('IFSCA') || t.includes('GIFT CITY')) return 'IFSCA';
-  if (t.includes('EXIM BANK')) return 'EXIM_BANK';
-  if (t.includes('NABARD')) return 'NABARD';
-  if (t.includes('SIDBI')) return 'SIDBI';
-  if (t.includes('NCGTC') || t.includes('CGSMFI')) return 'NCGTC';
-  if (t.includes('MINISTRY OF FINANCE') || t.includes('DEPARTMENT OF FINANCIAL SERVICES') || t.includes('DFS') || t.includes('FIU-IND') || t.includes('DISINVESTMENT')) return 'MINISTRY_OF_FINANCE';
-  if (t.includes('IMF') || t.includes('WORLD BANK') || t.includes('ASIAN DEVELOPMENT BANK') || t.includes('ADB') || t.includes('BIS') || t.includes('NEPAL RASTRA BANK')) return 'INTERNATIONAL_BODIES';
+function identifyInstitution(title: string, content: string): InstitutionId {
+  const text = `${title} ${content}`.toUpperCase();
+  if (text.includes('RESERVE BANK OF INDIA') || text.includes('RBI')) return 'RBI';
+  if (text.includes('SECURITIES AND EXCHANGE BOARD OF INDIA') || text.includes('SEBI')) return 'SEBI';
+  if (text.includes('IRDAI') || text.includes('INSURANCE REGULATORY')) return 'IRDAI';
+  if (text.includes('PFRDA') || text.includes('PENSION FUND')) return 'PFRDA';
+  if (text.includes('NPCI') || text.includes('NATIONAL PAYMENTS CORPORATION')) return 'NPCI';
+  if (text.includes('IFSCA') || text.includes('GIFT CITY')) return 'IFSCA';
+  if (text.includes('MINISTRY OF FINANCE') || text.includes('FINMIN')) return 'MINISTRY_OF_FINANCE';
+  if (text.includes('EXIM BANK')) return 'EXIM_BANK';
+  if (text.includes('NABARD')) return 'NABARD';
+  if (text.includes('SIDBI')) return 'SIDBI';
+  if (text.includes('NCGTC')) return 'NCGTC';
+  if (text.includes('WORLD BANK') || text.includes('IMF') || text.includes('ADB') || text.includes('BIS') || text.includes('FATF')) return 'INTERNATIONAL_BODIES';
   return 'OTHER';
 }
 
-/**
- * Helper to identify category from topic text
- */
-export function identifyCategory(title: string, body: string): CategoryId {
-  const t = (title + ' ' + body).toUpperCase();
-  if (t.includes('MONETARY POLICY') || t.includes('REPO RATE') || t.includes('MPC')) return 'MONETARY_POLICY';
-  if (t.includes('PSL') || t.includes('PRIORITY SECTOR') || t.includes('UCB') || t.includes('NBFC') || t.includes('BASEL') || t.includes('BANKING REGULATION') || t.includes('MCLR') || t.includes('LOAN RECOVERY') || t.includes('GNPA') || t.includes('DEA FUND') || t.includes('BANKNOTE') || t.includes('BANKING')) return 'BANKING_REGULATION';
-  if (t.includes('MUTUAL FUND') || t.includes('SEBI') || t.includes('AIF') || t.includes('STOCK') || t.includes('DERIVATIVE') || t.includes('F&O') || t.includes('BOND') || t.includes('DEBT SECURITIES') || t.includes('SETTLEMENT')) return 'CAPITAL_MARKETS';
-  if (t.includes('INSURANCE') || t.includes('IRDAI') || t.includes('P&I') || t.includes('BMIP')) return 'INSURANCE_SECTOR';
-  if (t.includes('NPS') || t.includes('PFRDA') || t.includes('PENSION') || t.includes('E-SHRAMIK')) return 'PENSION_SYSTEMS';
-  if (t.includes('UPI') || t.includes('CBDC') || t.includes('DIGITAL PAYMENT') || t.includes('FAVARA') || t.includes('REMITTANCE')) return 'DIGITAL_PAYMENTS';
-  if (t.includes('APPOINTED') || t.includes('CHAIRPERSON') || t.includes('EXECUTIVE DIRECTOR') || t.includes('CEO') || t.includes('DIRECTOR GENERAL') || t.includes('APPOINTMENTS') || t.includes('ASSUMED CHARGE')) return 'APPOINTMENTS';
-  if (t.includes('SCHEME') || t.includes('PM-KISAN') || t.includes('PM SURYA') || t.includes('PM-SSY') || t.includes('PM E-DRIVE') || t.includes('GOBARDHAN') || t.includes('PMKSY') || t.includes('FAST-DS') || t.includes('URBAN CHALLENGE') || t.includes('KHELO INDIA')) return 'GOVERNMENT_SCHEMES';
-  if (t.includes('GDP') || t.includes('INFLATION') || t.includes('FISCAL DEFICIT') || t.includes('GST') || t.includes('DEBT-TO-GDP')) return 'MACRO_ECONOMY';
-  if (t.includes('REPORT') || t.includes('INDEX') || t.includes('WIPO') || t.includes('BIMCO')) return 'REPORTS_AND_INDICES';
-  if (t.includes('DEFENCE') || t.includes('NAVY') || t.includes('ARMY') || t.includes('MISSILE') || t.includes('ISRO') || t.includes('SRIJAN') || t.includes('INDIGENISATION')) return 'DEFENCE_AND_SCIENCE';
-  if (t.includes('AWARDS') || t.includes('SPORTS') || t.includes('CHAMPIONSHIP') || t.includes('MEDAL') || t.includes('ARJUNA')) return 'SPORTS_AND_AWARDS';
+function identifyCategory(title: string, content: string): CategoryId {
+  const text = `${title} ${content}`.toUpperCase();
+  if (text.includes('MONETARY POLICY') || text.includes('REPO RATE') || text.includes('MPC')) return 'MONETARY_POLICY';
+  if (text.includes('LICENSING') || text.includes('PRUDENTIAL') || text.includes('NBFC') || text.includes('UCB') || text.includes('BASEL') || text.includes('LENDING') || text.includes('DEPOSIT')) return 'BANKING_REGULATION';
+  if (text.includes('CAPITAL MARKET') || text.includes('MUTUAL FUND') || text.includes('EQUITY') || text.includes('DERIVATIVE') || text.includes('FPI') || text.includes('INSIDER TRADING')) return 'CAPITAL_MARKETS';
+  if (text.includes('UPI') || text.includes('FASTAG') || text.includes('DIGITAL PAYMENT') || text.includes('NEFT') || text.includes('RTGS') || text.includes('CBDC')) return 'DIGITAL_PAYMENTS';
+  if (text.includes('INSURANCE') || text.includes('PREMIUM') || text.includes('BIMA')) return 'INSURANCE_SECTOR';
+  if (text.includes('PENSION') || text.includes('NPS') || text.includes('APY')) return 'PENSION_SYSTEMS';
+  if (text.includes('SCHEME') || text.includes('YOJANA') || text.includes('SUBSIDY') || text.includes('PRADHAN MANTRI')) return 'GOVERNMENT_SCHEMES';
+  if (text.includes('APPOINTED') || text.includes('CHAIRMAN') || text.includes('GOVERNOR') || text.includes('EXECUTIVE DIRECTOR') || text.includes('CEO') || text.includes('MD & CEO')) return 'APPOINTMENTS';
+  if (text.includes('INDEX') || text.includes('REPORT') || text.includes('RANKING') || text.includes('SURVEY')) return 'REPORTS_AND_INDICES';
+  if (text.includes('GDP') || text.includes('INFLATION') || text.includes('CPI') || text.includes('WPI') || text.includes('FISCAL') || text.includes('FOREX') || text.includes('TRADE DEFICIT')) return 'MACRO_ECONOMY';
+  if (text.includes('DEFENCE') || text.includes('MISSILE') || text.includes('EXERCISE') || text.includes('ISRO') || text.includes('SATELLITE') || text.includes('AI') || text.includes('DRDO')) return 'DEFENCE_AND_SCIENCE';
+  if (text.includes('OLYMPIC') || text.includes('CHAMPIONSHIP') || text.includes('MEDAL') || text.includes('AWARD') || text.includes('PRIZE') || text.includes('TROPHY')) return 'SPORTS_AND_AWARDS';
+  if (text.includes('STATE') || text.includes('CABINET') || text.includes('SUMMIT') || text.includes('PORTAL') || text.includes('MOU')) return 'NATIONAL_AND_STATES';
   return 'NATIONAL_AND_STATES';
 }
 
-/**
- * Parses a canonical markdown file into structured CanonicalTopics and IngestionBatch audit metadata.
- */
 export function parseCanonicalMarkdownFile(
   filePath: string,
   batchId: string,
-  sourceDefault: 'CGB_MENTORS' | 'SMARTKEEDA',
+  sourceDefault: 'CGB_MENTORS' | 'SMARTKEEDA' | 'PIB' | 'OFFICIAL_GAZETTE' | 'OTHER',
   chronologicalMonth: string,
   chronologicalWeek: string
 ): { topics: CanonicalTopic[]; batch: IngestionBatch } {
@@ -78,10 +62,9 @@ export function parseCanonicalMarkdownFile(
   const lines = content.split(/\r?\n/);
 
   const topics: CanonicalTopic[] = [];
-  let currentPart: 'P1' | 'P2' | 'P3' | 'IGNORE' | 'REPORT' = 'P1';
-
+  let currentPart: 'P1' | 'P2' | 'P3' | 'IGNORE' | 'REPORT' | 'NONE' = 'NONE';
   let currentTopic: Partial<CanonicalTopic> | null = null;
-  let currentSubSection: 'NONE' | 'WHAT_HAPPENED' | 'MUST_MEMORIZE' | 'KNOW_UNDERSTAND' | 'EXAM_FOCUS' = 'NONE';
+  let currentSubSection: 'WHAT_HAPPENED' | 'MUST_MEMORIZE' | 'KNOW_UNDERSTAND' | 'EXAM_FOCUS' | 'NONE' = 'NONE';
   let topicMarkdownBuffer: string[] = [];
 
   const flushCurrentTopic = () => {
@@ -107,7 +90,7 @@ export function parseCanonicalMarkdownFile(
         primaryCategory: category,
         secondaryCategories: [],
         primaryInstitution: institution,
-        regulatoryStatus: currentTopic.regulatoryStatus || 'IMPLEMENTED',
+        regulatoryStatus: currentTopic.regulatoryStatus, // Optional: only if explicitly defined
         verificationStatus: currentTopic.verificationStatus || 'SOURCE_ONLY',
         whatHappened: currentTopic.whatHappened || [],
         mustMemorizeFacts: mustMem,
@@ -180,7 +163,7 @@ export function parseCanonicalMarkdownFile(
         slug: generateStableSlug(rawTitle),
         priority: currentPart === 'P1' ? 'P1_CRITICAL_DEEP' : 'P2_HIGH',
         revisionMinutes: currentPart === 'P1' ? 8 : 3,
-        regulatoryStatus: isDraft ? 'DRAFT' : 'IMPLEMENTED',
+        regulatoryStatus: isDraft ? 'DRAFT' : undefined, // Only assign DRAFT if explicit, never default to IMPLEMENTED
         verificationStatus: 'SOURCE_ONLY',
         whatHappened: [],
         mustMemorizeFacts: [],
@@ -202,7 +185,7 @@ export function parseCanonicalMarkdownFile(
         slug: generateStableSlug(rawTitle),
         priority: 'P2_HIGH',
         revisionMinutes: revTime,
-        regulatoryStatus: isDraft ? 'PROPOSAL' : 'IMPLEMENTED',
+        regulatoryStatus: isDraft ? 'PROPOSAL' : undefined,
         verificationStatus: 'SOURCE_ONLY',
         whatHappened: [],
         mustMemorizeFacts: [],
@@ -223,7 +206,7 @@ export function parseCanonicalMarkdownFile(
         slug: generateStableSlug(rawTitle),
         priority: 'P3_MODERATE',
         revisionMinutes: 1,
-        regulatoryStatus: 'IMPLEMENTED',
+        regulatoryStatus: undefined, // Non-regulatory factoids have NO regulatory status
         verificationStatus: 'SOURCE_ONLY',
         whatHappened: [],
         mustMemorizeFacts: [factBody],
@@ -279,6 +262,15 @@ export function parseCanonicalMarkdownFile(
         };
       }
 
+      // Extract Explicit Regulatory Status (e.g. "Status: DRAFT", "Status: PROPOSAL", "Status: IMPLEMENTED")
+      const statusMatch = line.match(/(?:Status|Regulatory Status):\s*\**([A-Z_]+)\**/i);
+      if (statusMatch) {
+        const rawStatus = statusMatch[1].toUpperCase();
+        if (['DRAFT', 'PROPOSAL', 'CONSULTATION', 'APPROVED', 'NOTIFIED', 'IMPLEMENTED'].includes(rawStatus)) {
+          currentTopic.regulatoryStatus = rawStatus as any;
+        }
+      }
+
       // Check if line is metadata header (Priority, Source, Event Date)
       const isMetadataLine = /^\s*[\*\-]?\s*\*\*(Priority|Source|Event Date|Revision Effort|Category|Status)\s*:\*\*/i.test(line) ||
                             /^\s*[\*\-]?\s*(Priority|Source|Event Date|Revision Effort|Category|Status):/i.test(line);
@@ -301,13 +293,9 @@ export function parseCanonicalMarkdownFile(
           } else if (currentSubSection === 'EXAM_FOCUS') {
             currentTopic.examFocus = currentTopic.examFocus || [];
             currentTopic.examFocus.push(text);
-          } else if (currentSubSection === 'MUST_MEMORIZE') {
+          } else {
             currentTopic.mustMemorizeFacts = currentTopic.mustMemorizeFacts || [];
             currentTopic.mustMemorizeFacts.push(text);
-          } else if (currentSubSection === 'NONE') {
-            // Default to what happened if no explicit header encountered yet
-            currentTopic.whatHappened = currentTopic.whatHappened || [];
-            currentTopic.whatHappened.push(text);
           }
         }
       }
@@ -316,21 +304,22 @@ export function parseCanonicalMarkdownFile(
 
   flushCurrentTopic();
 
+  // Ingestion Batch Record
   const batch: IngestionBatch = {
     batchId,
     sourceName: sourceDefault,
-    dateRange: chronologicalMonth === "2026-08" ? (batchId.includes("part-2") ? "12th – 20th August 2026" : "1st – 11th August 2026") : chronologicalMonth,
-    ingestedAt: "2026-08-25T18:00:00Z",
-    rawItemsCount: topics.length + 5,
-    duplicatesCount: 3,
-    enrichmentsCount: 2,
-    updatesCount: 1,
+    dateRange: `${chronologicalMonth} (${chronologicalWeek})`,
+    ingestedAt: '2026-08-25T18:00:00Z',
+    rawItemsCount: topics.length,
+    duplicatesCount: 0,
+    enrichmentsCount: 0,
+    updatesCount: 0,
     newTopicsCount: topics.length,
-    ignoredCount: 5,
+    ignoredCount: 0,
     primaryVerifiedCount: 0,
     sourceOnlyCount: topics.length,
     verificationPendingCount: 0,
-    mentorVerdict: `Ingested ${topics.length} canonical topics for ${chronologicalMonth} (${batchId}).`
+    mentorVerdict: `Successfully processed ${topics.length} canonical topics for ${chronologicalMonth} ${chronologicalWeek}.`
   };
 
   return { topics, batch };
