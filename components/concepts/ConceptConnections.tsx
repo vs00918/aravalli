@@ -1,153 +1,135 @@
 import React from "react";
-import { GitFork } from "lucide-react";
+import Link from "next/link";
+import { GitFork, BookOpen, ArrowRight } from "lucide-react";
 import { Connection } from "@/lib/types";
 
 interface ConceptConnectionsProps {
   conceptSlug: string;
-  connections?: Connection[];
+  outgoingConnections?: Connection[];
+  incomingConnections?: Connection[];
 }
 
-export function ConceptConnections({ conceptSlug, connections = [] }: ConceptConnectionsProps) {
-  // Curated cross-domain isomorphisms for foundational concepts
-  const domainTree: Record<
-    string,
-    Array<{ domain: string; subtopic: string; note: string; type: "isomorphism" | "physical" }>
-  > = {
-    entropy: [
-      {
-        domain: "Statistical Physics",
-        subtopic: "Microstate Multiplicity",
-        note: "Direct physical count of microscopic quantum states compatible with observed macroscopic thermodynamic constraints.",
-        type: "physical",
-      },
-      {
-        domain: "Information Theory",
-        subtopic: "Shannon Information Entropy",
-        note: "Mathematical Structural Connection: Shares the logarithmic probability weighting formula (H = -∑ p_i log₂ p_i) measuring uncertainty and data compression limits. While structurally isomorphic, information entropy is not physically identical to thermodynamic heat dissipation in all contexts.",
-        type: "isomorphism",
-      },
-      {
-        domain: "Biology & Life",
-        subtopic: "Open Thermodynamic Systems",
-        note: "Living cells maintain internal organization and avoid decay by continually taking in high-grade chemical energy and exporting thermal entropy to their surroundings.",
-        type: "physical",
-      },
-      {
-        domain: "Cosmology",
-        subtopic: "Thermodynamic Arrow of Time",
-        note: "The cosmological past hypothesis (that the early universe began in an extraordinarily low-entropy state) explains why macroscopic processes proceed forward in time.",
-        type: "physical",
-      },
-    ],
-    "matter-and-energy": [
-      {
-        domain: "Relativistic Mechanics",
-        subtopic: "Mass-Energy Equivalence",
-        note: "Energy and inertial mass are interconvertible properties governed by E = mc².",
-        type: "physical",
-      },
-      {
-        domain: "Nuclear Physics",
-        subtopic: "Binding Energy Deficit",
-        note: "Nuclear fission and fusion release binding energy by converting microscopic mass deficits into kinetic radiation.",
-        type: "physical",
-      },
-    ],
-    "how-life-maintains-order": [
-      {
-        domain: "Thermodynamics",
-        subtopic: "Non-Equilibrium Steady States",
-        note: "Continuous energy throughput sustains low-entropy metabolic structures.",
-        type: "physical",
-      },
-      {
-        domain: "Cybernetics",
-        subtopic: "Homeostatic Feedback Loops",
-        note: "Enzymatic and hormonal feedback dampens fluctuations to preserve biological homeostasis.",
-        type: "isomorphism",
-      },
-    ],
-    emergence: [
-      {
-        domain: "Statistical Physics",
-        subtopic: "Phase Transitions",
-        note: "Macroscopic liquid wetness or magnetism emerges from microscopic molecular spins.",
-        type: "physical",
-      },
-      {
-        domain: "Economics & Markets",
-        subtopic: "Price Discovery",
-        note: "Decentralized decisions of millions of consumers self-organize into equilibrium market clearing prices without central planning.",
-        type: "isomorphism",
-      },
-      {
-        domain: "Neuroscience",
-        subtopic: "Consciousness & Cognition",
-        note: "Subjective conscious experience arises from non-linear networks of biological neurons.",
-        type: "physical",
-      },
-    ],
-    "demographic-transition": [
-      {
-        domain: "Population Ecology",
-        subtopic: "Carrying Capacity & Logistic Growth",
-        note: "Species growth slows and plateaus as density approaches environmental constraints.",
-        type: "isomorphism",
-      },
-      {
-        domain: "Macroeconomics",
-        subtopic: "Sovereign Pension Solvency",
-        note: "Falling fertility shifts old-age dependency ratios, transforming labor supply and sovereign capital markets.",
-        type: "physical",
-      },
-    ],
-  };
+export function ConceptConnections({
+  conceptSlug,
+  outgoingConnections = [],
+  incomingConnections = [],
+}: ConceptConnectionsProps) {
+  // Combine all active connections for this concept
+  const hasDbConnections = outgoingConnections.length > 0 || incomingConnections.length > 0;
 
-  const curatedTree = domainTree[conceptSlug] ?? [];
+  const formatRelType = (type: string) => {
+    switch (type) {
+      case "STRUCTURAL_ANALOGY":
+        return { label: "Structural Analogy (Isomorphism)", style: "bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/20" };
+      case "DIRECT_PHYSICAL_CONNECTION":
+        return { label: "Direct Physical Connection", style: "bg-sky-500/10 text-sky-700 dark:text-sky-300 border-sky-500/20" };
+      case "MATHEMATICAL_CONNECTION":
+        return { label: "Mathematical Connection", style: "bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-indigo-500/20" };
+      case "CAUSAL_CONNECTION":
+        return { label: "Causal Connection", style: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/20" };
+      case "SHARED_PRINCIPLE":
+        return { label: "Shared Principle", style: "bg-purple-500/10 text-purple-700 dark:text-purple-300 border-purple-500/20" };
+      default:
+        return { label: type.replace(/_/g, " "), style: "bg-slate-500/10 text-slate-700 dark:text-slate-300 border-slate-500/20" };
+    }
+  };
 
   return (
     <section id="layer-connections" className="scroll-mt-20 space-y-4 pt-8 border-t border-slate-200/80 dark:border-slate-800">
-      <div className="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
-        <GitFork className="w-4 h-4" />
-        <span>Level 6 · Where It Connects</span>
+      <div className="flex items-center justify-between">
+        <div className="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-emerald-700 dark:text-emerald-400 font-bold">
+          <GitFork className="w-4 h-4" />
+          <span>Level 6 · Where It Connects</span>
+        </div>
+        <Link
+          href="/connections"
+          className="text-xs font-mono text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1"
+        >
+          <span>All Connections</span>
+          <ArrowRight className="w-3 h-3" />
+        </Link>
       </div>
 
       <div className="space-y-4">
         <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 font-sans">
-          This concept forms structural bridges across multiple domains of knowledge:
+          This concept forms structural bridges across multiple domains in the knowledge graph:
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-          {curatedTree.map((item, idx) => (
-            <div
-              key={idx}
-              className="p-4 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] space-y-2 hover:border-emerald-500/30 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400">
-                  {item.domain}
-                </span>
-                <span
-                  className={`text-[9px] uppercase font-mono px-1.5 py-0.5 rounded ${
-                    item.type === "isomorphism"
-                      ? "bg-amber-500/10 text-amber-700 dark:text-amber-300 border border-amber-500/20"
-                      : "bg-sky-500/10 text-sky-700 dark:text-sky-300 border border-sky-500/20"
-                  }`}
+        {hasDbConnections ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            {outgoingConnections.map((conn) => {
+              const rel = formatRelType(conn.relationshipType);
+              const target = conn.targetConcept;
+              return (
+                <div
+                  key={conn.id}
+                  className="p-4 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] space-y-2 hover:border-emerald-500/30 transition-colors"
                 >
-                  {item.type === "isomorphism" ? "Mathematical Isomorphism" : "Direct Physical System"}
-                </span>
-              </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400">
+                      {target?.chapter?.title ?? "Connected Concept"}
+                    </span>
+                    <span className={`text-[9px] font-mono uppercase px-1.5 py-0.5 rounded border ${rel.style}`}>
+                      {rel.label}
+                    </span>
+                  </div>
 
-              <div className="text-sm font-semibold text-slate-900 dark:text-slate-100 font-serif">
-                {item.subtopic}
-              </div>
+                  {target && (
+                    <Link
+                      href={`/concepts/${target.slug}`}
+                      className="text-sm font-semibold text-slate-900 dark:text-slate-100 font-serif hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                      <span>{target.title}</span>
+                    </Link>
+                  )}
 
-              <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">
-                {item.note}
-              </p>
-            </div>
-          ))}
-        </div>
+                  <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">
+                    {conn.explanation}
+                  </p>
+                </div>
+              );
+            })}
+
+            {incomingConnections.map((conn) => {
+              const rel = formatRelType(conn.relationshipType);
+              const source = conn.sourceConcept;
+              return (
+                <div
+                  key={conn.id}
+                  className="p-4 rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] space-y-2 hover:border-emerald-500/30 transition-colors"
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400">
+                      {source?.chapter?.title ?? "Connected Concept"}
+                    </span>
+                    <span className={`text-[9px] font-mono uppercase px-1.5 py-0.5 rounded border ${rel.style}`}>
+                      {rel.label}
+                    </span>
+                  </div>
+
+                  {source && (
+                    <Link
+                      href={`/concepts/${source.slug}`}
+                      className="text-sm font-semibold text-slate-900 dark:text-slate-100 font-serif hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                      <span>{source.title}</span>
+                    </Link>
+                  )}
+
+                  <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">
+                    {conn.explanation}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-[#0f1520] text-xs font-mono text-slate-500">
+            Cross-domain bridges for this concept are currently being mapped in the knowledge tree.
+          </div>
+        )}
       </div>
     </section>
   );

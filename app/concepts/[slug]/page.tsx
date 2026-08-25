@@ -12,6 +12,7 @@ import { ConceptConnections } from "@/components/concepts/ConceptConnections";
 import { ConceptLimitations } from "@/components/concepts/ConceptLimitations";
 import { ConceptNavigation } from "@/components/concepts/ConceptNavigation";
 import { ConceptSources } from "@/components/concepts/ConceptSources";
+import { ConceptRelatedQuestions } from "@/components/concepts/ConceptRelatedQuestions";
 import { ConceptTOC } from "@/components/concepts/ConceptTOC";
 
 export const dynamic = "force-dynamic";
@@ -57,14 +58,18 @@ export default async function ConceptPage({ params }: ConceptPageProps) {
         {/* Level 6: Where It Connects */}
         <ConceptConnections
           conceptSlug={concept.slug}
-          connections={concept.outgoingConnections as any}
+          outgoingConnections={concept.outgoingConnections as any}
+          incomingConnections={concept.incomingConnections as any}
         />
 
         {/* Limitations & What This Idea Does NOT Mean */}
         <ConceptLimitations commonMisconceptions={concept.commonMisconceptions} />
 
-        {/* Source Attribution */}
+        {/* Source Attribution & Provenance */}
         <ConceptSources sources={concept.sources as any} />
+
+        {/* Related Curiosity Radar Questions */}
+        <ConceptRelatedQuestions questions={concept.questions as any} />
 
         {/* Chapter Navigation */}
         {concept.chapter && (

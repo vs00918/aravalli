@@ -27,13 +27,27 @@ export async function getConceptBySlug(slug: string) {
       },
       outgoingConnections: {
         include: {
-          toConcept: true,
+          targetConcept: {
+            include: {
+              chapter: true,
+            },
+          },
         },
       },
       incomingConnections: {
         include: {
-          fromConcept: true,
+          sourceConcept: {
+            include: {
+              chapter: true,
+            },
+          },
         },
+      },
+      questions: {
+        where: {
+          status: { in: ["OPEN", "EXPLORING", "ANSWERED"] },
+        },
+        orderBy: { createdAt: "desc" },
       },
     },
   });

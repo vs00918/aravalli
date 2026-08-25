@@ -8,16 +8,17 @@ generator client {
 }
 
 model Chapter {
-  id          String    @id @default(cuid())
-  slug        String    @unique
+  id          String     @id @default(cuid())
+  slug        String     @unique
   title       String
-  icon        String    @default("📖")
+  icon        String     @default("📖")
   description String
   overview    String?
-  order       Int       @default(0)
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  order       Int        @default(0)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
   concepts    Concept[]
+  questions   Question[]
 }
 
 model Concept {
@@ -48,43 +49,84 @@ model Concept {
   sources               SourceConcept[]
   outgoingConnections   Connection[]    @relation("SourceConcept")
   incomingConnections   Connection[]    @relation("TargetConcept")
+  questions             Question[]
 }
 
 model Source {
   id             String          @id @default(cuid())
   title          String
-  type           String          // "video" | "podcast" | "book" | "paper" | "article" | "lecture"
+  type           String          // "YOUTUBE" | "PODCAST" | "BOOK" | "PAPER" | "ARTICLE" | "LECTURE" | "NOTE" | "OTHER"
   url            String?
   author         String?
-  publishedDate  String?
-  summary        String?
+  publisher      String?
+  publishedAt    String?
+  accessedAt     DateTime?
+  description    String?
+  transcript     String?
   createdAt      DateTime        @default(now())
   updatedAt      DateTime        @updatedAt
 
   concepts       SourceConcept[]
+  ingestionItems IngestionItem[]
 }
 
 model SourceConcept {
-  id         String   @id @default(cuid())
-  sourceId   String
-  conceptId  String
-  source     Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
-  concept    Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
-  notes      String?
+  id               String   @id @default(cuid())
+  sourceId         String
+  conceptId        String
+  source           Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  concept          Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  
+  // Contribution Metadata
+  relevance        String?  // "primary" | "supporting" | "mention"
+  contributionType String?  // "definition" | "mechanism" | "first_principles" | "evidence"
+  excerpt          String?
+  notes            String?
+  evidenceStatus   String?  // "verified" | "hypothetical" | "historical"
+  createdAt        DateTime @default(now())
 
   @@unique([sourceId, conceptId])
 }
 
 model Connection {
   id               String   @id @default(cuid())
-  fromConceptId    String
-  toConceptId      String
-  relationshipType String   // "depends_on" | "causes" | "enables" | "analogous_to" | "mathematically_related_to" | "emerges_from"
+  sourceConceptId  String
+  targetConceptId  String
+  relationshipType String   // "STRUCTURAL_ANALOGY" | "DIRECT_PHYSICAL_CONNECTION" | "CAUSAL_CONNECTION" | "MATHEMATICAL_CONNECTION" | "SHARED_PRINCIPLE" | "APPLICATION" | "CONTRAST"
   explanation      String
+  strength         Float    @default(1.0)
   createdAt        DateTime @default(now())
 
-  fromConcept      Concept  @relation("SourceConcept", fields: [fromConceptId], references: [id], onDelete: Cascade)
-  toConcept        Concept  @relation("TargetConcept", fields: [toConceptId], references: [id], onDelete: Cascade)
+  sourceConcept    Concept  @relation("SourceConcept", fields: [sourceConceptId], references: [id], onDelete: Cascade)
+  targetConcept    Concept  @relation("TargetConcept", fields: [targetConceptId], references: [id], onDelete: Cascade)
 
-  @@unique([fromConceptId, toConceptId])
+  @@unique([sourceConceptId, targetConceptId])
+}
+
+model Question {
+  id               String   @id @default(cuid())
+  question         String
+  description      String?
+  chapterId        String?
+  chapter          Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+  relatedConceptId String?
+  relatedConcept   Concept? @relation(fields: [relatedConceptId], references: [id], onDelete: SetNull)
+  status           String   @default("OPEN") // "OPEN" | "EXPLORING" | "ANSWERED" | "ARCHIVED"
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model IngestionItem {
+  id                   String   @id @default(cuid())
+  title                String
+  sourceId             String?
+  source               Source?  @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  rawContent           String?
+  extractedSummary     String?
+  candidateConcepts    String?  // JSON string or text summary of proposed concepts
+  candidateConnections String?  // JSON string or text summary of proposed connections
+  targetChapterId      String?
+  status               String   @default("INBOX") // "INBOX" | "PROCESSING" | "REVIEW" | "ACCEPTED" | "REJECTED" | "ARCHIVED"
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
 }

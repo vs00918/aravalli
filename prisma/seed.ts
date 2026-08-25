@@ -3,9 +3,11 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Seeding Mind of Aravalli with refined scientific Entropy concept...");
+  console.log("Seeding Mind of Aravalli Phase 4 Knowledge Infrastructure...");
 
-  // Clean old records for pristine state
+  // Clean old records for pristine migration state
+  await prisma.ingestionItem.deleteMany({});
+  await prisma.question.deleteMany({});
   await prisma.connection.deleteMany({});
   await prisma.sourceConcept.deleteMany({});
   await prisma.concept.deleteMany({});
@@ -27,8 +29,7 @@ async function main() {
     },
   });
 
-  // Reference Benchmark Concept: Entropy (Scientific Depth Revision)
-  await prisma.concept.create({
+  const cEntropy = await prisma.concept.create({
     data: {
       slug: "entropy",
       title: "Entropy",
@@ -79,7 +80,7 @@ Clausius formulated the thermodynamic relation macroscopically through heat and 
     },
   });
 
-  await prisma.concept.create({
+  const cMatter = await prisma.concept.create({
     data: {
       slug: "matter-and-energy",
       title: "Matter & Energy",
@@ -109,7 +110,7 @@ $$E = mc^2 \\quad \\text{and} \\quad \\Delta E_{\\text{system}} = Q - W$$
     },
   });
 
-  await prisma.concept.create({
+  const cAtoms = await prisma.concept.create({
     data: {
       slug: "atoms-and-subatomic-scale",
       title: "Atoms & The Subatomic Scale",
@@ -140,7 +141,7 @@ $$i\\hbar \\frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi$$
     },
   });
 
-  await prisma.concept.create({
+  const cQuantum = await prisma.concept.create({
     data: {
       slug: "quantum-unitarity",
       title: "Quantum Unitarity & Information Conservation",
@@ -186,7 +187,7 @@ $$U^\\dagger U = \\hat{I} \\quad \\text{and} \\quad \\sum_{i} P_i = 1$$
     },
   });
 
-  await prisma.concept.create({
+  const cWhatIsEnergy = await prisma.concept.create({
     data: {
       slug: "what-is-energy",
       title: "What Is Energy?",
@@ -216,7 +217,7 @@ $$W = \\int \\mathbf{F} \\cdot d\\mathbf{r} \\quad \\text{and} \\quad \\Delta U 
     },
   });
 
-  await prisma.concept.create({
+  const cElectricity = await prisma.concept.create({
     data: {
       slug: "electricity",
       title: "Electricity & Charge Flow",
@@ -248,7 +249,7 @@ $$V = IR \\quad \\text{and} \\quad P = VI = I^2 R$$
     },
   });
 
-  await prisma.concept.create({
+  const cEnergyDensity = await prisma.concept.create({
     data: {
       slug: "energy-density",
       title: "Energy Density",
@@ -295,7 +296,7 @@ $$\\text{Specific Energy} = \\frac{n F E_{\\text{cell}}}{M_{\\text{molar}}}$$
     },
   });
 
-  await prisma.concept.create({
+  const cCells = await prisma.concept.create({
     data: {
       slug: "cells-and-living-order",
       title: "The Cell as the Unit of Life",
@@ -325,7 +326,7 @@ $$\\Delta G = \\Delta H - T\\Delta S$$
     },
   });
 
-  await prisma.concept.create({
+  const cDNA = await prisma.concept.create({
     data: {
       slug: "dna-and-genetic-code",
       title: "DNA & The Genetic Code",
@@ -355,7 +356,7 @@ $$4^3 = 64 \\text{ codon combinations encoding 20 standard amino acids}$$
     },
   });
 
-  await prisma.concept.create({
+  const cHowLife = await prisma.concept.create({
     data: {
       slug: "how-life-maintains-order",
       title: "How Life Maintains Order",
@@ -400,7 +401,7 @@ $$\\frac{dS}{dt} = \\frac{dS_{\\text{internal}}}{dt} + \\frac{dS_{\\text{externa
     },
   });
 
-  await prisma.concept.create({
+  const cFeedback = await prisma.concept.create({
     data: {
       slug: "feedback-loops",
       title: "Feedback Loops & Cybernetics",
@@ -431,7 +432,7 @@ $$G_{\\text{closed}} = \\frac{A}{1 + A\\beta}$$
     },
   });
 
-  await prisma.concept.create({
+  const cEmergence = await prisma.concept.create({
     data: {
       slug: "emergence",
       title: "Emergence",
@@ -476,7 +477,7 @@ $$\\Psi_{\\text{macro}} \\neq \\sum_{i=1}^N \\psi_i$$
     },
   });
 
-  await prisma.concept.create({
+  const cIncentives = await prisma.concept.create({
     data: {
       slug: "needs-and-incentives",
       title: "Incentives & Human Behavior",
@@ -506,7 +507,7 @@ $$U(\\mathbf{x}) = \\sum_{i=1}^n p_i \\cdot u(x_i)$$
     },
   });
 
-  await prisma.concept.create({
+  const cMoney = await prisma.concept.create({
     data: {
       slug: "money-and-exchange",
       title: "Money & Mediums of Exchange",
@@ -538,7 +539,7 @@ $$M \\cdot V = P \\cdot Y$$
     },
   });
 
-  await prisma.concept.create({
+  const cDemographics = await prisma.concept.create({
     data: {
       slug: "demographic-transition",
       title: "The Demographic Transition Model",
@@ -569,7 +570,248 @@ $$\\frac{dP}{dt} = r P \\left(1 - \\frac{P}{K}\\right)$$
     },
   });
 
-  console.log("Database seeded successfully with revised scientific depth!");
+  // ==========================================
+  // 6. Verified Reference Sources
+  // ==========================================
+  console.log("Seeding verified reference sources...");
+
+  const srcThermalPhysics = await prisma.source.create({
+    data: {
+      title: "An Introduction to Thermal Physics",
+      type: "BOOK",
+      author: "Daniel V. Schroeder",
+      publisher: "Oxford University Press",
+      publishedAt: "1999",
+      description: "Standard undergraduate textbook on thermodynamics and statistical mechanics connecting microscopic state counting directly to macroscopic heat engines.",
+    },
+  });
+
+  const srcWhatIsLife = await prisma.source.create({
+    data: {
+      title: "What Is Life? The Physical Aspect of the Living Cell",
+      type: "BOOK",
+      author: "Erwin Schrödinger",
+      publisher: "Cambridge University Press",
+      publishedAt: "1944",
+      description: "Seminal lectures examining how living organisms maintain structural order by continually taking in low-entropy energy from their environment.",
+    },
+  });
+
+  const srcMoreIsDifferent = await prisma.source.create({
+    data: {
+      title: "More Is Different: Broken Symmetry and the Nature of the Hierarchical Structure of Science",
+      type: "PAPER",
+      author: "Philip W. Anderson",
+      publisher: "Science (Vol. 177, No. 4047)",
+      publishedAt: "1972",
+      url: "https://doi.org/10.1126/science.177.4047.393",
+      description: "Foundational paper arguing that reductionism does not imply constructionism, establishing emergence as a fundamental scientific paradigm.",
+    },
+  });
+
+  const srcShannonPaper = await prisma.source.create({
+    data: {
+      title: "A Mathematical Theory of Communication",
+      type: "PAPER",
+      author: "Claude E. Shannon",
+      publisher: "Bell System Technical Journal",
+      publishedAt: "1948",
+      url: "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      description: "The founding document of modern information theory, defining informational entropy and fundamental limits of data compression.",
+    },
+  });
+
+  // Attach Sources to Concepts (Provenance)
+  await prisma.sourceConcept.create({
+    data: {
+      sourceId: srcThermalPhysics.id,
+      conceptId: cEntropy.id,
+      relevance: "primary",
+      contributionType: "mechanism",
+      notes: "Chapters 2 & 3 provide standard derivations for microstate multiplicity, Boltzmann entropy S = k_B ln Ω, and temperature relations.",
+      evidenceStatus: "verified",
+    },
+  });
+
+  await prisma.sourceConcept.create({
+    data: {
+      sourceId: srcWhatIsLife.id,
+      conceptId: cHowLife.id,
+      relevance: "primary",
+      contributionType: "first_principles",
+      notes: "Chapters 6 & 7 detail the non-equilibrium thermodynamic perspective on how cells avoid decay through continuous energy dissipation.",
+      evidenceStatus: "verified",
+    },
+  });
+
+  await prisma.sourceConcept.create({
+    data: {
+      sourceId: srcMoreIsDifferent.id,
+      conceptId: cEmergence.id,
+      relevance: "primary",
+      contributionType: "first_principles",
+      notes: "Outlines how new hierarchical physical laws emerge at higher scales that cannot be reconstructed from elementary particles alone.",
+      evidenceStatus: "verified",
+    },
+  });
+
+  // ==========================================
+  // 7. First-Class Connections (The Knowledge Lattice)
+  // ==========================================
+  console.log("Seeding first-class cross-domain connections...");
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cEntropy.id,
+      targetConceptId: cHowLife.id,
+      relationshipType: "DIRECT_PHYSICAL_CONNECTION",
+      strength: 0.95,
+      explanation:
+        "Living organisms obey the Second Law by functioning as open thermodynamic systems: they maintain local biological order by continually exporting entropy to their environment.",
+    },
+  });
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cEntropy.id,
+      targetConceptId: cQuantum.id,
+      relationshipType: "MATHEMATICAL_CONNECTION",
+      strength: 0.85,
+      explanation:
+        "Microscopic quantum unitarity guarantees conservation of information. The black hole information paradox is the puzzle of reconciling Hawking radiation entropy with unitarity.",
+    },
+  });
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cWhatIsEnergy.id,
+      targetConceptId: cMatter.id,
+      relationshipType: "SHARED_PRINCIPLE",
+      strength: 0.9,
+      explanation:
+        "Special relativity establishes mass-energy equivalence (E = mc²), proving that rest mass is a concentrated reservoir of potential energy.",
+    },
+  });
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cEnergyDensity.id,
+      targetConceptId: cElectricity.id,
+      relationshipType: "APPLICATION",
+      strength: 0.88,
+      explanation:
+        "Energy density constraints determine the feasibility of replacing fossil fuels with rechargeable electrochemical battery storage across global transportation networks.",
+    },
+  });
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cFeedback.id,
+      targetConceptId: cHowLife.id,
+      relationshipType: "STRUCTURAL_ANALOGY",
+      strength: 0.92,
+      explanation:
+        "Negative feedback loops in cybernetics provide the exact functional mechanism for biological homeostasis and blood sugar regulation in living organisms.",
+    },
+  });
+
+  await prisma.connection.create({
+    data: {
+      sourceConceptId: cEmergence.id,
+      targetConceptId: cMoney.id,
+      relationshipType: "STRUCTURAL_ANALOGY",
+      strength: 0.8,
+      explanation:
+        "Market clearing prices emerge spontaneously from the decentralized decisions of millions of economic participants without centralized coordination.",
+    },
+  });
+
+  // ==========================================
+  // 8. Curiosity Radar Questions
+  // ==========================================
+  console.log("Seeding curiosity radar questions...");
+
+  await prisma.question.create({
+    data: {
+      question: "Why does time appear to move in only one direction?",
+      description: "Microscopic physical equations are time-reversible, yet the macroscopic world exhibits a strict past-future arrow rooted in the low-entropy initial state of the Big Bang.",
+      chapterId: ch1.id,
+      relatedConceptId: cEntropy.id,
+      status: "EXPLORING",
+    },
+  });
+
+  await prisma.question.create({
+    data: {
+      question: "Can microscopic physical information ever be destroyed?",
+      description: "Examining whether evaporating black holes permanently delete quantum state information or preserve it via subtle Hawking radiation correlations.",
+      chapterId: ch1.id,
+      relatedConceptId: cQuantum.id,
+      status: "OPEN",
+    },
+  });
+
+  await prisma.question.create({
+    data: {
+      question: "What determines the thermodynamic boundary between chemistry and living order?",
+      description: "How autocatalytic chemical cycles organize into membrane-bound cells that self-regulate and replicate.",
+      chapterId: ch3.id,
+      relatedConceptId: cHowLife.id,
+      status: "EXPLORING",
+    },
+  });
+
+  await prisma.question.create({
+    data: {
+      question: "Why do complex systems develop collective behavior their individual parts do not possess?",
+      description: "How simple local rules between interacting parts produce unexpected collective patterns like flocking birds, market prices, and consciousness.",
+      chapterId: ch4.id,
+      relatedConceptId: cEmergence.id,
+      status: "ANSWERED",
+    },
+  });
+
+  await prisma.question.create({
+    data: {
+      question: "Why does fiat currency retain value without a physical gold standard?",
+      description: "How shared institutional trust, legal tender frameworks, and government tax obligations turn tokens and digital ledgers into universally accepted mediums of exchange.",
+      chapterId: ch5.id,
+      relatedConceptId: cMoney.id,
+      status: "ANSWERED",
+    },
+  });
+
+  // ==========================================
+  // 9. Ingestion Staging Area (Human-in-the-Loop)
+  // ==========================================
+  console.log("Seeding ingestion staging buffer...");
+
+  await prisma.ingestionItem.create({
+    data: {
+      title: "Lecture Notes: Non-Equilibrium Statistical Mechanics & Fluctuation Theorems",
+      sourceId: srcThermalPhysics.id,
+      rawContent: "Jarzynski Equality (1997) and Crooks Fluctuation Theorem connecting free energy differences to non-equilibrium work distributions. In microscopic systems far from equilibrium, second law holds statistically on average while small temporary fluctuations can occur.",
+      extractedSummary: "Extracts modern non-equilibrium fluctuation theorems that generalize the Second Law to microscopic molecular machines and biological motors.",
+      candidateConcepts: "Jarzynski Equality, Fluctuation Theorem, Microscopic Reversibility",
+      candidateConnections: "Entropy ↔ Molecular Motors (Biology), Statistical Mechanics ↔ Nanotechnology",
+      targetChapterId: ch1.id,
+      status: "REVIEW",
+    },
+  });
+
+  await prisma.ingestionItem.create({
+    data: {
+      title: "Research Extract: Solid-State Electrolytes and Lithium Dendrite Suppression",
+      rawContent: "Analysis of garnet-type LLZO ceramics for high-voltage solid-state batteries. Theoretical gravimetric density ceiling increases to ~450 Wh/kg by enabling pure lithium metal anodes.",
+      extractedSummary: "Summarizes the physical and chemical requirements for solid-state battery electrolytes to overcome current lithium-ion energy density ceilings.",
+      candidateConcepts: "Solid-State Electrolytes, Lithium Metal Anodes, Interfacial Resistance",
+      candidateConnections: "Energy Density ↔ Material Science, Battery Technology ↔ Grid Storage",
+      targetChapterId: ch2.id,
+      status: "INBOX",
+    },
+  });
+
+  console.log("Mind of Aravalli Phase 4 Knowledge Infrastructure seeded successfully!");
 }
 
 main()

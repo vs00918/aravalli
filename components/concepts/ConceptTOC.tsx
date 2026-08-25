@@ -11,7 +11,8 @@ export function ConceptTOC() {
     { id: "layer-mathematics", label: "5. Mathematics" },
     { id: "layer-connections", label: "6. Where It Connects" },
     { id: "limitations", label: "Limitations & Nuance" },
-    { id: "sources", label: "Sources" },
+    { id: "sources", label: "Source Provenance" },
+    { id: "related-questions", label: "Curiosity Questions" },
   ];
 
   return (
