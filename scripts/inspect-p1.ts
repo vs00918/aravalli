@@ -46,6 +46,17 @@ function main() {
   marP1s.forEach((t, i) => {
     console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
   });
+
+  const aprTopicIds = registry.indexes.byYearMonth['2026-04'] || [];
+  const aprP1s = aprTopicIds.map(id => registry.topics[id]).filter(t => t && t.priority.startsWith('P1'));
+  
+  console.log('\n========================================================');
+  console.log('APRIL 2026 P1 AUDIT:');
+  console.log('Total April P1 Count:', aprP1s.length);
+  console.log('Total April P1 Minutes:', aprP1s.reduce((sum, t) => sum + t.revisionMinutes, 0));
+  aprP1s.forEach((t, i) => {
+    console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
+  });
   
   console.log('\n========================================================');
   console.log('COMBINED MASTER REGISTRY SUMMARY:');
