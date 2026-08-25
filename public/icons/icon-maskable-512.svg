@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#06090c" />
+  <!-- Safe Zone centered Mountain & Knowledge Emblem -->
+  <path d="M128 350 L216 195 L280 298 L326 224 L384 350 Z" fill="#059669" fill-opacity="0.85" stroke="#10b981" stroke-width="8" stroke-linejoin="round" />
+  <path d="M176 370 C216 355 256 355 256 355 C256 355 296 355 336 370 L336 310 C296 295 256 295 256 295 C256 295 216 295 176 310 Z" fill="#10b981" />
+  <circle cx="256" cy="140" r="14" fill="#34d399" />
+</svg>

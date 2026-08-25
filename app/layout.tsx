@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Lora, JetBrains_Mono } from "next/font/google";
 import { CaAppShell } from "@/components/ca-layout/CaAppShell";
+import { PwaRegister } from "@/components/pwa/PwaRegister";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,10 +23,32 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  themeColor: "#059669",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
   title: "Banking CA Mentor — Exam Intelligence & Study OS",
   description:
     "A dedicated, exam-filtered Current Affairs Study OS for SBI PO, IBPS PO, and Regulatory Mains examinations.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/icons/icon-192.svg", sizes: "192x192", type: "image/svg+xml" },
+      { url: "/icons/icon-512.svg", sizes: "512x512", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icons/icon-192.svg" },
+    ],
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Banking CA",
+  },
 };
 
 export default function RootLayout({
@@ -40,6 +63,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased selection:bg-emerald-600 selection:text-white">
+        <PwaRegister />
         <CaAppShell>
           {children}
         </CaAppShell>

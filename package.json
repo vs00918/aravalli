@@ -13,6 +13,7 @@
     "test:compiler": "tsx scripts/test-compiler.ts",
     "test:revision": "tsx scripts/test-revision-engine.ts",
     "test:search": "tsx scripts/test-search-engine.ts",
+    "test:pwa": "tsx scripts/test-pwa.ts",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
