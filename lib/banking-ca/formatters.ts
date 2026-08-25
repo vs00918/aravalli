@@ -51,17 +51,18 @@ export function formatTopicCategory(institution: string, category: string): stri
   const categoryNames: Record<string, string> = {
     BANKING_REGULATION: "Banking & Regulation",
     MONETARY_POLICY: "Monetary Policy",
-    CAPITAL_MARKETS: "Capital Markets",
+    CAPITAL_MARKETS: "Capital Markets & SEBI",
     GOVERNMENT_SCHEMES: "Government Schemes",
-    MACRO_ECONOMY: "Macro Economy",
-    DIGITAL_PAYMENTS: "Digital Payments",
+    MACRO_ECONOMY: "Economy & Fiscal",
+    DIGITAL_PAYMENTS: "Digital Payments & UPI",
     APPOINTMENTS: "Appointments",
-    INSURANCE_SECTOR: "Insurance",
-    PENSION_SYSTEMS: "Pensions",
+    INSURANCE_SECTOR: "Insurance & IRDAI",
+    PENSION_SYSTEMS: "Pensions & PFRDA",
     REPORTS_AND_INDICES: "Reports & Indices",
     DEFENCE_AND_SCIENCE: "Defence & Science",
     SPORTS_AND_AWARDS: "Sports & Awards",
-    NATIONAL_AND_STATES: "National & States"
+    NATIONAL_AND_STATES: "National & States",
+    INTERNATIONAL_AFFAIRS: "International Affairs"
   };
 
   const catLabel = categoryNames[category] || category.replace(/_/g, " ");

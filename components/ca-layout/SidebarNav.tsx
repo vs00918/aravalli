@@ -14,7 +14,8 @@ import {
   ChevronRight,
   Clock,
   AlertTriangle,
-  FolderOpen
+  FileText,
+  Compass
 } from "lucide-react";
 import { BankingCaMasterRegistry } from "@/lib/banking-ca/schema";
 
@@ -23,15 +24,19 @@ interface SidebarNavProps {
   isCollapsed?: boolean;
 }
 
-const MONTH_NAMES = [
-  { id: "2026-08", name: "AUGUST 2026", active: true },
-  { id: "2026-07", name: "JULY 2026", active: false },
-  { id: "2026-06", name: "JUNE 2026", active: false },
-  { id: "2026-05", name: "MAY 2026", active: false },
-  { id: "2026-04", name: "APRIL 2026", active: false },
-  { id: "2026-03", name: "MARCH 2026", active: false },
-  { id: "2026-02", name: "FEBRUARY 2026", active: false },
-  { id: "2026-01", name: "JANUARY 2026", active: false },
+const ALL_2026_MONTHS = [
+  { id: "2026-12", name: "DECEMBER 2026" },
+  { id: "2026-11", name: "NOVEMBER 2026" },
+  { id: "2026-10", name: "OCTOBER 2026" },
+  { id: "2026-09", name: "SEPTEMBER 2026" },
+  { id: "2026-08", name: "AUGUST 2026" },
+  { id: "2026-07", name: "JULY 2026" },
+  { id: "2026-06", name: "JUNE 2026" },
+  { id: "2026-05", name: "MAY 2026" },
+  { id: "2026-04", name: "APRIL 2026" },
+  { id: "2026-03", name: "MARCH 2026" },
+  { id: "2026-02", name: "FEBRUARY 2026" },
+  { id: "2026-01", name: "JANUARY 2026" },
 ];
 
 const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
@@ -39,7 +44,7 @@ const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
   MONETARY_POLICY: "Monetary Policy",
   CAPITAL_MARKETS: "Capital Markets & SEBI",
   GOVERNMENT_SCHEMES: "Government Schemes",
-  MACRO_ECONOMY: "Macro Economy & Fiscal",
+  MACRO_ECONOMY: "Economy & Fiscal",
   DIGITAL_PAYMENTS: "Digital Payments & UPI",
   APPOINTMENTS: "Key Appointments",
   INSURANCE_SECTOR: "Insurance & IRDAI",
@@ -47,7 +52,8 @@ const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
   REPORTS_AND_INDICES: "Reports & Indices",
   DEFENCE_AND_SCIENCE: "Defence & Science",
   SPORTS_AND_AWARDS: "Sports & Awards",
-  NATIONAL_AND_STATES: "National & States"
+  NATIONAL_AND_STATES: "National & States",
+  INTERNATIONAL_AFFAIRS: "International Affairs"
 };
 
 export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
@@ -62,13 +68,23 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
   const summary = registry.summary;
   const changeAlertCount = registry.indexes.changeSensitiveTopicIds.length;
 
-  const topNavItems = [
-    { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  // 1. COMMAND
+  const commandItems = [
+    { href: "/dashboard", label: "Command Center", icon: LayoutDashboard },
+  ];
+
+  // 2. KNOWLEDGE
+  const knowledgeItems = [
     { href: "/topics", label: "Canonical Topics", icon: BookOpen, badge: summary.totalCanonicalTopics.toString() },
-    { href: "/revision", label: "Revision Hub", icon: RotateCw, badge: `${summary.activeP1RevisionMinutes}m` },
     { href: "/institutions", label: "Institutions", icon: Landmark },
-    { href: "/chronology", label: "Chronology", icon: Calendar },
+    { href: "/chronology", label: "Chronology Tree", icon: Calendar },
     { href: "/search", label: "Search Index", icon: Search },
+  ];
+
+  // 3. REVISION
+  const revisionItems = [
+    { href: "/revision", label: "Revision Hub", icon: RotateCw, badge: `${summary.activeP1RevisionMinutes}m` },
+    { href: "/chronology", label: "Rapid Revision Sheets", icon: FileText },
   ];
 
   // Calculate dynamic category counts for the currently expanded month
@@ -83,8 +99,8 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
   const activeCategories = Object.keys(categoryCounts).sort((a, b) => categoryCounts[b] - categoryCounts[a]);
 
   return (
-    <aside className="w-68 flex-shrink-0 hidden md:flex flex-col border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print">
-      {/* Brand Logo & Target */}
+    <aside className="w-70 flex-shrink-0 hidden md:flex flex-col border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print">
+      {/* Brand Header */}
       <div className="p-4 border-b border-[var(--border-primary)] bg-[var(--surface-elevated)]/50">
         <Link href="/dashboard" className="flex items-center gap-3 group">
           <div className="w-9 h-9 rounded-xl bg-amber-800/15 border border-amber-800/30 flex items-center justify-center text-amber-900 dark:text-amber-300 font-serif font-bold text-lg group-hover:scale-105 transition-transform shadow-xs">
@@ -95,7 +111,7 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
               CA MENTOR OS
             </div>
             <div className="text-[11px] text-[var(--text-muted)] font-mono">
-              SBI &amp; IBPS PO Mains
+              Living Exam Intelligence
             </div>
           </div>
         </Link>
@@ -103,11 +119,14 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
 
       {/* Main Navigation Scroll Area */}
       <div className="flex-1 p-3 space-y-4 overflow-y-auto">
-        {/* 1. Core Platform Links */}
-        <nav className="space-y-1">
-          {topNavItems.map((item) => {
+        {/* PILLAR 1: COMMAND */}
+        <div className="space-y-1">
+          <div className="px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider text-[var(--text-subtle)] font-bold">
+            Command
+          </div>
+          {commandItems.map((item) => {
             const Icon = item.icon;
-            const isActive = pathname === item.href || (item.href !== "/dashboard" && pathname.startsWith(item.href) && !pathname.startsWith("/briefing"));
+            const isActive = pathname === item.href;
 
             return (
               <Link
@@ -115,7 +134,35 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
                 href={item.href}
                 className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
                   isActive
-                    ? "bg-amber-800/10 text-amber-900 dark:text-amber-300 font-bold border-l-3 border-amber-800 dark:border-amber-600"
+                    ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border-l-3 border-amber-800 dark:border-amber-600"
+                    : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+                }`}
+              >
+                <div className="flex items-center gap-2.5">
+                  <Icon className={`w-3.5 h-3.5 ${isActive ? "text-amber-800 dark:text-amber-400" : "text-[var(--text-subtle)]"}`} />
+                  <span>{item.label}</span>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+
+        {/* PILLAR 2: KNOWLEDGE */}
+        <div className="space-y-1 pt-2 border-t border-[var(--border-primary)]/80">
+          <div className="px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider text-[var(--text-subtle)] font-bold">
+            Knowledge
+          </div>
+          {knowledgeItems.map((item) => {
+            const Icon = item.icon;
+            const isActive = pathname === item.href;
+
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
+                  isActive
+                    ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border-l-3 border-amber-800 dark:border-amber-600"
                     : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
                 }`}
               >
@@ -124,25 +171,25 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
                   <span>{item.label}</span>
                 </div>
                 {item.badge && (
-                  <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-[var(--surface-elevated)] text-[var(--text-muted)] border border-[var(--border-primary)]">
+                  <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-[var(--surface-elevated)] text-[var(--text-muted)] border border-[var(--border-primary)] font-semibold">
                     {item.badge}
                   </span>
                 )}
               </Link>
             );
           })}
-        </nav>
+        </div>
 
-        {/* 2. Month-First Current Affairs Tree */}
-        <div className="space-y-2 pt-2 border-t border-[var(--border-primary)]">
-          <div className="px-2 flex items-center justify-between text-[10px] font-mono uppercase tracking-widest text-[var(--text-subtle)] font-bold">
+        {/* PILLAR 3: CURRENT AFFAIRS 2026 ARCHIVE */}
+        <div className="space-y-1.5 pt-2 border-t border-[var(--border-primary)]/80">
+          <div className="px-2.5 py-1 flex items-center justify-between text-[10px] font-mono uppercase tracking-wider text-[var(--text-subtle)] font-bold">
             <span>Current Affairs</span>
             <span className="text-[9px] px-1 py-0.2 rounded bg-[var(--surface-elevated)] border border-[var(--border-primary)]">
-              2026 Cycle
+              2026 Archive
             </span>
           </div>
 
-          {/* Year Node (2026) */}
+          {/* Year Node */}
           <div className="space-y-1">
             <button
               onClick={() => setExpandedYear(!expandedYear)}
@@ -160,10 +207,10 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
             {/* Months List */}
             {expandedYear && (
               <div className="pl-2 space-y-1">
-                {MONTH_NAMES.map((m) => {
+                {ALL_2026_MONTHS.map((m) => {
                   const isMonthActive = expandedMonth === m.id;
                   const monthCount = registry.indexes.byYearMonth?.[m.id]?.length || registry.indexes.byMonth?.[m.id]?.length || 0;
-                  const isCurrentRoute = pathname === `/briefing/${m.id}` || (pathname === "/dashboard" && m.id === "2026-08");
+                  const isCurrentRoute = pathname === `/briefing/${m.id}`;
 
                   return (
                     <div key={m.id} className="space-y-1">
@@ -185,21 +232,23 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
                           className={`flex-1 flex items-center justify-between px-2 py-1.5 rounded-md text-xs font-mono transition-colors ${
                             isCurrentRoute
                               ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold"
-                              : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+                              : monthCount > 0
+                              ? "text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+                              : "text-[var(--text-subtle)] hover:text-[var(--text-muted)] hover:bg-[var(--surface-hover)]"
                           }`}
                         >
                           <span className="truncate">{m.name}</span>
                           <span className={`text-[10px] px-1.5 py-0.2 rounded font-mono ${
                             monthCount > 0
                               ? "bg-amber-100 dark:bg-amber-950/50 text-amber-900 dark:text-amber-300 font-bold border border-amber-300 dark:border-amber-800/40"
-                              : "bg-[var(--surface-elevated)] text-[var(--text-subtle)]"
+                              : "bg-[var(--surface-elevated)] text-[var(--text-subtle)] opacity-70"
                           }`}>
-                            {monthCount > 0 ? monthCount : "—"}
+                            {monthCount > 0 ? monthCount : "Queued"}
                           </span>
                         </Link>
                       </div>
 
-                      {/* Month Categories Tree */}
+                      {/* Month Categories Subtree */}
                       {isMonthActive && monthCount > 0 && (
                         <div className="pl-6 pr-1 py-1 space-y-0.5 border-l border-amber-800/20 dark:border-amber-600/20 ml-2">
                           <Link
@@ -207,7 +256,7 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
                             className="flex items-center justify-between px-2 py-1 rounded text-[11px] font-mono text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
                           >
                             <span>All Month Topics</span>
-                            <span className="text-[10px] text-[var(--text-subtle)]">{monthCount}</span>
+                            <span className="text-[10px] text-[var(--text-subtle)] font-bold">{monthCount}</span>
                           </Link>
 
                           {activeCategories.map((catKey) => {
@@ -233,6 +282,39 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
               </div>
             )}
           </div>
+        </div>
+
+        {/* PILLAR 4: REVISION */}
+        <div className="space-y-1 pt-2 border-t border-[var(--border-primary)]/80">
+          <div className="px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider text-[var(--text-subtle)] font-bold">
+            Revision
+          </div>
+          {revisionItems.map((item) => {
+            const Icon = item.icon;
+            const isActive = pathname === item.href && !pathname.startsWith("/chronology");
+
+            return (
+              <Link
+                key={item.label}
+                href={item.href}
+                className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
+                  isActive
+                    ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border-l-3 border-amber-800 dark:border-amber-600"
+                    : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+                }`}
+              >
+                <div className="flex items-center gap-2.5">
+                  <Icon className={`w-3.5 h-3.5 ${isActive ? "text-amber-800 dark:text-amber-400" : "text-[var(--text-subtle)]"}`} />
+                  <span>{item.label}</span>
+                </div>
+                {item.badge && (
+                  <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 font-bold border border-amber-300 dark:border-amber-800/40">
+                    {item.badge}
+                  </span>
+                )}
+              </Link>
+            );
+          })}
         </div>
       </div>
 

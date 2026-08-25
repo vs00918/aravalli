@@ -1,6 +1,4 @@
 import React from "react";
-import { notFound } from "next/navigation";
-import Link from "next/link";
 import { getBankingCaRegistry, getTopicsByMonth } from "@/lib/banking-ca/data";
 import { BriefingStreamView } from "@/components/briefing/BriefingStreamView";
 
@@ -8,11 +6,15 @@ export const dynamic = "force-static";
 
 export function generateStaticParams() {
   const registry = getBankingCaRegistry();
-  const months = Object.keys(registry.indexes.byYearMonth || registry.indexes.byMonth || {});
+  const indexedMonths = Object.keys(registry.indexes.byYearMonth || registry.indexes.byMonth || {});
   
-  // Include standard months for 2026
+  // Include all 12 months for 2026 Master Archive
   const allMonths = Array.from(new Set([
-    ...months,
+    ...indexedMonths,
+    "2026-12",
+    "2026-11",
+    "2026-10",
+    "2026-09",
     "2026-08",
     "2026-07",
     "2026-06",
@@ -39,6 +41,10 @@ interface BriefingPageProps {
 }
 
 const MONTH_DISPLAY: Record<string, string> = {
+  "2026-12": "December 2026",
+  "2026-11": "November 2026",
+  "2026-10": "October 2026",
+  "2026-09": "September 2026",
   "2026-08": "August 2026",
   "2026-07": "July 2026",
   "2026-06": "June 2026",

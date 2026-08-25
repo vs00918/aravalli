@@ -13,7 +13,8 @@ import {
   Search, 
   Clock,
   ChevronDown,
-  ChevronRight
+  ChevronRight,
+  FileText
 } from "lucide-react";
 import { BankingCaMasterRegistry } from "@/lib/banking-ca/schema";
 
@@ -23,15 +24,19 @@ interface MobileNavProps {
   onClose: () => void;
 }
 
-const MONTH_NAMES = [
-  { id: "2026-08", name: "August 2026", count: 67 },
-  { id: "2026-07", name: "July 2026", count: 0 },
-  { id: "2026-06", name: "June 2026", count: 0 },
-  { id: "2026-05", name: "May 2026", count: 0 },
-  { id: "2026-04", name: "April 2026", count: 0 },
-  { id: "2026-03", name: "March 2026", count: 0 },
-  { id: "2026-02", name: "February 2026", count: 0 },
-  { id: "2026-01", name: "January 2026", count: 0 },
+const ALL_2026_MONTHS = [
+  { id: "2026-12", name: "December 2026" },
+  { id: "2026-11", name: "November 2026" },
+  { id: "2026-10", name: "October 2026" },
+  { id: "2026-09", name: "September 2026" },
+  { id: "2026-08", name: "August 2026" },
+  { id: "2026-07", name: "July 2026" },
+  { id: "2026-06", name: "June 2026" },
+  { id: "2026-05", name: "May 2026" },
+  { id: "2026-04", name: "April 2026" },
+  { id: "2026-03", name: "March 2026" },
+  { id: "2026-02", name: "February 2026" },
+  { id: "2026-01", name: "January 2026" },
 ];
 
 export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
@@ -47,7 +52,7 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
     { href: "/topics", label: "Canonical Topics", icon: BookOpen, badge: summary.totalCanonicalTopics.toString() },
     { href: "/revision", label: "Revision Hub", icon: RotateCw, badge: `${summary.activeP1RevisionMinutes}m` },
     { href: "/institutions", label: "Institutions", icon: Landmark },
-    { href: "/chronology", label: "Chronology", icon: Calendar },
+    { href: "/chronology", label: "Chronology Tree", icon: Calendar },
     { href: "/search", label: "Search Index", icon: Search },
   ];
 
@@ -71,7 +76,7 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
           </button>
         </div>
 
-        {/* Primary Links */}
+        {/* Primary Navigation */}
         <nav className="space-y-1">
           {topNavItems.map((item) => {
             const Icon = item.icon;
@@ -102,19 +107,19 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
           })}
         </nav>
 
-        {/* Current Affairs Monthly Stream */}
+        {/* Current Affairs 2026 Archive Tree */}
         <div className="pt-2 border-t border-[var(--border-primary)] space-y-1">
           <button
             onClick={() => setCaExpanded(!caExpanded)}
             className="w-full flex items-center justify-between px-2 py-1.5 text-[11px] font-mono uppercase tracking-wider text-[var(--text-subtle)] font-bold hover:text-[var(--text-primary)]"
           >
-            <span>Current Affairs 2026</span>
+            <span>2026 Master Archive</span>
             {caExpanded ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
           </button>
 
           {caExpanded && (
             <div className="pl-2 space-y-1">
-              {MONTH_NAMES.map((m) => {
+              {ALL_2026_MONTHS.map((m) => {
                 const count = registry.indexes.byYearMonth?.[m.id]?.length || registry.indexes.byMonth?.[m.id]?.length || 0;
                 const isCurrent = pathname === `/briefing/${m.id}`;
 
@@ -126,12 +131,14 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
                     className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-mono transition-colors ${
                       isCurrent
                         ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold"
-                        : "text-[var(--text-muted)] hover:bg-[var(--surface-hover)]"
+                        : count > 0
+                        ? "text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+                        : "text-[var(--text-subtle)] hover:bg-[var(--surface-hover)]"
                     }`}
                   >
                     <span>{m.name}</span>
                     <span className="text-[10px] px-1.5 py-0.2 rounded bg-[var(--surface-elevated)] text-[var(--text-subtle)]">
-                      {count > 0 ? count : "—"}
+                      {count > 0 ? count : "Queued"}
                     </span>
                   </Link>
                 );
@@ -140,7 +147,7 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
           )}
         </div>
 
-        {/* Revision Footer */}
+        {/* Revision Quick Start Button */}
         <div className="mt-auto pt-3 border-t border-[var(--border-primary)]">
           <Link
             href="/revision"
@@ -148,7 +155,7 @@ export function MobileNav({ registry, isOpen, onClose }: MobileNavProps) {
             className="w-full py-2.5 px-3 rounded-xl bg-amber-800 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-mono text-xs font-bold transition-colors flex items-center justify-center gap-2 shadow-xs"
           >
             <Clock className="w-3.5 h-3.5" />
-            <span>Start Today&apos;s Revision ({summary.activeP1RevisionMinutes}m)</span>
+            <span>Today&apos;s Revision ({summary.activeP1RevisionMinutes}m)</span>
           </Link>
         </div>
       </div>

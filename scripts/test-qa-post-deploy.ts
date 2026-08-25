@@ -4,7 +4,7 @@ import { normalizePresentationText, formatTopicCategory, formatTopicDate } from 
 
 function runPostDeployQaTests() {
   console.log('────────────────────────────────────────────────────────');
-  console.log('🧪 Running W7.2 Post-Deployment QA & Corrective Suite...');
+  console.log('🧪 Running W7.3 Information Architecture & QA Suite...');
   console.log('────────────────────────────────────────────────────────\n');
 
   let passed = 0;
@@ -84,7 +84,7 @@ function runPostDeployQaTests() {
     assert.ok(!intSchemes.includes('INTERNATIONAL_BODIES'), 'Must not include INTERNATIONAL_BODIES');
 
     const sebiMarkets = formatTopicCategory('SEBI', 'CAPITAL_MARKETS');
-    assert.strictEqual(sebiMarkets, 'SEBI · Capital Markets');
+    assert.strictEqual(sebiMarkets, 'SEBI · Capital Markets & SEBI');
   });
 
   // Test 4: Temporal Field Accuracy (Exact Dates vs Batch Windows)
@@ -123,6 +123,54 @@ function runPostDeployQaTests() {
     assert.strictEqual(run1.length, run2.length);
     for (let i = 0; i < run1.length; i++) {
       assert.strictEqual(run1[i].id, run2[i].id);
+    }
+  });
+
+  // Test 7: Full 12-Month Master Archive Structure (Jan-Dec 2026)
+  test('Full 12-Month Master Archive Structure (Jan–Dec 2026)', () => {
+    const months2026 = [
+      '2026-01', '2026-02', '2026-03', '2026-04',
+      '2026-05', '2026-06', '2026-07', '2026-08',
+      '2026-09', '2026-10', '2026-11', '2026-12'
+    ];
+
+    assert.strictEqual(months2026.length, 12, 'Must have 12 months structured for 2026');
+
+    // August 2026 must have 67 topics
+    const augTopics = registry.indexes.byYearMonth['2026-08'];
+    assert.strictEqual(augTopics.length, 67, 'August 2026 must index exact 67 topics');
+  });
+
+  // Test 8: Zero Duplicate Canonical Entities Invariant
+  test('Zero Duplicate Canonical Entities Invariant', () => {
+    const slugs = new Set<string>();
+    const ids = new Set<string>();
+
+    for (const topic of allTopics) {
+      assert.ok(!slugs.has(topic.slug), `Duplicate slug detected: ${topic.slug}`);
+      assert.ok(!ids.has(topic.id), `Duplicate ID detected: ${topic.id}`);
+      slugs.add(topic.slug);
+      ids.add(topic.id);
+    }
+
+    assert.strictEqual(slugs.size, 67, 'Must have exactly 67 unique canonical topics');
+  });
+
+  // Test 9: Complete Category Taxonomy Normalization
+  test('Complete Category Taxonomy Normalization', () => {
+    const categories = [
+      'BANKING_REGULATION', 'MONETARY_POLICY', 'CAPITAL_MARKETS',
+      'GOVERNMENT_SCHEMES', 'MACRO_ECONOMY', 'DIGITAL_PAYMENTS',
+      'APPOINTMENTS', 'INSURANCE_SECTOR', 'PENSION_SYSTEMS',
+      'REPORTS_AND_INDICES', 'DEFENCE_AND_SCIENCE', 'SPORTS_AND_AWARDS',
+      'NATIONAL_AND_STATES', 'INTERNATIONAL_AFFAIRS'
+    ];
+
+    for (const cat of categories) {
+      const label = formatTopicCategory('OTHER', cat);
+      assert.ok(label && label.length > 2, `Category ${cat} must produce clean label`);
+      assert.ok(!label.includes('OTHER'), `Category label '${label}' must not contain OTHER`);
+      assert.ok(!label.includes('_'), `Category label '${label}' must not contain underscores`);
     }
   });
 
