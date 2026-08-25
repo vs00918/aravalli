@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Seeding Mind of Aravalli with refined knowledge architecture & roadmaps...");
+  console.log("Seeding Mind of Aravalli with benchmark 6-layer concept explanations...");
 
   // Clean old records for pristine state
   await prisma.connection.deleteMany({});
@@ -27,6 +27,33 @@ async function main() {
     },
   });
 
+  // Reference Benchmark Concept: Entropy
+  await prisma.concept.create({
+    data: {
+      slug: "entropy",
+      title: "Entropy",
+      chapterId: ch1.id,
+      difficulty: "INTERMEDIATE",
+      order: 3,
+      oneLiner:
+        "Entropy measures how many microscopic arrangements can produce the larger-scale state we observe. For a closed system, overwhelmingly probable processes tend to move toward states with more compatible microscopic arrangements.",
+      intuition:
+        "Imagine a brand new deck of playing cards arranged in perfect suit and numerical order. There is only 1 exact ordering that is 'sorted', but roughly 8 × 10⁶⁷ possible ways to shuffle them randomly. If you throw the deck into the air, it will almost certainly land in a disordered state—not because of a mysterious destructive force, but simply because disordered microstates vastly outnumber sorted ones. The limit of this analogy is that playing cards do not thermally vibrate or interact with each other; physical atoms continuously collide billions of times per second.",
+      howItWorks:
+        "In a physical substance (like a gas in a container), every molecule possesses position and momentum. The macroscopic state is defined by bulk properties like temperature, pressure, and volume. When heat is added or a barrier is removed, particles collide and explore phase space through thermal motion. Because the macrostate corresponding to maximum mixing has astronomically more microscopic configurations than any unmixed state, random particle collisions drive the system relentlessly toward maximum entropy (thermodynamic equilibrium).",
+      firstPrinciples:
+        "The Second Law of Thermodynamics states that the total entropy of an isolated system never decreases over time (ΔS ≥ 0). This is not an arbitrary mechanical force, but a statistical inevitability arising from the Fundamental Assumption of Statistical Mechanics: all accessible microstates are equally likely. When a system has an astronomical number of particles (~10²³), spontaneous fluctuations away from equilibrium become so statistically improbable that they are physically impossible on human timescales.",
+      mathematicalModel:
+        "S = k_B \\ln \\Omega \\quad \\text{and} \\quad dS = \\frac{dQ_{\\text{rev}}}{T}",
+      commonMisconceptions:
+        "Entropy is often carelessly defined as purely 'disorder' or 'decay'. This can be misleading. Entropy is strictly a measure of microstate multiplicity and probability. High-entropy states can sometimes generate structured patterns (such as crystal formation when heat is released into the surroundings, or self-organizing convection cells under continuous energy throughput).",
+      whyItMatters:
+        "Understanding entropy makes heat engines, refrigeration, statistical mechanics, information theory, and the directionality of physical time understandable.",
+      example:
+        "A drop of blue ink spreading in a glass of clear water. The ink molecules disperse until uniformly distributed. They will never spontaneously re-cluster into a single drop because uniformly dispersed configurations vastly outnumber clustered ones.",
+    },
+  });
+
   await prisma.concept.create({
     data: {
       slug: "matter-and-energy",
@@ -34,14 +61,21 @@ async function main() {
       chapterId: ch1.id,
       difficulty: "FOUNDATION",
       order: 1,
-      oneLiner: "Matter is anything that has mass and takes up space; energy is the quantitative property that allows matter to move, heat up, or change state.",
-      intuition: "Think of matter as the physical building blocks (like bricks) and energy as the capacity to move, lift, or rearrange those bricks. Einstein discovered that matter and energy are fundamentally two forms of the same thing (E = mc²).",
-      howItWorks: "Matter is composed of elementary fermions (quarks and leptons), while energy manifests in various forms (kinetic, potential, thermal, electromagnetic). The Law of Conservation of Energy states that within an isolated system, total energy can neither be created nor destroyed—only converted between different forms.",
-      firstPrinciples: "Conservation laws and mass-energy equivalence: In all physical interactions, total mass-energy and momentum remain strictly constant.",
+      oneLiner:
+        "Matter is anything that has mass and occupies space; energy is the quantifiable property that allows matter to move, heat up, or change state.",
+      intuition:
+        "Think of matter as physical building blocks (like bricks) and energy as the capacity to move, lift, or rearrange those bricks. Einstein's special relativity revealed that matter and energy are two forms of the same underlying physical property (E = mc²).",
+      howItWorks:
+        "Matter is composed of elementary fermions (quarks and leptons), while energy manifests in various forms including kinetic (motion), potential (position in a field), thermal, and electromagnetic radiation. In all closed interactions, energy can change forms but total energy remains strictly constant.",
+      firstPrinciples:
+        "Conservation Laws and Emmy Noether's Theorem: The Law of Conservation of Energy is the mathematical consequence of time translation symmetry—the laws of physics do not change from one moment to the next.",
       mathematicalModel: "E = mc^2 \\quad \\text{and} \\quad \\Delta E_{\\text{system}} = Q - W",
-      commonMisconceptions: "Believing that energy is a physical fluid or tangible substance. Energy is a mathematical property and accounting tool that describes a system's state and capacity to do work.",
-      whyItMatters: "Understanding that energy is conserved and transferable is the primary prerequisite for all of chemistry, engineering, biology, and astrophysics.",
-      example: "A roller coaster at the top of a hill converts stored gravitational potential energy into kinetic energy (motion) as it plunges downward.",
+      commonMisconceptions:
+        "Believing that energy is a physical fluid or material substance. Energy is a mathematical accounting property that describes a system's state and capacity to perform work.",
+      whyItMatters:
+        "Understanding energy conservation is the primary foundation for all of chemistry, mechanical engineering, biology, and astrophysics.",
+      example:
+        "A pendulum at the peak of its swing stops momentarily (all potential energy) and converts that energy into maximum speed at the bottom of its arc (all kinetic energy).",
     },
   });
 
@@ -52,32 +86,21 @@ async function main() {
       chapterId: ch1.id,
       difficulty: "CORE",
       order: 2,
-      oneLiner: "The fundamental microscopic units of chemical elements, consisting of a dense central nucleus surrounded by a cloud of electrons.",
-      intuition: "If an atom were enlarged to the size of a cathedral, the nucleus would be a tiny marble at the center, and the electrons would be faint ripples at the outer boundary. Over 99.999% of an atom is non-classical vacuum.",
-      howItWorks: "An atom consists of a nucleus containing positively charged protons and neutral neutrons (bound by the strong nuclear force), surrounded by negatively charged electrons bound by electromagnetism. Electrons exist as three-dimensional quantum probability clouds governed by the Schrödinger equation.",
-      firstPrinciples: "Quantum wave-particle duality and the Pauli Exclusion Principle: Identical fermions cannot occupy the same quantum state, giving solid matter its apparent rigidity and chemical stability.",
+      oneLiner:
+        "The fundamental microscopic building blocks of chemical elements, composed of a dense central nucleus surrounded by a cloud of electrons.",
+      intuition:
+        "If an atom were enlarged to the size of a sports stadium, the nucleus would be a tiny marble at the center, and the electrons would be faint ripples in the outer stands. Over 99.999% of an atom's volume is non-classical vacuum filled with quantum fields.",
+      howItWorks:
+        "An atom consists of a nucleus containing positively charged protons and neutral neutrons (held together by the strong nuclear force), surrounded by negatively charged electrons bound by electromagnetism. Electrons exist as three-dimensional quantum probability wavefunctions governed by the Schrödinger equation.",
+      firstPrinciples:
+        "Quantum Wave-Particle Duality and the Pauli Exclusion Principle: Identical fermions cannot occupy the same quantum state, preventing electrons from collapsing into the nucleus and giving solid matter its volume and chemical diversity.",
       mathematicalModel: "i\\hbar \\frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi",
-      commonMisconceptions: "Visualizing electrons as tiny planets orbiting a sun-like nucleus. In reality, electrons behave as continuous probability wavefunctions until measured.",
-      whyItMatters: "The structure of atomic electron shells determines all chemical bonding, electricity, materials science, and biological molecular shapes.",
-      example: "Two hydrogen atoms sharing their single electrons with one oxygen atom to form a stable covalent water molecule (H₂O).",
-    },
-  });
-
-  await prisma.concept.create({
-    data: {
-      slug: "entropy",
-      title: "Entropy",
-      chapterId: ch1.id,
-      difficulty: "INTERMEDIATE",
-      order: 3,
-      oneLiner: "A quantitative measure of how many microscopic arrangements are compatible with the macroscopic state we observe.",
-      intuition: "There is only one specific arrangement where a jigsaw puzzle is fully assembled (low entropy), but millions of ways for the pieces to be scattered randomly across a table (high entropy). Without deliberate work, systems naturally evolve toward states with more possibilities.",
-      howItWorks: "Formulated by Ludwig Boltzmann: S = k_B ln Ω. Because states with higher numbers of microscopic configurations (Ω) vastly outnumber states with few configurations, random collisions guarantee that closed systems drift irreversibly toward thermodynamic equilibrium.",
-      firstPrinciples: "The Second Law of Thermodynamics: The total entropy of an isolated system never decreases over time (ΔS ≥ 0). This is a statistical inevitability of counting microstates.",
-      mathematicalModel: "S = k_B \\ln \\Omega \\quad \\text{and} \\quad dS = \\frac{dQ_{\\text{rev}}}{T}",
-      commonMisconceptions: "Equating entropy purely with 'disorder' or decay. Entropy is strictly about statistical multiplicity of microstates.",
-      whyItMatters: "Explains the thermodynamic Arrow of Time—why we remember the past but not the future, why heat flows spontaneously from hot to cold, and why all machines have maximum theoretical efficiency limits.",
-      example: "A drop of blue ink spreading evenly throughout a glass of clear water.",
+      commonMisconceptions:
+        "Visualizing electrons as miniature planets orbiting the nucleus like a solar system. In reality, electrons are continuous probability density distributions until measured.",
+      whyItMatters:
+        "The geometric structure of atomic electron shells determines all chemical bonding, electricity, materials science, and biological molecular shapes.",
+      example:
+        "Two hydrogen atoms sharing electrons with one oxygen atom to form a stable covalent water molecule (H₂O).",
     },
   });
 
@@ -88,14 +111,21 @@ async function main() {
       chapterId: ch1.id,
       difficulty: "FRONTIER",
       order: 4,
-      oneLiner: "The fundamental physical rule that total quantum probability must always equal 1, meaning microscopic information is never erased from the universe.",
-      intuition: "If you burn a notebook, the words seem destroyed. But in quantum physics, if you could track every escaping photon of heat and smoke molecule, the microscopic laws could theoretically be run backward to reconstruct the notebook. Information is fundamentally preserved.",
-      howItWorks: "Quantum time evolution is governed by unitary operators (U†U = I). This mathematical property guarantees that pure quantum states remain pure, ensuring that the past and future can always be uniquely mapped.",
-      firstPrinciples: "Microscopic reversibility and quantum probability conservation.",
+      oneLiner:
+        "The fundamental physical principle that total quantum probability must always equal 1, meaning microscopic physical information is never destroyed in the universe.",
+      intuition:
+        "If you burn a book, the words seem permanently lost. But in quantum mechanics, if you could track every escaping photon of infrared heat and smoke particle, the equations could theoretically be run backward to reconstruct the exact text. Information is fundamentally conserved.",
+      howItWorks:
+        "Quantum time evolution is governed by unitary operators (U†U = I). This ensures that pure quantum states remain pure over time, guaranteeing that past and future states map to each other with 100% mathematical determinism.",
+      firstPrinciples:
+        "Microscopic Reversibility and Probability Conservation: The fundamental laws of quantum physics preserve distinguishability between states.",
       mathematicalModel: "U^\\dagger U = \\hat{I} \\quad \\text{and} \\quad \\sum_{i} P_i = 1",
-      commonMisconceptions: "Confusing human scrambling of information with actual physical destruction.",
-      whyItMatters: "Unitarity is a central pillar of modern physics. The apparent loss of information during black hole evaporation triggered the famous 'Black Hole Information Paradox'.",
-      example: "Hawking radiation becoming quantum-entangled with the black hole horizon to preserve information as the black hole evaporates over the Page curve.",
+      commonMisconceptions:
+        "Confusing human inability to unscramble complex data with actual physical destruction of information.",
+      whyItMatters:
+        "Unitarity is a cornerstone of quantum mechanics. When Stephen Hawking showed that black holes emit thermal radiation that appeared to erase information, it sparked the 'Black Hole Information Paradox'.",
+      example:
+        "Hawking radiation becoming quantum-entangled with the black hole horizon, preserving information over the Page curve as the black hole evaporates.",
     },
   });
 
@@ -121,14 +151,22 @@ async function main() {
       chapterId: ch2.id,
       difficulty: "FOUNDATION",
       order: 1,
-      oneLiner: "The quantifiable capacity of a physical system to perform work or produce heat.",
-      intuition: "Energy is like universal currency in physics: it can be exchanged in many different currencies (chemical, kinetic, gravitational, electrical), but the total bank account balance in an isolated system never changes.",
-      howItWorks: "Work is done when a force moves an object across a distance (W = F · d). Energy exists as kinetic (motion) or potential (stored configurations such as gravitational, chemical, or electrostatic fields).",
-      firstPrinciples: "First Law of Thermodynamics: Energy cannot be created or destroyed, only transformed.",
-      mathematicalModel: "W = \\int \\mathbf{F} \\cdot d\\mathbf{r} \\quad \\text{and} \\quad \\Delta U = Q - W",
-      commonMisconceptions: "Assuming that consuming energy causes it to disappear. Energy is never lost; it simply degrades into low-temperature ambient thermal heat that is harder to do work with.",
-      whyItMatters: "Governs the mechanical and thermodynamic limits of all transportation, heating, computation, and industrial production.",
-      example: "Compressing a mechanical spring stores elastic potential energy that can later launch a ball into the air.",
+      oneLiner:
+        "The quantifiable capacity of a physical system to perform work or produce heat.",
+      intuition:
+        "Energy is like universal currency in physics: it can be exchanged in many different currencies (chemical, kinetic, gravitational, electrical), but the total bank account balance in an isolated system never changes.",
+      howItWorks:
+        "Work is done when a force moves an object across a distance (W = F · d). Energy exists as kinetic (motion) or potential (stored configurations such as gravitational, chemical, or electrostatic fields).",
+      firstPrinciples:
+        "First Law of Thermodynamics: Energy cannot be created or destroyed, only transformed.",
+      mathematicalModel:
+        "W = \\int \\mathbf{F} \\cdot d\\mathbf{r} \\quad \\text{and} \\quad \\Delta U = Q - W",
+      commonMisconceptions:
+        "Assuming that consuming energy causes it to disappear. Energy is never lost; it simply degrades into low-temperature ambient thermal heat that is harder to do work with.",
+      whyItMatters:
+        "Governs the mechanical and thermodynamic limits of all transportation, heating, computation, and industrial production.",
+      example:
+        "Compressing a mechanical spring stores elastic potential energy that can later launch a ball into the air.",
     },
   });
 
@@ -139,14 +177,21 @@ async function main() {
       chapterId: ch2.id,
       difficulty: "CORE",
       order: 2,
-      oneLiner: "The movement and electrostatic potential of electric charges (electrons and ions) through conductive materials.",
-      intuition: "Water flowing through a pipe: Voltage is the water pressure pushing the water, Current is the volume of water flowing per second, and Resistance is the narrowing of the pipe opposing the flow.",
-      howItWorks: "Electrons drift through a metal lattice when an external electric field creates a voltage differential. Ohm's Law (V = IR) and Joule heating (P = I²R) govern the transmission and loss of electrical power.",
-      firstPrinciples: "Electromagnetic interaction and charge conservation: Net electrical charge is conserved across all circuits.",
+      oneLiner:
+        "The movement and electrostatic potential of electric charges (electrons and ions) through conductive materials.",
+      intuition:
+        "Water flowing through a pipe: Voltage is the water pressure pushing the water, Current is the volume of water flowing per second, and Resistance is the narrowing of the pipe opposing the flow.",
+      howItWorks:
+        "Electrons drift through a metal lattice when an external electric field creates a voltage differential. Ohm's Law (V = IR) and Joule heating (P = I²R) govern the transmission and loss of electrical power.",
+      firstPrinciples:
+        "Electromagnetic interaction and charge conservation: Net electrical charge is conserved across all circuits.",
       mathematicalModel: "V = IR \\quad \\text{and} \\quad P = VI = I^2 R",
-      commonMisconceptions: "Believing individual electrons travel near light speed through a wire. Individual electron drift velocity is slow (~mm/s), but the electromagnetic field propagates at nearly light speed.",
-      whyItMatters: "Electricity is the primary vector for transporting clean energy instantaneously across continental power grids.",
-      example: "A high-voltage transmission line transporting megawatts of solar power from a desert array to a city hundreds of kilometers away.",
+      commonMisconceptions:
+        "Believing individual electrons travel near light speed through a wire. Individual electron drift velocity is slow (~mm/s), but the electromagnetic field propagates at nearly light speed.",
+      whyItMatters:
+        "Electricity is the primary vector for transporting clean energy instantaneously across continental power grids.",
+      example:
+        "A high-voltage transmission line transporting megawatts of solar power from a desert array to a city hundreds of kilometers away.",
     },
   });
 
@@ -157,14 +202,22 @@ async function main() {
       chapterId: ch2.id,
       difficulty: "INTERMEDIATE",
       order: 3,
-      oneLiner: "The quantity of usable energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).",
-      intuition: "Gravimetric energy density dictates what can fly (airplanes require light fuels), while volumetric density dictates what can fit inside your pocket (smartphones need compact batteries).",
-      howItWorks: "Determined by molecular bond energy and the atomic mass of reactants. Hydrocarbon fuels (~12,000 Wh/kg) store energy via dense covalent C-H bonds, whereas lithium-ion batteries (~250 Wh/kg) store energy via intercalation of ions into a heavier host crystal matrix.",
-      firstPrinciples: "Electrochemical potential and mass efficiency of active chemical bonds.",
-      mathematicalModel: "\\text{Specific Energy} = \\frac{n F E_{\\text{cell}}}{M_{\\text{molar}}}",
-      commonMisconceptions: "Expecting batteries to match jet fuel density soon. Combustion engines take oxygen freely from ambient air, while batteries must self-contain all active chemical reactants.",
-      whyItMatters: "Energy density is the primary engineering bottleneck determining what can be electrified (cars vs long-haul commercial passenger flights).",
-      example: "A Tesla battery pack weighing ~480 kg stores 75 kWh, whereas ~6 kg of gasoline contains the equivalent chemical energy.",
+      oneLiner:
+        "The quantity of usable energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).",
+      intuition:
+        "Gravimetric energy density dictates what can fly (airplanes require light fuels), while volumetric density dictates what can fit inside your pocket (smartphones need compact batteries).",
+      howItWorks:
+        "Determined by molecular bond energy and the atomic mass of reactants. Hydrocarbon fuels (~12,000 Wh/kg) store energy via dense covalent C-H bonds, whereas lithium-ion batteries (~250 Wh/kg) store energy via intercalation of ions into a heavier host crystal matrix.",
+      firstPrinciples:
+        "Electrochemical potential and mass efficiency of active chemical bonds.",
+      mathematicalModel:
+        "\\text{Specific Energy} = \\frac{n F E_{\\text{cell}}}{M_{\\text{molar}}}",
+      commonMisconceptions:
+        "Expecting batteries to match jet fuel density soon. Combustion engines take oxygen freely from ambient air, while batteries must self-contain all active chemical reactants.",
+      whyItMatters:
+        "Energy density is the primary engineering bottleneck determining what can be electrified (cars vs long-haul commercial passenger flights).",
+      example:
+        "A Tesla battery pack weighing ~480 kg stores 75 kWh, whereas ~6 kg of gasoline contains the equivalent chemical energy.",
     },
   });
 
@@ -190,14 +243,21 @@ async function main() {
       chapterId: ch3.id,
       difficulty: "FOUNDATION",
       order: 1,
-      oneLiner: "The fundamental membrane-bound structural and functional unit of all known living organisms.",
-      intuition: "A biological cell is like a self-maintaining chemical factory surrounded by a security wall (the lipid membrane). It intakes raw materials, burns fuel, manufactures parts, and exports waste.",
-      howItWorks: "All cells possess a lipid bilayer membrane separating internal biochemistry from the environment, metabolic machinery for energy conversion (such as ATP generation), and genetic material encoding operational instructions.",
-      firstPrinciples: "Cell Theory: All living organisms are composed of one or more cells, and all cells arise from pre-existing cells.",
+      oneLiner:
+        "The fundamental membrane-bound structural and functional unit of all known living organisms.",
+      intuition:
+        "A biological cell is like a self-maintaining chemical factory surrounded by a security wall (the lipid membrane). It intakes raw materials, burns fuel, manufactures parts, and exports waste.",
+      howItWorks:
+        "All cells possess a lipid bilayer membrane separating internal biochemistry from the environment, metabolic machinery for energy conversion (such as ATP generation), and genetic material encoding operational instructions.",
+      firstPrinciples:
+        "Cell Theory: All living organisms are composed of one or more cells, and all cells arise from pre-existing cells.",
       mathematicalModel: "\\Delta G = \\Delta H - T\\Delta S",
-      commonMisconceptions: "Viewing cells as static sacs of liquid. In reality, the cytoplasm is a crowded, highly organized molecular metropolis packed with motor proteins moving on microtubule highways.",
-      whyItMatters: "Understanding cellular mechanics is the foundation of all medicine, pharmacology, immunology, and bioengineering.",
-      example: "A human red blood cell transporting oxygen via hemoglobin molecules while maintaining osmotic equilibrium in the bloodstream.",
+      commonMisconceptions:
+        "Viewing cells as static sacs of liquid. In reality, the cytoplasm is a crowded, highly organized molecular metropolis packed with motor proteins moving on microtubule highways.",
+      whyItMatters:
+        "Understanding cellular mechanics is the foundation of all medicine, pharmacology, immunology, and bioengineering.",
+      example:
+        "A human red blood cell transporting oxygen via hemoglobin molecules while maintaining osmotic equilibrium in the bloodstream.",
     },
   });
 
@@ -208,14 +268,22 @@ async function main() {
       chapterId: ch3.id,
       difficulty: "CORE",
       order: 2,
-      oneLiner: "The molecular software of life: a double-helix polymer encoding hereditary instructions for synthesizing proteins.",
-      intuition: "DNA is like a digital recipe book written in a four-letter alphabet (A, T, C, G). Cellular machinery reads these letters in groups of three to assemble precise chains of amino acids into working molecular tools (proteins).",
-      howItWorks: "The Central Dogma of Molecular Biology: DNA is transcribed into messenger RNA (mRNA), which is then translated by ribosomes into functional proteins. Complementary base pairing (A-T, C-G) ensures faithful replication during cell division.",
-      firstPrinciples: "Information storage in stable chemical polymers and template-directed enzymatic replication.",
-      mathematicalModel: "4^3 = 64 \\text{ codon combinations encoding 20 standard amino acids}",
-      commonMisconceptions: "Assuming 'one gene equals one single physical trait'. Most complex traits are polygenic and heavily influenced by environmental regulation and epigenetics.",
-      whyItMatters: "Cracking the genetic code allows modern science to read genomes, diagnose hereditary diseases, and edit genes with tools like CRISPR.",
-      example: "The sequence of nucleotide bases in the human insulin gene instructing pancreatic cells on how to fold the insulin hormone.",
+      oneLiner:
+        "The molecular software of life: a double-helix polymer encoding hereditary instructions for synthesizing proteins.",
+      intuition:
+        "DNA is like a digital recipe book written in a four-letter alphabet (A, T, C, G). Cellular machinery reads these letters in groups of three to assemble precise chains of amino acids into working molecular tools (proteins).",
+      howItWorks:
+        "The Central Dogma of Molecular Biology: DNA is transcribed into messenger RNA (mRNA), which is then translated by ribosomes into functional proteins. Complementary base pairing (A-T, C-G) ensures faithful replication during cell division.",
+      firstPrinciples:
+        "Information storage in stable chemical polymers and template-directed enzymatic replication.",
+      mathematicalModel:
+        "4^3 = 64 \\text{ codon combinations encoding 20 standard amino acids}",
+      commonMisconceptions:
+        "Assuming 'one gene equals one single physical trait'. Most complex traits are polygenic and heavily influenced by environmental regulation and epigenetics.",
+      whyItMatters:
+        "Cracking the genetic code allows modern science to read genomes, diagnose hereditary diseases, and edit genes with tools like CRISPR.",
+      example:
+        "The sequence of nucleotide bases in the human insulin gene instructing pancreatic cells on how to fold the insulin hormone.",
     },
   });
 
@@ -226,14 +294,22 @@ async function main() {
       chapterId: ch3.id,
       difficulty: "ADVANCED",
       order: 3,
-      oneLiner: "How living organisms function as open thermodynamic systems, continuously taking in energy and matter from their environment to maintain internal organization and avoid physical decay.",
-      intuition: "A living organism is like a refrigerator: it keeps its internal contents cool and orderly by continually consuming electricity and exhausting heat out the back into the kitchen. If unplugged, thermal equilibrium takes over and the interior warms up to match the room.",
-      howItWorks: "Living organisms are open physical systems far from thermodynamic equilibrium. Through metabolism and active transport, cells continuously convert high-grade chemical energy (glucose, sunlight) into work and dissipate low-grade thermal waste (heat) into their surroundings, ensuring total entropy in the universe increases while preserving local biological order.",
-      firstPrinciples: "Open-system non-equilibrium thermodynamics: Living systems obey the Second Law by exporting entropy to their environment faster than they generate it internally.",
-      mathematicalModel: "\\frac{dS}{dt} = \\frac{dS_{\\text{internal}}}{dt} + \\frac{dS_{\\text{external}}}{dt}, \\quad \\text{where } \\frac{dS_{\\text{external}}}{dt} > |\\frac{dS_{\\text{internal}}}{dt}|",
-      commonMisconceptions: "Assuming life violates the Second Law of Thermodynamics. Life obeys physics completely; it requires a continuous throughput of environmental energy to preserve internal structure.",
-      whyItMatters: "Provides the foundational physical perspective on what life is—an organized, self-regulating dissipation structure processing energy and information.",
-      example: "A photosynthetic plant capturing low-entropy visible photons from sunlight and radiating diffuse high-entropy infrared heat while synthesizing complex glucose molecules.",
+      oneLiner:
+        "How living organisms function as open thermodynamic systems, continuously taking in energy and matter from their environment to maintain internal organization and avoid physical decay.",
+      intuition:
+        "A living organism is like a refrigerator: it keeps its internal contents cool and orderly by continually consuming electricity and exhausting heat out the back into the kitchen. If unplugged, thermal equilibrium takes over and the interior warms up to match the room.",
+      howItWorks:
+        "Living organisms are open physical systems far from thermodynamic equilibrium. Through metabolism and active transport, cells continuously convert high-grade chemical energy (glucose, sunlight) into work and dissipate low-grade thermal waste (heat) into their surroundings, ensuring total entropy in the universe increases while preserving local biological order.",
+      firstPrinciples:
+        "Open-system non-equilibrium thermodynamics: Living systems obey the Second Law by exporting entropy to their environment faster than they generate it internally.",
+      mathematicalModel:
+        "\\frac{dS}{dt} = \\frac{dS_{\\text{internal}}}{dt} + \\frac{dS_{\\text{external}}}{dt}, \\quad \\text{where } \\frac{dS_{\\text{external}}}{dt} > |\\frac{dS_{\\text{internal}}}{dt}|",
+      commonMisconceptions:
+        "Assuming life violates the Second Law of Thermodynamics. Life obeys physics completely; it requires a continuous throughput of environmental energy to preserve internal structure.",
+      whyItMatters:
+        "Provides the foundational physical perspective on what life is—an organized, self-regulating dissipation structure processing energy and information.",
+      example:
+        "A photosynthetic plant capturing low-entropy visible photons from sunlight and radiating diffuse high-entropy infrared heat while synthesizing complex glucose molecules.",
     },
   });
 
@@ -259,14 +335,21 @@ async function main() {
       chapterId: ch4.id,
       difficulty: "FOUNDATION",
       order: 1,
-      oneLiner: "A circular causal chain where a system's output is routed back as an input, either dampening changes (negative feedback) or amplifying them (positive feedback).",
-      intuition: "A home thermostat: When the room gets too cold, the heater turns on; when it warms up, the heater turns off (negative feedback / stabilization). A microphone near a speaker: Sound gets amplified in an escalating screech (positive feedback / runaway amplification).",
-      howItWorks: "Negative feedback acts as a restoring force opposing deviation from a setpoint. Positive feedback compounds deviations, often driving exponential growth until hitting an environmental ceiling or triggering a phase change.",
-      firstPrinciples: "System dynamics and circular causality: Outputs modify future inputs.",
+      oneLiner:
+        "A circular causal chain where a system's output is routed back as an input, either dampening changes (negative feedback) or amplifying them (positive feedback).",
+      intuition:
+        "A home thermostat: When the room gets too cold, the heater turns on; when it warms up, the heater turns off (negative feedback / stabilization). A microphone near a speaker: Sound gets amplified in an escalating screech (positive feedback / runaway amplification).",
+      howItWorks:
+        "Negative feedback acts as a restoring force opposing deviation from a setpoint. Positive feedback compounds deviations, often driving exponential growth until hitting an environmental ceiling or triggering a phase change.",
+      firstPrinciples:
+        "System dynamics and circular causality: Outputs modify future inputs.",
       mathematicalModel: "G_{\\text{closed}} = \\frac{A}{1 + A\\beta}",
-      commonMisconceptions: "Assuming 'positive' feedback means good and 'negative' means bad. Negative feedback is essential for stability, while uncontrolled positive feedback often causes catastrophic crashes or crashes.",
-      whyItMatters: "Feedback loops govern everything from blood sugar regulation in the human body to climate cycles and financial market panics.",
-      example: "Insulin and glucagon hormones continuously adjusting blood sugar levels to stay within a safe physiological range.",
+      commonMisconceptions:
+        "Assuming 'positive' feedback means good and 'negative' means bad. Negative feedback is essential for stability, while uncontrolled positive feedback often causes catastrophic crashes or runaway inflation.",
+      whyItMatters:
+        "Feedback loops govern everything from blood sugar regulation in the human body to climate cycles and financial market panics.",
+      example:
+        "Insulin and glucagon hormones continuously adjusting blood sugar levels to stay within a safe physiological range.",
     },
   });
 
@@ -277,14 +360,21 @@ async function main() {
       chapterId: ch4.id,
       difficulty: "INTERMEDIATE",
       order: 2,
-      oneLiner: "The appearance of novel macroscopic behaviors and properties in a system that cannot be predicted by analyzing individual parts in isolation.",
-      intuition: "A single water molecule is not wet. Wetness is an emergent property that only exists when billions of water molecules interact together at room temperature.",
-      howItWorks: "As Philip Anderson stated in 'More is Different' (1972), at each new tier of complexity, entirely new natural laws appear. Simple local rules combined with non-linear interactions give rise to spontaneous macroscopic order.",
-      firstPrinciples: "Non-linearity and scale-dependent symmetry breaking: Higher-level phenomena decouple from lower-level details.",
+      oneLiner:
+        "The appearance of novel macroscopic behaviors and properties in a system that cannot be predicted by analyzing individual parts in isolation.",
+      intuition:
+        "A single water molecule is not wet. Wetness is an emergent property that only exists when billions of water molecules interact together at room temperature.",
+      howItWorks:
+        "As Philip Anderson stated in 'More is Different' (1972), at each new tier of complexity, entirely new natural laws appear. Simple local rules combined with non-linear interactions give rise to spontaneous macroscopic order.",
+      firstPrinciples:
+        "Non-linearity and scale-dependent symmetry breaking: Higher-level phenomena decouple from lower-level details.",
       mathematicalModel: "\\Psi_{\\text{macro}} \\neq \\sum_{i=1}^N \\psi_i",
-      commonMisconceptions: "Believing that full knowledge of micro-rules allows instant prediction of macro-outcomes. In complex systems, computational simulation is often the only way to observe what emerges.",
-      whyItMatters: "Explains how unthinking ants build climate-controlled nests, how human markets set prices, and how conscious thoughts emerge from biological neurons.",
-      example: "Conway's Game of Life: Four simple grid rules generating universal computation and self-replicating virtual gliders.",
+      commonMisconceptions:
+        "Believing that full knowledge of micro-rules allows instant prediction of macro-outcomes. In complex systems, computational simulation is often the only way to observe what emerges.",
+      whyItMatters:
+        "Explains how unthinking ants build climate-controlled nests, how human markets set prices, and how conscious thoughts emerge from biological neurons.",
+      example:
+        "Conway's Game of Life: Four simple grid rules generating universal computation and self-replicating virtual gliders.",
     },
   });
 
@@ -310,14 +400,22 @@ async function main() {
       chapterId: ch5.id,
       difficulty: "FOUNDATION",
       order: 1,
-      oneLiner: "The costs, benefits, and psychological factors that motivate individuals to choose one course of action over another.",
-      intuition: "People generally do what they are rewarded for doing, and avoid what penalizes them. When policy rules change the rewards or costs, human behavior adapts, often in unintended ways.",
-      howItWorks: "Economic and social systems operate through explicit payoffs (financial, legal) and implicit payoffs (social status, moral norms). Game theory models how individuals optimize choices based on expectations of others' reactions.",
-      firstPrinciples: "Opportunity cost and rational self-interest subject to bounded information.",
-      mathematicalModel: "\\text{Utility } U = f(\\text{Payoffs}, \\text{Risks}, \\text{Preferences})",
-      commonMisconceptions: "Believing people act purely from economic selfishness. Incentives include social reputation, fairness norms, and emotional belonging.",
-      whyItMatters: "Every policy, legal system, company, and social institution succeeds or fails based on whether its rules align incentives with desired outcomes.",
-      example: "The Cobra Effect: A colonial government offering a bounty for dead snakes, causing citizens to breed snakes to collect more bounties.",
+      oneLiner:
+        "The costs, benefits, and psychological factors that motivate individuals to choose one course of action over another.",
+      intuition:
+        "People generally do what they are rewarded for doing, and avoid what penalizes them. When policy rules change the rewards or costs, human behavior adapts, often in unintended ways.",
+      howItWorks:
+        "Economic and social systems operate through explicit payoffs (financial, legal) and implicit payoffs (social status, moral norms). Game theory models how individuals optimize choices based on expectations of others' reactions.",
+      firstPrinciples:
+        "Opportunity cost and rational self-interest subject to bounded information.",
+      mathematicalModel:
+        "\\text{Utility } U = f(\\text{Payoffs}, \\text{Risks}, \\text{Preferences})",
+      commonMisconceptions:
+        "Believing people act purely from economic selfishness. Incentives include social reputation, fairness norms, and emotional belonging.",
+      whyItMatters:
+        "Every policy, legal system, company, and social institution succeeds or fails based on whether its rules align incentives with desired outcomes.",
+      example:
+        "The Cobra Effect: A colonial government offering a bounty for dead snakes, causing citizens to breed snakes to collect more bounties.",
     },
   });
 
@@ -328,14 +426,21 @@ async function main() {
       chapterId: ch5.id,
       difficulty: "CORE",
       order: 2,
-      oneLiner: "A social technology and shared ledger that functions as a medium of exchange, a unit of account, and a store of value.",
-      intuition: "Without money, a dentist who wants bread must find a baker who needs a tooth pulled (the 'coincidence of wants'). Money allows anyone to trade time and labor for a universally accepted token.",
-      howItWorks: "Money evolves from commodity forms (gold, salt) to paper notes and digital ledgers. Its value relies on collective institutional trust, legal tender laws, and sovereign tax obligations.",
-      firstPrinciples: "Reduction of transaction costs and resolution of the double coincidence of wants.",
+      oneLiner:
+        "A social technology and shared ledger that functions as a medium of exchange, a unit of account, and a store of value.",
+      intuition:
+        "Without money, a dentist who wants bread must find a baker who needs a tooth pulled (the 'coincidence of wants'). Money allows anyone to trade time and labor for a universally accepted token.",
+      howItWorks:
+        "Money evolves from commodity forms (gold, salt) to paper notes and digital ledgers. Its value relies on collective institutional trust, legal tender laws, and sovereign tax obligations.",
+      firstPrinciples:
+        "Reduction of transaction costs and resolution of the double coincidence of wants.",
       mathematicalModel: "M \\cdot V = P \\cdot Y",
-      commonMisconceptions: "Thinking money must be backed by a physical commodity like gold to have value. Most modern money is fiat, backed by institutional stability and state tax-demand.",
-      whyItMatters: "Understanding money is essential for understanding banking, inflation, interest rates, and global trade networks.",
-      example: "Using a debit card to instantly transfer electronic bank ledger credits to buy groceries across town.",
+      commonMisconceptions:
+        "Thinking money must be backed by a physical commodity like gold to have value. Most modern money is fiat, backed by institutional stability and state tax-demand.",
+      whyItMatters:
+        "Understanding money is essential for understanding banking, inflation, interest rates, and global trade networks.",
+      example:
+        "Using a debit card to instantly transfer electronic bank ledger credits to buy groceries across town.",
     },
   });
 
@@ -346,18 +451,25 @@ async function main() {
       chapterId: ch5.id,
       difficulty: "INTERMEDIATE",
       order: 3,
-      oneLiner: "The historical shift from high birth and death rates to low birth and death rates as countries develop economically.",
-      intuition: "Throughout history, families had many children because child mortality was high. As sanitation and medicine improve, death rates plunge while birth rates remain high, creating a population surge. Eventually, urbanization and education cause birth rates to drop, stabilizing the population.",
-      howItWorks: "Structured into four stages: Stage 1 (Pre-industrial high birth/death), Stage 2 (Mortality falls, population booms), Stage 3 (Fertility rates fall), and Stage 4 (Low birth/death equilibrium).",
-      firstPrinciples: "Logistic population dynamics influenced by female education, healthcare, and urbanization.",
+      oneLiner:
+        "The historical shift from high birth and death rates to low birth and death rates as countries develop economically.",
+      intuition:
+        "Throughout history, families had many children because child mortality was high. As sanitation and medicine improve, death rates plunge while birth rates remain high, creating a population surge. Eventually, urbanization and education cause birth rates to drop, stabilizing the population.",
+      howItWorks:
+        "Structured into four stages: Stage 1 (Pre-industrial high birth/death), Stage 2 (Mortality falls, population booms), Stage 3 (Fertility rates fall), and Stage 4 (Low birth/death equilibrium).",
+      firstPrinciples:
+        "Logistic population dynamics influenced by female education, healthcare, and urbanization.",
       mathematicalModel: "\\frac{dP}{dt} = r P \\left(1 - \\frac{P}{K}\\right)",
-      commonMisconceptions: "The Malthusian belief that human population grows exponentially forever. Global fertility rates have dropped by over 50% since the 1960s.",
-      whyItMatters: "Explains global demographic aging, labor force trends, and the projected peak humanity ceiling (~10.5 billion people).",
-      example: "South Korea transitioning from post-war population expansion to a fertility rate below 1.0, reshaping schools and retirement systems.",
+      commonMisconceptions:
+        "The Malthusian belief that human population grows exponentially forever. Global fertility rates have dropped by over 50% since the 1960s.",
+      whyItMatters:
+        "Explains global demographic aging, labor force trends, and the projected peak humanity ceiling (~10.5 billion people).",
+      example:
+        "South Korea transitioning from post-war population expansion to a fertility rate below 1.0, reshaping schools and retirement systems.",
     },
   });
 
-  console.log("Database seeded successfully with updated concept titles and roadmaps!");
+  console.log("Database seeded successfully with benchmark 6-layer concept explanations!");
 }
 
 main()

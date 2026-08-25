@@ -1,5 +1,6 @@
 import React from "react";
-import { Sparkles } from "lucide-react";
+import Link from "next/link";
+import { Sparkles, ArrowRight } from "lucide-react";
 import { Concept, DifficultyTier } from "@/lib/types";
 import { Badge } from "@/components/ui/Badge";
 
@@ -67,10 +68,11 @@ export function ChapterConceptList({ concepts }: ChapterConceptListProps) {
 
       <div className="space-y-4">
         {concepts.map((concept, idx) => (
-          <div
+          <Link
             id={`concept-${concept.slug}`}
             key={concept.id}
-            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-5 sm:p-6 space-y-3 transition-all hover:border-emerald-500/40 shadow-sm"
+            href={`/concepts/${concept.slug}`}
+            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-5 sm:p-6 space-y-3 transition-all hover:border-emerald-500/40 shadow-sm block"
           >
             <div className="flex items-start justify-between">
               <div className="flex items-center space-x-2.5">
@@ -84,7 +86,10 @@ export function ChapterConceptList({ concepts }: ChapterConceptListProps) {
               </div>
 
               {/* Difficulty Badge */}
-              <div>{getDifficultyBadge(concept.difficulty)}</div>
+              <div className="flex items-center gap-2">
+                {getDifficultyBadge(concept.difficulty)}
+                <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 transition-all text-emerald-600" />
+              </div>
             </div>
 
             {/* One-Liner Definition */}
@@ -101,7 +106,7 @@ export function ChapterConceptList({ concepts }: ChapterConceptListProps) {
                 {concept.whyItMatters}
               </div>
             )}
-          </div>
+          </Link>
         ))}
       </div>
     </div>

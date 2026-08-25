@@ -13,7 +13,13 @@ export async function getConceptBySlug(slug: string) {
   return prisma.concept.findUnique({
     where: { slug },
     include: {
-      chapter: true,
+      chapter: {
+        include: {
+          concepts: {
+            orderBy: { order: "asc" },
+          },
+        },
+      },
       sources: {
         include: {
           source: true,

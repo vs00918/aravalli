@@ -1,39 +1,44 @@
 import React from "react";
+import Link from "next/link";
 import { Sparkles, ArrowUpRight } from "lucide-react";
 
 export function RecentConcepts() {
   const concepts = [
     {
+      slug: "entropy",
       title: "Entropy",
       domain: "Universe & Physics",
       definition:
-        "A quantitative measure of how many microscopic configurations are compatible with the macroscopic state.",
+        "A quantitative measure of how many microscopic arrangements are compatible with the macroscopic state we observe.",
       whyItMatters:
-        "Dictates why heat flows from hot to cold, why memories point backward in time, and why perpetual motion machines are physically impossible.",
+        "Explains the thermodynamic Arrow of Time—why heat flows from hot to cold, and why all machines have theoretical efficiency ceilings.",
     },
     {
+      slug: "energy-density",
       title: "Energy Density",
       domain: "Energy & Technology",
       definition:
         "The quantity of accessible energy stored per unit volume (Wh/L) or per unit mass (Wh/kg).",
       whyItMatters:
-        "The master engineering bottleneck governing the feasibility of electric aviation, heavy haulage, and grid-scale power balancing.",
+        "The primary engineering bottleneck governing the feasibility of electric aviation, heavy haulage, and compact battery storage.",
     },
     {
+      slug: "how-life-maintains-order",
+      title: "How Life Maintains Order",
+      domain: "Biology & Life",
+      definition:
+        "How open living organisms continuously take in energy and matter from their surroundings to maintain internal organization.",
+      whyItMatters:
+        "Provides the foundational physical perspective on what life is—an organized, self-regulating dissipation structure processing energy.",
+    },
+    {
+      slug: "emergence",
       title: "Emergence",
       domain: "Complex Systems",
       definition:
-        "The phenomenon where macroscopic behaviors and patterns arise from the non-linear interaction of simple parts.",
+        "The appearance of novel macroscopic behaviors in a system that cannot be predicted by analyzing individual parts in isolation.",
       whyItMatters:
-        "Explains how unthinking ants build temperature-regulated metropolis hives, and how neurons generate conscious thoughts.",
-    },
-    {
-      title: "CRISPR Gene Drives",
-      domain: "Biology & Life",
-      definition:
-        "A genetic editing mechanism that bypasses Mendelian inheritance, ensuring an engineered trait is passed to >99% of offspring.",
-      whyItMatters:
-        "Provides the technological capability to permanently eliminate vector-borne pathogens (like malaria) from wild mosquito populations.",
+        "Explains how unthinking ants build climate-controlled nests, how human markets set prices, and how neurons generate consciousness.",
     },
   ];
 
@@ -54,10 +59,11 @@ export function RecentConcepts() {
 
       {/* Concepts Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {concepts.map((concept, idx) => (
-          <div
-            key={idx}
-            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-4 sm:p-5 flex flex-col justify-between space-y-3 transition-all hover:border-emerald-500/40 hover:shadow-sm"
+        {concepts.map((concept) => (
+          <Link
+            key={concept.slug}
+            href={`/concepts/${concept.slug}`}
+            className="group rounded-xl border border-slate-200/90 dark:border-slate-800 bg-white/70 dark:bg-[#0f1520] p-4 sm:p-5 flex flex-col justify-between space-y-3 transition-all hover:border-emerald-500/40 hover:shadow-sm block"
           >
             <div className="space-y-2">
               <div className="flex items-center justify-between">
@@ -82,7 +88,7 @@ export function RecentConcepts() {
                 {concept.whyItMatters}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
