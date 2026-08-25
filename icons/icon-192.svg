@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="36" fill="#06090c" />
+  <rect x="8" y="8" width="176" height="176" rx="28" fill="none" stroke="#059669" stroke-width="4" stroke-opacity="0.4" />
+  <!-- Mountain / Aravalli Knowledge Peaks -->
+  <path d="M36 140 L76 72 L104 116 L124 84 L156 140 Z" fill="#059669" fill-opacity="0.85" stroke="#10b981" stroke-width="3" stroke-linejoin="round" />
+  <!-- Central Knowledge Emblem / Book -->
+  <path d="M60 148 C78 140 96 140 96 140 C96 140 114 140 132 148 L132 120 C114 114 96 114 96 114 C96 114 78 114 60 120 Z" fill="#10b981" />
+  <!-- Apex Star -->
+  <circle cx="96" cy="46" r="6" fill="#34d399" />
+</svg>
