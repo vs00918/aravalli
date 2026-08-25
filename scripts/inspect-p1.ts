@@ -57,6 +57,17 @@ function main() {
   aprP1s.forEach((t, i) => {
     console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
   });
+
+  const mayTopicIds = registry.indexes.byYearMonth['2026-05'] || [];
+  const mayP1s = mayTopicIds.map(id => registry.topics[id]).filter(t => t && t.priority.startsWith('P1'));
+  
+  console.log('\n========================================================');
+  console.log('MAY 2026 P1 AUDIT:');
+  console.log('Total May P1 Count:', mayP1s.length);
+  console.log('Total May P1 Minutes:', mayP1s.reduce((sum, t) => sum + t.revisionMinutes, 0));
+  mayP1s.forEach((t, i) => {
+    console.log(` ${i+1}. [${t.priority}] ${t.title} (${t.revisionMinutes} min)`);
+  });
   
   console.log('\n========================================================');
   console.log('COMBINED MASTER REGISTRY SUMMARY:');
