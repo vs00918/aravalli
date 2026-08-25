@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Banking CA Web App to GitHub Pages
 
 on:
   push:
@@ -15,22 +15,52 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Source
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Compile Canonical Knowledge
+        run: npm run compile:banking-ca
+
+      - name: Run Test Suites
+        run: |
+          npm run test:compiler
+          npm run test:search
+          npm run test:revision
+          npm run test:pwa
+
+      - name: Run Static Analysis & Linting
+        run: |
+          npm run type-check
+          npm run lint
+
+      - name: Build Static Export
+        run: npm run build
+
+      - name: Ensure .nojekyll Exists
+        run: touch out/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Artifact
+      - name: Upload Static Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "./out"
 
       - name: Deploy to GitHub Pages
         id: deployment
