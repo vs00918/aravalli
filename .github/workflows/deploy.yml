@@ -42,6 +42,7 @@ jobs:
           npm run test:search
           npm run test:revision
           npm run test:pwa
+          npm run test:qa
 
       - name: Run Static Analysis & Linting
         run: |

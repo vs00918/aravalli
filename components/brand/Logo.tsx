@@ -44,11 +44,11 @@ export function Logo({ className = "", showText = true }: LogoProps) {
 
       {showText && (
         <div className="flex flex-col">
-          <span className="font-semibold text-sm tracking-tight text-slate-900 dark:text-slate-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors font-sans">
-            Mind of Aravalli
+          <span className="font-semibold text-sm tracking-tight text-[var(--text-primary)] group-hover:text-amber-800 dark:group-hover:text-amber-400 transition-colors font-serif">
+            Banking CA Mentor
           </span>
-          <span className="text-[10px] tracking-wider uppercase text-slate-500 dark:text-slate-400 font-mono">
-            Personal Encyclopedia
+          <span className="text-[10px] tracking-wider uppercase text-[var(--text-muted)] font-mono">
+            Exam Intelligence OS
           </span>
         </div>
       )}
