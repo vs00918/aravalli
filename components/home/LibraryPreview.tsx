@@ -11,8 +11,6 @@ export function LibraryPreview() {
       scope:
         "Fundamental laws of matter, fields, spacetime curvature, quantum unitarity, and the microscopic conservation of information.",
       constellation: ["Matter", "Spacetime", "Entropy", "Quantum Unitarity", "Hawking Radiation"],
-      accentBorder: "group-hover:border-sky-500/40",
-      accentTag: "text-sky-700 dark:text-sky-400 bg-sky-500/10",
     },
     {
       index: "02",
@@ -21,8 +19,6 @@ export function LibraryPreview() {
       scope:
         "Electrochemical thermodynamics, energy density quadrilemmas, storage chemistries, and the converging industrial super-cycles.",
       constellation: ["Electrochemistry", "Energy Density", "LFP / Na-ion", "V2G Buffers", "Super-Cycles"],
-      accentBorder: "group-hover:border-amber-500/40",
-      accentTag: "text-amber-700 dark:text-amber-400 bg-amber-500/10",
     },
     {
       index: "03",
@@ -31,8 +27,6 @@ export function LibraryPreview() {
       scope:
         "Schrödinger's negentropy, informational software of DNA, molecular motors, and super-Mendelian CRISPR gene drives.",
       constellation: ["Negentropy", "DNA Code", "Gene Drives", "Land Sparing", "Synthetic Life"],
-      accentBorder: "group-hover:border-emerald-500/40",
-      accentTag: "text-emerald-700 dark:text-emerald-400 bg-emerald-500/10",
     },
     {
       index: "04",
@@ -41,8 +35,6 @@ export function LibraryPreview() {
       scope:
         "Emergence in non-linear networks, allometric scaling invariants, swarm stigmergy, and the holobiont microbiome.",
       constellation: ["Emergence", "Square-Cube Law", "Swarm Intelligence", "Gut-Brain Axis", "Homeostasis"],
-      accentBorder: "group-hover:border-purple-500/40",
-      accentTag: "text-purple-700 dark:text-purple-400 bg-purple-500/10",
     },
     {
       index: "05",
@@ -51,8 +43,6 @@ export function LibraryPreview() {
       scope:
         "Demographic momentum invariants, Bayesian signal detection, public-key cryptographic asymmetry, and macroeconomic welfare floors.",
       constellation: ["Demographic Transition", "Base Rate Fallacy", "UBI", "Welfare Cliffs", "Incentives"],
-      accentBorder: "group-hover:border-rose-500/40",
-      accentTag: "text-rose-700 dark:text-rose-400 bg-rose-500/10",
     },
   ];
 
@@ -78,9 +68,10 @@ export function LibraryPreview() {
       {/* Catalog List / Atlas Grid */}
       <div className="divide-y divide-slate-200/80 dark:divide-slate-800/80 border-y border-slate-200/80 dark:border-slate-800/80">
         {domains.map((domain) => (
-          <div
+          <Link
             key={domain.slug}
-            className="group py-5 sm:py-6 flex flex-col md:flex-row md:items-start justify-between gap-4 transition-colors hover:bg-slate-100/50 dark:hover:bg-[#0f1520]/50 -mx-4 px-4 rounded-xl"
+            href={`/chapters/${domain.slug}`}
+            className="group py-5 sm:py-6 flex flex-col md:flex-row md:items-start justify-between gap-4 transition-colors hover:bg-slate-100/50 dark:hover:bg-[#0f1520]/50 -mx-4 px-4 rounded-xl block"
           >
             {/* Left: Index & Title */}
             <div className="md:w-5/12 space-y-1.5">
@@ -117,7 +108,7 @@ export function LibraryPreview() {
                 <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
