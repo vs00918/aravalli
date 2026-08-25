@@ -3,9 +3,9 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 144,
-    "activeP1Count": 15,
-    "activeP1RevisionMinutes": 109,
+    "totalCanonicalTopics": 140,
+    "activeP1Count": 11,
+    "activeP1RevisionMinutes": 77,
     "totalP2Count": 65,
     "totalP3Count": 64,
     "totalBatchesIngested": 3
@@ -2529,102 +2529,18 @@
       "title": "RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026",
       "priority": "P1_CRITICAL_DEEP",
       "revisionMinutes": 8,
-      "primaryCategory": "NATIONAL_AND_STATES",
-      "secondaryCategories": [],
-      "primaryInstitution": "RBI",
-      "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
-        "**Institution:** RBI"
-      ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-01-01",
-      "firstPublicationDate": "2026-01-15",
-      "lastUpdatedDate": "2026-01-15",
-      "chronologicalMonth": "2026-01",
-      "eventMonth": "2026-01",
-      "activeInMonths": [
-        "2026-01"
-      ],
-      "chronologicalWeek": "week-1-4",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        }
-      ],
-      "contentMarkdown": "### 1. RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026\n* **Priority:** P1 — Critical / Deep\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-26\n* **Revision Effort:** ~8 min\n* **Status:** NOTIFIED"
-    },
-    "what-happened": {
-      "id": "what-happened",
-      "slug": "what-happened",
-      "title": "# What Happened",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 8,
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
+      "whatHappened": [
         "The Reserve Bank of India issued the comprehensive **Reserve Bank of India (Internal Ombudsman) Directions, 2026**, overhauling and strengthening the internal grievance redressal architecture across regulated entities.",
         "The Directions supersede and repeal the erstwhile *Master Direction - Reserve Bank of India (Internal Ombudsman for Regulated Entities) Directions, 2023* (dated December 29, 2023).",
         "The new framework comes into full effect from **June 30, 2026**.",
         "**Applicability:** Covers six categories of regulated entities: (1) Commercial Banks, (2) Small Finance Banks (SFBs), (3) Payments Banks, (4) Non-Banking Financial Companies (NBFCs), (5) Non-Bank Prepaid Payment Instrument (PPI) Issuers, and (6) Credit Information Companies (CICs)."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-01-01",
-      "firstPublicationDate": "2026-01-15",
-      "lastUpdatedDate": "2026-01-15",
-      "chronologicalMonth": "2026-01",
-      "eventMonth": "2026-01",
-      "activeInMonths": [
-        "2026-01"
-      ],
-      "chronologicalWeek": "week-1-4",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        }
-      ],
-      "contentMarkdown": "#### What Happened\n* The Reserve Bank of India issued the comprehensive **Reserve Bank of India (Internal Ombudsman) Directions, 2026**, overhauling and strengthening the internal grievance redressal architecture across regulated entities.\n* The Directions supersede and repeal the erstwhile *Master Direction - Reserve Bank of India (Internal Ombudsman for Regulated Entities) Directions, 2023* (dated December 29, 2023).\n* The new framework comes into full effect from **June 30, 2026**.\n* **Applicability:** Covers six categories of regulated entities: (1) Commercial Banks, (2) Small Finance Banks (SFBs), (3) Payments Banks, (4) Non-Banking Financial Companies (NBFCs), (5) Non-Bank Prepaid Payment Instrument (PPI) Issuers, and (6) Credit Information Companies (CICs)."
-    },
-    "must-memorize": {
-      "id": "must-memorize",
-      "slug": "must-memorize",
-      "title": "# Must Memorize",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 8,
-      "primaryCategory": "GOVERNMENT_SCHEMES",
-      "secondaryCategories": [],
-      "primaryInstitution": "RBI",
-      "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
       "mustMemorizeFacts": [
+        "**Institution:** RBI",
         "**Appointment Criteria for Internal Ombudsman (IO):** Must be a retired or serving officer in the rank equivalent to a **General Manager (GM)** in a regulated entity under the IO framework or a financial sector regulatory body, with a minimum of **7 years of relevant experience**.",
         "**Appointment Criteria for Deputy IO:** Must be a retired or serving officer in the rank equivalent to a **Deputy General Manager (DGM)** with a minimum of **5 years of relevant experience**.",
         "**Age Cap:** The IO / Deputy IO must not be over **70 years of age** before the completion of tenure.",
@@ -2640,114 +2556,16 @@
         "Consequential loss compensation: **up to ₹30 lakh**.",
         "Compensation for harassment, mental anguish, time lost, and expenses: **up to ₹3 lakh**."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-01-01",
-      "firstPublicationDate": "2026-01-15",
-      "lastUpdatedDate": "2026-01-15",
-      "chronologicalMonth": "2026-01",
-      "eventMonth": "2026-01",
-      "activeInMonths": [
-        "2026-01"
-      ],
-      "chronologicalWeek": "week-1-4",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        }
-      ],
-      "contentMarkdown": "#### Must Memorize\n* **Appointment Criteria for Internal Ombudsman (IO):** Must be a retired or serving officer in the rank equivalent to a **General Manager (GM)** in a regulated entity under the IO framework or a financial sector regulatory body, with a minimum of **7 years of relevant experience**.\n* **Appointment Criteria for Deputy IO:** Must be a retired or serving officer in the rank equivalent to a **Deputy General Manager (DGM)** with a minimum of **5 years of relevant experience**.\n* **Age Cap:** The IO / Deputy IO must not be over **70 years of age** before the completion of tenure.\n* **Tenure:** Fixed term of **not less than 3 years**, and total tenure (including extensions/reappointments) **shall not exceed 5 years**.\n* **Vacancies:** In case of an unexpected vacancy, the bank must inform the RBI within **10 working days** and appoint a replacement.\n* **Automated Escalation Rule:** Regulated entities must deploy a fully automated Complaints Management System where all complaints **partially resolved or wholly rejected** by the bank's internal grievance redressal mechanism are **auto-escalated to the IO** for independent review.\n* **Review Timelines:**\n  * For complaints governed by RBI, NPCI, or card network resolution deadlines: IO gets at least **10 days** for review.\n  * In all other cases: review within **20 days** of receipt.\n  * Final decision communication to complainant: within a maximum of **30 days** from initial receipt of complaint by the bank.\n* **Compensation Powers under RBI Ombudsman Scheme:**\n  * No monetary limit on the dispute amount brought before the RBI Ombudsman for settlement or award.\n  * Consequential loss compensation: **up to ₹30 lakh**.\n  * Compensation for harassment, mental anguish, time lost, and expenses: **up to ₹3 lakh**."
-    },
-    "know-understand": {
-      "id": "know-understand",
-      "slug": "know-understand",
-      "title": "# Know / Understand",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 8,
-      "primaryCategory": "DEFENCE_AND_SCIENCE",
-      "secondaryCategories": [],
-      "primaryInstitution": "RBI",
-      "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
+      "knowUnderstandContext": [
         "The Internal Ombudsman is an independent, internal dispute-resolution officer sitting between the bank's front-line grievance desk and the external RBI Ombudsman.",
         "Auto-escalation prevents frontline bank staff from arbitrarily closing rejected consumer complaints without independent internal oversight."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
-      "optionalFacts": [],
-      "initialEventDate": "2026-01-01",
-      "firstPublicationDate": "2026-01-15",
-      "lastUpdatedDate": "2026-01-15",
-      "chronologicalMonth": "2026-01",
-      "eventMonth": "2026-01",
-      "activeInMonths": [
-        "2026-01"
-      ],
-      "chronologicalWeek": "week-1-4",
-      "updatesHistory": [],
-      "sourceReferences": [
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        }
-      ],
-      "contentMarkdown": "#### Know / Understand\n* The Internal Ombudsman is an independent, internal dispute-resolution officer sitting between the bank's front-line grievance desk and the external RBI Ombudsman.\n* Auto-escalation prevents frontline bank staff from arbitrarily closing rejected consumer complaints without independent internal oversight."
-    },
-    "exam-focus": {
-      "id": "exam-focus",
-      "slug": "exam-focus",
-      "title": "# Exam Focus",
-      "priority": "P1_CRITICAL_DEEP",
-      "revisionMinutes": 8,
-      "primaryCategory": "DEFENCE_AND_SCIENCE",
-      "secondaryCategories": [],
-      "primaryInstitution": "OTHER",
-      "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
+      "examFocus": [
         "Exact eligibility rank (GM for IO, DGM for Dy IO) and experience thresholds (7 years vs 5 years).",
         "Age ceiling (70 years) and tenure constraints (min 3 years, max 5 years).",
         "Auto-escalation trigger: partial resolution or rejection by bank's internal team.",
         "Compensation ceilings: ₹30 lakh (consequential loss) and ₹3 lakh (mental anguish/harassment)."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-01-01",
       "firstPublicationDate": "2026-01-15",
@@ -2764,24 +2582,9 @@
           "sourceName": "CGB_MENTORS",
           "batchName": "03-january-2026-cgb",
           "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
-        },
-        {
-          "sourceName": "CGB_MENTORS",
-          "batchName": "03-january-2026-cgb",
-          "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "#### Exam Focus\n* Exact eligibility rank (GM for IO, DGM for Dy IO) and experience thresholds (7 years vs 5 years).\n* Age ceiling (70 years) and tenure constraints (min 3 years, max 5 years).\n* Auto-escalation trigger: partial resolution or rejection by bank's internal team.\n* Compensation ceilings: ₹30 lakh (consequential loss) and ₹3 lakh (mental anguish/harassment).\n\n---"
+      "contentMarkdown": "### 1. RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026\n* **Priority:** P1 — Critical / Deep\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-26\n* **Revision Effort:** ~8 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Reserve Bank of India issued the comprehensive **Reserve Bank of India (Internal Ombudsman) Directions, 2026**, overhauling and strengthening the internal grievance redressal architecture across regulated entities.\n* The Directions supersede and repeal the erstwhile *Master Direction - Reserve Bank of India (Internal Ombudsman for Regulated Entities) Directions, 2023* (dated December 29, 2023).\n* The new framework comes into full effect from **June 30, 2026**.\n* **Applicability:** Covers six categories of regulated entities: (1) Commercial Banks, (2) Small Finance Banks (SFBs), (3) Payments Banks, (4) Non-Banking Financial Companies (NBFCs), (5) Non-Bank Prepaid Payment Instrument (PPI) Issuers, and (6) Credit Information Companies (CICs).\n\n#### Must Memorize\n* **Appointment Criteria for Internal Ombudsman (IO):** Must be a retired or serving officer in the rank equivalent to a **General Manager (GM)** in a regulated entity under the IO framework or a financial sector regulatory body, with a minimum of **7 years of relevant experience**.\n* **Appointment Criteria for Deputy IO:** Must be a retired or serving officer in the rank equivalent to a **Deputy General Manager (DGM)** with a minimum of **5 years of relevant experience**.\n* **Age Cap:** The IO / Deputy IO must not be over **70 years of age** before the completion of tenure.\n* **Tenure:** Fixed term of **not less than 3 years**, and total tenure (including extensions/reappointments) **shall not exceed 5 years**.\n* **Vacancies:** In case of an unexpected vacancy, the bank must inform the RBI within **10 working days** and appoint a replacement.\n* **Automated Escalation Rule:** Regulated entities must deploy a fully automated Complaints Management System where all complaints **partially resolved or wholly rejected** by the bank's internal grievance redressal mechanism are **auto-escalated to the IO** for independent review.\n* **Review Timelines:**\n  * For complaints governed by RBI, NPCI, or card network resolution deadlines: IO gets at least **10 days** for review.\n  * In all other cases: review within **20 days** of receipt.\n  * Final decision communication to complainant: within a maximum of **30 days** from initial receipt of complaint by the bank.\n* **Compensation Powers under RBI Ombudsman Scheme:**\n  * No monetary limit on the dispute amount brought before the RBI Ombudsman for settlement or award.\n  * Consequential loss compensation: **up to ₹30 lakh**.\n  * Compensation for harassment, mental anguish, time lost, and expenses: **up to ₹3 lakh**.\n\n#### Know / Understand\n* The Internal Ombudsman is an independent, internal dispute-resolution officer sitting between the bank's front-line grievance desk and the external RBI Ombudsman.\n* Auto-escalation prevents frontline bank staff from arbitrarily closing rejected consumer complaints without independent internal oversight.\n\n#### Exam Focus\n* Exact eligibility rank (GM for IO, DGM for Dy IO) and experience thresholds (7 years vs 5 years).\n* Age ceiling (70 years) and tenure constraints (min 3 years, max 5 years).\n* Auto-escalation trigger: partial resolution or rejection by bank's internal team.\n* Compensation ceilings: ₹30 lakh (consequential loss) and ₹3 lakh (mental anguish/harassment).\n\n---"
     },
     "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs": {
       "id": "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
@@ -2793,12 +2596,34 @@
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
-        "**Institution:** RBI"
+      "whatHappened": [
+        "The Reserve Bank of India issued amendments to its *Credit Risk Management Directions* for commercial banks and non-banking financial companies (NBFCs), establishing a stringent, harmonized oversight framework for Related Party Transactions (RPTs).",
+        "The amended rules take effect from **April 1, 2026**.",
+        "The reform aligns the definition of \"Related Party\" with the **Companies Act, 2013** and the **Insolvency and Bankruptcy Code (IBC)**, bringing NBFC regulations closer to commercial bank standards."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
+      "mustMemorizeFacts": [
+        "**Institution:** RBI",
+        "**Definition of Related Party:** Promoters, directors, Key Managerial Personnel (KMP) and their relatives, shareholders holding **10% or more equity**, entities where such persons exercise significant influence/control, and trust structures where related persons are trustees, authors, or beneficiaries.",
+        "**Reciprocally Related Persons (Banks only):** Extends coverage to directors of other banks/FIs, trustees of Alternative Investment Funds (AIFs) and Mutual Funds (MFs), and their relatives.",
+        "**Scope of Lending:** Includes both fund-based and non-fund-based credit facilities, as well as investments in debt instruments of related parties. **Explicitly excludes equity investments** from the definition of lending.",
+        "**Transaction-Level Materiality Approval Thresholds:**",
+        "**Banks with total assets > ₹10 lakh crore:** Related-party loan exceeding **₹50 crore** requires Board / Board Committee approval.",
+        "**Banks with total assets ₹1 lakh crore – ₹10 lakh crore:** Threshold is **₹10 crore**.",
+        "**Banks with total assets < ₹1 lakh crore:** Threshold is **₹5 crore**.",
+        "**Top Layer / Upper Layer NBFCs:** Threshold is **₹10 crore**.",
+        "**Middle Layer NBFCs:** Threshold is **₹5 crore**.",
+        "**Base Layer NBFCs:** Threshold is **₹1 crore**.",
+        "**Prohibitions:** Explicit prohibition on credit exposures to promoters and their relatives, or entities where shareholders holding 10%+ equity exercise significant control."
+      ],
+      "knowUnderstandContext": [
+        "Prevents siphoning of bank and NBFC depositor funds to promoter-controlled entities and connected shell companies.",
+        "Asset tiering ensures proportional regulatory burden: Mega-banks (>₹10T assets) have higher rupee thresholds (₹50 cr) to avoid board-level gridlock on small transactions."
+      ],
+      "examFocus": [
+        "Materiality threshold matrix across bank asset sizes (₹50 cr, ₹10 cr, ₹5 cr) and NBFC layers (₹10 cr, ₹5 cr, ₹1 cr).",
+        "Treatment of equity investments (excluded from lending definition).",
+        "Shareholder threshold for related-party tagging (10% or more equity)."
+      ],
       "optionalFacts": [],
       "initialEventDate": "2026-01-01",
       "firstPublicationDate": "2026-01-15",
@@ -2817,7 +2642,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 2. RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs\n* **Priority:** P1 — Critical / Deep\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-15\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED"
+      "contentMarkdown": "### 2. RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs\n* **Priority:** P1 — Critical / Deep\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-15\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Reserve Bank of India issued amendments to its *Credit Risk Management Directions* for commercial banks and non-banking financial companies (NBFCs), establishing a stringent, harmonized oversight framework for Related Party Transactions (RPTs).\n* The amended rules take effect from **April 1, 2026**.\n* The reform aligns the definition of \"Related Party\" with the **Companies Act, 2013** and the **Insolvency and Bankruptcy Code (IBC)**, bringing NBFC regulations closer to commercial bank standards.\n\n#### Must Memorize\n* **Definition of Related Party:** Promoters, directors, Key Managerial Personnel (KMP) and their relatives, shareholders holding **10% or more equity**, entities where such persons exercise significant influence/control, and trust structures where related persons are trustees, authors, or beneficiaries.\n* **Reciprocally Related Persons (Banks only):** Extends coverage to directors of other banks/FIs, trustees of Alternative Investment Funds (AIFs) and Mutual Funds (MFs), and their relatives.\n* **Scope of Lending:** Includes both fund-based and non-fund-based credit facilities, as well as investments in debt instruments of related parties. **Explicitly excludes equity investments** from the definition of lending.\n* **Transaction-Level Materiality Approval Thresholds:**\n  * **Banks with total assets > ₹10 lakh crore:** Related-party loan exceeding **₹50 crore** requires Board / Board Committee approval.\n  * **Banks with total assets ₹1 lakh crore – ₹10 lakh crore:** Threshold is **₹10 crore**.\n  * **Banks with total assets < ₹1 lakh crore:** Threshold is **₹5 crore**.\n  * **Top Layer / Upper Layer NBFCs:** Threshold is **₹10 crore**.\n  * **Middle Layer NBFCs:** Threshold is **₹5 crore**.\n  * **Base Layer NBFCs:** Threshold is **₹1 crore**.\n* **Prohibitions:** Explicit prohibition on credit exposures to promoters and their relatives, or entities where shareholders holding 10%+ equity exercise significant control.\n\n#### Know / Understand\n* Prevents siphoning of bank and NBFC depositor funds to promoter-controlled entities and connected shell companies.\n* Asset tiering ensures proportional regulatory burden: Mega-banks (>₹10T assets) have higher rupee thresholds (₹50 cr) to avoid board-level gridlock on small transactions.\n\n#### Exam Focus\n* Materiality threshold matrix across bank asset sizes (₹50 cr, ₹10 cr, ₹5 cr) and NBFC layers (₹10 cr, ₹5 cr, ₹1 cr).\n* Treatment of equity investments (excluded from lending definition).\n* Shareholder threshold for related-party tagging (10% or more equity).\n\n---"
     },
     "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24": {
       "id": "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
@@ -2825,16 +2650,37 @@
       "title": "MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24",
       "priority": "P1_CRITICAL_DEEP",
       "revisionMinutes": 7,
-      "primaryCategory": "MACRO_ECONOMY",
+      "primaryCategory": "MONETARY_POLICY",
       "secondaryCategories": [],
-      "primaryInstitution": "OTHER",
+      "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
-        "**Institution:** OTHER"
+      "whatHappened": [
+        "The Ministry of Statistics and Programme Implementation (MoSPI) announced the complete modernization of India's macroeconomic statistical architecture, updating the base years of Consumer Price Index (CPI), Gross Domestic Product (GDP), and Index of Industrial Production (IIP).",
+        "The final release of the old CPI series (Base 2012=100) took place for December 2025 data (1.33% provisional inflation).",
+        "The new CPI series with **Base Year 2023-24=100** takes effect on **February 12, 2026**."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
+      "mustMemorizeFacts": [
+        "**Institution:** OTHER",
+        "**New Base Years & Rollout Schedule:**",
+        "**CPI Series:** Base Year **2023-24=100**, released on **12 February 2026** (first used for January 2026 inflation).",
+        "**GDP Series:** Base Year **2022-23=100**, released on **27 February 2026**.",
+        "**IIP Series:** Base Year **2022-23=100**, released on **28 May 2026**.",
+        "**CPI Weightage Structural Shift:**",
+        "**Food & Beverages Weight:** Reduced sharply from **45.86% to 36.75%** (a 9.11 percentage point drop).",
+        "**Housing Weight (incl. water, electricity, gas):** Increased from **10.07% to 17.66%**.",
+        "**Item Basket Expansion:** Increased from **299 items to 358 items**.",
+        "**Historical Context:** India's last CPI base year update was in January 2015 (setting 2011-12 as base, replacing 2004-05)."
+      ],
+      "knowUnderstandContext": [
+        "Engel's Law in Action: As Indian household incomes rose between 2011-12 and 2023-24, the proportion of monthly expenditure on food declined, while spending on housing, transport, and modern services surged.",
+        "Macro impact: A lower food weight significantly reduces the volatility of headline CPI inflation caused by seasonal vegetable and crop shocks, allowing RBI monetary policy to reflect core economic demand more accurately."
+      ],
+      "examFocus": [
+        "Exact dates for new series releases (CPI: Feb 12, GDP: Feb 27, IIP: May 28, 2026).",
+        "New base years (CPI 2023-24; GDP & IIP 2022-23).",
+        "Food weight reduction (45.86% $\\to$ 36.75%) and housing weight expansion (10.07% $\\to$ 17.66%).",
+        "Total item basket expansion (299 $\\to$ 358 items)."
+      ],
       "optionalFacts": [],
       "initialEventDate": "2026-01-01",
       "firstPublicationDate": "2026-01-15",
@@ -2853,7 +2699,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 3. MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24\n* **Priority:** P1 — Critical / Deep\n* **Category:** MACRO_ECONOMY\n* **Institution:** OTHER\n* **Event Date:** 2026-01-12\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED"
+      "contentMarkdown": "### 3. MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24\n* **Priority:** P1 — Critical / Deep\n* **Category:** MACRO_ECONOMY\n* **Institution:** OTHER\n* **Event Date:** 2026-01-12\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Ministry of Statistics and Programme Implementation (MoSPI) announced the complete modernization of India's macroeconomic statistical architecture, updating the base years of Consumer Price Index (CPI), Gross Domestic Product (GDP), and Index of Industrial Production (IIP).\n* The final release of the old CPI series (Base 2012=100) took place for December 2025 data (1.33% provisional inflation).\n* The new CPI series with **Base Year 2023-24=100** takes effect on **February 12, 2026**.\n\n#### Must Memorize\n* **New Base Years & Rollout Schedule:**\n  * **CPI Series:** Base Year **2023-24=100**, released on **12 February 2026** (first used for January 2026 inflation).\n  * **GDP Series:** Base Year **2022-23=100**, released on **27 February 2026**.\n  * **IIP Series:** Base Year **2022-23=100**, released on **28 May 2026**.\n* **CPI Weightage Structural Shift:**\n  * **Food & Beverages Weight:** Reduced sharply from **45.86% to 36.75%** (a 9.11 percentage point drop).\n  * **Housing Weight (incl. water, electricity, gas):** Increased from **10.07% to 17.66%**.\n  * **Item Basket Expansion:** Increased from **299 items to 358 items**.\n* **Historical Context:** India's last CPI base year update was in January 2015 (setting 2011-12 as base, replacing 2004-05).\n\n#### Know / Understand\n* Engel's Law in Action: As Indian household incomes rose between 2011-12 and 2023-24, the proportion of monthly expenditure on food declined, while spending on housing, transport, and modern services surged.\n* Macro impact: A lower food weight significantly reduces the volatility of headline CPI inflation caused by seasonal vegetable and crop shocks, allowing RBI monetary policy to reflect core economic demand more accurately.\n\n#### Exam Focus\n* Exact dates for new series releases (CPI: Feb 12, GDP: Feb 27, IIP: May 28, 2026).\n* New base years (CPI 2023-24; GDP & IIP 2022-23).\n* Food weight reduction (45.86% $\\to$ 36.75%) and housing weight expansion (10.07% $\\to$ 17.66%).\n* Total item basket expansion (299 $\\to$ 358 items).\n\n---"
     },
     "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending": {
       "id": "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending",
@@ -2865,12 +2711,26 @@
       "secondaryCategories": [],
       "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
-      "whatHappened": [],
-      "mustMemorizeFacts": [
-        "**Institution:** RBI"
+      "whatHappened": [
+        "The Reserve Bank of India issued *Amendment Directions* easing its proposed prudential risk-weight framework for infrastructure project lending by Non-Banking Financial Companies (NBFCs).",
+        "Broadened the eligibility criteria for \"high-quality\" infrastructure projects and relaxed the debt repayment thresholds required to qualify for lower risk weights.",
+        "**Effective Date:** April 1, 2026, with full adoption required by the next exposure review or **March 31, 2027**, whichever is earlier."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
+      "mustMemorizeFacts": [
+        "**Institution:** RBI",
+        "**Relaxed Debt Repayment Thresholds:**",
+        "Threshold to assign a **75% risk weight:** Reduced to **2% repayment** of original sanctioned project debt (cut from the earlier proposed 5%).",
+        "Threshold to assign a **50% risk weight:** Reduced to **5% repayment** of original sanctioned project debt (cut from the earlier proposed 10%).",
+        "**Expanded \"High-Quality\" Definition:** Includes infrastructure projects where revenues arise from concessions or contracts granted by the Central Government, State Governments, Public Sector Enterprises, or statutory/regulatory bodies.",
+        "**Measurement Standard:** Repayment is calculated against the original sanctioned project debt (with additional debt clubbed for calculation)."
+      ],
+      "knowUnderstandContext": [
+        "Infrastructure loans are long-gestation assets with high initial default risk during construction. Lowering the repayment thresholds (2% and 5%) allows NBFCs to release regulatory capital earlier as projects operationalize."
+      ],
+      "examFocus": [
+        "New repayment thresholds for risk weight concessions: 2% (for 75% RW) and 5% (for 50% RW).",
+        "Effective date (April 1, 2026) and final transition deadline (March 31, 2027)."
+      ],
       "optionalFacts": [],
       "initialEventDate": "2026-01-01",
       "firstPublicationDate": "2026-01-15",
@@ -2889,7 +2749,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 4. RBI Eases Risk Weights on NBFC Infrastructure Project Lending\n* **Priority:** P1 — Critical / Memorize\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-20\n* **Revision Effort:** ~4 min\n* **Status:** NOTIFIED"
+      "contentMarkdown": "### 4. RBI Eases Risk Weights on NBFC Infrastructure Project Lending\n* **Priority:** P1 — Critical / Memorize\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-20\n* **Revision Effort:** ~4 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Reserve Bank of India issued *Amendment Directions* easing its proposed prudential risk-weight framework for infrastructure project lending by Non-Banking Financial Companies (NBFCs).\n* Broadened the eligibility criteria for \"high-quality\" infrastructure projects and relaxed the debt repayment thresholds required to qualify for lower risk weights.\n* **Effective Date:** April 1, 2026, with full adoption required by the next exposure review or **March 31, 2027**, whichever is earlier.\n\n#### Must Memorize\n* **Relaxed Debt Repayment Thresholds:**\n  * Threshold to assign a **75% risk weight:** Reduced to **2% repayment** of original sanctioned project debt (cut from the earlier proposed 5%).\n  * Threshold to assign a **50% risk weight:** Reduced to **5% repayment** of original sanctioned project debt (cut from the earlier proposed 10%).\n* **Expanded \"High-Quality\" Definition:** Includes infrastructure projects where revenues arise from concessions or contracts granted by the Central Government, State Governments, Public Sector Enterprises, or statutory/regulatory bodies.\n* **Measurement Standard:** Repayment is calculated against the original sanctioned project debt (with additional debt clubbed for calculation).\n\n#### Know / Understand\n* Infrastructure loans are long-gestation assets with high initial default risk during construction. Lowering the repayment thresholds (2% and 5%) allows NBFCs to release regulatory capital earlier as projects operationalize.\n\n#### Exam Focus\n* New repayment thresholds for risk weight concessions: 2% (for 75% RW) and 5% (for 50% RW).\n* Effective date (April 1, 2026) and final transition deadline (March 31, 2027).\n\n---"
     },
     "sebi-overhaul-of-merchant-banking-capital-adequacy-underwriting-norms-4-min": {
       "id": "sebi-overhaul-of-merchant-banking-capital-adequacy-underwriting-norms-4-min",
@@ -5574,10 +5434,6 @@
     "jal-jeevan-mission-jjm": "jal-jeevan-mission-jjm",
     "fitch-sovereign-rating": "fitch-sovereign-rating",
     "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026": "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026",
-    "what-happened": "what-happened",
-    "must-memorize": "must-memorize",
-    "know-understand": "know-understand",
-    "exam-focus": "exam-focus",
     "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs": "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
     "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24": "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
     "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending": "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending",
@@ -5655,17 +5511,13 @@
     "byPriority": {
       "P1_CRITICAL_DEEP": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
-        "exam-focus",
-        "know-understand",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
-        "must-memorize",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
-        "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
-        "what-happened"
+        "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs"
       ],
       "P1_CRITICAL_MEMORIZE": [
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
@@ -5815,7 +5667,8 @@
         "subhash-chandra-bose-aapda-prabandhan-puraskar-2026"
       ],
       "MONETARY_POLICY": [
-        "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026"
+        "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+        "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24"
       ],
       "DEFENCE_AND_SCIENCE": [
         "80th-independence-day-announcements",
@@ -5825,10 +5678,8 @@
         "defence-vessels",
         "drdo-flight-tests-3rd-gen-mpatgm-with-top-attack-capability",
         "drdo-tests-long-duration-scramjet-engine-for-hypersonic-missiles",
-        "exam-focus",
         "indian-army-raises-modern-warfare-drone-force-bhairav",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
-        "know-understand",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "national-sports-awards-2025",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
@@ -5842,14 +5693,12 @@
       ],
       "MACRO_ECONOMY": [
         "ad-category-ii-licences",
-        "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
-        "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24"
+        "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min"
       ],
       "GOVERNMENT_SCHEMES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
-        "must-memorize",
         "pmksy-10-year-review",
         "pradhan-mantri-matru-vandana-yojana-pmmvy-completes-9-years-3-min",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
@@ -5874,12 +5723,12 @@
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending",
         "rbi-foreign-exchange-management-guarantees-regulations-2026-3-min",
+        "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification-3-min",
-        "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
-        "what-happened"
+        "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs"
       ],
       "NATIONAL_AND_STATES": [
         "bank-of-baroda-standalone-primary-dealer-spd-subsidiary",
@@ -5912,7 +5761,6 @@
         "pmmsy-smart-integrated-fishing-harbour-at-mayabunder-an-islands",
         "public-sector-banks-asset-quality-fy26-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
-        "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026",
         "rbi-principle-based-resolution-framework-for-natural-calamity-hit-loans-3-min",
         "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "sebi-bullion-vaulting",
@@ -6008,7 +5856,6 @@
         "economic-survey-2025-26-gdp-growth-projection-6872-for-fy27-3-min",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
         "eu-cbam",
-        "exam-focus",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "fields-medals-2026",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
@@ -6025,7 +5872,6 @@
         "khelo-india-ansf-expansion-3-min",
         "mca-accounting-rules",
         "mha-e-zero-firs",
-        "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-awards-2025",
         "national-sports-governance-act-2025-comes-into-partial-effect",
@@ -6072,9 +5918,8 @@
         "first-meeting-of-payments-regulatory-board-prb",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "india-eu-mou-between-rbi-and-esma-for-ccil-recognition",
-        "know-understand",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
-        "must-memorize",
+        "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
@@ -6097,8 +5942,7 @@
         "rbi-supervisory-data-quality-index-sdqi-for-scheduled-commercial-banks-3-min",
         "rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification-3-min",
         "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
-        "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike",
-        "what-happened"
+        "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike"
       ],
       "INTERNATIONAL_BODIES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
@@ -6160,7 +6004,6 @@
         "drdo-tests-long-duration-scramjet-engine-for-hypersonic-missiles",
         "economic-survey-2025-26-gdp-growth-projection-6872-for-fy27-3-min",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
-        "exam-focus",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
         "first-meeting-of-payments-regulatory-board-prb",
         "global-soft-power-index-2026-brand-finance",
@@ -6174,9 +6017,7 @@
         "irdai-reconstitutes-reinsurance-advisory-committee-rac",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
         "key-banking-financial-appointments-january-2026",
-        "know-understand",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
-        "must-memorize",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-governance-act-2025-comes-into-partial-effect",
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
@@ -6218,8 +6059,7 @@
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "upi-records-2170-billion-transactions-in-january-2026",
         "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike",
-        "wgc-gold-demand-trends-2025",
-        "what-happened"
+        "wgc-gold-demand-trends-2025"
       ],
       "2026-08": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
@@ -6310,7 +6150,6 @@
         "drdo-tests-long-duration-scramjet-engine-for-hypersonic-missiles",
         "economic-survey-2025-26-gdp-growth-projection-6872-for-fy27-3-min",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
-        "exam-focus",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
         "first-meeting-of-payments-regulatory-board-prb",
         "global-soft-power-index-2026-brand-finance",
@@ -6324,9 +6163,7 @@
         "irdai-reconstitutes-reinsurance-advisory-committee-rac",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
         "key-banking-financial-appointments-january-2026",
-        "know-understand",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
-        "must-memorize",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-governance-act-2025-comes-into-partial-effect",
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
@@ -6368,8 +6205,7 @@
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "upi-records-2170-billion-transactions-in-january-2026",
         "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike",
-        "wgc-gold-demand-trends-2025",
-        "what-happened"
+        "wgc-gold-demand-trends-2025"
       ],
       "2026-08": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
@@ -6483,16 +6319,16 @@
       "sourceName": "CGB_MENTORS",
       "dateRange": "2026-01 (week-1-4)",
       "ingestedAt": "2026-08-25T18:00:00Z",
-      "rawItemsCount": 89,
+      "rawItemsCount": 73,
       "duplicatesCount": 0,
       "enrichmentsCount": 0,
       "updatesCount": 0,
-      "newTopicsCount": 89,
+      "newTopicsCount": 73,
       "ignoredCount": 0,
       "primaryVerifiedCount": 0,
-      "sourceOnlyCount": 89,
+      "sourceOnlyCount": 73,
       "verificationPendingCount": 0,
-      "mentorVerdict": "Successfully processed 89 canonical topics for 2026-01 week-1-4."
+      "mentorVerdict": "Successfully processed 73 canonical topics for 2026-01 week-1-4."
     }
   ]
 }

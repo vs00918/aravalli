@@ -148,8 +148,8 @@ export function parseCanonicalMarkdownFile(
       continue;
     }
 
-    // Match Topic Headings
-    const h3Match = line.match(/^###\s*(\d+[\.\)]\s*)?(.+)/);
+    // Match Topic Headings (Strictly 3 hashes, never 4)
+    const h3Match = line.match(/^###\s+(?!#)(\d+[\.\)]\s*)?(.+)/);
     const p2NumMatch = currentPart === 'P2' && line.match(/^(\d+)\.\s*\*\*(.+?)\*\*(\s*\(~?(\d+)\s*min\))?:?/);
     const p3BulletMatch = currentPart === 'P3' && line.match(/^[\*\-]\s*\*\*(.+?)\*\*:\s*(.+)/);
 
@@ -223,17 +223,17 @@ export function parseCanonicalMarkdownFile(
     if (currentTopic) {
       topicMarkdownBuffer.push(line);
 
-      // Subsection matching
-      if (/^\s*\*?\*?\s*What Happened/i.test(line)) {
+      // Subsection matching (supports both **What Happened** and #### What Happened)
+      if (/^\s*(####|\*?\*?)\s*What Happened/i.test(line)) {
         currentSubSection = 'WHAT_HAPPENED';
         continue;
-      } else if (/^\s*\*?\*?\s*Must Memorize/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*Must Memorize/i.test(line)) {
         currentSubSection = 'MUST_MEMORIZE';
         continue;
-      } else if (/^\s*\*?\*?\s*(Know\s*\/?\s*Understand|Why It Matters)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Know\s*\/?\s*Understand|Why It Matters)/i.test(line)) {
         currentSubSection = 'KNOW_UNDERSTAND';
         continue;
-      } else if (/^\s*\*?\*?\s*(Exam Angle|Exam Focus|Descriptive \/ Mains Utility)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Exam Angle|Exam Focus|Descriptive \/ Mains Utility)/i.test(line)) {
         currentSubSection = 'EXAM_FOCUS';
         continue;
       }
