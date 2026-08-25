@@ -1,4 +1,6 @@
 import assert from 'assert';
+import fs from 'fs';
+import path from 'path';
 import { compileBankingCaRegistry } from './compile-banking-ca';
 import {
   CanonicalTopicSchema,
@@ -6,6 +8,7 @@ import {
   RegulatoryStatusSchema,
   VerificationStatusSchema
 } from '../lib/banking-ca/schema';
+import { generateStableSlug } from '../lib/banking-ca/markdown-parser';
 
 function runTests() {
   console.log('────────────────────────────────────────────────────────');
@@ -99,11 +102,77 @@ function runTests() {
     assert.ok(!jsonStr.includes('file:///C:/Users'), 'Output must never expose absolute host filesystem credentials');
   });
 
-  // Test 9: Priority Calibration Invariant (Faithful Reflection of Canonical Source P1s)
-  test('Priority Calibration Invariant (Compiled P1s === Canonical Source P1s)', () => {
+  // Test 9: Dynamic Source-vs-Registry Priority Fidelity Check
+  test('Dynamic Priority Invariant (Canonical Source P1s === Compiled Registry P1s)', () => {
+    const rootDir = path.join(__dirname, '..');
+    const caDir = path.join(rootDir, 'knowledge-tree/banking-ca');
+    const files = fs.readdirSync(caDir).filter(f => f.endsWith('.md'));
+
+    const expectedP1Slugs = new Set<string>();
+    let expectedP1Minutes = 0;
+
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(caDir, file), 'utf8');
+      const lines = content.split(/\r?\n/);
+      let inP1 = false;
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.includes('PART 1: P1')) {
+          inP1 = true;
+          continue;
+        } else if (line.includes('PART 2: P2') || line.includes('PART 3: P3') || line.includes('PART 4:') || line.includes('MENTOR SESSION-END')) {
+          inP1 = false;
+        }
+
+        if (inP1) {
+          const h3Match = line.match(/^###\s*(\d+[\.\)]\s*)?(.+)/);
+          if (h3Match) {
+            const rawTitle = h3Match[2].trim();
+            const slug = generateStableSlug(rawTitle);
+            expectedP1Slugs.add(slug);
+
+            // Look ahead for revision minutes
+            let minutes = 8;
+            for (let j = i + 1; j < Math.min(i + 8, lines.length); j++) {
+              const revMatch = lines[j].match(/Revision Effort:\*\*\s*~?(\d+)\s*min/i);
+              if (revMatch) {
+                minutes = parseInt(revMatch[1], 10);
+                break;
+              }
+            }
+            expectedP1Minutes += minutes;
+          }
+        }
+      }
+    }
+
     const { registry } = compileBankingCaRegistry();
-    assert.strictEqual(registry.summary.activeP1Count, 7, `Expected exactly 7 active P1 topics, got ${registry.summary.activeP1Count}`);
-    assert.strictEqual(registry.summary.activeP1RevisionMinutes, 51, `Expected exactly 51 active P1 revision minutes, got ${registry.summary.activeP1RevisionMinutes}`);
+    const compiledP1Slugs = new Set([
+      ...registry.indexes.byPriority.P1_CRITICAL_DEEP,
+      ...registry.indexes.byPriority.P1_CRITICAL_MEMORIZE
+    ]);
+
+    // Informational logging (not hardcoded assertions)
+    console.log(`     [Info] Dynamic Source Scan  : ${expectedP1Slugs.size} P1 Topics, ${expectedP1Minutes} Total Minutes`);
+    console.log(`     [Info] Compiled Registry P1 : ${registry.summary.activeP1Count} P1 Topics, ${registry.summary.activeP1RevisionMinutes} Total Minutes`);
+
+    // Assert exact equality between source extraction and compiled registry
+    assert.strictEqual(
+      registry.summary.activeP1Count,
+      expectedP1Slugs.size,
+      `Compiled P1 count (${registry.summary.activeP1Count}) must match canonical source P1 count (${expectedP1Slugs.size})`
+    );
+
+    assert.strictEqual(
+      registry.summary.activeP1RevisionMinutes,
+      expectedP1Minutes,
+      `Compiled P1 minutes (${registry.summary.activeP1RevisionMinutes}) must match canonical source P1 minutes (${expectedP1Minutes})`
+    );
+
+    for (const slug of expectedP1Slugs) {
+      assert.ok(compiledP1Slugs.has(slug), `P1 topic '${slug}' from canonical source must exist in compiled P1 registry index`);
+    }
   });
 
   console.log('\n────────────────────────────────────────────────────────');
