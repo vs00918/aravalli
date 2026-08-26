@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import assert from 'assert';
 import { compileBankingCaRegistry } from './compile-banking-ca';
 import { normalizePresentationText, formatTopicCategory, formatTopicDate } from '../lib/banking-ca/formatters';
@@ -422,6 +424,56 @@ function runPostDeployQaTests() {
       assert.ok(t.title && t.title.length > 0, `Test I/J: Topic ${t.slug} must retain title`);
       assert.ok(t.mustMemorizeFacts.length > 0, `Test I/J: Topic ${t.slug} must retain mustMemorizeFacts`);
       assert.ok(t.priority.startsWith('P1') || t.priority === 'P2_HIGH' || t.priority === 'P3_MODERATE' || t.priority === 'P4_LOW_YIELD', `Test I/J: Topic ${t.slug} priority intact`);
+    }
+  });
+
+  // Test 17: W7.9 Source-File Cleanup & Ingestion Hygiene Invariants
+  test('W7.9 Source-File Cleanup & Ingestion Hygiene Invariants', () => {
+    // 1. Verify .gitignore has strict rules preventing bulky binary PDFs from entering Git
+    const gitignorePath = path.join(__dirname, '../.gitignore');
+    assert.ok(fs.existsSync(gitignorePath), '.gitignore must exist');
+    const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
+    assert.ok(gitignoreContent.includes('*.pdf'), '.gitignore must ignore *.pdf');
+    assert.ok(gitignoreContent.includes('/sources/'), '.gitignore must ignore /sources/');
+    assert.ok(gitignoreContent.includes('/ingestion/'), '.gitignore must ignore /ingestion/');
+
+    // 2. Verify Ingestion Provenance Registry exists and is self-consistent
+    const provenancePath = path.join(__dirname, '../data/ingestion-provenance.json');
+    assert.ok(fs.existsSync(provenancePath), 'data/ingestion-provenance.json must exist');
+    const provenance = JSON.parse(fs.readFileSync(provenancePath, 'utf8'));
+    assert.ok(Array.isArray(provenance.records), 'Provenance must have records array');
+    assert.ok(provenance.records.length >= 9, 'Must have provenance records for all 9 canonical batches');
+
+    let totalProvenanceTopics = 0;
+    for (const rec of provenance.records) {
+      assert.ok(rec.sourceFile, `Record must have sourceFile`);
+      assert.ok(rec.canonicalMarkdownFile, `Record ${rec.sourceFile} must have canonicalMarkdownFile`);
+      const canonicalFileOnDisk = path.join(__dirname, '..', rec.canonicalMarkdownFile);
+      assert.ok(
+        fs.existsSync(canonicalFileOnDisk),
+        `Canonical markdown file ${rec.canonicalMarkdownFile} must exist on disk`
+      );
+      assert.strictEqual(
+        rec.rawStatus,
+        'PROCESSED_VERIFIED_PURGED',
+        `Record ${rec.sourceFile} must be PROCESSED_VERIFIED_PURGED`
+      );
+      totalProvenanceTopics += rec.topicsExtracted;
+    }
+    assert.strictEqual(
+      totalProvenanceTopics,
+      545,
+      'Total topics extracted across all provenance records must match registry total (545)'
+    );
+
+    // 3. Zero PDF Runtime Dependency Invariant
+    // Master registry compilation, search index, revision engine, and Next.js static pages
+    // must strictly depend ONLY on Markdown (.md) and JSON data.
+    const caDir = path.join(__dirname, '../knowledge-tree/banking-ca');
+    const diskFiles = fs.readdirSync(caDir);
+    for (const f of diskFiles) {
+      assert.ok(f.endsWith('.md'), `knowledge-tree/banking-ca must contain only .md files, found: ${f}`);
+      assert.ok(!f.endsWith('.pdf'), `knowledge-tree/banking-ca must never contain .pdf files`);
     }
   });
 

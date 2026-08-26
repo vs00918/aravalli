@@ -42,3 +42,12 @@ next-env.d.ts
 *.db-journal
 /prisma/*.db
 /prisma/*.sqlite
+
+# Raw Source PDFs & Temporary Ingestion Inputs (W7.9 Ingestion Hygiene)
+*.pdf
+/sources/
+/ingestion/
+/uploads/
+/staging/
+/scratch/
+*.tmp

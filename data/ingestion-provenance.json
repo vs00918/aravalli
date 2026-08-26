@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-26T04:42:04.462Z",
+  "policy": "W7.9 Source Cleanup & Ingestion Hygiene (Raw PDFs purged post-compilation; provenance permanently preserved)",
+  "records": [
+    {
+      "sourceFile": "CGB_Mentors_PIB_1st_to_10th_August_2026.pdf",
+      "sourcePublisher": "CGB Mentors (formerly CrackGradeB)",
+      "coveragePeriod": "2026-08-01 to 2026-08-10",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/09-august-2026-cgb-pib.md",
+      "canonicalBatchId": "09-august-2026-cgb-pib",
+      "chronologicalMonth": "2026-08",
+      "topicsExtracted": 32,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-26T10:10:00Z"
+    },
+    {
+      "sourceFile": "Smartkeeda_MockDrill_Weekly_PDF_2_8th_to_14th_August_2026.pdf",
+      "sourcePublisher": "Smartkeeda CA MockDrill",
+      "coveragePeriod": "2026-08-08 to 2026-08-14",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/08-august-2026-smartkeeda-w2.md",
+      "canonicalBatchId": "08-august-2026-smartkeeda-w2",
+      "chronologicalMonth": "2026-08",
+      "topicsExtracted": 104,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T16:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_August_2026_Part_2_12th_to_20th_August_2026.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-08-12 to 2026-08-20",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/02-august-2026-cgb-part-2.md",
+      "canonicalBatchId": "02-august-2026-cgb-part-2",
+      "chronologicalMonth": "2026-08",
+      "topicsExtracted": 16,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T12:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_August_2026_Part_1_1st_to_11th_August_2026.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-08-01 to 2026-08-11",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/01-august-2026-cgb-part-1.md",
+      "canonicalBatchId": "01-august-2026-cgb-part-1",
+      "chronologicalMonth": "2026-08",
+      "topicsExtracted": 15,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T10:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_May_2026_Consolidated.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-05-01 to 2026-05-31",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/07-may-2026-cgb.md",
+      "canonicalBatchId": "07-may-2026-cgb",
+      "chronologicalMonth": "2026-05",
+      "topicsExtracted": 71,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T08:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_April_2026_Consolidated.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-04-01 to 2026-04-30",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/06-april-2026-cgb.md",
+      "canonicalBatchId": "06-april-2026-cgb",
+      "chronologicalMonth": "2026-04",
+      "topicsExtracted": 78,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T06:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_March_2026_Consolidated.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-03-01 to 2026-03-31",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/05-march-2026-cgb.md",
+      "canonicalBatchId": "05-march-2026-cgb",
+      "chronologicalMonth": "2026-03",
+      "topicsExtracted": 80,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T04:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_February_2026_Consolidated.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-02-01 to 2026-02-28",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/04-february-2026-cgb.md",
+      "canonicalBatchId": "04-february-2026-cgb",
+      "chronologicalMonth": "2026-02",
+      "topicsExtracted": 76,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-25T02:00:00Z"
+    },
+    {
+      "sourceFile": "CGB_Mentors_January_2026_Consolidated.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-01-01 to 2026-01-31",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/03-january-2026-cgb.md",
+      "canonicalBatchId": "03-january-2026-cgb",
+      "chronologicalMonth": "2026-01",
+      "topicsExtracted": 73,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-24T20:00:00Z"
+    }
+  ]
+}
