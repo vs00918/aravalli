@@ -137,7 +137,7 @@ function runPostDeployQaTests() {
 
     // Check August 2026, January 2026, February 2026, March 2026, April 2026, and May 2026 indexed sets
     const augTopics = registry.indexes.byYearMonth['2026-08'];
-    assert.strictEqual(augTopics.length, 135, 'August 2026 must index exact 135 topics');
+    assert.strictEqual(augTopics.length, 167, 'August 2026 must index exact 167 topics');
 
     const janTopics = registry.indexes.byYearMonth['2026-01'];
     assert.strictEqual(janTopics.length, 73, 'January 2026 must index exact 73 topics');
@@ -167,7 +167,7 @@ function runPostDeployQaTests() {
       ids.add(topic.id);
     }
 
-    assert.strictEqual(slugs.size, 513, 'Must have exactly 513 unique canonical topics');
+    assert.strictEqual(slugs.size, 545, 'Must have exactly 545 unique canonical topics');
   });
 
   // Test 9: Complete Category Taxonomy Normalization
@@ -189,7 +189,7 @@ function runPostDeployQaTests() {
   });
 
   // Test 10: Category Partitioning & Grouping Invariant
-  test('Category Partitioning & Grouping Invariant (All 513 Topics Accounted)', () => {
+  test('Category Partitioning & Grouping Invariant (All 545 Topics Accounted)', () => {
     let totalPartitioned = 0;
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
       const groupedMap = new Map<string, number>();
@@ -203,7 +203,7 @@ function runPostDeployQaTests() {
       }
     }
 
-    assert.strictEqual(totalPartitioned, 513, 'All 513 monthly indexed topics must be strictly accounted');
+    assert.strictEqual(totalPartitioned, 545, 'All 545 monthly indexed topics must be strictly accounted');
   });
 
   // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
@@ -212,9 +212,9 @@ function runPostDeployQaTests() {
     const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
     const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
 
-    assert.strictEqual(p1s.length, 31, 'Must have exactly 31 P1 topics (11 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
-    assert.strictEqual(p2s.length, 205, 'Must have exactly 205 P2 topics (55 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
-    assert.strictEqual(p3s.length, 277, 'Must have exactly 277 P3 topics (69 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
+    assert.strictEqual(p1s.length, 37, 'Must have exactly 37 P1 topics (17 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
+    assert.strictEqual(p2s.length, 219, 'Must have exactly 219 P2 topics (69 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
+    assert.strictEqual(p3s.length, 289, 'Must have exactly 289 P3 topics (81 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
     for (const p3 of p3s) {
@@ -405,7 +405,7 @@ function runPostDeployQaTests() {
       );
     }
 
-    // TEST H: All canonical topics remain accounted for exactly once (513 topics)
+    // TEST H: All canonical topics remain accounted for exactly once (545 topics)
     let totalStreamTopics = 0;
     const seenTopicIds = new Set<string>();
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
@@ -415,7 +415,7 @@ function runPostDeployQaTests() {
         totalStreamTopics++;
       }
     }
-    assert.strictEqual(totalStreamTopics, 513, 'Test H: All 513 canonical topics accounted for');
+    assert.strictEqual(totalStreamTopics, 545, 'Test H: All 545 canonical topics accounted for');
 
     // TEST I & J: No topic content or priority classification changes during sorting
     for (const t of allTopics) {
