@@ -25,18 +25,18 @@ interface SidebarNavProps {
 }
 
 const ALL_2026_MONTHS = [
-  { id: "2026-12", name: "DECEMBER 2026" },
-  { id: "2026-11", name: "NOVEMBER 2026" },
-  { id: "2026-10", name: "OCTOBER 2026" },
-  { id: "2026-09", name: "SEPTEMBER 2026" },
-  { id: "2026-08", name: "AUGUST 2026" },
-  { id: "2026-07", name: "JULY 2026" },
-  { id: "2026-06", name: "JUNE 2026" },
-  { id: "2026-05", name: "MAY 2026" },
-  { id: "2026-04", name: "APRIL 2026" },
-  { id: "2026-03", name: "MARCH 2026" },
-  { id: "2026-02", name: "FEBRUARY 2026" },
-  { id: "2026-01", name: "JANUARY 2026" },
+  { id: "2026-12", name: "December" },
+  { id: "2026-11", name: "November" },
+  { id: "2026-10", name: "October" },
+  { id: "2026-09", name: "September" },
+  { id: "2026-08", name: "August" },
+  { id: "2026-07", name: "July" },
+  { id: "2026-06", name: "June" },
+  { id: "2026-05", name: "May" },
+  { id: "2026-04", name: "April" },
+  { id: "2026-03", name: "March" },
+  { id: "2026-02", name: "February" },
+  { id: "2026-01", name: "January" },
 ];
 
 const CATEGORY_DISPLAY_NAMES: Record<string, string> = {

@@ -9,7 +9,6 @@ import { UnderstandSection } from "@/components/topic-reader/UnderstandSection";
 import { ChangeAlertSection } from "@/components/topic-reader/ChangeAlertSection";
 import { ProvenanceSection } from "@/components/topic-reader/ProvenanceSection";
 import { TopicNavigation } from "@/components/topic-reader/TopicNavigation";
-import { FileText, ChevronDown } from "lucide-react";
 
 export const dynamic = "force-static";
 
@@ -28,6 +27,10 @@ export default function TopicDetailPage({ params }: { params: { slug: string } }
     notFound();
   }
 
+  const isP1 = topic.priority.startsWith("P1");
+  const isP2 = topic.priority === "P2_HIGH";
+  const isP3 = topic.priority === "P3_MODERATE" || topic.priority === "P4_LOW_YIELD";
+
   // Deterministic Next / Previous Topic Calculation
   const allTopicIds = Object.keys(registry.topics).sort();
   const currentIndex = allTopicIds.indexOf(topic.id);
@@ -35,53 +38,104 @@ export default function TopicDetailPage({ params }: { params: { slug: string } }
   const nextTopic = currentIndex < allTopicIds.length - 1 ? registry.topics[allTopicIds[currentIndex + 1]] : null;
 
   return (
-    <article className="max-w-3xl mx-auto space-y-8 pb-16">
-      {/* 1. Header with Metadata, Badges, and Revision Estimate */}
+    <article className="max-w-2xl mx-auto space-y-6 pb-16 font-serif">
+      {/* 1. Header (Clean, Content-First, Stripped Jargon) */}
       <TopicHeader topic={topic} />
 
-      {/* 2. Change-Sensitive / Regulatory Draft Alert (if applicable) */}
+      {/* 2. Change / Draft Alert (Only if applicable) */}
       <ChangeAlertSection alert={topic.changeAlert} status={topic.regulatoryStatus} />
 
-      {/* 3. What Happened (Orientation) */}
-      <WhatHappenedSection whatHappened={topic.whatHappened} />
+      {/* ─── P1 CRITICAL READER (Structured Deep Dive) ─── */}
+      {isP1 && (
+        <div className="space-y-6">
+          {/* WHAT HAPPENED */}
+          <WhatHappenedSection whatHappened={topic.whatHappened} heading="WHAT HAPPENED" />
 
-      {/* 4. Must Memorize (Core Exam Numbers & Thresholds) */}
-      <MustMemorizeSection facts={topic.mustMemorizeFacts} priority={topic.priority} />
+          {/* KEY NUMBERS / RULES */}
+          <MustMemorizeSection
+            facts={topic.mustMemorizeFacts}
+            heading="KEY NUMBERS / RULES"
+            isP1
+          />
 
-      {/* 5. Exam Focus (Tested Angles) */}
-      <ExamFocusSection
-        examFocus={topic.examFocus}
-        priority={topic.priority}
-        category={topic.primaryCategory}
-      />
+          {/* WHY IT MATTERS (Conceptual Explanation) */}
+          <UnderstandSection
+            context={topic.knowUnderstandContext}
+            heading="WHY IT MATTERS"
+          />
 
-      {/* 6. Understand & Policy Context */}
-      <UnderstandSection context={topic.knowUnderstandContext} />
-
-      {/* 7. Collapsible Detailed Canonical Markdown View */}
-      <details className="p-4 rounded-xl bg-[var(--surface-primary)] border border-[var(--border-primary)] group">
-        <summary className="flex items-center justify-between cursor-pointer font-mono text-xs text-[var(--text-muted)] hover:text-[var(--text-primary)] list-none">
-          <span className="flex items-center gap-2 font-semibold">
-            <FileText className="w-4 h-4 text-[var(--text-subtle)]" />
-            <span>Detailed Notes &amp; Raw Canonical Markdown</span>
-          </span>
-          <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
-        </summary>
-        <div className="mt-4 pt-4 border-t border-[var(--border-primary)] whitespace-pre-wrap font-mono text-[11px] text-[var(--text-muted)] leading-relaxed bg-[var(--surface-elevated)] p-4 rounded-lg overflow-x-auto">
-          {topic.contentMarkdown}
+          {/* EXAM TAKEAWAY */}
+          <ExamFocusSection
+            examFocus={topic.examFocus}
+            heading="EXAM TAKEAWAY"
+          />
         </div>
-      </details>
+      )}
 
-      {/* 8. Source Provenance & Verification Details */}
+      {/* ─── P2 HIGH-YIELD READER (Medium Density, Rapid Scan) ─── */}
+      {isP2 && (
+        <div className="space-y-5">
+          {/* Context Paragraph */}
+          {topic.whatHappened && topic.whatHappened.length > 0 && (
+            <div className="text-sm sm:text-[15px] text-[var(--text-primary)] leading-relaxed pt-1">
+              {topic.whatHappened.map((p, idx) => (
+                <p key={idx} className="mb-2 leading-relaxed">{p}</p>
+              ))}
+            </div>
+          )}
+
+          {/* KEY FACTS */}
+          <MustMemorizeSection
+            facts={topic.mustMemorizeFacts}
+            heading="KEY FACTS"
+          />
+
+          {/* EXAM POINT */}
+          {topic.examFocus && topic.examFocus.length > 0 && (
+            <ExamFocusSection
+              examFocus={topic.examFocus}
+              heading="EXAM POINT"
+            />
+          )}
+        </div>
+      )}
+
+      {/* ─── P3 ULTRA-COMPACT READER (15-30s Quick Scan) ─── */}
+      {isP3 && (
+        <div className="space-y-4">
+          {/* KEY FACTS */}
+          <MustMemorizeSection
+            facts={topic.mustMemorizeFacts.length > 0 ? topic.mustMemorizeFacts : topic.whatHappened}
+            heading="KEY FACTS"
+          />
+
+          {/* REMEMBER */}
+          {topic.examFocus && topic.examFocus.length > 0 && (
+            <ExamFocusSection
+              examFocus={topic.examFocus}
+              heading="REMEMBER"
+            />
+          )}
+        </div>
+      )}
+
+      {/* 3. Optional Technical Metadata & Raw Markdown (Collapsed Disclosure) */}
       <ProvenanceSection
         sources={topic.sourceReferences}
         verificationStatus={topic.verificationStatus}
         initialEventDate={topic.initialEventDate}
         lastUpdatedDate={topic.lastUpdatedDate}
+        category={topic.primaryCategory}
+        institution={topic.primaryInstitution}
+        rawMarkdown={topic.contentMarkdown}
       />
 
-      {/* 9. Deterministic Navigation (Previous / Next) */}
-      <TopicNavigation prevTopic={prevTopic} nextTopic={nextTopic} />
+      {/* 4. Subordinate Previous / Next Navigation */}
+      <TopicNavigation
+        prevTopic={prevTopic}
+        nextTopic={nextTopic}
+        currentMonth={topic.chronologicalMonth}
+      />
     </article>
   );
 }

@@ -1,39 +1,36 @@
 import React from "react";
 import { AlertTriangle } from "lucide-react";
-import { ChangeAlert } from "@/lib/banking-ca/schema";
-import { FormattedText } from "@/components/common/FormattedText";
+import { ChangeAlert, RegulatoryStatus } from "@/lib/banking-ca/schema";
 
 interface ChangeAlertSectionProps {
-  alert?: ChangeAlert;
-  status?: string;
+  alert?: ChangeAlert | string;
+  status?: RegulatoryStatus;
 }
 
 export function ChangeAlertSection({ alert, status }: ChangeAlertSectionProps) {
-  if (!alert && (!status || status === "IMPLEMENTED")) {
+  const isDraftOrProposal = status === "DRAFT" || status === "PROPOSAL";
+
+  const alertText = typeof alert === "string" 
+    ? alert 
+    : alert?.isChangeSensitive 
+    ? alert.currentFactSummary 
+    : "";
+
+  if (!alertText && !isDraftOrProposal) {
     return null;
   }
 
-  const title = alert
-    ? "Change-Sensitive Alert"
-    : `Regulatory Status Notice (${status})`;
-
   return (
-    <section className="p-4 sm:p-5 rounded-2xl bg-amber-100/70 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800/40 space-y-2 shadow-xs select-none">
-      <div className="flex items-center gap-2 font-mono text-xs font-bold text-amber-900 dark:text-amber-400 uppercase tracking-wider">
-        <AlertTriangle className="w-4 h-4 text-amber-800 dark:text-amber-400 flex-shrink-0" />
-        <span>{title}</span>
+    <div className="p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300/80 dark:border-amber-800/50 flex items-start gap-2.5 text-xs text-amber-950 dark:text-amber-200 font-sans leading-relaxed select-none">
+      <AlertTriangle className="w-4 h-4 text-amber-800 dark:text-amber-400 flex-shrink-0 mt-0.5" />
+      <div>
+        {isDraftOrProposal && (
+          <span className="font-mono font-bold mr-1.5 uppercase">
+            [{status} Stage — Subject to Final Notification]
+          </span>
+        )}
+        <span>{alertText || "This regulation is in draft/proposal stage. Verify final status before examination."}</span>
       </div>
-
-      {alert && (
-        <div className="space-y-1 text-xs text-amber-950 dark:text-amber-200/90 font-mono leading-relaxed pl-6">
-          <p>
-            • <strong>Status Detail:</strong> <FormattedText text={alert.currentFactSummary} />
-          </p>
-          <p>
-            • <strong>Action Required:</strong> <FormattedText text={alert.actionBeforeExam} />
-          </p>
-        </div>
-      )}
-    </section>
+    </div>
   );
 }

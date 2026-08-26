@@ -1,63 +1,76 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, BookOpen, Layers } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 
 interface TopicNavigationProps {
   prevTopic: CanonicalTopic | null;
   nextTopic: CanonicalTopic | null;
+  currentMonth: string;
 }
 
-export function TopicNavigation({ prevTopic, nextTopic }: TopicNavigationProps) {
-  const currentMonth = prevTopic?.chronologicalMonth || nextTopic?.chronologicalMonth || "2026-08";
+const MONTH_NAMES: Record<string, string> = {
+  "2026-01": "January 2026",
+  "2026-02": "February 2026",
+  "2026-03": "March 2026",
+  "2026-04": "April 2026",
+  "2026-05": "May 2026",
+  "2026-06": "June 2026",
+  "2026-07": "July 2026",
+  "2026-08": "August 2026",
+  "2026-09": "September 2026",
+  "2026-10": "October 2026",
+  "2026-11": "November 2026",
+  "2026-12": "December 2026",
+};
+
+export function TopicNavigation({ prevTopic, nextTopic, currentMonth }: TopicNavigationProps) {
+  const monthLabel = MONTH_NAMES[currentMonth] || currentMonth;
 
   return (
-    <div className="space-y-4 pt-6 border-t border-[var(--border-primary)] select-none">
-      {/* Return to Stream Banner */}
-      <div className="flex items-center justify-center">
-        <Link
-          href={`/briefing/${currentMonth}`}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[var(--surface-elevated)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] text-xs font-mono text-[var(--text-primary)] transition-colors"
-        >
-          <Layers className="w-3.5 h-3.5 text-amber-800 dark:text-amber-400" />
-          <span>Return to {currentMonth} Briefing Stream</span>
-        </Link>
-      </div>
-
-      {/* Previous / Next Cards */}
-      <nav aria-label="Topic Navigation" className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div className="pt-8 mt-8 border-t border-[var(--border-primary)] space-y-4 select-none">
+      {/* Previous / Next Inline Navigation */}
+      <nav aria-label="Topic Navigation" className="flex items-center justify-between gap-4">
         {prevTopic ? (
           <Link
             href={`/topics/${prevTopic.slug}`}
-            className="group p-4 rounded-xl bg-[var(--surface-primary)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] hover:border-amber-800/40 transition-colors flex flex-col justify-between space-y-1"
+            className="group flex items-center gap-2 text-xs font-mono text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors max-w-[45%]"
           >
-            <span className="flex items-center gap-1 text-[10px] font-mono text-[var(--text-subtle)] uppercase tracking-wider group-hover:text-amber-800 dark:group-hover:text-amber-400 transition-colors">
-              <ArrowLeft className="w-3 h-3" /> Previous Topic
-            </span>
-            <span className="font-serif font-semibold text-xs text-[var(--text-primary)] line-clamp-1">
-              {prevTopic.title}
-            </span>
+            <ArrowLeft className="w-3.5 h-3.5 flex-shrink-0 group-hover:-translate-x-0.5 transition-transform" />
+            <div className="truncate">
+              <span className="text-[10px] text-[var(--text-subtle)] block uppercase">Previous</span>
+              <span className="font-serif truncate block">{prevTopic.title}</span>
+            </div>
           </Link>
         ) : (
-          <div className="hidden sm:block" />
+          <div />
         )}
 
         {nextTopic ? (
           <Link
             href={`/topics/${nextTopic.slug}`}
-            className="group p-4 rounded-xl bg-[var(--surface-primary)] hover:bg-[var(--surface-hover)] border border-[var(--border-primary)] hover:border-amber-800/40 transition-colors flex flex-col justify-between space-y-1 sm:text-right"
+            className="group flex items-center justify-end gap-2 text-xs font-mono text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-right max-w-[45%] ml-auto"
           >
-            <span className="flex items-center justify-end gap-1 text-[10px] font-mono text-[var(--text-subtle)] uppercase tracking-wider group-hover:text-amber-800 dark:group-hover:text-amber-400 transition-colors">
-              Next Topic <ArrowRight className="w-3 h-3" />
-            </span>
-            <span className="font-serif font-semibold text-xs text-[var(--text-primary)] line-clamp-1">
-              {nextTopic.title}
-            </span>
+            <div className="truncate">
+              <span className="text-[10px] text-[var(--text-subtle)] block uppercase">Next</span>
+              <span className="font-serif truncate block">{nextTopic.title}</span>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
           </Link>
         ) : (
-          <div className="hidden sm:block" />
+          <div />
         )}
       </nav>
+
+      {/* Subtle Return Link */}
+      <div className="text-center pt-2">
+        <Link
+          href={`/briefing/${currentMonth}`}
+          className="text-xs font-mono text-[var(--text-subtle)] hover:text-[var(--text-primary)] transition-colors underline underline-offset-2"
+        >
+          ← Back to {monthLabel} Stream
+        </Link>
+      </div>
     </div>
   );
 }

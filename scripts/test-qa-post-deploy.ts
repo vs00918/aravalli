@@ -220,6 +220,22 @@ function runPostDeployQaTests() {
     }
   });
 
+  // Test 12: W7.5 Content-First Presentation Invariant
+  test('W7.5 Content-First Presentation & Topic Contract Invariant', () => {
+    for (const topic of allTopics) {
+      // Must have title, slug, month, and non-empty facts
+      assert.ok(topic.title && topic.title.length > 5, `Topic ${topic.slug} must have meaningful title`);
+      assert.ok(topic.chronologicalMonth.match(/^\d{4}-\d{2}$/), `Topic ${topic.slug} must have valid month`);
+      assert.ok(topic.mustMemorizeFacts.length > 0 || (topic.whatHappened && topic.whatHappened.length > 0), `Topic ${topic.slug} must have readable content`);
+      
+      // P1 topics must have multiple mustMemorizeFacts and multi-minute revision load
+      if (topic.priority.startsWith('P1')) {
+        assert.ok(topic.mustMemorizeFacts.length >= 2, `P1 topic ${topic.slug} must have multiple mustMemorizeFacts`);
+        assert.ok(topic.revisionMinutes >= 4, `P1 topic ${topic.slug} must have >= 4 min revision load`);
+      }
+    }
+  });
+
   console.log('\n────────────────────────────────────────────────────────');
   console.log(`Results: ${passed} / ${total} Tests Passed`);
   console.log('────────────────────────────────────────────────────────\n');
