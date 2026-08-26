@@ -236,6 +236,22 @@ function runPostDeployQaTests() {
     }
   });
 
+  // Test 13: W7.6 Continuous Reading Stream Invariant
+  test('W7.6 Continuous Reading Stream Invariant (Full Inline Readability)', () => {
+    for (const topic of allTopics) {
+      // Stream must contain complete study facts directly for scrolling
+      const totalFacts = topic.mustMemorizeFacts.length + (topic.whatHappened ? topic.whatHappened.length : 0);
+      assert.ok(totalFacts > 0, `Topic ${topic.slug} must have non-empty study content in continuous stream`);
+      
+      // Ensure no raw metadata prefixes leaked into facts
+      for (const fact of topic.mustMemorizeFacts) {
+        assert.ok(!fact.startsWith('Category:'), `Topic ${topic.slug} has raw Category metadata in facts`);
+        assert.ok(!fact.startsWith('Institution:'), `Topic ${topic.slug} has raw Institution metadata in facts`);
+        assert.ok(!fact.startsWith('Priority:'), `Topic ${topic.slug} has raw Priority metadata in facts`);
+      }
+    }
+  });
+
   console.log('\n────────────────────────────────────────────────────────');
   console.log(`Results: ${passed} / ${total} Tests Passed`);
   console.log('────────────────────────────────────────────────────────\n');

@@ -8,7 +8,7 @@ import {
   PriorityLevel 
 } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
-import { formatCleanCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
+import { formatCleanCategory } from "@/lib/banking-ca/formatters";
 import { 
   getReadTopicSlugs, 
   toggleTopicReadSlug, 
@@ -19,10 +19,12 @@ import {
   BookOpen, 
   Clock, 
   Zap, 
-  ArrowRight, 
   AlertTriangle, 
   CheckCircle2, 
-  Circle
+  Circle,
+  FileText,
+  ShieldCheck,
+  Calendar
 } from "lucide-react";
 
 interface BriefingStreamViewProps {
@@ -69,10 +71,8 @@ const CATEGORY_ICONS: Record<string, string> = {
 };
 
 export function BriefingStreamView({
-  month,
   monthTitle,
   topics,
-  registry,
   initialCategory,
   initialPriority
 }: BriefingStreamViewProps) {
@@ -189,16 +189,14 @@ export function BriefingStreamView({
     });
   }, [topics]);
 
-  let globalNoteCounter = 0;
-
   return (
-    <div className="max-w-4xl mx-auto space-y-8 pb-20 font-serif">
+    <div className="max-w-3xl mx-auto space-y-10 pb-24 font-serif">
       {/* 1. Quiet Stream Header */}
       <header className="space-y-4 pb-6 border-b border-[var(--border-primary)] select-none">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
           <div>
             <div className="text-xs font-mono text-[var(--text-subtle)] uppercase tracking-wider">
-              Monthly Current Affairs
+              Continuous Reading Stream
             </div>
             <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[var(--text-primary)] tracking-tight mt-0.5">
               {monthTitle}
@@ -287,111 +285,249 @@ export function BriefingStreamView({
           <p className="text-xs text-[var(--text-muted)] max-w-md mx-auto">
             This month is indexed in the 2026 Master Archive. Canonical notes and revision drills will appear automatically as coaching batches are ingested.
           </p>
-          <Link
-            href="/briefing/2026-08"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-800 text-white text-xs font-mono font-bold mt-2 shadow-xs"
-          >
-            <span>Read Active August 2026 Stream</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
         </div>
       )}
 
-      {/* 3. Category Sections */}
-      <div className="space-y-10">
+      {/* 3. Category Reading Sections */}
+      <div className="space-y-12">
         {categoryGroups.map((group) => {
           return (
             <section
               key={group.categoryKey}
               id={`category-${group.categoryKey}`}
-              className="space-y-4 scroll-mt-24"
+              className="space-y-6 scroll-mt-20"
             >
-              {/* Category Header */}
-              <div className="flex items-center justify-between pb-2 border-b border-amber-800/30 dark:border-amber-700/30 select-none">
+              {/* Category Editorial Header */}
+              <div className="pt-6 pb-2 border-b-2 border-amber-900/30 dark:border-amber-700/30 flex items-baseline justify-between select-none">
                 <div className="flex items-center gap-2">
-                  <span className="text-base">{group.icon}</span>
-                  <h2 className="text-sm font-mono font-bold uppercase tracking-wider text-amber-950 dark:text-amber-300">
+                  <span className="text-lg">{group.icon}</span>
+                  <h2 className="text-sm sm:text-base font-mono font-bold uppercase tracking-wider text-amber-950 dark:text-amber-300">
                     {group.label}
                   </h2>
                 </div>
                 <span className="text-xs font-mono text-[var(--text-subtle)]">
-                  {group.topics.length} {group.topics.length === 1 ? "Topic" : "Topics"}
+                  {group.topics.length} {group.topics.length === 1 ? "topic" : "topics"}
                 </span>
               </div>
 
-              {/* Topics inside Category */}
-              <div className="space-y-4">
+              {/* Topics inside Category — Continuous Stream */}
+              <div className="divide-y divide-[var(--border-primary)]/80">
                 {group.topics.map((topic) => {
-                  globalNoteCounter++;
                   const isP1 = topic.priority.startsWith("P1");
                   const isP2 = topic.priority === "P2_HIGH";
                   const isP3 = topic.priority === "P3_MODERATE" || topic.priority === "P4_LOW_YIELD";
                   const isRead = readSlugs.has(topic.slug);
 
-                  // ─── P3 ULTRA-COMPACT FACTOID ───
+                  // ─── P3 ULTRA-COMPACT FACTOID INLINE ───
                   if (isP3) {
                     return (
                       <article
                         key={topic.id}
                         id={topic.slug}
-                        className={`p-3.5 sm:p-4 rounded-xl bg-[var(--surface-primary)] border transition-all ${
-                          isRead
-                            ? "border-[var(--border-primary)]/60 opacity-80"
-                            : "border-[var(--border-primary)] hover:border-amber-800/40"
+                        className={`py-5 first:pt-2 space-y-2 transition-opacity ${
+                          isRead ? "opacity-75" : ""
                         }`}
                       >
-                        <div className="flex items-start justify-between gap-3">
-                          <div className="space-y-1 flex-1">
-                            <h3 className="font-serif font-bold text-sm sm:text-base text-[var(--text-primary)] leading-snug">
-                              <Link href={`/topics/${topic.slug}`} className="hover:underline">
-                                {topic.title}
-                              </Link>
-                            </h3>
+                        {/* Header controls line */}
+                        <div className="flex items-center justify-between gap-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                          <span className="uppercase tracking-wider font-semibold text-[11px]">
+                            {formatCleanCategory(topic.primaryCategory)}
+                          </span>
 
-                            {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-                              <p className="text-xs sm:text-[13px] text-[var(--text-primary)] font-serif leading-relaxed">
-                                <FormattedText text={topic.mustMemorizeFacts[0]} />
-                              </p>
-                            )}
+                          <div className="flex items-center gap-3">
+                            <span className="text-[11px]">~{topic.revisionMinutes || 1}m</span>
+                            <button
+                              onClick={() => handleToggleRead(topic.slug)}
+                              className="hover:text-[var(--text-primary)]"
+                              title={isRead ? "Mark as unread" : "Mark as read"}
+                            >
+                              {isRead ? (
+                                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
+                              ) : (
+                                <Circle className="w-3.5 h-3.5 text-[var(--text-subtle)]" />
+                              )}
+                            </button>
                           </div>
-
-                          <button
-                            onClick={() => handleToggleRead(topic.slug)}
-                            className="text-[var(--text-subtle)] hover:text-amber-800 dark:hover:text-amber-400 p-1 flex-shrink-0"
-                            title={isRead ? "Mark as unread" : "Mark as read"}
-                          >
-                            {isRead ? (
-                              <CheckCircle2 className="w-4 h-4 text-emerald-800 dark:text-emerald-400" />
-                            ) : (
-                              <Circle className="w-4 h-4" />
-                            )}
-                          </button>
                         </div>
+
+                        {/* Title (Link to optional standalone page) */}
+                        <h3 className="font-serif font-bold text-base text-[var(--text-primary)] leading-snug">
+                          <Link href={`/topics/${topic.slug}`} className="hover:underline text-[var(--text-primary)]">
+                            {topic.title}
+                          </Link>
+                        </h3>
+
+                        {/* Bullet points */}
+                        {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
+                          <ul className="space-y-1 text-sm text-[var(--text-primary)] font-serif leading-relaxed pl-1">
+                            {topic.mustMemorizeFacts.map((fact, fIdx) => (
+                              <li key={fIdx} className="flex items-start gap-2">
+                                <span className="text-amber-800 dark:text-amber-400 font-bold select-none">•</span>
+                                <span className="leading-relaxed"><FormattedText text={fact} /></span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
                       </article>
                     );
                   }
 
-                  // ─── P1 & P2 CONTENT CARDS ───
+                  // ─── P2 HIGH-YIELD TOPIC INLINE ───
+                  if (isP2) {
+                    return (
+                      <article
+                        key={topic.id}
+                        id={topic.slug}
+                        className={`py-7 first:pt-2 space-y-4 transition-opacity ${
+                          isRead ? "opacity-80" : ""
+                        }`}
+                      >
+                        {/* Header controls line */}
+                        <div className="flex items-center justify-between gap-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                          <span className="uppercase tracking-wider font-semibold text-[11px]">
+                            {formatCleanCategory(topic.primaryCategory)}
+                          </span>
+
+                          <div className="flex items-center gap-3">
+                            <span className="inline-flex items-center gap-1 text-[11px]">
+                              <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
+                              <span>~{topic.revisionMinutes}m</span>
+                            </span>
+
+                            <button
+                              onClick={() => handleToggleRead(topic.slug)}
+                              className="hover:text-[var(--text-primary)]"
+                              title={isRead ? "Mark as unread" : "Mark as read"}
+                            >
+                              {isRead ? (
+                                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
+                              ) : (
+                                <Circle className="w-3.5 h-3.5 text-[var(--text-subtle)]" />
+                              )}
+                            </button>
+
+                            <Link
+                              href={`/revision?topic=${topic.slug}`}
+                              className="hidden sm:inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-mono text-amber-900 dark:text-amber-300 bg-amber-100/60 dark:bg-amber-950/40 border border-amber-300/60 hover:bg-amber-200/80 transition-colors"
+                              title="Practice Active Recall Drill"
+                            >
+                              <Zap className="w-2.5 h-2.5 fill-current" />
+                              <span>Drill</span>
+                            </Link>
+                          </div>
+                        </div>
+
+                        {/* Title & Subtitle */}
+                        <div>
+                          <h3 className="text-lg sm:text-xl font-serif font-bold text-[var(--text-primary)] leading-snug tracking-tight">
+                            <Link href={`/topics/${topic.slug}`} className="hover:underline">
+                              {topic.title}
+                            </Link>
+                          </h3>
+                          {topic.subtitle && (
+                            <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-1 font-serif italic">
+                              {topic.subtitle}
+                            </p>
+                          )}
+                        </div>
+
+                        {/* Change Alert (if active) */}
+                        {topic.changeAlert?.isChangeSensitive && (
+                          <div className="p-3 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300/80 dark:border-amber-800/40 text-amber-950 dark:text-amber-200 text-xs flex items-start gap-2 select-none">
+                            <AlertTriangle className="w-3.5 h-3.5 text-amber-800 dark:text-amber-400 flex-shrink-0 mt-0.5" />
+                            <p className="text-xs leading-relaxed">
+                              <FormattedText text={topic.changeAlert.currentFactSummary} />
+                            </p>
+                          </div>
+                        )}
+
+                        {/* Short Context / What Happened (if present) */}
+                        {topic.whatHappened && topic.whatHappened.length > 0 && (
+                          <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
+                            {topic.whatHappened.map((para, pIdx) => (
+                              <p key={pIdx}><FormattedText text={para} /></p>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* KEY FACTS */}
+                        {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
+                          <div className="space-y-1.5 pt-1">
+                            <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+                              KEY FACTS
+                            </div>
+                            <ul className="space-y-1.5 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
+                              {topic.mustMemorizeFacts.map((fact, fIdx) => (
+                                <li key={fIdx} className="flex items-start gap-2.5">
+                                  <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5 text-xs select-none">•</span>
+                                  <span className="flex-1 leading-relaxed"><FormattedText text={fact} /></span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* EXAM POINT (if examFocus present) */}
+                        {topic.examFocus && topic.examFocus.length > 0 && (
+                          <div className="p-3.5 rounded-xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-300/70 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1">
+                            <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[11px] select-none">
+                              EXAM POINT
+                            </div>
+                            <ul className="space-y-1 text-amber-950 dark:text-amber-200">
+                              {topic.examFocus.map((focus, efIdx) => (
+                                <li key={efIdx} className="flex items-start gap-2">
+                                  <span className="font-bold text-amber-800 dark:text-amber-400 select-none">•</span>
+                                  <span><FormattedText text={focus} /></span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                        {/* Collapsed Provenance Details */}
+                        <details className="pt-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                          <summary className="cursor-pointer hover:text-[var(--text-primary)] transition-colors list-none flex items-center gap-1.5">
+                            <FileText className="w-3 h-3 text-[var(--text-subtle)]" />
+                            <span>Source details ▾</span>
+                          </summary>
+                          <div className="mt-2 p-3 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-1.5 text-[11px]">
+                            <div className="flex items-center gap-2">
+                              <ShieldCheck className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
+                              <span>Status: {topic.verificationStatus.replace(/_/g, " ")}</span>
+                              <span>·</span>
+                              <Calendar className="w-3 h-3 text-[var(--text-subtle)]" />
+                              <span>Event: {topic.initialEventDate}</span>
+                            </div>
+                            {topic.sourceReferences && topic.sourceReferences.length > 0 && (
+                              <div className="text-[var(--text-muted)]">
+                                Sources: {topic.sourceReferences.map(s => `${s.sourceName} (${s.batchName})`).join(", ")}
+                              </div>
+                            )}
+                          </div>
+                        </details>
+                      </article>
+                    );
+                  }
+
+                  // ─── P1 CRITICAL DEEP TOPIC INLINE ───
                   return (
                     <article
                       key={topic.id}
                       id={topic.slug}
-                      className={`p-5 sm:p-6 rounded-2xl bg-[var(--surface-primary)] border transition-all ${
-                        isP1
-                          ? "border-amber-800/40 dark:border-amber-700/40 space-y-4"
-                          : "border-[var(--border-primary)] space-y-3.5"
-                      } ${isRead ? "opacity-85" : ""}`}
+                      className={`py-9 first:pt-3 space-y-5 transition-opacity ${
+                        isRead ? "opacity-85" : ""
+                      }`}
                     >
-                      {/* Quiet Header Line */}
+                      {/* Header controls line */}
                       <div className="flex items-center justify-between gap-2 text-xs font-mono text-[var(--text-subtle)] select-none">
-                        <span className="uppercase tracking-wider font-semibold">
+                        <span className="uppercase tracking-wider font-semibold text-[11px]">
                           {formatCleanCategory(topic.primaryCategory)}
                         </span>
 
                         <div className="flex items-center gap-3">
                           <span className="inline-flex items-center gap-1 text-[11px]">
                             <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
-                            <span>~{topic.revisionMinutes}m</span>
+                            <span>~{topic.revisionMinutes} min</span>
                           </span>
 
                           <button
@@ -402,23 +538,30 @@ export function BriefingStreamView({
                             {isRead ? (
                               <CheckCircle2 className="w-4 h-4 text-emerald-800 dark:text-emerald-400" />
                             ) : (
-                              <Circle className="w-4 h-4" />
+                              <Circle className="w-4 h-4 text-[var(--text-subtle)]" />
                             )}
                           </button>
+
+                          <Link
+                            href={`/revision?topic=${topic.slug}`}
+                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono text-amber-900 dark:text-amber-300 bg-amber-100/70 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-800/40 hover:bg-amber-200/80 transition-colors"
+                            title="Practice Active Recall Drill"
+                          >
+                            <Zap className="w-3 h-3 fill-current" />
+                            <span>Drill</span>
+                          </Link>
                         </div>
                       </div>
 
                       {/* Title & Subtitle */}
                       <div>
-                        <h3 className={`font-serif font-bold text-[var(--text-primary)] leading-snug tracking-tight ${
-                          isP1 ? "text-xl sm:text-2xl" : "text-lg sm:text-xl"
-                        }`}>
+                        <h3 className="text-xl sm:text-2xl font-serif font-bold text-[var(--text-primary)] leading-tight tracking-tight">
                           <Link href={`/topics/${topic.slug}`} className="hover:underline">
                             {topic.title}
                           </Link>
                         </h3>
                         {topic.subtitle && (
-                          <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-1 font-serif italic">
+                          <p className="text-sm text-[var(--text-muted)] mt-1 font-serif italic">
                             {topic.subtitle}
                           </p>
                         )}
@@ -426,58 +569,102 @@ export function BriefingStreamView({
 
                       {/* Change Alert (if active) */}
                       {topic.changeAlert?.isChangeSensitive && (
-                        <div className="p-3 rounded-xl bg-amber-100/70 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 text-xs space-y-1 select-none">
-                          <div className="flex items-center gap-1.5 font-mono font-bold">
-                            <AlertTriangle className="w-3.5 h-3.5" />
-                            <span>Change-Sensitive Notice</span>
-                          </div>
-                          <p className="text-[11px] leading-relaxed">
+                        <div className="p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300/80 dark:border-amber-800/50 flex items-start gap-2.5 text-xs text-amber-950 dark:text-amber-200 select-none">
+                          <AlertTriangle className="w-4 h-4 text-amber-800 dark:text-amber-400 flex-shrink-0 mt-0.5" />
+                          <div>
                             <FormattedText text={topic.changeAlert.currentFactSummary} />
-                          </p>
-                        </div>
-                      )}
-
-                      {/* Context / What Happened snippet */}
-                      {topic.whatHappened && topic.whatHappened.length > 0 && (
-                        <div className="text-xs sm:text-sm text-[var(--text-primary)] font-serif leading-relaxed">
-                          <p><FormattedText text={topic.whatHappened[0]} /></p>
-                        </div>
-                      )}
-
-                      {/* KEY FACTS Bullets */}
-                      {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-                        <div className="space-y-1.5 pt-1">
-                          <div className="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--text-subtle)] select-none">
-                            Key Facts
                           </div>
-                          <ul className="space-y-1 text-xs sm:text-sm text-[var(--text-primary)] font-serif pl-1">
-                            {topic.mustMemorizeFacts.slice(0, isP1 ? 4 : 3).map((fact, fIdx) => (
-                              <li key={fIdx} className="flex items-start gap-2">
-                                <span className="text-amber-800 dark:text-amber-400 font-bold select-none">•</span>
-                                <span><FormattedText text={fact} /></span>
+                        </div>
+                      )}
+
+                      {/* WHAT HAPPENED */}
+                      {topic.whatHappened && topic.whatHappened.length > 0 && (
+                        <div className="space-y-2">
+                          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+                            WHAT HAPPENED
+                          </div>
+                          <div className="space-y-2.5 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
+                            {topic.whatHappened.map((para, pIdx) => (
+                              <p key={pIdx}><FormattedText text={para} /></p>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* KEY NUMBERS / RULES */}
+                      {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
+                        <div className="space-y-2">
+                          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+                            KEY NUMBERS / RULES
+                          </div>
+                          <ul className="space-y-2 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
+                            {topic.mustMemorizeFacts.map((fact, fIdx) => (
+                              <li key={fIdx} className="flex items-start gap-2.5">
+                                <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5 text-xs select-none">•</span>
+                                <span className="flex-1 leading-relaxed"><FormattedText text={fact} /></span>
                               </li>
                             ))}
                           </ul>
                         </div>
                       )}
 
-                      {/* Action Links */}
-                      <div className="flex items-center justify-between pt-3 border-t border-[var(--border-primary)] select-none text-xs font-mono">
-                        <Link
-                          href={`/topics/${topic.slug}`}
-                          className="text-amber-900 dark:text-amber-300 hover:underline font-semibold inline-flex items-center gap-1"
-                        >
-                          <span>Read Full Note →</span>
-                        </Link>
+                      {/* WHY IT MATTERS */}
+                      {topic.knowUnderstandContext && topic.knowUnderstandContext.length > 0 && (
+                        <div className="space-y-2">
+                          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+                            WHY IT MATTERS
+                          </div>
+                          <div className="space-y-2.5 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
+                            {topic.knowUnderstandContext.map((para, pIdx) => (
+                              <p key={pIdx}><FormattedText text={para} /></p>
+                            ))}
+                          </div>
+                        </div>
+                      )}
 
-                        <Link
-                          href={`/revision?topic=${topic.slug}`}
-                          className="text-[var(--text-muted)] hover:text-[var(--text-primary)] inline-flex items-center gap-1"
-                        >
-                          <Zap className="w-3 h-3 fill-current" />
-                          <span>Drill</span>
-                        </Link>
-                      </div>
+                      {/* EXAM TAKEAWAY */}
+                      {topic.examFocus && topic.examFocus.length > 0 && (
+                        <div className="p-4 rounded-xl bg-amber-50/80 dark:bg-amber-950/20 border border-amber-300/80 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1.5">
+                          <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[11px] select-none">
+                            EXAM TAKEAWAY
+                          </div>
+                          <ul className="space-y-1 text-amber-950 dark:text-amber-200">
+                            {topic.examFocus.map((focus, efIdx) => (
+                              <li key={efIdx} className="flex items-start gap-2">
+                                <span className="font-bold text-amber-800 dark:text-amber-400 select-none">•</span>
+                                <span><FormattedText text={focus} /></span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {/* Collapsed Provenance Details */}
+                      <details className="pt-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                        <summary className="cursor-pointer hover:text-[var(--text-primary)] transition-colors list-none flex items-center gap-1.5">
+                          <FileText className="w-3 h-3 text-[var(--text-subtle)]" />
+                          <span>Source &amp; verification details ▾</span>
+                        </summary>
+                        <div className="mt-2 p-3.5 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-2 text-[11px]">
+                          <div className="flex items-center gap-2">
+                            <ShieldCheck className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
+                            <span>Verification: {topic.verificationStatus.replace(/_/g, " ")}</span>
+                            <span>·</span>
+                            <Calendar className="w-3 h-3 text-[var(--text-subtle)]" />
+                            <span>Event: {topic.initialEventDate}</span>
+                          </div>
+                          {topic.sourceReferences && topic.sourceReferences.length > 0 && (
+                            <div className="text-[var(--text-muted)]">
+                              Sources: {topic.sourceReferences.map(s => `${s.sourceName} (${s.batchName})`).join(", ")}
+                            </div>
+                          )}
+                          <div className="pt-1 text-[10px]">
+                            <Link href={`/topics/${topic.slug}`} className="text-amber-900 dark:text-amber-300 hover:underline">
+                              Open standalone note page →
+                            </Link>
+                          </div>
+                        </div>
+                      </details>
                     </article>
                   );
                 })}
