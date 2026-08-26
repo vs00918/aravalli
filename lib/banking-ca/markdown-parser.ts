@@ -151,18 +151,29 @@ export function parseCanonicalMarkdownFile(
     // Match Topic Headings (Strictly 3 hashes, never 4)
     const h3Match = line.match(/^###\s+(?!#)(\d+[\.\)]\s*)?(.+)/);
     const p2NumMatch = currentPart === 'P2' && line.match(/^(\d+)\.\s*\*\*(.+?)\*\*(\s*\(~?(\d+)\s*min\))?:?/);
-    const p3BulletMatch = currentPart === 'P3' && line.match(/^[\*\-]\s*\*\*(.+?)\*\*:\s*(.+)/);
+    const isP3Metadata = /^[\*\-]?\s*\*\*(Category|Primary Category|Institution|Primary Institution|Priority|Date|Source|Status|Regulatory Status)\*\*:/i.test(line);
+    const p3BulletMatch = currentPart === 'P3' && !isP3Metadata ? line.match(/^[\*\-]\s*\*\*(.+?)\*\*:\s*(.+)/) : null;
 
-    if (h3Match && (currentPart === 'P1' || currentPart === 'P2')) {
+    if (h3Match && (currentPart === 'P1' || currentPart === 'P2' || currentPart === 'P3')) {
       flushCurrentTopic();
       const rawTitle = h3Match[2].trim();
       const isDraft = rawTitle.toUpperCase().includes('DRAFT') || rawTitle.toUpperCase().includes('PROPOSAL');
       
+      let defaultPriority: PriorityLevel = 'P1_CRITICAL_DEEP';
+      let defaultRevTime = 8;
+      if (currentPart === 'P2') {
+        defaultPriority = 'P2_HIGH';
+        defaultRevTime = 3;
+      } else if (currentPart === 'P3') {
+        defaultPriority = 'P3_MODERATE';
+        defaultRevTime = 1;
+      }
+
       currentTopic = {
         title: rawTitle,
         slug: generateStableSlug(rawTitle),
-        priority: currentPart === 'P1' ? 'P1_CRITICAL_DEEP' : 'P2_HIGH',
-        revisionMinutes: currentPart === 'P1' ? 8 : 3,
+        priority: defaultPriority,
+        revisionMinutes: defaultRevTime,
         regulatoryStatus: isDraft ? 'DRAFT' : undefined, // Only assign DRAFT if explicit, never default to IMPLEMENTED
         verificationStatus: 'SOURCE_ONLY',
         whatHappened: [],
@@ -254,9 +265,14 @@ export function parseCanonicalMarkdownFile(
 
       // Extract Change Alerts
       if (line.includes('Change-Sensitive') || line.includes('⚠️')) {
+        const summary = line
+          .replace(/.*Change-Sensitive:?\*?\*?\s*/i, '')
+          .replace(/⚠️/g, '')
+          .replace(/^[*\s_:]+/, '')
+          .trim();
         currentTopic.changeAlert = {
           isChangeSensitive: true,
-          currentFactSummary: line.replace(/.*Change-Sensitive:?\s*/i, '').replace(/⚠️/g, '').trim(),
+          currentFactSummary: summary,
           changeTrigger: 'Upcoming regulatory review or scheduled MPC',
           actionBeforeExam: 'Re-verify official status before Mains exam.'
         };
@@ -290,8 +306,11 @@ export function parseCanonicalMarkdownFile(
       }
 
       // Check if line is metadata header (Priority, Source, Event Date, Category, Institution, Target Exams, Status)
-      const isMetadataLine = /^\s*[\*\-]?\s*\**\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Institution|Status|Regulatory Status|Target Exams)\s*\**\s*:\s*\**/i.test(line) ||
-                            /^\s*[\*\-]?\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Institution|Status|Regulatory Status|Target Exams):/i.test(line);
+      const isMetadataLine = 
+        /^\s*[\*\-]?\s*\**\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Primary Category|Institution|Primary Institution|Status|Regulatory Status|Target Exams)\s*\**\s*:/i.test(line) ||
+        /^\s*[\*\-]?\s*(\*\*|\*|`)*(Category|Priority|Institution|Date|Source|Status)(\*\*|\*|`)*\s*:\s*[`*]*/i.test(line) ||
+        line.includes('| **Institution**:') ||
+        line.includes('| **Priority**:');
 
       if (isMetadataLine) {
         continue;
@@ -301,6 +320,10 @@ export function parseCanonicalMarkdownFile(
       const bulletMatch = line.match(/^\s*[\*\-]\s*(.+)/);
       if (bulletMatch && currentPart !== 'IGNORE' && currentPart !== 'REPORT') {
         let text = bulletMatch[1].trim();
+        // Skip if this bullet is just a metadata line
+        if (/^(\*\*|\*|`)*(Category|Priority|Institution|Date|Source|Status|Regulatory Status)(\*\*|\*|`)*\s*:/i.test(text)) {
+          continue;
+        }
         // Strip redundant bullet prefixes like "- **Must-Memorize Fact**: " -> ""
         text = text.replace(/^\*\*(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact)\*\*:\s*/i, '');
         text = text.replace(/^(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact):\s*/i, '');

@@ -3,11 +3,11 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 475,
+    "totalCanonicalTopics": 513,
     "activeP1Count": 31,
     "activeP1RevisionMinutes": 222,
     "totalP2Count": 205,
-    "totalP3Count": 239,
+    "totalP3Count": 277,
     "totalBatchesIngested": 8
   },
   "examProfiles": [
@@ -79,7 +79,7 @@
       "chronologicalWeek": "week-1-2",
       "changeAlert": {
         "isChangeSensitive": true,
-        "currentFactSummary": "** Next MPC meeting scheduled for October 5–7, 2026.",
+        "currentFactSummary": "Next MPC meeting scheduled for October 5–7, 2026.",
         "changeTrigger": "Upcoming regulatory review or scheduled MPC",
         "actionBeforeExam": "Re-verify official status before Mains exam."
       },
@@ -17797,10 +17797,10 @@
       ],
       "contentMarkdown": "### 28. VOC Port Authority Becomes 1st Indian Port with ISO 50001:2018 Energy Management Certification\n- **Category**: `NATIONAL_AND_STATES`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-08-08`\n- **Must-Memorize Fact**: V.O. Chidambaranar Port Authority (Tuticorin, Tamil Nadu) became India's 1st major port accredited with ISO 50001:2018 Energy Management System certification by Indian Register Quality Systems (IRQS) under Harit Sagar Guidelines.\n\n---"
     },
-    "category": {
-      "id": "category",
-      "slug": "category",
-      "title": "Category",
+    "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts": {
+      "id": "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
+      "slug": "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
+      "title": "HDFC Bank Launches 'Max for Seniors' & 'Max for Her' Savings Accounts",
       "priority": "P3_MODERATE",
       "revisionMinutes": 1,
       "primaryCategory": "NATIONAL_AND_STATES",
@@ -17809,7 +17809,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "`BANKING_REGULATION` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+        "HDFC Bank Launches 'Max for Seniors' & 'Max for Her' Savings Accounts"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17829,199 +17829,9 @@
           "sourceName": "SMARTKEEDA",
           "batchName": "08-august-2026-smartkeeda-w2",
           "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
-        },
-        {
-          "sourceName": "SMARTKEEDA",
-          "batchName": "08-august-2026-smartkeeda-w2",
-          "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "- **Category**: `BANKING_REGULATION` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+      "contentMarkdown": "### 29. HDFC Bank Launches 'Max for Seniors' & 'Max for Her' Savings Accounts\n- **Category**: `BANKING_REGULATION` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
     },
     "must-memorize-fact": {
       "id": "must-memorize-fact",
@@ -18248,6 +18058,1374 @@
         }
       ],
       "contentMarkdown": "- **Must-Memorize Fact**: HDFC Bank launched Savings Max variants: 'Max for Seniors' offers ₹25,000 cyber fraud cover, ₹1 lakh hospitalization cover, ₹3.19 crore debit card accidental death cover, and +0.50% FD rate; 'Max for Her' offers ₹1 lakh hospitalization and ₹10 lakh accidental death cover."
+    },
+    "trai-expands-1600-series-to-1601-series-for-utilities-logistics": {
+      "id": "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
+      "slug": "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
+      "title": "TRAI Expands 1600-Series to '1601' Series for Utilities & Logistics",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "TRAI Expands 1600-Series to '1601' Series for Utilities & Logistics"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 30. TRAI Expands 1600-Series to '1601' Series for Utilities & Logistics\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform": {
+      "id": "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
+      "slug": "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
+      "title": "NeGD & AAERI Partner for DigiLocker-Integrated 'AAERI Verify' Platform",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "NeGD & AAERI Partner for DigiLocker-Integrated 'AAERI Verify' Platform"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 31. NeGD & AAERI Partner for DigiLocker-Integrated 'AAERI Verify' Platform\n- **Category**: `DIGITAL_PAYMENTS` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-07`"
+    },
+    "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal": {
+      "id": "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
+      "slug": "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
+      "title": "Sarbananda Sonowal Launches 'E-Samudra' Maritime Governance Portal",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Sarbananda Sonowal Launches 'E-Samudra' Maritime Governance Portal"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 32. Sarbananda Sonowal Launches 'E-Samudra' Maritime Governance Portal\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "national-edible-oil-missions-progress-oilseed-production-at-4306-mt": {
+      "id": "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
+      "slug": "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
+      "title": "National Edible Oil Missions Progress: Oilseed Production at 43.06 MT",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "National Edible Oil Missions Progress: Oilseed Production at 43.06 MT"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 33. National Edible Oil Missions Progress: Oilseed Production at 43.06 MT\n- **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-07`"
+    },
+    "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects": {
+      "id": "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
+      "slug": "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
+      "title": "MHA Issues National Security Buffer Guidelines for Border Renewable Projects",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "MHA Issues National Security Buffer Guidelines for Border Renewable Projects"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 34. MHA Issues National Security Buffer Guidelines for Border Renewable Projects\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach": {
+      "id": "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+      "slug": "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+      "title": "HAL Airport Bengaluru Becomes 1st to Operationalise RNP CAT H Helicopter Approach",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "HAL Airport Bengaluru Becomes 1st to Operationalise RNP CAT H Helicopter Approach"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 35. HAL Airport Bengaluru Becomes 1st to Operationalise RNP CAT H Helicopter Approach\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt": {
+      "id": "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+      "slug": "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+      "title": "National Beekeeping and Honey Mission: Production Touches 1.51 Lakh MT",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "National Beekeeping and Honey Mission: Production Touches 1.51 Lakh MT"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 36. National Beekeeping and Honey Mission: Production Touches 1.51 Lakh MT\n- **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "gujarat-approves-4-natural-farming-centres-of-excellence": {
+      "id": "gujarat-approves-4-natural-farming-centres-of-excellence",
+      "slug": "gujarat-approves-4-natural-farming-centres-of-excellence",
+      "title": "Gujarat Approves 4 Natural Farming Centres of Excellence",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Gujarat Approves 4 Natural Farming Centres of Excellence"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 37. Gujarat Approves 4 Natural Farming Centres of Excellence\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-07`"
+    },
+    "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam": {
+      "id": "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+      "slug": "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+      "title": "World's 1st Satellite-Transmitter Release of Captive-Bred Vultures in Assam",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "World's 1st Satellite-Transmitter Release of Captive-Bred Vultures in Assam"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 38. World's 1st Satellite-Transmitter Release of Captive-Bred Vultures in Assam\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-07`"
+    },
+    "mha-expands-international-e-visa-ports-of-entry-to-88": {
+      "id": "mha-expands-international-e-visa-ports-of-entry-to-88",
+      "slug": "mha-expands-international-e-visa-ports-of-entry-to-88",
+      "title": "MHA Expands International E-Visa Ports of Entry to 88",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "MHA Expands International E-Visa Ports of Entry to 88"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 39. MHA Expands International E-Visa Ports of Entry to 88\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero": {
+      "id": "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
+      "slug": "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
+      "title": "Pacific Island Nation of Nauru Renamed as Republic of Naoero",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Pacific Island Nation of Nauru Renamed as Republic of Naoero"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 40. Pacific Island Nation of Nauru Renamed as Republic of Naoero\n- **Category**: `INTERNATIONAL_AFFAIRS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc": {
+      "id": "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+      "slug": "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+      "title": "Venezuela Formally Notifies UN of Withdrawal from Rome Statute (ICC)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Venezuela Formally Notifies UN of Withdrawal from Rome Statute (ICC)"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 41. Venezuela Formally Notifies UN of Withdrawal from Rome Statute (ICC)\n- **Category**: `INTERNATIONAL_AFFAIRS` | **Institution**: `INTERNATIONAL_BODIES` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "donald-trump-signs-executive-orders-on-birthright-citizenship": {
+      "id": "donald-trump-signs-executive-orders-on-birthright-citizenship",
+      "slug": "donald-trump-signs-executive-orders-on-birthright-citizenship",
+      "title": "Donald Trump Signs Executive Orders on Birthright Citizenship",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Donald Trump Signs Executive Orders on Birthright Citizenship"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 42. Donald Trump Signs Executive Orders on Birthright Citizenship\n- **Category**: `INTERNATIONAL_AFFAIRS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-06`"
+    },
+    "typhoon-dolphin-strikes-zhejiang-province-china": {
+      "id": "typhoon-dolphin-strikes-zhejiang-province-china",
+      "slug": "typhoon-dolphin-strikes-zhejiang-province-china",
+      "title": "Typhoon Dolphin Strikes Zhejiang Province, China",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Typhoon Dolphin Strikes Zhejiang Province, China"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 43. Typhoon Dolphin Strikes Zhejiang Province, China\n- **Category**: `INTERNATIONAL_AFFAIRS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran": {
+      "id": "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
+      "slug": "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
+      "title": "IAF Conducts Counter-UAS Exercise \"ROTOR CLAP-III\" at Pokhran",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "IAF Conducts Counter-UAS Exercise \"ROTOR CLAP-III\" at Pokhran"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 44. IAF Conducts Counter-UAS Exercise \"ROTOR CLAP-III\" at Pokhran\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi": {
+      "id": "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
+      "slug": "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
+      "title": "8th India-US Navy Explosive Ordnance Disposal (EOD) Exercise 2026 at Kochi",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "8th India-US Navy Explosive Ordnance Disposal (EOD) Exercise 2026 at Kochi"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 45. 8th India-US Navy Explosive Ordnance Disposal (EOD) Exercise 2026 at Kochi\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-10`"
+    },
+    "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv": {
+      "id": "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+      "slug": "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+      "title": "GRSE Launches 'Shruti', 2nd Next Generation Offshore Patrol Vessel (NGOPV)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "GRSE Launches 'Shruti', 2nd Next Generation Offshore Patrol Vessel (NGOPV)"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 46. GRSE Launches 'Shruti', 2nd Next Generation Offshore Patrol Vessel (NGOPV)\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-11`"
+    },
+    "australia-announces-dates-for-exercise-talisman-sabre-2027": {
+      "id": "australia-announces-dates-for-exercise-talisman-sabre-2027",
+      "slug": "australia-announces-dates-for-exercise-talisman-sabre-2027",
+      "title": "Australia Announces Dates for Exercise Talisman Sabre 2027",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Australia Announces Dates for Exercise Talisman Sabre 2027"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 47. Australia Announces Dates for Exercise Talisman Sabre 2027\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026": {
+      "id": "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+      "slug": "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+      "title": "Tanvi Sharma Wins Maiden BWF Title at Taipei Open 2026",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Tanvi Sharma Wins Maiden BWF Title at Taipei Open 2026"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 48. Tanvi Sharma Wins Maiden BWF Title at Taipei Open 2026\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "ashmita-chaliha-wins-korea-masters-2026-super-300-title": {
+      "id": "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
+      "slug": "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
+      "title": "Ashmita Chaliha Wins Korea Masters 2026 Super 300 Title",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Ashmita Chaliha Wins Korea Masters 2026 Super 300 Title"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 49. Ashmita Chaliha Wins Korea Masters 2026 Super 300 Title\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships": {
+      "id": "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+      "slug": "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+      "title": "Ariha Pangambam Wins India's 1st Senior Gold at Aerobic Gymnastics Asian Championships",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Ariha Pangambam Wins India's 1st Senior Gold at Aerobic Gymnastics Asian Championships"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 50. Ariha Pangambam Wins India's 1st Senior Gold at Aerobic Gymnastics Asian Championships\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-07`"
+    },
+    "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026": {
+      "id": "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
+      "slug": "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
+      "title": "R. Praggnanandhaa Wins Grand Chess Tour St. Louis Rapid & Blitz 2026",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "R. Praggnanandhaa Wins Grand Chess Tour St. Louis Rapid & Blitz 2026"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 51. R. Praggnanandhaa Wins Grand Chess Tour St. Louis Rapid & Blitz 2026\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course": {
+      "id": "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
+      "slug": "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
+      "title": "Sqn Ldr Bhawana Kanth 1st Woman Officer to Complete IAF Fighter Combat Leader Course",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Sqn Ldr Bhawana Kanth 1st Woman Officer to Complete IAF Fighter Combat Leader Course"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 52. Sqn Ldr Bhawana Kanth 1st Woman Officer to Complete IAF Fighter Combat Leader Course\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy": {
+      "id": "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
+      "slug": "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
+      "title": "INST Mohali & BARC Develop Light-Activated Nanobots for Targeted Breast Cancer Therapy",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "PENSION_SYSTEMS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "INST Mohali & BARC Develop Light-Activated Nanobots for Targeted Breast Cancer Therapy"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 53. INST Mohali & BARC Develop Light-Activated Nanobots for Targeted Breast Cancer Therapy\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign": {
+      "id": "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+      "slug": "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+      "title": "I4C Issues Advisory on 'Boss Scam' WhatsApp Impersonation Campaign",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "I4C Issues Advisory on 'Boss Scam' WhatsApp Impersonation Campaign"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 54. I4C Issues Advisory on 'Boss Scam' WhatsApp Impersonation Campaign\n- **Category**: `DIGITAL_PAYMENTS` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat": {
+      "id": "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
+      "slug": "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
+      "title": "PM Modi Inaugurates \"Param Pragya\" AI Supercomputing Facility at IIT Delhi Sonipat",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "PM Modi Inaugurates \"Param Pragya\" AI Supercomputing Facility at IIT Delhi Sonipat"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 55. PM Modi Inaugurates \"Param Pragya\" AI Supercomputing Facility at IIT Delhi Sonipat\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine": {
+      "id": "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+      "slug": "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+      "title": "Astrobase Space Technologies Unveils \"EVEREST\" 800 kN FFSC Rocket Engine",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Astrobase Space Technologies Unveils \"EVEREST\" 800 kN FFSC Rocket Engine"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 56. Astrobase Space Technologies Unveils \"EVEREST\" 800 kN FFSC Rocket Engine\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow": {
+      "id": "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
+      "slug": "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
+      "title": "CSIR-NBRI Dedicates \"Prakriti Gyan Dham\" Eco-Educational Hub at Lucknow",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "CSIR-NBRI Dedicates \"Prakriti Gyan Dham\" Eco-Educational Hub at Lucknow"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 57. CSIR-NBRI Dedicates \"Prakriti Gyan Dham\" Eco-Educational Hub at Lucknow\n- **Category**: `DEFENCE_AND_SCIENCE` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas": {
+      "id": "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
+      "slug": "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
+      "title": "Air Marshal Tejpal Singh Appointed Deputy Chief of the Air Staff (DCAS)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "APPOINTMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Air Marshal Tejpal Singh Appointed Deputy Chief of the Air Staff (DCAS)"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 58. Air Marshal Tejpal Singh Appointed Deputy Chief of the Air Staff (DCAS)\n- **Category**: `APPOINTMENTS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno": {
+      "id": "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
+      "slug": "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
+      "title": "Vice Admiral Manish Chadha Assumes Charge as Director General Naval Operations (DGNO)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Vice Admiral Manish Chadha Assumes Charge as Director General Naval Operations (DGNO)"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 59. Vice Admiral Manish Chadha Assumes Charge as Director General Naval Operations (DGNO)\n- **Category**: `APPOINTMENTS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026": {
+      "id": "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
+      "slug": "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
+      "title": "Prof. Annapurni Subramaniam Awarded COSPAR Vikram Sarabhai Medal 2026",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Prof. Annapurni Subramaniam Awarded COSPAR Vikram Sarabhai Medal 2026"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 60. Prof. Annapurni Subramaniam Awarded COSPAR Vikram Sarabhai Medal 2026\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics": {
+      "id": "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
+      "slug": "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
+      "title": "Deepak Dhar Conferred 2026 Dirac Medal for Statistical Mechanics",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Deepak Dhar Conferred 2026 Dirac Medal for Statistical Mechanics"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 61. Deepak Dhar Conferred 2026 Dirac Medal for Statistical Mechanics\n- **Category**: `SPORTS_AND_AWARDS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled": {
+      "id": "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
+      "slug": "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
+      "title": "PM-VBRY Completes 1 Year: 72 Lakh First-Time Employees Enrolled",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "PM-VBRY Completes 1 Year: 72 Lakh First-Time Employees Enrolled"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 62. PM-VBRY Completes 1 Year: 72 Lakh First-Time Employees Enrolled\n- **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera": {
+      "id": "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera",
+      "slug": "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera",
+      "title": "Zoological Survey of India Completes 22-Volume Catalogue of Lepidoptera",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Zoological Survey of India Completes 22-Volume Catalogue of Lepidoptera"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 63. Zoological Survey of India Completes 22-Volume Catalogue of Lepidoptera\n- **Category**: `REPORTS_AND_INDICES` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings": {
+      "id": "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
+      "slug": "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
+      "title": "Barclays-Hurun India Family Businesses 2026: Ambani & Adani Lead Rankings",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Barclays-Hurun India Family Businesses 2026: Ambani & Adani Lead Rankings"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 64. Barclays-Hurun India Family Businesses 2026: Ambani & Adani Lead Rankings\n- **Category**: `REPORTS_AND_INDICES` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-11`"
+    },
+    "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha": {
+      "id": "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
+      "slug": "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
+      "title": "Jupiter Wagons & Lucchini RS Partner for ₹2,500 Crore Railwheel Plant in Odisha",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DIGITAL_PAYMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Jupiter Wagons & Lucchini RS Partner for ₹2,500 Crore Railwheel Plant in Odisha"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 65. Jupiter Wagons & Lucchini RS Partner for ₹2,500 Crore Railwheel Plant in Odisha\n- **Category**: `CAPITAL_MARKETS` | **Institution**: `OTHER` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
+    },
+    "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards": {
+      "id": "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
+      "slug": "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
+      "title": "CCRAS & BIS Sign 100th Milestone MoU for Ayush Quality Standards",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "INTERNATIONAL_BODIES",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "CCRAS & BIS Sign 100th Milestone MoU for Ayush Quality Standards"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 66. CCRAS & BIS Sign 100th Milestone MoU for Ayush Quality Standards\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-08`"
+    },
+    "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification": {
+      "id": "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
+      "slug": "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
+      "title": "PMS Bazaar & NSDL Partner for SEBI Accredited Investor Certification",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "SEBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "PMS Bazaar & NSDL Partner for SEBI Accredited Investor Certification"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "08-august-2026-smartkeeda-w2",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 67. PMS Bazaar & NSDL Partner for SEBI Accredited Investor Certification\n- **Category**: `CAPITAL_MARKETS` | **Institution**: `SEBI` | **Priority**: `P3_MODERATE` | **Date**: `2026-08-09`"
     }
   },
   "topicSlugMap": {
@@ -18724,8 +19902,46 @@
     "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo": "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo",
     "senior-civil-service-foreign-deputations-approved-by-acc": "senior-civil-service-foreign-deputations-approved-by-acc",
     "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification": "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
-    "category": "category",
-    "must-memorize-fact": "must-memorize-fact"
+    "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts": "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
+    "must-memorize-fact": "must-memorize-fact",
+    "trai-expands-1600-series-to-1601-series-for-utilities-logistics": "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
+    "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform": "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
+    "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal": "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
+    "national-edible-oil-missions-progress-oilseed-production-at-4306-mt": "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
+    "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects": "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
+    "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach": "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+    "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt": "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+    "gujarat-approves-4-natural-farming-centres-of-excellence": "gujarat-approves-4-natural-farming-centres-of-excellence",
+    "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam": "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+    "mha-expands-international-e-visa-ports-of-entry-to-88": "mha-expands-international-e-visa-ports-of-entry-to-88",
+    "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero": "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
+    "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc": "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+    "donald-trump-signs-executive-orders-on-birthright-citizenship": "donald-trump-signs-executive-orders-on-birthright-citizenship",
+    "typhoon-dolphin-strikes-zhejiang-province-china": "typhoon-dolphin-strikes-zhejiang-province-china",
+    "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran": "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
+    "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi": "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
+    "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv": "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+    "australia-announces-dates-for-exercise-talisman-sabre-2027": "australia-announces-dates-for-exercise-talisman-sabre-2027",
+    "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026": "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+    "ashmita-chaliha-wins-korea-masters-2026-super-300-title": "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
+    "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships": "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+    "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026": "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
+    "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course": "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
+    "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy": "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
+    "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign": "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+    "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat": "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
+    "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine": "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+    "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow": "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
+    "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas": "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
+    "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno": "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
+    "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026": "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
+    "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics": "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
+    "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled": "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
+    "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera": "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera",
+    "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings": "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
+    "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha": "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
+    "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards": "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
+    "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification": "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification"
   },
   "indexes": {
     "byPriority": {
@@ -18981,17 +20197,24 @@
         "68th-annual-grammy-awards-bafta-awards-2026",
         "79459-crore-hrrl-greenfield-petrochemical-complex-dedicated-at-pachpadra",
         "80th-independence-day-announcements",
+        "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
         "9th-prof-ms-swaminathan-award-202425",
         "ad-category-ii-licences",
         "adb-asian-development-outlook-2026",
+        "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
         "alwar-rajasthan-becomes-1st-100-insured-district",
         "anrf-rdi-fund-first-calls-tdb-birac-2000-crore",
         "apsez-operationalizes-ports-of-refuge-at-dighi-and-gopalpur",
+        "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+        "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
         "ashoka-chakra-conferred-on-group-captain-shubhanshu-shukla",
+        "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "australia-announces-dates-for-exercise-talisman-sabre-2027",
         "australian-open-2026-champions",
         "axis-bank-raises-500-million-offshore-loan-from-mufg",
         "bank-of-baroda-green-infra-bonds-gift-city-syndicated-loan",
         "bank-of-baroda-standalone-primary-dealer-spd-subsidiary",
+        "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bcci-annual-awards-2026",
         "bharat-forge-awarded-1662-crore-army-carbine-contract",
         "bharat-taxi-cooperative-ride-hailing-platform-launched",
@@ -19009,18 +20232,21 @@
         "ca-prasanna-kumar-d-elected-74th-president-of-icai",
         "cabinet-approves-18662-crore-underwater-road-rail-brahmaputra-tunnel",
         "canara-bank-raises-5000-crore-tier-ii-bonds",
-        "category",
         "cbic-launches-swift-20-and-revamped-atithi-app",
+        "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "chandrayaan-3-receives-2026-aiaa-goddard-astronautics-award",
         "cji-surya-kant-declares-sikkim-countrys-1st-paperless-judiciary-state-launches-su-sahay-ai-chatbot",
         "constitution-amendment-bill-proposes-lok-sabha-expansion-to-850-seats",
         "corruption-perceptions-index-cpi-2025",
         "crafoord-prize-2026-in-geosciences",
+        "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
         "deendayal-port-kandla-reclaims-top-major-port-spot",
+        "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
         "defence-ministry-grants-miniratna-category-i-status-to-yantra-india-limited",
         "defence-srijan-portal",
         "defence-vessels",
         "delhidehradun-economic-corridor-210-km-11868-cr-inaugurated",
+        "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "dpiit-fdi-equity-inflows-aprdec-fy26",
         "drdo-demonstrates-solid-fuel-ducted-ramjet-sfdr-technology",
@@ -19052,11 +20278,17 @@
         "government-imposes-immediate-ban-on-sugar-exports-until-september-30-2026",
         "government-notifies-coking-coal-as-critical-strategic-mineral",
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
+        "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
         "gst-collections-touch-193-trillion-in-january-2026",
+        "gujarat-approves-4-natural-farming-centres-of-excellence",
+        "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+        "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
         "henley-passport-index-2026",
         "henley-passport-index-february-2026",
         "henley-passport-index-may-2026-update",
         "hurun-global-rich-list-2026",
+        "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+        "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
         "icc-mens-t20-world-cup-2026",
         "icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "iea-world-energy-investment-2026",
@@ -19076,6 +20308,7 @@
         "indian-navy-inductions-stealth-frigate-mahendragiri-p17a-ngopv-sanghmitra",
         "indias-94th-chess-grandmaster",
         "indias-first-24x7-lpg-atm-in-gurugram",
+        "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "ipl-2026-championship",
         "irdai-reconstitutes-reinsurance-advisory-committee-rac",
         "irena-renewable-capacity-statistics-2026",
@@ -19084,6 +20317,7 @@
         "jal-jeevan-mission-jjm",
         "jica-signs-16420-crore-oda-loan-agreements",
         "jio-financial-services-allianz-form-5050-insurance-jv",
+        "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
         "kerala-approves-indias-first-graphene-policy-grefine-park",
         "key-banking-corporate-appointments-february-2026",
@@ -19097,6 +20331,8 @@
         "m-pallonji-group-divya-sehgal-federal-bank-receive-irdai-r1-approval",
         "mca-accounting-rules",
         "mha-e-zero-firs",
+        "mha-expands-international-e-visa-ports-of-entry-to-88",
+        "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
         "micron-technologys-22500-crore-semiconductor-atmp-inaugurated-in-sanand",
         "miga-issues-19767-million-guarantee-for-citibank-loan-to-sbi-grpv",
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
@@ -19109,7 +20345,9 @@
         "nabfid-raises-5000-crore-debut-1-year-cd-at-695",
         "nagoya-protocol-on-abs-india-global-leader-with-56-of-irccs",
         "nasa-artemis-ii-crewed-lunar-orbit-mission-launches",
+        "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
         "national-dental-commission-ndc-act-2023-effective-march-19-2026",
+        "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
         "national-highways-green-cover-index-nh-gci-first-report",
         "national-housing-bank-launches-gruh-sugam-portal",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
@@ -19119,6 +20357,7 @@
         "ncdex-launches-rainmumbai-weather-derivatives-contract",
         "ncdex-nidhi",
         "ncrb-crime-in-india-2024-report",
+        "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "network-readiness-index-2025-portulans-institute",
         "new-seed-act-2026-revised-pesticide-act-2026-announced",
         "nhai-raajmarg-infra-investment-trust-riit-listed-on-bse",
@@ -19129,6 +20368,7 @@
         "npci-launches-fimi-finance-model-for-india-domain-specific-language-model",
         "npci-ties-up-with-malaysias-paynet-for-upi-duitnow-cross-border-qr-payments",
         "nse-ix-soft-launches-global-access-platform-under-rbi-lrs",
+        "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "parichha-dam-jhansi-betwa-river",
         "pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
@@ -19139,16 +20379,21 @@
         "pm-flags-off-delhimeerut-namo-bharat-rrts-meerut-metro",
         "pm-internship-scheme-pilot-guidelines-revised",
         "pm-modi-addresses-israeli-knesset-awarded-speaker-of-the-knesset-medal",
+        "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
         "pm-narendra-modi-conferred-international-honours",
         "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
+        "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
         "pmksy-10-year-review",
         "pmmsy-smart-integrated-fishing-harbour-at-mayabunder-an-islands",
+        "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
         "postransfer-remittances",
         "president-droupadi-murmu-confers-131-padma-awards-2026",
         "president-droupadi-murmu-sortie-in-indigenous-lch-prachand",
+        "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "project-dolphin-2nd-range-wide-riverine-estuarine-dolphin-survey",
         "prudentialbharti-life",
         "qs-world-university-rankings-by-subject-2026",
+        "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "ranji-trophy-2025-26",
         "rbi-cancels-sarvodaya-co-operative-bank-license-curbs-nagar-sahakari-bank",
         "rbi-european-central-bank-sign-updated-cooperation-agreement",
@@ -19164,6 +20409,7 @@
         "sahitya-akademi-awards-2025-announced-in-24-languages",
         "sample-registration-system-srs-statistical-report-2024-orgi",
         "saraswati-samman-2025-kk-birla-foundation",
+        "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sbi-raises-1-billion-mufg-social-loan-targets-10-green-advances",
         "sebi-bullion-vaulting",
         "sebi-clarifies-family-trusts-cannot-sponsor-mutual-funds",
@@ -19180,6 +20426,7 @@
         "solid-waste-management-rules-2026-notified",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
         "sports",
+        "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "state-bank-of-india-becomes-4th-most-valued-indian-firm",
         "state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
         "state-bank-of-india-raises-6051-crore-tier-2-bonds-500m-social-term-loan",
@@ -19187,10 +20434,13 @@
         "stockholm-water-prize-2026",
         "subhash-chandra-bose-aapda-prabandhan-puraskar-2026",
         "sukanya-samriddhi-yojana-ssy-interest-rate-at-82",
+        "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
         "times-higher-education-the-asia-university-rankings-2026",
+        "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
         "trai-imposes-150-crore-penalty-on-telecom-operators",
         "transcorp-international-receives-rbi-in-principle-approval-for-cps",
         "tripura-gramin-bank-launches-1st-rrb-rupay-credit-card",
+        "typhoon-dolphin-strikes-zhejiang-province-china",
         "uae-announces-exit-from-opec-and-opec-effective-may-1-2026",
         "ubs-billionaire-ambition-report-2025",
         "uday-kotak-appointed-chairman-of-gift-city",
@@ -19199,6 +20449,8 @@
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "upi-records-2170-billion-transactions-in-january-2026",
         "usgbc-leed-green-building-list-2025",
+        "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+        "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "vinay-muralidhar-tonse-appointed-md-ceo-of-yes-bank",
         "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike",
         "wgc-gold-demand-trends-2025",
@@ -19210,7 +20462,9 @@
         "world-bank-women-business-and-the-law-2026-report",
         "world-happiness-report-2026-14th-edition",
         "world-migration-report-2026-iom",
-        "world-press-freedom-index-2026-rsf"
+        "world-press-freedom-index-2026-rsf",
+        "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+        "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
       "P4_LOW_YIELD": []
     },
@@ -19244,16 +20498,20 @@
         "2025-un-military-gender-advocate-award",
         "68th-annual-grammy-awards-bafta-awards-2026",
         "9th-prof-ms-swaminathan-award-202425",
+        "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+        "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
         "bcci-annual-awards-2026",
         "bharat-forge-awarded-1662-crore-army-carbine-contract",
         "breakthrough-prizes-2026-in-science-3-million-prizes",
         "crafoord-prize-2026-in-geosciences",
+        "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
         "fields-medals-2026",
         "goldman-environmental-prize-2026-green-nobel",
         "khelo-india-winter-games-2026",
         "pm-modi-addresses-israeli-knesset-awarded-speaker-of-the-knesset-medal",
         "pm-narendra-modi-conferred-international-honours",
         "president-droupadi-murmu-confers-131-padma-awards-2026",
+        "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "sahitya-akademi-awards-2025-announced-in-24-languages",
         "saraswati-samman-2025-kk-birla-foundation",
         "stockholm-water-prize-2026",
@@ -19274,8 +20532,8 @@
         "brand-finance-banking-500-2026",
         "bulgaria-adopts-euro-as-official-currency",
         "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
-        "category",
         "cbic-launches-swift-20-and-revamped-atithi-app",
+        "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "constitution-amendment-bill-proposes-lok-sabha-expansion-to-850-seats",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
@@ -19296,6 +20554,8 @@
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
         "government-restores-rodtep-rates-and-value-caps-effective-march-23-2026-3-min",
         "gst-collections-touch-193-trillion-in-january-2026",
+        "gujarat-approves-4-natural-farming-centres-of-excellence",
+        "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
         "icc-mens-t20-world-cup-2026",
         "icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "iea-world-energy-investment-2026",
@@ -19321,6 +20581,8 @@
         "lic-launches-mylic-and-super-sales-saathi-on-dive-platform",
         "mca-accounting-rules",
         "mha-e-zero-firs",
+        "mha-expands-international-e-visa-ports-of-entry-to-88",
+        "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
         "micron-technologys-22500-crore-semiconductor-atmp-inaugurated-in-sanand",
         "ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs-3-min",
         "must-memorize-fact",
@@ -19333,6 +20595,7 @@
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-governance-act-2025-comes-into-partial-effect",
         "national-stock-exchange-nse-launches-electronic-gold-receipts-egrs",
+        "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "new-seed-act-2026-revised-pesticide-act-2026-announced",
         "niti-aayog-blueprint-for-andhra-pradesh-clean-energy-hub-2035",
@@ -19341,6 +20604,7 @@
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
         "pm-flags-off-delhimeerut-namo-bharat-rrts-meerut-metro",
         "pmmsy-smart-integrated-fishing-harbour-at-mayabunder-an-islands",
+        "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
         "president-droupadi-murmu-sortie-in-indigenous-lch-prachand",
         "presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
         "public-sector-banks-asset-quality-fy26-3-min",
@@ -19363,6 +20627,7 @@
         "rbih-i4c-sign-strategic-mou-on-anti-mule-account-detection",
         "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
+        "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sebi-bullion-vaulting",
         "sebi-clears-mcx-nse-coal-exchange-proposals",
         "sebi-digital-kyc-proposal",
@@ -19389,6 +20654,7 @@
         "un-high-seas-biodiversity-treaty-bbnj-enters-into-force",
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "wgc-gold-demand-trends-2025",
         "world-bank-approves-225-million-for-rajasthan-highway-modernization",
@@ -19397,6 +20663,7 @@
       "APPOINTMENTS": [
         "16th-finance-commission-submits-devolution-report-for-20262031-41-retained",
         "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
+        "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
         "apex-appointments-4-min",
         "apex-financial-regulatory-appointments-4-min",
         "first-meeting-of-payments-regulatory-board-prb",
@@ -19415,7 +20682,10 @@
         "500-mw-prototype-fast-breeder-reactor-pfbr-attains-criticality-at-kalpakkam",
         "60th-jnanpith-award-2025-conferred-on-tamil-poet-r-vairamuthu",
         "80th-independence-day-announcements",
+        "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
         "ashoka-chakra-conferred-on-group-captain-shubhanshu-shukla",
+        "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "australia-announces-dates-for-exercise-talisman-sabre-2027",
         "axis-bank-raises-500-million-offshore-loan-from-mufg",
         "bank-of-baroda-green-infra-bonds-gift-city-syndicated-loan",
         "bharat-taxi-cooperative-ride-hailing-platform-launched",
@@ -19423,12 +20693,14 @@
         "cabinet-approves-18662-crore-underwater-road-rail-brahmaputra-tunnel",
         "chandrayaan-3-receives-2026-aiaa-goddard-astronautics-award",
         "cji-surya-kant-declares-sikkim-countrys-1st-paperless-judiciary-state-launches-su-sahay-ai-chatbot",
+        "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
         "customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154-3-min",
         "dea-creates-17-lakh-crore-3-year-ppp-infrastructure-pipeline-3-min",
         "deendayal-port-kandla-reclaims-top-major-port-spot",
         "defence-ministry-grants-miniratna-category-i-status-to-yantra-india-limited",
         "defence-srijan-portal",
         "defence-vessels",
+        "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "drdo-demonstrates-solid-fuel-ducted-ramjet-sfdr-technology",
         "drdo-flight-tests-1500-km-long-range-hypersonic-anti-ship-missile-lr-ashm",
         "drdo-flight-tests-3rd-gen-mpatgm-with-top-attack-capability",
@@ -19441,7 +20713,11 @@
         "forbes-worlds-billionaires-2026",
         "fssai-directs-registration-for-non-cooperative-milk-vendors",
         "galaxeye-launches-mission-drishti-on-spacex-falcon-9",
+        "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+        "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
         "hurun-global-rich-list-2026",
+        "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+        "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
         "icar-develops-indias-1st-t2t-reference-genome-for-pigeonpea-asha-variety",
         "icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard-3-min",
@@ -19464,7 +20740,10 @@
         "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
         "national-sports-awards-2025",
         "nhai-raajmarg-infra-investment-trust-riit-listed-on-bse",
+        "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "pm-e-drive-guidelines-revised-10900-cr-outlay",
+        "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
+        "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "ranji-trophy-2025-26",
@@ -19488,13 +20767,20 @@
         "senior-civil-service-foreign-deputations-approved-by-acc",
         "skytrax-world-airport-awards-2026",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
+        "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
+        "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+        "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
         "trai-imposes-150-crore-penalty-on-telecom-operators",
-        "usgbc-leed-green-building-list-2025"
+        "typhoon-dolphin-strikes-zhejiang-province-china",
+        "usgbc-leed-green-building-list-2025",
+        "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+        "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam"
       ],
       "PENSION_SYSTEMS": [
         "239th-cbt-meeting-epf-interest-rate-maintained-at-825-for-fy26-3-min",
         "cabinet-extends-atal-pension-yojana-apy-up-to-fy-2030-31-3-min",
+        "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-approves-ppfas-amc-as-nps-pension-fund-sponsor-clarifies-tier-ii-charges",
         "pfrda-constitutes-high-level-panels-assured-payouts-dr-ms-sahoo-saarg-3-min",
@@ -19537,11 +20823,14 @@
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "lakhpati-didi-target-doubled-to-6-crore-by-march-2029-3-min",
         "morth-launches-pm-rahat-cashless-road-accident-victim-scheme-3-min",
+        "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+        "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "pm-internship-scheme-pilot-guidelines-revised",
         "pm-surya-ghar-muft-bijli-yojana-crosses-5006-lakh-households-milestone",
         "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
+        "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
         "pmay-urban-20-ews-housing-construction-target-raised-by-350-3-min",
         "pmksy-10-year-review",
         "pradhan-mantri-matru-vandana-yojana-pmmvy-completes-9-years-3-min",
@@ -19606,6 +20895,7 @@
         "state-bank-of-india-raises-6051-crore-tier-2-bonds-500m-social-term-loan"
       ],
       "REPORTS_AND_INDICES": [
+        "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bimco-ics-seafarer-workforce-report-2026",
         "bloomberg-billionaires-index-may-2026",
         "bse-index-services-launches-bse-housing-finance-index",
@@ -19648,7 +20938,8 @@
         "world-bank-women-business-and-the-law-2026-report",
         "world-happiness-report-2026-14th-edition",
         "world-migration-report-2026-iom",
-        "world-press-freedom-index-2026-rsf"
+        "world-press-freedom-index-2026-rsf",
+        "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
       "CAPITAL_MARKETS": [
         "blackstone-999-stake-in-federal-bank-sbi-mf-999-in-bandhan-bank-3-min",
@@ -19700,6 +20991,7 @@
         "digital-food-currency-pilot-launched-by-ministry-of-consumer-affairs-rbi-3-min",
         "epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-3-min",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
+        "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "key-financial-regulatory-appointments-may-2026",
         "npci-10-years-of-upi-milestone",
         "npci-launches-fimi-finance-model-for-india-domain-specific-language-model",
@@ -19747,16 +21039,23 @@
         "68th-annual-grammy-awards-bafta-awards-2026",
         "79459-crore-hrrl-greenfield-petrochemical-complex-dedicated-at-pachpadra",
         "80th-independence-day-announcements",
+        "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
         "9th-prof-ms-swaminathan-award-202425",
         "ad-category-ii-licences",
+        "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
         "anrf-rdi-fund-first-calls-tdb-birac-2000-crore",
         "apex-appointments-4-min",
         "apsez-operationalizes-ports-of-refuge-at-dighi-and-gopalpur",
+        "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+        "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
         "ashoka-chakra-conferred-on-group-captain-shubhanshu-shukla",
+        "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "australia-announces-dates-for-exercise-talisman-sabre-2027",
         "australian-open-2026-champions",
         "axis-bank-raises-500-million-offshore-loan-from-mufg",
         "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
         "bankers-books-evidence-act-2026-2-min",
+        "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bcci-annual-awards-2026",
         "bharat-taxi-cooperative-ride-hailing-platform-launched",
         "bharatnet-phase-iii-odisha",
@@ -19774,7 +21073,6 @@
         "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
         "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
         "canara-bank-raises-5000-crore-tier-ii-bonds",
-        "category",
         "cbic-launches-swift-20-and-revamped-atithi-app",
         "chandrayaan-3-receives-2026-aiaa-goddard-astronautics-award",
         "cji-surya-kant-declares-sikkim-countrys-1st-paperless-judiciary-state-launches-su-sahay-ai-chatbot",
@@ -19784,16 +21082,19 @@
         "crafoord-prize-2026-in-geosciences",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
         "customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154-3-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "dea-creates-17-lakh-crore-3-year-ppp-infrastructure-pipeline-3-min",
         "deendayal-port-kandla-reclaims-top-major-port-spot",
+        "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
         "defence-ministry-grants-miniratna-category-i-status-to-yantra-india-limited",
         "defence-srijan-portal",
         "defence-vessels",
         "delhidehradun-economic-corridor-210-km-11868-cr-inaugurated",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "disinvestment-asset-monetization-target-set-at-80000-crore-for-fy27-3-min",
+        "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "dpiit-fdi-equity-inflows-aprdec-fy26",
         "dpiit-revises-startup-definition-20-year-window-for-deep-tech-3-min",
@@ -19833,11 +21134,17 @@
         "government-notifies-coking-coal-as-critical-strategic-mineral",
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
         "government-restores-rodtep-rates-and-value-caps-effective-march-23-2026-3-min",
+        "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
         "gst-collections-touch-193-trillion-in-january-2026",
+        "gujarat-approves-4-natural-farming-centres-of-excellence",
+        "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+        "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
         "henley-passport-index-2026",
         "henley-passport-index-february-2026",
         "henley-passport-index-may-2026-update",
         "hurun-global-rich-list-2026",
+        "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+        "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
         "icar-develops-indias-1st-t2t-reference-genome-for-pigeonpea-asha-variety",
         "icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "icc-mens-t20-world-cup-2026",
@@ -19860,6 +21167,7 @@
         "indias-94th-chess-grandmaster",
         "indias-first-24x7-lpg-atm-in-gurugram",
         "insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
+        "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "ipl-2026-championship",
         "irena-renewable-capacity-statistics-2026",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
@@ -19867,6 +21175,7 @@
         "jal-jeevan-mission-jjm",
         "jica-signs-16420-crore-oda-loan-agreements",
         "jio-financial-services-allianz-form-5050-insurance-jv",
+        "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
         "kerala-approves-indias-first-graphene-policy-grefine-park",
         "key-banking-corporate-appointments-february-2026",
@@ -19881,7 +21190,9 @@
         "mca-accounting-rules",
         "meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
         "mha-e-zero-firs",
+        "mha-expands-international-e-visa-ports-of-entry-to-88",
         "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
+        "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
         "micron-technologys-22500-crore-semiconductor-atmp-inaugurated-in-sanand",
         "miga-issues-19767-million-guarantee-for-citibank-loan-to-sbi-grpv",
         "mohfw-fssai-food-safety-reforms-effective-april-1-2026",
@@ -19893,7 +21204,9 @@
         "nabfid-accredited-for-green-climate-fund-gcf",
         "nabfid-raises-5000-crore-debut-1-year-cd-at-695",
         "nagoya-protocol-on-abs-india-global-leader-with-56-of-irccs",
+        "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
         "national-dental-commission-ndc-act-2023-effective-march-19-2026",
+        "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "national-highways-green-cover-index-nh-gci-first-report",
         "national-housing-bank-launches-gruh-sugam-portal",
@@ -19903,6 +21216,7 @@
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
         "ncdex-nidhi",
         "ncrb-crime-in-india-2024-report",
+        "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "network-readiness-index-2025-portulans-institute",
         "new-seed-act-2026-revised-pesticide-act-2026-announced",
@@ -19911,15 +21225,18 @@
         "niti-aayog-export-preparedness-index-epi-2024-4th-edition-3-min",
         "niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
         "niti-aayog-second-fiscal-health-index-fhi-2026",
+        "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "parichha-dam-jhansi-betwa-river",
         "pm-e-drive-guidelines-revised-10900-cr-outlay",
         "pm-flags-off-delhimeerut-namo-bharat-rrts-meerut-metro",
         "pm-internship-scheme-pilot-guidelines-revised",
         "pm-modi-addresses-israeli-knesset-awarded-speaker-of-the-knesset-medal",
+        "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
         "pm-narendra-modi-conferred-international-honours",
         "pm-surya-ghar-muft-bijli-yojana-crosses-5006-lakh-households-milestone",
         "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
+        "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
         "pmay-urban-20-ews-housing-construction-target-raised-by-350-3-min",
         "pmksy-10-year-review",
         "pmmsy-smart-integrated-fishing-harbour-at-mayabunder-an-islands",
@@ -19930,12 +21247,14 @@
         "president-droupadi-murmu-sortie-in-indigenous-lch-prachand",
         "presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "project-dolphin-2nd-range-wide-riverine-estuarine-dolphin-survey",
         "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
         "qs-world-university-rankings-by-subject-2026",
+        "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "ranji-trophy-2025-26",
         "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
@@ -19945,6 +21264,7 @@
         "sample-registration-system-srs-statistical-report-2024-orgi",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "saraswati-samman-2025-kk-birla-foundation",
+        "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sipri-international-arms-transfers-report-2026",
         "sipri-military-expenditure-2025",
         "skyroot-aerospace-becomes-indias-1st-space-tech-unicorn",
@@ -19953,6 +21273,7 @@
         "solid-waste-management-rules-2026-notified",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
         "sports",
+        "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "state-bank-of-india-becomes-4th-most-valued-indian-firm",
         "state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
         "state-bank-of-india-raises-6051-crore-tier-2-bonds-500m-social-term-loan",
@@ -19961,9 +21282,12 @@
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "subhash-chandra-bose-aapda-prabandhan-puraskar-2026",
         "sukanya-samriddhi-yojana-ssy-interest-rate-at-82",
+        "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
         "times-higher-education-the-asia-university-rankings-2026",
+        "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
         "trai-imposes-150-crore-penalty-on-telecom-operators",
         "tripura-gramin-bank-launches-1st-rrb-rupay-credit-card",
+        "typhoon-dolphin-strikes-zhejiang-province-china",
         "uae-announces-exit-from-opec-and-opec-effective-may-1-2026",
         "ubs-billionaire-ambition-report-2025",
         "un-high-seas-biodiversity-treaty-bbnj-enters-into-force",
@@ -19971,12 +21295,16 @@
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "union-budget-fy27-2000-crore-incentive-for-upi-rupay-p2m-transactions-3-min",
         "usgbc-leed-green-building-list-2025",
+        "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+        "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "wgc-gold-demand-trends-2025",
         "wipo-genai-patent-report",
         "world-happiness-report-2026-14th-edition",
         "world-migration-report-2026-iom",
-        "world-press-freedom-index-2026-rsf"
+        "world-press-freedom-index-2026-rsf",
+        "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+        "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
       "RBI": [
         "60th-rbi-monetary-policy-committee-mpc-statement-april-2026",
@@ -20106,6 +21434,7 @@
       "INTERNATIONAL_BODIES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "adb-asian-development-outlook-2026",
+        "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "e20-petrol-20-ethanol-made-mandatory-nationwide-from-april-1-2026",
         "fatf-adds-kuwait-papua-new-guinea-to-grey-list",
         "first-riverine-lighthouses-on-brahmaputra-nw-2",
@@ -20156,6 +21485,7 @@
         "national-stock-exchange-nse-launches-electronic-gold-receipts-egrs",
         "ncdex-launches-rainmumbai-weather-derivatives-contract",
         "pfrda-shifts-to-sebi-prohibition-of-insider-trading-regulations-2015-3-min",
+        "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
         "sebi-allows-depositories-to-utilize-up-to-5-of-ipf-income-for-trust-costs-3-min",
         "sebi-allows-employer-third-party-mutual-fund-payroll-investments-3-min",
         "sebi-amends-fit-and-proper-person-disqualification-rules-for-intermediaries-3-min",
@@ -20608,12 +21938,19 @@
       "2026-08": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",
+        "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
         "ad-category-ii-licences",
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+        "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
         "apex-appointments-4-min",
         "apex-financial-regulatory-appointments-4-min",
+        "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+        "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
+        "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "australia-announces-dates-for-exercise-talisman-sabre-2027",
         "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
         "bankers-books-evidence-act-2026-2-min",
+        "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
@@ -20621,14 +21958,17 @@
         "bse-msci",
         "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
         "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
-        "category",
+        "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
+        "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
         "defence-srijan-portal",
         "defence-vessels",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+        "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
         "eu-cbam",
@@ -20637,42 +21977,61 @@
         "fitch-sovereign-rating",
         "glaw-lake-in-arunachal-pradesh-designated-indias-101st-ramsar-site",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
+        "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+        "gujarat-approves-4-natural-farming-centres-of-excellence",
+        "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+        "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
+        "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+        "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
         "icar-develops-indias-1st-t2t-reference-genome-for-pigeonpea-asha-variety",
         "icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "india-achieves-9992-banking-coverage-5877-crore-pmjdy-accounts-with-312-lakh-crore-balance",
         "india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
+        "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
         "irdai-master-regulations-protec-licence-3-min",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "jal-jeevan-mission-jjm",
+        "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "khelo-india-ansf-expansion-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo",
         "mca-accounting-rules",
         "meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
         "mha-e-zero-firs",
+        "mha-expands-international-e-visa-ports-of-entry-to-88",
         "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
+        "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
         "morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "must-memorize-fact",
+        "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+        "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "national-sports-awards-2025",
         "ncdex-nidhi",
+        "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
+        "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "parichha-dam-jhansi-betwa-river",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
+        "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
         "pm-surya-ghar-muft-bijli-yojana-crosses-5006-lakh-households-milestone",
+        "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
         "pmksy-10-year-review",
+        "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
         "postransfer-remittances",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
+        "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-defers-revised-loan-recovery-recovery-agent-directions-to-january-1-2027",
@@ -20685,6 +22044,7 @@
         "registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "repco-bank",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
+        "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
         "sebi-fast-track-settlement",
@@ -20696,13 +22056,21 @@
         "senior-civil-service-foreign-deputations-approved-by-acc",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "sports",
+        "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
+        "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+        "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
+        "typhoon-dolphin-strikes-zhejiang-province-china",
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+        "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
-        "wipo-genai-patent-report"
+        "wipo-genai-patent-report",
+        "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+        "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ]
     },
     "byYearMonth": {
@@ -21097,12 +22465,19 @@
       "2026-08": [
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",
+        "8th-india-us-navy-explosive-ordnance-disposal-eod-exercise-2026-at-kochi",
         "ad-category-ii-licences",
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
+        "air-marshal-tejpal-singh-appointed-deputy-chief-of-the-air-staff-dcas",
         "apex-appointments-4-min",
         "apex-financial-regulatory-appointments-4-min",
+        "ariha-pangambam-wins-indias-1st-senior-gold-at-aerobic-gymnastics-asian-championships",
+        "ashmita-chaliha-wins-korea-masters-2026-super-300-title",
+        "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "australia-announces-dates-for-exercise-talisman-sabre-2027",
         "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
         "bankers-books-evidence-act-2026-2-min",
+        "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bharatnet-phase-iii-odisha",
         "bimco-ics-seafarer-workforce-report-2026",
         "blue-bonds",
@@ -21110,14 +22485,17 @@
         "bse-msci",
         "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
         "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
-        "category",
+        "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
+        "deepak-dhar-conferred-2026-dirac-medal-for-statistical-mechanics",
         "defence-srijan-portal",
         "defence-vessels",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+        "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
         "eu-cbam",
@@ -21126,42 +22504,61 @@
         "fitch-sovereign-rating",
         "glaw-lake-in-arunachal-pradesh-designated-indias-101st-ramsar-site",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
+        "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
+        "gujarat-approves-4-natural-farming-centres-of-excellence",
+        "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
+        "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
+        "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+        "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
         "icar-develops-indias-1st-t2t-reference-genome-for-pigeonpea-asha-variety",
         "icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "india-achieves-9992-banking-coverage-5877-crore-pmjdy-accounts-with-312-lakh-crore-balance",
         "india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
+        "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
         "irdai-master-regulations-protec-licence-3-min",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "jal-jeevan-mission-jjm",
+        "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "khelo-india-ansf-expansion-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo",
         "mca-accounting-rules",
         "meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
         "mha-e-zero-firs",
+        "mha-expands-international-e-visa-ports-of-entry-to-88",
         "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
+        "mha-issues-national-security-buffer-guidelines-for-border-renewable-projects",
         "morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "must-memorize-fact",
+        "national-beekeeping-and-honey-mission-production-touches-151-lakh-mt",
+        "national-edible-oil-missions-progress-oilseed-production-at-4306-mt",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "national-sports-awards-2025",
         "ncdex-nidhi",
+        "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
+        "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "parichha-dam-jhansi-betwa-river",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
+        "pm-modi-inaugurates-param-pragya-ai-supercomputing-facility-at-iit-delhi-sonipat",
         "pm-surya-ghar-muft-bijli-yojana-crosses-5006-lakh-households-milestone",
+        "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
         "pmksy-10-year-review",
+        "pms-bazaar-nsdl-partner-for-sebi-accredited-investor-certification",
         "postransfer-remittances",
         "pradhan-mantri-surya-sarovar-yojana-pm-ssy-4-min",
         "presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+        "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "prudentialbharti-life",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
+        "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-defers-revised-loan-recovery-recovery-agent-directions-to-january-1-2027",
@@ -21174,6 +22571,7 @@
         "registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "repco-bank",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
+        "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sebi-bullion-vaulting",
         "sebi-digital-kyc-proposal",
         "sebi-fast-track-settlement",
@@ -21185,13 +22583,21 @@
         "senior-civil-service-foreign-deputations-approved-by-acc",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "sports",
+        "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
+        "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
+        "trai-expands-1600-series-to-1601-series-for-utilities-logistics",
+        "typhoon-dolphin-strikes-zhejiang-province-china",
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "venezuela-formally-notifies-un-of-withdrawal-from-rome-statute-icc",
+        "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
-        "wipo-genai-patent-report"
+        "wipo-genai-patent-report",
+        "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+        "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ]
     },
     "changeSensitiveTopicIds": [

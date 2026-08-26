@@ -129,7 +129,7 @@ function runPostDeployQaTests() {
 
     // Check August 2026, January 2026, February 2026, March 2026, April 2026, and May 2026 indexed sets
     const augTopics = registry.indexes.byYearMonth['2026-08'];
-    assert.strictEqual(augTopics.length, 97, 'August 2026 must index exact 97 topics');
+    assert.strictEqual(augTopics.length, 135, 'August 2026 must index exact 135 topics');
 
     const janTopics = registry.indexes.byYearMonth['2026-01'];
     assert.strictEqual(janTopics.length, 73, 'January 2026 must index exact 73 topics');
@@ -159,7 +159,7 @@ function runPostDeployQaTests() {
       ids.add(topic.id);
     }
 
-    assert.strictEqual(slugs.size, 475, 'Must have exactly 475 unique canonical topics');
+    assert.strictEqual(slugs.size, 513, 'Must have exactly 513 unique canonical topics');
   });
 
   // Test 9: Complete Category Taxonomy Normalization
@@ -181,7 +181,7 @@ function runPostDeployQaTests() {
   });
 
   // Test 10: Category Partitioning & Grouping Invariant
-  test('Category Partitioning & Grouping Invariant (All 475 Topics Accounted)', () => {
+  test('Category Partitioning & Grouping Invariant (All 513 Topics Accounted)', () => {
     let totalPartitioned = 0;
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
       const groupedMap = new Map<string, number>();
@@ -195,7 +195,7 @@ function runPostDeployQaTests() {
       }
     }
 
-    assert.strictEqual(totalPartitioned, 475, 'All 475 monthly indexed topics must be strictly accounted');
+    assert.strictEqual(totalPartitioned, 513, 'All 513 monthly indexed topics must be strictly accounted');
   });
 
   // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
@@ -206,7 +206,7 @@ function runPostDeployQaTests() {
 
     assert.strictEqual(p1s.length, 31, 'Must have exactly 31 P1 topics (11 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
     assert.strictEqual(p2s.length, 205, 'Must have exactly 205 P2 topics (55 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
-    assert.strictEqual(p3s.length, 239, 'Must have exactly 239 P3 topics (31 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
+    assert.strictEqual(p3s.length, 277, 'Must have exactly 277 P3 topics (69 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
     for (const p3 of p3s) {
@@ -248,6 +248,39 @@ function runPostDeployQaTests() {
         assert.ok(!fact.startsWith('Category:'), `Topic ${topic.slug} has raw Category metadata in facts`);
         assert.ok(!fact.startsWith('Institution:'), `Topic ${topic.slug} has raw Institution metadata in facts`);
         assert.ok(!fact.startsWith('Priority:'), `Topic ${topic.slug} has raw Priority metadata in facts`);
+        assert.ok(!fact.startsWith('Date:'), `Topic ${topic.slug} has raw Date metadata in facts`);
+      }
+    }
+  });
+
+  // Test 14: Content Fidelity & Source Grounding Verification
+  test('Content Fidelity & Source Grounding (Representative Topics Verification)', () => {
+    // 1. P1 MPC Topic
+    const mpcTopic = allTopics.find(t => t.slug === '62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026');
+    assert.ok(mpcTopic, 'August 2026 62nd MPC topic must exist');
+    assert.ok(mpcTopic.whatHappened && mpcTopic.whatHappened.some(p => p.includes('Sanjay Malhotra')), 'MPC topic must correctly cite Governor Sanjay Malhotra');
+    assert.ok(mpcTopic.mustMemorizeFacts.some(f => f.includes('5.25%')), 'MPC topic must have 5.25% Policy Repo Rate');
+    assert.ok(mpcTopic.mustMemorizeFacts.some(f => f.includes('6.7%')), 'MPC topic must have 6.7% Real GDP Growth');
+    assert.ok(mpcTopic.mustMemorizeFacts.some(f => f.includes('5.0%')), 'MPC topic must have 5.0% CPI Inflation');
+
+    // 2. P2 PM-KISAN Topic
+    const pmKisan = allTopics.find(t => t.slug.includes('pm-kisan-continuation-for-5-years'));
+    assert.ok(pmKisan, 'August 2026 PM-KISAN continuation topic must exist');
+    assert.ok(pmKisan.mustMemorizeFacts.some(f => f.includes('3,15,614')), 'PM-KISAN must contain ₹3,15,614 crore outlay');
+    assert.ok(pmKisan.mustMemorizeFacts.some(f => f.includes('5-year') || f.includes('FY27')), 'PM-KISAN must contain 5-year extension period');
+
+    // 3. P3 Glaw Lake Topic
+    const glawLake = allTopics.find(t => t.slug.includes('glaw-lake'));
+    assert.ok(glawLake, 'Glaw Lake Ramsar Site topic must exist');
+    assert.ok(glawLake.mustMemorizeFacts.some(f => f.includes('Kamlang') && f.includes('101st')), 'Glaw Lake must cite Kamlang and 101st Ramsar Site');
+
+    // 4. Zero System Tokens in Public Study Content across all 475 topics
+    for (const t of allTopics) {
+      for (const f of t.mustMemorizeFacts) {
+        assert.ok(!f.includes('P1_CRITICAL'), `Topic ${t.slug} has P1_CRITICAL system token in facts`);
+        assert.ok(!f.includes('P2_HIGH'), `Topic ${t.slug} has P2_HIGH system token in facts`);
+        assert.ok(!f.includes('P3_MODERATE'), `Topic ${t.slug} has P3_MODERATE system token in facts`);
+        assert.ok(!f.includes('SOURCE_ONLY'), `Topic ${t.slug} has SOURCE_ONLY system token in facts`);
       }
     }
   });
