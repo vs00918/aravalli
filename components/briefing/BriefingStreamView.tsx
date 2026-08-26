@@ -8,7 +8,7 @@ import {
   PriorityLevel 
 } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
-import { formatTopicCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
+import { formatCleanCategory, formatTopicDate } from "@/lib/banking-ca/formatters";
 import { 
   getReadTopicSlugs, 
   toggleTopicReadSlug, 
@@ -385,7 +385,7 @@ export function BriefingStreamView({
                       {/* Quiet Header Line */}
                       <div className="flex items-center justify-between gap-2 text-xs font-mono text-[var(--text-subtle)] select-none">
                         <span className="uppercase tracking-wider font-semibold">
-                          {formatTopicCategory(topic.primaryInstitution, topic.primaryCategory)}
+                          {formatCleanCategory(topic.primaryCategory)}
                         </span>
 
                         <div className="flex items-center gap-3">

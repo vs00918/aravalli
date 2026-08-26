@@ -87,9 +87,9 @@ export function parseCanonicalMarkdownFile(
         subtitle: currentTopic.subtitle,
         priority: currentTopic.priority || (currentPart === 'P1' ? 'P1_CRITICAL_DEEP' : currentPart === 'P2' ? 'P2_HIGH' : 'P3_MODERATE'),
         revisionMinutes: currentTopic.revisionMinutes || (currentPart === 'P1' ? 8 : currentPart === 'P2' ? 3 : 1),
-        primaryCategory: category,
+        primaryCategory: currentTopic.primaryCategory || category,
         secondaryCategories: [],
-        primaryInstitution: institution,
+        primaryInstitution: currentTopic.primaryInstitution || institution,
         regulatoryStatus: currentTopic.regulatoryStatus, // Optional: only if explicitly defined
         verificationStatus: currentTopic.verificationStatus || 'SOURCE_ONLY',
         whatHappened: currentTopic.whatHappened || [],
@@ -271,9 +271,27 @@ export function parseCanonicalMarkdownFile(
         }
       }
 
-      // Check if line is metadata header (Priority, Source, Event Date)
-      const isMetadataLine = /^\s*[\*\-]?\s*\*\*(Priority|Source|Event Date|Revision Effort|Category|Status)\s*:\*\*/i.test(line) ||
-                            /^\s*[\*\-]?\s*(Priority|Source|Event Date|Revision Effort|Category|Status):/i.test(line);
+      // Extract Category e.g. "- **Category**: `NATIONAL_AND_STATES`"
+      const catMatch = line.match(/(?:Category|Primary Category):\s*[`*]*([A-Z_]+)[`*]*/i);
+      if (catMatch) {
+        currentTopic.primaryCategory = catMatch[1].trim() as any;
+      }
+
+      // Extract Institution e.g. "- **Institution**: `GOVERNMENT_OF_INDIA`"
+      const instMatch = line.match(/(?:Institution|Primary Institution):\s*[`*]*([A-Z_]+)[`*]*/i);
+      if (instMatch) {
+        currentTopic.primaryInstitution = instMatch[1].trim() as any;
+      }
+
+      // Extract Date e.g. "- **Date**: `2026-08-06`"
+      const dateMatch = line.match(/(?:Date|Event Date):\s*[`*]*(\d{4}-\d{2}-\d{2})[`*]*/i);
+      if (dateMatch) {
+        currentTopic.initialEventDate = dateMatch[1].trim();
+      }
+
+      // Check if line is metadata header (Priority, Source, Event Date, Category, Institution, Target Exams, Status)
+      const isMetadataLine = /^\s*[\*\-]?\s*\**\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Institution|Status|Regulatory Status|Target Exams)\s*\**\s*:\s*\**/i.test(line) ||
+                            /^\s*[\*\-]?\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Institution|Status|Regulatory Status|Target Exams):/i.test(line);
 
       if (isMetadataLine) {
         continue;
@@ -282,7 +300,12 @@ export function parseCanonicalMarkdownFile(
       // Collect section content based on current subSection
       const bulletMatch = line.match(/^\s*[\*\-]\s*(.+)/);
       if (bulletMatch && currentPart !== 'IGNORE' && currentPart !== 'REPORT') {
-        const text = bulletMatch[1].replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
+        let text = bulletMatch[1].trim();
+        // Strip redundant bullet prefixes like "- **Must-Memorize Fact**: " -> ""
+        text = text.replace(/^\*\*(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact)\*\*:\s*/i, '');
+        text = text.replace(/^(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact):\s*/i, '');
+        // For general bold prefixes (e.g. "**Real GDP Growth**:") format nicely
+        text = text.replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
         if (text.length > 3) {
           if (currentSubSection === 'WHAT_HAPPENED') {
             currentTopic.whatHappened = currentTopic.whatHappened || [];

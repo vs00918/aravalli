@@ -1592,7 +1592,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "*Status: SEBI Proposal*. Standardized **6 colour-coded risk levels**: *Irish Green (Lowest risk), Chartreuse (Very low risk), Neon Yellow (Low risk), Caramel (Moderate risk), Dark Orange (Moderate risk of default), Red (High to very high risk of default)*.",
         "Mandatory display by issuers and Online Bond Platform Providers (OBPPs).",
         "CRA name and actual rating must be disclosed below the meter; if rated by multiple CRAs, the meter must be based on the **lowest rating**. Unsecured debt must be disclosed in bold red text."
       ],
@@ -1631,7 +1630,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "*Status: Proposal by PSBs*. Proposes carving out a 2% sub-target for climate and transition finance within the existing 40% ANBC PSL requirement. Proposes raising renewable energy limit to **₹75 crore** for wind and small hydro (overall limit ₹100 crore per borrower; solar PV continues at ₹35 crore). Proposes EV loans up to ₹20 lakh (personal), ₹25 lakh (battery swapping/charging), and ₹50 lakh (commercial fleet)."
+        "PSBs Proposal: 2% PSL Sub-Target for Climate & Transition Finance (~3 min)"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -2540,7 +2539,6 @@
         "**Applicability:** Covers six categories of regulated entities: (1) Commercial Banks, (2) Small Finance Banks (SFBs), (3) Payments Banks, (4) Non-Banking Financial Companies (NBFCs), (5) Non-Bank Prepaid Payment Instrument (PPI) Issuers, and (6) Credit Information Companies (CICs)."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Appointment Criteria for Internal Ombudsman (IO):** Must be a retired or serving officer in the rank equivalent to a **General Manager (GM)** in a regulated entity under the IO framework or a financial sector regulatory body, with a minimum of **7 years of relevant experience**.",
         "**Appointment Criteria for Deputy IO:** Must be a retired or serving officer in the rank equivalent to a **Deputy General Manager (DGM)** with a minimum of **5 years of relevant experience**.",
         "**Age Cap:** The IO / Deputy IO must not be over **70 years of age** before the completion of tenure.",
@@ -2602,7 +2600,6 @@
         "The reform aligns the definition of \"Related Party\" with the **Companies Act, 2013** and the **Insolvency and Bankruptcy Code (IBC)**, bringing NBFC regulations closer to commercial bank standards."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Definition of Related Party:** Promoters, directors, Key Managerial Personnel (KMP) and their relatives, shareholders holding **10% or more equity**, entities where such persons exercise significant influence/control, and trust structures where related persons are trustees, authors, or beneficiaries.",
         "**Reciprocally Related Persons (Banks only):** Extends coverage to directors of other banks/FIs, trustees of Alternative Investment Funds (AIFs) and Mutual Funds (MFs), and their relatives.",
         "**Scope of Lending:** Includes both fund-based and non-fund-based credit facilities, as well as investments in debt instruments of related parties. **Explicitly excludes equity investments** from the definition of lending.",
@@ -2660,7 +2657,6 @@
         "The new CPI series with **Base Year 2023-24=100** takes effect on **February 12, 2026**."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**New Base Years & Rollout Schedule:**",
         "**CPI Series:** Base Year **2023-24=100**, released on **12 February 2026** (first used for January 2026 inflation).",
         "**GDP Series:** Base Year **2022-23=100**, released on **27 February 2026**.",
@@ -2717,7 +2713,6 @@
         "**Effective Date:** April 1, 2026, with full adoption required by the next exposure review or **March 31, 2027**, whichever is earlier."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Relaxed Debt Repayment Thresholds:**",
         "Threshold to assign a **75% risk weight:** Reduced to **2% repayment** of original sanctioned project debt (cut from the earlier proposed 5%).",
         "Threshold to assign a **50% risk weight:** Reduced to **5% repayment** of original sanctioned project debt (cut from the earlier proposed 10%).",
@@ -2763,7 +2758,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "SEBI proposed phased rollout of enhanced net worth and liquid net worth requirements for merchant bankers.",
         "Category I Merchant Bankers: Net worth ₹25 cr (by Jan 2, 2027) $\\to$ ₹50 cr (by Jan 2, 2028); Liquid net worth ₹6.25 cr $\\to$ ₹12.5 cr.",
@@ -2806,7 +2800,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Introduces 20-minute Closing Auction Session (CAS) from 3:15 pm to 3:35 pm for cash market stocks with derivative contracts, effective **August 3, 2026**.",
         "Revised Pre-Open auction framework effective **September 7, 2026**.",
@@ -2847,7 +2840,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "PFRDA constituted 15-member Standing Advisory Committee chaired by **Dr. M. S. Sahoo** (former IBBI Chairperson) to formulate regulations for assured/guaranteed payouts under NPS.",
         "Constituted SAARG (Strategic Asset Allocation and Risk Governance) committee chaired by **Narayan Ramachandran** (former CEO, Morgan Stanley India) to modernize NPS investment guidelines.",
@@ -2887,7 +2879,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI draft guidelines propose raising the maximum dividend payout ratio for commercial banks to **75% of Profit After Tax (PAT)** from the existing limit of 40%.",
         "Payout eligibility is structured across a **ten-bucket matrix** linked directly to the bank's Common Equity Tier 1 (CET1) ratio at the end of the previous fiscal year.",
@@ -2928,7 +2919,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "As of end-March 2025, DICGC insured **97.6% of bank accounts** and **41.5% of total deposits by value** across commercial and co-operative banks.",
         "Total bank deposits stood at ₹241.08 lakh crore, of which **₹100.12 lakh crore** were insured (vs ₹94.12 lakh crore in FY24).",
@@ -2970,7 +2960,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "SEBI notified the **SWAGAT-FI** (*Single Window Automatic and Generalized Access for Trusted Foreign Investors*) framework for FPIs and Foreign Venture Capital Investors (FVCIs).",
         "Effective Date: **June 1, 2026**.",
@@ -3010,7 +2999,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI notified the *FEMA (Guarantees) Regulations, 2026*, prohibiting resident Indians from issuing credit guarantees in favor of Non-Resident Indians (NRIs) unless the underlying transaction is permitted under FEMA borrowing/lending rules.",
         "Discontinued quarterly reporting on the issuance of guarantees for Trade Credit starting from the quarter ending March 2026.",
@@ -3050,7 +3038,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI released the sDQI for September 2025 covering 87 SCBs across key supervisory returns (ALE, RAQ, ROR, RBS, LR, RCA, CRILC).",
         "Overall SCB sDQI score stood at **90.7** (Score >90 represents 'Good' data quality; no bank scored below 80).",
@@ -3090,7 +3077,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Voluntary contributory pension scheme providing outpatient (OPD) and inpatient (IPD) medical expense support.",
         "Introduced as a Proof of Concept (PoC) under PFRDA’s Regulatory Sandbox.",
@@ -3132,7 +3118,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI report *State Finances: A Study of Budgets of 2025-26* categorizes states based on elderly population (60+): Youthful (<10%), Intermediate (10–15%), Ageing (≥15%).",
         "Ageing states (Kerala, Tamil Nadu, Punjab) spend over **30% of social sector expenditure on pensions**, with Old-Age Dependency Ratio (OADR) reaching 30.1 in Kerala vs 14 in Bihar.",
@@ -3173,7 +3158,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI framed a principle-based debt resolution regime coming into force on **April 1, 2026**.",
         "Eligibility: Standard exposures not in default for >30 days (**SMA-0**) on the date of the natural calamity.",
@@ -3214,7 +3198,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Revised draft guidelines aligning capital charge for forex risk with Basel Committee on Banking Supervision (BCBS) standards, effective **April 1, 2027**.",
         "Mandates daily calculation of NOP and capital charges at both standalone and consolidated levels at the close of each business day.",
@@ -3254,7 +3237,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposes centralizing commonly collected supplementary client data (income slab, occupation, country of birth, FATCA, PEP status) directly at KYC Registration Agencies (KRAs).",
         "Eliminates redundant, repeated document submissions across multiple brokerages and mutual fund intermediaries."
@@ -3293,7 +3275,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Criteria: Any benchmark index linked to mutual fund schemes with a combined asset base exceeding **₹20,000 crore** will be designated as a 'Significant Index'.",
         "Evaluated using average daily AUM over a rolling 6-month period, reviewed twice annually on **June 30 and December 31**."
@@ -3332,7 +3313,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Banks claiming PSL benefits for on-lending via NBFCs, NBFC-MFIs, and Housing Finance Companies (HFCs) must obtain **external auditors' certificates** confirming no duplicate PSL claims across banks.",
         "PSL On-Lending Caps: Bank loans to NBFCs for agri/MSME on-lending capped at **5% of bank's total PSL** of previous fiscal; for NBFC-MFIs capped at **10% of previous year's total PSL**."
@@ -3371,7 +3351,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SIDBI",
         "**Must Memorize Facts:**",
         "Union Cabinet approved **₹5,000 crore equity support** to Small Industries Development Bank of India (SIDBI) via Department of Financial Services (DFS).",
         "Tranche schedule: **₹3,000 crore in FY 2025-26** (at book value ₹568.65 as on 31.03.2025); **₹1,000 crore each in FY 2026-27 and FY 2027-28**."
@@ -3410,7 +3389,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Cabinet approved continuation of APY along with funding support up to **FY 2030-31**.",
         "Scheme profile: Launched May 9, 2015; unorganized sector subscribers receive guaranteed monthly pension of **₹1,000 to ₹5,000** starting at age 60 based on contribution tier."
@@ -3449,7 +3427,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Concluded on January 26, 2026 (originally launched in 2007, relaunched in 2022).",
         "EU becomes India's **22nd FTA partner**; covers 25% of global GDP and 1/3rd of global trade.",
@@ -3490,7 +3467,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI entered into an agreement under Section 21A(1) of the RBI Act, 1934 with the Government of NCT of Delhi, effective January 9, 2026, to conduct general banking and manage public debt.",
         "Delhi WMA limit fixed at **₹890 crore**.",
@@ -3530,7 +3506,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Sumitomo Mitsui Banking Corporation (SMBC, Japan) granted in-principle approval to convert its 4-branch Indian operations (New Delhi, Mumbai, Chennai, Bengaluru) into a Wholly-Owned Subsidiary (WOS) under Section 22(1) of the Banking Regulation Act, 1949."
       ],
@@ -3568,7 +3543,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "EPFO subscribers can withdraw provident funds directly to bank accounts via UPI gateway starting **April 1, 2026**.",
         "Auto-settlement mode settles electronic claims without manual intervention within 3 days; limit raised to **₹5 lakh** (from ₹1 lakh).",
@@ -3608,7 +3582,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Health insurance covered **580 million lives** in FY25 (up from 573M in FY24); total health premiums grew 9.12% to **₹1.17 trillion**.",
         "Incurred Claims Ratio (ICR) declined to **86.98%** (from 88.15%); 58% of claims settled cashless, 41% reimbursement. Average claim payout: ₹28,910.",
@@ -3649,7 +3622,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Draft amendments to Governance Directions for UCBs, State, and Central Co-operative Banks introduce a **mandatory 3-year cooling-off period** for directors completing the maximum continuous tenure of 10 years before being eligible for reappointment on the same board."
       ],
@@ -3687,7 +3659,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "4th Edition of EPI structured across 4 Pillars: Business Ecosystem (40% weight), Export Infrastructure (20%), Policy & Governance (20%), Export Performance (20%).",
         "Top Performers: Large States — **1. Maharashtra, 2. Tamil Nadu, 3. Gujarat**; Small/Hilly States/UTs — **Uttarakhand, Jammu & Kashmir, Nagaland**."
@@ -3726,7 +3697,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Banking system Credit-Deposit (CD) ratio reached an all-time high of **81.75%** as credit growth (11.4%) outpaced deposit growth (10.1%).",
         "SBI Research report noted optimum CD ratio for public/private banks is **76%–80%**; exceeding 80% diminishes incremental profitability."
@@ -3765,7 +3735,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Government rolled out a pilot for Central Bank Digital Currency (CBDC) programmed \"digital food coupons\" under the free ration scheme across Chandigarh, Puducherry, and 3 districts of Gujarat (Anand, Sabarmati, Dahod).",
         "Digital tokens are programmably locked for redemption exclusively at authorized fair price ration shops."
@@ -3804,7 +3773,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Economic Survey tabled by Finance Minister Nirmala Sitharaman, prepared under Chief Economic Advisor V. Anantha Nageswaran.",
         "Projects real GDP growth for FY 2026-27 in the range of **6.8% to 7.2%**."
@@ -3843,7 +3811,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "SEBI proposed allowing FPIs to net purchase and sale cash-market obligations executed on the same trading day instead of gross funding, sharply cutting intra-day funding costs during index rebalancings."
       ],
@@ -3881,7 +3848,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Exemption threshold: Glitch reporting framework now applies only to stockbrokers with **>10,000 registered clients**, excluding ~60% of small brokerages.",
         "Technical glitch reporting window extended from **1 hour to 2 hours** to a single Common Reporting Platform."
@@ -3920,7 +3886,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Launched January 1, 2017 by Ministry of Women & Child Development.",
         "Cash benefit: **₹5,000 for first child** (in 2 instalments: ₹3,000 upon pregnancy registration, ₹2,000 post-birth) and **₹6,000 for second girl child**.",
@@ -3960,7 +3925,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Startup India completed a decade (launched 2016); over 2.07 lakh DPIIT-recognized startups and ~125 unicorns.",
         "SRF 5.0 Best Performers: **Category A — Gujarat**; **Category B — Arunachal Pradesh, Goa**.",
@@ -4000,7 +3964,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "NSO estimated real GDP growth for FY 2025-26 at **7.4%** (compared to 6.5% in FY 2024-25).",
         "Real GDP calculated at constant (2011-12) prices."
@@ -4039,7 +4002,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Department of Economic Affairs created a 3-year Public-Private Partnership (PPP) pipeline comprising **852 projects** with total project cost exceeding **₹17 lakh crore** across central ministries and states."
       ],
@@ -4077,7 +4039,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "SEBI abolished the requirement of a physical Letter of Confirmation (LOC) for crediting physical shares into demat accounts, reducing transfer time from **150 days to 30 days**, effective **April 2, 2026**.",
         "Announced a 1-year special window from **Feb 5, 2026 to Feb 4, 2027** for transfer of legacy physical shares bought before April 1, 2019 (with a 1-year demat lock-in)."
@@ -5380,7 +5341,6 @@
         "**Effective Implementation Date:** **April 1, 2026**, with mandatory review at least once every three years."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Two Risk Assessment Models:**",
         "**Tier 1 Model:** Applicable to Scheduled Commercial Banks (SCBs) other than Regional Rural Banks (RRBs). Evaluated on supervisory ratings, quantitative CAMELS parameters, and potential loss to the Deposit Insurance Fund (DIF) in case of failure.",
         "**Tier 2 Model:** Applicable to RRBs and Co-operative Banks. Evaluated on quantitative CAMELS parameters and potential loss to DIF.",
@@ -5438,7 +5398,6 @@
         "Enhances the mandatory collateral-free lending ceiling for micro and small enterprises to ease credit flow without asset encumbrance."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Mandatory Collateral-Free Limit:** Banks are mandated **not to accept collateral security** for loans **up to ₹20 lakh** extended to units in the Micro and Small Enterprise (MSE) sector.",
         "**PMEGP Linkage:** Mandatory collateral-free threshold of **₹20 lakh** applies to all units financed under the **Prime Minister's Employment Generation Programme (PMEGP)** administered by KVIC.",
         "**Discretionary Enhancement:** Banks may, based on financial position and track record, increase the collateral-free threshold **up to ₹25 lakh** as per board-approved internal policy.",
@@ -5489,7 +5448,6 @@
         "Liberalizes borrowing limits, rationalizes minimum average maturity, eliminates the all-in-cost monitoring by AD banks, and recognizes corporate control acquisition as an eligible end-use."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Revised Borrowing Limit:** Replaced the erstwhile $750 million cap with **the higher of $1 billion or 300% of the borrower's latest audited standalone net worth** per financial year under the automatic route.",
         "**Maturity Requirements:** Minimum average maturity of **3 years** for general ECBs; manufacturing sector companies may raise up to **$150 million** with shorter maturities between **1 and 3 years**.",
         "**End-Use Liberalization:** Acquisition of corporate **\"control\"** is officially confirmed as a permitted end-use. On-lending of ECB funds to individuals is permitted for RBI-regulated entities (on-lending for real estate business remains prohibited).",
@@ -5538,7 +5496,6 @@
         "The Commission was constituted on **December 31, 2023** under **Article 280 of the Indian Constitution**, chaired by **Dr. Arvind Panagariya** (former Vice Chairman of NITI Aayog)."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Tax Devolution Share:** Recommended retaining the **41% vertical share** of central divisible tax pool devolution to States (maintaining the allocation in place since 2021 following the reorganization of Jammu & Kashmir).",
         "**Award Period:** 5 years covering **FY 2026-27 to FY 2030-31**.",
         "**Constitutional Anchor:** Article 280 of the Constitution of India."
@@ -5584,7 +5541,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Indian banks' participation in overseas syndicated acquisition financing capped at **20% of total funding** (raised from 10% in draft).",
         "Total bank financing capped at **75% of acquisition value** independently assessed.",
@@ -5626,7 +5582,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Banks mandated to provide credit to SEBI-regulated stockbrokers only on a **fully secured (100% collateralized) basis** from April 1, 2026.",
         "Bank guarantees issued for exchanges/clearing corporations must have at least **50% collateral**, of which **25% must be cash**. Equity shares accepted as collateral attract a **minimum 40% haircut**."
@@ -5665,7 +5620,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "DPIIT and Finance Ministry operationalized up to **100% Foreign Direct Investment (FDI)** in insurance companies and intermediaries under the automatic route (aligning with *Sabka Bima Sabki Raksha Amendment Act 2025*, effective Feb 5).",
         "Governance Condition: Insurance companies with FDI must have **at least one resident Indian citizen** serving as Chairperson, MD, or CEO.",
@@ -5705,7 +5659,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Investment limits under VRR in Central G-Secs, T-Bills, State Development Loans, and corporate bonds will be subsumed under the **FPI General Route limits** effective **April 1, 2026**.",
         "FPIs that completed the minimum retention period can liquidate and exit VRR without regulatory lock-in."
@@ -5745,7 +5698,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Proposes revising aggregate ceiling on unsecured advances by Urban Co-operative Banks (UCBs) to **20% of total advances** (from extant 10% of total assets).",
         "Consumer durable loan limit for nominal members raised to **₹2.5 lakh** per borrower. Housing loan tenor/moratorium deregulated for Tier 3 & Tier 4 UCBs."
@@ -5784,7 +5736,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "One-time compensation of up to **₹25,000** for first-time victims of small-value digital fraud (covering up to 85% of loss or ₹25,000, whichever is lower).",
         "Loss sharing: Banks contribute 15%, customer absorbs 15%, remaining borne under regulatory relief."
@@ -5823,7 +5774,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI-DPI for September 2025 rose to **516.76** (from 493.22 in March 2025; Base March 2018=100).",
         "5 Key Parameters: Payment Performance (45%), Payment Enablers (25%), Supply Infrastructure (15%), Demand Infrastructure (10%), Consumer Centricity (5%)."
@@ -5862,7 +5812,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Allocated **₹2,000 crore** to promote zero-MDR low-value UPI P2M and RuPay debit card transactions (compared to ₹2,196.21 crore in FY26 RE). Zero-MDR on RuPay and UPI has been effective since January 2020."
       ],
@@ -5900,7 +5849,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Budget set disinvestment target at **₹80,000 crore** for FY27 (a 135% increase over FY26 RE of ₹33,837 crore), banking on IDBI Bank and LIC equity sale tranches."
       ],
@@ -5938,7 +5886,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Ministry of Housing & Urban Affairs increased Beneficiary-Led Construction (BLC) target under PMAY-U 2.0 to **500,000 homes in FY27** (up from 110,000 in FY26).",
         "Budgetary outlay raised 148% to **₹18,625 crore** in FY27 (from ₹7,500 crore RE in FY26)."
@@ -5977,7 +5924,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Government crossed 3 crore Lakhpati Didis ahead of March 2027; set new target of **6 crore Lakhpati Didis by March 2029**. (Lakhpati Didi = SHG member earning $>₹1\\text{ lakh}$ annual household income).",
         "Agriculture Infrastructure Fund (AIF) loan target doubled from **₹1 lakh crore to ₹2 lakh crore**."
@@ -6016,7 +5962,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Deferred implementation of UTI for OTC derivatives (interest rate, forward G-Secs, forex, and credit derivatives) from April 1, 2026 to **1 January 2027**.",
         "Pre-existing contracts exempt. Delegation of UTI generation to third-party vendors embedding vendor LEI prohibited. CCIL to issue operating guidelines."
@@ -6055,7 +6000,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed shifting ETF base price derivation from T-2 closing NAV to **T-1 day closing NAV / iNAV**.",
         "Differentiated bands: Equity/debt index ETFs: **10% initial band** (flexed up to 20%); Commodity gold/silver ETFs: **6% initial band** (capped at 20%); Overnight ETFs: **5% fixed band**."
@@ -6094,7 +6038,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "AIF managers mandated to report scheme-wise Net Asset Value (NAV) at the **ISIN level directly to depositories within 30 days** of valuation for centralized depository records."
       ],
@@ -6132,7 +6075,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed allowing investors to set up standing instructions for Systematic Withdrawal Plans (SWP) and Systematic Transfer Plans (STP) for mutual fund units held in **demat accounts** (previously restricted to SOA mode)."
       ],
@@ -6170,7 +6112,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed reducing the historical stress testing Z-score in commodity derivatives from **10 to 5**.",
         "Core Settlement Guarantee Fund (SGF) coverage revised to account for simultaneous default of **top three clearing members**."
@@ -6209,7 +6150,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "AIFs allowed to retain funds beyond permissible fund life for ongoing tax/litigation claims with consent of **at least 75% of investors by value**, and operational expense retentions capped at **3 years**."
       ],
@@ -6247,7 +6187,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "All SEBI-regulated entities (stockbrokers, PMS, MFs, distributors) must prominently disclose registered legal name and registration number across all social media content from **May 1, 2026**."
       ],
@@ -6285,7 +6224,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Public Sector: United India Insurance settled **95.26%** of claims within 3 months; New India Assurance **91.75%**; National Insurance **91.79%**.",
         "Private Sector: Acko General Insurance **99.98%**; Reliance General **99.32%**."
@@ -6324,7 +6262,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Fully digital contributory pension scheme; 70%–100% invested in equity.",
         "Partial withdrawals up to **25% of own contributions** for medical/OPD via Apollo 24|7 network after minimum ₹50,000 corpus. Emergency exit: 100% corpus if medical expenses exceed 70% of corpus."
@@ -6363,7 +6300,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "World Bank approved **$830 million loan** (19.5-year maturity, 4-year grace period) for PM-SETU (total outlay ₹60,000 crore upgrading 1,000 ITIs) under $8–10B annual Country Partnership Framework (FY26–FY31)."
       ],
@@ -6401,7 +6337,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI approved Blackstone to acquire **9.99% stake** in Federal Bank (₹6,196.51 crore via preferential placement).",
         "RBI approved SBI Mutual Fund to acquire up to **9.99%** in Bandhan Bank and RBL Bank under Commercial Banks Acquisition Directions 2025."
@@ -6440,7 +6375,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Power Finance Corporation board cleared merger with subsidiary REC Ltd (PFC acquired 52.63% government stake in REC for ₹14,500 crore in March 2019). Both are registered RBI NBFCs and Public Financial Institutions (PFIs)."
       ],
@@ -6478,7 +6412,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Advisory Committee on National Account Statistics (ACNAS) chaired by **Prof. B.N. Goldar** submitted methodological improvement report for new GDP series (Base 2022-23=100) released on February 27, 2026."
       ],
@@ -6516,7 +6449,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Deleted Most-Favored-Nation (MFN) clause; split dividend tax rate (5% for $\\ge 10\\%$ shareholding, 15% for others); aligned Fees for Technical Services with India-US DTAA."
       ],
@@ -6554,7 +6486,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Signed ToR for India-GCC FTA. GCC is India's largest trading bloc with **$178.56 billion bilateral trade** in FY25 (15.42% of India's global trade)."
       ],
@@ -6592,7 +6523,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Deep-tech startups classified up to **20 years from incorporation** with annual turnover cap up to **₹300 crore**. Non-deep-tech turnover cap doubled to **₹200 crore** (10-year limit unchanged)."
       ],
@@ -6630,7 +6560,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "PM RAHAT (*Road Accident Victims' Hospitalization and Assured Treatment*) provides cashless treatment **up to ₹1.5 lakh per victim for 7 days** on any road category via Motor Vehicle Accident Fund (MVAF)."
       ],
@@ -6668,7 +6597,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Greenfield facility in Bhubaneswar, Odisha houses core currency management, payment systems, and regulatory data away from seismic zones (primary data centre in Kharghar, Navi Mumbai)."
       ],
@@ -8257,7 +8185,6 @@
         "Introduces a completely new resolution framework titled **Creditor-Initiated Insolvency Resolution Process (CIIRP)** under **Chapter IV-A** of the Code."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Creditor-Initiated Insolvency Resolution Process (CIIRP — Chapter IV-A):**",
         "Financial creditors holding **at least 51% of voting share** can directly initiate insolvency.",
         "Compressed resolution timeline: **150 days** (with a single maximum extension of **45 days**).",
@@ -8320,7 +8247,6 @@
         "Substantially condenses and simplifies direct tax architecture: Sections reduced from **819 to 536**, Chapters from **47 to 23**, and total word count cut from 5.12 lakh words to 2.6 lakh words."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Expansion of 50% HRA Metro Exemption:**",
         "Expanded from 4 metro cities to **8 major urban centres**: **Mumbai, Kolkata, Delhi, Chennai, Hyderabad, Pune, Ahmedabad, and Bengaluru** receive 50% of basic salary HRA exemption. All other cities receive 40%.",
         "**Mandatory PAN Quoting Thresholds:**",
@@ -8379,7 +8305,6 @@
         "Overhauls customer protection, limits customer liability in unauthorized digital transactions, and mandates dynamic Two-Factor Authentication (2FA)."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Compensation for Small-Value Online Frauds:**",
         "Customers reporting a gross loss of up to **₹50,000** due to fraudulent electronic banking transactions receive **85% of the net loss amount or ₹25,000, whichever is less**, once during their lifetime.",
         "Eligibility: Loss must be proven genuine under bank policy and reported within **5 days** to both the bank and the National Cyber Crime Reporting Portal / Cyber Helpline (**1930**).",
@@ -8435,7 +8360,6 @@
         "Replaced the erstwhile static 40% dividend cap with a risk-sensitive payout ratio of up to **75% of Profit After Tax (PAT)**."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Maximum Dividend Cap:** Commercial banks incorporated in India can declare dividends up to **75% of Profit After Tax (PAT)** for the relevant financial year.",
         "**Capital Buffer Matrix:** Payout capacity is determined by a bank's Common Equity Tier 1 (CET1) capital position:",
         "Banks with CET1 ratios only marginally above regulatory minimums are **prohibited from declaring any dividend**.",
@@ -8483,7 +8407,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI amended the capital adequacy framework for commercial banks to introduce standardized supervisory add-on factors for Counterparty Credit Risk (CCR).",
         "Equity Contracts Add-On Factors: **6%** ($<1$ yr), **8%** (1–5 yrs), and **10%** ($>5$ yrs).",
@@ -8525,7 +8448,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Central Board approved the bank's budget for FY 2026-27 and approved **Utkarsh 3.0** (RBI's Medium-Term Strategy Framework for **2026–2029** to improve regulation and supervision).",
         "State government borrowing via State Government Securities (SGS) auctions reached ₹45,960 crore; top borrowers: **1. Karnataka (₹10,000 cr), 2. Tamil Nadu (₹8,000 cr), 3. Madhya Pradesh (₹5,800 cr)**."
@@ -8564,7 +8486,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Vision document spans up to **December 2028** across **15 specific initiatives**.",
         "Key Initiatives: (1) **PaSS (Payments Switching Service)** to manage recurring mandates during bank mergers or account switching; (2) **Shared Responsibility Framework** where issuer bank and beneficiary bank jointly bear liability for unauthorized digital frauds; (3) **TReDS** expansion for MSME invoice discounting."
@@ -8603,7 +8524,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Central Government, in consultation with RBI, notified the retail inflation target of **4% with a tolerance band of ±2% (2% to 6%)** for another five-year period from **April 1, 2026 to March 31, 2031**. (Target was first established under RBI Act in 2016)."
       ],
@@ -8641,7 +8561,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Ways and Means Advances (WMA) limit for Government of India for April–September 2026 fixed at **₹2,50,000 crore**.",
         "RBI triggers fresh flotation of market loans when the Centre utilizes **75% of the WMA limit**. Interest Rates: WMA at **Repo Rate**; Overdraft at **Repo + 2%**."
@@ -8680,7 +8599,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Mandated Authorized Dealers to maintain Net Open Position in Indian Rupee (NOP-INR) within **$100 million** at the end of each business day to curb speculation amid global oil volatility and FPI equity outflows (compliance deadline: **April 10, 2026**)."
       ],
@@ -8718,7 +8636,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Deferred implementation of revised Commercial Banks Credit Facilities (capital market exposure & broker lending) guidelines by 3 months from April 1 to **July 1, 2026**."
       ],
@@ -8756,7 +8673,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "AD Category-I banks mandated to submit certified ECB returns to RBI within **7 calendar days** of receiving them from borrowers, effective **April 1, 2026**. Delays in Form ECB-2 attract Late Submission Fee (LSF) computed per loan registration number."
       ],
@@ -8794,7 +8710,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Public Sector Banks transferred **₹60,518 crore** in unclaimed deposits (inoperative $>10\\text{ years}$) to RBI's Depositor Education and Awareness (DEA) Fund under Section 26A of Banking Regulation Act, 1949.",
         "Portals: **UDGAM** (RBI for bank deposits), **Bima Bharosa** (IRDAI for insurance), **MITRA** (SEBI for mutual funds). Banking Laws Amendment Act 2025 enabled up to 4 simultaneous/successive nominations."
@@ -8833,7 +8748,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Indian Digital Payment Intelligence Corporation (IDPIC, incorporated Oct 16, 2025 as Section 8 entity) rolled out **MuleHunter.AI** across 26 banks for real-time AI/ML detection of mule accounts used in cyber financial layering."
       ],
@@ -8871,7 +8785,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Effective **April 1, 2026**, banks must trigger DigiLocker-based secondary identity verification for suspicious transactions (large transfers to new beneficiaries, sudden high-value payments) to prevent SIM-swap frauds."
       ],
@@ -8909,7 +8822,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Lowered minimum investment threshold for Social Impact Funds under AIFs from ₹2 lakh to **₹1,000**.",
         "Accepted Pratyush Sinha Committee norms: SEBI Chairman and Whole-Time Members classified as \"insiders\" and must freeze or liquidate commercial equity holdings upon taking office."
@@ -8948,7 +8860,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Permitted mutual funds to undertake intra-day borrowing to manage redemption cash mismatches, exempt from the 20% 6-month borrowing cap, provided borrowings do not exceed guaranteed same-day receivables from GoI, RBI, or CCIL. Effective **April 1, 2026**."
       ],
@@ -8986,7 +8897,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "PoPs receive one-time onboarding charge of **₹200** per new NPS subscriber (paid in ₹50 quarterly installments via unit cancellation); discounted to **₹100** for digital non-face-to-face onboarding. Annual fee: **0.20% of AUM** paid quarterly."
       ],
@@ -9024,7 +8934,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed transferable prepaid mutual fund gift cards capped at **₹10,000 per instrument** with 1-year validity; total annual investment via prepaid instruments/cash capped at **₹50,000 per mutual fund per FY**."
       ],
@@ -9062,7 +8971,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "9-parameter index evaluating exchanges, depositories, and clearing corporations. System availability and security carry highest weight (**20% each**); remaining 7 parameters carry 10% each. Computed half-yearly within 60 days."
       ],
@@ -9100,7 +9008,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Life cycle funds defined with fixed maturity tenures of 5, 10, 15, 20, 25, and 30 years investing in equity, debt (AA+ minimum), gold/silver ETFs, and InvITs. AMCs continuing children's schemes barred from 20-yr variant; retirement schemes barred from 30-yr variant. Exit loads: 3% (Yr 1), 2% (Yr 2), 1% (Yr 3)."
       ],
@@ -9138,7 +9045,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Straight-Through Processing (STP) limit for securities transmission: **₹30,000 for demat** and **₹10,000 for physical**. Simplified documentation threshold raised to **₹30 lakh for demat** and **₹10 lakh for physical** holdings. Mandatory processing within 21 calendar days."
       ],
@@ -9176,7 +9082,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Non-bank custodians permitted to offer non-SEBI financial services exclusively through a separate Strategic Business Unit (SBU) on an arm's-length basis, with statutory net worth of **₹75 crore** maintained excluding the SBU."
       ],
@@ -9214,7 +9119,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Deployed in-house multilingual AI surveillance tool **Sudarshan** to track illegal investment advice across social media; removed 1.2 lakh non-compliant posts and launched Verified App Labels on Google Play Store."
       ],
@@ -9252,7 +9156,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Approved **Allianz Jio Reinsurance** (50:50 JV of Allianz Group and Jio Financial Services) and **Kiwi General Insurance** (backed by WestBridge Capital & Neelesh Garg). Expands domestic reinsurance alongside GIC Re and Valueattics Re."
       ],
@@ -9290,7 +9193,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "All life, general, health insurers and reinsurers mandated to adopt Indian Accounting Standards, specifically **Ind AS 117** (insurance contracts accounting), effective **April 1, 2026** for transparent financial reporting."
       ],
@@ -9328,7 +9230,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Central Board of Trustees (CBT) chaired by Dr. Mansukh Mandaviya recommended **8.25% annual interest** on EPF accumulations for FY 2025-26. Approved EPF Scheme 2026, EPS 2026, EDLI Scheme 2026, and pilot auto-settlement for inoperative accounts with balances $\\le ₹1,000$."
       ],
@@ -9366,7 +9267,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Amended Securities Contracts (Regulation) Rules, 1957 to expand post-issue capital categories from 3 to **6 categories** (from ₹1,600 cr to $>₹5\\text{ lakh cr}$); compliance window between **3 and 10 years**; minimum public offer threshold lowered from 5% to **2.5%**."
       ],
@@ -9404,7 +9304,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Restored full Remission of Duties and Taxes on Exported Products (RoDTEP) rates and caps in force as of Feb 22, 2026, withdrawing the 50% restriction to support exporters during Red Sea and West Asia maritime disruptions."
       ],
@@ -9442,7 +9341,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Insurance companies and State Governments mandated to pay **12% annual interest to farmers** if crop insurance claim settlements are delayed beyond **21 days**."
       ],
@@ -9480,7 +9378,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI renewed the two-way Bilateral Swap Arrangement with Bank of Japan for **$75 billion**, allowing exchange of local currencies against US Dollar for balance of payments support."
       ],
@@ -9518,7 +9415,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "India and European Union agreed to grant each other MFN status for **5 years** from the date the India-EU FTA enters into force (subject to 4th-year joint committee review)."
       ],
@@ -9556,7 +9452,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Proposed **₹1 lakh crore Economic Stabilization Fund** in Lok Sabha as a fiscal buffer against West Asia geopolitical and oil price shocks (₹57,000 cr fresh cash approval + ₹43,000 cr internal savings)."
       ],
@@ -11290,7 +11185,6 @@
         "Mandates banks to estimate and reserve funds for potential credit losses before default occurs, establishing a 4-year transition glidepath to cushion the capital impact."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Three-Stage Asset Classification & Provisioning Floor:**",
         "**Stage 1 (Normal / Performing Loans):** 12-month expected credit loss; minimum provisioning floor of **0.4%** for standard corporate and retail advances.",
         "**Stage 2 (Underperforming / Significant Increase in Credit Risk - SICR):** Lifetime expected credit loss (e.g., 60–90 days overdue); minimum provisioning floor of **5%**.",
@@ -11348,7 +11242,6 @@
         "**Effective Date:** Implemented from **April 1, 2027**."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Unrated Corporate & NBFC Exposures:**",
         "The threshold for applying a punitive **150% risk weight** on unrated corporate and NBFC exposures was raised to **₹500 crore** (relaxed from the ₹200 crore threshold proposed earlier).",
         "**Unrated Bank Exposures:**",
@@ -11405,7 +11298,6 @@
         "**MPC Composition:** Internal Members: Sanjay Malhotra (Governor), Dr. Poonam Gupta, Indranil Bhattacharyya; External Members: Dr. Nagesh Kumar, Saugata Bhattacharya, Prof. Ram Singh."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Policy Rates Matrix:**",
         "**Policy Repo Rate:** **5.25%** (Unchanged).",
         "**Standing Deposit Facility (SDF) Rate:** **5.00%**.",
@@ -11462,7 +11354,6 @@
         "Prohibits PPBL from accepting deposits or conducting any banking business under Section 5(b) or Section 6 of the BR Act, 1949."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Legal Grounds:** Cancelled under Section 22(4) read with Section 22(3) of Banking Regulation Act, 1949.",
         "**Depositor Protection:** RBI confirmed PPBL maintains sufficient liquidity to repay 100% of deposit liabilities upon winding up.",
         "**Regulatory Profile of Payments Banks:**",
@@ -11513,7 +11404,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Proposes a simple asset size threshold of **₹1 lakh crore or more** for NBFC Upper Layer classification, replacing the complex scoring model (threshold reviewed every 5 years).",
         "Removes regulatory exemptions for state-owned financial institutions: **NABARD, EXIM Bank, and SIDBI** will be subjected to the same strict capital and governance norms as private NBFC-ULs.",
@@ -11553,7 +11443,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Consolidated digital payments e-mandate framework permits automatic recurring payments up to **₹15,000 per transaction** without requiring an OTP after one-time AFA registration.",
         "Higher threshold: Recurring transactions for **mutual fund SIPs, insurance premiums, and credit card bills** processed without OTP up to **₹1 lakh per transaction**.",
@@ -11593,7 +11482,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).",
         "Mandates banks to reconcile nostro account credits frequently with reconciliation intervals **not exceeding one hour**.",
@@ -11634,7 +11522,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "DPSS proposed introducing a 1-hour execution delay at the payer's end for account-to-account digital transfers exceeding **₹10,000** (giving payers cancellation rights to stop cyber frauds; frauds $>₹10,000$ account for 98.5% of total fraud value).",
         "Mandatory \"trusted person\" authentication for transfers $>₹50,000$ by senior citizens (aged 70+) and persons with disabilities.",
@@ -11674,7 +11561,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Permitted NBFCs to open domestic branches without seeking prior approval from RBI unless specifically restricted.",
         "Deposit-taking NBFCs with Net Owned Funds (NOF) $>₹50\\text{ crore}$ and credit rating of **AA or higher** permitted to open branches anywhere in India. Deposit-taking NBFCs with NOF $<₹50\\text{ crore}$ or rating below AA restricted to registered home state."
@@ -11713,7 +11599,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Exempts non-deposit NBFCs that do not access public funds, have no customer interface, and have assets $<₹1,000\\text{ crore}$ from RBI registration (classified as \"Unregistered Type I NBFCs\").",
         "Provided a one-time deregistration window till **December 31, 2026** via the RBI PRAVAAH portal, effective **July 1, 2026**."
@@ -11752,7 +11637,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Amended *Commercial Banks – Treatment of Wilful Defaulters Directions*, mandating banks to complete the identification and declaration of a borrower as a wilful defaulter within **six months of the account being tagged as an NPA**. Effective **April 1, 2027**."
       ],
@@ -11790,7 +11674,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Effective **July 1, 2027**, AD Category-I banks must report OTC forex derivative contracts involving the rupee (including those executed by offshore related parties) to the CCIL Trade Repository, covering **70%, 80%, and 90%** of notional contract value across staggered phases."
       ],
@@ -11828,7 +11711,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Effective **July 1, 2026**, banks can suo motu restructure standard loans ($\\le \\text{SMA-0}$) affected by natural calamities on SLBC recommendations. Must be invoked within **45 days** and implemented within **135 days** of calamity declaration."
       ],
@@ -11866,7 +11748,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Retained FPI debt investment caps for FY27: **6% in G-Secs**, **2% in State Government Securities (SGS)**, and **15% in Corporate Bonds**.",
         "Total FPI debt investment limit set at **₹15,51,646 crore** (Apr–Sep 2026) and **₹16,32,640 crore** (Oct 2026–Mar 2027)."
@@ -11905,7 +11786,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "States/UTs scheduled to raise **₹2,54,509 crore** via market borrowings in Q1 FY27. Introduced pilot Benchmark Issuance Strategy across 9 major states (AP, Bihar, CG, Kerala, MP, Maharashtra, Rajasthan, Telangana, UP) accounting for ₹1,53,900 crore."
       ],
@@ -11944,7 +11824,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Formulated 3 distinct customer delivery tiers: Branch, Business Correspondent-Banking Outlet (**BC-BO**), and Business Correspondent-Banking Touchpoint (**BC-BT**).",
         "Subsumes Business Facilitators (BFs) into the unified BC model and establishes standardized commission frameworks."
@@ -11983,7 +11862,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Clarified that for corporate credit cards issued under joint liability structures, default reporting, DPD tracking, and NPA asset classification will apply **only to the corporate entity**, not the individual employee. Late charges computed strictly from payment due date on outstanding balance."
       ],
@@ -12021,7 +11899,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Unveiled *Utkarsh 2029* comprising **49 deliverables across six strategy pillars**: Robust Regulations, Customer Centricity & Inclusive Finance, Competitive Markets, Effective Technology, Future-ready Organisation, and Global India."
       ],
@@ -12059,7 +11936,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Returned Ujjivan SFB's universal bank transition application pending portfolio diversification.",
         "Universal Banking Eligibility Criteria for SFBs: 5-year scheduled status track record, listed shares, min net worth of **₹1,000 crore**, CRAR compliance, and **GNPA $\\le 3\\%$ & NNPA $\\le 1\\%$** in previous 2 fiscal years. (AU SFB remains the only SFB approved for universal banking transition)."
@@ -12098,7 +11974,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Permitted Foreign Portfolio Investors (FPIs) to net fund obligations for same-day cash market buy/sell trades, reducing gross liquidity locking and forex conversion costs on index rebalancing days (full rollout by **December 31, 2026**)."
       ],
@@ -12136,7 +12011,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed linking stockbroker net worth to volume of client funds and active clients: 10% of 6-month average credit balances + incremental **₹50 lakh per 50,000 active direct clients** above 10,000 clients."
       ],
@@ -12174,7 +12048,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Mere filing of criminal complaints, FIRs, or charge sheets will no longer trigger automatic disqualification; disqualification occurs strictly upon **conviction for economic offenses or securities law violations**. Intermediaries given 15 working days to report disqualifying events."
       ],
@@ -12212,7 +12085,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "One-time regulatory extension making SEBI IPO Observation Letters and 25% Minimum Public Shareholding compliance deadlines expiring between April 1 and Sept 30 valid until **September 30, 2026**."
       ],
@@ -12250,7 +12122,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Operationalized PaRRVA with **CARE Ratings** as the verification agency and **NSE** as the PaRRVA Data Centre (PDC) from **May 4, 2026** to certify performance claims of investment advisers, research analysts, and algo traders."
       ],
@@ -12288,7 +12159,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "SEBI launched **SUPCOMS** (unified regulated entity communication), **e-adjudication portal** (paperless quasi-judicial hearings), and **C-SAC** (AI platform for cybersecurity audit compliance analysis)."
       ],
@@ -12326,7 +12196,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Amended ICDR Regulations enabling depositories to tag pledged pre-issue shares as \"non-transferable\" to strictly enforce lock-in covenants."
       ],
@@ -12364,7 +12233,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Mandated all life, general, health insurers and reinsurers to prepare financial statements under Indian Accounting Standards (Ind AS) including **Ind AS 117** from April 1, 2026, with parallel reporting for 2 years and a 1-year forbearance. Formed a 2-year Joint Expert Group on Ind AS."
       ],
@@ -12402,7 +12270,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Identified Life Insurance Corporation of India (LIC), New India Assurance, and General Insurance Corporation of India (GIC Re) as Domestic Systemically Important Insurers ('Too Big to Fail') for FY 2025-26."
       ],
@@ -12440,7 +12307,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Notified **4% obligatory cession** on sum insured for general insurance policies to Indian re-insurers for FY 2026-27 (NIL for terrorism and nuclear pool). Minimum ceding commissions: 5% motor TP/oil, 10% group health, 7.5% crop."
       ],
@@ -12478,7 +12344,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** IRDAI",
         "**Must Memorize Facts:**",
         "Mandated Information Security Risk Management Committee (ISRMC) to meet **quarterly** (earlier bi-annually); required closure of audit gaps within 12 months; granted operational independence to CISO (prohibiting business targets)."
       ],
@@ -12516,7 +12381,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** OTHER",
         "**Must Memorize Facts:**",
         "Rolled out EPFO 3.0 allowing members to withdraw up to **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months. Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26."
       ],
@@ -12554,7 +12418,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Replaced employer Form 16 with **Form 130** (disclosing exact tax deduction rate and shifting from AY to Tax Year under TIN 2.0). Launched **TRACES 2.0** integrating 26AS, AIS, and TDS credits."
       ],
@@ -12592,7 +12455,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Released **₹30 billion first withdrawal** to Maldives under 2024–27 SAARC Currency Swap Framework (replaces matured $400M facility; cumulative swap support exceeds $1.1 billion since 2012)."
       ],
@@ -14254,7 +14116,6 @@
         "Maintained the **Contingent Risk Buffer (CRB)** at **6.5%** of the RBI balance sheet within the Economic Capital Framework (ECF) target band of 4.5% to 7.5%."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Surplus Dividend Transfer:** Approved **₹2,86,588.46 crore** transfer to the Government of India for FY 2025-26 (highest-ever dividend payout by the central bank).",
         "**Contingent Risk Buffer (CRB) Allocation:** Transferred **₹1,09,379.64 crore** to the CRB (compared to ₹44,861.70 crore in FY25) to maintain the buffer at **6.5%** of the balance sheet.",
         "**Balance Sheet Expansion:** RBI's balance sheet expanded by **20.61% to ₹91,97,121.08 crore** as of March 31, 2026.",
@@ -14307,7 +14168,6 @@
         "**Effective Date:** Guidelines take effect from **October 1, 2026**."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Aggregate & Individual Unsecured Lending Ceilings:**",
         "**Aggregate Ceiling:** Unsecured loans and advances capped at **20% of total loans and advances** (shifting from the earlier limit of 10% of total assets).",
         "**Tier-Specific Individual Ceilings:**",
@@ -14364,7 +14224,6 @@
         "Introduced the **Forex Correspondent (FxC)** model allowing AD Category-I and AD Category-II entities to appoint agents for retail foreign exchange operations."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Forex Correspondent (FxC) Operating Framework:**",
         "Authorized Dealers (AD-I and AD-II) can appoint FxCs under a principal-agent model.",
         "Permitted FxC Operations: (1) Purchase foreign currency notes/coins and travellers' cheques; (2) Sell foreign currency notes/travellers' cheques for foreign travel; (3) Act as MTSS sub-agents.",
@@ -14420,7 +14279,6 @@
         "**Effective Date:** Came into force on **May 18, 2026**."
       ],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Discontinuation & Balance Transfer Protocol:**",
         "Requirement for commercial banks to maintain IFR stands discontinued from May 18, 2026.",
         "Existing IFR balances as of May 17, 2026 shall be transferred **'below the line' to Statutory Reserve, General Reserve, or the Balance of Profit and Loss Account**.",
@@ -14470,7 +14328,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Removed the qualifying condition that required incremental quarterly NPA provisioning not to deviate $>25\\%$ from the previous year's quarterly average.",
         "Banks can include quarterly profits in CET1 capital calculation provided quarterly financial statements are audited or subjected to limited review, using a formula linked to 3-year average dividend payout."
@@ -14510,7 +14367,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Allows lenders to acquire ownership of immovable collateral for NPA accounts when other legal recovery avenues are unviable.",
         "Disposal Period: Regulated entities must dispose of acquired SNFA assets within a **maximum of 7 years**. Mandates revaluation at least once every 2 years on distress sale basis."
@@ -14550,7 +14406,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Lenders permitted to disable financed smartphone features only after **90 DPD**, requiring a 21-day notice at 60 DPD and a mandatory 7-day second notice (effective **Oct 1, 2026**). Wrongful blocking penalty: **₹250 per hour**.",
         "Recovery Code: Mandatory IIBF certification for agents; calling hours restricted to **8 AM to 7 PM**; 6-month call recording retention."
@@ -14589,7 +14444,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI reviewed the Countercyclical Capital Buffer (CCyB) framework and decided to keep the buffer requirement at **0%**, as the credit-to-GDP gap and supplementary systemic indicators do not warrant activation."
       ],
@@ -14628,7 +14482,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Mandates standard reporting templates in **rupees crore** for capital adequacy, capital composition, and risk-weighted assets across all listed, unlisted, and foreign bank branches.",
         "Disclosures must be maintained on dedicated website sections and archived for at least **10 years**."
@@ -14667,7 +14520,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "In H2 2025: UPI accounted for **85.5% of total payment volume** (followed by NEFT at 3.6% and PPIs at 3.6%); RTGS accounted for **68.6% of total payment value** (followed by NEFT at 14.9% and UPI at 9.5%). Digital payments reached 99.8% volume and 97.8% value share in CY2025.",
         "Payments Regulatory Board (PRB) formally constituted on May 9, 2025 (replacing BPSS)."
@@ -14706,7 +14558,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI's total gold reserves stood at **880.52 metric tonnes** as of end-March 2026, with **680.05 MT (77.23%)** held domestically (up from 59.2% in March 2025). 197.67 MT held with Bank of England and BIS. Gold share in forex reserves reached **16.70%**."
       ],
@@ -14744,7 +14595,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "RBI sold a net **$53.13 billion** in the spot forex market in FY 2025-26 (bought $142B, sold $195B) to stabilize the rupee against West Asia geopolitical shocks and FPI equity outflows. Net FDI into India rose to **$7.65 billion** in FY26 (up from $959M in FY25)."
       ],
@@ -14782,7 +14632,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Phased out minimum-KYC ₹10,000 wallets; mandated all active PPI wallet users to transition to full-KYC compliance. Tightened reporting frequency from 30 days to **15 days**; annual wallet market transaction value: ₹2.5 lakh crore."
       ],
@@ -14820,7 +14669,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Mandated that directors serving on the board of a co-operative bank for **10 continuous years** can be re-appointed to the same board only after a **3-year cooling-off period** (effective immediately)."
       ],
@@ -14858,7 +14706,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Formed an 8-member committee convened by **Prof. Anil Prabhakar (IIT Madras)** to create a roadmap to quantum-secure India's payment and financial systems against post-quantum cryptography vulnerabilities."
       ],
@@ -14896,7 +14743,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "AD Category-I banks permitted to partner with non-bank digital platforms and software interfaces for non-trade current account outward remittances without seeking prior clearance from RBI under FEMA."
       ],
@@ -14934,7 +14780,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** RBI",
         "**Must Memorize Facts:**",
         "Conducted a **$5 billion USD/INR buy-sell swap auction** to infuse long-term rupee liquidity into the banking system while bolstering forex reserves."
       ],
@@ -14972,7 +14817,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed *AIF Rollout Upon Document Acknowledgement (GARUDA)* allowing regular AIFs to launch schemes within **10 working days** of filing PPMs through a merchant banker (reduced from 30 days). First close mandatory within 12 months."
       ],
@@ -15010,7 +14854,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Eased nomination for demat accounts and mutual fund folios; nomination becomes default choice for new single-holder accounts opened from **September 1, 2026**. Investors can nominate **up to 3 nominees** (equal division if percentage unspecified)."
       ],
@@ -15048,7 +14891,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Open market buybacks via stock exchanges with maximum completion timeline of **66 working days**; at least **40% of buyback size** must be utilized in the first half of offer period; promoter securities frozen at ISIN level."
       ],
@@ -15086,7 +14928,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposes doubling client position limits across broad, narrow, and sensitive categories. Revises broad category to commodities with 10 lakh MT deliverable supply or ₹5,000 crore monetary value. 2-day square-off enforcement for $>2\\%$ limit breaches."
       ],
@@ -15124,7 +14965,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Working capital deployment capped at **25% of issue proceeds**; mandates two-tier escrow with 1-year interest reserve at SPV level; aligns face values at ₹10,000 / ₹1 lakh."
       ],
@@ -15162,7 +15002,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Discontinued the IRRA platform (operational since Oct 1, 2023) following institutionalization of broker BCP-DR mandates and Market Security Operations Centres (M-SoC)."
       ],
@@ -15200,7 +15039,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposed permitting depositories to use up to **5% of interest/income** earned from Investor Protection Fund (IPF) corpus to meet dedicated trust administrative and audit expenses, aligning with stock exchange norms."
       ],
@@ -15238,7 +15076,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Proposes allowing listed companies and EPFO-registered employers to make direct third-party mutual fund contributions on behalf of employees through voluntary payroll deductions; allows AMCs to pay trail commission in MF units."
       ],
@@ -15276,7 +15113,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** SEBI",
         "**Must Memorize Facts:**",
         "Benchmark providers with tracking MF AUM exceeding **₹20,000 crore** across mutual funds must register with SEBI within 6 months under Index Provider Regulations. (RBI-notified benchmarks exempt)."
       ],
@@ -15314,7 +15150,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Effective **May 13, 2026**, PFRDA permitted government and private NPS funds to invest in rupee-denominated bonds issued by the New Development Bank (NDB), expanding beyond IBRD, IFC, and ADB debt."
       ],
@@ -15352,7 +15187,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Introduced RIS allowing phased systematic decumulation up to age 85 (maintaining 20%/40% minimum annuity purchase). Permitted premature annuity surrender for annuitants or family members diagnosed with critical illnesses."
       ],
@@ -15390,7 +15224,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** PFRDA",
         "**Must Memorize Facts:**",
         "Replaced 2019 PFRDA guidelines with SEBI’s Prohibition of Insider Trading (PIT) Regulations, 2015, enforcing strict capital market governance on pension fund investment activities."
       ],
@@ -15428,7 +15261,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "₹3,000 crore incentive pool under Special Assistance for State Capital Investment (SASCI). Weightages: **Debt Management (50%)**, **Borrowing Discipline (30%)**, **Fiscal Transparency (20%)**. States must adopt MTDS approved by state cabinet by Dec 15, 2026."
       ],
@@ -15466,7 +15298,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Eased Press Note 3 (2020) curbs under FEMA, permitting automatic route FDI for global entities with up to **10% Chinese ownership** across 40 sub-sectors (capital goods, EV batteries, rare earths, wafers) with a 60-day approval SOP."
       ],
@@ -15504,7 +15335,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Notified 100% FDI in insurance companies under automatic route (LIC investment capped at 20%; insurance intermediaries at 100%). Governance condition: at least one resident Indian citizen as Chairperson/MD/CEO."
       ],
@@ -15542,7 +15372,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Institution:** MINISTRY_OF_FINANCE",
         "**Must Memorize Facts:**",
         "Import duty on gold and silver raised from 6% to **15%**, and platinum from 6.4% to **15.4%**. Restricted imports of 99.9% pure silver bars requiring DGFT authorization."
       ],
@@ -16948,12 +16777,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `BANKING_REGULATION`",
-        "Institution: `IRDAI`",
-        "Priority: `P1_CRITICAL_DEEP`",
-        "Date: `2026-08-04`",
-        "Target Exams: `SBI PO Mains, IBPS PO Mains`",
-        "Revision Effort: `~7 min`",
         "IRDAI & GIC Stance Overruled: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.",
         "Tech-Driven Enforcement: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**.",
         "*What are the newly mandated third-party insurance durations for new cars and two-wheelers?* (4 years for cars, 6 years for two-wheelers).",
@@ -16994,12 +16817,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P1_CRITICAL_DEEP`",
-        "Date: `2026-08-10`",
-        "Target Exams: `SBI PO Mains, IBPS PO Mains`",
-        "Revision Effort: `~7 min`",
         "Nodal Ministry: Ministry of Petroleum and Natural Gas (MoPNG).",
         "Core Objective: Convert agricultural residue, cattle dung, press mud, municipal organic solid waste, and agro-industrial biomass into Compressed Biogas (CBG) and organic manure (Fermented Organic Manure - FOM).",
         "**3% in FY 2026-27**",
@@ -17043,12 +16860,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `BANKING_REGULATION`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P1_CRITICAL_DEEP`",
-        "Date: `2026-08-07`",
-        "Target Exams: `SBI PO Mains, IBPS PO Mains`",
-        "Revision Effort: `~8 min`",
         "Introduces institutionalized Online Dispute Resolution (ODR) for MSE delayed payment disputes under Section 18.",
         "Mandates that conciliation and mediation proceedings before Micro and Small Enterprise Facilitation Councils (MSEFCs) be completed within a strict **90-day statutory timeline**.",
         "Requires courts/appellate authorities to order mandatory deposit/payment of **at least 50% of the awarded amount** to the MSE supplier before entertaining any appeal or application to set aside an arbitral award.",
@@ -17090,12 +16901,6 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `MACRO_ECONOMY`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P1_CRITICAL_MEMORIZE`",
-        "Date: `2026-08-05`",
-        "Target Exams: `SBI PO Mains, IBPS PO Mains`",
-        "Revision Effort: `~5 min`",
         "Expansion: Expanded the list of notified natural disasters eligible for direct Central disaster relief funding from **12 to 14 categories**.",
         "Two Newly Added Calamities: **Heatwaves** and **Lightning**.",
         "Complete List of 14 Calamities: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.",
@@ -17140,11 +16945,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `CAPITAL_MARKETS`",
-        "Institution: `OTHER`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-11`",
-        "Must-Memorize Fact: NB Holdings Corporation (wholly owned subsidiary of Bank of America) acquired a 49.9% stake in Jio Credit (lending arm of Jio Financial Services - JFS) for ₹18,268.22 crore ($1.9 billion) via preferential allotment of equity shares and warrants."
+        "NB Holdings Corporation (wholly owned subsidiary of Bank of America) acquired a 49.9% stake in Jio Credit (lending arm of Jio Financial Services - JFS) for ₹18,268.22 crore ($1.9 billion) via preferential allotment of equity shares and warrants."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17180,11 +16981,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: A third-party study by the Institute for Social and Economic Change (ISEC), Bengaluru, revealed that every ₹1 invested under KCC-MISS generated ₹2.30 in net agricultural value addition; total subsidy outlay reached ₹1.87 lakh crore up to FY25; operative KCC accounts reached 7.28 crore holding ₹10.08 lakh crore loans in FY26. (KCC interest rate is 7% with 3% prompt repayment subvention, giving effective 4% rate for short-term crop loans up to ₹3 lakh; collateral-free limit is ₹2 lakh)."
+        "A third-party study by the Institute for Social and Economic Change (ISEC), Bengaluru, revealed that every ₹1 invested under KCC-MISS generated ₹2.30 in net agricultural value addition; total subsidy outlay reached ₹1.87 lakh crore up to FY25; operative KCC accounts reached 7.28 crore holding ₹10.08 lakh crore loans in FY26. (KCC interest rate is 7% with 3% prompt repayment subvention, giving effective 4% rate for short-term crop loans up to ₹3 lakh; collateral-free limit is ₹2 lakh)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17220,11 +17017,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-06`",
-        "Must-Memorize Fact: PM Surya Ghar: Muft Bijli Yojana (outlay ₹75,021 crore, launched Feb 2024) crossed 50.06 lakh beneficiary households; ₹28,024 crore released directly via DBT; nearly 19 lakh households receive zero electricity bills."
+        "PM Surya Ghar: Muft Bijli Yojana (outlay ₹75,021 crore, launched Feb 2024) crossed 50.06 lakh beneficiary households; ₹28,024 crore released directly via DBT; nearly 19 lakh households receive zero electricity bills."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17260,11 +17053,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `MACRO_ECONOMY`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-07`",
-        "Must-Memorize Fact: Finance Ministry informed Lok Sabha that 99.92% of inhabited villages (6,00,868 of 6,01,328) have banking touchpoints within 5 km; PMJDY accounts reached 58.77 crore with combined deposit balances of ₹3,12,414 crore; supported by 1.81 lakh bank branches, 17.36 lakh BCs, and 1.65 lakh IPPB access points monitored via Jan Dhan Darshak (JDD) GIS App."
+        "Finance Ministry informed Lok Sabha that 99.92% of inhabited villages (6,00,868 of 6,01,328) have banking touchpoints within 5 km; PMJDY accounts reached 58.77 crore with combined deposit balances of ₹3,12,414 crore; supported by 1.81 lakh bank branches, 17.36 lakh BCs, and 1.65 lakh IPPB access points monitored via Jan Dhan Darshak (JDD) GIS App."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17300,11 +17089,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `DIGITAL_PAYMENTS`",
-        "Institution: `NPCI`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-02`",
-        "Must-Memorize Fact: NPCI data showed UPI processed an all-time monthly high of 23.66 billion transactions (surpassing May 2026's 23.20 billion) worth ₹29.88 lakh crore in July 2026; daily transaction volume averaged 763 million with daily value of ₹96,383 crore. (UPI is live in 10 countries: Bhutan, Singapore, UAE, France, Mauritius, Sri Lanka, Nepal, Qatar, Cambodia, and Maldives)."
+        "NPCI data showed UPI processed an all-time monthly high of 23.66 billion transactions (surpassing May 2026's 23.20 billion) worth ₹29.88 lakh crore in July 2026; daily transaction volume averaged 763 million with daily value of ₹96,383 crore. (UPI is live in 10 countries: Bhutan, Singapore, UAE, France, Mauritius, Sri Lanka, Nepal, Qatar, Cambodia, and Maldives)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17340,11 +17125,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `BANKING_REGULATION`",
-        "Institution: `RBI`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-09`",
-        "Must-Memorize Fact: RBI deferred implementation of revised loan recovery and recovery agent norms from October 1, 2026 to January 1, 2027; gives REs a 1-year window for agent IIBF certification; mandates recovery calls/visits strictly between 8 am and 7 pm with 1-day prior borrower notice; requires OEM/OS certification for smartphone device-locking mechanisms."
+        "RBI deferred implementation of revised loan recovery and recovery agent norms from October 1, 2026 to January 1, 2027; gives REs a 1-year window for agent IIBF certification; mandates recovery calls/visits strictly between 8 am and 7 pm with 1-day prior borrower notice; requires OEM/OS certification for smartphone device-locking mechanisms."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17380,11 +17161,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: MeitY amended Information Technology Rules 2021, reducing the unlawful content removal deadline for social media intermediaries from 36 hours to 3 hours upon government/court notice; sensitive complaint resolution cut from 24 hours to 2 hours; introduced formal legal definition and mandatory provenance/watermark labelling for AI-generated synthetic content."
+        "MeitY amended Information Technology Rules 2021, reducing the unlawful content removal deadline for social media intermediaries from 36 hours to 3 hours upon government/court notice; sensitive complaint resolution cut from 24 hours to 2 hours; introduced formal legal definition and mandatory provenance/watermark labelling for AI-generated synthetic content."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17420,11 +17197,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `MACRO_ECONOMY`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-05`",
-        "Must-Memorize Fact: Ministry of New and Renewable Energy reported India reached 300.50 GW non-fossil fuel capacity as of July 31, 2026 (>54% of total 552 GW grid capacity), crossing 60% of its 500 GW by 2030 target. Breakdown: Solar 164.59 GW, Wind 58.14 GW, Hydro 57.24 GW, Bio-power 11.75 GW, Nuclear 8.78 GW."
+        "Ministry of New and Renewable Energy reported India reached 300.50 GW non-fossil fuel capacity as of July 31, 2026 (>54% of total 552 GW grid capacity), crossing 60% of its 500 GW by 2030 target. Breakdown: Solar 164.59 GW, Wind 58.14 GW, Hydro 57.24 GW, Bio-power 11.75 GW, Nuclear 8.78 GW."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17460,11 +17233,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-11`",
-        "Must-Memorize Fact: President Droupadi Murmu gave assent to the amendment bringing National Song \"Vande Mataram\" under Section 3 of the Prevention of Insults to National Honour Act, 1971, granting it equal statutory protection with National Anthem \"Jana Gana Mana\"; intentional disruption attracts up to 3 years imprisonment/fine; all 6 stanzas sung from Red Fort ramparts on Independence Day."
+        "President Droupadi Murmu gave assent to the amendment bringing National Song \"Vande Mataram\" under Section 3 of the Prevention of Insults to National Honour Act, 1971, granting it equal statutory protection with National Anthem \"Jana Gana Mana\"; intentional disruption attracts up to 3 years imprisonment/fine; all 6 stanzas sung from Red Fort ramparts on Independence Day."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17500,11 +17269,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-06`",
-        "Must-Memorize Fact: Parliament passed the Registration of Births and Deaths (Amendment) Bill 2026, requiring mandatory approval from a District Magistrate (DM), Sub-Divisional Magistrate (SDM), or Executive Magistrate for delayed birth or death registrations sought between 1 and 2 years after occurrence."
+        "Parliament passed the Registration of Births and Deaths (Amendment) Bill 2026, requiring mandatory approval from a District Magistrate (DM), Sub-Divisional Magistrate (SDM), or Executive Magistrate for delayed birth or death registrations sought between 1 and 2 years after occurrence."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17540,11 +17305,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-09`",
-        "Must-Memorize Fact: MoRTH draft notification amends Central Motor Vehicles Rules 1989 to mandate AIS-230 compliant Vehicle-to-Vehicle (V2V) Cellular Vehicle-to-Everything (C-V2X) communication (5.875–5.925 GHz band) in all new L, M, and N category vehicles manufactured on or after October 1, 2028."
+        "MoRTH draft notification amends Central Motor Vehicles Rules 1989 to mandate AIS-230 compliant Vehicle-to-Vehicle (V2V) Cellular Vehicle-to-Everything (C-V2X) communication (5.875–5.925 GHz band) in all new L, M, and N category vehicles manufactured on or after October 1, 2028."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17580,11 +17341,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-07`",
-        "Must-Memorize Fact: MoWCD reported 3,130 AWCCs operational under the Palna Scheme (Samarthya Vertical of Mission Shakti) as of March 31, 2026 (target 17,000); operates under a 60:40 Centre-State funding ratio (90:10 for NE/Himalayan states, 100% for UTs without legislature); provides 7.5 hrs/day crèche services for children aged 6 months to 6 years."
+        "MoWCD reported 3,130 AWCCs operational under the Palna Scheme (Samarthya Vertical of Mission Shakti) as of March 31, 2026 (target 17,000); operates under a 60:40 Centre-State funding ratio (90:10 for NE/Himalayan states, 100% for UTs without legislature); provides 7.5 hrs/day crèche services for children aged 6 months to 6 years."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17620,11 +17377,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-06`",
-        "Must-Memorize Fact: Under NGHM (outlay ₹19,744 crore to achieve 5 MMT green hydrogen by 2030), 3,000 MW/year electrolyser manufacturing capacity and 756,100 tonnes green hydrogen capacity awarded under SIGHT; VOC Port Authority awarded green methanol bunkering facility; Shipping Corporation of India awarded dual-fuel green methanol vessel."
+        "Under NGHM (outlay ₹19,744 crore to achieve 5 MMT green hydrogen by 2030), 3,000 MW/year electrolyser manufacturing capacity and 756,100 tonnes green hydrogen capacity awarded under SIGHT; VOC Port Authority awarded green methanol bunkering facility; Shipping Corporation of India awarded dual-fuel green methanol vessel."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17660,11 +17413,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `GOVERNMENT_SCHEMES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: Ministry of Social Justice & Empowerment reported SMILE-Beggary sub-scheme is operational in 216 cities, with approved SFC target to expand to 295 cities by FY31; 10,200+ individuals rehabilitated against 35,000 target; monitored via SMILE-Beggary National Portal."
+        "Ministry of Social Justice & Empowerment reported SMILE-Beggary sub-scheme is operational in 216 cities, with approved SFC target to expand to 295 cities by FY31; 10,200+ individuals rehabilitated against 35,000 target; monitored via SMILE-Beggary National Portal."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17700,11 +17449,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `REPORTS_AND_INDICES`",
-        "Institution: `NITI_AAYOG`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-10`",
-        "Must-Memorize Fact: NITI Aayog report released by Vice-Chairperson Ashok Kumar Lahiri recommends setting up a National Caregiver Council (NCC) and National Caregiving Qualification Framework; noted India's elderly population (60+) stood at 149 million in 2022 (10.5%) and will rise to 347 million by 2050."
+        "NITI Aayog report released by Vice-Chairperson Ashok Kumar Lahiri recommends setting up a National Caregiver Council (NCC) and National Caregiving Qualification Framework; noted India's elderly population (60+) stood at 149 million in 2022 (10.5%) and will rise to 347 million by 2050."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17740,11 +17485,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `REPORTS_AND_INDICES`",
-        "Institution: `INTERNATIONAL_BODIES`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-07`",
-        "Must-Memorize Fact: Yale and Columbia University biennial EPI 2026 ranked Estonia 1st (74.79), Luxembourg 2nd, UK 3rd; India ranked 176th out of 177 countries (score 22.46), finishing ahead only of Laos (177th, 21.78) and ranking last among 8 South Asian nations."
+        "Yale and Columbia University biennial EPI 2026 ranked Estonia 1st (74.79), Luxembourg 2nd, UK 3rd; India ranked 176th out of 177 countries (score 22.46), finishing ahead only of Laos (177th, 21.78) and ranking last among 8 South Asian nations."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17780,11 +17521,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `CAPITAL_MARKETS`",
-        "Institution: `IFSCA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-09`",
-        "Must-Memorize Fact: Standard Chartered Bank became the first foreign bank to secure IFSCA in-principle approval to distribute capital market and retail wealth management products from GIFT City IFSC."
+        "Standard Chartered Bank became the first foreign bank to secure IFSCA in-principle approval to distribute capital market and retail wealth management products from GIFT City IFSC."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17820,11 +17557,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-06`",
-        "Must-Memorize Fact: Glaw Lake in Kamlang Tiger Reserve, Arunachal Pradesh, became India's 101st Ramsar Site and Arunachal Pradesh's 1st Ramsar Site; Ramsar network expanded from 26 sites in 2014 to 101 in 2026."
+        "Glaw Lake in Kamlang Tiger Reserve, Arunachal Pradesh, became India's 101st Ramsar Site and Arunachal Pradesh's 1st Ramsar Site; Ramsar network expanded from 26 sites in 2014 to 101 in 2026."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17860,11 +17593,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `DEFENCE_AND_SCIENCE`",
-        "Institution: `OTHER`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: ICAR-NIHSAD Bhopal developed India's first MA-104 cell line-based live attenuated African Swine Fever (ASF) Genotype II vaccine for pigs; India becomes the 2nd Asian nation after Vietnam to develop an ASF vaccine."
+        "ICAR-NIHSAD Bhopal developed India's first MA-104 cell line-based live attenuated African Swine Fever (ASF) Genotype II vaccine for pigs; India becomes the 2nd Asian nation after Vietnam to develop an ASF vaccine."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17900,11 +17629,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `DEFENCE_AND_SCIENCE`",
-        "Institution: `OTHER`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: ICAR National Institute for Plant Biotechnology assembled India's first complete telomere-to-telomere (T2T) reference genome for pigeonpea/Arhar ('Asha' variety, NIPB_CcT2T_4, 752.65 million base pairs across 11 chromosomes)."
+        "ICAR National Institute for Plant Biotechnology assembled India's first complete telomere-to-telomere (T2T) reference genome for pigeonpea/Arhar ('Asha' variety, NIPB_CcT2T_4, 752.65 million base pairs across 11 chromosomes)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17940,11 +17665,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `DEFENCE_AND_SCIENCE`",
-        "Institution: `OTHER`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-06`",
-        "Must-Memorize Fact: Strategic Forces Command (SFC) and DRDO successfully test-fired 2-stage solid-fuel nuclear-capable Agni-4 ballistic missile (strike range up to 4,000 km, open TEL launch) from ITR Chandipur, Odisha."
+        "Strategic Forces Command (SFC) and DRDO successfully test-fired 2-stage solid-fuel nuclear-capable Agni-4 ballistic missile (strike range up to 4,000 km, open TEL launch) from ITR Chandipur, Odisha."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -17980,11 +17701,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `APPOINTMENTS`",
-        "Institution: `OTHER`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-11`",
-        "Must-Memorize Fact: Manappuram Finance board appointed Ashish Singh as MD & CEO for 5 years w.e.f. Jan 1, 2027 following Bain Capital's ₹4,385 crore 18% equity acquisition; V.P. Nandakumar transitions to Non-Executive Chairman on Jan 1, 2027."
+        "Manappuram Finance board appointed Ashish Singh as MD & CEO for 5 years w.e.f. Jan 1, 2027 following Bain Capital's ₹4,385 crore 18% equity acquisition; V.P. Nandakumar transitions to Non-Executive Chairman on Jan 1, 2027."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -18020,11 +17737,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `APPOINTMENTS`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-09`",
-        "Must-Memorize Fact: ACC approved Baldeo Purushartha (Senior Adviser to ED at ADB, Manila), Ponnuraj V. Rahul Jain (Senior Adviser to ED at IMF, Washington), Kapil Patidar (Adviser to ED at IMF), Subhash Kumar (Director at SAARC Secretariat, Kathmandu), and Satyajit Mohanty (India's Representative to ICAO Council, Montreal)."
+        "ACC approved Baldeo Purushartha (Senior Adviser to ED at ADB, Manila), Ponnuraj V. Rahul Jain (Senior Adviser to ED at IMF, Washington), Kapil Patidar (Adviser to ED at IMF), Subhash Kumar (Director at SAARC Secretariat, Kathmandu), and Satyajit Mohanty (India's Representative to ICAO Council, Montreal)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -18060,11 +17773,7 @@
       "verificationStatus": "SOURCE_ONLY",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Category: `NATIONAL_AND_STATES`",
-        "Institution: `GOVERNMENT_OF_INDIA`",
-        "Priority: `P2_HIGH`",
-        "Date: `2026-08-08`",
-        "Must-Memorize Fact: V.O. Chidambaranar Port Authority (Tuticorin, Tamil Nadu) became India's 1st major port accredited with ISO 50001:2018 Energy Management System certification by Indian Register Quality Systems (IRQS) under Harit Sagar Guidelines."
+        "V.O. Chidambaranar Port Authority (Tuticorin, Tamil Nadu) became India's 1st major port accredited with ISO 50001:2018 Energy Management System certification by Indian Register Quality Systems (IRQS) under Harit Sagar Guidelines."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],

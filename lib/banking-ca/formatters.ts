@@ -105,3 +105,27 @@ export function formatTopicDate(
 
   return `${mName} ${year}`;
 }
+
+/**
+ * Returns a single clean, subtle contextual category label for reader surfaces.
+ */
+export function formatCleanCategory(category: string): string {
+  const categoryNames: Record<string, string> = {
+    BANKING_REGULATION: "Banking & Regulation",
+    MONETARY_POLICY: "Monetary Policy",
+    CAPITAL_MARKETS: "Capital Markets",
+    GOVERNMENT_SCHEMES: "Government Schemes",
+    MACRO_ECONOMY: "Economy & Fiscal",
+    DIGITAL_PAYMENTS: "Digital Payments",
+    APPOINTMENTS: "Appointments",
+    INSURANCE_SECTOR: "Insurance",
+    PENSION_SYSTEMS: "Pensions",
+    REPORTS_AND_INDICES: "Reports & Indices",
+    DEFENCE_AND_SCIENCE: "Defence & Science",
+    SPORTS_AND_AWARDS: "Sports & Awards",
+    NATIONAL_AND_STATES: "National & States",
+    INTERNATIONAL_AFFAIRS: "International Affairs"
+  };
+
+  return categoryNames[category] || category.replace(/_/g, " ");
+}

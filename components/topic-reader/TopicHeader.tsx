@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, CheckCircle2, Circle, Clock, Zap } from "lucide-react";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
-import { formatTopicCategory } from "@/lib/banking-ca/formatters";
+import { formatCleanCategory } from "@/lib/banking-ca/formatters";
 import { isTopicReadSlug, toggleTopicReadSlug } from "@/lib/banking-ca/reading-state";
 
 interface TopicHeaderProps {
@@ -46,7 +46,7 @@ export function TopicHeader({ topic }: TopicHeaderProps) {
   };
 
   const monthLabel = MONTH_NAMES[topic.chronologicalMonth] || topic.chronologicalMonth;
-  const categoryLabel = formatTopicCategory(topic.primaryInstitution, topic.primaryCategory);
+  const categoryLabel = formatCleanCategory(topic.primaryCategory);
 
   return (
     <header className="space-y-3 pb-5 border-b border-[var(--border-primary)] select-none">
