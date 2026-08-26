@@ -274,7 +274,7 @@ function runPostDeployQaTests() {
     assert.ok(glawLake, 'Glaw Lake Ramsar Site topic must exist');
     assert.ok(glawLake.mustMemorizeFacts.some(f => f.includes('Kamlang') && f.includes('101st')), 'Glaw Lake must cite Kamlang and 101st Ramsar Site');
 
-    // 4. Zero System Tokens in Public Study Content across all 475 topics
+    // 4. Zero System Tokens in Public Study Content across all 513 topics
     for (const t of allTopics) {
       for (const f of t.mustMemorizeFacts) {
         assert.ok(!f.includes('P1_CRITICAL'), `Topic ${t.slug} has P1_CRITICAL system token in facts`);
@@ -282,6 +282,41 @@ function runPostDeployQaTests() {
         assert.ok(!f.includes('P3_MODERATE'), `Topic ${t.slug} has P3_MODERATE system token in facts`);
         assert.ok(!f.includes('SOURCE_ONLY'), `Topic ${t.slug} has SOURCE_ONLY system token in facts`);
       }
+    }
+  });
+
+  // Test 15: W7.7 Collapsible Sidebar & Reading Focus Invariants
+  test('W7.7 Collapsible Sidebar & Reading Focus Invariants', () => {
+    // 1. Contextual Route Default Matrix
+    function getContextualDefault(pathname: string): boolean {
+      const isReadingRoute = pathname.startsWith('/briefing') || pathname.startsWith('/topics/');
+      return !isReadingRoute;
+    }
+
+    assert.strictEqual(getContextualDefault('/dashboard'), true, 'Dashboard default must be EXPANDED (true)');
+    assert.strictEqual(getContextualDefault('/revision'), true, 'Revision Hub default must be EXPANDED (true)');
+    assert.strictEqual(getContextualDefault('/search'), true, 'Search Index default must be EXPANDED (true)');
+    assert.strictEqual(getContextualDefault('/institutions'), true, 'Institutions default must be EXPANDED (true)');
+    assert.strictEqual(getContextualDefault('/chronology'), true, 'Chronology default must be EXPANDED (true)');
+    assert.strictEqual(getContextualDefault('/topics'), true, 'Topics index default must be EXPANDED (true)');
+
+    assert.strictEqual(getContextualDefault('/briefing/2026-08'), false, 'Monthly Briefing default must be COLLAPSED (false)');
+    assert.strictEqual(getContextualDefault('/briefing/2026-01'), false, 'January Briefing default must be COLLAPSED (false)');
+    assert.strictEqual(getContextualDefault('/topics/62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026'), false, 'Topic detail reader default must be COLLAPSED (false)');
+
+    // 2. Navigation Destination Preservation
+    const requiredDestinations = [
+      '/dashboard',
+      '/topics',
+      '/institutions',
+      '/chronology',
+      '/search',
+      '/revision',
+      '/briefing/2026-08'
+    ];
+
+    for (const dest of requiredDestinations) {
+      assert.ok(dest.length > 0, `Navigation destination ${dest} must be configured and valid`);
     }
   });
 

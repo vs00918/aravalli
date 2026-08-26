@@ -38,7 +38,7 @@ export default function TopicDetailPage({ params }: { params: { slug: string } }
   const nextTopic = currentIndex < allTopicIds.length - 1 ? registry.topics[allTopicIds[currentIndex + 1]] : null;
 
   return (
-    <article className="max-w-2xl mx-auto space-y-6 pb-16 font-serif">
+    <article className="max-w-3xl mx-auto space-y-6 pb-16 font-serif">
       {/* 1. Header (Clean, Content-First, Stripped Jargon) */}
       <TopicHeader topic={topic} />
 

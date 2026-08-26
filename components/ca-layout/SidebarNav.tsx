@@ -11,17 +11,20 @@ import {
   Calendar, 
   Search, 
   ChevronDown, 
-  ChevronRight,
-  Clock,
-  AlertTriangle,
-  FileText,
-  Compass
+  ChevronRight, 
+  Clock, 
+  AlertTriangle, 
+  FileText, 
+  Compass,
+  PanelLeftOpen,
+  PanelLeftClose
 } from "lucide-react";
 import { BankingCaMasterRegistry } from "@/lib/banking-ca/schema";
 
 interface SidebarNavProps {
   registry: BankingCaMasterRegistry;
   isCollapsed?: boolean;
+  onToggleCollapse?: () => void;
 }
 
 const ALL_2026_MONTHS = [
@@ -56,17 +59,142 @@ const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
   INTERNATIONAL_AFFAIRS: "International Affairs"
 };
 
-export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
+export function SidebarNav({ registry, isCollapsed, onToggleCollapse }: SidebarNavProps) {
   const pathname = usePathname();
   const [expandedYear, setExpandedYear] = useState<boolean>(true);
   const [expandedMonth, setExpandedMonth] = useState<string>("2026-08");
 
-  if (isCollapsed) {
-    return null;
-  }
-
   const summary = registry.summary;
   const changeAlertCount = registry.indexes.changeSensitiveTopicIds.length;
+
+  // ─── COLLAPSED ICON RAIL (NARROW ~56px) ───
+  if (isCollapsed) {
+    return (
+      <aside className="w-14 flex-shrink-0 hidden md:flex flex-col items-center py-3 border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print justify-between">
+        {/* Top Section */}
+        <div className="w-full flex flex-col items-center space-y-3">
+          {/* Expand Toggle Button */}
+          {onToggleCollapse && (
+            <button
+              onClick={onToggleCollapse}
+              className="p-2 rounded-lg hover:bg-[var(--surface-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+              title="Expand Sidebar"
+              aria-label="Expand Sidebar"
+            >
+              <PanelLeftOpen className="w-4 h-4" />
+            </button>
+          )}
+
+          <div className="w-8 border-b border-[var(--border-primary)]" />
+
+          {/* Navigation Icon List */}
+          <nav className="flex flex-col items-center space-y-1.5 w-full px-1.5">
+            {/* Dashboard */}
+            <Link
+              href="/dashboard"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/dashboard"
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title="Command Center / Dashboard"
+            >
+              <LayoutDashboard className="w-4 h-4" />
+            </Link>
+
+            {/* Continuous Briefing Stream */}
+            <Link
+              href="/briefing/2026-08"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname.startsWith("/briefing")
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title="Monthly Reading Stream (August 2026)"
+            >
+              <BookOpen className="w-4 h-4" />
+            </Link>
+
+            {/* Canonical Topics */}
+            <Link
+              href="/topics"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/topics" || pathname.startsWith("/topics/")
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title={`Canonical Topics (${summary.totalCanonicalTopics})`}
+            >
+              <Compass className="w-4 h-4" />
+            </Link>
+
+            {/* Institutions */}
+            <Link
+              href="/institutions"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/institutions"
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title="Institutions"
+            >
+              <Landmark className="w-4 h-4" />
+            </Link>
+
+            {/* Chronology Tree */}
+            <Link
+              href="/chronology"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/chronology"
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title="Chronology & Rapid Revision Sheets"
+            >
+              <Calendar className="w-4 h-4" />
+            </Link>
+
+            {/* Universal Search */}
+            <Link
+              href="/search"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/search"
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title="Search Index (⌘K)"
+            >
+              <Search className="w-4 h-4" />
+            </Link>
+
+            {/* Revision Hub */}
+            <Link
+              href="/revision"
+              className={`p-2 rounded-lg transition-colors flex items-center justify-center ${
+                pathname === "/revision"
+                  ? "bg-amber-800/15 text-amber-900 dark:text-amber-300 font-bold border border-amber-800/40"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-hover)]"
+              }`}
+              title={`Revision Hub (${summary.activeP1RevisionMinutes}m)`}
+            >
+              <RotateCw className="w-4 h-4 text-amber-800 dark:text-amber-400" />
+            </Link>
+          </nav>
+        </div>
+
+        {/* Bottom P1 Quick Pill */}
+        <div className="flex flex-col items-center">
+          <Link
+            href="/revision"
+            className="w-7 h-7 rounded-full bg-amber-800/15 border border-amber-800/30 flex items-center justify-center text-amber-900 dark:text-amber-300 text-[10px] font-mono font-bold hover:scale-105 transition-transform"
+            title={`Active P1 Deck: ${summary.activeP1Count} topics (${summary.activeP1RevisionMinutes}m)`}
+          >
+            P1
+          </Link>
+        </div>
+      </aside>
+    );
+  }
 
   // 1. COMMAND
   const commandItems = [
@@ -99,22 +227,32 @@ export function SidebarNav({ registry, isCollapsed }: SidebarNavProps) {
   const activeCategories = Object.keys(categoryCounts).sort((a, b) => categoryCounts[b] - categoryCounts[a]);
 
   return (
-    <aside className="w-70 flex-shrink-0 hidden md:flex flex-col border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print">
-      {/* Brand Header */}
-      <div className="p-4 border-b border-[var(--border-primary)] bg-[var(--surface-elevated)]/50">
-        <Link href="/dashboard" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-xl bg-amber-800/15 border border-amber-800/30 flex items-center justify-center text-amber-900 dark:text-amber-300 font-serif font-bold text-lg group-hover:scale-105 transition-transform shadow-xs">
+    <aside className="w-64 sm:w-70 flex-shrink-0 hidden md:flex flex-col border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print transition-all">
+      {/* Brand Header with Collapse Button */}
+      <div className="p-3.5 border-b border-[var(--border-primary)] bg-[var(--surface-elevated)]/50 flex items-center justify-between">
+        <Link href="/dashboard" className="flex items-center gap-2.5 group flex-1">
+          <div className="w-8 h-8 rounded-xl bg-amber-800/15 border border-amber-800/30 flex items-center justify-center text-amber-900 dark:text-amber-300 font-serif font-bold text-base group-hover:scale-105 transition-transform shadow-xs">
             🏦
           </div>
           <div>
             <div className="font-serif font-bold text-sm tracking-tight text-[var(--text-primary)]">
               CA MENTOR OS
             </div>
-            <div className="text-[11px] text-[var(--text-muted)] font-mono">
+            <div className="text-[10px] text-[var(--text-muted)] font-mono">
               Living Exam Intelligence
             </div>
           </div>
         </Link>
+        {onToggleCollapse && (
+          <button
+            onClick={onToggleCollapse}
+            className="p-1.5 rounded-lg hover:bg-[var(--surface-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+            title="Collapse Sidebar"
+            aria-label="Collapse Sidebar"
+          >
+            <PanelLeftClose className="w-4 h-4" />
+          </button>
+        )}
       </div>
 
       {/* Main Navigation Scroll Area */}

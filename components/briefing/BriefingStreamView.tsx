@@ -190,7 +190,7 @@ export function BriefingStreamView({
   }, [topics]);
 
   return (
-    <div className="max-w-3xl mx-auto space-y-10 pb-24 font-serif">
+    <div className="max-w-4xl mx-auto space-y-10 pb-24 font-serif">
       {/* 1. Quiet Stream Header */}
       <header className="space-y-4 pb-6 border-b border-[var(--border-primary)] select-none">
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
