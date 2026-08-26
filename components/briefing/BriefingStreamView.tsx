@@ -10,6 +10,12 @@ import {
 import { FormattedText } from "@/components/common/FormattedText";
 import { formatCleanCategory } from "@/lib/banking-ca/formatters";
 import { 
+  CANONICAL_CATEGORY_NAMES, 
+  CANONICAL_CATEGORY_ICONS, 
+  compareCategoriesByExamRank, 
+  compareTopicsForStudyStream 
+} from "@/lib/banking-ca/category-order";
+import { 
   getReadTopicSlugs, 
   toggleTopicReadSlug, 
   calculateMonthlyReadStats,
@@ -36,43 +42,10 @@ interface BriefingStreamViewProps {
   initialPriority?: string;
 }
 
-const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
-  BANKING_REGULATION: "Banking & Regulation",
-  MONETARY_POLICY: "Monetary Policy",
-  CAPITAL_MARKETS: "Capital Markets & SEBI",
-  GOVERNMENT_SCHEMES: "Government Schemes",
-  MACRO_ECONOMY: "Economy & Fiscal",
-  DIGITAL_PAYMENTS: "Digital Payments & UPI",
-  APPOINTMENTS: "Key Appointments",
-  INSURANCE_SECTOR: "Insurance & IRDAI",
-  PENSION_SYSTEMS: "Pensions & PFRDA",
-  REPORTS_AND_INDICES: "Reports & Indices",
-  DEFENCE_AND_SCIENCE: "Defence & Science",
-  SPORTS_AND_AWARDS: "Sports & Awards",
-  NATIONAL_AND_STATES: "National & States",
-  INTERNATIONAL_AFFAIRS: "International Affairs"
-};
-
-const CATEGORY_ICONS: Record<string, string> = {
-  BANKING_REGULATION: "🏦",
-  MONETARY_POLICY: "🏛️",
-  CAPITAL_MARKETS: "📈",
-  GOVERNMENT_SCHEMES: "📜",
-  MACRO_ECONOMY: "📊",
-  DIGITAL_PAYMENTS: "💳",
-  APPOINTMENTS: "👔",
-  INSURANCE_SECTOR: "🛡️",
-  PENSION_SYSTEMS: "👵",
-  REPORTS_AND_INDICES: "📋",
-  DEFENCE_AND_SCIENCE: "🚀",
-  SPORTS_AND_AWARDS: "🏆",
-  NATIONAL_AND_STATES: "🇮🇳",
-  INTERNATIONAL_AFFAIRS: "🌐"
-};
-
 export function BriefingStreamView({
   monthTitle,
   topics,
+  registry,
   initialCategory,
   initialPriority
 }: BriefingStreamViewProps) {
@@ -129,28 +102,17 @@ export function BriefingStreamView({
       map.get(t.primaryCategory)!.push(t);
     }
 
-    // Sort categories deterministically by topic count descending
-    const sortedCatKeys = Array.from(map.keys()).sort((a, b) => {
-      const diff = map.get(b)!.length - map.get(a)!.length;
-      if (diff !== 0) return diff;
-      return a.localeCompare(b);
-    });
+    // Sort categories deterministically strictly by EXAM IMPORTANCE RANK
+    const sortedCatKeys = Array.from(map.keys()).sort(compareCategoriesByExamRank);
 
     for (const catKey of sortedCatKeys) {
       const catTopics = map.get(catKey)!;
-      catTopics.sort((a, b) => {
-        const pDiff = (priorityWeight[a.priority] || 9) - (priorityWeight[b.priority] || 9);
-        if (pDiff !== 0) return pDiff;
-        if (a.initialEventDate !== b.initialEventDate) {
-          return b.initialEventDate.localeCompare(a.initialEventDate);
-        }
-        return a.slug.localeCompare(b.slug);
-      });
+      catTopics.sort(compareTopicsForStudyStream);
 
       groups.push({
         categoryKey: catKey,
-        label: CATEGORY_DISPLAY_NAMES[catKey] || catKey.replace(/_/g, " "),
-        icon: CATEGORY_ICONS[catKey] || "📌",
+        label: CANONICAL_CATEGORY_NAMES[catKey] || catKey.replace(/_/g, " "),
+        icon: CANONICAL_CATEGORY_ICONS[catKey] || "📌",
         topics: catTopics
       });
     }
@@ -182,11 +144,7 @@ export function BriefingStreamView({
   const availableCategories = useMemo(() => {
     const set = new Set<string>();
     topics.forEach(t => set.add(t.primaryCategory));
-    return Array.from(set).sort((a, b) => {
-      const countA = topics.filter(t => t.primaryCategory === a).length;
-      const countB = topics.filter(t => t.primaryCategory === b).length;
-      return countB - countA;
-    });
+    return Array.from(set).sort(compareCategoriesByExamRank);
   }, [topics]);
 
   return (
@@ -266,7 +224,7 @@ export function BriefingStreamView({
                 <option value="ALL">All Categories</option>
                 {availableCategories.map((catKey) => (
                   <option key={catKey} value={catKey}>
-                    {CATEGORY_DISPLAY_NAMES[catKey] || catKey.replace(/_/g, " ")} ({topics.filter(t => t.primaryCategory === catKey).length})
+                    {CANONICAL_CATEGORY_NAMES[catKey] || catKey.replace(/_/g, " ")} ({topics.filter(t => t.primaryCategory === catKey).length})
                   </option>
                 ))}
               </select>

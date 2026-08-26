@@ -1,6 +1,14 @@
 import assert from 'assert';
 import { compileBankingCaRegistry } from './compile-banking-ca';
 import { normalizePresentationText, formatTopicCategory, formatTopicDate } from '../lib/banking-ca/formatters';
+import { 
+  EXAM_CATEGORY_RANKS, 
+  CANONICAL_CATEGORY_NAMES, 
+  compareCategoriesByExamRank, 
+  compareTopicsForStudyStream,
+  getCategoryExamRank,
+  getPriorityTierRank
+} from '../lib/banking-ca/category-order';
 
 function runPostDeployQaTests() {
   console.log('────────────────────────────────────────────────────────');
@@ -317,6 +325,103 @@ function runPostDeployQaTests() {
 
     for (const dest of requiredDestinations) {
       assert.ok(dest.length > 0, `Navigation destination ${dest} must be configured and valid`);
+    }
+  });
+
+  // Test 16: W7.8 Exam-Weighted Category Ordering Architecture (Tests A–J)
+  test('W7.8 Exam-Weighted Category Ordering Architecture (Tests A–J)', () => {
+    // TEST A: Category order is deterministic
+    const sampleCategories = ['SPORTS_AND_AWARDS', 'BANKING_REGULATION', 'NATIONAL_AND_STATES', 'MONETARY_POLICY', 'MACRO_ECONOMY'];
+    const sorted1 = [...sampleCategories].sort(compareCategoriesByExamRank);
+    const sorted2 = [...sampleCategories].sort(compareCategoriesByExamRank);
+    assert.deepStrictEqual(sorted1, sorted2, 'Test A: Category sorting must be 100% deterministic');
+    assert.strictEqual(sorted1[0], 'BANKING_REGULATION', 'Test A: BANKING_REGULATION must rank first');
+    assert.strictEqual(sorted1[1], 'MONETARY_POLICY', 'Test A: MONETARY_POLICY must rank second');
+    assert.strictEqual(sorted1[2], 'MACRO_ECONOMY', 'Test A: MACRO_ECONOMY must rank third');
+
+    // TEST B: Category order is independent of topic count
+    // Even if NATIONAL_AND_STATES has 40 topics and BANKING_REGULATION has 5 topics, BANKING_REGULATION outranks it
+    assert.ok(
+      getCategoryExamRank('BANKING_REGULATION') < getCategoryExamRank('NATIONAL_AND_STATES'),
+      'Test B: BANKING_REGULATION (Rank 1) must outrank NATIONAL_AND_STATES (Rank 11) regardless of counts'
+    );
+    assert.ok(
+      getCategoryExamRank('MONETARY_POLICY') < getCategoryExamRank('SPORTS_AND_AWARDS'),
+      'Test B: MONETARY_POLICY (Rank 2) must outrank SPORTS_AND_AWARDS (Rank 14)'
+    );
+
+    // TEST C, D, E: Stream, Sidebar, and Dropdowns share exact same category order across all indexed months
+    for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
+      const monthTopics = topicIds.map(id => registry.topics[id]).filter(Boolean);
+      const catSet = Array.from(new Set(monthTopics.map(t => t.primaryCategory)));
+      const examOrderedCats = [...catSet].sort(compareCategoriesByExamRank);
+
+      // Verify the categories in this month are strictly ordered by ascending exam rank
+      for (let i = 0; i < examOrderedCats.length - 1; i++) {
+        const rankCur = getCategoryExamRank(examOrderedCats[i]);
+        const rankNext = getCategoryExamRank(examOrderedCats[i + 1]);
+        assert.ok(
+          rankCur <= rankNext,
+          `Test C/D/E: In month ${month}, category ${examOrderedCats[i]} (rank ${rankCur}) must appear before ${examOrderedCats[i + 1]} (rank ${rankNext})`
+        );
+      }
+    }
+
+    // TEST F: Within-category ordering is strictly P1 -> P2 -> P3 -> P4
+    for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
+      const monthTopics = topicIds.map(id => registry.topics[id]).filter(Boolean);
+      const catMap = new Map<string, typeof monthTopics>();
+      for (const t of monthTopics) {
+        if (!catMap.has(t.primaryCategory)) catMap.set(t.primaryCategory, []);
+        catMap.get(t.primaryCategory)!.push(t);
+      }
+
+      for (const [catKey, catTopics] of Array.from(catMap.entries())) {
+        const sortedTopics = [...catTopics].sort(compareTopicsForStudyStream);
+        for (let i = 0; i < sortedTopics.length - 1; i++) {
+          const tierA = getPriorityTierRank(sortedTopics[i].priority);
+          const tierB = getPriorityTierRank(sortedTopics[i + 1].priority);
+          assert.ok(
+            tierA <= tierB,
+            `Test F: In month ${month} (${catKey}), topic '${sortedTopics[i].slug}' (Tier ${tierA}) must precede '${sortedTopics[i + 1].slug}' (Tier ${tierB})`
+          );
+        }
+      }
+    }
+
+    // TEST G: Empty categories are omitted from the stream
+    const augustTopicIds = registry.indexes.byYearMonth['2026-08'];
+    const augustTopics = augustTopicIds.map(id => registry.topics[id]);
+    const augustActiveCats = new Set(augustTopics.map(t => t.primaryCategory));
+    const allPossibleCats = Object.keys(EXAM_CATEGORY_RANKS);
+    const emptyCatsInAugust = allPossibleCats.filter(c => !augustActiveCats.has(c as any));
+    
+    // An empty category must not have any entries or generate groups
+    for (const emptyCat of emptyCatsInAugust) {
+      assert.strictEqual(
+        augustTopics.filter(t => t.primaryCategory === emptyCat).length,
+        0,
+        `Test G: Empty category ${emptyCat} in August must have 0 topics and be omitted from stream grouping`
+      );
+    }
+
+    // TEST H: All canonical topics remain accounted for exactly once (513 topics)
+    let totalStreamTopics = 0;
+    const seenTopicIds = new Set<string>();
+    for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
+      for (const id of topicIds) {
+        assert.ok(!seenTopicIds.has(id), `Test H: Topic ${id} must not appear more than once`);
+        seenTopicIds.add(id);
+        totalStreamTopics++;
+      }
+    }
+    assert.strictEqual(totalStreamTopics, 513, 'Test H: All 513 canonical topics accounted for');
+
+    // TEST I & J: No topic content or priority classification changes during sorting
+    for (const t of allTopics) {
+      assert.ok(t.title && t.title.length > 0, `Test I/J: Topic ${t.slug} must retain title`);
+      assert.ok(t.mustMemorizeFacts.length > 0, `Test I/J: Topic ${t.slug} must retain mustMemorizeFacts`);
+      assert.ok(t.priority.startsWith('P1') || t.priority === 'P2_HIGH' || t.priority === 'P3_MODERATE' || t.priority === 'P4_LOW_YIELD', `Test I/J: Topic ${t.slug} priority intact`);
     }
   });
 

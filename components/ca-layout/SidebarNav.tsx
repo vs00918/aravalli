@@ -20,6 +20,7 @@ import {
   PanelLeftClose
 } from "lucide-react";
 import { BankingCaMasterRegistry } from "@/lib/banking-ca/schema";
+import { CANONICAL_CATEGORY_NAMES, compareCategoriesByExamRank } from "@/lib/banking-ca/category-order";
 
 interface SidebarNavProps {
   registry: BankingCaMasterRegistry;
@@ -41,23 +42,6 @@ const ALL_2026_MONTHS = [
   { id: "2026-02", name: "February" },
   { id: "2026-01", name: "January" },
 ];
-
-const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
-  BANKING_REGULATION: "Banking & Regulation",
-  MONETARY_POLICY: "Monetary Policy",
-  CAPITAL_MARKETS: "Capital Markets & SEBI",
-  GOVERNMENT_SCHEMES: "Government Schemes",
-  MACRO_ECONOMY: "Economy & Fiscal",
-  DIGITAL_PAYMENTS: "Digital Payments & UPI",
-  APPOINTMENTS: "Key Appointments",
-  INSURANCE_SECTOR: "Insurance & IRDAI",
-  PENSION_SYSTEMS: "Pensions & PFRDA",
-  REPORTS_AND_INDICES: "Reports & Indices",
-  DEFENCE_AND_SCIENCE: "Defence & Science",
-  SPORTS_AND_AWARDS: "Sports & Awards",
-  NATIONAL_AND_STATES: "National & States",
-  INTERNATIONAL_AFFAIRS: "International Affairs"
-};
 
 export function SidebarNav({ registry, isCollapsed, onToggleCollapse }: SidebarNavProps) {
   const pathname = usePathname();
@@ -224,7 +208,7 @@ export function SidebarNav({ registry, isCollapsed, onToggleCollapse }: SidebarN
     categoryCounts[t.primaryCategory] = (categoryCounts[t.primaryCategory] || 0) + 1;
   }
 
-  const activeCategories = Object.keys(categoryCounts).sort((a, b) => categoryCounts[b] - categoryCounts[a]);
+  const activeCategories = Object.keys(categoryCounts).sort(compareCategoriesByExamRank);
 
   return (
     <aside className="w-64 sm:w-70 flex-shrink-0 hidden md:flex flex-col border-r border-[var(--border-primary)] bg-[var(--surface-primary)] min-h-[calc(100vh-3.5rem)] select-none no-print transition-all">
@@ -399,7 +383,7 @@ export function SidebarNav({ registry, isCollapsed, onToggleCollapse }: SidebarN
 
                           {activeCategories.map((catKey) => {
                             const count = categoryCounts[catKey];
-                            const label = CATEGORY_DISPLAY_NAMES[catKey] || catKey.replace(/_/g, " ");
+                            const label = CANONICAL_CATEGORY_NAMES[catKey] || catKey.replace(/_/g, " ");
 
                             return (
                               <Link
