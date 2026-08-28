@@ -4,6 +4,18 @@
   "policy": "W7.9 Source Cleanup & Ingestion Hygiene (Raw PDFs purged post-compilation; provenance permanently preserved)",
   "records": [
     {
+      "sourceFile": "Smartkeeda_MockDrill_Weekly_PDF_3_18th_to_24th_August_2026.pdf",
+      "sourcePublisher": "Smartkeeda CA MockDrill",
+      "coveragePeriod": "2026-08-18 to 2026-08-24",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/10-august-2026-smartkeeda-w3.md",
+      "canonicalBatchId": "10-august-2026-smartkeeda-w3",
+      "chronologicalMonth": "2026-08",
+      "topicsExtracted": 40,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-28T18:05:00Z"
+    },
+    {
       "sourceFile": "CGB_Mentors_PIB_1st_to_10th_August_2026.pdf",
       "sourcePublisher": "CGB Mentors (formerly CrackGradeB)",
       "coveragePeriod": "2026-08-01 to 2026-08-10",

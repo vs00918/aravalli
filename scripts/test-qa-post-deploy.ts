@@ -139,7 +139,7 @@ function runPostDeployQaTests() {
 
     // Check August 2026, January 2026, February 2026, March 2026, April 2026, and May 2026 indexed sets
     const augTopics = registry.indexes.byYearMonth['2026-08'];
-    assert.strictEqual(augTopics.length, 167, 'August 2026 must index exact 167 topics');
+    assert.strictEqual(augTopics.length, 207, 'August 2026 must index exact 207 topics');
 
     const janTopics = registry.indexes.byYearMonth['2026-01'];
     assert.strictEqual(janTopics.length, 73, 'January 2026 must index exact 73 topics');
@@ -169,7 +169,7 @@ function runPostDeployQaTests() {
       ids.add(topic.id);
     }
 
-    assert.strictEqual(slugs.size, 545, 'Must have exactly 545 unique canonical topics');
+    assert.strictEqual(slugs.size, 585, 'Must have exactly 585 unique canonical topics');
   });
 
   // Test 9: Complete Category Taxonomy Normalization
@@ -191,7 +191,7 @@ function runPostDeployQaTests() {
   });
 
   // Test 10: Category Partitioning & Grouping Invariant
-  test('Category Partitioning & Grouping Invariant (All 545 Topics Accounted)', () => {
+  test('Category Partitioning & Grouping Invariant (All 585 Topics Accounted)', () => {
     let totalPartitioned = 0;
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
       const groupedMap = new Map<string, number>();
@@ -205,7 +205,7 @@ function runPostDeployQaTests() {
       }
     }
 
-    assert.strictEqual(totalPartitioned, 545, 'All 545 monthly indexed topics must be strictly accounted');
+    assert.strictEqual(totalPartitioned, 585, 'All 585 monthly indexed topics must be strictly accounted');
   });
 
   // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
@@ -214,9 +214,9 @@ function runPostDeployQaTests() {
     const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
     const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
 
-    assert.strictEqual(p1s.length, 37, 'Must have exactly 37 P1 topics (17 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
-    assert.strictEqual(p2s.length, 219, 'Must have exactly 219 P2 topics (69 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
-    assert.strictEqual(p3s.length, 289, 'Must have exactly 289 P3 topics (81 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
+    assert.strictEqual(p1s.length, 45, 'Must have exactly 45 P1 topics (25 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
+    assert.strictEqual(p2s.length, 233, 'Must have exactly 233 P2 topics (83 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
+    assert.strictEqual(p3s.length, 307, 'Must have exactly 307 P3 topics (99 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
     for (const p3 of p3s) {
@@ -417,7 +417,7 @@ function runPostDeployQaTests() {
         totalStreamTopics++;
       }
     }
-    assert.strictEqual(totalStreamTopics, 545, 'Test H: All 545 canonical topics accounted for');
+    assert.strictEqual(totalStreamTopics, 585, 'Test H: All 585 canonical topics accounted for');
 
     // TEST I & J: No topic content or priority classification changes during sorting
     for (const t of allTopics) {
@@ -442,7 +442,7 @@ function runPostDeployQaTests() {
     assert.ok(fs.existsSync(provenancePath), 'data/ingestion-provenance.json must exist');
     const provenance = JSON.parse(fs.readFileSync(provenancePath, 'utf8'));
     assert.ok(Array.isArray(provenance.records), 'Provenance must have records array');
-    assert.ok(provenance.records.length >= 9, 'Must have provenance records for all 9 canonical batches');
+    assert.ok(provenance.records.length >= 10, 'Must have provenance records for all 10 canonical batches');
 
     let totalProvenanceTopics = 0;
     for (const rec of provenance.records) {
@@ -462,8 +462,8 @@ function runPostDeployQaTests() {
     }
     assert.strictEqual(
       totalProvenanceTopics,
-      545,
-      'Total topics extracted across all provenance records must match registry total (545)'
+      585,
+      'Total topics extracted across all provenance records must match registry total (585)'
     );
 
     // 3. Zero PDF Runtime Dependency Invariant
