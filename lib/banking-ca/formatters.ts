@@ -40,6 +40,41 @@ export function normalizePresentationText(text: string): string {
   // 4. Clean stray backslashes before common punctuation
   cleaned = cleaned.replace(/\\([#*_`~])/g, "$1");
 
+  // 5. Convert question-shaped study lines into direct declarative statements (W7.8 requirement)
+  // Pattern 5A: Question with answer in parentheses, e.g. "*What is the total outlay...?* (₹23,731 crore)"
+  const qParenMatch = cleaned.match(/^[\*\-_]?\s*[\*_]*([^?]+)\?[\*_]*\s*\(([^)]+)\)\.?$/i);
+  if (qParenMatch) {
+    let q = qParenMatch[1].trim();
+    const ans = qParenMatch[2].trim();
+
+    // Clean question prompt into a concise declarative label
+    q = q.replace(/^What (?:is|are|was|were) (?:the|a|an)?\s*/i, "");
+    q = q.replace(/^What percentage of\s*/i, "Share of ");
+    q = q.replace(/^What statutory timeline is mandated for\s*/i, "Mandated statutory timeline for ");
+    q = q.replace(/^What platform is made mandatory for\s*/i, "Mandatory platform for ");
+    q = q.replace(/^Which (?:two|three|four|\d+)?\s*/i, "");
+    q = q.replace(/^How many\s*/i, "Total ");
+    q = q.replace(/^Whose\s*/i, "Originating ");
+    q = q.replace(/^(?:newly mandated|mandated)\s*/i, "Mandated ");
+    q = q.replace(/^statutory\s*/i, "Statutory ");
+    q = q.charAt(0).toUpperCase() + q.slice(1);
+
+    cleaned = `**${q}**: ${ans}`;
+  } else if (/^(?:What|Which|Who|How|Where|When)\s+/i.test(cleaned) && cleaned.includes("?")) {
+    // Pattern 5B: Standalone question without parentheses
+    const qMatch = cleaned.match(/^[\*\-_]?\s*[\*_]*(?:What|Which|Who|How|Where|When)\s+([^?]+)\?[\*_]*\s*(.*)$/i);
+    if (qMatch) {
+      let q = qMatch[1].trim();
+      const rem = qMatch[2].replace(/^[:\-\s]+/, "").trim();
+      q = q.replace(/^(?:is|are|was|were) (?:the|a|an)?\s*/i, "");
+      q = q.charAt(0).toUpperCase() + q.slice(1);
+      cleaned = rem ? `**${q}**: ${rem}` : q;
+    }
+  }
+
+  // 6. Strip trailing question marks from factual statements
+  cleaned = cleaned.replace(/\?$/, "");
+
   return cleaned.trim();
 }
 

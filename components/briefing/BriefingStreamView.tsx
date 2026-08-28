@@ -282,7 +282,7 @@ export function BriefingStreamView({
                       <article
                         key={topic.id}
                         id={topic.slug}
-                        className={`py-5 first:pt-2 space-y-2 transition-opacity ${
+                        className={`py-4 first:pt-2 space-y-2 transition-opacity ${
                           isRead ? "opacity-75" : ""
                         }`}
                       >
@@ -292,7 +292,7 @@ export function BriefingStreamView({
                             {formatCleanCategory(topic.primaryCategory)}
                           </span>
 
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-2.5">
                             <span className="text-[11px]">~{topic.revisionMinutes || 1}m</span>
                             <button
                               onClick={() => handleToggleRead(topic.slug)}
@@ -305,17 +305,22 @@ export function BriefingStreamView({
                                 <Circle className="w-3.5 h-3.5 text-[var(--text-subtle)]" />
                               )}
                             </button>
+                            <Link
+                              href={`/topics/${topic.slug}`}
+                              className="text-[10px] text-[var(--text-subtle)] hover:text-[var(--text-primary)] transition-colors"
+                              title="Open single topic focus reader"
+                            >
+                              Focus ↗
+                            </Link>
                           </div>
                         </div>
 
-                        {/* Title (Link to optional standalone page) */}
+                        {/* Title (Non-clickable heading) */}
                         <h3 className="font-serif font-bold text-base text-[var(--text-primary)] leading-snug">
-                          <Link href={`/topics/${topic.slug}`} className="hover:underline text-[var(--text-primary)]">
-                            {topic.title}
-                          </Link>
+                          {topic.title}
                         </h3>
 
-                        {/* Bullet points */}
+                        {/* Direct Factual Bullets (No section headings) */}
                         {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
                           <ul className="space-y-1 text-sm text-[var(--text-primary)] font-serif leading-relaxed pl-1">
                             {topic.mustMemorizeFacts.map((fact, fIdx) => (
@@ -336,7 +341,7 @@ export function BriefingStreamView({
                       <article
                         key={topic.id}
                         id={topic.slug}
-                        className={`py-7 first:pt-2 space-y-4 transition-opacity ${
+                        className={`py-6 first:pt-2 space-y-3.5 transition-opacity ${
                           isRead ? "opacity-80" : ""
                         }`}
                       >
@@ -346,7 +351,7 @@ export function BriefingStreamView({
                             {formatCleanCategory(topic.primaryCategory)}
                           </span>
 
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-2.5">
                             <span className="inline-flex items-center gap-1 text-[11px]">
                               <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
                               <span>~{topic.revisionMinutes}m</span>
@@ -372,15 +377,21 @@ export function BriefingStreamView({
                               <Zap className="w-2.5 h-2.5 fill-current" />
                               <span>Drill</span>
                             </Link>
+
+                            <Link
+                              href={`/topics/${topic.slug}`}
+                              className="text-[10px] text-[var(--text-subtle)] hover:text-[var(--text-primary)] transition-colors"
+                              title="Open single topic focus reader"
+                            >
+                              Focus ↗
+                            </Link>
                           </div>
                         </div>
 
-                        {/* Title & Subtitle */}
+                        {/* Title & Subtitle (Non-clickable heading) */}
                         <div>
                           <h3 className="text-lg sm:text-xl font-serif font-bold text-[var(--text-primary)] leading-snug tracking-tight">
-                            <Link href={`/topics/${topic.slug}`} className="hover:underline">
-                              {topic.title}
-                            </Link>
+                            {topic.title}
                           </h3>
                           {topic.subtitle && (
                             <p className="text-xs sm:text-sm text-[var(--text-muted)] mt-1 font-serif italic">
@@ -399,7 +410,7 @@ export function BriefingStreamView({
                           </div>
                         )}
 
-                        {/* Short Context / What Happened (if present) */}
+                        {/* Short Context / What Happened (only if present) */}
                         {topic.whatHappened && topic.whatHappened.length > 0 && (
                           <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
                             {topic.whatHappened.map((para, pIdx) => (
@@ -425,9 +436,9 @@ export function BriefingStreamView({
                           </div>
                         )}
 
-                        {/* EXAM POINT (if examFocus present) */}
+                        {/* EXAM POINT (only if examFocus present) */}
                         {topic.examFocus && topic.examFocus.length > 0 && (
-                          <div className="p-3.5 rounded-xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-300/70 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1">
+                          <div className="p-3 rounded-xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-300/70 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1">
                             <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[11px] select-none">
                               EXAM POINT
                             </div>
@@ -443,7 +454,7 @@ export function BriefingStreamView({
                         )}
 
                         {/* Collapsed Provenance Details */}
-                        <details className="pt-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                        <details className="pt-1 text-xs font-mono text-[var(--text-subtle)] select-none">
                           <summary className="cursor-pointer hover:text-[var(--text-primary)] transition-colors list-none flex items-center gap-1.5">
                             <FileText className="w-3 h-3 text-[var(--text-subtle)]" />
                             <span>Source details ▾</span>
@@ -472,7 +483,7 @@ export function BriefingStreamView({
                     <article
                       key={topic.id}
                       id={topic.slug}
-                      className={`py-9 first:pt-3 space-y-5 transition-opacity ${
+                      className={`py-8 first:pt-3 space-y-4.5 transition-opacity ${
                         isRead ? "opacity-85" : ""
                       }`}
                     >
@@ -482,7 +493,7 @@ export function BriefingStreamView({
                           {formatCleanCategory(topic.primaryCategory)}
                         </span>
 
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2.5">
                           <span className="inline-flex items-center gap-1 text-[11px]">
                             <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
                             <span>~{topic.revisionMinutes} min</span>
@@ -508,15 +519,21 @@ export function BriefingStreamView({
                             <Zap className="w-3 h-3 fill-current" />
                             <span>Drill</span>
                           </Link>
+
+                          <Link
+                            href={`/topics/${topic.slug}`}
+                            className="text-[11px] text-[var(--text-subtle)] hover:text-[var(--text-primary)] transition-colors"
+                            title="Open single topic focus reader"
+                          >
+                            Focus ↗
+                          </Link>
                         </div>
                       </div>
 
-                      {/* Title & Subtitle */}
+                      {/* Title & Subtitle (Non-clickable heading) */}
                       <div>
                         <h3 className="text-xl sm:text-2xl font-serif font-bold text-[var(--text-primary)] leading-tight tracking-tight">
-                          <Link href={`/topics/${topic.slug}`} className="hover:underline">
-                            {topic.title}
-                          </Link>
+                          {topic.title}
                         </h3>
                         {topic.subtitle && (
                           <p className="text-sm text-[var(--text-muted)] mt-1 font-serif italic">
@@ -537,11 +554,11 @@ export function BriefingStreamView({
 
                       {/* WHAT HAPPENED */}
                       {topic.whatHappened && topic.whatHappened.length > 0 && (
-                        <div className="space-y-2">
+                        <div className="space-y-1.5">
                           <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
                             WHAT HAPPENED
                           </div>
-                          <div className="space-y-2.5 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
+                          <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
                             {topic.whatHappened.map((para, pIdx) => (
                               <p key={pIdx}><FormattedText text={para} /></p>
                             ))}
@@ -551,11 +568,11 @@ export function BriefingStreamView({
 
                       {/* KEY NUMBERS / RULES */}
                       {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-                        <div className="space-y-2">
+                        <div className="space-y-1.5">
                           <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
                             KEY NUMBERS / RULES
                           </div>
-                          <ul className="space-y-2 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
+                          <ul className="space-y-1.5 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
                             {topic.mustMemorizeFacts.map((fact, fIdx) => (
                               <li key={fIdx} className="flex items-start gap-2.5">
                                 <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5 text-xs select-none">•</span>
@@ -568,11 +585,11 @@ export function BriefingStreamView({
 
                       {/* WHY IT MATTERS */}
                       {topic.knowUnderstandContext && topic.knowUnderstandContext.length > 0 && (
-                        <div className="space-y-2">
+                        <div className="space-y-1.5">
                           <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
                             WHY IT MATTERS
                           </div>
-                          <div className="space-y-2.5 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
+                          <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
                             {topic.knowUnderstandContext.map((para, pIdx) => (
                               <p key={pIdx}><FormattedText text={para} /></p>
                             ))}
@@ -580,9 +597,9 @@ export function BriefingStreamView({
                         </div>
                       )}
 
-                      {/* EXAM TAKEAWAY */}
+                      {/* EXAM TAKEAWAYS */}
                       {topic.examFocus && topic.examFocus.length > 0 && (
-                        <div className="p-4 rounded-xl bg-amber-50/80 dark:bg-amber-950/20 border border-amber-300/80 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1.5">
+                        <div className="p-3.5 rounded-xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-300/70 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1">
                           <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[11px] select-none">
                             EXAM TAKEAWAY
                           </div>
@@ -598,15 +615,15 @@ export function BriefingStreamView({
                       )}
 
                       {/* Collapsed Provenance Details */}
-                      <details className="pt-2 text-xs font-mono text-[var(--text-subtle)] select-none">
+                      <details className="pt-1 text-xs font-mono text-[var(--text-subtle)] select-none">
                         <summary className="cursor-pointer hover:text-[var(--text-primary)] transition-colors list-none flex items-center gap-1.5">
                           <FileText className="w-3 h-3 text-[var(--text-subtle)]" />
-                          <span>Source &amp; verification details ▾</span>
+                          <span>Source details ▾</span>
                         </summary>
-                        <div className="mt-2 p-3.5 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-2 text-[11px]">
+                        <div className="mt-2 p-3 rounded-lg bg-[var(--surface-elevated)] border border-[var(--border-primary)] space-y-1.5 text-[11px]">
                           <div className="flex items-center gap-2">
                             <ShieldCheck className="w-3.5 h-3.5 text-emerald-800 dark:text-emerald-400" />
-                            <span>Verification: {topic.verificationStatus.replace(/_/g, " ")}</span>
+                            <span>Status: {topic.verificationStatus.replace(/_/g, " ")}</span>
                             <span>·</span>
                             <Calendar className="w-3 h-3 text-[var(--text-subtle)]" />
                             <span>Event: {topic.initialEventDate}</span>

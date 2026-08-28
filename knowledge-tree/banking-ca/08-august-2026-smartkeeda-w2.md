@@ -37,10 +37,10 @@ The apex court approved a standardized 4-layer motor insurance structure for pri
 - **IRDAI & GIC Stance Overruled**: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.
 - **Tech-Driven Enforcement**: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**.
 
-#### Active Recall Prompts
-- *What are the newly mandated third-party insurance durations for new cars and two-wheelers?* (4 years for cars, 6 years for two-wheelers).
-- *What percentage of Indian vehicles remain uninsured according to Supreme Court observations?* (Nearly 56%).
-- *What are the 4 layers in the approved motor insurance structure?* (Mandatory TP, Optional Occupant Legal Liability, Optional PA Cover, Optional Own-Damage).
+#### Key Exam Takeaways
+- **Mandated Third-Party Durations**: 4 years for new cars, 6 years for new two-wheelers.
+- **Uninsured Vehicles Context**: Nearly 56% of Indian vehicles remain uninsured per Supreme Court data.
+- **4-Layer Motor Insurance Structure**: Layer 1 (Mandatory TP), Layer 2 (Optional Occupant Liability), Layer 3 (Optional PA Cover), Layer 4 (Optional Own-Damage).
 
 ---
 
@@ -69,10 +69,10 @@ The scheme is structured around 6 foundational growth engines:
 5. **Credit Guarantee Support**: Credit guarantee mechanisms for commercial bank loans extended to CBG developers under Priority Sector Lending (PSL).
 6. **CBG Ecosystem Challenge Fund**: Competitive funding for innovative technology models and municipal waste integration.
 
-#### Active Recall Prompts
-- *What is the total outlay and duration of the GOBARdhan National Circular Bioenergy Scheme?* (₹23,731 crore for 10 years, FY27 to FY36).
-- *What is the administered CBG price fixed under the scheme?* (₹2,110 per MMBtu with 10-year horizon).
-- *What is the notified CBG blending trajectory for CGD entities?* (3% in FY27, 4% in FY28, 5% from FY29 onwards).
+#### Key Exam Takeaways
+- **Total Outlay & Duration**: ₹23,731 crore for 10 years (FY27 to FY36).
+- **Administered CBG Price**: ₹2,110 per MMBtu with 10-year horizon.
+- **Notified CBG Blending Trajectory**: 3% in FY27, 4% in FY28, 5% from FY29 onwards.
 
 ---
 
@@ -96,10 +96,10 @@ Parliament passed the **Micro, Small and Medium Enterprises Development (Amendme
    - Mandates that conciliation and mediation proceedings before Micro and Small Enterprise Facilitation Councils (MSEFCs) be completed within a strict **90-day statutory timeline**.
    - Requires courts/appellate authorities to order mandatory deposit/payment of **at least 50% of the awarded amount** to the MSE supplier before entertaining any appeal or application to set aside an arbitral award.
 
-#### Active Recall Prompts
-- *What statutory timeline is mandated for ODR mediation of MSE delayed payment disputes under MSMED Amendment Bill 2026?* (90 days).
-- *What percentage of an arbitral award must be deposited by buyers before challenging an MSEFC award in court?* (At least 50%).
-- *What platform is made mandatory for CPSE invoice settlement?* (TReDS).
+#### Key Exam Takeaways
+- **Statutory Timeline for ODR Mediation**: 90 days.
+- **Mandatory Pre-Deposit Before Appeal**: At least 50% of the arbitral award amount.
+- **Mandatory CPSE Settlement Platform**: TReDS.
 
 ---
 
@@ -122,10 +122,10 @@ The Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Admin
 - **Unlocks SDMF**: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for building long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.
 - **Casualty Context**: Lightning accounts for approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).
 
-#### Active Recall Prompts
-- *Which two natural calamities were added to the SDRF/NDRF list for 2026–31?* (Heatwaves and Lightning).
-- *How many natural calamities are now officially notified under SDRF/NDRF guidelines?* (14 categories, expanded from 12).
-- *Whose Finance Commission recommendations prompted this notification?* (16th Finance Commission, chaired by Arvind Panagariya).
+#### Key Exam Takeaways
+- **Newly Added Notified Calamities**: Heatwaves and Lightning.
+- **Total Notified Calamities**: 14 categories (expanded from 12).
+- **Policy Origin**: 16th Finance Commission (chaired by Dr. Arvind Panagariya).
 
 ---
 

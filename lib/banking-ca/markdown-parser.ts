@@ -33,21 +33,59 @@ function identifyInstitution(title: string, content: string): InstitutionId {
   return 'OTHER';
 }
 
+export function normalizeCategoryString(catStr: string): CategoryId | null {
+  if (!catStr) return null;
+  const upper = catStr.toUpperCase().trim();
+  if (upper.includes('MONETARY') || upper.includes('MPC') || upper.includes('REPO')) return 'MONETARY_POLICY';
+  if (upper.includes('DIGITAL PAYMENT') || upper.includes('UPI') || upper.includes('CBDC') || upper.includes('POSTRANSFER')) return 'DIGITAL_PAYMENTS';
+  if (upper.includes('CAPITAL MARKET') || upper.includes('SEBI') || upper.includes('COMMODITY') || upper.includes('BOND') || upper.includes('SETTLEMENT')) return 'CAPITAL_MARKETS';
+  if (upper.includes('INSURANCE') || upper.includes('IRDAI') || upper.includes('THIRD-PARTY')) return 'INSURANCE_SECTOR';
+  if (upper.includes('PENSION') || upper.includes('PFRDA') || upper.includes('NPS') || upper.includes('APY')) return 'PENSION_SYSTEMS';
+  if (upper.includes('SCHEME') || upper.includes('YOJANA') || upper.includes('BIOENERGY') || upper.includes('GOBARDHAN') || upper.includes('WELFARE') || upper.includes('MISSION') || upper.includes('ABHIYAN')) return 'GOVERNMENT_SCHEMES';
+  if (upper.includes('BANKING') || upper.includes('REGULATION') || upper.includes('COOPERATIVE') || upper.includes('CO-OPERATIVE') || upper.includes('EXIM') || upper.includes('NABARD') || upper.includes('SIDBI') || upper.includes('MSMED')) return 'BANKING_REGULATION';
+  if (upper.includes('MACRO') || upper.includes('ECONOMY') || upper.includes('FISCAL') || upper.includes('TAX') || upper.includes('INFLATION') || upper.includes('PRODUCER PRICE') || upper.includes('CPI') || upper.includes('WPI') || upper.includes('TRADE') || upper.includes('EXPORT') || upper.includes('SDRF') || upper.includes('NDRF')) return 'MACRO_ECONOMY';
+  if (upper.includes('APPOINTMENT') || upper.includes('RESIGNATION') || upper.includes('CHAIRPERSON') || upper.includes('DIRECTOR GENERAL')) return 'APPOINTMENTS';
+  if (upper.includes('REPORT') || upper.includes('INDEX') || upper.includes('SURVEY') || upper.includes('RANK') || upper.includes('CENSUS') || upper.includes('PLFS')) return 'REPORTS_AND_INDICES';
+  if (upper.includes('DEFENCE') || upper.includes('SCIENCE') || upper.includes('SPACE') || upper.includes('TECH') || upper.includes('ISRO') || upper.includes('NASA') || upper.includes('AI') || upper.includes('AMCA')) return 'DEFENCE_AND_SCIENCE';
+  if (upper.includes('SPORT') || upper.includes('AWARD') || upper.includes('PRIZE') || upper.includes('GAME') || upper.includes('PADAK') || upper.includes('CHAMPIONSHIP')) return 'SPORTS_AND_AWARDS';
+  if (upper.includes('NATIONAL') || upper.includes('STATE') || upper.includes('WETLAND') || upper.includes('RAMSAR') || upper.includes('TRIBUNAL') || upper.includes('PARICHHA')) return 'NATIONAL_AND_STATES';
+  if (upper.includes('INTERNATIONAL') || upper.includes('BILATERAL') || upper.includes('SACU') || upper.includes('FOREIGN')) return 'INTERNATIONAL_AFFAIRS';
+  return null;
+}
+
 function identifyCategory(title: string, content: string): CategoryId {
+  const tUpper = title.toUpperCase();
+  
+  // 1. High-precision match against title first
+  if (tUpper.includes('MONETARY POLICY') || tUpper.includes('REPO RATE') || tUpper.includes('MPC MEETING') || tUpper.includes('62ND RBI')) return 'MONETARY_POLICY';
+  if (tUpper.includes('UPI') || tUpper.includes('CBDC') || tUpper.includes('POSTRANSFER') || tUpper.includes('FASTAG') || tUpper.includes('DIGITAL PAYMENT') || tUpper.includes('DIGITAL RUPEE')) return 'DIGITAL_PAYMENTS';
+  if (tUpper.includes('CREDIT RISK-O-METER') || tUpper.includes('SETTLEMENT REGULATIONS') || tUpper.includes('SEBI') || tUpper.includes('DEBT SECURITIES') || tUpper.includes('MUTUAL FUND') || tUpper.includes('COMMODITY EXCHANGE') || tUpper.includes('MCX') || tUpper.includes('NISM') || tUpper.includes('JIO CREDIT')) return 'CAPITAL_MARKETS';
+  if (tUpper.includes('MOTOR THIRD PARTY') || tUpper.includes('THIRD-PARTY INSURANCE') || tUpper.includes('IRDAI') || tUpper.includes('INSURANCE') || tUpper.includes('BIMA')) return 'INSURANCE_SECTOR';
+  if (tUpper.includes('PENSION') || tUpper.includes('PFRDA') || tUpper.includes('NPS') || tUpper.includes('APY') || tUpper.includes('PM-SYM') || tUpper.includes('ANUBHAV')) return 'PENSION_SYSTEMS';
+  if (tUpper.includes('GOBARDHAN') || tUpper.includes('PM-KISAN') || tUpper.includes('PM E-DRIVE') || tUpper.includes('PM-VBRY') || tUpper.includes('JAL JEEVAN') || tUpper.includes('PM SVANIDHI') || tUpper.includes('AYUSHMAN BHARAT') || tUpper.includes('AB-PMJAY') || tUpper.includes('PM VISHWAKARMA') || tUpper.includes('SANDHYA KIRAN') || tUpper.includes('PM-RKVY') || tUpper.includes('KRISHONNATI') || tUpper.includes('SCHEME') || tUpper.includes('YOJANA') || tUpper.includes('MISSION') || tUpper.includes('ABHIYAN')) return 'GOVERNMENT_SCHEMES';
+  if (tUpper.includes('ON TAP LICENSING') || tUpper.includes('MSMED') || tUpper.includes('EXIM BANK') || tUpper.includes('NCDC') || tUpper.includes('SYNTHETIC SECURITISATION') || tUpper.includes('URBAN COOPERATIVE') || tUpper.includes('UCB') || tUpper.includes('NBFC') || tUpper.includes('BANK') || tUpper.includes('BANKING') || tUpper.includes('BASEL') || tUpper.includes('KCC') || tUpper.includes('KISAN CREDIT CARD') || tUpper.includes('DEPOSIT GROWTH')) return 'BANKING_REGULATION';
+  if (tUpper.includes('PRODUCER PRICE INDEX') || tUpper.includes('DOUBLE DEFLATION') || tUpper.includes('CPI INFLATION') || tUpper.includes('WPI') || tUpper.includes('GDP') || tUpper.includes('FAST-DS') || tUpper.includes('WINDFALL TAX') || tUpper.includes('SEZ EXPORTS') || tUpper.includes('SPECIAL ECONOMIC ZONE') || tUpper.includes('FOREIGN ASSETS') || tUpper.includes('GOVERNMENT DEBT') || tUpper.includes('MINERAL EXCHANGE') || tUpper.includes('SDRF') || tUpper.includes('NDRF') || tUpper.includes('FISCAL') || tUpper.includes('TAXATION')) return 'MACRO_ECONOMY';
+  if (tUpper.includes('APPOINTS') || tUpper.includes('APPOINTED') || tUpper.includes('CHAIRPERSON') || tUpper.includes('CHAIRMAN') || tUpper.includes('STEP DOWN') || tUpper.includes('VICE-CHANCELLOR') || tUpper.includes('RE-ELECTED AS PRESIDENT') || tUpper.includes('ARBITRATOR')) return 'APPOINTMENTS';
+  if (tUpper.includes('PLFS') || tUpper.includes('LABOUR FORCE') || tUpper.includes('REPORT') || tUpper.includes('SURVEY') || tUpper.includes('INDEX') || tUpper.includes('PAIMANA') || tUpper.includes('REBR') || tUpper.includes('RANDSTAD') || tUpper.includes('HANDLOOM CENSUS') || tUpper.includes('CENSUS OF INDIA') || tUpper.includes('HOUSEHOLD SCHEDULE') || tUpper.includes('NOWCASTING')) return 'REPORTS_AND_INDICES';
+  if (tUpper.includes('AMCA') || tUpper.includes('COMBAT ENGINE') || tUpper.includes('LOITER MUNITION') || tUpper.includes('FALCON 9') || tUpper.includes('SPACEX') || tUpper.includes('MOON BASE') || tUpper.includes('NASA') || tUpper.includes('ISRO') || tUpper.includes('SATELLITE') || tUpper.includes('SRAVAANI') || tUpper.includes('SEMICON') || tUpper.includes('AI FACTORY') || tUpper.includes('CYBER') || tUpper.includes('DEFENCE') || tUpper.includes('NAVY') || tUpper.includes('AIR FORCE') || tUpper.includes('EXERCISE') || tUpper.includes('UDARA SHAKTI') || tUpper.includes('MAITREE') || tUpper.includes('LUNAR ROVER') || tUpper.includes('DLI SCHEME') || tUpper.includes('VIHAAN') || tUpper.includes('BHASHINI')) return 'DEFENCE_AND_SCIENCE';
+  if (tUpper.includes('SARVOTTAM JEEVAN RAKSHA') || tUpper.includes('SANGEET NATAK AKADEMI') || tUpper.includes('GAJ GAURAV') || tUpper.includes('SWAMINATHAN AWARD') || tUpper.includes('AWARD') || tUpper.includes('MEDAL') || tUpper.includes('CHAMPIONSHIP') || tUpper.includes('FENCING') || tUpper.includes('CHESS') || tUpper.includes('SINQUEFIELD') || tUpper.includes('ESPORTS') || tUpper.includes('WTA') || tUpper.includes('CANADIAN OPEN') || tUpper.includes('TROPHY') || tUpper.includes('GALLANTRY') || tUpper.includes('ANUBHAV AWARD') || tUpper.includes('PMIS INDUSTRY')) return 'SPORTS_AND_AWARDS';
+  if (tUpper.includes('LEBANON') || tUpper.includes('SACU') || tUpper.includes('PREFERENTIAL TRADE') || tUpper.includes('HACKATHON') || tUpper.includes('INTERNATIONAL') || tUpper.includes('PEACOCK DIPLOMACY') || tUpper.includes('DEATH PENALTY') || tUpper.includes('TRANSSHIPMENT')) return 'INTERNATIONAL_AFFAIRS';
+
+  // 2. Fallback to broad content match
   const text = `${title} ${content}`.toUpperCase();
   if (text.includes('MONETARY POLICY') || text.includes('REPO RATE') || text.includes('MPC')) return 'MONETARY_POLICY';
-  if (text.includes('LICENSING') || text.includes('PRUDENTIAL') || text.includes('NBFC') || text.includes('UCB') || text.includes('BASEL') || text.includes('LENDING') || text.includes('DEPOSIT')) return 'BANKING_REGULATION';
-  if (text.includes('CAPITAL MARKET') || text.includes('MUTUAL FUND') || text.includes('EQUITY') || text.includes('DERIVATIVE') || text.includes('FPI') || text.includes('INSIDER TRADING')) return 'CAPITAL_MARKETS';
-  if (text.includes('UPI') || text.includes('FASTAG') || text.includes('DIGITAL PAYMENT') || text.includes('NEFT') || text.includes('RTGS') || text.includes('CBDC')) return 'DIGITAL_PAYMENTS';
-  if (text.includes('INSURANCE') || text.includes('PREMIUM') || text.includes('BIMA')) return 'INSURANCE_SECTOR';
+  if (text.includes('SCHEME') || text.includes('YOJANA') || text.includes('GOBARDHAN') || text.includes('SUBSIDY') || text.includes('PRADHAN MANTRI')) return 'GOVERNMENT_SCHEMES';
+  if (text.includes('LICENSING') || text.includes('PRUDENTIAL') || text.includes('NBFC') || text.includes('UCB') || text.includes('BASEL') || text.includes('BANKING')) return 'BANKING_REGULATION';
+  if (text.includes('CAPITAL MARKET') || text.includes('MUTUAL FUND') || text.includes('EQUITY') || text.includes('DERIVATIVE') || text.includes('SEBI')) return 'CAPITAL_MARKETS';
+  if (text.includes('UPI') || text.includes('FASTAG') || text.includes('DIGITAL PAYMENT') || text.includes('CBDC')) return 'DIGITAL_PAYMENTS';
+  if (text.includes('INSURANCE') || text.includes('PREMIUM') || text.includes('IRDAI')) return 'INSURANCE_SECTOR';
   if (text.includes('PENSION') || text.includes('NPS') || text.includes('APY')) return 'PENSION_SYSTEMS';
-  if (text.includes('SCHEME') || text.includes('YOJANA') || text.includes('SUBSIDY') || text.includes('PRADHAN MANTRI')) return 'GOVERNMENT_SCHEMES';
-  if (text.includes('APPOINTED') || text.includes('CHAIRMAN') || text.includes('GOVERNOR') || text.includes('EXECUTIVE DIRECTOR') || text.includes('CEO') || text.includes('MD & CEO')) return 'APPOINTMENTS';
+  if (text.includes('APPOINTED') || text.includes('CHAIRMAN') || text.includes('GOVERNOR') || text.includes('CEO')) return 'APPOINTMENTS';
   if (text.includes('INDEX') || text.includes('REPORT') || text.includes('RANKING') || text.includes('SURVEY')) return 'REPORTS_AND_INDICES';
-  if (text.includes('GDP') || text.includes('INFLATION') || text.includes('CPI') || text.includes('WPI') || text.includes('FISCAL') || text.includes('FOREX') || text.includes('TRADE DEFICIT')) return 'MACRO_ECONOMY';
-  if (text.includes('DEFENCE') || text.includes('MISSILE') || text.includes('EXERCISE') || text.includes('ISRO') || text.includes('SATELLITE') || text.includes('AI') || text.includes('DRDO')) return 'DEFENCE_AND_SCIENCE';
-  if (text.includes('OLYMPIC') || text.includes('CHAMPIONSHIP') || text.includes('MEDAL') || text.includes('AWARD') || text.includes('PRIZE') || text.includes('TROPHY')) return 'SPORTS_AND_AWARDS';
-  if (text.includes('STATE') || text.includes('CABINET') || text.includes('SUMMIT') || text.includes('PORTAL') || text.includes('MOU')) return 'NATIONAL_AND_STATES';
+  if (text.includes('GDP') || text.includes('INFLATION') || text.includes('CPI') || text.includes('WPI') || text.includes('FISCAL')) return 'MACRO_ECONOMY';
+  if (text.includes('DEFENCE') || text.includes('MISSILE') || text.includes('EXERCISE') || text.includes('ISRO') || text.includes('SATELLITE')) return 'DEFENCE_AND_SCIENCE';
+  if (text.includes('OLYMPIC') || text.includes('CHAMPIONSHIP') || text.includes('MEDAL') || text.includes('AWARD')) return 'SPORTS_AND_AWARDS';
+
   return 'NATIONAL_AND_STATES';
 }
 
@@ -287,10 +325,13 @@ export function parseCanonicalMarkdownFile(
         }
       }
 
-      // Extract Category e.g. "- **Category**: `NATIONAL_AND_STATES`"
-      const catMatch = line.match(/(?:Category|Primary Category):\s*[`*]*([A-Z_]+)[`*]*/i);
+      // Extract Category e.g. "- **Category**: `GOVERNMENT_SCHEMES`" or "* **Category:** Government Schemes & Bioenergy"
+      const catMatch = line.match(/(?:Category|Primary Category):\s*[`*]*([^`*|\n\r]+)[`*]*/i);
       if (catMatch) {
-        currentTopic.primaryCategory = catMatch[1].trim() as any;
+        const normalized = normalizeCategoryString(catMatch[1]);
+        if (normalized) {
+          currentTopic.primaryCategory = normalized;
+        }
       }
 
       // Extract Institution e.g. "- **Institution**: `GOVERNMENT_OF_INDIA`"
@@ -329,6 +370,35 @@ export function parseCanonicalMarkdownFile(
         text = text.replace(/^(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact):\s*/i, '');
         // For general bold prefixes (e.g. "**Real GDP Growth**:") format nicely
         text = text.replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
+
+        // Convert question-shaped bullets into direct declarative statements
+        const qParenMatch = text.match(/^[\*\-_]?\s*[\*_]*([^?]+)\?[\*_]*\s*\(([^)]+)\)\.?$/i);
+        if (qParenMatch) {
+          let q = qParenMatch[1].trim();
+          const ans = qParenMatch[2].trim();
+          q = q.replace(/^What (?:is|are|was|were) (?:the|a|an)?\s*/i, '');
+          q = q.replace(/^What percentage of\s*/i, 'Share of ');
+          q = q.replace(/^What statutory timeline is mandated for\s*/i, 'Mandated statutory timeline for ');
+          q = q.replace(/^What platform is made mandatory for\s*/i, 'Mandatory platform for ');
+          q = q.replace(/^Which (?:two|three|four|\d+)?\s*/i, '');
+          q = q.replace(/^How many\s*/i, 'Total ');
+          q = q.replace(/^Whose\s*/i, 'Originating ');
+          q = q.replace(/^(?:newly mandated|mandated)\s*/i, 'Mandated ');
+          q = q.replace(/^statutory\s*/i, 'Statutory ');
+          q = q.charAt(0).toUpperCase() + q.slice(1);
+          text = `${q}: ${ans}`;
+        } else if (/^(?:What|Which|Who|How|Where|When)\s+/i.test(text) && text.includes('?')) {
+          const qMatch = text.match(/^[\*\-_]?\s*[\*_]*(?:What|Which|Who|How|Where|When)\s+([^?]+)\?[\*_]*\s*(.*)$/i);
+          if (qMatch) {
+            let q = qMatch[1].trim();
+            const rem = qMatch[2].replace(/^[:\-\s]+/, '').trim();
+            q = q.replace(/^(?:is|are|was|were) (?:the|a|an)?\s*/i, '');
+            q = q.charAt(0).toUpperCase() + q.slice(1);
+            text = rem ? `${q}: ${rem}` : q;
+          }
+        }
+        text = text.replace(/\?$/, '');
+
         if (text.length > 3) {
           if (currentSubSection === 'WHAT_HAPPENED') {
             currentTopic.whatHappened = currentTopic.whatHappened || [];

@@ -477,6 +477,52 @@ function runPostDeployQaTests() {
     }
   });
 
+  // Test 18: W7.8 Content Quality & Zero-Friction Invariants
+  test('W7.8 Content Quality & Zero-Friction Invariants', () => {
+    // 1. Assert ZERO question-shaped bullets in compiled facts
+    for (const topic of allTopics) {
+      const allBullets = [
+        ...(topic.whatHappened || []),
+        ...(topic.mustMemorizeFacts || []),
+        ...(topic.knowUnderstandContext || []),
+        ...(topic.examFocus || [])
+      ];
+
+      for (const bullet of allBullets) {
+        const isQuestion = 
+          bullet.includes('?') && 
+          /^(What|Which|Who|How|Where|When)\s+/i.test(bullet.replace(/^[*\-_`~#\s]+/, ''));
+        assert.ok(
+          !isQuestion,
+          `Topic '${topic.slug}' must not contain question-shaped study bullet: "${bullet}"`
+        );
+      }
+    }
+
+    // 2. Category Accuracy Check (GOBARdhan must map to GOVERNMENT_SCHEMES, not BANKING_REGULATION)
+    const gobardhanTopic = allTopics.find(t => t.slug.includes('gobardhan'));
+    assert.ok(gobardhanTopic, 'GOBARdhan topic must exist in canonical registry');
+    assert.strictEqual(
+      gobardhanTopic.primaryCategory,
+      'GOVERNMENT_SCHEMES',
+      `GOBARdhan topic category must be GOVERNMENT_SCHEMES, found: ${gobardhanTopic.primaryCategory}`
+    );
+
+    // 3. Zero Click Friction Invariant
+    // Verify BriefingStreamView source code does NOT render topic title as a Link component
+    const streamViewPath = path.join(__dirname, '../components/briefing/BriefingStreamView.tsx');
+    assert.ok(fs.existsSync(streamViewPath), 'BriefingStreamView.tsx must exist');
+    const streamViewSrc = fs.readFileSync(streamViewPath, 'utf8');
+    assert.ok(
+      !streamViewSrc.includes('<Link href={`/topics/${topic.slug}`} className="hover:underline">'),
+      'BriefingStreamView must not make topic title a blue/underlined Link'
+    );
+    assert.ok(
+      streamViewSrc.includes('Focus ↗'),
+      'BriefingStreamView must provide subtle secondary Focus action'
+    );
+  });
+
   console.log('\n────────────────────────────────────────────────────────');
   console.log(`Results: ${passed} / ${total} Tests Passed`);
   console.log('────────────────────────────────────────────────────────\n');
