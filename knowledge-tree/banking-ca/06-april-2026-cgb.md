@@ -429,8 +429,8 @@
 * **World Bank Approves $340 Million for Amaravati Capital City Project**: Released initial $340 million tranche (part of $1.6B joint World Bank-ADB commitment; 29-year maturity, 6-year grace).
 * **World Bank Approves $225 Million for Rajasthan Highway Modernization**: 35-year IBRD loan featuring India's first Step-Up Loan (SuL) structure with 5-year grace period.
 * **IFC Scales Annual India Investments to $10 Billion by 2030**: Private-sector arm of World Bank Group announced India is its largest global destination with a $10.3B portfolio.
-* **Pay Point India Becomes 1st Private Fintech to Join RBI Centralised Payment Systems (CPS)**: Granted direct membership to RTGS/NEFT settlement infrastructure.
-* **MobiKwik Secures RBI In-Principle Approval for NBFC License**: Approved to launch lending subsidiary *Mobikwik Financial Services*.
+* **Pay Point India Becomes 1st Private Fintech to Join RBI Centralised Payment Systems (CPS)**: Pay Point India became the first private non-bank fintech to secure direct membership in RBI's **Centralised Payment Systems (CPS)**, obtaining direct NEFT and RTGS settlement access without requiring an intermediary sponsor bank.
+* **MobiKwik Secures RBI In-Principle Approval for NBFC License**: Digital fintech major MobiKwik received **in-principle authorization from the RBI** to set up a Non-Banking Financial Company (NBFC-ND) subsidiary *MobiKwik Financial Services*, enabling direct credit underwriting for digital micro-loans and merchant working capital.
 * **Shriram Finance Arm Receives RBI In-Principle Nod for Primary Dealer Business**: Shriram Overseas Investments subsidiary authorized to underwrite G-Secs and T-Bills.
 * **Government Permits 15 Banks to Import Gold and Silver till March 2029**: Authorized top lenders (Union Bank and Sberbank authorized for gold exclusively).
 * **IFSCA Clears Poornam Asset Management as 1st Foreign Family Investment Fund in GIFT City**: First foreign FIF registered under IFSCA Fund Management Regulations 2025.
@@ -448,20 +448,20 @@
 * **DPIIT FDI Equity Inflows (Apr–Dec FY26)**: Singapore top FDI source ($17.6B, 37%), followed by US (16%) and Mauritius (10%); Maharashtra top state ($15.38B).
 * **Forbes World’s Best Banks 2026 (India Ranking)**: 1. HDFC Bank, 2. ICICI Bank, 3. Axis Bank, 4. Kotak Mahindra Bank, 5. State Bank of India.
 * **SIPRI Military Expenditure 2025**: Global military spend reached $2,887 billion; India ranked 5th largest spender ($92.1 billion).
-* **World Press Freedom Index 2026 (RSF)**: India ranked 157th globally (Score: 31.96; Norway 1st).
+* **World Press Freedom Index 2026 (RSF)**: Reporters Without Borders (RSF, Paris) released the 24th World Press Freedom Index 2026; **India ranked 157th out of 180 countries** (Score: 31.96), with Norway retaining 1st place.
 * **IRENA Renewable Capacity Statistics 2026**: India ranked 3rd largest renewable energy market (250.5 GW installed capacity, adding 45 GW in 2025).
 * **Global Report on Food Crises 2026 (GNAFC)**: 266 million people faced acute hunger across 47 nations in 2025.
-* **Goldman Environmental Prize 2026 ('Green Nobel')**: Awarded to six grassroots women leaders ($200,000 prize each).
+* **Goldman Environmental Prize 2026 ('Green Nobel')**: The 2026 Goldman Environmental Prize was conferred on **six grassroots environmental leaders** from six continental regions ($200,000 award each) for sustained community-led biodiversity and forest conservation.
 * **Breakthrough Prizes 2026 in Science ($3 Million Prizes)**: Awarded across gene therapies, fundamental physics (Muon g-2), and mathematics.
 * **9th Prof. MS Swaminathan Award (2024–25)**: Conferred on Dr. Ch. Srinivasa Rao (Director and VC of ICAR-IARI).
 * **NASA Artemis II Crewed Lunar Orbit Mission Launches**: First human deep-space mission since 1972 (Commander Reid Wiseman, Christina Koch).
 * **500 MW Prototype Fast Breeder Reactor (PFBR) Attains Criticality at Kalpakkam**: Operated by BHAVINI; India becomes 2nd country after Russia with commercial fast breeder reactor.
-* **Skyroot Aerospace Flags Off Vikram-1 Rocket for First Private Orbital Launch**: 350 kg payload capacity to Low Earth Orbit.
+* **Skyroot Aerospace Flags Off Vikram-1 Rocket for First Private Orbital Launch**: Hyderabad spacetech startup Skyroot Aerospace flagged off the flight stage of its multi-stage **Vikram-1 launch vehicle**, designed to deliver payloads up to **350 kg to Low Earth Orbit (LEO)**.
 * **Indian Navy Commissions Stealth Frigate Taragiri (P17A) & Submarine INS Aridhaman**: Taragiri (6,670-tonne frigate built by MDL) and INS Aridhaman (3rd nuclear ballistic submarine under ATV project).
 * **India-Russia Sign RELOS (Reciprocal Exchange of Logistics Agreement)**: Enables reciprocal access to military bases and stationing up to 3,000 personnel.
 * **15th CMS COP15 in Brazil Accords Protection to 40 Migratory Species**: Brazil takes 3-year presidency; Germany to host COP16 in 2029.
-* **UAE Announces Exit from OPEC and OPEC+ Effective May 1, 2026**: Historic exit after joining in 1967.
-* **E20 Petrol (20% Ethanol) Made Mandatory Nationwide from April 1, 2026**: Notified by Ministry of Petroleum & BIS.
+* **UAE Announces Exit from OPEC and OPEC+ Effective May 1, 2026**: The United Arab Emirates formally decided to **exit the OPEC and OPEC+ production quota framework** from May 1, 2026 (ending membership since 1967) to independently increase crude capacity beyond 5 million barrels per day.
+* **E20 Petrol (20% Ethanol) Made Mandatory Nationwide from April 1, 2026**: The Ministry of Petroleum & Natural Gas and Bureau of Indian Standards (BIS) made **E20 petrol (20% ethanol blend)** mandatory across all retail fuel dispensing stations in India from April 1, 2026 under the National Biofuels Policy.
 * **Deendayal Port (Kandla) Reclaims Top Major Port Spot**: Handled record 160.11 MT cargo in FY26, overtaking Paradip Port (156.45 MT).
 * **Delhi–Dehradun Economic Corridor (210 km, ₹11,868 Cr) Inaugurated**: Reduces travel time from 6.5 to 2.5 hours with wildlife underpasses.
 * **₹79,459 Crore HRRL Greenfield Petrochemical Complex Dedicated at Pachpadra**: JV of HPCL (74%) and Rajasthan Govt (26%) with 9 MMTPA capacity.

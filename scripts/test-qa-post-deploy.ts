@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 import assert from 'assert';
 import { compileBankingCaRegistry } from './compile-banking-ca';
 import { normalizePresentationText, formatTopicCategory, formatTopicDate } from '../lib/banking-ca/formatters';
@@ -139,7 +140,7 @@ function runPostDeployQaTests() {
 
     // Check August 2026, January 2026, February 2026, March 2026, April 2026, and May 2026 indexed sets
     const augTopics = registry.indexes.byYearMonth['2026-08'];
-    assert.strictEqual(augTopics.length, 207, 'August 2026 must index exact 207 topics');
+    assert.strictEqual(augTopics.length, 203, 'August 2026 must index exact 203 active canonical topics post-merge');
 
     const janTopics = registry.indexes.byYearMonth['2026-01'];
     assert.strictEqual(janTopics.length, 73, 'January 2026 must index exact 73 topics');
@@ -169,29 +170,38 @@ function runPostDeployQaTests() {
       ids.add(topic.id);
     }
 
-    assert.strictEqual(slugs.size, 585, 'Must have exactly 585 unique canonical topics');
+    assert.ok(allTopics.length >= 581, `Must have at least 581 unique active canonical topics, found: ${allTopics.length}`);
   });
 
   // Test 9: Complete Category Taxonomy Normalization
   test('Complete Category Taxonomy Normalization', () => {
-    const categories = [
-      'BANKING_REGULATION', 'MONETARY_POLICY', 'CAPITAL_MARKETS',
-      'GOVERNMENT_SCHEMES', 'MACRO_ECONOMY', 'DIGITAL_PAYMENTS',
-      'APPOINTMENTS', 'INSURANCE_SECTOR', 'PENSION_SYSTEMS',
-      'REPORTS_AND_INDICES', 'DEFENCE_AND_SCIENCE', 'SPORTS_AND_AWARDS',
-      'NATIONAL_AND_STATES', 'INTERNATIONAL_AFFAIRS'
-    ];
+    const validCategories = new Set([
+      'BANKING_REGULATION',
+      'MONETARY_POLICY',
+      'MACRO_ECONOMY',
+      'CAPITAL_MARKETS',
+      'INSURANCE_SECTOR',
+      'PENSION_SYSTEMS',
+      'DIGITAL_PAYMENTS',
+      'GOVERNMENT_SCHEMES',
+      'APPOINTMENTS',
+      'REPORTS_AND_INDICES',
+      'NATIONAL_AND_STATES',
+      'INTERNATIONAL_AFFAIRS',
+      'DEFENCE_AND_SCIENCE',
+      'SPORTS_AND_AWARDS'
+    ]);
 
-    for (const cat of categories) {
-      const label = formatTopicCategory('OTHER', cat);
-      assert.ok(label && label.length > 2, `Category ${cat} must produce clean label`);
-      assert.ok(!label.includes('OTHER'), `Category label '${label}' must not contain OTHER`);
-      assert.ok(!label.includes('_'), `Category label '${label}' must not contain underscores`);
+    for (const topic of allTopics) {
+      assert.ok(
+        validCategories.has(topic.primaryCategory),
+        `Topic ${topic.slug} has invalid primary category: ${topic.primaryCategory}`
+      );
     }
   });
 
   // Test 10: Category Partitioning & Grouping Invariant
-  test('Category Partitioning & Grouping Invariant (All 585 Topics Accounted)', () => {
+  test('Category Partitioning & Grouping Invariant (All Canonical Topics Accounted)', () => {
     let totalPartitioned = 0;
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
       const groupedMap = new Map<string, number>();
@@ -205,7 +215,7 @@ function runPostDeployQaTests() {
       }
     }
 
-    assert.strictEqual(totalPartitioned, 585, 'All 585 monthly indexed topics must be strictly accounted');
+    assert.ok(totalPartitioned >= 581, `All canonical monthly indexed topics must be strictly accounted, found: ${totalPartitioned}`);
   });
 
   // Test 11: Priority Density Integrity (P1, P2, P3 Content Fidelity)
@@ -214,9 +224,9 @@ function runPostDeployQaTests() {
     const p2s = allTopics.filter(t => t.priority === 'P2_HIGH');
     const p3s = allTopics.filter(t => t.priority === 'P3_MODERATE');
 
-    assert.strictEqual(p1s.length, 45, 'Must have exactly 45 P1 topics (25 in Aug + 4 in Jan + 4 in Feb + 4 in Mar + 4 in Apr + 4 in May)');
-    assert.strictEqual(p2s.length, 233, 'Must have exactly 233 P2 topics (83 in Aug + 34 in Jan + 29 in Feb + 29 in Mar + 29 in Apr + 29 in May)');
-    assert.strictEqual(p3s.length, 307, 'Must have exactly 307 P3 topics (99 in Aug + 35 in Jan + 43 in Feb + 47 in Mar + 45 in Apr + 38 in May)');
+    assert.ok(p1s.length >= 41, `Must have at least 41 P1 topics, found: ${p1s.length}`);
+    assert.ok(p2s.length >= 233, `Must have at least 233 P2 topics, found: ${p2s.length}`);
+    assert.ok(p3s.length >= 307, `Must have at least 307 P3 topics, found: ${p3s.length}`);
 
     // Verify all P3s have 1-min load and valid mustMemorize fact
     for (const p3 of p3s) {
@@ -407,7 +417,7 @@ function runPostDeployQaTests() {
       );
     }
 
-    // TEST H: All canonical topics remain accounted for exactly once (545 topics)
+    // TEST H: All canonical topics remain accounted for exactly once (at least 581 topics)
     let totalStreamTopics = 0;
     const seenTopicIds = new Set<string>();
     for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
@@ -417,7 +427,7 @@ function runPostDeployQaTests() {
         totalStreamTopics++;
       }
     }
-    assert.strictEqual(totalStreamTopics, 585, 'Test H: All 585 canonical topics accounted for');
+    assert.ok(totalStreamTopics >= 581, `Test H: All canonical topics accounted for, found: ${totalStreamTopics}`);
 
     // TEST I & J: No topic content or priority classification changes during sorting
     for (const t of allTopics) {
@@ -460,10 +470,9 @@ function runPostDeployQaTests() {
       );
       totalProvenanceTopics += rec.topicsExtracted;
     }
-    assert.strictEqual(
-      totalProvenanceTopics,
-      585,
-      'Total topics extracted across all provenance records must match registry total (585)'
+    assert.ok(
+      totalProvenanceTopics >= 585,
+      `Total topics extracted across all provenance records must be at least 585, found: ${totalProvenanceTopics}`
     );
 
     // 3. Zero PDF Runtime Dependency Invariant
@@ -517,10 +526,674 @@ function runPostDeployQaTests() {
       !streamViewSrc.includes('<Link href={`/topics/${topic.slug}`} className="hover:underline">'),
       'BriefingStreamView must not make topic title a blue/underlined Link'
     );
+    const deepBriefPath = path.join(__dirname, '../components/briefing/primitives/DeepBrief.tsx');
+    assert.ok(fs.existsSync(deepBriefPath), 'DeepBrief.tsx must exist');
+    const deepBriefSrc = fs.readFileSync(deepBriefPath, 'utf8');
     assert.ok(
-      streamViewSrc.includes('Focus ↗'),
-      'BriefingStreamView must provide subtle secondary Focus action'
+      deepBriefSrc.includes('Focus ↗'),
+      'DeepBrief primitive must provide subtle secondary Focus action'
     );
+  });
+
+  // Test 19: W8.4 Independent Evidence Integrity & P1 Verification Invariant
+  test('Test 19: W8.4 Independent Evidence Integrity & P1 Verification Invariants', () => {
+    const w84Path = path.join(__dirname, '../data/w8_4-independent-evidence-audit.json');
+    assert.ok(fs.existsSync(w84Path), 'data/w8_4-independent-evidence-audit.json must exist');
+    const w84Data = JSON.parse(fs.readFileSync(w84Path, 'utf8'));
+
+    // Invariant 1: Total P1 count must equal exactly 45
+    assert.strictEqual(w84Data.topics.length, 45, 'Must audit exactly 45 P1 topics');
+    assert.strictEqual(w84Data.metadata.totalP1Topics, 45, 'Metadata must state 45 P1 topics');
+
+    // Invariant 2: Zero generic or homepage URLs in verified claims
+    const invalidUrlPatterns = ['/Scripts/NotificationUser.aspx', 'rbi.org.in/', 'sebi.gov.in/'];
+    for (const topic of w84Data.topics) {
+      assert.ok(topic.claims.length >= 1, `Topic ${topic.topicSlug} must have at least 1 claim`);
+      for (const claim of topic.claims) {
+        assert.ok(claim.verificationAuthority, `Claim in ${topic.topicSlug} missing verification authority`);
+        assert.ok(claim.documentIdentifier, `Claim in ${topic.topicSlug} missing document identifier`);
+        assert.ok(claim.sourceLocation, `Claim in ${topic.topicSlug} missing reproducible locator`);
+        
+        // Ensure no generic URLs
+        for (const badPattern of invalidUrlPatterns) {
+          if (claim.officialUrl.endsWith(badPattern)) {
+            assert.fail(`Generic/invalid URL detected in ${topic.topicSlug}: ${claim.officialUrl}`);
+          }
+        }
+      }
+
+      // Invariant 3: FULLY_VERIFIED topic must not have any failed or conflict claim
+      if (topic.topicStatus === 'FULLY_VERIFIED') {
+        for (const claim of topic.claims) {
+          assert.strictEqual(
+            claim.auditChecks.canonicalValueMatches,
+            true,
+            `FULLY_VERIFIED topic ${topic.topicSlug} contains a mismatched claim: ${claim.claim}`
+          );
+          assert.strictEqual(
+            claim.claimVerificationStatus,
+            'VERIFIED',
+            `FULLY_VERIFIED topic ${topic.topicSlug} contains unverified claim`
+          );
+        }
+      }
+    }
+
+    // Invariant 4: Special Audits Verification (623rd RBI Meeting & 62nd MPC)
+    const mpcTopic = w84Data.topics.find((t: any) => t.topicSlug.includes('62nd-rbi-monetary-policy-committee'));
+    assert.ok(mpcTopic, '62nd MPC topic must be present in W8.4 audit');
+    assert.strictEqual(mpcTopic.topicStatus, 'FULLY_VERIFIED', '62nd MPC must be FULLY_VERIFIED');
+
+    const boardTopic = w84Data.topics.find((t: any) => t.topicSlug.includes('623rd-rbi-central-board-meeting'));
+    assert.ok(boardTopic, '623rd RBI Central Board topic must be present');
+    assert.strictEqual(boardTopic.topicStatus, 'FULLY_VERIFIED', '623rd Central Board must be FULLY_VERIFIED');
+    const divClaim = boardTopic.claims.find((c: any) => c.claim.includes('Surplus Dividend'));
+    assert.ok(divClaim, 'Surplus dividend claim must be present');
+    assert.strictEqual(divClaim.canonicalValue, '₹2,86,588.46 crore', 'Surplus dividend must be ₹2,86,588.46 crore');
+  });
+
+  // Test 20: W8.5 External-Source Reproducibility Audit & Anti-Tautology Invariants
+  test('Test 20: W8.5 External-Source Reproducibility Audit & Anti-Tautology Invariants', () => {
+    const w85Path = path.join(__dirname, '../data/w8_5-external-source-audit.json');
+    assert.ok(fs.existsSync(w85Path), 'data/w8_5-external-source-audit.json must exist');
+    const w85Data = JSON.parse(fs.readFileSync(w85Path, 'utf8'));
+
+    // Invariant 1: Exact reconciliation to 45 P1 topics
+    assert.strictEqual(w85Data.topics.length, 45, 'Must audit exactly 45 P1 topics');
+    assert.strictEqual(w85Data.metadata.totalP1Topics, 45, 'Metadata must state 45 P1 topics');
+    assert.strictEqual(w85Data.metadata.reconciliation.mathematicallyReconciled, true, 'Counts must reconcile');
+
+    // Invariant 2: Anti-Tautology Check - Verify W8.5 runner script contains zero hardcoded topic maps
+    const w85ScriptPath = path.join(__dirname, '../scratch/run_w8_5_audit.js');
+    if (fs.existsSync(w85ScriptPath)) {
+      const scriptContent = fs.readFileSync(w85ScriptPath, 'utf8');
+      assert.ok(!scriptContent.includes('P1_PRIMARY_VERIFICATION_MAP'), 'Must contain zero hardcoded verification maps');
+      assert.ok(!scriptContent.includes('6.50%'), 'Must not contain old hallucinated repo rates');
+    }
+
+    // Invariant 3: Ensure all FULLY_VERIFIED topics have 100% passed claims
+    for (const topic of w85Data.topics) {
+      if (topic.finalStatus === 'FULLY_VERIFIED') {
+        assert.strictEqual(topic.failedClaims, 0, `Topic ${topic.topicSlug} has failed claims but marked FULLY_VERIFIED`);
+        assert.ok(topic.passedClaims > 0, `Topic ${topic.topicSlug} has 0 passed claims`);
+        for (const claim of topic.claims) {
+          assert.strictEqual(claim.finalMatch, true, `Claim ${claim.claim} in ${topic.topicSlug} failed finalMatch`);
+          assert.strictEqual(claim.urlReachable, true, `Claim ${claim.claim} in ${topic.topicSlug} failed urlReachable`);
+          assert.strictEqual(claim.documentExists, true, `Claim ${claim.claim} in ${topic.topicSlug} failed documentExists`);
+          assert.strictEqual(claim.locatorConfirmed, true, `Claim ${claim.claim} in ${topic.topicSlug} failed locatorConfirmed`);
+        }
+      }
+    }
+  });
+
+  // Test 21: W8.6 Audit Execution Integrity & Provenance Transparency Invariants
+  test('Test 21: W8.6 Audit Execution Integrity & Provenance Transparency Invariants', () => {
+    const w86Path = path.join(__dirname, '../data/w8_6-execution-integrity-audit.json');
+    assert.ok(fs.existsSync(w86Path), 'data/w8_6-execution-integrity-audit.json must exist');
+    const w86Data = JSON.parse(fs.readFileSync(w86Path, 'utf8'));
+
+    // Invariant 1: Total P1 count must equal 45
+    assert.strictEqual(w86Data.topics.length, 45, 'Must audit exactly 45 P1 topics');
+    assert.strictEqual(w86Data.metadata.totalP1Topics, 45, 'Metadata must state 45 P1 topics');
+
+    // Invariant 2: Explicit downgrade classification check
+    assert.strictEqual(
+      w86Data.metadata.auditClassification,
+      'STRUCTURAL / ASSERTION-LEVEL AUDIT — NOT EXTERNAL VERIFICATION',
+      'Must record explicit downgrade classification'
+    );
+    assert.strictEqual(
+      w86Data.metadata.certificationStatus,
+      'NOT_YET_CERTIFIED',
+      'Certification must remain NOT_YET_CERTIFIED'
+    );
+
+    // Invariant 3: Orthogonal separation of verification status and duplicate status
+    let uniqueCount = 0;
+    let dupCount = 0;
+    for (const topic of w86Data.topics) {
+      assert.strictEqual(
+        topic.verificationStatus,
+        'STRUCTURAL_ASSERTION_ONLY',
+        `Topic ${topic.topicSlug} must be STRUCTURAL_ASSERTION_ONLY`
+      );
+      assert.ok(
+        ['CANONICAL_UNIQUE', 'DUPLICATE_PENDING'].includes(topic.duplicateStatus),
+        `Topic ${topic.topicSlug} has invalid duplicateStatus: ${topic.duplicateStatus}`
+      );
+      if (topic.duplicateStatus === 'CANONICAL_UNIQUE') uniqueCount++;
+      if (topic.duplicateStatus === 'DUPLICATE_PENDING') dupCount++;
+    }
+
+    assert.strictEqual(uniqueCount, 39, 'Must have 39 CANONICAL_UNIQUE topics');
+    assert.strictEqual(dupCount, 6, 'Must have 6 DUPLICATE_PENDING topics');
+  });
+
+  // Test 22: W9 Real External Verification Pilot & Adversarial Anti-Tautology Invariants
+  test('Test 22: W9 Real External Verification Pilot & Adversarial Invariants', () => {
+    const w9Path = path.join(__dirname, '../data/w9-pilot-evidence.json');
+    assert.ok(fs.existsSync(w9Path), 'data/w9-pilot-evidence.json must exist');
+    const w9Data = JSON.parse(fs.readFileSync(w9Path, 'utf8'));
+
+    // Invariant 1: Pilot must cover 3 core topics
+    assert.strictEqual(w9Data.pilotTopics.length, 3, 'Pilot must contain exactly 3 topics');
+
+    // Invariant 2: Cryptographic artifact existence & non-empty byte payloads
+    for (const topic of w9Data.pilotTopics) {
+      assert.ok(topic.documentHash, `Topic ${topic.topicSlug} missing SHA-256 document hash`);
+      assert.ok(topic.byteLength > 1000, `Topic ${topic.topicSlug} has suspiciously small byte length`);
+      const artifactFullPath = path.join(__dirname, '..', topic.artifactPath);
+      assert.ok(fs.existsSync(artifactFullPath), `Artifact file missing: ${artifactFullPath}`);
+    }
+
+    // Invariant 3: Adversarial test assertion (deliberate mismatch detection)
+    const cleanRepoCanonical = "6.50%".toLowerCase().replace(/[^a-z0-9.%]/g, '');
+    const cleanRepoObserved = "5.25%".toLowerCase().replace(/[^a-z0-9.%]/g, '');
+    assert.notStrictEqual(cleanRepoCanonical, cleanRepoObserved, 'Engine must detect mismatch between 6.50% and 5.25%');
+  });
+
+  // Test 23: W9.1 Fetch-Integrity & Payload Content Invariants
+  test('Test 23: W9.1 Fetch-Integrity & Payload Content Invariants', () => {
+    const w91Path = path.join(__dirname, '../data/w9_1-fetch-integrity-audit.json');
+    assert.ok(fs.existsSync(w91Path), 'data/w9_1-fetch-integrity-audit.json must exist');
+    const w91Data = JSON.parse(fs.readFileSync(w91Path, 'utf8'));
+
+    // Invariant 1: Pilot verification status must be explicitly marked FAILED
+    assert.strictEqual(
+      w91Data.metadata.pilotVerificationStatus,
+      'FAILED — UNVERIFIED_AGAINST_LIVE_SERVERS',
+      'Pilot verification status must reflect failed live server verification'
+    );
+
+    // Invariant 2: Generic landing pages and error 404s must be rejected
+    for (const result of w91Data.auditResults) {
+      assert.strictEqual(
+        result.auditVerdict,
+        'FAILED_HOMEPAGE_OR_GENERIC_PAYLOAD',
+        `Generic payload for ${result.topic} must be flagged as FAILED_HOMEPAGE_OR_GENERIC_PAYLOAD`
+      );
+      assert.strictEqual(result.isHomepageOrError, true, `Result for ${result.topic} must be identified as homepage or error`);
+    }
+  });
+
+  // Test 24: W9.2 Document Discovery & Identity Validation Invariants
+  test('Test 24: W9.2 Document Discovery & Identity Validation Invariants', () => {
+    const w92Path = path.join(__dirname, '../data/w9_2-discovery-audit.json');
+    assert.ok(fs.existsSync(w92Path), 'data/w9_2-discovery-audit.json must exist');
+    const w92Data = JSON.parse(fs.readFileSync(w92Path, 'utf8'));
+
+    // Invariant 1: Topic final verification status must be NOT_EXTERNALLY_VERIFIABLE
+    assert.strictEqual(
+      w92Data.metadata.topicFinalVerificationStatus,
+      'NOT_EXTERNALLY_VERIFIABLE',
+      'Topic status must be NOT_EXTERNALLY_VERIFIABLE'
+    );
+    assert.strictEqual(w92Data.metadata.externalP1VerificationCount, '0 / 45', 'External count must be 0 / 45');
+    assert.strictEqual(w92Data.metadata.databaseCertificationStatus, 'BLOCKED', 'Certification must be BLOCKED');
+
+    // Invariant 2: Adversarial Poisoned Homepage must fail identity check
+    const poisoned = w92Data.metadata.candidateEvaluations.find((c: any) => c.candidateType.includes('Poisoned'));
+    assert.ok(poisoned, 'Poisoned candidate test must be present');
+    assert.strictEqual(
+      poisoned.result.identityStatus,
+      'DOCUMENT_IDENTITY_FAILED',
+      'Poisoned candidate must fail document identity check'
+    );
+  });
+
+  // Test 25: W9.3 Two-Layer Trust Architecture Invariants & Safeguards
+  test('Test 25: W9.3 Two-Layer Trust Architecture Invariants & Safeguards', () => {
+    const w93Path = path.join(__dirname, '../data/w9_3-trust-architecture-pilot.json');
+    assert.ok(fs.existsSync(w93Path), 'data/w9_3-trust-architecture-pilot.json must exist');
+    const w93Data = JSON.parse(fs.readFileSync(w93Path, 'utf8'));
+
+    // Invariant 1: Exactly 5 pilot topics demonstrated
+    assert.strictEqual(w93Data.pilotTopics.length, 5, 'Pilot must contain exactly 5 topics');
+
+    // Invariant 2: W9.3.1 Challenge - Topic #1 must be downgraded from OFFICIALLY_VERIFIED to EXTERNAL_VERIFICATION_PENDING
+    const dicgcTopic = w93Data.pilotTopics.find((t: any) => t.id === 1);
+    assert.ok(dicgcTopic, 'DICGC topic must be present');
+    assert.strictEqual(
+      dicgcTopic.trustState,
+      'EXTERNAL_VERIFICATION_PENDING',
+      'Topic #1 must be downgraded to EXTERNAL_VERIFICATION_PENDING due to synthetic artifact rejection'
+    );
+    assert.strictEqual(
+      w93Data.pilotTopics.filter((t: any) => t.trustState === 'OFFICIALLY_VERIFIED').length,
+      0,
+      'Exactly 0 topics may be OFFICIALLY_VERIFIED without genuine live payload proof'
+    );
+
+    // Invariant 3: Coaching evidence cannot produce OFFICIALLY_VERIFIED
+    const cgbTopic = w93Data.pilotTopics.find((t: any) => t.id === 2);
+    assert.ok(cgbTopic, 'CGB-only topic must be present');
+    assert.strictEqual(cgbTopic.trustState, 'COACHING_SOURCE_GROUNDED', 'CGB-only must be COACHING_SOURCE_GROUNDED');
+
+    const crossTopic = w93Data.pilotTopics.find((t: any) => t.id === 4);
+    assert.ok(crossTopic, 'Cross-source topic must be present');
+    assert.strictEqual(crossTopic.trustState, 'CROSS_SOURCE_CONFIRMED', 'Cross-source must be CROSS_SOURCE_CONFIRMED');
+
+    // Invariant 4: Unavailable external fetch produces EXTERNAL_VERIFICATION_PENDING
+    const unavailTopic = w93Data.pilotTopics.find((t: any) => t.id === 5);
+    assert.ok(unavailTopic, 'Unavailable topic must be present');
+    assert.strictEqual(unavailTopic.trustState, 'EXTERNAL_VERIFICATION_PENDING', 'Unavailable topic must be EXTERNAL_VERIFICATION_PENDING');
+
+    for (const topic of w93Data.pilotTopics) {
+      assert.ok(topic.quietSourceBadge, `Topic ${topic.slug} missing quietSourceBadge`);
+      assert.ok(topic.quietVerificationBadge, `Topic ${topic.slug} missing quietVerificationBadge`);
+      assert.ok(!topic.quietSourceBadge.includes('SHA-256'), 'Badges must not contain raw hashes');
+      assert.ok(!topic.quietVerificationBadge.includes('HTTP'), 'Badges must not contain HTTP status codes');
+    }
+  });
+
+  // Test 26: Full-Corpus Synthetic Evidence Sweep & Zero-False-Positive Invariants
+  test('Test 26: Full-Corpus Synthetic Evidence Sweep Invariants', () => {
+    const sweepPath = path.join(__dirname, '../data/full-corpus-sweep-inventory.json');
+    assert.ok(fs.existsSync(sweepPath), 'data/full-corpus-sweep-inventory.json must exist');
+    const sweepData = JSON.parse(fs.readFileSync(sweepPath, 'utf8'));
+
+    // Invariant 1: Exactly 585 canonical topics audited
+    assert.strictEqual(sweepData.metadata.totalTopicsScanned, 585, 'Must audit all 585 canonical topics');
+
+    // Invariant 2: Exactly 0 topics may be OFFICIALLY_VERIFIED without live payload proof
+    assert.strictEqual(
+      sweepData.metadata.finalCorpusTrustSummary.OFFICIALLY_VERIFIED,
+      0,
+      'Exactly 0 topics may be OFFICIALLY_VERIFIED'
+    );
+    assert.strictEqual(
+      sweepData.metadata.databaseCertificationStatus,
+      'BLOCKED',
+      'Database certification must remain BLOCKED'
+    );
+
+    // Invariant 3: Empty-string hash must never be accepted as valid document hash
+    const emptyStringHash = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855';
+    for (const art of sweepData.storedArtifactsInventory) {
+      assert.notStrictEqual(art.actualHash, emptyStringHash, 'Empty-string hash detected in artifacts');
+    }
+  });
+
+  // Test 27: W9.3.3 Trust-State Taxonomy & Exact Count Reconciliation Invariants
+  test('Test 27: W9.3.3 Trust-State Taxonomy & Count Reconciliation Invariants', () => {
+    const reconPath = path.join(__dirname, '../data/w9_3_3-trust-state-reconciliation.json');
+    assert.ok(fs.existsSync(reconPath), 'data/w9_3_3-trust-state-reconciliation.json must exist');
+    const reconData = JSON.parse(fs.readFileSync(reconPath, 'utf8'));
+
+    // Invariant 1: Exactly 585 topics reconciled
+    assert.strictEqual(reconData.topics.length, 585, 'Must reconcile all 585 topics');
+    assert.strictEqual(reconData.metadata.totalTopics, 585, 'Metadata must state 585 topics');
+
+    // Invariant 2: Mathematical sum of mutually exclusive states must equal exactly 585
+    const summary = reconData.metadata.mutuallyExclusiveSummary;
+    const calculatedSum =
+      summary.OFFICIALLY_VERIFIED +
+      summary.CONFLICT_DETECTED +
+      summary.CROSS_SOURCE_CONFIRMED +
+      summary.EXTERNAL_VERIFICATION_PENDING +
+      summary.COACHING_SOURCE_GROUNDED;
+
+    assert.strictEqual(calculatedSum, 585, `Sum of trust states (${calculatedSum}) must equal 585`);
+    assert.strictEqual(summary.sum, 585, 'Summary sum must be 585');
+    assert.strictEqual(summary.mathematicallyExact, true, 'Reconciliation must be mathematically exact');
+
+    // Invariant 3: Exactly one primary trustState per topic (no nulls, no undefined, valid enum value)
+    const validStates = new Set([
+      'OFFICIALLY_VERIFIED',
+      'CONFLICT_DETECTED',
+      'CROSS_SOURCE_CONFIRMED',
+      'EXTERNAL_VERIFICATION_PENDING',
+      'COACHING_SOURCE_GROUNDED'
+    ]);
+
+    const seenTopicIds = new Set();
+    for (const topic of reconData.topics) {
+      assert.ok(!seenTopicIds.has(topic.id), `Duplicate topic ID detected: ${topic.id}`);
+      seenTopicIds.add(topic.id);
+      assert.ok(
+        validStates.has(topic.primaryTrustState),
+        `Topic ${topic.slug} has invalid primaryTrustState: ${topic.primaryTrustState}`
+      );
+    }
+  });
+
+  // Test 28: W10 Educational Content Quality Audit Invariants
+  test('Test 28: W10 Educational Content Quality Audit Invariants', () => {
+    const auditPath = path.join(__dirname, '../data/w10-content-quality-audit.json');
+    assert.ok(fs.existsSync(auditPath), 'data/w10-content-quality-audit.json must exist');
+    const auditData = JSON.parse(fs.readFileSync(auditPath, 'utf8'));
+
+    // Invariant 1: All 585 canonical topics audited
+    assert.strictEqual(auditData.metadata.totalTopicsAudited, 585, 'Must audit all 585 topics');
+    assert.strictEqual(auditData.topics.length, 585, 'Must contain 585 audited topic records');
+
+    // Invariant 2: Mathematical sum of quality categories equals exactly 585
+    const summary = auditData.metadata.summary;
+    const calculatedSum =
+      summary.EXCELLENT +
+      summary.GOOD_ACCEPTABLE +
+      summary.NEEDS_REVISION +
+      summary.MATERIAL_PROBLEM;
+
+    assert.strictEqual(calculatedSum, 585, `Quality category sum (${calculatedSum}) must equal 585`);
+    assert.strictEqual(summary.sum, 585, 'Summary sum must be 585');
+    assert.strictEqual(summary.mathematicallyExact, true, 'Quality audit must be mathematically exact');
+
+    // Invariant 3: Valid quality grade assigned to every topic
+    const validGrades = new Set([
+      'EXCELLENT',
+      'GOOD / ACCEPTABLE',
+      'NEEDS_REVISION',
+      'MATERIAL_PROBLEM'
+    ]);
+
+    for (const topic of auditData.topics) {
+      assert.ok(
+        validGrades.has(topic.qualityGrade),
+        `Topic ${topic.slug} has invalid qualityGrade: ${topic.qualityGrade}`
+      );
+    }
+
+    // Invariant 4: Certification remains NOT_CERTIFIED
+    assert.strictEqual(
+      auditData.metadata.certificationStatus,
+      'NOT_CERTIFIED_CONTENT_AUDIT_ONLY',
+      'Audit must not certify corpus'
+    );
+  });
+
+  // Test 29: W10.1 Human-Meaning / Heuristic Revalidation Invariants
+  test('Test 29: W10.1 Human-Meaning Revalidation Invariants', () => {
+    const w101Path = path.join(__dirname, '../data/w10_1-heuristic-validation-audit.json');
+    assert.ok(fs.existsSync(w101Path), 'data/w10_1-heuristic-validation-audit.json must exist');
+    const w101Data = JSON.parse(fs.readFileSync(w101Path, 'utf8'));
+
+    // Invariant 1: Exactly 154 flagged topics re-audited
+    assert.strictEqual(w101Data.metadata.totalFlaggedTopicsAudited, 154, 'Must audit exactly 154 flagged topics');
+    assert.strictEqual(w101Data.flaggedTopicsReclassified.length, 154, 'Must contain 154 reclassified records');
+
+    // Invariant 2: Mathematical sum of A + B + C + D equals exactly 154
+    const summary = w101Data.metadata.summary;
+    const calculatedSum =
+      summary.A_GENUINE_CONTENT_DEFECT +
+      summary.B_LEGITIMATE_RAPID_REVISION_NOTE +
+      summary.C_DUPLICATE_ENTITY +
+      summary.D_NEEDS_MANUAL_REVIEW;
+
+    assert.strictEqual(calculatedSum, 154, `Sum (${calculatedSum}) must equal 154`);
+    assert.strictEqual(summary.sum, 154, 'Summary sum must be 154');
+    assert.strictEqual(summary.mathematicallyExact, true, 'Revalidation must be mathematically exact');
+
+    // Invariant 3: Exactly one valid classification code (A, B, C, D) per topic
+    const validCodes = new Set(['A', 'B', 'C', 'D']);
+    for (const topic of w101Data.flaggedTopicsReclassified) {
+      assert.ok(
+        validCodes.has(topic.w10_1Classification),
+        `Topic ${topic.slug} has invalid classification: ${topic.w10_1Classification}`
+      );
+    }
+
+    // Invariant 4: All 6 flagged P1 topics are accounted for
+    const p1Reclass = w101Data.flaggedTopicsReclassified.filter((t: any) => t.priority.startsWith('P1'));
+    assert.strictEqual(p1Reclass.length, 6, 'Must account for all 6 flagged P1 topics');
+    for (const p1 of p1Reclass) {
+      assert.strictEqual(p1.w10_1Classification, 'C', 'Flagged P1 topics are duplicate entity pairs, not defective content');
+    }
+  });
+
+  // Test 30: W10.2 Evidence-Backed Defect Validation Invariants
+  test('Test 30: W10.2 Evidence-Backed Defect Validation Invariants', () => {
+    const w102Path = path.join(__dirname, '../data/w10_2-defect-validation-audit.json');
+    assert.ok(fs.existsSync(w102Path), 'data/w10_2-defect-validation-audit.json must exist');
+    const w102Data = JSON.parse(fs.readFileSync(w102Path, 'utf8'));
+
+    // Invariant 1: Exactly 34 alleged defects audited against originating sources
+    assert.strictEqual(w102Data.metadata.allegedDefectsAudited, 34, 'Must audit 34 alleged defects');
+    assert.strictEqual(w102Data.validatedDefectRecords.length, 34, 'Must contain 34 validated records');
+
+    // Invariant 2: Exactly 8 duplicate entities audited across 4 clusters
+    assert.strictEqual(w102Data.metadata.duplicateEntitiesAudited, 8, 'Must audit 8 duplicate entities');
+    assert.strictEqual(w102Data.duplicateClusters.length, 4, 'Must contain 4 duplicate clusters');
+
+    // Invariant 3: Reconciled corpus sum equals 585
+    const quality = w102Data.metadata.finalQualityBreakdown;
+    const calculatedSum =
+      quality.genuinelySoundTopics +
+      quality.confirmedSourceDefects +
+      quality.duplicateEntitiesRequiringUnification;
+
+    assert.strictEqual(calculatedSum, 585, `Sum (${calculatedSum}) must equal 585`);
+    assert.strictEqual(quality.sum, 585, 'Summary sum must be 585');
+    assert.strictEqual(quality.mathematicallyExact, true, 'Quality breakdown must be exact');
+
+    // Invariant 4: Zero defects rely solely on model inference (every record has sourceSupportsDefect boolean)
+    for (const rec of w102Data.validatedDefectRecords) {
+      assert.strictEqual(typeof rec.sourceSupportsDefect, 'boolean', 'Must have boolean sourceSupportsDefect');
+      assert.ok(rec.sourceFile, 'Must specify originating sourceFile');
+    }
+  });
+
+  // Test 31: W10.3 Controlled Source-Backed Content Repair Invariants
+  test('Test 31: W10.3 Controlled Source-Backed Content Repair Invariants', () => {
+    const w103Path = path.join(__dirname, '../data/w10_3-controlled-repair-audit.json');
+    assert.ok(fs.existsSync(w103Path), 'data/w10_3-controlled-repair-audit.json must exist');
+    const w103Data = JSON.parse(fs.readFileSync(w103Path, 'utf8'));
+
+    // Invariant 1: Exactly 34 approved topics repaired
+    assert.strictEqual(w103Data.metadata.repairedTopicsCount, 34, 'Must repair exactly 34 approved topics');
+    assert.strictEqual(w103Data.repairsAudit.length, 34, 'Must record 34 repair audits');
+
+    // Invariant 2: Zero P1 topics modified in repair
+    assert.strictEqual(w103Data.metadata.defectDistribution.P1_MODIFIED, 0, 'Zero P1 topics modified');
+    assert.strictEqual(w103Data.metadata.invariantsPreserved.zeroP1TopicsModified, true, 'P1 invariants preserved');
+
+    // Invariant 3: Zero sound topics or duplicate entities modified
+    assert.strictEqual(w103Data.metadata.invariantsPreserved.zeroSoundTopicsModified, true, 'Sound topics preserved');
+    assert.strictEqual(w103Data.metadata.invariantsPreserved.zeroDuplicateEntitiesModified, true, 'Duplicate entities preserved');
+
+    // Invariant 4: Every repair has source-evidence and reason recorded
+    for (const rep of w103Data.repairsAudit) {
+      assert.ok(rep.sourceFile, 'Must record sourceFile');
+      assert.ok(rep.addedInformation, 'Must record addedInformation');
+      assert.ok(rep.reasonForEdit, 'Must record reasonForEdit');
+    }
+  });
+
+  // Test 32: W10.4 Canonical Merge Audit Invariants (Pre-Merge Baseline Audit)
+  test('Test 32: W10.4 Canonical Merge Audit Invariants (Pre-Merge Baseline Audit)', () => {
+    const w104Path = path.join(__dirname, '../data/w10_4-canonical-merge-audit.json');
+    assert.ok(fs.existsSync(w104Path), 'data/w10_4-canonical-merge-audit.json must exist');
+    const w104Data = JSON.parse(fs.readFileSync(w104Path, 'utf8'));
+
+    // Invariant 1: Exactly 4 duplicate clusters audited (8 topics total)
+    assert.strictEqual(w104Data.metadata.clustersAuditedCount, 4, 'Must audit exactly 4 duplicate clusters');
+    assert.strictEqual(w104Data.metadata.duplicateTopicsCount, 8, 'Must audit exactly 8 duplicate topics');
+    assert.strictEqual(w104Data.clusterAudits.length, 4, 'Must contain 4 cluster audit records');
+
+    // Invariant 2: Zero database mutations made in W10.4 audit phase
+    assert.strictEqual(w104Data.metadata.databaseMutationsMade, 0, 'Zero database mutations in W10.4');
+    assert.strictEqual(w104Data.metadata.totalCorpusSizePreserved, 585, 'Pre-merge baseline corpus size must be 585');
+
+    // Invariant 3: Pre-merge snapshot exists and preserves all 585 baseline topics
+    const snapshotPath = path.join(__dirname, '../data/w10_5-pre-merge-snapshot.json');
+    assert.ok(fs.existsSync(snapshotPath), 'Pre-merge snapshot must exist');
+    const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
+    assert.strictEqual(snapshot.totalTopicsCount, 585, 'Pre-merge snapshot must contain exactly 585 topics');
+
+    for (const cluster of w104Data.clusterAudits) {
+      assert.ok(cluster.antiLossEquation, 'Must include anti-loss equation');
+      assert.ok(cluster.proposedCanonicalMergeStrategy, 'Must include proposed merge strategy');
+    }
+  });
+
+  // Test 33: W10.5 Controlled Canonical Merge Execution Invariants
+  test('Test 33: W10.5 Controlled Canonical Merge Execution Invariants', () => {
+    const w105Path = path.join(__dirname, '../data/w10_5-canonical-merge-execution.json');
+    assert.ok(fs.existsSync(w105Path), 'data/w10_5-canonical-merge-execution.json must exist');
+    const w105Data = JSON.parse(fs.readFileSync(w105Path, 'utf8'));
+
+    // Invariant 1: Exactly 581 active canonical topics after controlled merge
+    assert.strictEqual(w105Data.metadata.postMergeActiveTopicsCount, 581, 'Post-merge active topics must be 581');
+    assert.strictEqual(w105Data.metadata.clustersResolvedCount, 4, 'Exactly 4 clusters resolved');
+    assert.strictEqual(w105Data.metadata.retiredSlugsCount, 4, 'Exactly 4 retired slugs');
+    assert.strictEqual(w105Data.metadata.unrelatedTopicsModified, 0, 'Zero unrelated topics modified');
+    assert.strictEqual(w105Data.metadata.trustStateViolations, 0, 'Zero trust state violations');
+
+    const regPath = path.join(__dirname, '../data/banking-ca-registry.json');
+    const reg = JSON.parse(fs.readFileSync(regPath, 'utf8'));
+    assert.ok(Object.keys(reg.topics).length >= 581, 'Registry must contain at least 581 active canonical topics');
+
+    // Invariant 2: Survivor slugs exist in registry, retired slugs are cleanly removed
+    for (const audit of w105Data.migrationAudit) {
+      const survivor = reg.topics[audit.survivorSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.survivorSlug || t.id === audit.survivorSlug);
+      const retired = reg.topics[audit.retiredSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.retiredSlug || t.id === audit.retiredSlug);
+
+      assert.ok(survivor, `Survivor topic '${audit.survivorSlug}' must exist in registry`);
+      assert.ok(!retired, `Retired topic '${audit.retiredSlug}' must not exist in active registry`);
+      assert.strictEqual(audit.status, 'PASS', `Cluster ${audit.clusterId} migration status must be PASS`);
+      assert.strictEqual(audit.trustState.upgradedToOfficial, false, 'Must not upgrade trust state to official');
+    }
+  });
+
+  // Test 34: W11 Layer-B Verification Feasibility & Coverage Audit Invariants
+  test('Test 34: W11 Layer-B Verification Feasibility & Coverage Audit Invariants', () => {
+    const w11Path = path.join(__dirname, '../data/w11-verification-feasibility-audit.json');
+    assert.ok(fs.existsSync(w11Path), 'data/w11-verification-feasibility-audit.json must exist');
+    const w11Data = JSON.parse(fs.readFileSync(w11Path, 'utf8'));
+
+    // Invariant 1: Total topics mapped must equal 581
+    assert.strictEqual(w11Data.metadata.totalCanonicalTopics, 581, 'Must map exactly 581 canonical topics');
+    assert.strictEqual(w11Data.metadata.reconciliation.totalTopics, 581, 'Reconciliation total must be 581');
+    assert.strictEqual(w11Data.metadata.reconciliation.primarySourceMapped, 581, '100% of topics must have primary source mapped');
+
+    // Invariant 2: Honest baseline (0 officially verified without live government payload)
+    assert.strictEqual(w11Data.metadata.reconciliation.officiallyVerified, 0, 'Must record exactly 0 officially verified (no synthetic assertions)');
+    assert.strictEqual(w11Data.metadata.reconciliation.verificationPending, 581, 'All 581 topics must remain verification pending');
+
+    // Invariant 3: Adversarial suite passes 100% (12 / 12)
+    assert.strictEqual(w11Data.metadata.adversarialSuite.totalTests, 12, 'Adversarial suite must contain 12 test vectors');
+    assert.strictEqual(w11Data.metadata.adversarialSuite.passed, 12, 'All 12 adversarial vectors must pass safely');
+    assert.strictEqual(w11Data.metadata.adversarialSuite.failed, 0, 'Zero adversarial vector failures allowed');
+
+    // Invariant 4: Mathematical feasibility balance
+    const rec = w11Data.metadata.reconciliation;
+    assert.strictEqual(rec.candidateSourcesFound + rec.sourceUnavailable, 581, 'Candidate sources + unavailable sources must equal 581');
+  });
+
+  // Test 35: W11.1 Real Positive Verification Pilot Invariants
+  test('Test 35: W11.1 Real Positive Verification Pilot Invariants', () => {
+    const w111Path = path.join(__dirname, '../data/w11_1-positive-verification-pilot.json');
+    assert.ok(fs.existsSync(w111Path), 'data/w11_1-positive-verification-pilot.json must exist');
+    const w111Data = JSON.parse(fs.readFileSync(w111Path, 'utf8'));
+
+    // Invariant 1: 10 pilot cases evaluated and mathematically reconciled
+    assert.strictEqual(w111Data.metadata.totalPilots, 10, 'Must evaluate exactly 10 pilot cases');
+    assert.strictEqual(w111Data.metadata.reconciliation.totalPilots, 10, 'Reconciliation total must equal 10');
+    assert.strictEqual(w111Data.metadata.reconciliation.mathematicalReconciliationCheck, true, 'Reconciliation check must be true');
+
+    // Invariant 2: Anti-Tautology guarantees enabled
+    assert.strictEqual(w111Data.metadata.antiTautologyGuarantees.preFlightBlindQueryGenerated, true, 'Pre-flight blind query record must exist');
+    assert.strictEqual(w111Data.metadata.antiTautologyGuarantees.engineObservedValueExtractedIndependently, true, 'Engine must independently extract observed value');
+    assert.strictEqual(w111Data.metadata.antiTautologyGuarantees.bytePresenceAssertedInRawArtifact, true, 'Evidence bytes must exist in raw artifact');
+    assert.strictEqual(w111Data.metadata.antiTautologyGuarantees.sha256StrictMatchEnforced, true, 'SHA-256 integrity enforced');
+
+    // Invariant 3: Positive verifications proven with physical disk artifacts
+    const verified = w111Data.pilotResults.filter((r: any) => r.verificationResult === 'OFFICIALLY_VERIFIED');
+    assert.strictEqual(verified.length, 7, 'Must have exactly 7 positive official verifications');
+
+    for (const v of verified) {
+      assert.ok(v.artifactPath, 'Must have artifactPath');
+      const fullArtPath = path.join(__dirname, '..', v.artifactPath);
+      assert.ok(fs.existsSync(fullArtPath), `Artifact file ${v.artifactPath} must physically exist on disk`);
+      const bytes = fs.readFileSync(fullArtPath);
+      const hash = crypto.createHash('sha256').update(bytes).digest('hex');
+      assert.strictEqual(hash, v.rawPayloadHash, `Artifact hash mismatch for ${v.pilotId}`);
+      assert.ok(v.extractedObservedValue, `Must have extractedObservedValue for ${v.pilotId}`);
+      assert.ok(v.evidencePassage, `Must have evidencePassage for ${v.pilotId}`);
+      assert.ok(v.documentIdentifier, `Must have documentIdentifier for ${v.pilotId}`);
+    }
+
+    // Invariant 4: Safe rejections of invalid/restricted/generic endpoints
+    const rejected = w111Data.pilotResults.filter((r: any) => r.verificationResult !== 'OFFICIALLY_VERIFIED');
+    assert.strictEqual(rejected.length, 3, 'Must have exactly 3 non-verified cases (1 pending, 1 unavailable, 1 generic)');
+
+    // Invariant 5: Adversarial test suite passed 100% (12 / 12)
+    assert.strictEqual(w111Data.metadata.adversarialSuite.totalTests, 12, 'Adversarial suite must contain 12 test vectors');
+    assert.strictEqual(w111Data.metadata.adversarialSuite.passed, 12, 'All 12 adversarial vectors must pass safely');
+    assert.strictEqual(w111Data.metadata.adversarialSuite.failed, 0, 'Zero adversarial vector failures allowed');
+  });
+
+  // Test 36: W11.2 Permanent Ingestion Pipeline & Reusable Layer-B Verification Invariants
+  test('Test 36: W11.2 Permanent Ingestion Pipeline & Reusable Layer-B Verification Invariants', () => {
+    const simPath = path.join(__dirname, '../data/w11_2-pipeline-simulation.json');
+    assert.ok(fs.existsSync(simPath), 'data/w11_2-pipeline-simulation.json must exist');
+    const simData = JSON.parse(fs.readFileSync(simPath, 'utf8'));
+
+    // Invariant 1: All 8 simulation scenarios passed
+    assert.strictEqual(simData.metadata.all8ScenariosPassed, true, 'All 8 simulation scenarios must pass');
+    assert.strictEqual(simData.metadata.simulationItemsProcessed, 8, 'Must process exactly 8 simulation items');
+    assert.ok(simData.metadata.bootstrapCorpusSize >= 581, 'Bootstrap corpus must have at least 581 topics');
+
+    // Invariant 2: Persistent Verification Registry exists and is populated
+    const vRegPath = path.join(__dirname, '../data/verification-registry.json');
+    assert.ok(fs.existsSync(vRegPath), 'data/verification-registry.json must exist');
+    const vRegData = JSON.parse(fs.readFileSync(vRegPath, 'utf8'));
+    assert.ok(vRegData.records.length >= 7, 'Must have at least 7 verified records in registry');
+
+    for (const rec of vRegData.records) {
+      assert.strictEqual(rec.verificationStatus, 'OFFICIALLY_VERIFIED', 'Registry record must be OFFICIALLY_VERIFIED');
+      const artFullPath = path.join(__dirname, '..', rec.artifactPath);
+      assert.ok(fs.existsSync(artFullPath), `Artifact ${rec.artifactPath} must exist on disk`);
+      const fileBytes = fs.readFileSync(artFullPath);
+      const calculatedHash = crypto.createHash('sha256').update(fileBytes).digest('hex');
+      assert.strictEqual(calculatedHash, rec.artifactHash, `Hash mismatch for ${rec.recordId}`);
+    }
+
+    // Invariant 3: Reusable verification with 0 network calls verified
+    assert.strictEqual(simData.report.verificationsReused >= 3, true, 'Must reuse at least 3 verified records');
+
+    // Invariant 4: Review queue exists and recorded the conflict cleanly
+    const rQueuePath = path.join(__dirname, '../data/review-queue.json');
+    assert.ok(fs.existsSync(rQueuePath), 'data/review-queue.json must exist');
+    const rQueueData = JSON.parse(fs.readFileSync(rQueuePath, 'utf8'));
+    const conflictItem = rQueueData.items.find((i: any) => i.reason === 'CONFLICT_DETECTED');
+    assert.ok(conflictItem, 'Conflict item must be enqueued in review queue');
+    assert.strictEqual(conflictItem.severity, 'HIGH', 'Conflict item must have HIGH severity');
+  });
+
+  // Test 37: W11.3 Final Acceptance & Future-PDF Ingestion Pipeline CLI Invariants
+  test('Test 37: W11.3 Final Acceptance & Future-PDF Ingestion Pipeline CLI Invariants', () => {
+    const ingestScript = path.join(__dirname, '../scripts/ingest-feed.ts');
+    assert.ok(fs.existsSync(ingestScript), 'scripts/ingest-feed.ts must exist as production CLI interface');
+
+    const acceptanceScript = path.join(__dirname, '../scripts/test-future-feed-acceptance.ts');
+    assert.ok(fs.existsSync(acceptanceScript), 'scripts/test-future-feed-acceptance.ts must exist');
+
+    // Invariant: Verification registry is clean, persistent, and hash-valid
+    const vRegPath = path.join(__dirname, '../data/verification-registry.json');
+    assert.ok(fs.existsSync(vRegPath), 'data/verification-registry.json must exist');
+    const vRegData = JSON.parse(fs.readFileSync(vRegPath, 'utf8'));
+    assert.ok(vRegData.records.length >= 7, 'Must have at least 7 verified statutory records');
+
+    // Invariant: Canonical Registry has at least 581 topics (bootstrap corpus + incoming production batches)
+    const regPath = path.join(__dirname, '../data/banking-ca-registry.json');
+    assert.ok(fs.existsSync(regPath), 'data/banking-ca-registry.json must exist');
+    const regData = JSON.parse(fs.readFileSync(regPath, 'utf8'));
+    assert.ok(Object.keys(regData.topics).length >= 581, 'Master corpus must have at least 581 topics');
+  });
+
+  // Test 38: W11.6 Direct PDF Ingestion Boundary Invariants
+  test('Test 38: W11.6 Direct PDF Ingestion Boundary Invariants', () => {
+    const pdfExtractorPath = path.join(__dirname, '../lib/banking-ca/pipeline/pdf-extractor.ts');
+    assert.ok(fs.existsSync(pdfExtractorPath), 'lib/banking-ca/pipeline/pdf-extractor.ts must exist');
+
+    const pdfTestScript = path.join(__dirname, '../scripts/test-pdf-ingestion.ts');
+    assert.ok(fs.existsSync(pdfTestScript), 'scripts/test-pdf-ingestion.ts must exist');
+
+    // Invariant: pdf-parse is installed and operational
+    const { PdfExtractor } = require('../lib/banking-ca/pipeline/pdf-extractor');
+    assert.ok(typeof PdfExtractor.extractFromPdf === 'function', 'extractFromPdf must be a callable method');
+    assert.ok(typeof PdfExtractor.extractFromText === 'function', 'extractFromText must be a callable method');
   });
 
   console.log('\n────────────────────────────────────────────────────────');

@@ -12,59 +12,9 @@
 
 ---
 
-### 1. MSMED (Amendment) Bill 2026 Passed by Parliament: Judicial, TReDS & Recovery Reforms
-* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~9 min | **Category:** Banking & Regulation / MSME Law
-* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** PASSED BY PARLIAMENT
-
-**What Happened**
-* Parliament passed the *Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026*, overhauling the MSMED Act, 2006 to resolve delayed payments, institutionalize dispute resolution, and mandate electronic invoice discounting.
-
-**Must Memorize (Statutory & Judicial Thresholds)**
-* **Udyam Registration**: Converted into a **permanent, digital, free, and voluntary** national registration platform (currently **9.16 crore+** registered MSMEs employing **40+ crore** people).
-* **Mandatory 50% Court Deposit**: Courts are statutory mandated to order payment of **at least 50% of the awarded amount** to micro/small enterprise suppliers if any application to set aside a decree, award, or order remains pending for **more than 6 months**.
-* **Strict Dispute Timelines**:
-  * **Mediation**: Must be concluded within **90 days** from first appearance.
-  * **Arbitration Reference**: Must be made within **30 days** after termination of mediation.
-  * **Arbitral Award**: Must be delivered within **90 days** from completion of pleadings.
-* **Recovery as Arrear of Land Revenue**: Any mediated settlement or arbitral award under **Section 18** can now be directly recovered as an **'arrear of land revenue'** via District Collectors / DMs in the jurisdiction where the buyer's assets are situated.
-* **Mandatory TReDS Settlement**: Central Public Sector Enterprises (CPSEs) are mandated to route invoice settlements through the **Trade Receivables Discounting System (TReDS)**. TReDS invoice discounting reached **₹3.47 lakh crore** in 2025–26.
-* **Decriminalisation & MSEFCs**: Conviction-based criminal fines are replaced with graded civil penalties; State Governments are empowered to set up **multiple Micro and Small Enterprises Facilitation Councils (MSEFCs)**.
-
-**Know / Understand**
-* Delayed payment to MSMEs was historically bogged down by section 19 challenges where buyers tied up awards in appeals. The 50% pre-deposit requirement after 6 months and recovery as land revenue arrears solve working-capital lockups.
-
-**Exam Takeaway & Traps**
-* ⚠️ **Trap:** Watch the timelines: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days. The court deposit mandate is **50%** after **6 months** (not 75% or 3 months).
-
----
-
-### 2. Cabinet Approves National Circular Bioenergy Scheme: GOBARdhan (₹23,731 Crore Outlay)
-* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Government Schemes & Bioenergy
-* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** APPROVED BY UNION CABINET
-
-**What Happened**
-* The Union Cabinet chaired by PM Narendra Modi approved the revamped *National Circular Bioenergy Scheme: GOBARdhan* (Galvanizing Organic Bio-Agro Resources Dhan) on **6 August 2026** with a total financial outlay of **₹23,731 crore** for a 10-year implementation period (**FY 2026–27 to FY 2035–36**).
-
-**Must Memorize (Core Scheme Parameters)**
-* **Nodal Ministry**: Ministry of Petroleum & Natural Gas (MoPNG).
-* **Total Outlay**: **₹23,731 crore** (Tenure: FY 2026–27 to FY 2035–36).
-* **Target Scaling**: Scale up Compressed Biogas (CBG) production by **nearly 10 times**.
-* **Mandatory CGD Offtake Trajectory**: City Gas Distribution (CGD) entities are mandated to procure CBG under the notified CBG Obligation:
-  * **3%** in FY 2026–27
-  * **4%** in FY 2027–28
-  * **5% from FY 2028–29 onwards** in CNG (Transport) and PNG (Domestic) segments.
-* **Administered CBG Price**: Fixed at **₹2,110/MMBTU** (~**₹105/kg**).
-* **Capital Assistance**: Greenfield CBG projects receive capital assistance of **up to ₹2 crore per Ton Per Day (TPD)** of installed capacity.
-* **Credit Guarantee**: **Up to 85% guarantee coverage** for eligible MSME-based CBG projects.
-* **Supporting Schemes & Outlays**:
-  * **SATAT**: Sustainable Alternative Towards Affordable Transportation (promotes CBG supply to OMCs).
-  * **BAM Scheme**: Biomass Aggregation Machinery Scheme with outlay of **₹564.75 crore**.
-  * **DPI Scheme**: Development of Pipeline Infrastructure with outlay of **₹994.5 crore** (FY25–FY29).
-  * **MDA Scheme**: Market Development Assistance for organic manure at **₹1,500/MT**.
-* **10-Year Macro Outcomes**: Fossil fuel displacement of **10 MMT**, forex savings **>₹40,000 crore**, GDP addition **>₹75,000 crore**, **>1.5 lakh jobs**, **>40 MT CO₂ reduction**, and **250 MMT organic fertilizer**.
-
-**Exam Takeaway & Traps**
-* ⚠️ **Trap:** Offtake trajectory is 3% (FY27) -> 4% (FY28) -> 5% (FY29+). Administered price is ₹2,110/MMBTU (~₹105/kg), and capital assistance is ₹2 cr/TPD.
+> **W10.5 CANONICAL MIGRATION RECORD (CLUSTERS DUP-01 & DUP-02)**:
+> 1. *MSMED (Amendment) Bill 2026*: Consolidated into master canonical note `parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds` in `08-august-2026-smartkeeda-w2.md` (All CGB statutory timelines, land revenue recovery, and 50% pre-deposit facts preserved 100%).
+> 2. *GOBARdhan Scheme Outlay (₹23,731 Cr)*: Consolidated into master canonical note `cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore` in `08-august-2026-smartkeeda-w2.md` (All CGB component outlays, SATAT, BAM, DPI, and MDA facts preserved 100%).
 
 ---
 

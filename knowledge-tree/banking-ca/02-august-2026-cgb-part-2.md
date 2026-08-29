@@ -52,15 +52,17 @@
    * **Route 2 Eligibility**: Minimum AMC net worth of **₹150 crore** to be infused by the sponsor with a **5-year lock-in**; key leadership (CEO, COO, CRO, CCO, CIO) must have **combined experience $\ge 30$ years** and individual experience $\ge 3$ years each.
    * PE/AIF sponsors require proof of at least 5 years fund management experience and committed/drawn capital $\ge ₹5,000$ crore.
 5. **SEBI Proposal: Colour-Coded "Credit Risk-o-Meter" for Debt Securities (~3 min)**:
-   * *Status: SEBI Proposal*. Standardized **6 colour-coded risk levels**: *Irish Green (Lowest risk), Chartreuse (Very low risk), Neon Yellow (Low risk), Caramel (Moderate risk), Dark Orange (Moderate risk of default), Red (High to very high risk of default)*.
-   * Mandatory display by issuers and Online Bond Platform Providers (OBPPs).
-   * CRA name and actual rating must be disclosed below the meter; if rated by multiple CRAs, the meter must be based on the **lowest rating**. Unsecured debt must be disclosed in bold red text.
+   * *Status: SEBI Proposal*. Corroborated across CGB Mentors & Smartkeeda. Standardized **6 colour-coded risk levels** mapping credit ratings from **AAA to D**: *Irish Green (Lowest risk for AAA), Chartreuse (Very low risk), Neon Yellow (Low risk), Caramel (Moderate risk), Dark Orange (Moderate risk of default), Red (High to very high risk of default for B+, B, B-, C+, C, C-, D)*. [CGB Mentors & Smartkeeda]
+   * Mandatory display across offer documents, abridged prospectuses, private placement memorandums (PPMs), advertisements, and **Online Bond Platform Providers (OBPPs)** digital platforms/apps. [Smartkeeda]
+   * CRA name and actual rating must be disclosed below the meter; where rated by multiple CRAs, the meter must strictly reflect the **lowest rating**. Unsecured debt must feature the word **'unsecured' in bold red text**, with real-time meter updates upon rating migration. [CGB Mentors & Smartkeeda]
 6. **PSBs Proposal: 2% PSL Sub-Target for Climate & Transition Finance (~3 min)**:
    * *Status: Proposal by PSBs*. Proposes carving out a 2% sub-target for climate and transition finance within the existing 40% ANBC PSL requirement. Proposes raising renewable energy limit to **₹75 crore** for wind and small hydro (overall limit ₹100 crore per borrower; solar PV continues at ₹35 crore). Proposes EV loans up to ₹20 lakh (personal), ₹25 lakh (battery swapping/charging), and ₹50 lakh (commercial fleet).
 7. **FAST-DS Scheme (Foreign Assets of Small Taxpayers Disclosure Scheme 2026) (~3 min)**:
-   * One-time voluntary disclosure facility running from **August 16 to December 31, 2026** under Chapter IV of the Finance Act, 2026.
-   * **Category A** (foreign asset/income never taxed earlier): Value up to ₹1 crore $\to$ payment of 60% effective (30% tax + 30% additional amount).
-   * **Category B** (asset already taxed or acquired while non-resident, not disclosed in ITR): Value up to ₹5 crore $\to$ payment of ₹1 lakh flat fee.
+   * Operationalised by CBDT under Chapter IV (Sections 130–144) of Finance Act, 2026. Corroborated across CGB Mentors & Smartkeeda. One-time voluntary disclosure window runs from **August 16 to December 31, 2026** (Valuation Benchmark Date: **March 31, 2026**). [CGB Mentors & Smartkeeda]
+   * **Scope (2 Core Tax Categories)**:
+     - **Category A** (foreign asset/income never taxed earlier): Value up to ₹1 crore $\to$ payment of **60% effective** (30% tax + 30% additional penalty/surcharge). [CGB Mentors & Smartkeeda]
+     - **Category B** (asset already taxed or acquired while non-resident, omitted in FA Schedule): Value up to ₹5 crore $\to$ payment of **₹1 lakh flat fee**. [CGB Mentors & Smartkeeda]
+   * **Procedural Mechanics**: Electronic filing in **Form 1**; determination order by Principal DG/DG Income Tax (Systems) in **Form 2**; declarant receives **2 months** to pay without interest, securing statutory immunity from prosecution under Black Money Act 2015. [Smartkeeda]
 8. **SEBI Municipal Debt Securities: Face Value & Reporting Timelines (~2 min)**:
    * Face value for private placement: either **₹1 lakh or ₹10,000** (₹10,000 securities have fixed maturity without structured obligations).
    * Reporting timelines: Half-yearly unaudited results extended from 45 to **60 days**; Annual audited results extended from 60 to **90 days**. Two-step escrow mechanism introduced for Pooled Finance Development Fund SPVs (maintaining 1-year interest obligation).
@@ -71,8 +73,8 @@
 11. **LIC Gets RBI Approval to Raise Stake in HDFC Bank up to 9.99% (~2 min)**:
     * RBI approved LIC raising its stake in HDFC Bank up to **9.99%** (LIC held 4.11% as of 14 August 2026).
 12. **Apex Appointments (~4 min)**:
-    * **Anurag Jain**: Appointed CEO, NITI Aayog.
-    * **Shabnam Sinha**: Appointed Non-Executive Chairperson, Airtel Payments Bank.
+    * **Anurag Jain**: Appointed CEO, NITI Aayog (succeeding B.V.R. Subrahmanyam).
+    * **Shabnam Sinha**: Appointed Non-Executive Chairperson, Airtel Payments Bank (following RBI approval under Section 10B of BR Act 1949).
 
 ---
 
@@ -96,7 +98,7 @@
 * **WIPO GenAI Patent Report**: India ranks **5th globally** in generative AI patent filings (64% CAGR 2024–25; China #1).
 * **DoT SIM Card Rule**: Operators directed to deny new SIM cards to subscribers who already have 9 SIM cards registered.
 * **Jal Jeevan Mission (JJM)**: Completed 7 years; rural tap-water coverage reached over **15.91 crore households**.
-* **Fitch Sovereign Rating**: Affirmed India’s sovereign rating at **'BBB-' with Stable outlook**.
+* **Fitch Sovereign Rating**: Affirmed India’s Long-Term Foreign-Currency Issuer Default Rating (IDR) at **'BBB-' with Stable outlook**, driven by strong medium-term growth potential and solid external finances balancing high general government debt.
 
 ---
 

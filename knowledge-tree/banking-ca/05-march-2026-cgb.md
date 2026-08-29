@@ -435,7 +435,7 @@
 * **NITI Aayog Second Fiscal Health Index (FHI) 2026**: Odisha ranked 1st among Major States (Score 73.1), followed by Goa (54.7), Jharkhand (50.5), Gujarat (49.9), and Maharashtra (45.0).
 * **Forbes World’s Billionaires 2026**: India ranked 3rd with 229 billionaires ($1T+ wealth); Mukesh Ambani richest Indian ($839B global leader: Elon Musk); Savitri Jindal richest Indian woman.
 * **Hurun Global Rich List 2026**: India reached 308 billionaires (+24 YoY); Mumbai dominates with 95 billionaires.
-* **Global Terrorism Index 2026 (IEP)**: India ranked 13th globally (Score 6.428; Pakistan ranked 1st).
+* **Global Terrorism Index 2026 (IEP)**: The Institute for Economics & Peace (IEP, Sydney) published the 13th Global Terrorism Index 2026; **India ranked 13th globally** (Score: 6.428), while Burkina Faso and Pakistan were among the most severely impacted nations.
 * **SKYTRAX World Airport Awards 2026**: Singapore Changi named World's Best Airport (13th time); Delhi IGI ranked 28th globally (best in South Asia).
 * **QS World University Rankings by Subject 2026**: IIT-ISM Dhanbad (Mining) and IIM Ahmedabad (Business/Management) ranked 21st globally; India ranked 4th with 99 ranked institutions.
 * **SIPRI International Arms Transfers Report 2026**: India was world's 2nd largest arms importer (2021–25, Russia main source; Ukraine 1st).
@@ -459,7 +459,7 @@
 * **New Seed Act 2026 & Revised Pesticide Act 2026 Announced**: Agriculture Ministry announced legislative modernization with mandatory QR codes and ₹30 lakh fine, replacing Insecticides Act 1968.
 * **National Highways Green Cover Index (NH-GCI) First Report**: Released by NHAI and NRSC covering 30,000 km across 24 states using satellite geospatial monitoring.
 * **First Riverine Lighthouses on Brahmaputra (NW-2)**: Ministry of Ports developing 4 solar-powered riverine lighthouses at Pandu, Bogibeel, Silghat, and Biswanath Ghat (₹84 cr).
-* **India's First 24x7 LPG ATM in Gurugram**: Launched by BPCL under 'BharatGas Insta LPG' pilot project.
+* **India's First 24x7 LPG ATM in Gurugram**: India's first **24x7 automated LPG cylinder dispensing ATM** was commissioned in Gurugram, Haryana by BPCL under 'BharatGas Insta LPG', enabling digital QR-code-based self-service dispensing of domestic LPG composite cylinders.
 * **APSEZ Operationalizes Ports of Refuge at Dighi and Gopalpur**: First designated maritime emergency refuge ports along India's 11,000 km coastline under IMO guidelines.
 * **Nagoya Protocol on ABS: India Global Leader with 56% of IRCCs**: India issued 3,561 of 6,311 Internationally Recognized Certificates of Compliance globally.
 * **Indian Navy Concludes Anti-Hormuz Blockade 'Operation Urja Suraksha'**: Escorts and protects India-bound crude, LNG, and LPG shipments through the Strait of Hormuz.

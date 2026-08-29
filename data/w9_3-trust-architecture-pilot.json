@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "architecture": "W9.3 Two-Layer Trust Architecture",
+    "timestamp": "2026-08-28T14:36:47.810Z",
+    "trustStateDefinitions": {
+      "OFFICIALLY_VERIFIED": "Authoritative statutory document retrieved over network, hash recorded, document identity confirmed, claim MATCH",
+      "CROSS_SOURCE_CONFIRMED": "2+ independent coaching feeds (e.g. CGB Mentors + Smartkeeda) agree on event and core figures",
+      "COACHING_SOURCE_GROUNDED": "Single coaching source reported event",
+      "EXTERNAL_VERIFICATION_PENDING": "Grounded in source, but live official document retrieval is pending or unavailable",
+      "CONFLICT_DETECTED": "Authoritative release or cross-source contradicts canonical note"
+    }
+  },
+  "pilotTopics": [
+    {
+      "id": 1,
+      "name": "Pilot Verified Topic (Proof of Golden Path)",
+      "slug": "statutory-anchor-verified-example",
+      "title": "Statutory Reference: DICGC Act Deposit Coverage Enhancement",
+      "layerA_SourceGrounding": {
+        "sources": [
+          "CGB Mentors"
+        ]
+      },
+      "layerB_OfficialVerification": null,
+      "trustState": "EXTERNAL_VERIFICATION_PENDING",
+      "quietSourceBadge": "Source: CGB Mentors",
+      "quietVerificationBadge": "Official verification pending"
+    },
+    {
+      "id": 2,
+      "name": "CGB-Only Topic",
+      "slug": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+      "title": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
+      "layerA_SourceGrounding": {
+        "sources": [
+          "CGB Mentors August 2026 Part 1"
+        ]
+      },
+      "layerB_OfficialVerification": null,
+      "trustState": "COACHING_SOURCE_GROUNDED",
+      "quietSourceBadge": "Source: CGB Mentors",
+      "quietVerificationBadge": "Official verification pending"
+    },
+    {
+      "id": 3,
+      "name": "Smartkeeda-Only Topic",
+      "slug": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+      "title": "RBI Loan Recovery Directions & Financed Smartphone Lockout Norms",
+      "layerA_SourceGrounding": {
+        "sources": [
+          "Smartkeeda Weekly Part 2 August 2026"
+        ]
+      },
+      "layerB_OfficialVerification": null,
+      "trustState": "COACHING_SOURCE_GROUNDED",
+      "quietSourceBadge": "Source: Smartkeeda",
+      "quietVerificationBadge": "Official verification pending"
+    },
+    {
+      "id": 4,
+      "name": "Cross-Source Topic (Present in Both CGB + Smartkeeda)",
+      "slug": "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
+      "title": "Cabinet Approves GOBARdhan Scheme with Outlay of ₹23,731 Crore",
+      "layerA_SourceGrounding": {
+        "sources": [
+          "CGB Mentors PIB Batch August 2026",
+          "Smartkeeda Weekly Part 2 August 2026"
+        ]
+      },
+      "layerB_OfficialVerification": null,
+      "trustState": "CROSS_SOURCE_CONFIRMED",
+      "quietSourceBadge": "Sources: CGB Mentors · Smartkeeda",
+      "quietVerificationBadge": "Cross-source confirmed · Official verification pending"
+    },
+    {
+      "id": 5,
+      "name": "Topic where External Verification is Unavailable",
+      "slug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "title": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+      "layerA_SourceGrounding": {
+        "sources": [
+          "CGB Mentors August 2026 Part 1"
+        ]
+      },
+      "layerB_OfficialVerification": null,
+      "trustState": "EXTERNAL_VERIFICATION_PENDING",
+      "quietSourceBadge": "Source: CGB Mentors",
+      "quietVerificationBadge": "Official verification pending"
+    }
+  ]
+}

@@ -78,18 +78,8 @@
 
 ---
 
-### 5. SEBI Proposes Colour-Coded "Credit Risk-o-Meter" for Debt Securities
-* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Capital Markets & SEBI
-* **Source:** Smartkeeda (Aug 2026) | **Origin:** SEBI Consultation Paper
-
-**What Happened**
-* SEBI issued a consultation paper proposing a mandatory visual, colour-coded **Credit Risk-o-Meter** for corporate bonds and debt securities to assist retail investors in assessing credit default risk.
-
-**Must Memorize (Risk Scale & Regulatory Rules)**
-* **Visual Scale**: Maps credit ratings from **AAA to D** across **6 standardized colour-coded risk tiers** (ranging from *Lowest Credit Risk* for AAA to *High to Very High Risk of Default* for B+, B, B-, C+, C, C-, and D).
-* **Mandatory Platforms**: Must be displayed in offer documents, abridged prospectuses, private placement memorandums, advertisements, and on **Online Bond Platform Providers (OBPPs)** websites and apps.
-* **Conservative Rule**: Where a debt instrument is rated by multiple Credit Rating Agencies (CRAs), the Credit Risk-o-Meter must reflect the **lowest rating**.
-* **Unsecured Debt Highlight**: Unsecured bonds must display the word **'unsecured' in bold red text**. OBPPs must update the meter in real-time upon any rating migration.
+> **W10.5 CANONICAL MIGRATION RECORD (CLUSTER DUP-03)**:
+> Consolidated into master canonical note `sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min` in `02-august-2026-cgb-part-2.md` (All Smartkeeda AAA to D rating tiers and OBPP display rules preserved 100%).
 
 ---
 
@@ -108,22 +98,8 @@
 
 ---
 
-### 7. CBDT Operationalises Foreign Assets of Small Taxpayers-Disclosure Scheme (FAST-DS), 2026
-* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Direct Taxes & Compliance
-* **Source:** Smartkeeda (Aug 2026) | **Origin:** Central Board of Direct Taxes (CBDT)
-
-**What Happened**
-* CBDT operationalised the *Foreign Assets of Small Taxpayers-Disclosure Scheme (FAST-DS), 2026*, notified under Chapter IV (Sections 130–144) of the *Finance Act, 2026*.
-
-**Must Memorize (Scheme Timeline & Scope)**
-* **One-Time Window**: Open from **August 16, 2026 to December 31, 2026**.
-* **Valuation Benchmark Date**: **March 31, 2026**.
-* **Covered Assets (4 Categories)**:
-  1. Undisclosed foreign assets/financial interests abroad.
-  2. Undisclosed foreign income chargeable to Indian tax.
-  3. Assets acquired while non-resident but omitted upon returning to resident status.
-  4. Assets acquired from taxed income but omitted from the Foreign Assets (FA) Schedule in ITR.
-* **Filing & Payment**: Electronic filing in **Form 1**; Principal DG/DG Income Tax (Systems) issues determination order in **Form 2**; declarant gets **2 months** to pay determined amount without interest, gaining immunity from prosecution.
+> **W10.5 CANONICAL MIGRATION RECORD (CLUSTER DUP-04)**:
+> Consolidated into master canonical note `fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min` in `02-august-2026-cgb-part-2.md` (All Smartkeeda Form 1/2 filings, March 31 valuation benchmark, and covered asset categories preserved 100%).
 
 ---
 

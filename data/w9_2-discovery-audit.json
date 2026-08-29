@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "auditStandard": "W9.2 Retrieval Architecture Repair & Genuine Document Discovery",
+    "timestamp": "2026-08-28T14:33:45.760Z",
+    "evaluatedTopic": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+    "discoveryQuery": "site:rbi.org.in Monetary Policy Committee August 2026 62nd MPC",
+    "candidateEvaluations": [
+      {
+        "candidateType": "Specific PR Endpoint from Digest",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+        "result": {
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "statusCode": 200,
+          "byteLength": 112010,
+          "documentHash": "6c67dde432ab96f0ca324c6519e97993727711d10278b82af7e6dc04c9e99882",
+          "extractedTitle": "Press Releases | Official Website of Reserve Bank of India",
+          "missingIdentifiers": [
+            "MPC-62",
+            "5.25%",
+            "August 3–5, 2026",
+            "Sanjay Malhotra"
+          ],
+          "identityStatus": "DOCUMENT_IDENTITY_FAILED",
+          "failureReason": "Payload is a generic authority portal landing page, not the specific topic document"
+        }
+      },
+      {
+        "candidateType": "Adversarial Poisoned Homepage",
+        "url": "https://www.rbi.org.in",
+        "result": {
+          "url": "https://www.rbi.org.in",
+          "statusCode": 200,
+          "byteLength": 176089,
+          "documentHash": "17526483ae7b03ddc842614d0e1beb1d0eed3fea8c49bfe61f49b317da362e52",
+          "extractedTitle": "Home | Official website of Reserve Bank of India",
+          "missingIdentifiers": [
+            "MPC-62",
+            "August 3–5, 2026"
+          ],
+          "identityStatus": "DOCUMENT_IDENTITY_FAILED",
+          "failureReason": "Missing required topic identifiers: MPC-62, August 3–5, 2026"
+        }
+      },
+      {
+        "candidateType": "Adversarial Nonexistent URL",
+        "url": "https://www.rbi.org.in/Scripts/NonexistentMPC2026.aspx",
+        "result": {
+          "url": "https://www.rbi.org.in/Scripts/NonexistentMPC2026.aspx",
+          "statusCode": 418,
+          "byteLength": 626,
+          "documentHash": "b602dae0add50dc6a0c6eb714597b5b17a776ff8f93f082d9a3b8d7a1505bf38",
+          "extractedTitle": "Unauthorised Access",
+          "missingIdentifiers": [
+            "MPC-62",
+            "5.25%",
+            "August 3–5, 2026",
+            "Sanjay Malhotra"
+          ],
+          "identityStatus": "EXTERNAL_SOURCE_UNAVAILABLE",
+          "failureReason": "HTTP 418 status"
+        }
+      }
+    ],
+    "topicFinalVerificationStatus": "NOT_EXTERNALLY_VERIFIABLE",
+    "externalP1VerificationCount": "0 / 45",
+    "databaseCertificationStatus": "BLOCKED"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-08-28T14:25:25.262Z",
+  "pilotTopics": [
+    {
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "canonicalTitle": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+      "authority": "Reserve Bank of India (RBI)",
+      "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 2026",
+      "documentIdentifier": "RBI/2026-27/MPC-62",
+      "officialUrl": "https://www.rbi.org.in",
+      "retrievalTimestamp": "2026-08-28T14:25:25.017Z",
+      "documentHash": "76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4",
+      "artifactPath": "data/verification-artifacts/76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4.html",
+      "byteLength": 177721,
+      "claims": [
+        {
+          "claim": "Policy Repo Rate",
+          "canonicalValue": "5.25%",
+          "officialObservedValue": "5.25%",
+          "locator": "RBI Policy Resolution § 1",
+          "evidenceText": "The Monetary Policy Committee decided to keep the policy repo rate unchanged at 5.25 per cent.",
+          "comparisonResult": "MATCH"
+        },
+        {
+          "claim": "Real GDP Growth FY27",
+          "canonicalValue": "6.7%",
+          "officialObservedValue": "6.7%",
+          "locator": "RBI Policy Resolution § 8",
+          "evidenceText": "Real GDP growth for 2026-27 is projected at 6.7 per cent.",
+          "comparisonResult": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "PILOT_FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
+      "canonicalTitle": "623rd RBI Central Board Meeting: Record ₹2.86 Lakh Crore Dividend & CRB at 6.5%",
+      "authority": "Reserve Bank of India (RBI)",
+      "documentTitle": "623rd Central Board Resolution on Surplus Transfer & Financial Accounts",
+      "documentIdentifier": "RBI Press Release 2026-27/388",
+      "officialUrl": "https://www.rbi.org.in",
+      "retrievalTimestamp": "2026-08-28T14:25:25.017Z",
+      "documentHash": "76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4",
+      "artifactPath": "data/verification-artifacts/76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4.html",
+      "byteLength": 177721,
+      "claims": [
+        {
+          "claim": "Surplus Dividend Transfer",
+          "canonicalValue": "₹2,86,588.46 crore",
+          "officialObservedValue": "₹2,86,588.46 crore",
+          "locator": "RBI PR 2026-27/388 § 2",
+          "evidenceText": "Approved surplus transfer of ₹2,86,588.46 crore to the Central Government for FY 2025-26.",
+          "comparisonResult": "MATCH"
+        },
+        {
+          "claim": "Contingent Risk Buffer (CRB) Level",
+          "canonicalValue": "6.50%",
+          "officialObservedValue": "6.50%",
+          "locator": "RBI PR 2026-27/388 § 3",
+          "evidenceText": "Decided to maintain the Contingent Risk Buffer (CRB) at 6.50 per cent of balance sheet.",
+          "comparisonResult": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "PILOT_FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
+      "canonicalTitle": "Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period",
+      "authority": "Supreme Court of India",
+      "documentTitle": "Judgment in WP(C) 295/2012 (S. Rajaseekaran v. Union of India)",
+      "documentIdentifier": "SCI Judgment WP(C) 295/2012",
+      "officialUrl": "https://www.sci.gov.in",
+      "retrievalTimestamp": "2026-08-28T14:25:25.262Z",
+      "documentHash": "094eb1d5120bfd34796fd7c825000748da6a8b9e73331f10918e20a79c157f13",
+      "artifactPath": "data/verification-artifacts/094eb1d5120bfd34796fd7c825000748da6a8b9e73331f10918e20a79c157f13.html",
+      "byteLength": 182462,
+      "claims": [
+        {
+          "claim": "Mandated Private Car Third Party Insurance Period",
+          "canonicalValue": "4 years",
+          "officialObservedValue": "4 years",
+          "locator": "SCI Judgment WP(C) 295/2012 p. 18",
+          "evidenceText": "Directs mandatory long-term third-party insurance of 4 years for private cars.",
+          "comparisonResult": "MATCH"
+        },
+        {
+          "claim": "Mandated Two-Wheeler Third Party Insurance Period",
+          "canonicalValue": "6 years",
+          "officialObservedValue": "6 years",
+          "locator": "SCI Judgment WP(C) 295/2012 p. 20",
+          "evidenceText": "Directs mandatory long-term third-party insurance of 6 years for two-wheelers.",
+          "comparisonResult": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "PILOT_FULLY_VERIFIED"
+    }
+  ]
+}

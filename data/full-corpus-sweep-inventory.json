@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "sweepVersion": "W9.3.2-FULL-CORPUS-SWEEP",
+    "generatedAt": "2026-08-28T15:26:54.754Z",
+    "totalTopicsScanned": 585,
+    "topicsClaimingOfficialVerification": 0,
+    "syntheticVerificationObjectsIdentified": 4,
+    "genuinelyArtifactBackedVerifications": 0,
+    "totalDowngradedToLayerA": 0,
+    "finalCorpusTrustSummary": {
+      "OFFICIALLY_VERIFIED": 0,
+      "CROSS_SOURCE_CONFIRMED": 0,
+      "COACHING_SOURCE_GROUNDED": 585,
+      "EXTERNAL_VERIFICATION_PENDING": 45
+    },
+    "databaseCertificationStatus": "BLOCKED"
+  },
+  "storedArtifactsInventory": [
+    {
+      "artifactFile": "094eb1d5120bfd34796fd7c825000748da6a8b9e73331f10918e20a79c157f13.html",
+      "byteLength": 182462,
+      "actualHash": "094eb1d5120bfd34796fd7c825000748da6a8b9e73331f10918e20a79c157f13",
+      "expectedHash": "094eb1d5120bfd34796fd7c825000748da6a8b9e73331f10918e20a79c157f13",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": false,
+      "classification": "SPECIFIC_DOCUMENT_PAYLOAD"
+    },
+    {
+      "artifactFile": "16c878a6972d323c7399c4ac1bb41812b0ddcc9df0eea1d500b747a3af79f578.html",
+      "byteLength": 111860,
+      "actualHash": "16c878a6972d323c7399c4ac1bb41812b0ddcc9df0eea1d500b747a3af79f578",
+      "expectedHash": "16c878a6972d323c7399c4ac1bb41812b0ddcc9df0eea1d500b747a3af79f578",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": true,
+      "classification": "GENERIC_PORTAL_OR_ERROR_TEMPLATE"
+    },
+    {
+      "artifactFile": "2f74faaa76244f12b1cf9b3f560d2d8c013a95f32dbd773171fa54eeaef2ef72.html",
+      "byteLength": 6085,
+      "actualHash": "2f74faaa76244f12b1cf9b3f560d2d8c013a95f32dbd773171fa54eeaef2ef72",
+      "expectedHash": "2f74faaa76244f12b1cf9b3f560d2d8c013a95f32dbd773171fa54eeaef2ef72",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": false,
+      "classification": "SPECIFIC_DOCUMENT_PAYLOAD"
+    },
+    {
+      "artifactFile": "76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4.html",
+      "byteLength": 177721,
+      "actualHash": "76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4",
+      "expectedHash": "76bc1724ee484a56432b86141c6a5421cbe015eedce71528221fb52d044082d4",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": true,
+      "classification": "GENERIC_PORTAL_OR_ERROR_TEMPLATE"
+    },
+    {
+      "artifactFile": "a5231e5d0f5ef1db0135c2846502da6d57e55acbe3da07826b8c02dc36a68822.html",
+      "byteLength": 112010,
+      "actualHash": "a5231e5d0f5ef1db0135c2846502da6d57e55acbe3da07826b8c02dc36a68822",
+      "expectedHash": "a5231e5d0f5ef1db0135c2846502da6d57e55acbe3da07826b8c02dc36a68822",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": true,
+      "classification": "GENERIC_PORTAL_OR_ERROR_TEMPLATE"
+    },
+    {
+      "artifactFile": "eaa8a922157a368652eedb9a48f38a4848d44993af3ad3cb1f8b51008a369f8f.html",
+      "byteLength": 113478,
+      "actualHash": "eaa8a922157a368652eedb9a48f38a4848d44993af3ad3cb1f8b51008a369f8f",
+      "expectedHash": "eaa8a922157a368652eedb9a48f38a4848d44993af3ad3cb1f8b51008a369f8f",
+      "hashMatches": true,
+      "isEmptyString": false,
+      "isGenericOrError": true,
+      "classification": "GENERIC_PORTAL_OR_ERROR_TEMPLATE"
+    }
+  ],
+  "topicsRequiringDowngradeSummary": {
+    "count": 0,
+    "rule": "All unretrieved / synthetic verification claims strictly downgraded to COACHING_SOURCE_GROUNDED or CROSS_SOURCE_CONFIRMED. Zero Layer-A study notes lost."
+  }
+}

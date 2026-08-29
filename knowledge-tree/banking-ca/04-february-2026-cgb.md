@@ -410,7 +410,7 @@
 * **Transcorp International Receives RBI In-Principle Approval for CPS**: Authorized to operate in Centralized Payment Systems (RTGS and NEFT).
 * **NPCI Ties Up with Malaysia's PayNet for UPI-DuitNow Cross-Border QR Payments**: NIPL and PayNet enabled reciprocal UPI and DuitNow QR acceptance for cross-border travelers.
 * **NPCI Launches FiMI (Finance Model for India) Domain-Specific Language Model**: In-house small language model powering UPI Help Assistant supporting English, Hindi, Telugu, and Bengali.
-* **MIGA Issues $197.67 Million Guarantee for Citibank Loan to SBI GRPV**: Backs refinancing of Grid-connected Rooftop Solar Photovoltaic systems program.
+* **MIGA Issues $197.67 Million Guarantee for Citibank Loan to SBI GRPV**: The World Bank Group's Multilateral Investment Guarantee Agency (MIGA) issued a **$197.67 million guarantee** covering a Citibank commercial loan to State Bank of India for financing Grid-Connected Rooftop Solar PV (GRPV) installations across commercial and industrial enterprises.
 * **IIFL Home Finance Signs $300 Million ADB-Led Syndicated Loan**: First syndicated ECB for onlending to lower-income borrowers ($150M from ADB, $150M from MUFG/Emirates Bank/Sri Lankan banks).
 * **NSE IX Soft-Launches Global Access Platform under RBI LRS**: Enables Indian resident investors to trade US equities and ETFs within the $250,000 annual LRS limit.
 * **Uday Kotak Appointed Chairman of GIFT City**: Veteran banker Uday Kotak succeeds former Finance Secretary Hasmukh Adhia as Chairman of Gujarat International Finance Tec-City.
@@ -433,7 +433,7 @@
 * **Defence Ministry Grants Miniratna Category-I Status to Yantra India Limited**: Empowers YIL Board to incur capex up to ₹500 crore without government approval.
 * **Indian Navy Assumes Command of Combined Task Force (CTF) 154**: Cmde Milind M. Mokashi took over command of the 47-nation multinational training task force in Bahrain.
 * **DRDO Test-Fires Agni-III Ballistic Missile from Chandipur**: Successfully tested intermediate-range ballistic missile with 3,000–3,500 km range and 1,500 kg payload.
-* **DRDO Demonstrates Solid Fuel Ducted Ramjet (SFDR) Technology**: Successful demonstration at ITR Chandipur for long-range air-to-air missiles.
+* **DRDO Demonstrates Solid Fuel Ducted Ramjet (SFDR) Technology**: DRDO successfully flight-tested the indigenous **Solid Fuel Ducted Ramjet (SFDR)** booster propulsion technology from ITR Chandipur, Odisha, enabling Beyond-Visual-Range Air-to-Air Missiles (BVR-AAM) to operate at supersonic speeds.
 * **DRDO Flight-Tests VSHORADS at ITR Chandipur**: Three successful trials of indigenous Man-Portable Air Defence System developed by RCI.
 * **Micron Technology's ₹22,500 Crore Semiconductor ATMP Inaugurated in Sanand**: Commercial production of first made-in-India DRAM and NAND memory modules commenced.
 * **President Droupadi Murmu Sortie in Indigenous LCH Prachand**: First President to fly in HAL's Light Combat Helicopter (ceiling >5,000m, speed 268 km/h).
@@ -442,9 +442,9 @@
 * **India Wins 6th U19 Cricket World Cup Title**: Defeated England in Harare (Vaibhav Suryavanshi scored 175 off 80 balls).
 * **Alwar (Rajasthan) Becomes 1st 100% Insured District**: Achieved 100% coverage under IRDAI's *Insurance for All by 2047* mission.
 * **Tripura Gramin Bank Launches 1st RRB RuPay Credit Card**: First RRB in India to launch co-branded credit card with sponsor bank PNB.
-* **Kerala Approves India's First Graphene Policy & Grefine Park**: Positioned to become global advanced materials hub.
+* **Kerala Approves India's First Graphene Policy & Grefine Park**: The Government of Kerala approved India's first dedicated **State Graphene Policy** and established the **Grefine Park** in Kochi to foster advanced 2D carbon nanomaterial manufacturing and commercial R&D.
 * **NaBFID Raises ₹5,000 Crore Debut 1-Year CD at 6.95%**: First certificate of deposit issuance by National Bank for Financing Infrastructure and Development.
-* **NABARD Raises ₹6,779 Crore via 3-Year Bond at 7.01% Yield**: AAA-rated short-tenor bond issuance.
+* **NABARD Raises ₹6,779 Crore via 3-Year Bond at 7.01% Yield**: National Bank for Agriculture and Rural Development (NABARD) raised **₹6,779 crore** through 3-year AAA-rated non-convertible taxable bonds at a **7.01% coupon yield** to refinance priority rural infrastructure.
 * **Bharat Taxi Cooperative Ride-Hailing Platform Launched**: Amit Shah launched India's 1st cooperative ride-hailing platform under MSCS Act 2002 ('Sarathi Hi Malik' model).
 
 ---

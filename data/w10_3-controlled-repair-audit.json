@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "standard": "W10.3 Controlled Source-Backed Content Repair Audit",
+    "generatedAt": "2026-08-28T16:18:36.758Z",
+    "totalRepairsPlanned": 34,
+    "totalRepairsApplied": 34,
+    "repairedTopicsCount": 34,
+    "defectDistribution": {
+      "P1_MODIFIED": 0,
+      "P2_REPAIRED": 10,
+      "P3_REPAIRED": 24
+    },
+    "invariantsPreserved": {
+      "zeroSoundTopicsModified": true,
+      "zeroP1TopicsModified": true,
+      "zeroTitlesModified": true,
+      "zeroPrioritiesModified": true,
+      "zeroDuplicateEntitiesModified": true
+    },
+    "certificationStatus": "NOT_YET_CERTIFIED_REPAIRS_APPLIED"
+  },
+  "repairsAudit": [
+    {
+      "topicSlug": "apex-appointments-4-min",
+      "title": "Apex Appointments (~4 min)",
+      "priority": "P3_MODERATE",
+      "sourceFile": "02-august-2026-cgb-part-2.md",
+      "addedInformation": "Added predecessor details for NITI Aayog CEO and BR Act Section 10B statutory governance anchor for Airtel Payments Bank chair.",
+      "reasonForEdit": "Enriched apex appointments overview with institutional specifics from source."
+    },
+    {
+      "topicSlug": "fitch-sovereign-rating",
+      "title": "Fitch Sovereign Rating",
+      "priority": "P3_MODERATE",
+      "sourceFile": "02-august-2026-cgb-part-2.md",
+      "addedInformation": "Added Long-Term Foreign-Currency IDR terminology and macroeconomic rationale (growth vs government debt) from CGB Part 2 digest.",
+      "reasonForEdit": "Completed rating note with standard exam descriptors."
+    },
+    {
+      "topicSlug": "miga-issues-19767-million-guarantee-for-citibank-loan-to-sbi-grpv",
+      "title": "MIGA Issues $197.67 Million Guarantee for Citibank Loan to SBI GRPV",
+      "priority": "P3_MODERATE",
+      "sourceFile": "04-february-2026-cgb.md",
+      "addedInformation": "Added World Bank Group affiliation for MIGA, Citibank lender role, and Grid-Connected Rooftop Solar PV scope.",
+      "reasonForEdit": "Restored full institutional context from source."
+    },
+    {
+      "topicSlug": "drdo-demonstrates-solid-fuel-ducted-ramjet-sfdr-technology",
+      "title": "DRDO Demonstrates Solid Fuel Ducted Ramjet (SFDR) Technology",
+      "priority": "P3_MODERATE",
+      "sourceFile": "04-february-2026-cgb.md",
+      "addedInformation": "Added Beyond-Visual-Range Air-to-Air Missiles (BVR-AAM) application and Odisha test range details.",
+      "reasonForEdit": "Completed technical defence note."
+    },
+    {
+      "topicSlug": "kerala-approves-indias-first-graphene-policy-grefine-park",
+      "title": "Kerala Approves India's First Graphene Policy & Grefine Park",
+      "priority": "P3_MODERATE",
+      "sourceFile": "04-february-2026-cgb.md",
+      "addedInformation": "Added Kochi industrial park location and 2D carbon nanomaterials manufacturing focus.",
+      "reasonForEdit": "Completed state policy note."
+    },
+    {
+      "topicSlug": "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
+      "title": "NABARD Raises ₹6,779 Crore via 3-Year Bond at 7.01% Yield",
+      "priority": "P3_MODERATE",
+      "sourceFile": "04-february-2026-cgb.md",
+      "addedInformation": "Added non-convertible taxable bond structure and priority rural infrastructure refinancing purpose.",
+      "reasonForEdit": "Enriched financial market issuance note."
+    },
+    {
+      "topicSlug": "global-terrorism-index-2026-iep",
+      "title": "Global Terrorism Index 2026 (IEP)",
+      "priority": "P3_MODERATE",
+      "sourceFile": "05-march-2026-cgb.md",
+      "addedInformation": "Added Sydney headquarters, 13th edition, and global comparative context from IEP digest.",
+      "reasonForEdit": "Enriched international index note."
+    },
+    {
+      "topicSlug": "indias-first-24x7-lpg-atm-in-gurugram",
+      "title": "India's First 24x7 LPG ATM in Gurugram",
+      "priority": "P3_MODERATE",
+      "sourceFile": "05-march-2026-cgb.md",
+      "addedInformation": "Added QR-code self-service dispensing mechanism, BPCL operator, and Haryana state location.",
+      "reasonForEdit": "Completed technical initiative summary."
+    },
+    {
+      "topicSlug": "pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
+      "title": "Pay Point India Becomes 1st Private Fintech to Join RBI Centralised Payment Systems (CPS)",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added non-bank fintech classification and direct settlement without intermediary sponsor bank.",
+      "reasonForEdit": "Enriched fintech regulation note."
+    },
+    {
+      "topicSlug": "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
+      "title": "MobiKwik Secures RBI In-Principle Approval for NBFC License",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added NBFC-ND category and digital micro-loans / merchant working capital underwriting focus.",
+      "reasonForEdit": "Enriched NBFC licensing note."
+    },
+    {
+      "topicSlug": "world-press-freedom-index-2026-rsf",
+      "title": "World Press Freedom Index 2026 (RSF)",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added Paris HQ, 24th edition, and 180 countries coverage denominator.",
+      "reasonForEdit": "Completed standard global index metrics."
+    },
+    {
+      "topicSlug": "goldman-environmental-prize-2026-green-nobel",
+      "title": "Goldman Environmental Prize 2026 ('Green Nobel')",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added 6 continental regions and community-led biodiversity conservation scope.",
+      "reasonForEdit": "Completed international award brief."
+    },
+    {
+      "topicSlug": "skyroot-aerospace-flags-off-vikram-1-rocket-for-first-private-orbital-launch",
+      "title": "Skyroot Aerospace Flags Off Vikram-1 Rocket for First Private Orbital Launch",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added Hyderabad startup headquarters and multi-stage rocket classification.",
+      "reasonForEdit": "Completed private spacetech note."
+    },
+    {
+      "topicSlug": "uae-announces-exit-from-opec-and-opec-effective-may-1-2026",
+      "title": "UAE Announces Exit from OPEC and OPEC+ Effective May 1, 2026",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added 5 million barrels/day target capacity and quota independence context.",
+      "reasonForEdit": "Completed global energy policy note."
+    },
+    {
+      "topicSlug": "e20-petrol-20-ethanol-made-mandatory-nationwide-from-april-1-2026",
+      "title": "E20 Petrol (20% Ethanol) Made Mandatory Nationwide from April 1, 2026",
+      "priority": "P3_MODERATE",
+      "sourceFile": "06-april-2026-cgb.md",
+      "addedInformation": "Added retail dispensing stations coverage and National Biofuels Policy anchor.",
+      "reasonForEdit": "Enriched national policy note."
+    },
+    {
+      "topicSlug": "axis-bank-raises-500-million-offshore-loan-from-mufg",
+      "title": "Axis Bank Raises $500 Million Offshore Loan from MUFG",
+      "priority": "P3_MODERATE",
+      "sourceFile": "07-may-2026-cgb.md",
+      "addedInformation": "Added syndicated term loan structure, Japan MUFG lead role, and overseas trade asset purpose.",
+      "reasonForEdit": "Completed cross-border borrowing note."
+    },
+    {
+      "topicSlug": "indian-navy-inductions-stealth-frigate-mahendragiri-p17a-ngopv-sanghmitra",
+      "title": "Indian Navy Inductions: Stealth Frigate Mahendragiri (P17A) & NGOPV Sanghmitra",
+      "priority": "P3_MODERATE",
+      "sourceFile": "07-may-2026-cgb.md",
+      "addedInformation": "Added Mazagon Dock / GRSE Kolkata shipyards and 7th/final Project 17A series status.",
+      "reasonForEdit": "Enriched defence naval induction note."
+    },
+    {
+      "topicSlug": "drdo-flight-tests-1500-km-long-range-hypersonic-anti-ship-missile-lr-ashm",
+      "title": "DRDO Flight-Tests 1,500 km Long-Range Hypersonic Anti-Ship Missile (LR-AShM)",
+      "priority": "P3_MODERATE",
+      "sourceFile": "07-may-2026-cgb.md",
+      "addedInformation": "Added high-mach terminal maneuvers and missile designation from CGB May digest.",
+      "reasonForEdit": "Completed hypersonic missile test note."
+    },
+    {
+      "topicSlug": "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
+      "title": "PM Surya Ghar: Muft Bijli Yojana Solarises 40 Lakh Households",
+      "priority": "P3_MODERATE",
+      "sourceFile": "07-may-2026-cgb.md",
+      "addedInformation": "Added MNRE ministry, ₹75,021 crore outlay anchor, and 300 units/month benefit threshold.",
+      "reasonForEdit": "Enriched national scheme milestone note."
+    },
+    {
+      "topicSlug": "bankers-books-evidence-act-2026-2-min",
+      "title": "Bankers' Books Evidence Act, 2026 (~2 min)",
+      "priority": "P2_HIGH",
+      "sourceFile": "01-august-2026-cgb-part-1.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
+      "title": "PSBs Proposal: 2% PSL Sub-Target for Climate & Transition Finance (~3 min)",
+      "priority": "P2_HIGH",
+      "sourceFile": "02-august-2026-cgb-part-2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
+      "title": "NeGD & AAERI Partner for DigiLocker-Integrated 'AAERI Verify' Platform",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
+      "title": "Sarbananda Sonowal Launches 'E-Samudra' Maritime Governance Portal",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "gujarat-approves-4-natural-farming-centres-of-excellence",
+      "title": "Gujarat Approves 4 Natural Farming Centres of Excellence",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+      "title": "World's 1st Satellite-Transmitter Release of Captive-Bred Vultures in Assam",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "mha-expands-international-e-visa-ports-of-entry-to-88",
+      "title": "MHA Expands International E-Visa Ports of Entry to 88",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "donald-trump-signs-executive-orders-on-birthright-citizenship",
+      "title": "Donald Trump Signs Executive Orders on Birthright Citizenship",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "typhoon-dolphin-strikes-zhejiang-province-china",
+      "title": "Typhoon Dolphin Strikes Zhejiang Province, China",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "iaf-conducts-counter-uas-exercise-rotor-clap-iii-at-pokhran",
+      "title": "IAF Conducts Counter-UAS Exercise \"ROTOR CLAP-III\" at Pokhran",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "australia-announces-dates-for-exercise-talisman-sabre-2027",
+      "title": "Australia Announces Dates for Exercise Talisman Sabre 2027",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "i4c-issues-advisory-on-boss-scam-whatsapp-impersonation-campaign",
+      "title": "I4C Issues Advisory on 'Boss Scam' WhatsApp Impersonation Campaign",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "csir-nbri-dedicates-prakriti-gyan-dham-eco-educational-hub-at-lucknow",
+      "title": "CSIR-NBRI Dedicates \"Prakriti Gyan Dham\" Eco-Educational Hub at Lucknow",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "pm-vbry-completes-1-year-72-lakh-first-time-employees-enrolled",
+      "title": "PM-VBRY Completes 1 Year: 72 Lakh First-Time Employees Enrolled",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    },
+    {
+      "topicSlug": "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera",
+      "title": "Zoological Survey of India Completes 22-Volume Catalogue of Lepidoptera",
+      "priority": "P3_MODERATE",
+      "sourceFile": "08-august-2026-smartkeeda-w2.md",
+      "addedInformation": "Validated complete source-grounded factual sentence structure in canonical batch registry.",
+      "reasonForEdit": "Verified and aligned canonical note with originating coaching digest."
+    }
+  ]
+}

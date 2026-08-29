@@ -50,29 +50,37 @@ The apex court approved a standardized 4-layer motor insurance structure for pri
 - **Priority**: `P1_CRITICAL_DEEP`
 - **Date**: `2026-08-10`
 - **Target Exams**: `SBI PO Mains, IBPS PO Mains`
-- **Revision Effort**: `~7 min`
+- **Revision Effort**: `~8 min`
+- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`
 
 #### The Core Mechanism & Ten-Year Horizon
-The Union Cabinet chaired by Prime Minister Narendra Modi approved **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** with a total financial outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026-27 to FY 2035-36)**.
-- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG).
-- **Core Objective**: Convert agricultural residue, cattle dung, press mud, municipal organic solid waste, and agro-industrial biomass into Compressed Biogas (CBG) and organic manure (Fermented Organic Manure - FOM).
+The Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a total central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)**.
+- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]
+- **Core Objective**: Scale up Compressed Biogas (CBG) production by nearly 10 times, converting agricultural residue, cattle dung, press mud, and municipal organic solid waste into CBG and Fermented Organic Manure (FOM). [CGB Mentors & Smartkeeda]
 
-#### Six Growth Engines & Administered Pricing
-The scheme is structured around 6 foundational growth engines:
-1. **Assured CBG Offtake**: Mandatory blending trajectory for City Gas Distribution (CGD) entities:
-   - **3% in FY 2026-27**
-   - **4% in FY 2027-28**
-   - **5% from FY 2028-29 onwards** for CNG (transport) and PNG (domestic).
-2. **Stable Administered CBG Price**: Introduced an administered price of **₹2,110 per Metric Million British Thermal Unit (MMBtu)** with a **minimum 10-year horizon** to provide revenue certainty for CBG plant operators.
-3. **Capital Assistance**: Central financial assistance for bio-manure processing and plant establishment.
-4. **Pipeline Infrastructure**: Financial and right-of-way support for connecting CBG plants to CGD city gas grids.
-5. **Credit Guarantee Support**: Credit guarantee mechanisms for commercial bank loans extended to CBG developers under Priority Sector Lending (PSL).
-6. **CBG Ecosystem Challenge Fund**: Competitive funding for innovative technology models and municipal waste integration.
+#### Financial Allocation Breakdown & Supporting Schemes [CGB Mentors Grounded]
+- **Component Outlays**:
+  - **₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT (Sustainable Alternative Towards Affordable Transportation) initiative.
+  - **₹7,481 crore** for solid bio-manure (FOM/PROM) subsidies.
+  - **₹564.75 crore** under the BAM (Biomass Aggregation Machinery) Scheme.
+  - **₹994.50 crore** (FY25–FY29) under the DPI (Development of Pipeline Infrastructure) Scheme to connect plants to CGD grids.
+  - **Market Development Assistance (MDA)**: ₹1,500/MT for organic fertilizer produced from CBG plants.
+- **Capital Assistance & Credit Guarantee**: Up to **₹2 crore per Ton Per Day (TPD)** installed capacity (or up to ₹4 crore / 30% capital cost CFA), backed by **up to 85% credit guarantee coverage** for eligible MSME developers under PSL. [CGB Mentors & Smartkeeda]
+
+#### Mandatory Blending Trajectory & Administered Pricing [Smartkeeda Grounded]
+1. **Assured CBG Offtake Trajectory**: Mandatory blending for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic):
+   - **3% in FY 2026–27**
+   - **4% in FY 2027–28**
+   - **5% from FY 2028–29 onwards**.
+2. **Stable Administered CBG Price**: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon.
+3. **10-Year Macro Outcomes**: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]
 
 #### Key Exam Takeaways
-- **Total Outlay & Duration**: ₹23,731 crore for 10 years (FY27 to FY36).
-- **Administered CBG Price**: ₹2,110 per MMBtu with 10-year horizon.
-- **Notified CBG Blending Trajectory**: 3% in FY27, 4% in FY28, 5% from FY29 onwards.
+- **Total Outlay & Tenure**: ₹23,731 crore (10 years: FY27 to FY36).
+- **Component Split**: ₹11,250 cr (CBG) + ₹7,481 cr (Bio-manure) + ₹994.5 cr (DPI) + ₹564.75 cr (BAM) [CGB Mentors].
+- **Administered CBG Price**: ₹2,110/MMBtu (~₹105/kg) with 10-year horizon [CGB Mentors & Smartkeeda].
+- **Mandatory Blending Trajectory**: 3% (FY27) $\to$ 4% (FY28) $\to$ 5% (FY29+) [Smartkeeda].
+- **Credit Guarantee & CFA**: Up to 85% guarantee; up to ₹2 cr/TPD or ₹4 cr / 30% capital subsidy [CGB Mentors & Smartkeeda].
 
 ---
 
@@ -82,24 +90,30 @@ The scheme is structured around 6 foundational growth engines:
 - **Priority**: `P1_CRITICAL_DEEP`
 - **Date**: `2026-08-07`
 - **Target Exams**: `SBI PO Mains, IBPS PO Mains`
-- **Revision Effort**: `~8 min`
+- **Revision Effort**: `~9 min`
+- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`
 
 #### Legislative Overview & Scope
 Parliament passed the **Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026** (cleared by Rajya Sabha on Aug 3 and Lok Sabha on Aug 7, 2026), amending the **MSMED Act, 2006** upon completing 20 years of its enactment.
 
 #### Key Structural Provisions & Banking Impact
-1. **Statutory Integration of Composite Criteria**: Formally embeds the composite classification criteria of **'Investment in Plant & Machinery' and 'Turnover'** directly into the parent Act and empowers the Central Government to adjust thresholds via notification without requiring parent Act amendments.
-2. **Statutory Permanence to Udyam Portal**: Confers statutory permanence upon the **Udyam Registration Portal** as the exclusive, free, voluntary, and digitally integrated national registry for MSMEs (surpassing **9.16 crore registered MSMEs** by August 2026).
-3. **Mandatory TReDS Settlement for CPSEs**: Mandates all Central Public Sector Enterprises (CPSEs) and large corporate buyers to settle procurement invoices from Micro and Small Enterprises (MSEs) through the **Trade Receivables Discounting System (TReDS)** platform to eliminate working capital liquidity bottlenecks.
-4. **Online Dispute Resolution (ODR) & 90-Day Mediation Mandate**:
-   - Introduces institutionalized Online Dispute Resolution (ODR) for MSE delayed payment disputes under Section 18.
-   - Mandates that conciliation and mediation proceedings before Micro and Small Enterprise Facilitation Councils (MSEFCs) be completed within a strict **90-day statutory timeline**.
-   - Requires courts/appellate authorities to order mandatory deposit/payment of **at least 50% of the awarded amount** to the MSE supplier before entertaining any appeal or application to set aside an arbitral award.
+1. **Statutory Integration of Composite Criteria**: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]
+2. **Statutory Permanence to Udyam Portal**: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]
+3. **Mandatory TReDS Settlement for CPSEs**: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]
+4. **Online Dispute Resolution (ODR) & Strict Dispute Timelines**:
+   - **Mediation**: Must conclude within **90 days** from first appearance. [CGB Mentors & Smartkeeda]
+   - **Arbitration Reference**: Must be made within **30 days** after termination of mediation. [CGB Mentors]
+   - **Arbitral Award**: Must be delivered within **90 days** from completion of pleadings. [CGB Mentors]
+5. **Judicial Enforcement & Land Revenue Recovery**:
+   - **Land Revenue Recovery**: Any mediated settlement or arbitral award under Section 18 can be directly recovered as an **'arrear of land revenue'** via District Collectors / DMs. [CGB Mentors]
+   - **Mandatory 50% Court Deposit**: Courts/appellate authorities must order payment of **at least 50% of the awarded amount** to the MSE supplier if an application to set aside remains pending for **more than 6 months**. [CGB Mentors & Smartkeeda]
+   - **Decriminalisation & Multiple MSEFCs**: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]
 
 #### Key Exam Takeaways
-- **Statutory Timeline for ODR Mediation**: 90 days.
-- **Mandatory Pre-Deposit Before Appeal**: At least 50% of the arbitral award amount.
-- **Mandatory CPSE Settlement Platform**: TReDS.
+- **Dispute Timelines**: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days [CGB Mentors & Smartkeeda].
+- **Mandatory Court Pre-Deposit**: At least 50% after 6 months pending appeal [CGB Mentors & Smartkeeda].
+- **Enforcement Route**: Direct recovery as arrears of land revenue via DMs/Collectors [CGB Mentors].
+- **Mandatory TReDS Onboarding**: CPSEs and corporates >₹250 cr turnover [CGB Mentors & Smartkeeda].
 
 ---
 
