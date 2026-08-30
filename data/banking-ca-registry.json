@@ -3,10 +3,10 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 635,
+    "totalCanonicalTopics": 642,
     "activeP1Count": 59,
     "activeP1RevisionMinutes": 442,
-    "totalP2Count": 269,
+    "totalP2Count": 276,
     "totalP3Count": 307,
     "totalBatchesIngested": 16
   },
@@ -24017,6 +24017,276 @@
       ],
       "contentMarkdown": "### 8. World Bank Reports on Extreme Heat & AI Labor Economics (2026)\n* **Priority:** P2 — High\n* **Category:** REPORTS_AND_INDICES | **Institution:** World Bank | **Event Date:** 2026-08-09\n* **Must Memorize Facts:**\n  * **A Livable Future Report:** Extreme heat cost India **247 billion potential labour hours and $194 billion in income in 2024** (agriculture 66%, construction 20%).\n  * **World Development Report 2026 (Promise of AI):** Only **4.5% of jobs in low- and middle-income countries** are at risk of automation from Generative AI, compared to **14.2% in high-income economies**.\n\n---"
     },
+    "national-housing-bank-nhb-capital-structure-governance": {
+      "id": "national-housing-bank-nhb-capital-structure-governance",
+      "slug": "national-housing-bank-nhb-capital-structure-governance",
+      "title": "National Housing Bank (NHB): Capital Structure & Governance",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 4,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Founding Date:** 9 July 1988 (Under National Housing Bank Act, 1987).",
+        "**Headquarters:** New Delhi.",
+        "**Authorized & Paid-up Capital:** **₹1,450 crore**, **100% fully subscribed and owned by the Government of India** (transferred from RBI in 2019 following Narasimham-II committee recommendations).",
+        "**Leadership:** Managing Director: **Sanjay Shukla**; Chairman: **Prabhanjan Mohapatra**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "Ownership: 100% Government of India (not RBI).",
+        "Authorized capital: ₹1,450 crore."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 1. National Housing Bank (NHB): Capital Structure & Governance\n* **Priority:** P2 — High\n* **Category:** FINANCIAL_INSTITUTIONS\n* **Institution:** NHB\n* **Event Date:** 2026-07-15\n* **Revision Effort:** ~4 min\n* **Status:** OPERATIONAL\n\n#### Must Memorize\n* **Founding Date:** 9 July 1988 (Under National Housing Bank Act, 1987).\n* **Headquarters:** New Delhi.\n* **Authorized & Paid-up Capital:** **₹1,450 crore**, **100% fully subscribed and owned by the Government of India** (transferred from RBI in 2019 following Narasimham-II committee recommendations).\n* **Leadership:** Managing Director: **Sanjay Shukla**; Chairman: **Prabhanjan Mohapatra**.\n\n#### Exam Focus\n* Ownership: 100% Government of India (not RBI).\n* Authorized capital: ₹1,450 crore.\n\n---"
+    },
+    "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil": {
+      "id": "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+      "slug": "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+      "title": "India's Banknote Printing & Minting Architecture: BRBNMPL vs SPMCIL",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 4,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Total Printing Presses:** Exactly **4 Banknote Printing Presses** operating across India:",
+        "**2 Presses under BRBNMPL (Bharatiya Reserve Bank Note Mudran Pvt Ltd — 100% RBI Subsidiary, Est. 3 Feb 1995, Bengaluru):**",
+        "**2 Presses under SPMCIL (Security Printing and Minting Corporation of India Ltd — 100% Government of India):**",
+        "**Mints (Coin Production under SPMCIL):** 4 Mints located in Mumbai, Kolkata, Hyderabad, and Noida."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "Which press belongs to RBI subsidiary (BRBNMPL) vs Govt of India (SPMCIL).",
+        "Mysore & Salboni = BRBNMPL; Nashik & Dewas = SPMCIL."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 2. India's Banknote Printing & Minting Architecture: BRBNMPL vs SPMCIL\n* **Priority:** P2 — High\n* **Category:** BANKING_OPERATIONS\n* **Institution:** RBI / Ministry of Finance\n* **Event Date:** 2026-07-20\n* **Revision Effort:** ~4 min\n* **Status:** OPERATIONAL\n\n#### Must Memorize\n* **Total Printing Presses:** Exactly **4 Banknote Printing Presses** operating across India:\n  * **2 Presses under BRBNMPL (Bharatiya Reserve Bank Note Mudran Pvt Ltd — 100% RBI Subsidiary, Est. 3 Feb 1995, Bengaluru):**\n    1. **Mysore** (Karnataka)\n    2. **Salboni** (West Bengal)\n  * **2 Presses under SPMCIL (Security Printing and Minting Corporation of India Ltd — 100% Government of India):**\n    1. **Nashik** (Maharashtra)\n    2. **Dewas** (Madhya Pradesh)\n* **Mints (Coin Production under SPMCIL):** 4 Mints located in Mumbai, Kolkata, Hyderabad, and Noida.\n\n#### Exam Focus\n* Which press belongs to RBI subsidiary (BRBNMPL) vs Govt of India (SPMCIL).\n* Mysore & Salboni = BRBNMPL; Nashik & Dewas = SPMCIL.\n\n---"
+    },
+    "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy": {
+      "id": "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
+      "slug": "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
+      "title": "Financial Intelligence Unit-India (FIU-IND): Mandate & Hierarchy",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "MINISTRY_OF_FINANCE",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Establishment:** Set up in **November 2004** by the Government of India.",
+        "**Statutory Nature:** **Non-statutory, administrative intelligence body**.",
+        "**Core Mandate:** Central national agency responsible for receiving, processing, analyzing, and disseminating information relating to suspect financial transactions under the **Prevention of Money Laundering Act (PMLA), 2002**.",
+        "**Reporting Structure:** Reports directly to the **Economic Intelligence Council (EIC)** chaired by the **Union Finance Minister**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "Statutory status: Non-statutory administrative body.",
+        "Reporting authority: Directly to Economic Intelligence Council (headed by Finance Minister)."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 3. Financial Intelligence Unit-India (FIU-IND): Mandate & Hierarchy\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** Ministry of Finance / EIC\n* **Event Date:** 2026-07-18\n* **Revision Effort:** ~3 min\n* **Status:** OPERATIONAL\n\n#### Must Memorize\n* **Establishment:** Set up in **November 2004** by the Government of India.\n* **Statutory Nature:** **Non-statutory, administrative intelligence body**.\n* **Core Mandate:** Central national agency responsible for receiving, processing, analyzing, and disseminating information relating to suspect financial transactions under the **Prevention of Money Laundering Act (PMLA), 2002**.\n* **Reporting Structure:** Reports directly to the **Economic Intelligence Council (EIC)** chaired by the **Union Finance Minister**.\n\n#### Exam Focus\n* Statutory status: Non-statutory administrative body.\n* Reporting authority: Directly to Economic Intelligence Council (headed by Finance Minister).\n\n---"
+    },
+    "asian-development-bank-adb-shareholding-voting-matrix": {
+      "id": "asian-development-bank-adb-shareholding-voting-matrix",
+      "slug": "asian-development-bank-adb-shareholding-voting-matrix",
+      "title": "Asian Development Bank (ADB): Shareholding & Voting Matrix",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "INTERNATIONAL_BODIES",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Establishment:** 19 December 1966 | **Headquarters:** Metro Manila, Philippines.",
+        "**Total Member Countries:** **69 countries** (49 within Asia-Pacific, 20 non-regional).",
+        "**Leadership:** President: **Masato Kanda**.",
+        "**Shareholding Matrix (Top Shareholders):**",
+        "**Japan:** **15.6%** (Largest Shareholder)",
+        "**United States:** **15.6%** (Co-Largest Shareholder)",
+        "**China (PRC):** **6.4%**",
+        "**India:** **6.3%** (4th Largest Shareholder globally, 2nd largest regional borrower)"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "India's shareholding in ADB: 6.3%.",
+        "Largest shareholders: Japan & USA (15.6% each)."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 4. Asian Development Bank (ADB): Shareholding & Voting Matrix\n* **Priority:** P2 — High\n* **Category:** INTERNATIONAL_FINANCE\n* **Institution:** ADB\n* **Event Date:** 2026-07-22\n* **Revision Effort:** ~3 min\n* **Status:** OPERATIONAL\n\n#### Must Memorize\n* **Establishment:** 19 December 1966 | **Headquarters:** Metro Manila, Philippines.\n* **Total Member Countries:** **69 countries** (49 within Asia-Pacific, 20 non-regional).\n* **Leadership:** President: **Masato Kanda**.\n* **Shareholding Matrix (Top Shareholders):**\n  * **Japan:** **15.6%** (Largest Shareholder)\n  * **United States:** **15.6%** (Co-Largest Shareholder)\n  * **China (PRC):** **6.4%**\n  * **India:** **6.3%** (4th Largest Shareholder globally, 2nd largest regional borrower)\n\n#### Exam Focus\n* India's shareholding in ADB: 6.3%.\n* Largest shareholders: Japan & USA (15.6% each).\n\n---"
+    },
+    "international-financial-services-centres-authority-ifsca-unified-regulatory-powers": {
+      "id": "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
+      "slug": "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
+      "title": "International Financial Services Centres Authority (IFSCA): Unified Regulatory Powers",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "INTERNATIONAL_AFFAIRS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Establishment:** 27 April 2020 under the **International Financial Services Centres Authority Act, 2019**.",
+        "**Headquarters:** GIFT City, Gandhinagar, Gujarat.",
+        "**Leadership:** Chairperson: **K. Rajaraman**.",
+        "**Unified Regulatory Power:** Combines the regulatory, supervisory, and developmental roles of **four major domestic financial regulators** within IFSC jurisdictions:"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "4 Regulators unified under IFSCA: RBI, SEBI, IRDAI, PFRDA.",
+        "HQ: GIFT City, Gandhinagar."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 5. International Financial Services Centres Authority (IFSCA): Unified Regulatory Powers\n* **Priority:** P2 — High\n* **Category:** REGULATORY_BODIES\n* **Institution:** IFSCA\n* **Event Date:** 2026-07-25\n* **Revision Effort:** ~3 min\n* **Status:** OPERATIONAL\n\n#### Must Memorize\n* **Establishment:** 27 April 2020 under the **International Financial Services Centres Authority Act, 2019**.\n* **Headquarters:** GIFT City, Gandhinagar, Gujarat.\n* **Leadership:** Chairperson: **K. Rajaraman**.\n* **Unified Regulatory Power:** Combines the regulatory, supervisory, and developmental roles of **four major domestic financial regulators** within IFSC jurisdictions:\n  1. **Reserve Bank of India (RBI)** — Banking & Foreign Exchange.\n  2. **Securities and Exchange Board of India (SEBI)** — Capital Markets & Funds.\n  3. **Insurance Regulatory and Development Authority of India (IRDAI)** — Insurance & Reinsurance.\n  4. **Pension Fund Regulatory and Development Authority (PFRDA)** — Pension Schemes.\n\n#### Exam Focus\n* 4 Regulators unified under IFSCA: RBI, SEBI, IRDAI, PFRDA.\n* HQ: GIFT City, Gandhinagar.\n\n---"
+    },
+    "mecon-limited-accorded-miniratna-category-i-cpse-status": {
+      "id": "mecon-limited-accorded-miniratna-category-i-cpse-status",
+      "slug": "mecon-limited-accorded-miniratna-category-i-cpse-status",
+      "title": "MECON Limited Accorded Miniratna Category-I CPSE Status",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 2,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "NPCI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Upgradation:** Ministry of Steel approved the grant of **Miniratna Category-I status** to **MECON Limited**.",
+        "**Classification:** Schedule 'A' Central Public Sector Enterprise (CPSE) under the administrative jurisdiction of the **Ministry of Steel** (HQ: Ranchi, Jharkhand).",
+        "Estimated Quick Scan Time: ~5 Minutes*",
+        "**Bank Taglines & Leadership Profiles:**",
+        "**State Bank of India (SBI):** Chairman: Challa Sreenivasulu Setty | CFO: Kameshwar Rao Kodavanti | Tagline: *\"The Banker to Every Indian\"* | App: YONO.",
+        "**Punjab & Sind Bank:** MD & CEO: Swarup Kumar Saha | Non-Exec Chairman: Charan Singh | Tagline: *\"Where Service is a Way of Life\"*.",
+        "**Bank of Maharashtra:** MD & CEO: Nidhu Saxena | Tagline: *\"One Family, One Bank\"*.",
+        "**Bank of Baroda:** MD & CEO: Debadatta Chand | Tagline: *\"India's International Bank\"*.",
+        "**AU Small Finance Bank:** Founder & MD: Sanjay Agarwal | Chairman: H. R. Khan | Tagline: *\"Chalo Aage Badhein\"*.",
+        "**Federal Bank:** MD & CEO: KVS Manian | Tagline: *\"Your Perfect Banking Partner\"*.",
+        "**IDFC First Bank:** MD & CEO: V. Vaidyanathan | Tagline: *\"Always You First\"*.",
+        "**Market Depositories & Stock Exchanges:**",
+        "**CDSL (Central Depository Services Ltd):** Founded 1999 (Mumbai) | MD & CEO: Nehal Vora | Chairperson Public Interest Director: Gurumoorthy Mahalingam.",
+        "**NSE (National Stock Exchange):** Founded 27 Nov 1992 (Mumbai) | MD & CEO: Ashishkumar Chauhan | Chairman: Srinivas Injeti.",
+        "**National Payments Corporation of India (NPCI):** Founded 19 Dec 2008 (Section 8 Company, Mumbai) | Non-Exec Chairman: Ajay Kumar Choudhary | MD & CEO: Dilip Asbe.",
+        "**Life Insurance Corporation of India (LIC):** Founded 1 Sept 1956 | Govt holds 96.5% stake | CEO & MD: R. Doraiswamy.",
+        "**FATF Leadership:** Headquartered in Paris (Est. 1989) | President: Giles Thomson (UK) | Vice-President: Vivek Aggarwal.",
+        "**Tarapur Atomic Power Station (TAPS Units 1&2):** Commissioned in 1969 in Maharashtra; oldest operating commercial nuclear power reactors in the world.",
+        "**Loktak Lake:** Located in Moirang, Manipur; largest freshwater lake in Northeast India; famous for *phumdis* (floating circular wetlands) and Keibul Lamjao National Park; Ramsar Site (1990), Montreux Record (1993).",
+        "**Jnanpith Award:** Instituted in 1961 by Bharatiya Jnanpith; highest literary award in India; prize: ₹11 Lakh + bronze statue of Goddess Vagdevi.",
+        "**IN-SPACe:** Single-window autonomous agency under Department of Space (DOS) for private space facilitation | HQ: Ahmedabad, Gujarat | Chairman: Dr. Pawan Kumar Goenka."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "14-july-2026-cgb-static-gk",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 6. MECON Limited Accorded Miniratna Category-I CPSE Status\n* **Priority:** P2 — High\n* **Category:** CORPORATE_UPDATES\n* **Institution:** Ministry of Steel / DPE\n* **Event Date:** 2026-07-28\n* **Revision Effort:** ~2 min\n* **Status:** IMPLEMENTED\n\n#### Must Memorize\n* **Upgradation:** Ministry of Steel approved the grant of **Miniratna Category-I status** to **MECON Limited**.\n* **Classification:** Schedule 'A' Central Public Sector Enterprise (CPSE) under the administrative jurisdiction of the **Ministry of Steel** (HQ: Ranchi, Jharkhand).\n\n---\n\n# PART 2: P3 — MODERATE (ONE-LINERS & RAPID-RECALL FACTOIDS)\n\n*Estimated Quick Scan Time: ~5 Minutes*\n\n* **Bank Taglines & Leadership Profiles:**\n  * **State Bank of India (SBI):** Chairman: Challa Sreenivasulu Setty | CFO: Kameshwar Rao Kodavanti | Tagline: *\"The Banker to Every Indian\"* | App: YONO.\n  * **Punjab & Sind Bank:** MD & CEO: Swarup Kumar Saha | Non-Exec Chairman: Charan Singh | Tagline: *\"Where Service is a Way of Life\"*.\n  * **Bank of Maharashtra:** MD & CEO: Nidhu Saxena | Tagline: *\"One Family, One Bank\"*.\n  * **Bank of Baroda:** MD & CEO: Debadatta Chand | Tagline: *\"India's International Bank\"*.\n  * **AU Small Finance Bank:** Founder & MD: Sanjay Agarwal | Chairman: H. R. Khan | Tagline: *\"Chalo Aage Badhein\"*.\n  * **Federal Bank:** MD & CEO: KVS Manian | Tagline: *\"Your Perfect Banking Partner\"*.\n  * **IDFC First Bank:** MD & CEO: V. Vaidyanathan | Tagline: *\"Always You First\"*.\n* **Market Depositories & Stock Exchanges:**\n  * **CDSL (Central Depository Services Ltd):** Founded 1999 (Mumbai) | MD & CEO: Nehal Vora | Chairperson Public Interest Director: Gurumoorthy Mahalingam.\n  * **NSE (National Stock Exchange):** Founded 27 Nov 1992 (Mumbai) | MD & CEO: Ashishkumar Chauhan | Chairman: Srinivas Injeti.\n* **National Payments Corporation of India (NPCI):** Founded 19 Dec 2008 (Section 8 Company, Mumbai) | Non-Exec Chairman: Ajay Kumar Choudhary | MD & CEO: Dilip Asbe.\n* **Life Insurance Corporation of India (LIC):** Founded 1 Sept 1956 | Govt holds 96.5% stake | CEO & MD: R. Doraiswamy.\n* **FATF Leadership:** Headquartered in Paris (Est. 1989) | President: Giles Thomson (UK) | Vice-President: Vivek Aggarwal.\n* **Tarapur Atomic Power Station (TAPS Units 1&2):** Commissioned in 1969 in Maharashtra; oldest operating commercial nuclear power reactors in the world.\n* **Loktak Lake:** Located in Moirang, Manipur; largest freshwater lake in Northeast India; famous for *phumdis* (floating circular wetlands) and Keibul Lamjao National Park; Ramsar Site (1990), Montreux Record (1993).\n* **Jnanpith Award:** Instituted in 1961 by Bharatiya Jnanpith; highest literary award in India; prize: ₹11 Lakh + bronze statue of Goddess Vagdevi.\n* **IN-SPACe:** Single-window autonomous agency under Department of Space (DOS) for private space facilitation | HQ: Ahmedabad, Gujarat | Chairman: Dr. Pawan Kumar Goenka."
+    },
     "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal": {
       "id": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
       "slug": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
@@ -24426,6 +24696,65 @@
         }
       ],
       "contentMarkdown": "### 8. FRSB 2020 (Taxable) Rate Maintained at 8.05%\n* **Priority:** P2 — High\n* **Category:** BANKING_OPERATIONS | **Institution:** RBI | **Event Date:** 2026-07-01\n* **Must Memorize Facts:**\n  * RBI retained coupon on Floating Rate Savings Bonds (FRSB 2020 T) at **8.05%** ($7.70\\% \\text{ NSC rate} + 0.35\\% \\text{ fixed spread}$) for July 1 to December 31, 2026 (payable Jan 1, 2027).\n\n---"
+    },
+    "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally": {
+      "id": "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
+      "slug": "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
+      "title": "2026 Glasgow Commonwealth Games (23rd Edition): India's Performance & Medal Tally",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 6,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**."
+      ],
+      "mustMemorizeFacts": [
+        "**Key Tournament Facts:**",
+        "**Edition:** 23rd Commonwealth Games | **Motto:** *\"Sport Is Just the Beginning\"* | **Mascot:** *Finnie the unicorn*.",
+        "**Opening Ceremony Flag Bearers for India:** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).",
+        "**Indian Contingent:** 122 athletes across 13 disciplines (8 able-bodied, 5 para).",
+        "**Overall Top 5 Medal Tally:**",
+        "**Historic Firsts & Milestone Performances:**",
+        "**No. 1 Nation in Boxing:** India topped the boxing medal table with an unprecedented **7 Gold and 3 Silver medals** (10 medals total).",
+        "**First Indian Medal:** **Jhandu Kumar** won India's first medal of the Games (Bronze in Men's Heavyweight Para Powerlifting).",
+        "**First Indian Gold:** **Mirabai Chanu** (Women's 48kg Weightlifting).",
+        "**First-Ever Judo Golds:** **Asmita Dey** (Women's 48kg) and **Harsh Singh** (Men's 60kg) became India's first-ever CWG Judo Gold medalists.",
+        "**First-Ever Para-Athletics Gold:** **Sharmila Dhankar** (Women's Shot Put F57).",
+        "**Distance Running Record:** **Gulveer Singh** became the first Indian track & field athlete to win two individual medals at a single CWG (Silver in 10,000m, Bronze in 5,000m).",
+        "**First Decathlon Medal:** **Tejaswin Shankar** won historic Bronze with 7,976 points.",
+        "**First High Jump Silver:** **Sarvesh Kushare** cleared 2.25m for historic silver.",
+        "**Men's Javelin:** **Neeraj Chopra** won Silver (85.83m) and **Yash Vir Singh** won Bronze (85.41m) in a double podium.",
+        "**Next Edition (2030 Centenary Games):**",
+        "Awarded to **Ahmedabad, Gujarat, India** (October 2030), marking 100 years since the inaugural 1930 Hamilton Games."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "India's finish & medal count: 4th rank, 39 medals (13 Gold, 17 Silver, 9 Bronze).",
+        "Top medal-winning discipline: Boxing (7 Gold, 3 Silver).",
+        "First medal: Jhandu Kumar (Bronze, Para Powerlifting).",
+        "Next host: Ahmedabad, India (2030 Centenary Commonwealth Games)."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "16-august-2026-cgb-cwg-glasgow",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 1. 2026 Glasgow Commonwealth Games (23rd Edition): India's Performance & Medal Tally\n* **Priority:** P2 — High\n* **Category:** SPORTS_CHAMPIONSHIPS\n* **Institution:** Commonwealth Games Federation (CGF) / IOA\n* **Event Date:** 2026-08-02\n* **Revision Effort:** ~6 min\n* **Status:** CONCLUDED\n\n#### What Happened\n* The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**.\n\n#### Must Memorize\n* **Key Tournament Facts:**\n  * **Edition:** 23rd Commonwealth Games | **Motto:** *\"Sport Is Just the Beginning\"* | **Mascot:** *Finnie the unicorn*.\n  * **Opening Ceremony Flag Bearers for India:** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).\n  * **Indian Contingent:** 122 athletes across 13 disciplines (8 able-bodied, 5 para).\n* **Overall Top 5 Medal Tally:**\n  1. **Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total** (Rank 1)\n  2. **England:** **29 Gold, 45 Silver, 36 Bronze = 110 Total** (Rank 2)\n  3. **Canada:** **19 Gold, 20 Silver, 23 Bronze = 62 Total** (Rank 3)\n  4. **India:** **13 Gold, 17 Silver, 9 Bronze = 39 Total** (Rank 4)\n  5. **Scotland:** **13 Gold, 9 Silver, 17 Bronze = 39 Total** (Rank 5 — India ranked ahead on silver medal tiebreak)\n* **Historic Firsts & Milestone Performances:**\n  * **No. 1 Nation in Boxing:** India topped the boxing medal table with an unprecedented **7 Gold and 3 Silver medals** (10 medals total).\n  * **First Indian Medal:** **Jhandu Kumar** won India's first medal of the Games (Bronze in Men's Heavyweight Para Powerlifting).\n  * **First Indian Gold:** **Mirabai Chanu** (Women's 48kg Weightlifting).\n  * **First-Ever Judo Golds:** **Asmita Dey** (Women's 48kg) and **Harsh Singh** (Men's 60kg) became India's first-ever CWG Judo Gold medalists.\n  * **First-Ever Para-Athletics Gold:** **Sharmila Dhankar** (Women's Shot Put F57).\n  * **Distance Running Record:** **Gulveer Singh** became the first Indian track & field athlete to win two individual medals at a single CWG (Silver in 10,000m, Bronze in 5,000m).\n  * **First Decathlon Medal:** **Tejaswin Shankar** won historic Bronze with 7,976 points.\n  * **First High Jump Silver:** **Sarvesh Kushare** cleared 2.25m for historic silver.\n  * **Men's Javelin:** **Neeraj Chopra** won Silver (85.83m) and **Yash Vir Singh** won Bronze (85.41m) in a double podium.\n* **Next Edition (2030 Centenary Games):**\n  * Awarded to **Ahmedabad, Gujarat, India** (October 2030), marking 100 years since the inaugural 1930 Hamilton Games.\n\n#### Exam Focus\n* India's finish & medal count: 4th rank, 39 medals (13 Gold, 17 Silver, 9 Bronze).\n* Top medal-winning discipline: Boxing (7 Gold, 3 Silver).\n* First medal: Jhandu Kumar (Bronze, Para Powerlifting).\n* Next host: Ahmedabad, India (2030 Centenary Commonwealth Games)."
     }
   },
   "topicSlugMap": {
@@ -25054,6 +25383,12 @@
     "epfo-account-timelines-member-id-architecture": "epfo-account-timelines-member-id-architecture",
     "paul-merchants-granted-perpetual-ad-ii-forex-license": "paul-merchants-granted-perpetual-ad-ii-forex-license",
     "world-bank-reports-on-extreme-heat-ai-labor-economics-2026": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
+    "national-housing-bank-nhb-capital-structure-governance": "national-housing-bank-nhb-capital-structure-governance",
+    "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil": "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+    "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy": "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
+    "asian-development-bank-adb-shareholding-voting-matrix": "asian-development-bank-adb-shareholding-voting-matrix",
+    "international-financial-services-centres-authority-ifsca-unified-regulatory-powers": "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
+    "mecon-limited-accorded-miniratna-category-i-cpse-status": "mecon-limited-accorded-miniratna-category-i-cpse-status",
     "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
     "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze": "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
     "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall": "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
@@ -25063,7 +25398,8 @@
     "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi": "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
     "mospi-introduces-index-of-services-production-isp-with-base-year-202425": "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
     "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns": "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
-    "frsb-2020-taxable-rate-maintained-at-805": "frsb-2020-taxable-rate-maintained-at-805"
+    "frsb-2020-taxable-rate-maintained-at-805": "frsb-2020-taxable-rate-maintained-at-805",
+    "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally": "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally"
   },
   "indexes": {
     "byPriority": {
@@ -25132,6 +25468,7 @@
       ],
       "P2_HIGH": [
         "100-fdi-in-insurance-sector-operationalized-under-automatic-route-3-min",
+        "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
         "2027-census-of-india-40-question-household-schedule-notified-4-min",
         "239th-cbt-meeting-epf-interest-rate-maintained-at-825-for-fy26-3-min",
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
@@ -25139,6 +25476,7 @@
         "apex-appointments-4-min",
         "apex-financial-regulatory-appointments-4-min",
         "apex-regulatory-executive-appointments-june-2026",
+        "asian-development-bank-adb-shareholding-voting-matrix",
         "ayushman-bharat-pm-jay-launched-in-west-bengal-36th-stateut-100-pan-india-3-min",
         "bank-credit-to-deposit-ratio-touches-record-high-of-8175-3-min",
         "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
@@ -25177,6 +25515,7 @@
         "finance-ministry-announces-1-lakh-crore-economic-stabilisation-fund-3-min",
         "finance-ministry-eases-fdi-under-automatic-route-for-foreign-firms-with-up-to-10-chinese-stake-3-min",
         "finance-ministry-notifies-3000-crore-sasci-incentive-pool-for-fiscally-disciplined-states-3-min",
+        "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
         "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
@@ -25201,6 +25540,8 @@
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
         "india-solar-growth-pm-kusum-pm-surya-ghar-trajectory-3-min",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
+        "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+        "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
         "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-2026-claim-settlement-ratios-for-health-and-general-insurers-3-min",
@@ -25222,6 +25563,7 @@
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "major-regulatory-executive-apex-appointments",
         "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo",
+        "mecon-limited-accorded-miniratna-category-i-cpse-status",
         "meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
         "mineral-exchange-rules-2026-regulated-mineral-trading-3-min",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
@@ -25234,6 +25576,7 @@
         "msme-sustainable-zed-certification-100-women-subsidy-2-min",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "national-handloom-day-7-august-4th-handloom-census-3-min",
+        "national-housing-bank-nhb-capital-structure-governance",
         "national-investment-policy-for-urea-2026-nipu-2026-3-min",
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
         "ncgtc-revised-norms-for-microfinance-institutions-mfis",
@@ -25742,6 +26085,7 @@
       "SPORTS_AND_AWARDS": [
         "131-padma-awards-2026-announced",
         "2025-un-military-gender-advocate-award",
+        "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
         "60th-jnanpith-award-2025-conferred-on-tamil-poet-r-vairamuthu",
         "68th-annual-grammy-awards-bafta-awards-2026",
         "9th-prof-ms-swaminathan-award-202425",
@@ -25783,6 +26127,7 @@
         "ad-category-ii-licences",
         "anrf-rdi-fund-first-calls-tdb-birac-2000-crore",
         "apsez-operationalizes-ports-of-refuge-at-dighi-and-gopalpur",
+        "asian-development-bank-adb-shareholding-voting-matrix",
         "australian-open-2026-champions",
         "bharat-taxi-cooperative-ride-hailing-platform-launched",
         "bharatnet-phase-iii-odisha",
@@ -25956,6 +26301,7 @@
       ],
       "INTERNATIONAL_AFFAIRS": [
         "2026-international-booker-prize",
+        "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
         "mha-expands-international-e-visa-ports-of-entry-to-88",
         "pm-narendra-modi-conferred-international-honours",
         "transcorp-international-receives-rbi-in-principle-approval-for-cps"
@@ -26061,6 +26407,7 @@
         "export-promotion-mission-exim-bank-designated-implementing-agency",
         "federal-bank-acquires-standard-chartered-bank-india-credit-card-portfolio",
         "financial-inclusion-9992-villages-covered-with-banking-outlets",
+        "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "forbes-worlds-best-banks-2026-india",
         "forbes-worlds-best-banks-2026-india-ranking",
         "frsb-2020-taxable-rate-maintained-at-805",
@@ -26072,6 +26419,7 @@
         "india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility-3-min",
         "india-post-payments-bank-ippb-launches-shg-savings-account",
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
+        "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
         "insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
         "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
@@ -26079,11 +26427,13 @@
         "key-banking-financial-appointments-january-2026",
         "key-banking-financial-leadership-appointments-april-2026",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
+        "mecon-limited-accorded-miniratna-category-i-cpse-status",
         "miga-issues-19767-million-guarantee-for-citibank-loan-to-sbi-grpv",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
         "national-co-operative-development-corporation-ncdc-amendment-bill-2026-passed",
         "national-housing-bank-launches-gruh-sugam-portal",
+        "national-housing-bank-nhb-capital-structure-governance",
         "ncgtc-revised-norms-for-microfinance-institutions-mfis",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
@@ -26403,6 +26753,7 @@
         "16th-finance-commission-submits-devolution-report-for-20262031-41-retained",
         "16th-indian-organ-donation-day",
         "2025-un-military-gender-advocate-award",
+        "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
         "2026-international-booker-prize",
         "2027-census-of-india-40-question-household-schedule-notified-4-min",
         "239th-cbt-meeting-epf-interest-rate-maintained-at-825-for-fy26-3-min",
@@ -26771,6 +27122,8 @@
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
         "indias-1st-commercial-earth-observation-constellation",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
+        "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+        "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
         "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
@@ -26779,6 +27132,7 @@
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "nasa-artemis-ii-crewed-lunar-orbit-mission-launches",
+        "national-housing-bank-nhb-capital-structure-governance",
         "nse-ix-soft-launches-global-access-platform-under-rbi-lrs",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "paul-merchants-granted-perpetual-ad-ii-forex-license",
@@ -26898,6 +27252,7 @@
       "INTERNATIONAL_BODIES": [
         "adb-approves-850-million-loan-for-pm-surya-ghar-muft-bijli-yojana-3-min",
         "adb-asian-development-outlook-2026",
+        "asian-development-bank-adb-shareholding-voting-matrix",
         "ccras-bis-sign-100th-milestone-mou-for-ayush-quality-standards",
         "e20-petrol-20-ethanol-made-mandatory-nationwide-from-april-1-2026",
         "fatf-adds-kuwait-papua-new-guinea-to-grey-list",
@@ -26951,6 +27306,7 @@
       ],
       "MINISTRY_OF_FINANCE": [
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
+        "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
@@ -27027,6 +27383,7 @@
       ],
       "NPCI": [
         "major-regulatory-executive-apex-appointments",
+        "mecon-limited-accorded-miniratna-category-i-cpse-status",
         "npci-10-years-of-upi-milestone",
         "npci-bharat-connect-onboards-postal-life-insurance-pli",
         "npci-launches-fimi-finance-model-for-india-domain-specific-language-model",
@@ -27274,6 +27631,7 @@
       ],
       "2026-08": [
         "16th-indian-organ-donation-day",
+        "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
         "2027-census-of-india-40-question-household-schedule-notified-4-min",
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",
@@ -27662,17 +28020,23 @@
         "sebi-margin-trading-facility-mtf-overhaul-consultation"
       ],
       "2026-07": [
+        "asian-development-bank-adb-shareholding-voting-matrix",
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
+        "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
+        "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+        "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
         "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "major-regulatory-executive-apex-appointments",
+        "mecon-limited-accorded-miniratna-category-i-cpse-status",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
         "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+        "national-housing-bank-nhb-capital-structure-governance",
         "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
@@ -27927,6 +28291,7 @@
       ],
       "2026-08": [
         "16th-indian-organ-donation-day",
+        "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
         "2027-census-of-india-40-question-household-schedule-notified-4-min",
         "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
         "80th-independence-day-announcements",
@@ -28315,17 +28680,23 @@
         "sebi-margin-trading-facility-mtf-overhaul-consultation"
       ],
       "2026-07": [
+        "asian-development-bank-adb-shareholding-voting-matrix",
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
+        "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
+        "indias-banknote-printing-minting-architecture-brbnmpl-vs-spmcil",
+        "international-financial-services-centres-authority-ifsca-unified-regulatory-powers",
         "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "major-regulatory-executive-apex-appointments",
+        "mecon-limited-accorded-miniratna-category-i-cpse-status",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
         "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+        "national-housing-bank-nhb-capital-structure-governance",
         "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
@@ -28562,16 +28933,16 @@
       "sourceName": "CGB_MENTORS",
       "dateRange": "2026-07 (week-1-4)",
       "ingestedAt": "2026-08-25T18:00:00Z",
-      "rawItemsCount": 0,
+      "rawItemsCount": 6,
       "duplicatesCount": 0,
       "enrichmentsCount": 0,
       "updatesCount": 0,
-      "newTopicsCount": 0,
+      "newTopicsCount": 6,
       "ignoredCount": 0,
       "primaryVerifiedCount": 0,
-      "sourceOnlyCount": 0,
+      "sourceOnlyCount": 6,
       "verificationPendingCount": 0,
-      "mentorVerdict": "Successfully processed 0 canonical topics for 2026-07 week-1-4."
+      "mentorVerdict": "Successfully processed 6 canonical topics for 2026-07 week-1-4."
     },
     {
       "batchId": "15-july-2026-cgb-top50-mcqs",
@@ -28594,16 +28965,16 @@
       "sourceName": "CGB_MENTORS",
       "dateRange": "2026-08 (week-1-4)",
       "ingestedAt": "2026-08-25T18:00:00Z",
-      "rawItemsCount": 0,
+      "rawItemsCount": 1,
       "duplicatesCount": 0,
       "enrichmentsCount": 0,
       "updatesCount": 0,
-      "newTopicsCount": 0,
+      "newTopicsCount": 1,
       "ignoredCount": 0,
       "primaryVerifiedCount": 0,
-      "sourceOnlyCount": 0,
+      "sourceOnlyCount": 1,
       "verificationPendingCount": 0,
-      "mentorVerdict": "Successfully processed 0 canonical topics for 2026-08 week-1-4."
+      "mentorVerdict": "Successfully processed 1 canonical topics for 2026-08 week-1-4."
     }
   ]
 }

@@ -6,7 +6,7 @@
 
 ---
 
-# PART 1: P2 — HIGH (EXAM-CRITICAL SPORTS INTELLIGENCE)
+# PART 2: P2 — HIGH (EXAM-CRITICAL SPORTS INTELLIGENCE)
 
 ### 1. 2026 Glasgow Commonwealth Games (23rd Edition): India's Performance & Medal Tally
 * **Priority:** P2 — High

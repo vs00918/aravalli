@@ -6,7 +6,7 @@
 
 ---
 
-# PART 1: P2 — HIGH (HIGH-YIELD INSTITUTIONAL PROFILES)
+# PART 2: P2 — HIGH (HIGH-YIELD INSTITUTIONAL PROFILES)
 
 *Estimated Quick Study Time: ~15 Minutes*
 
