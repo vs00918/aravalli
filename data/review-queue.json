@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-29T12:22:50.745Z",
-  "totalUnresolved": 30,
-  "totalItems": 30,
+  "updatedAt": "2026-08-30T04:00:51.902Z",
+  "totalUnresolved": 32,
+  "totalItems": 32,
   "items": [
     {
       "queueId": "queue-conflict-1787971835576-nn1g",
@@ -426,6 +426,36 @@
     {
       "queueId": "queue-conflict-1788006170745-1149",
       "timestamp": "2026-08-29T12:22:50.745Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "SMOKE-05-CONFLICT",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'Policy Repo Rate was increased to 6.25% by unanimous vote.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "Policy Repo Rate was increased to 6.25% by unanimous vote.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788062450242-mwdw",
+      "timestamp": "2026-08-30T04:00:50.242Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "FUTURE-FEED-06",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788062451902-lizx",
+      "timestamp": "2026-08-30T04:00:51.902Z",
       "reason": "CONFLICT_DETECTED",
       "severity": "HIGH",
       "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",

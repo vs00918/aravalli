@@ -3,12 +3,12 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 615,
-    "activeP1Count": 55,
-    "activeP1RevisionMinutes": 413,
-    "totalP2Count": 253,
+    "totalCanonicalTopics": 625,
+    "activeP1Count": 57,
+    "activeP1RevisionMinutes": 428,
+    "totalP2Count": 261,
     "totalP3Count": 307,
-    "totalBatchesIngested": 12
+    "totalBatchesIngested": 13
   },
   "examProfiles": [
     {
@@ -23603,6 +23603,419 @@
         }
       ],
       "contentMarkdown": "### 10. Apex Regulatory & Executive Appointments (June 2026)\n* **Priority:** P2 — High\n* **Category:** APPOINTMENTS | **Institution:** Various | **Event Date:** 2026-06-30\n* **Must Memorize Facts:**\n  * **Swaminathan Janakiraman:** Re-appointed **RBI Deputy Governor** for a 2-year term (effective June 26, 2026).\n  * **Sanjay Lohiya (DFS Secretary):** Nominated as Government Director on the Central Boards of both **RBI and State Bank of India (SBI)**.\n  * **Brajesh Kumar Singh:** Appointed MD & CEO, **Canara Bank**.\n  * **Rajiv Kumar (Former CEC):** Approved as Part-Time Chairman, **HDFC Bank**.\n  * **Ravi Agrawal:** Chairman, **Central Board of Direct Taxes (CBDT)**.\n  * **Vivek Aggarwal:** Elected **Vice-President of Financial Action Task Force (FATF)** (Giles Thomson UK elected FATF President).\n  * **Saibal Chattopadhyay:** Chairperson, **National Statistical Commission (NSC)**.\n  * **Hitesh Joshi:** CMD, **General Insurance Corporation of India (GIC Re)**.\n  * **Ajay Rajan:** MD & CEO, **Protean eGov Technologies**.\n\n---"
+    },
+    "irdai-master-framework-insurance-intermediaries-governance-investment-limits": {
+      "id": "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
+      "slug": "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
+      "title": "IRDAI Master Framework: Insurance Intermediaries Governance & Investment Limits",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "INSURANCE_SECTOR",
+      "secondaryCategories": [],
+      "primaryInstitution": "IRDAI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "The Insurance Regulatory and Development Authority of India (IRDAI) overhauled the regulatory and investment framework governing insurance intermediaries, establishing perpetual registrations with annual turnover-linked fees, strict training mandates, and expanded investment headroom for insurers in infrastructure and private equity."
+      ],
+      "mustMemorizeFacts": [
+        "**Perpetual Registration & Annual Fee Formula:**",
+        "Certificate of registration, once issued to intermediaries (corporate agents, brokers, marketing firms, web aggregators, CPSC-SPVs), remains **perpetually valid** subject to payment of an annual non-refundable fee.",
+        "**Annual Fee Calculation:**",
+        "**Training Mandate for Insurance Marketing Firms (IMFs):**",
+        "Principal officers and insurance salespersons must complete at least **25 hours of training once every three years** through an IRDAI-recognised examination body.",
+        "**Insurer Investment Limits & Exposure Ceilings:**",
+        "**Infrastructure SPVs:** Insurers permitted to invest up to **20%** in operational infrastructure special purpose vehicles (SPVs) rated **AA or above**.",
+        "**Private Companies, AIFs & VCFs:** Combined investment limit in private limited companies, Alternative Investment Funds (AIFs), and Venture Capital Funds (VCFs) is capped at **3% of investment assets for life insurers** and **5% for general insurers**.",
+        "**Promoter Group Exposure:** Overall exposure to promoter groups is capped at **5% of total investment assets**.",
+        "**Repo & G-Sec Lending:** Repo and government securities lending transactions are capped at **25% of available securities or ₹10,000 crore**, whichever is lower."
+      ],
+      "knowUnderstandContext": [
+        "Shifts the regulatory model from repetitive periodic license renewals to continuous compliance backed by an annual turnover-linked fee and mandatory ongoing professional training (25 hrs/3 yrs)."
+      ],
+      "examFocus": [
+        "Intermediary annual fee formula: higher of ₹10,000 or 0.04% of receipts.",
+        "Training requirement for marketing firms: 25 hours every 3 years.",
+        "Insurer investment limits in Private Cos/AIFs/VCFs: 3% (Life) vs 5% (General).",
+        "Infrastructure SPV cap: 20% (for AA-rated or above).",
+        "Promoter group ceiling: 5% of investment assets."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 1. IRDAI Master Framework: Insurance Intermediaries Governance & Investment Limits\n* **Priority:** P1 — Critical / Deep\n* **Category:** INSURANCE_SECTOR\n* **Institution:** IRDAI\n* **Event Date:** 2026-08-05\n* **Revision Effort:** ~8 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Insurance Regulatory and Development Authority of India (IRDAI) overhauled the regulatory and investment framework governing insurance intermediaries, establishing perpetual registrations with annual turnover-linked fees, strict training mandates, and expanded investment headroom for insurers in infrastructure and private equity.\n\n#### Must Memorize\n* **Perpetual Registration & Annual Fee Formula:**\n  * Certificate of registration, once issued to intermediaries (corporate agents, brokers, marketing firms, web aggregators, CPSC-SPVs), remains **perpetually valid** subject to payment of an annual non-refundable fee.\n  * **Annual Fee Calculation:**\n    $$\\text{Annual Fee} = \\max(₹10,000,\\ 0.04\\% \\times \\text{Commission \\& receipts from insurers in preceding FY})$$\n* **Training Mandate for Insurance Marketing Firms (IMFs):**\n  * Principal officers and insurance salespersons must complete at least **25 hours of training once every three years** through an IRDAI-recognised examination body.\n* **Insurer Investment Limits & Exposure Ceilings:**\n  * **Infrastructure SPVs:** Insurers permitted to invest up to **20%** in operational infrastructure special purpose vehicles (SPVs) rated **AA or above**.\n  * **Private Companies, AIFs & VCFs:** Combined investment limit in private limited companies, Alternative Investment Funds (AIFs), and Venture Capital Funds (VCFs) is capped at **3% of investment assets for life insurers** and **5% for general insurers**.\n  * **Promoter Group Exposure:** Overall exposure to promoter groups is capped at **5% of total investment assets**.\n  * **Repo & G-Sec Lending:** Repo and government securities lending transactions are capped at **25% of available securities or ₹10,000 crore**, whichever is lower.\n\n#### Know / Understand\n* Shifts the regulatory model from repetitive periodic license renewals to continuous compliance backed by an annual turnover-linked fee and mandatory ongoing professional training (25 hrs/3 yrs).\n\n#### Exam Focus\n* Intermediary annual fee formula: higher of ₹10,000 or 0.04% of receipts.\n* Training requirement for marketing firms: 25 hours every 3 years.\n* Insurer investment limits in Private Cos/AIFs/VCFs: 3% (Life) vs 5% (General).\n* Infrastructure SPV cap: 20% (for AA-rated or above).\n* Promoter group ceiling: 5% of investment assets.\n\n---"
+    },
+    "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework": {
+      "id": "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
+      "slug": "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
+      "title": "Digital Personal Data Protection (DPDP) Act, 2023: Statutory Penalties & Regulatory Framework",
+      "priority": "P1_CRITICAL_MEMORIZE",
+      "revisionMinutes": 7,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "Comprehensive enforcement guidelines under the Digital Personal Data Protection Act, 2023 (DPDPA), establishing statutory compliance standards and high-quantum monetary penalties for data fiduciaries across banking, fintech, and commercial sectors."
+      ],
+      "mustMemorizeFacts": [
+        "**Statutory Penalty Thresholds:**",
+        "**Security Failure (Data Breach):** Failure to take reasonable security safeguards to prevent personal data breaches attracts a maximum penalty of up to **₹250 crore**.",
+        "**Breach Notification Failure:** Failure to notify the Data Protection Board of India (DPBI) and affected individuals in the event of a breach attracts a penalty of up to **₹200 crore**.",
+        "**Non-Fulfillment of Children's Data Duties:** Maximum penalty of up to **₹200 crore**.",
+        "**General Non-Compliance:** Penalty of up to **₹50 crore** for other residual violations.",
+        "**Scope & Applicability:**",
+        "Applies to all digital personal data processed within India, including employee data, customer KYC data, and digital transaction trails across both private and public entities."
+      ],
+      "knowUnderstandContext": [
+        "Imposes massive balance-sheet accountability on banks and fintechs handling customer financial and identity data, making cybersecurity safeguards a top board-level governance requirement."
+      ],
+      "examFocus": [
+        "Maximum penalty for failure to prevent personal data breach: ₹250 crore.",
+        "Maximum penalty for failure to notify data breach: ₹200 crore.",
+        "Maximum penalty for child data violation: ₹200 crore."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 2. Digital Personal Data Protection (DPDP) Act, 2023: Statutory Penalties & Regulatory Framework\n* **Priority:** P1 — Critical / Memorize\n* **Category:** BANKING_REGULATION\n* **Institution:** Ministry of Electronics & IT (MeitY) / DPBI\n* **Event Date:** 2026-08-04\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* Comprehensive enforcement guidelines under the Digital Personal Data Protection Act, 2023 (DPDPA), establishing statutory compliance standards and high-quantum monetary penalties for data fiduciaries across banking, fintech, and commercial sectors.\n\n#### Must Memorize\n* **Statutory Penalty Thresholds:**\n  * **Security Failure (Data Breach):** Failure to take reasonable security safeguards to prevent personal data breaches attracts a maximum penalty of up to **₹250 crore**.\n  * **Breach Notification Failure:** Failure to notify the Data Protection Board of India (DPBI) and affected individuals in the event of a breach attracts a penalty of up to **₹200 crore**.\n  * **Non-Fulfillment of Children's Data Duties:** Maximum penalty of up to **₹200 crore**.\n  * **General Non-Compliance:** Penalty of up to **₹50 crore** for other residual violations.\n* **Scope & Applicability:**\n  * Applies to all digital personal data processed within India, including employee data, customer KYC data, and digital transaction trails across both private and public entities.\n\n#### Know / Understand\n* Imposes massive balance-sheet accountability on banks and fintechs handling customer financial and identity data, making cybersecurity safeguards a top board-level governance requirement.\n\n#### Exam Focus\n* Maximum penalty for failure to prevent personal data breach: ₹250 crore.\n* Maximum penalty for failure to notify data breach: ₹200 crore.\n* Maximum penalty for child data violation: ₹200 crore.\n\n---"
+    },
+    "ncgtc-revised-norms-for-microfinance-institutions-mfis": {
+      "id": "ncgtc-revised-norms-for-microfinance-institutions-mfis",
+      "slug": "ncgtc-revised-norms-for-microfinance-institutions-mfis",
+      "title": "NCGTC Revised Norms for Microfinance Institutions (MFIs)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "NCGTC",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Banks must allocate at least **15% of the total ₹20,000 crore corpus** under the Credit Guarantee Scheme for MFIs specifically to **small- and mid-size MFIs** (up from 5% and 10% earlier).",
+        "Maximum bank loan sanctioned to an MFI is capped at **20% of its Assets Under Management (AUM)**, subject to absolute caps:",
+        "Small MFIs: **₹100 crore**",
+        "Medium MFIs: **₹200 crore**",
+        "Large MFIs: **₹1,000 crore**"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 1. NCGTC Revised Norms for Microfinance Institutions (MFIs)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** NCGTC / DFS | **Event Date:** 2026-08-02\n* **Must Memorize Facts:**\n  * Banks must allocate at least **15% of the total ₹20,000 crore corpus** under the Credit Guarantee Scheme for MFIs specifically to **small- and mid-size MFIs** (up from 5% and 10% earlier).\n  * Maximum bank loan sanctioned to an MFI is capped at **20% of its Assets Under Management (AUM)**, subject to absolute caps:\n    * Small MFIs: **₹100 crore**\n    * Medium MFIs: **₹200 crore**\n    * Large MFIs: **₹1,000 crore**"
+    },
+    "ethanol-interest-subvention-schemes-nabard-nodal-role": {
+      "id": "ethanol-interest-subvention-schemes-nabard-nodal-role",
+      "slug": "ethanol-interest-subvention-schemes-nabard-nodal-role",
+      "title": "Ethanol Interest Subvention Schemes & NABARD Nodal Role",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "NABARD",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Union Government approved **₹4,687 crore** in interest subsidies for eligible ethanol production projects.",
+        "**₹2,075 crore** released to **NABARD** as the nodal implementing agency since 2022-23.",
+        "Interest subvention provided at **6% per annum or 50% of the interest charged by banks/FIs**, whichever is lower, for a period of **5 years**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 2. Ethanol Interest Subvention Schemes & NABARD Nodal Role\n* **Priority:** P2 — High\n* **Category:** GOVERNMENT_SCHEMES | **Institution:** MoPNG / NABARD | **Event Date:** 2026-08-03\n* **Must Memorize Facts:**\n  * Union Government approved **₹4,687 crore** in interest subsidies for eligible ethanol production projects.\n  * **₹2,075 crore** released to **NABARD** as the nodal implementing agency since 2022-23.\n  * Interest subvention provided at **6% per annum or 50% of the interest charged by banks/FIs**, whichever is lower, for a period of **5 years**."
+    },
+    "sez-exports-performance-fy-2025-26-gujarat-leads": {
+      "id": "sez-exports-performance-fy-2025-26-gujarat-leads",
+      "slug": "sez-exports-performance-fy-2025-26-gujarat-leads",
+      "title": "SEZ Exports Performance FY 2025-26: Gujarat Leads",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "MACRO_ECONOMY",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Total SEZ exports rose **11.8% YoY** to **₹16,36,192 crore ($185.28 billion)** in FY 2025-26.",
+        "**Top Performing States:**"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 3. SEZ Exports Performance FY 2025-26: Gujarat Leads\n* **Priority:** P2 — High\n* **Category:** MACRO_ECONOMY | **Institution:** Ministry of Commerce | **Event Date:** 2026-08-04\n* **Must Memorize Facts:**\n  * Total SEZ exports rose **11.8% YoY** to **₹16,36,192 crore ($185.28 billion)** in FY 2025-26.\n  * **Top Performing States:**\n    1. **Gujarat:** **₹4,05,595 crore** (Rank 1)\n    2. **Karnataka:** **₹2,69,004 crore** (Rank 2)\n    3. **Maharashtra:** **₹2,43,422.50 crore** (Rank 3)\n    4. **Tamil Nadu:** **₹2,12,288 crore** (Rank 4)"
+    },
+    "rbi-bank-locker-guidelines-negligence-liability-cap": {
+      "id": "rbi-bank-locker-guidelines-negligence-liability-cap",
+      "slug": "rbi-bank-locker-guidelines-negligence-liability-cap",
+      "title": "RBI Bank Locker Guidelines: Negligence Liability Cap",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "In cases of fire, theft, burglary, robbery, building collapse, or fraud by bank staff due to bank negligence, bank compensation is capped at **100 times the prevailing annual locker rent**.",
+        "Mandates CCTV coverage at entry/exit points of strong rooms with footage preserved for **at least 180 days**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 4. RBI Bank Locker Guidelines: Negligence Liability Cap\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-08-06\n* **Must Memorize Facts:**\n  * In cases of fire, theft, burglary, robbery, building collapse, or fraud by bank staff due to bank negligence, bank compensation is capped at **100 times the prevailing annual locker rent**.\n  * Mandates CCTV coverage at entry/exit points of strong rooms with footage preserved for **at least 180 days**."
+    },
+    "export-promotion-mission-exim-bank-designated-implementing-agency": {
+      "id": "export-promotion-mission-exim-bank-designated-implementing-agency",
+      "slug": "export-promotion-mission-exim-bank-designated-implementing-agency",
+      "title": "Export Promotion Mission: EXIM Bank Designated Implementing Agency",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**EXIM Bank** designated as the implementing agency for interest subvention support on pre- and post-shipment export credit from **April 1, 2026** (transitioned from RBI pilot)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 5. Export Promotion Mission: EXIM Bank Designated Implementing Agency\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** EXIM Bank / Commerce Ministry | **Event Date:** 2026-08-07\n* **Must Memorize Facts:**\n  * **EXIM Bank** designated as the implementing agency for interest subvention support on pre- and post-shipment export credit from **April 1, 2026** (transitioned from RBI pilot)."
+    },
+    "epfo-account-timelines-member-id-architecture": {
+      "id": "epfo-account-timelines-member-id-architecture",
+      "slug": "epfo-account-timelines-member-id-architecture",
+      "title": "EPFO Account Timelines & Member ID Architecture",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "PENSION_SYSTEMS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**EPF Member ID:** **22-digit alphanumeric identifier** unique to a specific job/establishment.",
+        "**Universal Account Number (UAN):** **12-digit permanent number** linking all employment accounts.",
+        "**Inoperative Account Timeline:** Account becomes inoperative after **3 years** following retirement, permanent migration, or death. Members retiring before 55 continue earning interest until **age 58**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 6. EPFO Account Timelines & Member ID Architecture\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS | **Institution:** EPFO | **Event Date:** 2026-08-08\n* **Must Memorize Facts:**\n  * **EPF Member ID:** **22-digit alphanumeric identifier** unique to a specific job/establishment.\n  * **Universal Account Number (UAN):** **12-digit permanent number** linking all employment accounts.\n  * **Inoperative Account Timeline:** Account becomes inoperative after **3 years** following retirement, permanent migration, or death. Members retiring before 55 continue earning interest until **age 58**."
+    },
+    "paul-merchants-granted-perpetual-ad-ii-forex-license": {
+      "id": "paul-merchants-granted-perpetual-ad-ii-forex-license",
+      "slug": "paul-merchants-granted-perpetual-ad-ii-forex-license",
+      "title": "Paul Merchants Granted Perpetual AD-II Forex License",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "RBI granted Paul Merchants a **perpetual Authorised Dealer Category-II (AD-II) licence** under FEMA (Authorised Persons) Regulations, 2026.",
+        "Permitted to conduct non-trade current account transactions and **foreign trade transactions up to ₹25 lakh per transaction**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 7. Paul Merchants Granted Perpetual AD-II Forex License\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-08-08\n* **Must Memorize Facts:**\n  * RBI granted Paul Merchants a **perpetual Authorised Dealer Category-II (AD-II) licence** under FEMA (Authorised Persons) Regulations, 2026.\n  * Permitted to conduct non-trade current account transactions and **foreign trade transactions up to ₹25 lakh per transaction**."
+    },
+    "world-bank-reports-on-extreme-heat-ai-labor-economics-2026": {
+      "id": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
+      "slug": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
+      "title": "World Bank Reports on Extreme Heat & AI Labor Economics (2026)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "MONETARY_POLICY",
+      "secondaryCategories": [],
+      "primaryInstitution": "INTERNATIONAL_BODIES",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**A Livable Future Report:** Extreme heat cost India **247 billion potential labour hours and $194 billion in income in 2024** (agriculture 66%, construction 20%).",
+        "**World Development Report 2026 (Promise of AI):** Only **4.5% of jobs in low- and middle-income countries** are at risk of automation from Generative AI, compared to **14.2% in high-income economies**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "13-august-2026-cgb-mcq-top50",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 8. World Bank Reports on Extreme Heat & AI Labor Economics (2026)\n* **Priority:** P2 — High\n* **Category:** REPORTS_AND_INDICES | **Institution:** World Bank | **Event Date:** 2026-08-09\n* **Must Memorize Facts:**\n  * **A Livable Future Report:** Extreme heat cost India **247 billion potential labour hours and $194 billion in income in 2024** (agriculture 66%, construction 20%).\n  * **World Development Report 2026 (Promise of AI):** Only **4.5% of jobs in low- and middle-income countries** are at risk of automation from Generative AI, compared to **14.2% in high-income economies**.\n\n---"
     }
   },
   "topicSlugMap": {
@@ -24220,7 +24633,17 @@
     "sebi-margin-trading-facility-mtf-overhaul-consultation": "sebi-margin-trading-facility-mtf-overhaul-consultation",
     "global-gdp-outlooks-world-bank-oecd-june-2026-releases": "global-gdp-outlooks-world-bank-oecd-june-2026-releases",
     "irdai-overhauls-insurer-processing-fees-governance-ai-working-group": "irdai-overhauls-insurer-processing-fees-governance-ai-working-group",
-    "apex-regulatory-executive-appointments-june-2026": "apex-regulatory-executive-appointments-june-2026"
+    "apex-regulatory-executive-appointments-june-2026": "apex-regulatory-executive-appointments-june-2026",
+    "irdai-master-framework-insurance-intermediaries-governance-investment-limits": "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
+    "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework": "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
+    "ncgtc-revised-norms-for-microfinance-institutions-mfis": "ncgtc-revised-norms-for-microfinance-institutions-mfis",
+    "ethanol-interest-subvention-schemes-nabard-nodal-role": "ethanol-interest-subvention-schemes-nabard-nodal-role",
+    "sez-exports-performance-fy-2025-26-gujarat-leads": "sez-exports-performance-fy-2025-26-gujarat-leads",
+    "rbi-bank-locker-guidelines-negligence-liability-cap": "rbi-bank-locker-guidelines-negligence-liability-cap",
+    "export-promotion-mission-exim-bank-designated-implementing-agency": "export-promotion-mission-exim-bank-designated-implementing-agency",
+    "epfo-account-timelines-member-id-architecture": "epfo-account-timelines-member-id-architecture",
+    "paul-merchants-granted-perpetual-ad-ii-forex-license": "paul-merchants-granted-perpetual-ad-ii-forex-license",
+    "world-bank-reports-on-extreme-heat-ai-labor-economics-2026": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026"
   },
   "indexes": {
     "byPriority": {
@@ -24236,6 +24659,7 @@
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
         "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
         "insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
+        "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
         "mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push",
@@ -24270,6 +24694,7 @@
       ],
       "P1_CRITICAL_MEMORIZE": [
         "16th-finance-commission-submits-devolution-report-for-20262031-41-retained",
+        "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
         "national-co-operative-development-corporation-ncdc-amendment-bill-2026-passed",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
@@ -24321,7 +24746,10 @@
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
         "epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-3-min",
+        "epfo-account-timelines-member-id-architecture",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
+        "export-promotion-mission-exim-bank-designated-implementing-agency",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "finance-ministry-announces-1-lakh-crore-economic-stabilisation-fund-3-min",
         "finance-ministry-eases-fdi-under-automatic-route-for-foreign-firms-with-up-to-10-chinese-stake-3-min",
@@ -24381,12 +24809,14 @@
         "national-handloom-day-7-august-4th-handloom-census-3-min",
         "national-investment-policy-for-urea-2026-nipu-2026-3-min",
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
+        "ncgtc-revised-norms-for-microfinance-institutions-mfis",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "niti-aayog-export-preparedness-index-epi-2024-4th-edition-3-min",
         "niti-aayog-report-reimagining-care-2-min",
         "niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
         "paimana-infrastructure-governance-165-indicator-dashboard-4-min",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
+        "paul-merchants-granted-perpetual-ad-ii-forex-license",
         "periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026-3-min",
         "pfc-board-approves-merger-with-subsidiary-rec-ltd-3-min",
         "pfrda-constitutes-high-level-panels-assured-payouts-dr-ms-sahoo-saarg-3-min",
@@ -24414,6 +24844,7 @@
         "public-sector-banks-asset-quality-fy26-3-min",
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
+        "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-builds-second-high-security-greenfield-data-centre-in-bhubaneswar-3-min",
         "rbi-caps-net-rupee-fx-positions-nop-inr-at-100-million-for-ad-banks-3-min",
         "rbi-commercial-banks-credit-facilities-directions-2026-100-collateral-for-broker-credit-3-min",
@@ -24523,6 +24954,7 @@
         "sebi-streamlines-demat-transfer-process-from-150-days-to-30-days-3-min",
         "sebi-swagat-fi-framework-for-trusted-foreign-investors-3-min",
         "senior-civil-service-foreign-deputations-approved-by-acc",
+        "sez-exports-performance-fy-2025-26-gujarat-leads",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
@@ -24536,7 +24968,8 @@
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "wma-limit-for-government-of-india-h1-fy27-250000-crore-3-min",
         "world-bank-approves-830-million-loan-for-pm-setu-iti-modernization-3-min",
-        "world-bank-country-income-classification-july-2026-update"
+        "world-bank-country-income-classification-july-2026-update",
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026"
       ],
       "P3_MODERATE": [
         "131-padma-awards-2026-announced",
@@ -24860,6 +25293,7 @@
         "irdai-approves-allianz-jio-reinsurance-kiwi-general-insurance-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
         "irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026-3-min",
+        "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "irdai-master-regulations-protec-licence-3-min",
         "irdai-notifies-4-obligatory-cession-to-national-reinsurer-for-fy27-3-min",
         "irdai-overhauls-insurer-processing-fees-governance-ai-working-group",
@@ -25084,6 +25518,7 @@
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "niti-aayog-second-fiscal-health-index-fhi-2026",
         "rbi-state-finances-study-demographic-shift-pension-burden-3-min",
+        "sez-exports-performance-fy-2025-26-gujarat-leads",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min"
       ],
       "INTERNATIONAL_AFFAIRS": [
@@ -25136,6 +25571,7 @@
         "239th-cbt-meeting-epf-interest-rate-maintained-at-825-for-fy26-3-min",
         "anubhav-awards-2026",
         "epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-3-min",
+        "epfo-account-timelines-member-id-architecture",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
         "icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox-3-min",
         "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
@@ -25163,7 +25599,8 @@
         "government-rbi-retain-4-inflation-target-band-till-march-31-2031-3-min",
         "national-startup-day-dpiit-states-startup-ranking-framework-srf-50-3-min",
         "niti-aayog-export-preparedness-index-epi-2024-4th-edition-3-min",
-        "rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims-3-min"
+        "rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims-3-min",
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026"
       ],
       "BANKING_REGULATION": [
         "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
@@ -25182,8 +25619,10 @@
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
         "dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured-3-min",
         "dicgc-notifies-risk-based-premium-rbp-framework-for-deposit-insurance",
+        "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "emirates-nbd-acquires-up-to-74-stake-in-rbl-bank",
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
+        "export-promotion-mission-exim-bank-designated-implementing-agency",
         "federal-bank-acquires-standard-chartered-bank-india-credit-card-portfolio",
         "financial-inclusion-9992-villages-covered-with-banking-outlets",
         "forbes-worlds-best-banks-2026-india",
@@ -25207,14 +25646,17 @@
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
         "national-co-operative-development-corporation-ncdc-amendment-bill-2026-passed",
         "national-housing-bank-launches-gruh-sugam-portal",
+        "ncgtc-revised-norms-for-microfinance-institutions-mfis",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "paul-merchants-granted-perpetual-ad-ii-forex-license",
         "pfc-board-approves-merger-with-subsidiary-rec-ltd-3-min",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "prudentialbharti-life",
         "public-sector-banks-asset-quality-fy26-3-min",
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
+        "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-builds-second-high-security-greenfield-data-centre-in-bhubaneswar-3-min",
         "rbi-cancels-banking-license-of-paytm-payments-bank-limited-under-section-224",
         "rbi-cancels-sarvodaya-co-operative-bank-license-curbs-nagar-sahakari-bank",
@@ -25358,6 +25800,7 @@
         "digital-food-currency-pilot-launched-by-ministry-of-consumer-affairs-rbi-3-min",
         "e-shram-portal-one-stop-solution-2-min",
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "galaxeye-launches-mission-drishti-on-spacex-falcon-9",
         "government-modifies-pm-fasal-bima-yojana-12-penalty-interest-for-delayed-claims-3-min",
@@ -25503,6 +25946,7 @@
         "irdai-approves-allianz-jio-reinsurance-kiwi-general-insurance-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
         "irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026-3-min",
+        "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "irdai-master-regulations-protec-licence-3-min",
         "irdai-notifies-4-obligatory-cession-to-national-reinsurer-for-fy27-3-min",
         "irdai-overhauls-insurer-processing-fees-governance-ai-working-group",
@@ -25590,6 +26034,7 @@
         "delhidehradun-economic-corridor-210-km-11868-cr-inaugurated",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "digilocker-aaeri",
+        "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "disinvestment-asset-monetization-target-set-at-80000-crore-for-fy27-3-min",
         "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
@@ -25608,6 +26053,7 @@
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
         "epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-3-min",
+        "epfo-account-timelines-member-id-architecture",
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
         "eu-cbam",
         "exercise-maitree-xv",
@@ -25801,6 +26247,7 @@
         "saraswati-samman-2025-kk-birla-foundation",
         "sarbananda-sonowal-launches-e-samudra-maritime-governance-portal",
         "sarvottam-jeevan-raksha-padak-2026",
+        "sez-exports-performance-fy-2025-26-gujarat-leads",
         "sipri-international-arms-transfers-report-2026",
         "sipri-military-expenditure-2025",
         "skyroot-aerospace-becomes-indias-1st-space-tech-unicorn",
@@ -25871,6 +26318,7 @@
         "digital-food-currency-pilot-launched-by-ministry-of-consumer-affairs-rbi-3-min",
         "emirates-nbd-acquires-up-to-74-stake-in-rbl-bank",
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
+        "export-promotion-mission-exim-bank-designated-implementing-agency",
         "first-meeting-of-payments-regulatory-board-prb",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "government-rbi-retain-4-inflation-target-band-till-march-31-2031-3-min",
@@ -25887,12 +26335,14 @@
         "nasa-artemis-ii-crewed-lunar-orbit-mission-launches",
         "nse-ix-soft-launches-global-access-platform-under-rbi-lrs",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "paul-merchants-granted-perpetual-ad-ii-forex-license",
         "pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
         "pfc-board-approves-merger-with-subsidiary-rec-ltd-3-min",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
+        "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-builds-second-high-security-greenfield-data-centre-in-bhubaneswar-3-min",
         "rbi-cancels-banking-license-of-paytm-payments-bank-limited-under-section-224",
         "rbi-cancels-sarvodaya-co-operative-bank-license-curbs-nagar-sahakari-bank",
@@ -26021,6 +26471,7 @@
         "world-bank-approves-340-million-for-amaravati-capital-city-project",
         "world-bank-approves-830-million-loan-for-pm-setu-iti-modernization-3-min",
         "world-bank-country-income-classification-july-2026-update",
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
         "world-bank-south-asia-economic-outlook",
         "world-bank-state-trends-of-carbon-pricing-2026",
         "world-bank-women-business-and-the-law-2026-report"
@@ -26050,6 +26501,12 @@
         "pfrda-mandates-annual-external-audit-for-points-of-presence-pops",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min"
+      ],
+      "NABARD": [
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
+        "nabard-launches-national-climate-stack-challenge-on-dicra",
+        "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
+        "rsvc-amrit-platform"
       ],
       "MINISTRY_OF_FINANCE": [
         "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
@@ -26127,10 +26584,8 @@
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "upi-records-2170-billion-transactions-in-january-2026"
       ],
-      "NABARD": [
-        "nabard-launches-national-climate-stack-challenge-on-dicra",
-        "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
-        "rsvc-amrit-platform"
+      "NCGTC": [
+        "ncgtc-revised-norms-for-microfinance-institutions-mfis"
       ]
     },
     "byMonth": {
@@ -26412,16 +26867,20 @@
         "defence-vessels",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "digilocker-aaeri",
+        "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "e-samudra-maritime-governance",
         "e-shram-portal-one-stop-solution-2-min",
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
+        "epfo-account-timelines-member-id-architecture",
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
         "eu-cbam",
         "exercise-maitree-xv",
         "exercise-udara-shakti-2026",
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
+        "export-promotion-mission-exim-bank-designated-implementing-agency",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "fields-medals-2026",
         "fitch-sovereign-rating",
@@ -26449,6 +26908,7 @@
         "indias-1st-telecom-manufacturing-zone-tmz",
         "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "irdai-master-regulations-protec-licence-3-min",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "jal-jeevan-mission-jjm",
@@ -26483,6 +26943,7 @@
         "national-investment-policy-for-urea-2026-nipu-2026-3-min",
         "national-sports-awards-2025",
         "ncdex-nidhi",
+        "ncgtc-revised-norms-for-microfinance-institutions-mfis",
         "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "niti-aayog-report-reimagining-care-2-min",
@@ -26493,6 +26954,7 @@
         "parichha-dam-jhansi-betwa-river",
         "parichha-weir-icid-heritage-status",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "paul-merchants-granted-perpetual-ad-ii-forex-license",
         "periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026-3-min",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pm-e-drive-amendment-1000-cr-boost-outlay-raised-to-11900-cr-4-min",
@@ -26519,6 +26981,7 @@
         "public-sector-banks-asset-quality-fy26-3-min",
         "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "rainbow-trout-ras-facility",
+        "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-defers-revised-loan-recovery-recovery-agent-directions-to-january-1-2027",
@@ -26547,6 +27010,7 @@
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
         "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "senior-civil-service-foreign-deputations-approved-by-acc",
+        "sez-exports-performance-fy-2025-26-gujarat-leads",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
         "sports",
@@ -26569,6 +27033,7 @@
         "vyomaai-lt-together-ai",
         "wipo-genai-patent-report",
         "women-schemes-swavalambini-navya",
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
         "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
         "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
@@ -27045,16 +27510,20 @@
         "defence-vessels",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
         "digilocker-aaeri",
+        "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "donald-trump-signs-executive-orders-on-birthright-citizenship",
         "dot-sim-card-rule",
         "e-samudra-maritime-governance",
         "e-shram-portal-one-stop-solution-2-min",
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
+        "epfo-account-timelines-member-id-architecture",
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
         "eu-cbam",
         "exercise-maitree-xv",
         "exercise-udara-shakti-2026",
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
+        "export-promotion-mission-exim-bank-designated-implementing-agency",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "fields-medals-2026",
         "fitch-sovereign-rating",
@@ -27082,6 +27551,7 @@
         "indias-1st-telecom-manufacturing-zone-tmz",
         "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "irdai-master-regulations-protec-licence-3-min",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "jal-jeevan-mission-jjm",
@@ -27116,6 +27586,7 @@
         "national-investment-policy-for-urea-2026-nipu-2026-3-min",
         "national-sports-awards-2025",
         "ncdex-nidhi",
+        "ncgtc-revised-norms-for-microfinance-institutions-mfis",
         "negd-aaeri-partner-for-digilocker-integrated-aaeri-verify-platform",
         "nepal-rastra-bank-permits-200-500-indian-notes-3-min",
         "niti-aayog-report-reimagining-care-2-min",
@@ -27126,6 +27597,7 @@
         "parichha-dam-jhansi-betwa-river",
         "parichha-weir-icid-heritage-status",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "paul-merchants-granted-perpetual-ad-ii-forex-license",
         "periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026-3-min",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pm-e-drive-amendment-1000-cr-boost-outlay-raised-to-11900-cr-4-min",
@@ -27152,6 +27624,7 @@
         "public-sector-banks-asset-quality-fy26-3-min",
         "r-praggnanandhaa-wins-grand-chess-tour-st-louis-rapid-blitz-2026",
         "rainbow-trout-ras-facility",
+        "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-credit-valuation-adjustment-cva-risk-capital-framework-4-min",
         "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
         "rbi-defers-revised-loan-recovery-recovery-agent-directions-to-january-1-2027",
@@ -27180,6 +27653,7 @@
         "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
         "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "senior-civil-service-foreign-deputations-approved-by-acc",
+        "sez-exports-performance-fy-2025-26-gujarat-leads",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
         "sports",
@@ -27202,6 +27676,7 @@
         "vyomaai-lt-together-ai",
         "wipo-genai-patent-report",
         "women-schemes-swavalambini-navya",
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
         "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
         "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
@@ -27595,6 +28070,22 @@
       "sourceOnlyCount": 17,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 17 canonical topics for 2026-06 week-1-4."
+    },
+    {
+      "batchId": "13-august-2026-cgb-mcq-top50",
+      "sourceName": "CGB_MENTORS",
+      "dateRange": "2026-08 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 10,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 10,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 10,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 10 canonical topics for 2026-08 week-1-4."
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "metadata": {
     "standard": "W11.2 Permanent Ingestion Pipeline & Reusable Layer-B Verification",
-    "timestamp": "2026-08-29T12:22:49.469Z",
-    "bootstrapCorpusSize": 615,
+    "timestamp": "2026-08-30T04:00:50.305Z",
+    "bootstrapCorpusSize": 625,
     "simulationItemsProcessed": 8,
     "all8ScenariosPassed": true
   },
   "report": {
-    "timestamp": "2026-08-29T12:22:49.364Z",
+    "timestamp": "2026-08-30T04:00:50.095Z",
     "batchId": "SIMULATION-OCTOBER-2026",
     "totalIncomingItems": 8,
     "newEntitiesCreated": 3,
@@ -485,6 +485,36 @@
     {
       "queueId": "queue-conflict-1788006169439-ce8g",
       "timestamp": "2026-08-29T12:22:49.439Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "FUTURE-FEED-06",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788006170745-1149",
+      "timestamp": "2026-08-29T12:22:50.745Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "SMOKE-05-CONFLICT",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'Policy Repo Rate was increased to 6.25% by unanimous vote.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "Policy Repo Rate was increased to 6.25% by unanimous vote.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788062450242-mwdw",
+      "timestamp": "2026-08-30T04:00:50.242Z",
       "reason": "CONFLICT_DETECTED",
       "severity": "HIGH",
       "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
