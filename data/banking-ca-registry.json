@@ -3,12 +3,12 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 642,
-    "activeP1Count": 59,
-    "activeP1RevisionMinutes": 442,
-    "totalP2Count": 276,
+    "totalCanonicalTopics": 654,
+    "activeP1Count": 61,
+    "activeP1RevisionMinutes": 457,
+    "totalP2Count": 286,
     "totalP3Count": 307,
-    "totalBatchesIngested": 16
+    "totalBatchesIngested": 17
   },
   "examProfiles": [
     {
@@ -24755,6 +24755,481 @@
         }
       ],
       "contentMarkdown": "### 1. 2026 Glasgow Commonwealth Games (23rd Edition): India's Performance & Medal Tally\n* **Priority:** P2 — High\n* **Category:** SPORTS_CHAMPIONSHIPS\n* **Institution:** Commonwealth Games Federation (CGF) / IOA\n* **Event Date:** 2026-08-02\n* **Revision Effort:** ~6 min\n* **Status:** CONCLUDED\n\n#### What Happened\n* The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**.\n\n#### Must Memorize\n* **Key Tournament Facts:**\n  * **Edition:** 23rd Commonwealth Games | **Motto:** *\"Sport Is Just the Beginning\"* | **Mascot:** *Finnie the unicorn*.\n  * **Opening Ceremony Flag Bearers for India:** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).\n  * **Indian Contingent:** 122 athletes across 13 disciplines (8 able-bodied, 5 para).\n* **Overall Top 5 Medal Tally:**\n  1. **Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total** (Rank 1)\n  2. **England:** **29 Gold, 45 Silver, 36 Bronze = 110 Total** (Rank 2)\n  3. **Canada:** **19 Gold, 20 Silver, 23 Bronze = 62 Total** (Rank 3)\n  4. **India:** **13 Gold, 17 Silver, 9 Bronze = 39 Total** (Rank 4)\n  5. **Scotland:** **13 Gold, 9 Silver, 17 Bronze = 39 Total** (Rank 5 — India ranked ahead on silver medal tiebreak)\n* **Historic Firsts & Milestone Performances:**\n  * **No. 1 Nation in Boxing:** India topped the boxing medal table with an unprecedented **7 Gold and 3 Silver medals** (10 medals total).\n  * **First Indian Medal:** **Jhandu Kumar** won India's first medal of the Games (Bronze in Men's Heavyweight Para Powerlifting).\n  * **First Indian Gold:** **Mirabai Chanu** (Women's 48kg Weightlifting).\n  * **First-Ever Judo Golds:** **Asmita Dey** (Women's 48kg) and **Harsh Singh** (Men's 60kg) became India's first-ever CWG Judo Gold medalists.\n  * **First-Ever Para-Athletics Gold:** **Sharmila Dhankar** (Women's Shot Put F57).\n  * **Distance Running Record:** **Gulveer Singh** became the first Indian track & field athlete to win two individual medals at a single CWG (Silver in 10,000m, Bronze in 5,000m).\n  * **First Decathlon Medal:** **Tejaswin Shankar** won historic Bronze with 7,976 points.\n  * **First High Jump Silver:** **Sarvesh Kushare** cleared 2.25m for historic silver.\n  * **Men's Javelin:** **Neeraj Chopra** won Silver (85.83m) and **Yash Vir Singh** won Bronze (85.41m) in a double podium.\n* **Next Edition (2030 Centenary Games):**\n  * Awarded to **Ahmedabad, Gujarat, India** (October 2030), marking 100 years since the inaugural 1930 Hamilton Games.\n\n#### Exam Focus\n* India's finish & medal count: 4th rank, 39 medals (13 Gold, 17 Silver, 9 Bronze).\n* Top medal-winning discipline: Boxing (7 Gold, 3 Silver).\n* First medal: Jhandu Kumar (Bronze, Para Powerlifting).\n* Next host: Ahmedabad, India (2030 Centenary Commonwealth Games)."
+    },
+    "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction": {
+      "id": "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
+      "slug": "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
+      "title": "SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auction",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "SEBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "SEBI overhauled the trading framework for commodity Exchange Traded Funds (ETFs), introducing dynamic price bands, objective base-price calculation methodologies, and a pre-open call auction mechanism to eliminate pricing anomalies and align secondary ETF market trading with underlying physical and commodity futures prices."
+      ],
+      "mustMemorizeFacts": [
+        "**Dynamic Price Bands Architecture:**",
+        "For equity and debt ETFs (excluding overnight and liquid ETFs), SEBI instituted **dynamic price bands with an initial limit of $\\pm 10\\%$**.",
+        "The price band can be expanded up to **$\\pm 20\\%$** following a mandatory cooling-off period:",
+        "**15-minute cooling-off period** if the ETF price moves $9.90\\%$ or more from the base price during normal trading.",
+        "**5-minute cooling-off period** if such extreme movement occurs during the **final 30 minutes** of trading.",
+        "Overnight and liquid ETFs continue to operate under a **fixed price band of $\\pm 5\\%$**.",
+        "**Base Price Calculation Hierarchy:**",
+        "**Effective Date:** **September 1, 2026**."
+      ],
+      "knowUnderstandContext": [
+        "Protects retail investors from execution slippage in illiquid commodity ETFs by capping intraday swings with cooling-off triggers and anchoring prices to 30-minute VWAP."
+      ],
+      "examFocus": [
+        "Initial dynamic price band for ETFs: $\\pm 10\\%$ (expandable to $\\pm 20\\%$).",
+        "Fixed price band for overnight/liquid ETFs: $\\pm 5\\%$.",
+        "Cooling-off duration: 15 minutes (normal) vs 5 minutes (last 30 mins).",
+        "Base price fallback: 30-min VWAP $\\to$ LTP $\\to$ Closing NAV $\\to$ T-1 NAV (by April 2027)."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 1. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auction\n* **Priority:** P1 — Critical / Deep\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-06-18\n* **Revision Effort:** ~8 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* SEBI overhauled the trading framework for commodity Exchange Traded Funds (ETFs), introducing dynamic price bands, objective base-price calculation methodologies, and a pre-open call auction mechanism to eliminate pricing anomalies and align secondary ETF market trading with underlying physical and commodity futures prices.\n\n#### Must Memorize\n* **Dynamic Price Bands Architecture:**\n  * For equity and debt ETFs (excluding overnight and liquid ETFs), SEBI instituted **dynamic price bands with an initial limit of $\\pm 10\\%$**.\n  * The price band can be expanded up to **$\\pm 20\\%$** following a mandatory cooling-off period:\n    * **15-minute cooling-off period** if the ETF price moves $9.90\\%$ or more from the base price during normal trading.\n    * **5-minute cooling-off period** if such extreme movement occurs during the **final 30 minutes** of trading.\n  * Overnight and liquid ETFs continue to operate under a **fixed price band of $\\pm 5\\%$**.\n* **Base Price Calculation Hierarchy:**\n  1. Base price is determined as the **Volume-Weighted Average Price (VWAP)** of trades executed during the **last 30 minutes of trading** on the previous trading day.\n  2. If no trades occur in the last 30 minutes $\\longrightarrow$ **Last Traded Price (LTP)** of the previous trading day is used.\n  3. If no trades occur throughout the entire trading day $\\longrightarrow$ Latest available **closing Net Asset Value (NAV)** serves as base price.\n  4. Exchanges and AMCs must transition to using **$T-1$ day closing NAV** as the universal base price from **April 1, 2027**.\n* **Effective Date:** **September 1, 2026**.\n\n#### Know / Understand\n* Protects retail investors from execution slippage in illiquid commodity ETFs by capping intraday swings with cooling-off triggers and anchoring prices to 30-minute VWAP.\n\n#### Exam Focus\n* Initial dynamic price band for ETFs: $\\pm 10\\%$ (expandable to $\\pm 20\\%$).\n* Fixed price band for overnight/liquid ETFs: $\\pm 5\\%$.\n* Cooling-off duration: 15 minutes (normal) vs 5 minutes (last 30 mins).\n* Base price fallback: 30-min VWAP $\\to$ LTP $\\to$ Closing NAV $\\to$ T-1 NAV (by April 2027).\n\n---"
+    },
+    "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance": {
+      "id": "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
+      "slug": "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
+      "title": "RBI Master Directions: Payment System Operators (PSO) Perpetual Licensing & Governance",
+      "priority": "P1_CRITICAL_MEMORIZE",
+      "revisionMinutes": 7,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "The Reserve Bank of India (RBI) issued comprehensive Master Directions on Authorisation to Operate a Payment System, granting perpetual operational validity to compliant Payment System Operators (PSOs) while imposing strict cross-border investment caps on FATF non-compliant jurisdictions."
+      ],
+      "mustMemorizeFacts": [
+        "**Perpetual Licensing Norms:**",
+        "Authorisations granted to new PSOs will be **perpetually valid** (removing periodic renewal bureaucracy).",
+        "Existing operators receive perpetual validity upon renewal provided they meet regulatory criteria with no supervisory concerns; non-compliant operators receive only **1-year temporary renewals**.",
+        "**FATF Non-Compliant Jurisdiction Safeguards:**",
+        "Investors originating from jurisdictions identified by the Financial Action Task Force (FATF) as non-compliant with AML/CFT standards **cannot acquire significant influence in a PSO**.",
+        "Aggregate voting rights and shareholding for such investors are **strictly capped below 20%**.",
+        "**Voluntary Surrender & Cooling-off:**",
+        "Mandates formalized exit, consumer escrow settlement, and cooling-off frameworks for entities voluntarily surrendering PSO authorisations."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "License validity: Perpetual for new compliant PSOs (1-year conditional for deficient operators).",
+        "FATF non-compliant jurisdiction investment cap: Aggregate voting rights strictly below 20%."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 2. RBI Master Directions: Payment System Operators (PSO) Perpetual Licensing & Governance\n* **Priority:** P1 — Critical / Memorize\n* **Category:** DIGITAL_PAYMENTS\n* **Institution:** RBI\n* **Event Date:** 2026-06-20\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* The Reserve Bank of India (RBI) issued comprehensive Master Directions on Authorisation to Operate a Payment System, granting perpetual operational validity to compliant Payment System Operators (PSOs) while imposing strict cross-border investment caps on FATF non-compliant jurisdictions.\n\n#### Must Memorize\n* **Perpetual Licensing Norms:**\n  * Authorisations granted to new PSOs will be **perpetually valid** (removing periodic renewal bureaucracy).\n  * Existing operators receive perpetual validity upon renewal provided they meet regulatory criteria with no supervisory concerns; non-compliant operators receive only **1-year temporary renewals**.\n* **FATF Non-Compliant Jurisdiction Safeguards:**\n  * Investors originating from jurisdictions identified by the Financial Action Task Force (FATF) as non-compliant with AML/CFT standards **cannot acquire significant influence in a PSO**.\n  * Aggregate voting rights and shareholding for such investors are **strictly capped below 20%**.\n* **Voluntary Surrender & Cooling-off:**\n  * Mandates formalized exit, consumer escrow settlement, and cooling-off frameworks for entities voluntarily surrendering PSO authorisations.\n\n#### Exam Focus\n* License validity: Perpetual for new compliant PSOs (1-year conditional for deficient operators).\n* FATF non-compliant jurisdiction investment cap: Aggregate voting rights strictly below 20%.\n\n---"
+    },
+    "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes": {
+      "id": "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
+      "slug": "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
+      "title": "SEBI Framework: AIF Liquidation Retention & Inoperative Fund Regimes",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "SEBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) permitted to retain liquidation proceeds beyond permissible fund life to meet un-crystallised litigation/tax liabilities, provided they obtain **consent from at least 75% of investors by value**.",
+        "Introduced formal **'Inoperative Fund'** regulatory framework for wound-up funds awaiting final regulatory surrender."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 1. SEBI Framework: AIF Liquidation Retention & Inoperative Fund Regimes\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS | **Institution:** SEBI | **Event Date:** 2026-06-22\n* **Must Memorize Facts:**\n  * Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) permitted to retain liquidation proceeds beyond permissible fund life to meet un-crystallised litigation/tax liabilities, provided they obtain **consent from at least 75% of investors by value**.\n  * Introduced formal **'Inoperative Fund'** regulatory framework for wound-up funds awaiting final regulatory surrender."
+    },
+    "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms": {
+      "id": "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
+      "slug": "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
+      "title": "RBI Revised Lead Bank Scheme (LBS): Mandatory Lead District Managers (LDMs)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Mandates that every designated lead bank must appoint a **Lead District Manager (LDM) exclusively for each district** under its charge (1 district per LDM; multiple districts permitted only under exceptional approval).",
+        "Designed to strengthen block-level credit planning, District Consultative Committee (DCC) coordination, and priority sector lending flow."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 2. RBI Revised Lead Bank Scheme (LBS): Mandatory Lead District Managers (LDMs)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-06-15\n* **Must Memorize Facts:**\n  * Mandates that every designated lead bank must appoint a **Lead District Manager (LDM) exclusively for each district** under its charge (1 district per LDM; multiple districts permitted only under exceptional approval).\n  * Designed to strengthen block-level credit planning, District Consultative Committee (DCC) coordination, and priority sector lending flow."
+    },
+    "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific": {
+      "id": "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+      "slug": "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+      "title": "S&P Global Bank Leverage Ratio Rankings: Kotak Mahindra Bank Leads Asia-Pacific",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**Kotak Mahindra Bank** reported the **highest leverage ratio (16.56%)** among all Asia-Pacific lenders with assets of $\\ge \\$100\\text{ billion}$ as of March 31, 2026.",
+        "Other Indian banks: **HDFC Bank (11.14%)**, **ICICI Bank (10.84%)**, **Axis Bank (9.28%)**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 3. S&P Global Bank Leverage Ratio Rankings: Kotak Mahindra Bank Leads Asia-Pacific\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** S&P Global | **Event Date:** 2026-06-10\n* **Must Memorize Facts:**\n  * **Kotak Mahindra Bank** reported the **highest leverage ratio (16.56%)** among all Asia-Pacific lenders with assets of $\\ge \\$100\\text{ billion}$ as of March 31, 2026.\n  * Other Indian banks: **HDFC Bank (11.14%)**, **ICICI Bank (10.84%)**, **Axis Bank (9.28%)**."
+    },
+    "npci-open-source-blockchain-platform-drunix": {
+      "id": "npci-open-source-blockchain-platform-drunix",
+      "slug": "npci-open-source-blockchain-platform-drunix",
+      "title": "NPCI Open-Source Blockchain Platform: Drunix",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "NPCI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "NPCI launched **Drunix**, an open-source enterprise blockchain platform to scale tokenisation networks and digital asset infrastructure (following its earlier *Falcon* blockchain release, *FiMI* finance model, and *Vigil-AI* fraud detection)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 4. NPCI Open-Source Blockchain Platform: Drunix\n* **Priority:** P2 — High\n* **Category:** DIGITAL_PAYMENTS | **Institution:** NPCI | **Event Date:** 2026-06-25\n* **Must Memorize Facts:**\n  * NPCI launched **Drunix**, an open-source enterprise blockchain platform to scale tokenisation networks and digital asset infrastructure (following its earlier *Falcon* blockchain release, *FiMI* finance model, and *Vigil-AI* fraud detection)."
+    },
+    "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch": {
+      "id": "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
+      "slug": "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
+      "title": "Cross-Border UPI Expansion: Cambodia (KHQR Linkage) & France Launch",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "DIGITAL_PAYMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**Cambodia Linkage:** NIPL partnered with **ACLEDA Bank Plc** to enable cross-border UPI payments via Cambodia's national **KHQR** system.",
+        "**France European Hub:** First European nation to deploy UPI; expanded from Eiffel Tower to **Galeries Lafayette (Nice)**, Paris CDG Airport, and Nice Airport."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 5. Cross-Border UPI Expansion: Cambodia (KHQR Linkage) & France Launch\n* **Priority:** P2 — High\n* **Category:** DIGITAL_PAYMENTS | **Institution:** NIPL / RBI | **Event Date:** 2026-06-28\n* **Must Memorize Facts:**\n  * **Cambodia Linkage:** NIPL partnered with **ACLEDA Bank Plc** to enable cross-border UPI payments via Cambodia's national **KHQR** system.\n  * **France European Hub:** First European nation to deploy UPI; expanded from Eiffel Tower to **Galeries Lafayette (Nice)**, Paris CDG Airport, and Nice Airport."
+    },
+    "pfrda-star-nps-digital-onboarding-framework": {
+      "id": "pfrda-star-nps-digital-onboarding-framework",
+      "slug": "pfrda-star-nps-digital-onboarding-framework",
+      "title": "PFRDA StAR NPS Digital Onboarding Framework",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "PENSION_SYSTEMS",
+      "secondaryCategories": [],
+      "primaryInstitution": "PFRDA",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "PFRDA introduced **StAR NPS**, a digital onboarding and contribution platform developed by **BSE Technologies Private Limited (BTPL)** for Points of Presence (PoPs)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 6. PFRDA StAR NPS Digital Onboarding Framework\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS | **Institution:** PFRDA / BTPL | **Event Date:** 2026-06-12\n* **Must Memorize Facts:**\n  * PFRDA introduced **StAR NPS**, a digital onboarding and contribution platform developed by **BSE Technologies Private Limited (BTPL)** for Points of Presence (PoPs)."
+    },
+    "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem": {
+      "id": "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
+      "slug": "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
+      "title": "Sahamati Recognised by RBI as SRO for Account Aggregator Ecosystem",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "RBI officially recognised **Sahamati** (non-profit alliance) as the **Self-Regulatory Organisation (SRO)** for the Account Aggregator (NBFC-AA) ecosystem."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 7. Sahamati Recognised by RBI as SRO for Account Aggregator Ecosystem\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-06-14\n* **Must Memorize Facts:**\n  * RBI officially recognised **Sahamati** (non-profit alliance) as the **Self-Regulatory Organisation (SRO)** for the Account Aggregator (NBFC-AA) ecosystem."
+    },
+    "world-bank-15-billion-development-policy-financing-dpf-for-india": {
+      "id": "world-bank-15-billion-development-policy-financing-dpf-for-india",
+      "slug": "world-bank-15-billion-development-policy-financing-dpf-for-india",
+      "title": "World Bank $1.5 Billion Development Policy Financing (DPF) for India",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "INTERNATIONAL_BODIES",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "World Bank approved **$1.5 billion DPF package** to support India's structural economic reforms, private sector job creation, and sustainable infrastructure development."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 8. World Bank $1.5 Billion Development Policy Financing (DPF) for India\n* **Priority:** P2 — High\n* **Category:** INTERNATIONAL_FINANCE | **Institution:** World Bank | **Event Date:** 2026-06-16\n* **Must Memorize Facts:**\n  * World Bank approved **$1.5 billion DPF package** to support India's structural economic reforms, private sector job creation, and sustainable infrastructure development."
+    },
+    "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site": {
+      "id": "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
+      "slug": "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
+      "title": "Jai Prakash Narayan Bird Sanctuary (Surha Tal) Designated 100th Ramsar Site",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "**Jai Prakash Narayan Bird Sanctuary (Surha Tal) in Ballia, Uttar Pradesh** designated as **India's 100th Ramsar Site** (101st is Glaw Lake, Arunachal Pradesh).",
+        "India signed Ramsar Convention on **1 February 1982**; first sites were Chilika Lake (Odisha) and Keoladeo NP (Rajasthan); Sundarbans is largest."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 9. Jai Prakash Narayan Bird Sanctuary (Surha Tal) Designated 100th Ramsar Site\n* **Priority:** P2 — High\n* **Category:** NATIONAL_AND_STATES | **Institution:** MoEFCC / Ramsar Secretariat | **Event Date:** 2026-06-05\n* **Must Memorize Facts:**\n  * **Jai Prakash Narayan Bird Sanctuary (Surha Tal) in Ballia, Uttar Pradesh** designated as **India's 100th Ramsar Site** (101st is Glaw Lake, Arunachal Pradesh).\n  * India signed Ramsar Convention on **1 February 1982**; first sites were Chilika Lake (Odisha) and Keoladeo NP (Rajasthan); Sundarbans is largest."
+    },
+    "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status": {
+      "id": "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
+      "slug": "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
+      "title": "Garden Reach Shipbuilders & Engineers (GRSE) Accorded 29th Navratna Status",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "MINISTRY_OF_FINANCE",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "DPE upgraded **Garden Reach Shipbuilders and Engineers (GRSE) Limited** (HQ: Kolkata, Ministry of Defence) to **29th Navratna CPSE**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-06-01",
+      "firstPublicationDate": "2026-06-15",
+      "lastUpdatedDate": "2026-06-15",
+      "chronologicalMonth": "2026-06",
+      "eventMonth": "2026-06",
+      "activeInMonths": [
+        "2026-06"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "17-june-2026-cgb-top100-mcqs",
+          "publishedDate": "2026-06-15"
+        }
+      ],
+      "contentMarkdown": "### 10. Garden Reach Shipbuilders & Engineers (GRSE) Accorded 29th Navratna Status\n* **Priority:** P2 — High\n* **Category:** CORPORATE_UPDATES | **Institution:** DPE / Ministry of Finance | **Event Date:** 2026-06-27\n* **Must Memorize Facts:**\n  * DPE upgraded **Garden Reach Shipbuilders and Engineers (GRSE) Limited** (HQ: Kolkata, Ministry of Defence) to **29th Navratna CPSE**.\n\n---"
     }
   },
   "topicSlugMap": {
@@ -25399,7 +25874,19 @@
     "mospi-introduces-index-of-services-production-isp-with-base-year-202425": "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
     "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns": "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
     "frsb-2020-taxable-rate-maintained-at-805": "frsb-2020-taxable-rate-maintained-at-805",
-    "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally": "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally"
+    "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally": "2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
+    "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction": "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
+    "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance": "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
+    "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes": "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
+    "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms": "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
+    "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific": "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+    "npci-open-source-blockchain-platform-drunix": "npci-open-source-blockchain-platform-drunix",
+    "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch": "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
+    "pfrda-star-nps-digital-onboarding-framework": "pfrda-star-nps-digital-onboarding-framework",
+    "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem": "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
+    "world-bank-15-billion-development-policy-financing-dpf-for-india": "world-bank-15-billion-development-policy-financing-dpf-for-india",
+    "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site": "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
+    "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status": "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status"
   },
   "indexes": {
     "byPriority": {
@@ -25446,6 +25933,7 @@
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
+        "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
         "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
         "taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-mdr-charges"
       ],
@@ -25462,6 +25950,7 @@
         "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending",
         "rbi-financial-inclusion-index-fi-index-march-2026-rises-to-700",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+        "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
         "rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
         "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
         "sebi-draft-settlement-regulations-2026-fast-track-route-for-cases-up-to-10-lakh"
@@ -25492,6 +25981,7 @@
         "cpi-inflation-july-2026-on-new-base-2024100-445-yoy-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
         "customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154-3-min",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
@@ -25518,6 +26008,7 @@
         "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
         "frsb-2020-taxable-rate-maintained-at-805",
+        "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
         "gi-tags-2025-reforms-national-landscape-3-min",
         "glaw-lake-in-arunachal-pradesh-designated-indias-101st-ramsar-site",
@@ -25557,6 +26048,7 @@
         "irdai-retains-d-siis-lic-new-india-assurance-and-gic-re-for-fy26-3-min",
         "irdai-revises-information-security-cybersecurity-governance-guidelines-3-min",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
+        "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
         "jal-jeevan-mission-jjm-7-year-review-jjm-20-extension-3-min",
         "khelo-india-ansf-expansion-3-min",
         "lakhpati-didi-target-doubled-to-6-crore-by-march-2029-3-min",
@@ -25584,6 +26076,7 @@
         "niti-aayog-export-preparedness-index-epi-2024-4th-edition-3-min",
         "niti-aayog-report-reimagining-care-2-min",
         "niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
+        "npci-open-source-blockchain-platform-drunix",
         "paimana-infrastructure-governance-165-indicator-dashboard-4-min",
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "paul-merchants-granted-perpetual-ad-ii-forex-license",
@@ -25598,6 +26091,7 @@
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min",
         "pfrda-shifts-to-sebi-prohibition-of-insider-trading-regulations-2015-3-min",
+        "pfrda-star-nps-digital-onboarding-framework",
         "pm-e-drive-amendment-1000-cr-boost-outlay-raised-to-11900-cr-4-min",
         "pm-surya-ghar-muft-bijli-yojana-crosses-5006-lakh-households-milestone",
         "pm-svanidhi-loan-structure-march-2030-extension-4-min",
@@ -25665,6 +26159,7 @@
         "rbi-retains-fpi-investment-caps-in-debt-instruments-for-fy-2026-27-3-min",
         "rbi-returns-ujjivan-sfb-application-for-universal-banking-transition-3-min",
         "rbi-revamps-lead-bank-scheme-formalises-blbc-structure",
+        "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
         "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure-3-min",
         "rbi-sets-6-month-deadline-to-classify-wilful-defaulters-after-npa-tag-3-min",
         "rbi-sets-up-expert-committee-on-quantum-secure-financial-ecosystem-q-safe-3-min",
@@ -25677,6 +26172,7 @@
         "rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029-3-min",
         "rec-pfc-26850-crore-loan-agreement-for-meja-thermal-power-3-min",
         "registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
+        "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
         "samudra-manthan-national-offshore-exploration-scheme-3-min",
         "sebi-allows-depositories-to-utilize-up-to-5-of-ipf-income-for-trust-costs-3-min",
         "sebi-allows-employer-third-party-mutual-fund-payroll-investments-3-min",
@@ -25695,6 +26191,7 @@
         "sebi-exemption-framework-for-technical-glitches-in-broker-trading-systems-3-min",
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
+        "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
         "sebi-fund-netting-mechanism-proposed-for-foreign-portfolio-investors-3-min",
         "sebi-garuda-fast-track-green-channel-for-aif-scheme-launches-10-days-3-min",
         "sebi-implements-net-settlement-of-funds-for-fpis-in-cash-market-3-min",
@@ -25728,6 +26225,7 @@
         "sez-exports-performance-fy-2025-26-gujarat-leads",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
+        "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
         "standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
@@ -25739,6 +26237,7 @@
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "wma-limit-for-government-of-india-h1-fy27-250000-crore-3-min",
+        "world-bank-15-billion-development-policy-financing-dpf-for-india",
         "world-bank-approves-830-million-loan-for-pm-setu-iti-modernization-3-min",
         "world-bank-country-income-classification-july-2026-update",
         "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
@@ -26181,6 +26680,7 @@
         "indias-first-24x7-lpg-atm-in-gurugram",
         "irena-renewable-capacity-statistics-2026",
         "irfc-raises-jpy-equivalent-400-million-ecb-benchmarked-to-tonar",
+        "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
         "jica-signs-16420-crore-oda-loan-agreements",
         "karan-fries-cattle-breed-registered-by-icar-ndri",
         "kerala-approves-indias-first-graphene-policy-grefine-park",
@@ -26207,6 +26707,7 @@
         "new-seed-act-2026-revised-pesticide-act-2026-announced",
         "nhai-raajmarg-infra-investment-trust-riit-listed-on-bse",
         "niti-aayog-blueprint-for-andhra-pradesh-clean-energy-hub-2035",
+        "npci-open-source-blockchain-platform-drunix",
         "nse-ix-soft-launches-global-access-platform-under-rbi-lrs",
         "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "parichha-dam-jhansi-betwa-river",
@@ -26261,7 +26762,8 @@
         "vice-admiral-manish-chadha-assumes-charge-as-director-general-naval-operations-dgno",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "vyomaai-lt-together-ai",
-        "wgc-gold-demand-trends-2025"
+        "wgc-gold-demand-trends-2025",
+        "world-bank-15-billion-development-policy-financing-dpf-for-india"
       ],
       "MACRO_ECONOMY": [
         "16th-finance-commission-submits-devolution-report-for-20262031-41-retained",
@@ -26369,6 +26871,7 @@
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min",
         "pfrda-shifts-to-sebi-prohibition-of-insider-trading-regulations-2015-3-min",
+        "pfrda-star-nps-digital-onboarding-framework",
         "pradhan-mantri-shram-yogi-maandhan-pm-sym-3-min",
         "wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike"
       ],
@@ -26493,6 +26996,7 @@
         "rbi-mandates-7-day-certified-filing-for-ecb-returns-3-min",
         "rbi-master-circular-on-special-rupee-vostro-accounts-srvas-cross-border-inr-trade",
         "rbi-master-directions-on-control-assurance-corporate-governance-in-commercial-banks",
+        "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
         "rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
         "rbi-notifies-amended-ecb-framework-borrowing-limit-raised-to-1-billion",
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
@@ -26509,6 +27013,7 @@
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
         "rbi-revamps-lead-bank-scheme-formalises-blbc-structure",
         "rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions",
+        "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
         "rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure-3-min",
@@ -26522,7 +27027,9 @@
         "rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029-3-min",
         "rbi-wins-initiative-of-the-year-for-bankin-domain",
         "repco-bank",
+        "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
+        "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
         "state-bank-of-india-becomes-4th-most-valued-indian-firm",
         "state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
@@ -26557,6 +27064,7 @@
         "drdo-tests-long-duration-scramjet-engine-for-hypersonic-missiles",
         "exercise-maitree-xv",
         "exercise-udara-shakti-2026",
+        "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
         "government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
         "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
         "hal-airport-bengaluru-becomes-1st-to-operationalise-rnp-cat-h-helicopter-approach",
@@ -26674,6 +27182,7 @@
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
         "sebi-fast-track-settlement",
+        "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
         "sebi-fund-netting-mechanism-proposed-for-foreign-portfolio-investors-3-min",
         "sebi-garuda-fast-track-green-channel-for-aif-scheme-launches-10-days-3-min",
         "sebi-implements-net-settlement-of-funds-for-fpis-in-cash-market-3-min",
@@ -26701,6 +27210,7 @@
         "sebi-reforms-social-impact-funds-minimum-investment-lowered-to-1000-3-min",
         "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
+        "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
         "sebi-simplifies-securities-transmission-30000-stp-limit-30-lakh-documentation-threshold-3-min",
         "sebi-standing-instructions-for-swp-and-stp-in-demat-mutual-fund-units-3-min",
         "sebi-streamlines-demat-transfer-process-from-150-days-to-30-days-3-min",
@@ -26710,6 +27220,7 @@
       "DIGITAL_PAYMENTS": [
         "cbdc-based-direct-benefit-transfer-dbt-launched-under-pmgkay-in-chandigarh-dnh",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
+        "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
         "jupiter-wagons-lucchini-rs-partner-for-2500-crore-railwheel-plant-in-odisha",
         "key-financial-regulatory-appointments-may-2026",
         "npci-10-years-of-upi-milestone",
@@ -26919,6 +27430,7 @@
         "irena-renewable-capacity-statistics-2026",
         "isec-evaluation-report-on-kcc-modified-interest-subvention-scheme-kcc-miss",
         "isro-ce20-cryogenic-engine-hot-test-for-lvm3",
+        "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
         "jal-jeevan-mission-jjm",
         "jica-signs-16420-crore-oda-loan-agreements",
         "jio-financial-services-allianz-form-5050-insurance-jv",
@@ -27047,6 +27559,7 @@
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "solid-waste-management-rules-2026-notified",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
+        "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
         "sports",
         "sprite-tejas-express",
@@ -27105,6 +27618,7 @@
         "bhoomi-pujan-for-kaziranga-elevated-corridor-project-nh-715",
         "blackstone-999-stake-in-federal-bank-sbi-mf-999-in-bandhan-bank-3-min",
         "cbdc-based-direct-benefit-transfer-dbt-launched-under-pmgkay-in-chandigarh-dnh",
+        "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
         "dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured-3-min",
@@ -27201,6 +27715,7 @@
         "rbi-mandates-digilocker-verification-for-high-risk-digital-payments-3-min",
         "rbi-master-circular-on-special-rupee-vostro-accounts-srvas-cross-border-inr-trade",
         "rbi-master-directions-on-control-assurance-corporate-governance-in-commercial-banks",
+        "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
         "rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
         "rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims-3-min",
         "rbi-notifies-amended-ecb-framework-borrowing-limit-raised-to-1-billion",
@@ -27223,6 +27738,7 @@
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
         "rbi-revamps-lead-bank-scheme-formalises-blbc-structure",
         "rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions",
+        "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
         "rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure-3-min",
@@ -27240,6 +27756,7 @@
         "rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029-3-min",
         "rbi-wins-initiative-of-the-year-for-bankin-domain",
         "rbih-i4c-sign-strategic-mou-on-anti-mule-account-detection",
+        "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
         "sebi-allows-mutual-funds-intra-day-borrowing-for-redemptions-3-min",
         "sebi-directs-significant-indices-providers-to-register-within-6-months-3-min",
         "shriram-finance-arm-receives-rbi-in-principle-nod-for-primary-dealer-business",
@@ -27268,6 +27785,7 @@
         "sbi-raises-1-billion-mufg-social-loan-targets-10-green-advances",
         "senior-civil-service-foreign-deputations-approved-by-acc",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "world-bank-15-billion-development-policy-financing-dpf-for-india",
         "world-bank-approves-225-million-for-rajasthan-highway-modernization",
         "world-bank-approves-340-million-for-amaravati-capital-city-project",
         "world-bank-approves-830-million-loan-for-pm-setu-iti-modernization-3-min",
@@ -27302,11 +27820,13 @@
         "pfrda-launches-star-nps-digital-onboarding-framework",
         "pfrda-mandates-annual-external-audit-for-points-of-presence-pops",
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
-        "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min"
+        "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min",
+        "pfrda-star-nps-digital-onboarding-framework"
       ],
       "MINISTRY_OF_FINANCE": [
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "financial-intelligence-unit-india-fiu-ind-mandate-hierarchy",
+        "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
         "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
@@ -27349,6 +27869,7 @@
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
         "sebi-fast-track-settlement",
+        "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
         "sebi-fund-netting-mechanism-proposed-for-foreign-portfolio-investors-3-min",
         "sebi-garuda-fast-track-green-channel-for-aif-scheme-launches-10-days-3-min",
         "sebi-implements-net-settlement-of-funds-for-fpis-in-cash-market-3-min",
@@ -27376,6 +27897,7 @@
         "sebi-reforms-social-impact-funds-minimum-investment-lowered-to-1000-3-min",
         "sebi-retail-equity-fo-loss-curtailment-report-2-min",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
+        "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
         "sebi-simplifies-securities-transmission-30000-stp-limit-30-lakh-documentation-threshold-3-min",
         "sebi-standing-instructions-for-swp-and-stp-in-demat-mutual-fund-units-3-min",
         "sebi-streamlines-demat-transfer-process-from-150-days-to-30-days-3-min",
@@ -27387,6 +27909,7 @@
         "npci-10-years-of-upi-milestone",
         "npci-bharat-connect-onboards-postal-life-insurance-pli",
         "npci-launches-fimi-finance-model-for-india-domain-specific-language-model",
+        "npci-open-source-blockchain-platform-drunix",
         "npci-ties-up-with-malaysias-paynet-for-upi-duitnow-cross-border-qr-payments",
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "upi-records-2170-billion-transactions-in-january-2026"
@@ -28003,21 +28526,33 @@
       "2026-06": [
         "61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul",
         "apex-regulatory-executive-appointments-june-2026",
+        "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
+        "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
         "global-gdp-outlooks-world-bank-oecd-june-2026-releases",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
         "irdai-overhauls-insurer-processing-fees-governance-ai-working-group",
+        "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
+        "npci-open-source-blockchain-platform-drunix",
         "pfrda-launches-star-nps-digital-onboarding-framework",
         "pfrda-mandates-annual-external-audit-for-points-of-presence-pops",
+        "pfrda-star-nps-digital-onboarding-framework",
         "rbi-defers-revised-kisan-credit-card-kcc-directions-to-january-1-2027",
         "rbi-final-directions-commercial-bank-lending-to-real-estate-investment-trusts-reits-invits",
         "rbi-final-directions-on-trade-receivables-discounting-system-treds-platform-net-worth",
         "rbi-financial-stability-report-june-2026-macro-financial-health-household-debt-dynamics",
         "rbi-master-directions-on-control-assurance-corporate-governance-in-commercial-banks",
+        "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
         "rbi-overhauls-forex-inflow-architecture-us-dollar-rupee-swap-facilities-crrslr-exemptions",
         "rbi-revamps-lead-bank-scheme-formalises-blbc-structure",
         "rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions",
+        "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
+        "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
         "sebi-board-214th-meeting-landmark-market-reforms",
-        "sebi-margin-trading-facility-mtf-overhaul-consultation"
+        "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
+        "sebi-margin-trading-facility-mtf-overhaul-consultation",
+        "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
+        "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+        "world-bank-15-billion-development-policy-financing-dpf-for-india"
       ],
       "2026-07": [
         "asian-development-bank-adb-shareholding-voting-matrix",
@@ -28663,21 +29198,33 @@
       "2026-06": [
         "61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul",
         "apex-regulatory-executive-appointments-june-2026",
+        "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
+        "garden-reach-shipbuilders-engineers-grse-accorded-29th-navratna-status",
         "global-gdp-outlooks-world-bank-oecd-june-2026-releases",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
         "irdai-overhauls-insurer-processing-fees-governance-ai-working-group",
+        "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
+        "npci-open-source-blockchain-platform-drunix",
         "pfrda-launches-star-nps-digital-onboarding-framework",
         "pfrda-mandates-annual-external-audit-for-points-of-presence-pops",
+        "pfrda-star-nps-digital-onboarding-framework",
         "rbi-defers-revised-kisan-credit-card-kcc-directions-to-january-1-2027",
         "rbi-final-directions-commercial-bank-lending-to-real-estate-investment-trusts-reits-invits",
         "rbi-final-directions-on-trade-receivables-discounting-system-treds-platform-net-worth",
         "rbi-financial-stability-report-june-2026-macro-financial-health-household-debt-dynamics",
         "rbi-master-directions-on-control-assurance-corporate-governance-in-commercial-banks",
+        "rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance",
         "rbi-overhauls-forex-inflow-architecture-us-dollar-rupee-swap-facilities-crrslr-exemptions",
         "rbi-revamps-lead-bank-scheme-formalises-blbc-structure",
         "rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions",
+        "rbi-revised-lead-bank-scheme-lbs-mandatory-lead-district-managers-ldms",
+        "sahamati-recognised-by-rbi-as-sro-for-account-aggregator-ecosystem",
         "sebi-board-214th-meeting-landmark-market-reforms",
-        "sebi-margin-trading-facility-mtf-overhaul-consultation"
+        "sebi-framework-aif-liquidation-retention-inoperative-fund-regimes",
+        "sebi-margin-trading-facility-mtf-overhaul-consultation",
+        "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
+        "sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+        "world-bank-15-billion-development-policy-financing-dpf-for-india"
       ],
       "2026-07": [
         "asian-development-bank-adb-shareholding-voting-matrix",
@@ -28975,6 +29522,22 @@
       "sourceOnlyCount": 1,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 1 canonical topics for 2026-08 week-1-4."
+    },
+    {
+      "batchId": "17-june-2026-cgb-top100-mcqs",
+      "sourceName": "CGB_MENTORS",
+      "dateRange": "2026-06 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 12,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 12,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 12,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 12 canonical topics for 2026-06 week-1-4."
     }
   ]
 }

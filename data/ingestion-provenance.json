@@ -4,6 +4,18 @@
   "policy": "W7.9 Source Cleanup & Ingestion Hygiene (Raw PDFs purged post-compilation; provenance permanently preserved)",
   "records": [
     {
+      "sourceFile": "CGB_Mentors_June_2026_Top_100_MCQs.pdf",
+      "sourcePublisher": "CGB Mentors",
+      "coveragePeriod": "2026-06-01 to 2026-06-30",
+      "canonicalMarkdownFile": "knowledge-tree/banking-ca/17-june-2026-cgb-top100-mcqs.md",
+      "canonicalBatchId": "17-june-2026-cgb-top100-mcqs",
+      "chronologicalMonth": "2026-06",
+      "topicsExtracted": 12,
+      "rawStatus": "PROCESSED_VERIFIED_PURGED",
+      "checksumMethod": "CANONICAL_GROUNDING_VERIFIED",
+      "ingestedAt": "2026-08-30T10:45:00Z"
+    },
+    {
       "sourceFile": "CGB_Mentors_August_2026_Glasgow_CWG.pdf",
       "sourcePublisher": "CGB Mentors",
       "coveragePeriod": "2026-07-23 to 2026-08-02",
