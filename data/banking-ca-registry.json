@@ -8,7 +8,7 @@
     "activeP1RevisionMinutes": 442,
     "totalP2Count": 269,
     "totalP3Count": 307,
-    "totalBatchesIngested": 15
+    "totalBatchesIngested": 16
   },
   "examProfiles": [
     {
@@ -28588,6 +28588,22 @@
       "sourceOnlyCount": 10,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 10 canonical topics for 2026-07 week-1-4."
+    },
+    {
+      "batchId": "16-august-2026-cgb-cwg-glasgow",
+      "sourceName": "CGB_MENTORS",
+      "dateRange": "2026-08 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 0,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 0,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 0,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 0 canonical topics for 2026-08 week-1-4."
     }
   ]
 }
