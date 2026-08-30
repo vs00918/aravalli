@@ -3,12 +3,12 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 625,
-    "activeP1Count": 57,
-    "activeP1RevisionMinutes": 428,
-    "totalP2Count": 261,
+    "totalCanonicalTopics": 635,
+    "activeP1Count": 59,
+    "activeP1RevisionMinutes": 442,
+    "totalP2Count": 269,
     "totalP3Count": 307,
-    "totalBatchesIngested": 14
+    "totalBatchesIngested": 15
   },
   "examProfiles": [
     {
@@ -24016,6 +24016,416 @@
         }
       ],
       "contentMarkdown": "### 8. World Bank Reports on Extreme Heat & AI Labor Economics (2026)\n* **Priority:** P2 — High\n* **Category:** REPORTS_AND_INDICES | **Institution:** World Bank | **Event Date:** 2026-08-09\n* **Must Memorize Facts:**\n  * **A Livable Future Report:** Extreme heat cost India **247 billion potential labour hours and $194 billion in income in 2024** (agriculture 66%, construction 20%).\n  * **World Development Report 2026 (Promise of AI):** Only **4.5% of jobs in low- and middle-income countries** are at risk of automation from Generative AI, compared to **14.2% in high-income economies**.\n\n---"
+    },
+    "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal": {
+      "id": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
+      "slug": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
+      "title": "PFRDA Digital Architecture: NPS PRIDE-Disha & Pension Sahayak Redressal",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 7,
+      "primaryCategory": "PENSION_SYSTEMS",
+      "secondaryCategories": [],
+      "primaryInstitution": "PFRDA",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "The Pension Fund Regulatory and Development Authority (PFRDA) rolled out two major digital platforms—**NPS PRIDE-Disha** and **Pension Sahayak**—to modernize fund performance benchmarking and institutionalize a structured, multi-tier grievance escalation mechanism for National Pension System (NPS), Unified Pension Scheme (UPS), and Atal Pension Yojana (APY) subscribers."
+      ],
+      "mustMemorizeFacts": [
+        "**NPS PRIDE-Disha (Performance Decision Support):**",
+        "Uses the **Extended Internal Rate of Return (XIRR)** methodology to benchmark historical pension fund performance against actual periodic subscriber contribution cashflows (replacing point-to-point CAGR which misrepresents regular monthly deposits).",
+        "**Pension Sahayak (AI Grievance Management System):**",
+        "Replaces the legacy grievance platform.",
+        "**Strict Two-Tier Escalation Timeline:**",
+        "**Tier 1 (Intermediary):** Point of Presence (PoP) or Central Recordkeeping Agency (CRA) must resolve the subscriber complaint within **30 days**.",
+        "**Tier 2 (NPS Trust Escalation):** If unresolved or dissatisfied after 30 days, escalated to NPS Trust, which must issue a formal response within **21 days**.",
+        "Integrated with the Government's **Bhashini platform** to offer multi-lingual text and voice assistance across **22 Indian languages**."
+      ],
+      "knowUnderstandContext": [
+        "Moves pension evaluation from static point-to-point percentage gains to actual investor cashflow returns (XIRR), and enforces binding SLAs on pension intermediaries through AI-driven escalation."
+      ],
+      "examFocus": [
+        "PRIDE-Disha methodology: Extended Internal Rate of Return (XIRR).",
+        "Pension Sahayak resolution timelines: 30 days for Intermediaries $\\to$ 21 days for NPS Trust.",
+        "Language coverage: 22 languages via Bhashini."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 1. PFRDA Digital Architecture: NPS PRIDE-Disha & Pension Sahayak Redressal\n* **Priority:** P1 — Critical / Deep\n* **Category:** PENSION_SYSTEMS\n* **Institution:** PFRDA\n* **Event Date:** 2026-07-12\n* **Revision Effort:** ~7 min\n* **Status:** IMPLEMENTED\n\n#### What Happened\n* The Pension Fund Regulatory and Development Authority (PFRDA) rolled out two major digital platforms—**NPS PRIDE-Disha** and **Pension Sahayak**—to modernize fund performance benchmarking and institutionalize a structured, multi-tier grievance escalation mechanism for National Pension System (NPS), Unified Pension Scheme (UPS), and Atal Pension Yojana (APY) subscribers.\n\n#### Must Memorize\n* **NPS PRIDE-Disha (Performance Decision Support):**\n  * Uses the **Extended Internal Rate of Return (XIRR)** methodology to benchmark historical pension fund performance against actual periodic subscriber contribution cashflows (replacing point-to-point CAGR which misrepresents regular monthly deposits).\n* **Pension Sahayak (AI Grievance Management System):**\n  * Replaces the legacy grievance platform.\n  * **Strict Two-Tier Escalation Timeline:**\n    * **Tier 1 (Intermediary):** Point of Presence (PoP) or Central Recordkeeping Agency (CRA) must resolve the subscriber complaint within **30 days**.\n    * **Tier 2 (NPS Trust Escalation):** If unresolved or dissatisfied after 30 days, escalated to NPS Trust, which must issue a formal response within **21 days**.\n  * Integrated with the Government's **Bhashini platform** to offer multi-lingual text and voice assistance across **22 Indian languages**.\n\n#### Know / Understand\n* Moves pension evaluation from static point-to-point percentage gains to actual investor cashflow returns (XIRR), and enforces binding SLAs on pension intermediaries through AI-driven escalation.\n\n#### Exam Focus\n* PRIDE-Disha methodology: Extended Internal Rate of Return (XIRR).\n* Pension Sahayak resolution timelines: 30 days for Intermediaries $\\to$ 21 days for NPS Trust.\n* Language coverage: 22 languages via Bhashini.\n\n---"
+    },
+    "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze": {
+      "id": "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
+      "slug": "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
+      "title": "SEBI Capital Market Investor Protection: Quick Transmission Processing (QTP) & Buyback ISIN Freeze",
+      "priority": "P1_CRITICAL_MEMORIZE",
+      "revisionMinutes": 7,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "SEBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [
+        "SEBI notified structural investor-protection norms streamlining the transmission of securities for deceased investor legal heirs through **Quick Transmission Processing (QTP)**, while closing market-manipulation loopholes by enforcing an automated **ISIN-level freeze on promoter shareholdings** during share buybacks."
+      ],
+      "mustMemorizeFacts": [
+        "**Quick Transmission Processing (QTP) Thresholds:**",
+        "Fast-track transmission under simplified documentation applies to claims involving:",
+        "**Physical Securities:** Value up to **₹10,000**.",
+        "**Demat Holdings:** Value up to **₹30,000**.",
+        "**ISIN-Level Promoter Buyback Freeze:**",
+        "Promoter and promoter group holdings (including associates) are **frozen at the ISIN level in depositories** from the date the Board of Directors or shareholders approve the buyback until the offer officially closes.",
+        "Prevents insider trading and front-running during the sensitive buyback execution window.",
+        "**SCORES 2.0 Redressal SLA:**",
+        "Regulated entities and listed companies must submit a binding **Action Taken Report (ATR) within 21 days** of receiving an investor grievance on SCORES."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
+        "QTP monetary limits: ₹10,000 (Physical) vs ₹30,000 (Demat).",
+        "Promoter buyback freeze: Applies from Board/Shareholder approval date until offer closure.",
+        "SCORES 2.0 ATR timeline: 21 days."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 2. SEBI Capital Market Investor Protection: Quick Transmission Processing (QTP) & Buyback ISIN Freeze\n* **Priority:** P1 — Critical / Memorize\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-07-18\n* **Revision Effort:** ~7 min\n* **Status:** NOTIFIED\n\n#### What Happened\n* SEBI notified structural investor-protection norms streamlining the transmission of securities for deceased investor legal heirs through **Quick Transmission Processing (QTP)**, while closing market-manipulation loopholes by enforcing an automated **ISIN-level freeze on promoter shareholdings** during share buybacks.\n\n#### Must Memorize\n* **Quick Transmission Processing (QTP) Thresholds:**\n  * Fast-track transmission under simplified documentation applies to claims involving:\n    * **Physical Securities:** Value up to **₹10,000**.\n    * **Demat Holdings:** Value up to **₹30,000**.\n* **ISIN-Level Promoter Buyback Freeze:**\n  * Promoter and promoter group holdings (including associates) are **frozen at the ISIN level in depositories** from the date the Board of Directors or shareholders approve the buyback until the offer officially closes.\n  * Prevents insider trading and front-running during the sensitive buyback execution window.\n* **SCORES 2.0 Redressal SLA:**\n  * Regulated entities and listed companies must submit a binding **Action Taken Report (ATR) within 21 days** of receiving an investor grievance on SCORES.\n\n#### Exam Focus\n* QTP monetary limits: ₹10,000 (Physical) vs ₹30,000 (Demat).\n* Promoter buyback freeze: Applies from Board/Shareholder approval date until offer closure.\n* SCORES 2.0 ATR timeline: 21 days.\n\n---"
+    },
+    "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall": {
+      "id": "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
+      "slug": "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
+      "title": "SEBI (Employees' Service) Amendment Regulations 2026: Conflict-of-Interest Firewall",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "SEBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Employees barred from investing directly in equities, equity-convertible instruments, and derivatives.",
+        "Investment exposure to regulated financial products capped at **25% of an employee's total investments**.",
+        "Mandates a **2-year cooling-off period** before former employees can represent clients before SEBI in proceedings or settlements.",
+        "Gift disclosure threshold raised from ₹10,000 to **₹50,000**; job negotiations must be disclosed within **1 month**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 1. SEBI (Employees' Service) Amendment Regulations 2026: Conflict-of-Interest Firewall\n* **Priority:** P2 — High\n* **Category:** REGULATORY_BODIES | **Institution:** SEBI | **Event Date:** 2026-07-08\n* **Must Memorize Facts:**\n  * Employees barred from investing directly in equities, equity-convertible instruments, and derivatives.\n  * Investment exposure to regulated financial products capped at **25% of an employee's total investments**.\n  * Mandates a **2-year cooling-off period** before former employees can represent clients before SEBI in proceedings or settlements.\n  * Gift disclosure threshold raised from ₹10,000 to **₹50,000**; job negotiations must be disclosed within **1 month**."
+    },
+    "introduction-of-polymer-banknotes-in-10-and-20-denominations": {
+      "id": "introduction-of-polymer-banknotes-in-10-and-20-denominations",
+      "slug": "introduction-of-polymer-banknotes-in-10-and-20-denominations",
+      "title": "Introduction of Polymer Banknotes in ₹10 and ₹20 Denominations",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Government approved RBI's proposal to introduce **polymer (plastic) banknotes** in **₹10 and ₹20 denominations**.",
+        "Follows field trials across 5 diverse climatic zones: Kochi, Mysuru, Jaipur, Bhubaneswar, and Shimla.",
+        "Designed to increase banknote lifespan and reduce soilage/counterfeiting in high-velocity small-denomination transactions."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 2. Introduction of Polymer Banknotes in ₹10 and ₹20 Denominations\n* **Priority:** P2 — High\n* **Category:** BANKING_OPERATIONS | **Institution:** RBI / Govt of India | **Event Date:** 2026-07-14\n* **Must Memorize Facts:**\n  * Government approved RBI's proposal to introduce **polymer (plastic) banknotes** in **₹10 and ₹20 denominations**.\n  * Follows field trials across 5 diverse climatic zones: Kochi, Mysuru, Jaipur, Bhubaneswar, and Shimla.\n  * Designed to increase banknote lifespan and reduce soilage/counterfeiting in high-velocity small-denomination transactions."
+    },
+    "central-kyc-registry-ckyc-14-digit-kin-architecture": {
+      "id": "central-kyc-registry-ckyc-14-digit-kin-architecture",
+      "slug": "central-kyc-registry-ckyc-14-digit-kin-architecture",
+      "title": "Central KYC Registry (CKYC) & 14-Digit KIN Architecture",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "MINISTRY_OF_FINANCE",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "CKYC issues a **14-digit unique KYC Identification Number (KIN)**.",
+        "Central registry managed by the **Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI)**.",
+        "Provides single-window lifetime KYC across banking, insurance, mutual funds, and depository accounts."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 3. Central KYC Registry (CKYC) & 14-Digit KIN Architecture\n* **Priority:** P2 — High\n* **Category:** BANKING_OPERATIONS | **Institution:** CERSAI / Ministry of Finance | **Event Date:** 2026-07-20\n* **Must Memorize Facts:**\n  * CKYC issues a **14-digit unique KYC Identification Number (KIN)**.\n  * Central registry managed by the **Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI)**.\n  * Provides single-window lifetime KYC across banking, insurance, mutual funds, and depository accounts."
+    },
+    "wto-trade-policy-review-2026-indias-10-export-target-by-2047": {
+      "id": "wto-trade-policy-review-2026-indias-10-export-target-by-2047",
+      "slug": "wto-trade-policy-review-2026-indias-10-export-target-by-2047",
+      "title": "WTO Trade Policy Review 2026: India's 10% Export Target by 2047",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "MACRO_ECONOMY",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "India set a national strategic target to expand its share of **global merchandise exports from 1.8% (2024) to 10% by 2047**.",
+        "Rationalized basic customs duty structure by completely eliminating ultra-high tariff slabs (**100%, 125%, and 150%**) and reducing applied industrial tariff rates to 8 slabs."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 4. WTO Trade Policy Review 2026: India's 10% Export Target by 2047\n* **Priority:** P2 — High\n* **Category:** MACRO_ECONOMY | **Institution:** WTO / Commerce Ministry | **Event Date:** 2026-07-22\n* **Must Memorize Facts:**\n  * India set a national strategic target to expand its share of **global merchandise exports from 1.8% (2024) to 10% by 2047**.\n  * Rationalized basic customs duty structure by completely eliminating ultra-high tariff slabs (**100%, 125%, and 150%**) and reducing applied industrial tariff rates to 8 slabs."
+    },
+    "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi": {
+      "id": "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
+      "slug": "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
+      "title": "UNCTAD World Investment Report 2026: India Ranks 11th in Global FDI",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "India ranked as the **11th largest FDI recipient in 2025** (up from 13th in 2024).",
+        "Inflows jumped **43.6% to $38.89 billion** in 2025 (vs $27.09 billion in 2024).",
+        "Outward FDI from India grew 47% to **$35.66 billion** (making India the 18th largest outward investor).",
+        "Largest announced global greenfield project in 2025: **$14.5 billion by Alphabet Inc.** for data centers in India."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 5. UNCTAD World Investment Report 2026: India Ranks 11th in Global FDI\n* **Priority:** P2 — High\n* **Category:** INTERNATIONAL_FINANCE | **Institution:** UNCTAD | **Event Date:** 2026-07-16\n* **Must Memorize Facts:**\n  * India ranked as the **11th largest FDI recipient in 2025** (up from 13th in 2024).\n  * Inflows jumped **43.6% to $38.89 billion** in 2025 (vs $27.09 billion in 2024).\n  * Outward FDI from India grew 47% to **$35.66 billion** (making India the 18th largest outward investor).\n  * Largest announced global greenfield project in 2025: **$14.5 billion by Alphabet Inc.** for data centers in India."
+    },
+    "mospi-introduces-index-of-services-production-isp-with-base-year-202425": {
+      "id": "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+      "slug": "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+      "title": "MoSPI Introduces Index of Services Production (ISP) with Base Year 2024–25",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "Government introduced the **Index of Services Production (ISP)** as a high-frequency monthly indicator to measure output and growth in the services sector (complementing the IIP for manufacturing).",
+        "**Assigned Base Year:** **2024–25**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 6. MoSPI Introduces Index of Services Production (ISP) with Base Year 2024–25\n* **Priority:** P2 — High\n* **Category:** ECONOMIC_INDICATORS | **Institution:** MoSPI | **Event Date:** 2026-07-24\n* **Must Memorize Facts:**\n  * Government introduced the **Index of Services Production (ISP)** as a high-frequency monthly indicator to measure output and growth in the services sector (complementing the IIP for manufacturing).\n  * **Assigned Base Year:** **2024–25**."
+    },
+    "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns": {
+      "id": "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
+      "slug": "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
+      "title": "IRDAI & IPAI Partnership to Eliminate Digital Insurance Dark Patterns",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "INSURANCE_SECTOR",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "IRDAI partnered with the **Institute of Public Auditors of India (IPAI)** to audit and monitor deceptive UI/UX dark patterns and mis-selling across digital insurance aggregation platforms.",
+        "Aligns with RBI's mandatory framework against financial product mis-selling (effective 1 January 2027)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 7. IRDAI & IPAI Partnership to Eliminate Digital Insurance Dark Patterns\n* **Priority:** P2 — High\n* **Category:** INSURANCE_SECTOR | **Institution:** IRDAI / IPAI | **Event Date:** 2026-07-26\n* **Must Memorize Facts:**\n  * IRDAI partnered with the **Institute of Public Auditors of India (IPAI)** to audit and monitor deceptive UI/UX dark patterns and mis-selling across digital insurance aggregation platforms.\n  * Aligns with RBI's mandatory framework against financial product mis-selling (effective 1 January 2027)."
+    },
+    "frsb-2020-taxable-rate-maintained-at-805": {
+      "id": "frsb-2020-taxable-rate-maintained-at-805",
+      "slug": "frsb-2020-taxable-rate-maintained-at-805",
+      "title": "FRSB 2020 (Taxable) Rate Maintained at 8.05%",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Must Memorize Facts:**",
+        "RBI retained coupon on Floating Rate Savings Bonds (FRSB 2020 T) at **8.05%** ($7.70\\% \\text{ NSC rate} + 0.35\\% \\text{ fixed spread}$) for July 1 to December 31, 2026 (payable Jan 1, 2027)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-07-01",
+      "firstPublicationDate": "2026-07-15",
+      "lastUpdatedDate": "2026-07-15",
+      "chronologicalMonth": "2026-07",
+      "eventMonth": "2026-07",
+      "activeInMonths": [
+        "2026-07"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "CGB_MENTORS",
+          "batchName": "15-july-2026-cgb-top50-mcqs",
+          "publishedDate": "2026-07-15"
+        }
+      ],
+      "contentMarkdown": "### 8. FRSB 2020 (Taxable) Rate Maintained at 8.05%\n* **Priority:** P2 — High\n* **Category:** BANKING_OPERATIONS | **Institution:** RBI | **Event Date:** 2026-07-01\n* **Must Memorize Facts:**\n  * RBI retained coupon on Floating Rate Savings Bonds (FRSB 2020 T) at **8.05%** ($7.70\\% \\text{ NSC rate} + 0.35\\% \\text{ fixed spread}$) for July 1 to December 31, 2026 (payable Jan 1, 2027).\n\n---"
     }
   },
   "topicSlugMap": {
@@ -24643,7 +25053,17 @@
     "export-promotion-mission-exim-bank-designated-implementing-agency": "export-promotion-mission-exim-bank-designated-implementing-agency",
     "epfo-account-timelines-member-id-architecture": "epfo-account-timelines-member-id-architecture",
     "paul-merchants-granted-perpetual-ad-ii-forex-license": "paul-merchants-granted-perpetual-ad-ii-forex-license",
-    "world-bank-reports-on-extreme-heat-ai-labor-economics-2026": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026"
+    "world-bank-reports-on-extreme-heat-ai-labor-economics-2026": "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
+    "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal": "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
+    "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze": "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
+    "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall": "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
+    "introduction-of-polymer-banknotes-in-10-and-20-denominations": "introduction-of-polymer-banknotes-in-10-and-20-denominations",
+    "central-kyc-registry-ckyc-14-digit-kin-architecture": "central-kyc-registry-ckyc-14-digit-kin-architecture",
+    "wto-trade-policy-review-2026-indias-10-export-target-by-2047": "wto-trade-policy-review-2026-indias-10-export-target-by-2047",
+    "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi": "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
+    "mospi-introduces-index-of-services-production-isp-with-base-year-202425": "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+    "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns": "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
+    "frsb-2020-taxable-rate-maintained-at-805": "frsb-2020-taxable-rate-maintained-at-805"
   },
   "indexes": {
     "byPriority": {
@@ -24666,6 +25086,7 @@
         "mospi-adopts-producer-price-index-ppi-double-deflation-method-for-gdp-estimation",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
         "rbi-final-directions-commercial-bank-lending-to-real-estate-investment-trusts-reits-invits",
@@ -24706,6 +25127,7 @@
         "rbi-financial-inclusion-index-fi-index-march-2026-rises-to-700",
         "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
+        "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
         "sebi-draft-settlement-regulations-2026-fast-track-route-for-cases-up-to-10-lakh"
       ],
       "P2_HIGH": [
@@ -24726,6 +25148,7 @@
         "cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay-3-min",
         "cabinet-extends-atal-pension-yojana-apy-up-to-fy-2030-31-3-min",
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
+        "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "conclusion-of-landmark-india-eu-free-trade-agreement-22nd-fta-3-min",
         "cpgrams-21-day-resolution-target-samadhan-didi-ai-3-min",
         "cpi-inflation-july-2026-on-new-base-2024100-445-yoy-3-min",
@@ -24755,6 +25178,7 @@
         "finance-ministry-eases-fdi-under-automatic-route-for-foreign-firms-with-up-to-10-chinese-stake-3-min",
         "finance-ministry-notifies-3000-crore-sasci-incentive-pool-for-fiscally-disciplined-states-3-min",
         "first-advance-estimates-of-gdp-for-fy-2025-26-nso-mospi-3-min",
+        "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
         "gi-tags-2025-reforms-national-landscape-3-min",
         "glaw-lake-in-arunachal-pradesh-designated-indias-101st-ramsar-site",
@@ -24777,11 +25201,13 @@
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
         "india-solar-growth-pm-kusum-pm-surya-ghar-trajectory-3-min",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
+        "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-2026-claim-settlement-ratios-for-health-and-general-insurers-3-min",
         "irdai-annual-report-fy25-highlights-coverage-expands-to-580-million-lives-3-min",
         "irdai-approves-allianz-jio-reinsurance-kiwi-general-insurance-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026-3-min",
         "irdai-master-regulations-protec-licence-3-min",
         "irdai-notifies-4-obligatory-cession-to-national-reinsurer-for-fy27-3-min",
@@ -24804,6 +25230,7 @@
         "morth-launches-pm-rahat-cashless-road-accident-victim-scheme-3-min",
         "morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "mospi-acnas-panel-on-2022-23-base-year-national-accounts-series-3-min",
+        "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "msme-sustainable-zed-certification-100-women-subsidy-2-min",
         "national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "national-handloom-day-7-august-4th-handloom-census-3-min",
@@ -24921,6 +25348,7 @@
         "sebi-dynamic-price-band-base-price-revamp-for-etfs-3-min",
         "sebi-eases-demat-mutual-fund-nomination-norms-up-to-3-nominees-3-min",
         "sebi-eases-stress-testing-sgf-norms-for-commodity-clearing-corporations-3-min",
+        "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
         "sebi-exemption-framework-for-technical-glitches-in-broker-trading-systems-3-min",
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
@@ -24962,6 +25390,7 @@
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "tribunals-reforms-bill-2026-national-tribunals-commission-3-min",
+        "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
         "union-budget-fy27-2000-crore-incentive-for-upi-rupay-p2m-transactions-3-min",
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
@@ -24969,7 +25398,8 @@
         "wma-limit-for-government-of-india-h1-fy27-250000-crore-3-min",
         "world-bank-approves-830-million-loan-for-pm-setu-iti-modernization-3-min",
         "world-bank-country-income-classification-july-2026-update",
-        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026"
+        "world-bank-reports-on-extreme-heat-ai-labor-economics-2026",
+        "wto-trade-policy-review-2026-indias-10-export-target-by-2047"
       ],
       "P3_MODERATE": [
         "131-padma-awards-2026-announced",
@@ -25292,6 +25722,7 @@
         "irdai-annual-report-fy25-highlights-coverage-expands-to-580-million-lives-3-min",
         "irdai-approves-allianz-jio-reinsurance-kiwi-general-insurance-3-min",
         "irdai-approves-magma-general-insurance-acquisition-2-min",
+        "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026-3-min",
         "irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "irdai-master-regulations-protec-licence-3-min",
@@ -25477,6 +25908,7 @@
         "typhoon-dolphin-strikes-zhejiang-province-china",
         "uae-announces-exit-from-opec-and-opec-effective-may-1-2026",
         "un-high-seas-biodiversity-treaty-bbnj-enters-into-force",
+        "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
         "usgbc-leed-green-building-list-2025",
@@ -25519,7 +25951,8 @@
         "niti-aayog-second-fiscal-health-index-fhi-2026",
         "rbi-state-finances-study-demographic-shift-pension-burden-3-min",
         "sez-exports-performance-fy-2025-26-gujarat-leads",
-        "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min"
+        "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
+        "wto-trade-policy-review-2026-indias-10-export-target-by-2047"
       ],
       "INTERNATIONAL_AFFAIRS": [
         "2026-international-booker-prize",
@@ -25543,6 +25976,7 @@
         "henley-passport-index-may-2026-update",
         "india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
         "manual-scavenging-survey-202425",
+        "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "national-handloom-day-7-august-4th-handloom-census-3-min",
         "national-highways-green-cover-index-nh-gci-first-report",
         "ncrb-crime-in-india-2024-report",
@@ -25578,6 +26012,7 @@
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-approves-ppfas-amc-as-nps-pension-fund-sponsor-clarifies-tier-ii-charges",
         "pfrda-constitutes-high-level-panels-assured-payouts-dr-ms-sahoo-saarg-3-min",
+        "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds-3-min",
         "pfrda-launches-nps-retirement-income-scheme-ris-eases-critical-illness-annuity-exit-3-min",
         "pfrda-launches-nps-sanchay-with-100-agent-incentive",
@@ -25615,6 +26050,7 @@
         "cabinet-approves-5000-crore-equity-infusion-for-sidbi-3-min",
         "canara-bank-raises-5000-crore-tier-ii-bonds",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
+        "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
         "dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured-3-min",
@@ -25627,6 +26063,7 @@
         "financial-inclusion-9992-villages-covered-with-banking-outlets",
         "forbes-worlds-best-banks-2026-india",
         "forbes-worlds-best-banks-2026-india-ranking",
+        "frsb-2020-taxable-rate-maintained-at-805",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
         "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
@@ -25636,6 +26073,7 @@
         "india-post-payments-bank-ippb-launches-shg-savings-account",
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
         "insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
+        "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "key-banking-corporate-appointments-february-2026",
         "key-banking-financial-appointments-january-2026",
@@ -25868,6 +26306,7 @@
         "sebi-amends-fit-and-proper-person-disqualification-rules-for-intermediaries-3-min",
         "sebi-board-214th-meeting-landmark-market-reforms",
         "sebi-bullion-vaulting",
+        "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
         "sebi-clarifies-family-trusts-cannot-sponsor-mutual-funds",
         "sebi-clears-mcx-nse-coal-exchange-proposals",
         "sebi-consultation-on-centralizing-supplementary-kyc-at-kra-level-3-min",
@@ -25880,6 +26319,7 @@
         "sebi-dynamic-price-band-base-price-revamp-for-etfs-3-min",
         "sebi-eases-demat-mutual-fund-nomination-norms-up-to-3-nominees-3-min",
         "sebi-eases-stress-testing-sgf-norms-for-commodity-clearing-corporations-3-min",
+        "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
         "sebi-exemption-framework-for-technical-glitches-in-broker-trading-systems-3-min",
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
@@ -26159,6 +26599,7 @@
         "morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "mospi-acnas-panel-on-2022-23-base-year-national-accounts-series-3-min",
         "mospi-adopts-producer-price-index-ppi-double-deflation-method-for-gdp-estimation",
+        "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "msme-sustainable-zed-certification-100-women-subsidy-2-min",
         "multinational-maritime-exercises-march-2026",
         "must-memorize-fact",
@@ -26280,6 +26721,7 @@
         "ubs-billionaire-ambition-report-2025",
         "un-high-seas-biodiversity-treaty-bbnj-enters-into-force",
         "un-igme-child-mortality-report",
+        "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "union-budget-fy27-2000-crore-incentive-for-upi-rupay-p2m-transactions-3-min",
         "usgbc-leed-green-building-list-2025",
@@ -26294,6 +26736,7 @@
         "world-migration-report-2026-iom",
         "world-press-freedom-index-2026-rsf",
         "worlds-1st-satellite-transmitter-release-of-captive-bred-vultures-in-assam",
+        "wto-trade-policy-review-2026-indias-10-export-target-by-2047",
         "zoological-survey-of-india-completes-22-volume-catalogue-of-lepidoptera"
       ],
       "RBI": [
@@ -26320,6 +26763,7 @@
         "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
         "export-promotion-mission-exim-bank-designated-implementing-agency",
         "first-meeting-of-payments-regulatory-board-prb",
+        "frsb-2020-taxable-rate-maintained-at-805",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "government-rbi-retain-4-inflation-target-band-till-march-31-2031-3-min",
         "india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility-3-min",
@@ -26327,7 +26771,9 @@
         "india-renews-75-billion-bilateral-swap-arrangement-bsa-with-japan-3-min",
         "indias-1st-commercial-earth-observation-constellation",
         "indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
+        "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
+        "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "key-financial-regulatory-appointments-may-2026",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
@@ -26493,6 +26939,7 @@
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-approves-ppfas-amc-as-nps-pension-fund-sponsor-clarifies-tier-ii-charges",
         "pfrda-constitutes-high-level-panels-assured-payouts-dr-ms-sahoo-saarg-3-min",
+        "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds-3-min",
         "pfrda-launches-nps-retirement-income-scheme-ris-eases-critical-illness-annuity-exit-3-min",
         "pfrda-launches-nps-sanchay-with-100-agent-incentive",
@@ -26502,13 +26949,8 @@
         "pfrda-nps-e-shramik-model-for-gig-workers-3-min",
         "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min"
       ],
-      "NABARD": [
-        "ethanol-interest-subvention-schemes-nabard-nodal-role",
-        "nabard-launches-national-climate-stack-challenge-on-dicra",
-        "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
-        "rsvc-amrit-platform"
-      ],
       "MINISTRY_OF_FINANCE": [
+        "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
@@ -26516,6 +26958,12 @@
         "ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs-3-min",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-mdr-charges"
+      ],
+      "NABARD": [
+        "ethanol-interest-subvention-schemes-nabard-nodal-role",
+        "nabard-launches-national-climate-stack-challenge-on-dicra",
+        "nabard-raises-6779-crore-via-3-year-bond-at-701-yield",
+        "rsvc-amrit-platform"
       ],
       "SEBI": [
         "key-financial-institutional-appointments-march-2026",
@@ -26528,6 +26976,7 @@
         "sebi-amends-fit-and-proper-person-disqualification-rules-for-intermediaries-3-min",
         "sebi-board-214th-meeting-landmark-market-reforms",
         "sebi-bullion-vaulting",
+        "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
         "sebi-clarifies-family-trusts-cannot-sponsor-mutual-funds",
         "sebi-clears-mcx-nse-coal-exchange-proposals",
         "sebi-consultation-on-centralizing-supplementary-kyc-at-kra-level-3-min",
@@ -26539,6 +26988,7 @@
         "sebi-dynamic-price-band-base-price-revamp-for-etfs-3-min",
         "sebi-eases-demat-mutual-fund-nomination-norms-up-to-3-nominees-3-min",
         "sebi-eases-stress-testing-sgf-norms-for-commodity-clearing-corporations-3-min",
+        "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
         "sebi-exemption-framework-for-technical-glitches-in-broker-trading-systems-3-min",
         "sebi-exit-flexibility-liquidation-proceeds-retention-for-aifs-3-min",
         "sebi-extends-ipo-observation-letters-and-25-mps-validity-to-sept-30-2026-3-min",
@@ -27214,10 +27664,16 @@
       "2026-07": [
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
+        "central-kyc-registry-ckyc-14-digit-kin-architecture",
+        "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
+        "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
+        "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "major-regulatory-executive-apex-appointments",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
+        "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+        "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
         "rbi-final-directions-non-recognition-of-unrealised-interest-on-specified-non-financial-assets-snfas",
@@ -27225,10 +27681,14 @@
         "rbi-master-circular-on-special-rupee-vostro-accounts-srvas-cross-border-inr-trade",
         "rbi-regulatory-relief-compliance-directions",
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
+        "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
+        "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
-        "world-bank-country-income-classification-july-2026-update"
+        "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
+        "world-bank-country-income-classification-july-2026-update",
+        "wto-trade-policy-review-2026-indias-10-export-target-by-2047"
       ]
     },
     "byYearMonth": {
@@ -27857,10 +28317,16 @@
       "2026-07": [
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
+        "central-kyc-registry-ckyc-14-digit-kin-architecture",
+        "frsb-2020-taxable-rate-maintained-at-805",
         "gdp-projections-for-india-imf-weo-adb-ado-july-2026-outlooks",
+        "introduction-of-polymer-banknotes-in-10-and-20-denominations",
         "irdai-137th-meeting-insurance-sector-overhauls",
+        "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "major-regulatory-executive-apex-appointments",
         "minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
+        "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
+        "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
         "rbi-final-directions-non-recognition-of-unrealised-interest-on-specified-non-financial-assets-snfas",
@@ -27868,10 +28334,14 @@
         "rbi-master-circular-on-special-rupee-vostro-accounts-srvas-cross-border-inr-trade",
         "rbi-regulatory-relief-compliance-directions",
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
+        "sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze",
+        "sebi-employees-service-amendment-regulations-2026-conflict-of-interest-firewall",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
         "small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
-        "world-bank-country-income-classification-july-2026-update"
+        "unctad-world-investment-report-2026-india-ranks-11th-in-global-fdi",
+        "world-bank-country-income-classification-july-2026-update",
+        "wto-trade-policy-review-2026-indias-10-export-target-by-2047"
       ]
     },
     "changeSensitiveTopicIds": [
@@ -28102,6 +28572,22 @@
       "sourceOnlyCount": 0,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 0 canonical topics for 2026-07 week-1-4."
+    },
+    {
+      "batchId": "15-july-2026-cgb-top50-mcqs",
+      "sourceName": "CGB_MENTORS",
+      "dateRange": "2026-07 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 10,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 10,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 10,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 10 canonical topics for 2026-07 week-1-4."
     }
   ]
 }
