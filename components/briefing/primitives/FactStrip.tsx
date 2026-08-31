@@ -5,8 +5,8 @@ import Link from "next/link";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
 import { formatCleanCategory } from "@/lib/banking-ca/formatters";
-import { 
-  CheckCircle2, 
+import {
+  CheckCircle2,
   Circle
 } from "lucide-react";
 
@@ -17,10 +17,12 @@ interface PrimitiveProps {
 }
 
 export function FactStrip({ topic, isRead, onToggleRead }: PrimitiveProps) {
+  const facts = topic.mustMemorizeFacts || topic.whatHappened || [];
+
   return (
     <article
       id={topic.slug}
-      className={`py-3.5 first:pt-1 space-y-1.5 transition-opacity ${
+      className={`py-3 first:pt-1 space-y-1 transition-opacity ${
         isRead ? "opacity-70" : ""
       }`}
     >
@@ -53,14 +55,21 @@ export function FactStrip({ topic, isRead, onToggleRead }: PrimitiveProps) {
       </div>
 
       {/* Title */}
-      <h3 className="font-serif font-bold text-[15px] text-[var(--text-primary)] leading-snug">
+      <h3 className="font-serif font-bold text-sm sm:text-[15px] text-[var(--text-primary)] leading-snug">
         {topic.title}
       </h3>
 
-      {/* Bullets */}
-      {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-        <ul className="space-y-1 text-sm text-[var(--text-primary)] font-serif leading-relaxed pl-0.5">
-          {topic.mustMemorizeFacts.map((fact, fIdx) => (
+      {/* Atomic Memory Triplet (if available) */}
+      {topic.atomicRecall && (
+        <div className="text-[11px] font-mono text-amber-900/90 dark:text-amber-300/90 pl-0.5">
+          <FormattedText text={topic.atomicRecall} />
+        </div>
+      )}
+
+      {/* Concise 1-2 rapid facts */}
+      {facts.length > 0 && (
+        <ul className="space-y-0.5 text-[13px] text-[var(--text-primary)] font-serif leading-relaxed pl-0.5">
+          {facts.slice(0, 3).map((fact, fIdx) => (
             <li key={fIdx} className="flex items-start gap-2">
               <span className="text-amber-800 dark:text-amber-400 font-bold select-none">•</span>
               <span className="leading-relaxed"><FormattedText text={fact} /></span>

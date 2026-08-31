@@ -1,12 +1,12 @@
 import crypto from 'crypto';
 import { CanonicalTopic, CategoryId, PriorityLevel, RegulatoryStatus, SourceReference } from '../schema';
 import { OfficialVerificationEvidence } from '../trust-architecture';
-import { 
-  RawIncomingFeedItem, 
-  ExtractedEvent, 
-  PipelineReport, 
-  VerificationRegistryRecord, 
-  ReviewQueueItem 
+import {
+  RawIncomingFeedItem,
+  ExtractedEvent,
+  PipelineReport,
+  VerificationRegistryRecord,
+  ReviewQueueItem
 } from './types';
 import { EntityResolver } from './entity-resolver';
 import { FactMerger } from './fact-merger';
@@ -48,7 +48,7 @@ export class IngestionPipeline {
     const context = lines.slice(3, Math.min(6, lines.length));
     const examFocus = lines.slice(6);
 
-    const priority: PriorityLevel = 
+    const priority: PriorityLevel =
       item.priorityHint === 'P1' ? 'P1_CRITICAL_DEEP' :
       item.priorityHint === 'P2' ? 'P2_HIGH' :
       item.priorityHint === 'P4' ? 'P4_LOW_YIELD' : 'P3_MODERATE';
@@ -243,6 +243,9 @@ export class IngestionPipeline {
           chronologicalWeek: `Week-${Math.ceil(parseInt(extracted.eventDate.slice(8, 10)) / 7)}`,
           updatesHistory: [],
           sourceReferences: [extracted.sourceReference],
+          informationType: 'OTHER',
+          compressionLevel: extracted.priority.startsWith('P1') ? 'C4' : extracted.priority === 'P2_HIGH' ? 'C3' : 'C1',
+          lifecycleStatus: 'ACTIVE',
           contentMarkdown: `# ${extracted.title}\n\n${extracted.mustMemorizeFacts.map(f => `- ${f}`).join('\n')}`
         };
 

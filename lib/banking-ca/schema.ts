@@ -68,6 +68,50 @@ export const CategoryIdSchema = z.enum([
 ]);
 export type CategoryId = z.infer<typeof CategoryIdSchema>;
 
+/** Information Types (Controlled 28-Type Taxonomy) */
+export const InformationTypeSchema = z.enum([
+  'REGULATION',
+  'POLICY',
+  'SCHEME',
+  'PROGRAMME',
+  'REPORT',
+  'INDEX',
+  'RANKING',
+  'DATA_RELEASE',
+  'APPOINTMENT',
+  'MoU',
+  'CONFERENCE',
+  'AWARD',
+  'SPORTS_EVENT',
+  'DEFENCE_EXERCISE',
+  'DEFENCE_SYSTEM',
+  'SCIENCE_DISCOVERY',
+  'SPACE',
+  'TECHNOLOGY',
+  'BANKING_DEVELOPMENT',
+  'ECONOMIC_DEVELOPMENT',
+  'INTERNATIONAL_RELATION',
+  'FIRST_IN_INDIA',
+  'FIRST_IN_WORLD',
+  'GI',
+  'RAMSAR',
+  'IMPORTANT_DAY',
+  'PERSON_IN_NEWS',
+  'ORGANISATIONAL_CHANGE',
+  'OTHER'
+]);
+export type InformationType = z.infer<typeof InformationTypeSchema>;
+
+/** Compression Levels */
+export const CompressionLevelSchema = z.enum([
+  'C0', // Archive / reference only
+  'C1', // One-line atomic recall (5-15 sec)
+  'C2', // 3-5 fact capsule (1-2 min)
+  'C3', // Structured short note (2-4 min)
+  'C4'  // Conceptual / exam-ready explanation (4-8 min)
+]);
+export type CompressionLevel = z.infer<typeof CompressionLevelSchema>;
+
 /** Topic Update */
 export const TopicUpdateSchema = z.object({
   updateId: z.string().min(1),
@@ -109,20 +153,20 @@ export const CanonicalTopicSchema = z.object({
   subtitle: z.string().optional(),
   priority: PriorityLevelSchema,
   revisionMinutes: z.number().int().min(1).max(60),
-  
+
   primaryCategory: CategoryIdSchema,
   secondaryCategories: z.array(CategoryIdSchema).default([]),
   primaryInstitution: InstitutionIdSchema,
-  
+
   regulatoryStatus: RegulatoryStatusSchema.optional(),
   verificationStatus: VerificationStatusSchema.default('SOURCE_ONLY'),
-  
+
   whatHappened: z.array(z.string()).default([]),
   mustMemorizeFacts: z.array(z.string().min(1)),
   knowUnderstandContext: z.array(z.string().min(1)).default([]),
   examFocus: z.array(z.string()).default([]),
   optionalFacts: z.array(z.string()).default([]),
-  
+
   initialEventDate: z.string().min(1),
   firstPublicationDate: z.string().optional(),
   lastUpdatedDate: z.string().min(1),
@@ -130,11 +174,29 @@ export const CanonicalTopicSchema = z.object({
   eventMonth: z.string().regex(/^\d{4}-\d{2}$/).optional(),
   activeInMonths: z.array(z.string().regex(/^\d{4}-\d{2}$/)).default([]),
   chronologicalWeek: z.string().min(1),
-  
+
+  // V3 Knowledge Architecture Axes
+  informationType: InformationTypeSchema.default('OTHER'),
+  compressionLevel: CompressionLevelSchema.default('C2'),
+  memoryAnchor: z.string().optional(),
+  atomicRecall: z.string().optional(),
+  examAngle: z.object({
+    likelyAsks: z.array(z.string()).optional(),
+    possibleMcq: z.string().optional(),
+    numericalTarget: z.string().optional(),
+    implementingAgency: z.string().optional()
+  }).optional(),
+  lifecycleStatus: z.enum(['ACTIVE', 'SUPERSEDED', 'HISTORICAL']).default('ACTIVE'),
+  supersededByTopicId: z.string().optional(),
+  supersedesTopicId: z.string().optional(),
+  tableData: z.object({
+    headers: z.array(z.string()),
+    rows: z.array(z.array(z.string()))
+  }).optional(),
   changeAlert: ChangeAlertSchema.optional(),
   updatesHistory: z.array(TopicUpdateSchema).default([]),
   sourceReferences: z.array(SourceReferenceSchema).default([]),
-  
+
   contentMarkdown: z.string().min(1)
 });
 export type CanonicalTopic = z.infer<typeof CanonicalTopicSchema>;
@@ -175,7 +237,7 @@ export const BankingCaMasterRegistrySchema = z.object({
   schemaVersion: z.literal('1.0.0'),
   generatedAt: z.string().min(1),
   activeWindowStart: z.string().min(1),
-  
+
   summary: z.object({
     totalCanonicalTopics: z.number().int().nonnegative(),
     activeP1Count: z.number().int().nonnegative(),
@@ -186,10 +248,10 @@ export const BankingCaMasterRegistrySchema = z.object({
   }),
 
   examProfiles: z.array(ExamTargetProfileSchema).default([]),
-  
+
   topics: z.record(z.string(), CanonicalTopicSchema),
   topicSlugMap: z.record(z.string(), z.string()),
-  
+
   indexes: z.object({
     byPriority: z.object({
       P1_CRITICAL_DEEP: z.array(z.string()),
@@ -204,7 +266,7 @@ export const BankingCaMasterRegistrySchema = z.object({
     byYearMonth: z.record(z.string(), z.array(z.string())).default({}),
     changeSensitiveTopicIds: z.array(z.string())
   }),
-  
+
   batches: z.array(IngestionBatchSchema)
 });
 export type BankingCaMasterRegistry = z.infer<typeof BankingCaMasterRegistrySchema>;

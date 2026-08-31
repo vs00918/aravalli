@@ -1,21 +1,21 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Link from "next/link";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
 import { formatCleanCategory } from "@/lib/banking-ca/formatters";
-import { 
-  Clock, 
-  Zap, 
-  AlertTriangle, 
-  CheckCircle2, 
+import {
+  Zap,
+  AlertTriangle,
+  CheckCircle2,
   Circle,
   FileText,
   ShieldCheck,
   Calendar,
   Sparkles
 } from "lucide-react";
+import { StructuredFactBlock } from "./StructuredFactBlock";
 
 interface PrimitiveProps {
   topic: CanonicalTopic;
@@ -26,6 +26,23 @@ interface PrimitiveProps {
 export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
   const isP1 = topic.priority.startsWith("P1");
 
+  // Filter examFocus to omit exact duplicates of facts already surfaced in mustMemorizeFacts
+  const filteredExamFocus = useMemo(() => {
+    if (!topic.examFocus || topic.examFocus.length === 0) return [];
+    const memoFacts = (topic.mustMemorizeFacts || []).map(f => f.toLowerCase().replace(/[^a-z0-9]/g, ''));
+
+    return topic.examFocus.filter(focus => {
+      const cleanFocus = focus.toLowerCase().replace(/[^a-z0-9]/g, '');
+      // If it contains an explicit exam angle/trap indicator, always preserve it
+      if (/\b(trap|note|watch out|caution|key distinction|eligible|ineligible|tenure|limit)\b/i.test(focus)) {
+        return true;
+      }
+      // If it is almost identical to a memorization fact, skip it to reduce duplication
+      const isDuplicated = memoFacts.some(f => f.includes(cleanFocus) || (cleanFocus.length > 20 && f.length > 20 && (cleanFocus.includes(f) || f.includes(cleanFocus))));
+      return !isDuplicated;
+    });
+  }, [topic.examFocus, topic.mustMemorizeFacts]);
+
   return (
     <article
       id={topic.slug}
@@ -35,14 +52,14 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
     >
       {/* Top Metadata & Controls Bar */}
       <div className="flex items-center justify-between gap-2 text-xs font-mono text-[var(--text-subtle)] select-none">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md font-semibold text-[11px] bg-red-100/80 dark:bg-red-950/40 text-red-900 dark:text-red-300 border border-red-300/70 dark:border-red-800/40">
             <Sparkles className="w-3 h-3 text-red-700 dark:text-red-400" />
             <span>{isP1 ? "P1 CRITICAL" : "P2 DEEP"}</span>
           </span>
           {topic.regulatoryStatus && topic.regulatoryStatus !== 'NOTIFIED' && topic.regulatoryStatus !== 'IMPLEMENTED' && topic.regulatoryStatus !== 'APPROVED' && (
-            <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-semibold tracking-wider bg-blue-100/70 dark:bg-blue-950/40 text-blue-900 dark:text-blue-300 border border-blue-300/60 dark:border-blue-800/40">
-              {topic.regulatoryStatus}
+            <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold tracking-wider bg-amber-100/90 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border border-amber-400/80 dark:border-amber-700/60">
+              STATUS: {topic.regulatoryStatus}
             </span>
           )}
           <span className="uppercase tracking-wider font-semibold text-[11px] text-[var(--text-muted)]">
@@ -51,11 +68,6 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         </div>
 
         <div className="flex items-center gap-2.5">
-          <span className="inline-flex items-center gap-1 text-[11px]">
-            <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
-            <span>~{topic.revisionMinutes} min</span>
-          </span>
-
           <button
             onClick={() => onToggleRead(topic.slug)}
             className="hover:text-[var(--text-primary)] transition-colors"
@@ -88,7 +100,7 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
       </div>
 
       {/* Title & Subtitle */}
-      <div>
+      <div className="space-y-2">
         <h3 className="text-xl sm:text-2xl font-serif font-bold text-[var(--text-primary)] leading-tight tracking-tight">
           {topic.title}
         </h3>
@@ -97,22 +109,31 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
             {topic.subtitle}
           </p>
         )}
+        {topic.memoryAnchor && (
+          <div className="flex items-center gap-2 pt-0.5 text-xs font-mono text-amber-900/90 dark:text-amber-300/90 tracking-wide select-none">
+            <span className="font-bold text-amber-700 dark:text-amber-400">⚡ ANCHOR:</span>
+            <span className="font-medium tracking-wider">{topic.memoryAnchor}</span>
+          </div>
+        )}
       </div>
 
-      {/* Change Alert */}
+      {/* Change Alert (Quiet Left Accent) */}
       {topic.changeAlert?.isChangeSensitive && (
-        <div className="p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300/80 dark:border-amber-800/50 flex items-start gap-2.5 text-xs text-amber-950 dark:text-amber-200 select-none">
-          <AlertTriangle className="w-4 h-4 text-amber-800 dark:text-amber-400 flex-shrink-0 mt-0.5" />
+        <div className="border-l-2 border-amber-500 pl-3.5 py-1 text-xs text-amber-950 dark:text-amber-200 space-y-0.5 select-none">
+          <div className="font-mono font-bold uppercase tracking-wider text-[10px] text-amber-800 dark:text-amber-400 flex items-center gap-1.5">
+            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+            <span>Change Alert</span>
+          </div>
           <div>
             <FormattedText text={topic.changeAlert.currentFactSummary} />
           </div>
         </div>
       )}
 
-      {/* WHAT HAPPENED */}
+      {/* WHAT HAPPENED / WHAT CHANGED */}
       {topic.whatHappened && topic.whatHappened.length > 0 && (
-        <div className="space-y-1.5">
-          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+        <div className="space-y-1.5 pt-1">
+          <div className="text-[11px] font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
             WHAT HAPPENED
           </div>
           <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
@@ -123,30 +144,23 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         </div>
       )}
 
-      {/* MUST MEMORIZE / KEY NUMBERS & RULES */}
+      {/* KEY RULES & NUMBERS (Quiet Editorial Section with Deduplication) */}
       {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-        <div className="space-y-1.5 p-4 rounded-xl bg-amber-50/50 dark:bg-amber-950/20 border border-amber-200/70 dark:border-amber-800/30">
-          <div className="text-xs font-mono font-bold tracking-wider text-amber-950 dark:text-amber-300 uppercase select-none">
-            MUST MEMORIZE / KEY RULES
+        <div className="space-y-2 pt-1">
+          <div className="text-[11px] font-mono font-bold tracking-wider text-amber-950 dark:text-amber-300 uppercase select-none">
+            KEY RULES & NUMBERS
           </div>
-          <ul className="space-y-1.5 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
-            {topic.mustMemorizeFacts.map((fact, fIdx) => (
-              <li key={fIdx} className="flex items-start gap-2.5">
-                <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5 text-xs select-none">•</span>
-                <span className="flex-1 leading-relaxed"><FormattedText text={fact} /></span>
-              </li>
-            ))}
-          </ul>
+          <StructuredFactBlock facts={topic.mustMemorizeFacts} />
         </div>
       )}
 
-      {/* KNOW / UNDERSTAND (PEDAGOGICAL CONTEXT) */}
+      {/* WHY IT MATTERS (PEDAGOGICAL / CONCEPTUAL CONTEXT) */}
       {topic.knowUnderstandContext && topic.knowUnderstandContext.length > 0 && (
-        <div className="space-y-1.5">
-          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
-            KNOW / UNDERSTAND (CONCEPTUAL CONTEXT)
+        <div className="space-y-1.5 pt-1">
+          <div className="text-[11px] font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+            WHY IT MATTERS / CONCEPTUAL CONTEXT
           </div>
-          <div className="space-y-1.5 text-sm text-[var(--text-muted)] font-serif leading-relaxed">
+          <div className="space-y-1.5 text-sm text-[var(--text-secondary)] font-serif leading-relaxed italic">
             {topic.knowUnderstandContext.map((para, cIdx) => (
               <p key={cIdx}><FormattedText text={para} /></p>
             ))}
@@ -154,15 +168,15 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         </div>
       )}
 
-      {/* EXAM FOCUS / EXAM ANGLES */}
-      {topic.examFocus && topic.examFocus.length > 0 && (
-        <div className="p-3.5 rounded-xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-300/70 dark:border-emerald-800/40 text-xs sm:text-sm font-sans space-y-1.5">
+      {/* EXAM RECALL & ANGLES (Quiet Left-Accent Border - Deduplicated) */}
+      {filteredExamFocus.length > 0 && (
+        <div className="border-l-2 border-emerald-600/80 dark:border-emerald-500/80 pl-3.5 py-1 space-y-1.5 text-xs sm:text-sm font-sans">
           <div className="font-mono font-bold text-emerald-950 dark:text-emerald-300 uppercase tracking-wider text-[11px] select-none flex items-center gap-1.5">
             <span>🎯</span>
-            <span>EXAM ANGLES & MCQ APPLICATION</span>
+            <span>EXAM ANGLES & RECALL</span>
           </div>
           <ul className="space-y-1 text-emerald-950 dark:text-emerald-200">
-            {topic.examFocus.map((focus, efIdx) => (
+            {filteredExamFocus.map((focus, efIdx) => (
               <li key={efIdx} className="flex items-start gap-2">
                 <span className="font-bold text-emerald-800 dark:text-emerald-400 select-none">•</span>
                 <span className="leading-relaxed"><FormattedText text={focus} /></span>

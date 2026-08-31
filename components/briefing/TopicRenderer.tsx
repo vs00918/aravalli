@@ -8,6 +8,10 @@ import { Brief } from "./primitives/Brief";
 import { MetricCallout } from "./primitives/MetricCallout";
 import { EventRow } from "./primitives/EventRow";
 import { FactStrip } from "./primitives/FactStrip";
+import { AppointmentBoard } from "./primitives/AppointmentBoard";
+import { RankingTable } from "./primitives/RankingTable";
+import { SchemeFlow } from "./primitives/SchemeFlow";
+import { MoUBlock } from "./primitives/MoUBlock";
 
 interface TopicRendererProps {
   topic: CanonicalTopic;
@@ -21,6 +25,14 @@ export function TopicRenderer({ topic, isRead, onToggleRead }: TopicRendererProp
   switch (primitive) {
     case "DeepBrief":
       return <DeepBrief topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
+    case "AppointmentBoard":
+      return <AppointmentBoard topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
+    case "RankingTable":
+      return <RankingTable topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
+    case "SchemeFlow":
+      return <SchemeFlow topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
+    case "MoUBlock":
+      return <MoUBlock topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
     case "MetricCallout":
       return <MetricCallout topic={topic} isRead={isRead} onToggleRead={onToggleRead} />;
     case "EventRow":

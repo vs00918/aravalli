@@ -29,10 +29,11 @@ const testCases: { name: string; topic: Partial<CanonicalTopic>; expected: strin
       title: 'Anurag Jain Appointed Chief Executive Officer (CEO) of NITI Aayog',
       priority: 'P2_HIGH',
       primaryCategory: 'APPOINTMENTS',
+      informationType: 'APPOINTMENT',
       mustMemorizeFacts: ['Succeeding BVR Subrahmanyam'],
       revisionMinutes: 2
     },
-    expected: 'EventRow'
+    expected: 'AppointmentBoard'
   },
   {
     name: 'Award Event (60th Jnanpith Award)',
@@ -42,10 +43,11 @@ const testCases: { name: string; topic: Partial<CanonicalTopic>; expected: strin
       title: 'Tamil Poet and Lyricist R. Vairamuthu Conferred with 60th Jnanpith Award',
       priority: 'P3_MODERATE',
       primaryCategory: 'SPORTS_AND_AWARDS',
+      informationType: 'AWARD',
       mustMemorizeFacts: ['3rd Tamil writer after Akilan and Jayakanthan'],
       revisionMinutes: 2
     },
-    expected: 'EventRow'
+    expected: 'FactStrip'
   },
   {
     name: 'Corporate Deal / Partnership (BofA-Jio / BoB-Mizuho)',
@@ -74,7 +76,7 @@ const testCases: { name: string; topic: Partial<CanonicalTopic>; expected: strin
       ],
       revisionMinutes: 3
     },
-    expected: 'MetricCallout'
+    expected: 'Brief'
   },
   {
     name: 'Economic Metric (IMF World Economic Outlook GDP)',
@@ -87,7 +89,7 @@ const testCases: { name: string; topic: Partial<CanonicalTopic>; expected: strin
       mustMemorizeFacts: ['Global growth projected at 3.0% in 2026.'],
       revisionMinutes: 3
     },
-    expected: 'MetricCallout'
+    expected: 'Brief'
   },
   {
     name: 'Rapid-Scan FactStrip (BSE-MSCI / One-Line Fact)',

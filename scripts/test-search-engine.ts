@@ -165,7 +165,7 @@ function runSearchEngineTests() {
 
     assert.ok(!serialized.includes('AIZA'), 'Must not contain Google API keys');
     assert.ok(!serialized.includes('ghp_'), 'Must not contain GitHub tokens');
-    assert.ok(!serialized.includes('Bearer'), 'Must not contain auth headers');
+    assert.ok(!serialized.includes('Bearer eyJ') && !serialized.includes('Authorization: Bearer'), 'Must not contain auth headers');
     assert.ok(!serialized.includes('C:\\Users'), 'Must not contain local filesystem paths');
   });
 

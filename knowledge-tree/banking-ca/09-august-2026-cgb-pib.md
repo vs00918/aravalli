@@ -1,9 +1,9 @@
 # Banking & Economy Current Affairs — 1st to 10th August 2026 (PIB Special Edition)
 
-> **Source**: CGB Mentors (PIB: 1st to 10th August 2026)  
-> **Source Attribution**: Primary-Source Grounded (Press Information Bureau & Union Cabinet)  
-> **Target Cycle**: SBI PO Mains (Sep 2026) · IBPS PO Mains (Oct 2026) · Regulatory Exams  
-> **Active Target Window**: April 2026 onward  
+> **Source**: CGB Mentors (PIB: 1st to 10th August 2026)
+> **Source Attribution**: Primary-Source Grounded (Press Information Bureau & Union Cabinet)
+> **Target Cycle**: SBI PO Mains (Sep 2026) · IBPS PO Mains (Oct 2026) · Regulatory Exams
+> **Active Target Window**: April 2026 onward
 
 ---
 
@@ -111,7 +111,7 @@
 
 1. **PAIMANA Infrastructure Governance & 165-Indicator Dashboard (~4 min)**:
    * **MoSPI** launched PAIMANA (*Project Assessment, Infrastructure Monitoring and Analytics for Nation-Building*) to monitor Central Sector infrastructure projects costing **≥₹150 crore** (replaced OCMS-2006).
-   * **PAIMANA-CRIP** (*Central Repository of Infrastructure Projects*) launched 8 July 2026 (replaced DPIIT's IPMP; feeds PRAGATI/PMG; 60%+ projects updated via APIs).
+   * **PAIMANA-CRIP** (*Central Repository of Infrastructure Projects*) launched 8 July 2026 (replaced DPIIT's IPMP; functions as the digital governance/monitoring layer associated with PM GatiShakti infrastructure monitoring; feeds PRAGATI/PMG; 60%+ projects updated via APIs).
    * **Performance Monitoring Dashboard** launched 16 April 2026 with **NIPFP**, aligned with DEA's Harmonized Master List (HML) 2022, expanding to **165 indicators** across 6 sub-sectors (Civil Aviation: 31, Roads: 8, Power: 14, Ports/Shipping: 62, Telecom: 13, Railways: 37). Evaluates 5 dimensions: Access, Quality, Fiscal Cost & Revenue, Utilization, Affordability.
 
 2. **Periodic Labour Force Survey (PLFS) Quarterly Bulletin (April–June 2026) (~3 min)**:
@@ -123,9 +123,9 @@
 
 3. **PM SVANidhi: Loan Structure & March 2030 Extension (~4 min)**:
    * Jointly run by MoHUA and DFS; extended till **March 2030**.
-   * 3-Tier Loan Slabs: **1st Tranche: ₹15,000 (12 mo)** $	o$ **2nd Tranche: ₹25,000 (18 mo)** $	o$ **3rd Tranche: ₹50,000 (36 mo)**.
+   * 3-Tier Loan Slabs: **1st Tranche: ₹15,000 (12 mo)** → **2nd Tranche: ₹25,000 (18 mo)** → **3rd Tranche: ₹50,000 (36 mo)**.
    * Interest Subsidy: **7% p.a.** on timely repayment.
-   * Financial Inclusion: **UPI-linked RuPay Credit Card up to ₹30,000** for vendors repaying Tranche 2; digital cashback up to **₹1,600/year** (Retail: ₹100/mo $	imes 12 = ₹1,200$; Wholesale: ₹100/qtr $	imes 4 = ₹400$ on purchases $ge ₹2,000$).
+   * Financial Inclusion: **UPI-linked RuPay Credit Card up to ₹30,000** for vendors repaying Tranche 2; digital cashback up to **₹1,600/year** (Retail: ₹100/mo × 12 = ₹1,200; Wholesale: ₹100/qtr × 4 = ₹400 on purchases ≥ ₹2,000).
    * Performance Rankings: Top State = **Uttar Pradesh** (followed by MP, MH, GJ, TS); Top Bank = **State Bank of India**; Top ULB = **Municipal Corporation of Delhi (MCD)**.
 
 4. **National Investment Policy for Urea-2026 (NIPU-2026) (~3 min)**:

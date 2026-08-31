@@ -1,20 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Link from "next/link";
 import { CanonicalTopic } from "@/lib/banking-ca/schema";
 import { FormattedText } from "@/components/common/FormattedText";
 import { formatCleanCategory } from "@/lib/banking-ca/formatters";
-import { 
-  Clock, 
-  Zap, 
-  AlertTriangle, 
-  CheckCircle2, 
+import {
+  Zap,
+  AlertTriangle,
+  CheckCircle2,
   Circle,
   FileText,
   ShieldCheck,
   Calendar
 } from "lucide-react";
+import { StructuredFactBlock } from "./StructuredFactBlock";
 
 interface PrimitiveProps {
   topic: CanonicalTopic;
@@ -23,10 +23,27 @@ interface PrimitiveProps {
 }
 
 export function Brief({ topic, isRead, onToggleRead }: PrimitiveProps) {
+  // Deduplicate examFocus against mustMemorizeFacts
+  const filteredExamFocus = useMemo(() => {
+    if (!topic.examFocus || topic.examFocus.length === 0) return [];
+    const memoFacts = (topic.mustMemorizeFacts || []).map(f => f.toLowerCase().replace(/[^a-z0-9]/g, ''));
+
+    return topic.examFocus.filter(focus => {
+      const cleanFocus = focus.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (/\b(trap|note|watch out|caution|key distinction|eligible|ineligible|tenure|limit)\b/i.test(focus)) {
+        return true;
+      }
+      const isDuplicated = memoFacts.some(f => f.includes(cleanFocus) || (cleanFocus.length > 20 && f.length > 20 && (cleanFocus.includes(f) || f.includes(cleanFocus))));
+      return !isDuplicated;
+    });
+  }, [topic.examFocus, topic.mustMemorizeFacts]);
+
+  const hasWhatHappened = topic.whatHappened && topic.whatHappened.length > 0;
+
   return (
     <article
       id={topic.slug}
-      className={`py-6 first:pt-2 space-y-3.5 transition-opacity ${
+      className={`py-6 first:pt-2 space-y-3 transition-opacity ${
         isRead ? "opacity-80" : ""
       }`}
     >
@@ -38,17 +55,12 @@ export function Brief({ topic, isRead, onToggleRead }: PrimitiveProps) {
               {topic.regulatoryStatus}
             </span>
           )}
-          <span className="uppercase tracking-wider font-semibold text-[11px]">
+          <span className="uppercase tracking-wider font-semibold text-[11px] text-[var(--text-muted)]">
             {formatCleanCategory(topic.primaryCategory)}
           </span>
         </div>
 
         <div className="flex items-center gap-2.5">
-          <span className="inline-flex items-center gap-1 text-[11px]">
-            <Clock className="w-3 h-3 text-[var(--text-subtle)]" />
-            <span>~{topic.revisionMinutes || 3}m</span>
-          </span>
-
           <button
             onClick={() => onToggleRead(topic.slug)}
             className="hover:text-[var(--text-primary)] transition-colors"
@@ -92,18 +104,19 @@ export function Brief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         )}
       </div>
 
-      {/* Change Alert (if active) */}
+      {/* Change Alert (Quiet Left Accent) */}
       {topic.changeAlert?.isChangeSensitive && (
-        <div className="p-3 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-300/80 dark:border-amber-800/40 text-amber-950 dark:text-amber-200 text-xs flex items-start gap-2 select-none">
-          <AlertTriangle className="w-3.5 h-3.5 text-amber-800 dark:text-amber-400 flex-shrink-0 mt-0.5" />
-          <p className="text-xs leading-relaxed">
-            <FormattedText text={topic.changeAlert.currentFactSummary} />
-          </p>
+        <div className="border-l-2 border-amber-500 pl-3 py-1 text-xs text-amber-950 dark:text-amber-200 select-none">
+          <div className="font-mono font-bold uppercase tracking-wider text-[10px] text-amber-800 dark:text-amber-400 flex items-center gap-1.5 mb-0.5">
+            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+            <span>Change Alert</span>
+          </div>
+          <FormattedText text={topic.changeAlert.currentFactSummary} />
         </div>
       )}
 
-      {/* Context / What Happened */}
-      {topic.whatHappened && topic.whatHappened.length > 0 && (
+      {/* Context / What Happened (if present) */}
+      {hasWhatHappened && (
         <div className="space-y-1.5 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
           {topic.whatHappened.map((para, pIdx) => (
             <p key={pIdx}><FormattedText text={para} /></p>
@@ -111,34 +124,24 @@ export function Brief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         </div>
       )}
 
-      {/* KEY FACTS */}
+      {/* KEY FACTS (Concise 3-5 bullets / metrics) */}
       {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-        <div className="space-y-1.5 pt-1">
-          <div className="text-xs font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
-            KEY FACTS
-          </div>
-          <ul className="space-y-1.5 text-sm sm:text-[15px] font-serif leading-relaxed text-[var(--text-primary)] pl-1">
-            {topic.mustMemorizeFacts.map((fact, fIdx) => (
-              <li key={fIdx} className="flex items-start gap-2.5">
-                <span className="text-amber-800 dark:text-amber-400 font-bold mt-0.5 text-xs select-none">•</span>
-                <span className="flex-1 leading-relaxed"><FormattedText text={fact} /></span>
-              </li>
-            ))}
-          </ul>
+        <div className="pt-0.5">
+          <StructuredFactBlock facts={topic.mustMemorizeFacts} />
         </div>
       )}
 
-      {/* EXAM POINT (if present) */}
-      {topic.examFocus && topic.examFocus.length > 0 && (
-        <div className="p-3 rounded-xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-300/70 dark:border-amber-800/40 text-xs sm:text-sm font-sans space-y-1">
-          <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[11px] select-none">
+      {/* EXAM POINT (Quiet Left Accent - Deduplicated) */}
+      {filteredExamFocus.length > 0 && (
+        <div className="border-l-2 border-amber-500/80 dark:border-amber-400/80 pl-3.5 py-1 space-y-1 text-xs sm:text-sm font-sans">
+          <div className="font-mono font-bold text-amber-950 dark:text-amber-300 uppercase tracking-wider text-[10px] select-none">
             EXAM POINT
           </div>
           <ul className="space-y-1 text-amber-950 dark:text-amber-200">
-            {topic.examFocus.map((focus, efIdx) => (
+            {filteredExamFocus.map((focus, efIdx) => (
               <li key={efIdx} className="flex items-start gap-2">
                 <span className="font-bold text-amber-800 dark:text-amber-400 select-none">•</span>
-                <span><FormattedText text={focus} /></span>
+                <span className="leading-relaxed"><FormattedText text={focus} /></span>
               </li>
             ))}
           </ul>

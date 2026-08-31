@@ -14,18 +14,27 @@ export function normalizePresentationText(text: string): string {
   // 1. Strip leading duplicated bullet characters (e.g. "•Policy Repo Rate", "* CRAR", "• CRAR")
   cleaned = cleaned.replace(/^[•\-\*]\s*/, "");
 
-  // 2. Normalize common LaTeX math expressions to clean Unicode
+  // 2. Normalize common LaTeX math expressions & stray tabbed tokens to clean Unicode
   cleaned = cleaned
     .replace(/\$Q_1\$/g, "Q₁")
     .replace(/\$Q_2\$/g, "Q₂")
     .replace(/\$Q_3\$/g, "Q₃")
     .replace(/\$Q_4\$/g, "Q₄")
+    .replace(/\\text\{([^}]+)\}/g, "$1")
+    .replace(/\\max\b/g, "max")
+    .replace(/\$\\times\$/g, "×")
+    .replace(/\\times\b/g, "×")
+    .replace(/\$\s*\t\s*imes\s*\$/g, "×")
+    .replace(/\bimes\b/g, "×")
+    .replace(/\$\s*\t\s*o\s*\$/g, "→")
     .replace(/\$\\ge\s*(\d+)\$/g, "≥ $1")
     .replace(/\$\\ge\$/g, "≥")
     .replace(/\\ge\b/g, "≥")
+    .replace(/\$ge\s*([₹\$\d]+)/g, "≥ $1")
     .replace(/\$\\le\s*(\d+)\$/g, "≤ $1")
     .replace(/\$\\le\$/g, "≤")
     .replace(/\\le\b/g, "≤")
+    .replace(/\$le\s*([₹\$\d]+)/g, "≤ $1")
     .replace(/\$\\to\$/g, "→")
     .replace(/\\to\b/g, "→")
     .replace(/\$\\pm\$/g, "±")
@@ -34,11 +43,12 @@ export function normalizePresentationText(text: string): string {
     .replace(/\\approx\b/g, "≈")
     .replace(/\\%/g, "%");
 
-  // 3. Remove remaining single-dollar LaTeX wrappers around simple terms e.g. "$5.25%$" -> "5.25%"
+  // 3. Remove remaining single-dollar / KaTeX wrappers around simple terms
   cleaned = cleaned.replace(/\$([^$]+)\$/g, "$1");
+  cleaned = cleaned.replace(/\\\(([^)]+)\\\)/g, "$1");
 
   // 4. Clean stray backslashes before common punctuation
-  cleaned = cleaned.replace(/\\([#*_`~])/g, "$1");
+  cleaned = cleaned.replace(/\\([#*_`~,\s])/g, "$1");
 
   // 5. Convert question-shaped study lines into direct declarative statements (W7.8 requirement)
   // Pattern 5A: Question with answer in parentheses, e.g. "*What is the total outlay...?* (₹23,731 crore)"
@@ -74,6 +84,11 @@ export function normalizePresentationText(text: string): string {
 
   // 6. Strip trailing question marks from factual statements
   cleaned = cleaned.replace(/\?$/, "");
+
+  // 7. Strip solitary header/section labels (e.g. "**Must Memorize Facts:**", "**Top Performing States:**")
+  if (/^\*{1,2}(?:Must Memorize Facts|Top Performing States|Key Facts|Highlights|Overview|Annual Fee Calculation):\*{1,2}$/i.test(cleaned.trim())) {
+    return "";
+  }
 
   return cleaned.trim();
 }

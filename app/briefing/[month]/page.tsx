@@ -1,13 +1,14 @@
 import React from "react";
 import { getBankingCaRegistry, getTopicsByMonth } from "@/lib/banking-ca/data";
 import { BriefingStreamView } from "@/components/briefing/BriefingStreamView";
+import { AugustMagazineView } from "@/components/briefing/AugustMagazineView";
 
 export const dynamic = "force-static";
 
 export function generateStaticParams() {
   const registry = getBankingCaRegistry();
   const indexedMonths = Object.keys(registry.indexes.byYearMonth || registry.indexes.byMonth || {});
-  
+
   // Include all 12 months for 2026 Master Archive
   const allMonths = Array.from(new Set([
     ...indexedMonths,
@@ -61,6 +62,19 @@ export default function MonthBriefingPage({ params, searchParams }: BriefingPage
   const topics = getTopicsByMonth(month);
 
   const monthTitle = MONTH_DISPLAY[month] || month;
+
+  // Validated Magazine Architecture for August 2026 onward
+  if (month >= "2026-08") {
+    return (
+      <AugustMagazineView
+        month={month}
+        monthTitle={monthTitle}
+        topics={topics}
+        registry={registry}
+        initialPriority={searchParams?.priority}
+      />
+    );
+  }
 
   return (
     <BriefingStreamView

@@ -126,20 +126,19 @@ Parliament passed the **Micro, Small and Medium Enterprises Development (Amendme
 - **Revision Effort**: `~5 min`
 
 #### Policy Mechanism & Financial Devolution
-The Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, following the recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**.
-- **Expansion**: Expanded the list of notified natural disasters eligible for direct Central disaster relief funding from **12 to 14 categories**.
-- **Two Newly Added Calamities**: **Heatwaves** and **Lightning**.
+The Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, based on recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**.
+- **Expansion**: Notified natural disaster categories expanded from **12 to 14** by adding **Heatwaves** and **Lightning**.
 - **Complete List of 14 Calamities**: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.
 
 #### Fiscal Significance
 - **Unlocks Main Relief Pool**: States can now utilize the primary **80% SDRF response/relief allocation** directly for heatwave and lightning casualties and damages, removing the restrictive 10% ceiling previously applicable to unlisted local disasters.
-- **Unlocks SDMF**: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for building long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.
-- **Casualty Context**: Lightning accounts for approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).
+- **Unlocks SDMF**: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.
+- **Casualty Context**: Lightning causes approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).
 
 #### Key Exam Takeaways
-- **Newly Added Notified Calamities**: Heatwaves and Lightning.
-- **Total Notified Calamities**: 14 categories (expanded from 12).
-- **Policy Origin**: 16th Finance Commission (chaired by Dr. Arvind Panagariya).
+- **Award Period**: 2026–31 (16th Finance Commission, Dr. Arvind Panagariya).
+- **Relief vs Mitigation Ratio**: 80% SDRF (response/relief) and 20% SDMF (mitigation).
+- **Previous Restriction Removed**: Eliminated the 10% expenditure cap on non-notified local disasters for heatwave/lightning relief.
 
 ---
 

@@ -1,9 +1,9 @@
 # Banking & Economy Current Affairs — 1st to 11th August 2026 (Consolidated Canonical Knowledge · Audited v1.2)
 
-> **Sources**: CGB Mentors (1st–11th August 2026) + Smartkeeda MockDrill Weekly PDF 1 (1st–7th August 2026)  
-> **Source Attribution**: Source-derived & Cross-corroborated  
-> **Target Cycle**: SBI PO Mains (Sep 2026) · IBPS PO Mains (Oct 2026) · Regulatory Exams  
-> **Active Target Window**: April 2026 onward  
+> **Sources**: CGB Mentors (1st–11th August 2026) + Smartkeeda MockDrill Weekly PDF 1 (1st–7th August 2026)
+> **Source Attribution**: Source-derived & Cross-corroborated
+> **Target Cycle**: SBI PO Mains (Sep 2026) · IBPS PO Mains (Oct 2026) · Regulatory Exams
+> **Active Target Window**: April 2026 onward
 
 ---
 
@@ -86,6 +86,9 @@
 * **Reporting Architecture**: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).
 * **Board Mandate**: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.
 
+**Context & Rationale**
+* **ECL Synchronization**: Pillar 3 market discipline requires granular public credit-risk disclosures aligned with expected credit losses, which cannot be finalized until draft ECL provisioning norms are implemented by commercial banks.
+
 ---
 
 ### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief
@@ -109,7 +112,7 @@
 3. **ADB Approves $850 Million Loan for PM Surya Ghar: Muft Bijli Yojana (~3 min)**:
    * $850M loan for Subprogram 2; complements World Bank's $890M loan; ₹75,021 cr outlay for 10M households (subsidies ₹30k/1kW, ₹60k/2kW, ₹78k/3kW).
 4. **D-SIB Framework & RBI Leverage Ratio Buffer (~4 min)**:
-   * Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for other banks.
+   * Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for other banks (acts as a non-risk-weighted backstop to limit excessive balance-sheet expansion).
 5. **RBI Credit Valuation Adjustment (CVA) Risk Capital Framework (~4 min)**:
    * Effective 1 April 2027; Simplified approach for non-centrally cleared derivatives up to ₹10 trillion; Sovereign risk weight 0.5%–2%, Financial sector 5%–12%.
 6. **Pradhan Mantri Surya Sarovar Yojana (PM-SSY) (~4 min)**:

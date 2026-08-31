@@ -7,6 +7,13 @@ import {
   CategoryId,
   InstitutionId
 } from './schema';
+import {
+  classifyInformationType,
+  deriveCompressionLevel,
+  generateMemoryAnchor,
+  generateAtomicRecall,
+  generateExamAngle
+} from './information-types';
 
 export function generateStableSlug(title: string): string {
   return title
@@ -55,16 +62,16 @@ export function normalizeCategoryString(catStr: string): CategoryId | null {
 
 function identifyCategory(title: string, content: string): CategoryId {
   const tUpper = title.toUpperCase();
-  
+
   // 1. High-precision match against title first
   if (tUpper.includes('MONETARY POLICY') || tUpper.includes('REPO RATE') || tUpper.includes('MPC MEETING') || tUpper.includes('62ND RBI')) return 'MONETARY_POLICY';
   if (tUpper.includes('UPI') || tUpper.includes('CBDC') || tUpper.includes('POSTRANSFER') || tUpper.includes('FASTAG') || tUpper.includes('DIGITAL PAYMENT') || tUpper.includes('DIGITAL RUPEE')) return 'DIGITAL_PAYMENTS';
   if (tUpper.includes('CREDIT RISK-O-METER') || tUpper.includes('SETTLEMENT REGULATIONS') || tUpper.includes('SEBI') || tUpper.includes('DEBT SECURITIES') || tUpper.includes('MUTUAL FUND') || tUpper.includes('COMMODITY EXCHANGE') || tUpper.includes('MCX') || tUpper.includes('NISM') || tUpper.includes('JIO CREDIT')) return 'CAPITAL_MARKETS';
   if (tUpper.includes('MOTOR THIRD PARTY') || tUpper.includes('THIRD-PARTY INSURANCE') || tUpper.includes('IRDAI') || tUpper.includes('INSURANCE') || tUpper.includes('BIMA')) return 'INSURANCE_SECTOR';
   if (tUpper.includes('PENSION') || tUpper.includes('PFRDA') || tUpper.includes('NPS') || tUpper.includes('APY') || tUpper.includes('PM-SYM') || tUpper.includes('ANUBHAV')) return 'PENSION_SYSTEMS';
-  if (tUpper.includes('GOBARDHAN') || tUpper.includes('PM-KISAN') || tUpper.includes('PM E-DRIVE') || tUpper.includes('PM-VBRY') || tUpper.includes('JAL JEEVAN') || tUpper.includes('PM SVANIDHI') || tUpper.includes('AYUSHMAN BHARAT') || tUpper.includes('AB-PMJAY') || tUpper.includes('PM VISHWAKARMA') || tUpper.includes('SANDHYA KIRAN') || tUpper.includes('PM-RKVY') || tUpper.includes('KRISHONNATI') || tUpper.includes('SCHEME') || tUpper.includes('YOJANA') || tUpper.includes('MISSION') || tUpper.includes('ABHIYAN')) return 'GOVERNMENT_SCHEMES';
-  if (tUpper.includes('ON TAP LICENSING') || tUpper.includes('MSMED') || tUpper.includes('EXIM BANK') || tUpper.includes('NCDC') || tUpper.includes('SYNTHETIC SECURITISATION') || tUpper.includes('URBAN COOPERATIVE') || tUpper.includes('UCB') || tUpper.includes('NBFC') || tUpper.includes('BANK') || tUpper.includes('BANKING') || tUpper.includes('BASEL') || tUpper.includes('KCC') || tUpper.includes('KISAN CREDIT CARD') || tUpper.includes('DEPOSIT GROWTH')) return 'BANKING_REGULATION';
-  if (tUpper.includes('PRODUCER PRICE INDEX') || tUpper.includes('DOUBLE DEFLATION') || tUpper.includes('CPI INFLATION') || tUpper.includes('WPI') || tUpper.includes('GDP') || tUpper.includes('FAST-DS') || tUpper.includes('WINDFALL TAX') || tUpper.includes('SEZ EXPORTS') || tUpper.includes('SPECIAL ECONOMIC ZONE') || tUpper.includes('FOREIGN ASSETS') || tUpper.includes('GOVERNMENT DEBT') || tUpper.includes('MINERAL EXCHANGE') || tUpper.includes('SDRF') || tUpper.includes('NDRF') || tUpper.includes('FISCAL') || tUpper.includes('TAXATION')) return 'MACRO_ECONOMY';
+  if (tUpper.includes('GOBARDHAN') || tUpper.includes('PM-KISAN') || tUpper.includes('PM E-DRIVE') || tUpper.includes('PM-VBRY') || tUpper.includes('JAL JEEVAN') || tUpper.includes('PM SVANIDHI') || tUpper.includes('AYUSHMAN BHARAT') || tUpper.includes('AB-PMJAY') || tUpper.includes('PM VISHWAKARMA') || tUpper.includes('SANDHYA KIRAN') || tUpper.includes('PM-RKVY') || tUpper.includes('KRISHONNATI') || tUpper.includes('SCHEME') || tUpper.includes('YOJANA') || tUpper.includes('MISSION') || tUpper.includes('ABHIYAN') || tUpper.includes('UREA') || tUpper.includes('NIPU') || tUpper.includes('NATIONAL INVESTMENT POLICY')) return 'GOVERNMENT_SCHEMES';
+  if (tUpper.includes('ON TAP LICENSING') || tUpper.includes('MSMED') || tUpper.includes('EXIM BANK') || tUpper.includes('NCDC') || tUpper.includes('SYNTHETIC SECURITISATION') || tUpper.includes('URBAN COOPERATIVE') || tUpper.includes('UCB') || tUpper.includes('NBFC') || tUpper.includes('BANK') || tUpper.includes('BANKING') || tUpper.includes('BASEL') || tUpper.includes('KCC') || tUpper.includes('KISAN CREDIT CARD') || tUpper.includes('DEPOSIT GROWTH') || tUpper.includes('D-SIB') || tUpper.includes('LEVERAGE RATIO')) return 'BANKING_REGULATION';
+  if (tUpper.includes('PRODUCER PRICE INDEX') || tUpper.includes('DOUBLE DEFLATION') || tUpper.includes('CPI INFLATION') || tUpper.includes('WPI') || tUpper.includes('GDP') || tUpper.includes('FAST-DS') || tUpper.includes('WINDFALL TAX') || tUpper.includes('SEZ EXPORTS') || tUpper.includes('SPECIAL ECONOMIC ZONE') || tUpper.includes('SEZ') || tUpper.includes('FOREIGN ASSETS') || tUpper.includes('GOVERNMENT DEBT') || tUpper.includes('MINERAL EXCHANGE') || tUpper.includes('SDRF') || tUpper.includes('NDRF') || tUpper.includes('FISCAL') || tUpper.includes('TAXATION')) return 'MACRO_ECONOMY';
   if (tUpper.includes('APPOINTS') || tUpper.includes('APPOINTED') || tUpper.includes('CHAIRPERSON') || tUpper.includes('CHAIRMAN') || tUpper.includes('STEP DOWN') || tUpper.includes('VICE-CHANCELLOR') || tUpper.includes('RE-ELECTED AS PRESIDENT') || tUpper.includes('ARBITRATOR')) return 'APPOINTMENTS';
   if (tUpper.includes('PLFS') || tUpper.includes('LABOUR FORCE') || tUpper.includes('REPORT') || tUpper.includes('SURVEY') || tUpper.includes('INDEX') || tUpper.includes('PAIMANA') || tUpper.includes('REBR') || tUpper.includes('RANDSTAD') || tUpper.includes('HANDLOOM CENSUS') || tUpper.includes('CENSUS OF INDIA') || tUpper.includes('HOUSEHOLD SCHEDULE') || tUpper.includes('NOWCASTING')) return 'REPORTS_AND_INDICES';
   if (tUpper.includes('AMCA') || tUpper.includes('COMBAT ENGINE') || tUpper.includes('LOITER MUNITION') || tUpper.includes('FALCON 9') || tUpper.includes('SPACEX') || tUpper.includes('MOON BASE') || tUpper.includes('NASA') || tUpper.includes('ISRO') || tUpper.includes('SATELLITE') || tUpper.includes('SRAVAANI') || tUpper.includes('SEMICON') || tUpper.includes('AI FACTORY') || tUpper.includes('CYBER') || tUpper.includes('DEFENCE') || tUpper.includes('NAVY') || tUpper.includes('AIR FORCE') || tUpper.includes('EXERCISE') || tUpper.includes('UDARA SHAKTI') || tUpper.includes('MAITREE') || tUpper.includes('LUNAR ROVER') || tUpper.includes('DLI SCHEME') || tUpper.includes('VIHAAN') || tUpper.includes('BHASHINI')) return 'DEFENCE_AND_SCIENCE';
@@ -118,18 +125,45 @@ export function parseCanonicalMarkdownFile(
       const institution = identifyInstitution(currentTopic.title, fullMd);
       const category = identifyCategory(currentTopic.title, fullMd);
 
+      const priority = currentTopic.priority || (currentPart === 'P1' ? 'P1_CRITICAL_DEEP' : currentPart === 'P2' ? 'P2_HIGH' : 'P3_MODERATE');
+      const revMin = currentTopic.revisionMinutes || (currentPart === 'P1' ? 8 : currentPart === 'P2' ? 3 : 1);
+
+      const partialForClassification = {
+        title: currentTopic.title,
+        priority,
+        revisionMinutes: revMin,
+        primaryCategory: currentTopic.primaryCategory || category,
+        mustMemorizeFacts: mustMem,
+        whatHappened: currentTopic.whatHappened || []
+      } as any;
+
+      const informationType = classifyInformationType(partialForClassification);
+      const compressionLevel = deriveCompressionLevel(partialForClassification);
+      const memoryAnchor = generateMemoryAnchor(partialForClassification);
+      const atomicRecall = generateAtomicRecall(partialForClassification);
+      const examAngle = generateExamAngle(partialForClassification);
+
       const topic: CanonicalTopic = {
         id: slug,
         slug,
         title: currentTopic.title,
         subtitle: currentTopic.subtitle,
-        priority: currentTopic.priority || (currentPart === 'P1' ? 'P1_CRITICAL_DEEP' : currentPart === 'P2' ? 'P2_HIGH' : 'P3_MODERATE'),
-        revisionMinutes: currentTopic.revisionMinutes || (currentPart === 'P1' ? 8 : currentPart === 'P2' ? 3 : 1),
+        priority,
+        revisionMinutes: revMin,
         primaryCategory: currentTopic.primaryCategory || category,
         secondaryCategories: [],
         primaryInstitution: currentTopic.primaryInstitution || institution,
         regulatoryStatus: currentTopic.regulatoryStatus, // Optional: only if explicitly defined
         verificationStatus: currentTopic.verificationStatus || 'SOURCE_ONLY',
+
+        // V3 Knowledge Architecture Axes
+        informationType,
+        compressionLevel,
+        memoryAnchor,
+        atomicRecall,
+        examAngle,
+        lifecycleStatus: 'ACTIVE',
+
         whatHappened: currentTopic.whatHappened || [],
         mustMemorizeFacts: mustMem,
         knowUnderstandContext: currentTopic.knowUnderstandContext || [],
@@ -196,7 +230,7 @@ export function parseCanonicalMarkdownFile(
       flushCurrentTopic();
       const rawTitle = h3Match[2].trim();
       const isDraft = rawTitle.toUpperCase().includes('DRAFT') || rawTitle.toUpperCase().includes('PROPOSAL');
-      
+
       let defaultPriority: PriorityLevel = 'P1_CRITICAL_DEEP';
       let defaultRevTime = 8;
       if (currentPart === 'P2') {
@@ -347,7 +381,7 @@ export function parseCanonicalMarkdownFile(
       }
 
       // Check if line is metadata header (Priority, Source, Event Date, Category, Institution, Target Exams, Status)
-      const isMetadataLine = 
+      const isMetadataLine =
         /^\s*[\*\-]?\s*\**\s*(Priority|Source|Event Date|Date|Revision Effort|Category|Primary Category|Institution|Primary Institution|Status|Regulatory Status|Target Exams)\s*\**\s*:/i.test(line) ||
         /^\s*[\*\-]?\s*(\*\*|\*|`)*(Category|Priority|Institution|Date|Source|Status)(\*\*|\*|`)*\s*:\s*[`*]*/i.test(line) ||
         line.includes('| **Institution**:') ||

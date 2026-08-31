@@ -1,13 +1,13 @@
 {
   "metadata": {
     "standard": "W11.2 Permanent Ingestion Pipeline & Reusable Layer-B Verification",
-    "timestamp": "2026-08-30T04:00:50.305Z",
-    "bootstrapCorpusSize": 625,
+    "timestamp": "2026-08-31T08:24:45.671Z",
+    "bootstrapCorpusSize": 653,
     "simulationItemsProcessed": 8,
     "all8ScenariosPassed": true
   },
   "report": {
-    "timestamp": "2026-08-30T04:00:50.095Z",
+    "timestamp": "2026-08-31T08:24:45.533Z",
     "batchId": "SIMULATION-OCTOBER-2026",
     "totalIncomingItems": 8,
     "newEntitiesCreated": 3,
@@ -515,6 +515,96 @@
     {
       "queueId": "queue-conflict-1788062450242-mwdw",
       "timestamp": "2026-08-30T04:00:50.242Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "FUTURE-FEED-06",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788062451902-lizx",
+      "timestamp": "2026-08-30T04:00:51.902Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "SMOKE-05-CONFLICT",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'Policy Repo Rate was increased to 6.25% by unanimous vote.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "Policy Repo Rate was increased to 6.25% by unanimous vote.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788163774776-c22p",
+      "timestamp": "2026-08-31T08:09:34.776Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "FUTURE-FEED-06",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788163776362-q04l",
+      "timestamp": "2026-08-31T08:09:36.362Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "SMOKE-05-CONFLICT",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'Policy Repo Rate was increased to 6.25% by unanimous vote.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "Policy Repo Rate was increased to 6.25% by unanimous vote.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788163808077-vypg",
+      "timestamp": "2026-08-31T08:10:08.077Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "FUTURE-FEED-06",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "The Monetary Policy Committee at its 62nd meeting decided to hike the policy repo rate to 6.50%.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788163809484-tynl",
+      "timestamp": "2026-08-31T08:10:09.484Z",
+      "reason": "CONFLICT_DETECTED",
+      "severity": "HIGH",
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "incomingFeedItemId": "SMOKE-05-CONFLICT",
+      "description": "Conflicting claim detected: existing 'Policy Repo Rate: `5.25%` (Unchanged).' vs incoming 'Policy Repo Rate was increased to 6.25% by unanimous vote.'",
+      "conflictingDetails": {
+        "existingClaim": "Policy Repo Rate: `5.25%` (Unchanged).",
+        "incomingClaim": "Policy Repo Rate was increased to 6.25% by unanimous vote.",
+        "incomingSource": "OTHER"
+      },
+      "resolved": false
+    },
+    {
+      "queueId": "queue-conflict-1788164685609-vtmb",
+      "timestamp": "2026-08-31T08:24:45.609Z",
       "reason": "CONFLICT_DETECTED",
       "severity": "HIGH",
       "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",

@@ -1,8 +1,8 @@
 # Banking & Economy Current Affairs — August 1–10, 2026 (Top 50 MCQs & Exam Intelligence)
 
-**Source:** CGB Mentors CA August 2026 Top 50 MCQs (1st–10th August 2026)  
-**Target Window:** August 2026 (Batch: 1–10 August 2026 Drill)  
-**Compilation Mode:** Canonical Exam Intelligence & High-Yield Drill Notes  
+**Source:** CGB Mentors CA August 2026 Top 50 MCQs (1st–10th August 2026)
+**Target Window:** August 2026 (Batch: 1–10 August 2026 Drill)
+**Compilation Mode:** Canonical Exam Intelligence & High-Yield Drill Notes
 
 ---
 
@@ -22,8 +22,7 @@
 #### Must Memorize
 * **Perpetual Registration & Annual Fee Formula:**
   * Certificate of registration, once issued to intermediaries (corporate agents, brokers, marketing firms, web aggregators, CPSC-SPVs), remains **perpetually valid** subject to payment of an annual non-refundable fee.
-  * **Annual Fee Calculation:**
-    $$\text{Annual Fee} = \max(₹10,000,\ 0.04\% \times \text{Commission \& receipts from insurers in preceding FY})$$
+  * **Annual Fee Formula:** \(\text{Annual Fee} = \max(₹10,000,\ 0.04\% \times \text{Commission \& receipts from insurers in preceding FY})\)
 * **Training Mandate for Insurance Marketing Firms (IMFs):**
   * Principal officers and insurance salespersons must complete at least **25 hours of training once every three years** through an IRDAI-recognised examination body.
 * **Insurer Investment Limits & Exposure Ceilings:**
@@ -96,16 +95,12 @@
   * **₹2,075 crore** released to **NABARD** as the nodal implementing agency since 2022-23.
   * Interest subvention provided at **6% per annum or 50% of the interest charged by banks/FIs**, whichever is lower, for a period of **5 years**.
 
-### 3. SEZ Exports Performance FY 2025-26: Gujarat Leads
+### 3. Special Economic Zones (SEZs) FY26 Exports Rise 11.8% to ₹16.36 Lakh Crore (~3 min)
 * **Priority:** P2 — High
 * **Category:** MACRO_ECONOMY | **Institution:** Ministry of Commerce | **Event Date:** 2026-08-04
 * **Must Memorize Facts:**
   * Total SEZ exports rose **11.8% YoY** to **₹16,36,192 crore ($185.28 billion)** in FY 2025-26.
-  * **Top Performing States:**
-    1. **Gujarat:** **₹4,05,595 crore** (Rank 1)
-    2. **Karnataka:** **₹2,69,004 crore** (Rank 2)
-    3. **Maharashtra:** **₹2,43,422.50 crore** (Rank 3)
-    4. **Tamil Nadu:** **₹2,12,288 crore** (Rank 4)
+  * State Rankings: **1st Gujarat (₹4,05,595 crore)**, **2nd Karnataka (₹2,69,004 crore)**, **3rd Maharashtra (₹2,43,422.50 crore)**, **4th Tamil Nadu (₹2,12,288 crore)**.
 
 ### 4. RBI Bank Locker Guidelines: Negligence Liability Cap
 * **Priority:** P2 — High
