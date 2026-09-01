@@ -245,7 +245,79 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ## PART 2: P2 — HIGH-YIELD (EXAM-LIKELY BANKING, REGULATORY & MACRO)
 
-### 8. HDFC Bank Appoints Former CEC Rajiv Kumar as Part-Time Chairman
+### 8. Union Cabinet Approves "Semicon 2.0" with Outlay of ₹1,27,500 Crore
+- **Category**: `GOVERNMENT_SCHEMES`
+- **Institution**: `MINISTRY_OF_ELECTRONICS_AND_IT`
+- **Priority**: `P2_HIGH`
+- **Date**: `2026-07-16`
+- **Revision Effort**: `~5 min`
+- **Overview**: Union Cabinet approved **Semicon 2.0** with a budgetary outlay of **₹1,27,500 crore** (succeeding Semicon 1.0 / ISM). Structured across 6 pillars (chip design, materials, fab capacity, ATMP/OSAT, R&D, talent).
+- **Key Parameters**:
+  - **Silicon Fab Subsidies**: **40% fiscal support** on eligible capital expenditure.
+  - **Compound / Display Fabs**: **35% fiscal support**.
+  - **Advanced Packaging (ATMP/OSAT)**: **35% support** (25% for conventional packaging).
+  - **Private Capex Catalyst**: Expected to mobilise **₹4 lakh crore** in private investments.
+  - **First Commercial Fab**: India's 1st semiconductor fabrication plant scheduled to be commissioned in **2028**.
+
+---
+
+### 9. Mobile Phone Manufacturing Scheme (MPMS) Approved with Outlay of ₹62,500 Crore
+- **Category**: `GOVERNMENT_SCHEMES`
+- **Institution**: `MINISTRY_OF_ELECTRONICS_AND_IT`
+- **Priority**: `P2_HIGH`
+- **Date**: `2026-07-16`
+- **Revision Effort**: `~4 min`
+- **Overview**: Successor to the PLI for Large Scale Electronics Manufacturing (PLI-LSEM which concluded March 31, 2026). Runs for 5 years (**FY 2026–27 to FY 2030–31**) with an outlay of **₹62,500 crore**.
+- **Incentive Structure**:
+  - **Base Sales Incentive**: Differentiated rates from **2.25% to 5.0%** on eligible incremental sales.
+  - **Domestic Sourcing Bonus**: Up to **1.5% additional incentive** linked to domestic component sourcing.
+  - **Design & IP Bonus**: **3% additional incentive** linked to product design and R&D for Indian brands.
+  - **Macro Target**: Expected to drive **₹39 lakh crore** in cumulative production and create 60,000 direct jobs.
+
+---
+
+### 10. Emergency Credit Line Guarantee Scheme (ECLGS 5.0): ₹1.55 Lakh Crore Guaranteed
+- **Category**: `BANKING_REGULATION`
+- **Institution**: `MINISTRY_OF_FINANCE`
+- **Priority**: `P2_HIGH`
+- **Date**: `2026-07-18`
+- **Revision Effort**: `~4 min`
+- **Overview**: Finance Ministry reported that ECLGS 5.0 has issued **4,11,497 guarantees** worth **₹1,55,229 crore** (~₹1.55 lakh crore) to cushion businesses from West Asia supply disruptions.
+- **Key Loan Limits & Terms**:
+  - **MSME Guarantee**: **100% sovereign guarantee** for credit up to **20% of peak working capital** (cap: **₹100 crore**).
+  - **Airlines Guarantee**: **100% of working capital** (capped at **₹1,500 crore per borrower**).
+  - **Eligible Sanction Window**: Loans sanctioned till end of **FY 2026–27** (March 31, 2027).
+  - **Target Segment**: MSMEs accounted for **98% of total guarantees** and **82% of total funds**.
+
+---
+
+### 11. PM-Vidyalaxmi Scheme & Education Loan Credit Guarantee (PM-USP CGFSEL) Review
+- **Category**: `GOVERNMENT_SCHEMES`
+- **Institution**: `MINISTRY_OF_EDUCATION`
+- **Priority**: `P2_HIGH`
+- **Date**: `2026-07-22`
+- **Revision Effort**: `~4 min`
+- **Overview**: PM-Vidyalaxmi Scheme sanctioned **1,12,817 collateral-free loans worth ₹15,634 crore** as of July 2026.
+- **Key Scheme Provisions**:
+  - **Interest Subvention**: **3% interest subvention** on loans up to **₹10 lakh** for students from families with annual income up to **₹8 lakh** admitted to Quality Higher Education Institutions (over 860 QHEIs).
+  - **Credit Guarantee (PM-USP CGFSEL)**: Central Government provides **75% credit guarantee** for collateral-free education loans up to **₹7.5 lakh** (₹59,843.74 crore guaranteed across 14.65 lakh loans since 2015).
+
+---
+
+### 12. MoHUA PARIVARTAN Scheme Approved for NCR Commercial Fleet Modernisation (₹9,585 Crore)
+- **Category**: `GOVERNMENT_SCHEMES`
+- **Institution**: `MINISTRY_OF_HOUSING_AND_URBAN_AFFAIRS`
+- **Priority**: `P2_HIGH`
+- **Date**: `2026-07-10`
+- **Revision Effort**: `~4 min`
+- **Overview**: Operationalised **PARIVARTAN** (Programme for Accelerated Renewal and Incentivization of Vehicle Assets for Reducing Transport Air Pollution and Network Emissions) across Delhi, Haryana, Rajasthan, and UP districts of NCR.
+- **Financial Structure**:
+  - **Total Outlay**: **₹9,585 crore** (Central budgetary support: ₹5,041 crore).
+  - **Incentives**: **5% interest subvention** on commercial vehicle replacement loans; minimum **8% OEM discount**; Motor Vehicle Tax concessions and Certificate of Deposit (CoD) trading.
+
+---
+
+### 13. HDFC Bank Appoints Former CEC Rajiv Kumar as Part-Time Chairman
 - **Category**: `APPOINTMENTS`
 - **Institution**: `HDFC_BANK`
 - **Priority**: `P2_HIGH`
@@ -256,7 +328,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 9. SEBI Constitutes Expert Working Group on Debenture Trusteeship Framework
+### 14. SEBI Constitutes Expert Working Group on Debenture Trusteeship Framework
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `SEBI`
 - **Priority**: `P2_HIGH`
@@ -267,7 +339,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 10. Small Savings Schemes Interest Rates Retained Unchanged for Q2 FY27 (9th Consecutive Quarter)
+### 15. Small Savings Schemes Interest Rates Retained Unchanged for Q2 FY27 (9th Consecutive Quarter)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
@@ -286,7 +358,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 11. CBDT Notifies Cost Inflation Index (CII) for FY 2026–27 at 384 (+2.3%)
+### 16. CBDT Notifies Cost Inflation Index (CII) for FY 2026–27 at 384 (+2.3%)
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `CBDT`
 - **Priority**: `P2_HIGH`
@@ -297,7 +369,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 12. CBDT Notifies NaBFID 10-Year Zero Coupon Bonds (₹20,000 Crore Maturity Value)
+### 17. CBDT Notifies NaBFID 10-Year Zero Coupon Bonds (₹20,000 Crore Maturity Value)
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `NABFID`
 - **Priority**: `P2_HIGH`
@@ -308,7 +380,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 13. EbixCash World Money Secures 1st Perpetual AD-II Non-Bank Licence from RBI
+### 18. EbixCash World Money Secures 1st Perpetual AD-II Non-Bank Licence from RBI
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
@@ -318,7 +390,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 14. EnKash Launches India's 1st Meal Card with Direct UPI Integration
+### 19. EnKash Launches India's 1st Meal Card with Direct UPI Integration
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `NPCI`
 - **Priority**: `P2_HIGH`
@@ -328,7 +400,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 15. NSE Launches India's 1st Domestically Benchmarked Energy Derivative: "Indian Natural Gas Futures"
+### 20. NSE Launches India's 1st Domestically Benchmarked Energy Derivative: "Indian Natural Gas Futures"
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `NSE`
 - **Priority**: `P2_HIGH`
@@ -338,7 +410,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 16. NSE Indices Launches "Nifty 500 Ahimsa Index" (326 Ethical Stocks)
+### 21. NSE Indices Launches "Nifty 500 Ahimsa Index" (326 Ethical Stocks)
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `NSE`
 - **Priority**: `P2_HIGH`
@@ -348,7 +420,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 17. Government Approves RBI Field Trials for 1 Billion Polymer Banknotes (₹10 & ₹20)
+### 22. Government Approves RBI Field Trials for 1 Billion Polymer Banknotes (₹10 & ₹20)
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
@@ -359,7 +431,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 18. UNCTAD World Investment Report 2026: India Climbs to 11th Largest Global FDI Recipient
+### 23. UNCTAD World Investment Report 2026: India Climbs to 11th Largest Global FDI Recipient
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `UNCTAD`
 - **Priority**: `P2_HIGH`
@@ -369,7 +441,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 19. WIPO World Intangible Investment Report 2026: India #1 in Intangible Growth (+7.9%)
+### 24. WIPO World Intangible Investment Report 2026: India #1 in Intangible Growth (+7.9%)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `WIPO`
 - **Priority**: `P2_HIGH`
@@ -379,7 +451,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 20. MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)
+### 25. MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `MOSPI`
 - **Priority**: `P2_HIGH`
@@ -389,7 +461,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 21. MoSPI Launches Trial Index of Services Production (ISP) with Base Year 2024–25
+### 26. MoSPI Launches Trial Index of Services Production (ISP) with Base Year 2024–25
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `MOSPI`
 - **Priority**: `P2_HIGH`
@@ -399,7 +471,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 22. NITI Aayog Investment Friendliness Index (IFI) 2026: Gujarat Ranks #1 Among Large States
+### 27. NITI Aayog Investment Friendliness Index (IFI) 2026: Gujarat Ranks #1 Among Large States
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
@@ -412,7 +484,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 23. NITI Aayog BioEconomy Powerhouse Roadmap: $691 Billion Target by 2035
+### 28. NITI Aayog BioEconomy Powerhouse Roadmap: $691 Billion Target by 2035
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
@@ -422,7 +494,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 24. UN Sustainable Development Report 2026: India Ranks 94th Globally (Score 68.3)
+### 29. UN Sustainable Development Report 2026: India Ranks 94th Globally (Score 68.3)
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `UNITED_NATIONS`
 - **Priority**: `P2_HIGH`
@@ -432,7 +504,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 25. Ministry of Education UDISE+ 2025–26 & PGI-S 2.0 Reports
+### 30. Ministry of Education UDISE+ 2025–26 & PGI-S 2.0 Reports
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MINISTRY_OF_EDUCATION`
 - **Priority**: `P2_HIGH`
@@ -442,7 +514,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 26. World Bank Approves $890 Million Financing for PM Surya Ghar Rooftop Solar
+### 31. World Bank Approves $890 Million Financing for PM Surya Ghar Rooftop Solar
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `WORLD_BANK`
 - **Priority**: `P2_HIGH`
@@ -452,7 +524,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 27. ADB Approves $230 Million Loan for Chennai Climate Resilient Water Project (CCRWSSP)
+### 32. ADB Approves $230 Million Loan for Chennai Climate Resilient Water Project (CCRWSSP)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `ASIAN_DEVELOPMENT_BANK`
 - **Priority**: `P2_HIGH`
@@ -462,7 +534,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 28. POWERGRID Secures JPY 80 Billion Green Loan from JBIC for Khavda–Nagpur HVDC
+### 33. POWERGRID Secures JPY 80 Billion Green Loan from JBIC for Khavda–Nagpur HVDC
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `POWER_GRID_CORPORATION`
 - **Priority**: `P2_HIGH`
@@ -472,7 +544,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 29. Adani Enterprises & IRH Abu Dhabi $11.5 Billion (₹1.08 Lakh Crore) Odisha Aluminium Project
+### 34. Adani Enterprises & IRH Abu Dhabi $11.5 Billion (₹1.08 Lakh Crore) Odisha Aluminium Project
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `ADANI_GROUP`
 - **Priority**: `P2_HIGH`
@@ -482,7 +554,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 30. India–Israel Bilateral Investment Agreement (BIA) Enters into Force
+### 35. India–Israel Bilateral Investment Agreement (BIA) Enters into Force
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
@@ -492,7 +564,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 31. India Tightens Double Taxation Avoidance Agreement (DTAA) with Sri Lanka via Principal Purpose Test (PPT)
+### 36. India Tightens Double Taxation Avoidance Agreement (DTAA) with Sri Lanka via Principal Purpose Test (PPT)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
@@ -502,7 +574,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 32. Cabinet Approves National Investment Policy for Urea-2026 (NIPU-2026)
+### 37. Cabinet Approves National Investment Policy for Urea-2026 (NIPU-2026)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_CHEMICALS_AND_FERTILIZERS`
 - **Priority**: `P2_HIGH`
@@ -512,7 +584,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 33. BHAVYA Rasayan Scheme Approved for 3 Chemical Parks (₹3,030 Crore Outlay)
+### 38. BHAVYA Rasayan Scheme Approved for 3 Chemical Parks (₹3,030 Crore Outlay)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_CHEMICALS_AND_FERTILIZERS`
 - **Priority**: `P2_HIGH`
@@ -522,7 +594,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 34. DRDO Netra AEW&C Receives Final Operational Clearance (FOC) & ₹19,000 Cr Netra Mk II Contracts
+### 39. DRDO Netra AEW&C Receives Final Operational Clearance (FOC) & ₹19,000 Cr Netra Mk II Contracts
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
@@ -532,7 +604,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 35. DRDO Successfully Tests Project Kusha Long-Range Surface-to-Air Missile (LR-SAM)
+### 40. DRDO Successfully Tests Project Kusha Long-Range Surface-to-Air Missile (LR-SAM)
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
@@ -542,7 +614,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 36. Skyroot Aerospace Launches "Vikram-1" Orbital Rocket on Mission Aagaman
+### 41. Skyroot Aerospace Launches "Vikram-1" Orbital Rocket on Mission Aagaman
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `IN_SPACE`
 - **Priority**: `P2_HIGH`
@@ -552,7 +624,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 37. Reliance Jio Receives IN-SPACe Approval for ~1,600 LEO Satellite Constellation (4.5–5 Tbps)
+### 42. Reliance Jio Receives IN-SPACe Approval for ~1,600 LEO Satellite Constellation (4.5–5 Tbps)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `IN_SPACE`
 - **Priority**: `P2_HIGH`
@@ -562,7 +634,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 38. PM Narendra Modi Inaugurates India's 1st Hydrogen Train "NaMo Green Rail" (Jind, Haryana)
+### 43. PM Narendra Modi Inaugurates India's 1st Hydrogen Train "NaMo Green Rail" (Jind, Haryana)
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MINISTRY_OF_RAILWAYS`
 - **Priority**: `P2_HIGH`
@@ -572,7 +644,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 39. India's 1st Geothermal Wells Commissioned at Puga Valley, Ladakh (ONGC Energy Centre)
+### 44. India's 1st Geothermal Wells Commissioned at Puga Valley, Ladakh (ONGC Energy Centre)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `ONGC`
 - **Priority**: `P2_HIGH`
@@ -582,63 +654,13 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ---
 
-### 40. DCGI Approves India's 1st Dengue Vaccine "QDENGA" (Takeda)
+### 45. DCGI Approves India's 1st Dengue Vaccine "QDENGA" (Takeda)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `CDSCO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-06`
 - **Revision Effort**: `~3 min`
 - **Overview**: Live-attenuated tetravalent vaccine approved for individuals aged 4 to 60 years protecting against all 4 dengue serotypes (DENV 1–4) without requiring pre-vaccination testing.
-
----
-
-### 41. Ancient Buddhist Site of Sarnath Inscribed as India's 45th UNESCO World Heritage Site
-- **Category**: `AWARDS_AND_HONOURS`
-- **Institution**: `UNESCO`
-- **Priority**: `P2_HIGH`
-- **Date**: `2026-07-08`
-- **Revision Effort**: `~4 min`
-- **Overview**: Inscribed during 48th World Heritage Committee in Busan, South Korea; India ranks 6th globally with 45 World Heritage Sites (37 cultural, 7 natural, 1 mixed); UP's 4th site (after Taj Mahal, Agra Fort, Fatehpur Sikri).
-
----
-
-### 42. R. Vairamuthu Conferred 60th Jnanpith Award (2025)
-- **Category**: `AWARDS_AND_HONOURS`
-- **Institution**: `BHARATIYA_JNANPITH`
-- **Priority**: `P2_HIGH`
-- **Date**: `2026-07-04`
-- **Revision Effort**: `~4 min`
-- **Overview**: Eminent Tamil poet/lyricist honoured with ₹11 lakh prize and bronze statue of Vagdevi; 3rd Tamil writer to receive Jnanpith (after Akilan 1975, Jayakanthan 2002).
-
----
-
-### 43. NSA Ajit Doval Selected for 44th Lokmanya Tilak National Award 2026
-- **Category**: `AWARDS_AND_HONOURS`
-- **Institution**: `LOKMANYA_TILAK_TRUST`
-- **Priority**: `P2_HIGH`
-- **Date**: `2026-07-10`
-- **Revision Effort**: `~3 min`
-- **Overview**: Conferred in Pune on Aug 1 (Bal Gangadhar Tilak death anniversary); honours Doval's 33+ years of counter-terrorism and national security leadership.
-
----
-
-### 44. 72nd National Film Awards (2024): Article 370 Best Feature Film
-- **Category**: `AWARDS_AND_HONOURS`
-- **Institution**: `MINISTRY_OF_INFORMATION_AND_BROADCASTING`
-- **Priority**: `P2_HIGH`
-- **Date**: `2026-07-06`
-- **Revision Effort**: `~3 min`
-- **Overview**: Best Feature Film: *Article 370*; Best Actor: Mammootty (*Bramayugam*) & Kartik Aaryan (*Chandu Champion*); Best Actress: Yami Gautam (*Article 370*); Best Director: Rajkumar Periasamy (*Amaran*).
-
----
-
-### 45. Spain Wins 2026 FIFA World Cup (2nd Title) at MetLife Stadium ($871M Prize Pool)
-- **Category**: `SPORTS_EVENT`
-- **Institution**: `FIFA`
-- **Priority**: `P2_HIGH`
-- **Date**: `2026-07-19`
-- **Revision Effort**: `~4 min`
-- **Overview**: Spain defeated defending champions Argentina 1-0 in extra time. Golden Ball: Rodri (Spain); Golden Boot: Kylian Mbappé (France); Golden Glove: Unai Simón (Spain); Best Young Player: Pau Cubarsí. Total prize money reached record $871 million.
 
 ---
 
@@ -685,8 +707,13 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **Global Biofuel Champion Fellowship (GBA)**: Ruchi Agrawal (TERI) and Abhisek Sahoo (IIT Delhi) selected.
 - **Bintang Adipurna of the Republic of Indonesia**: Conferred on PM Narendra Modi by President Prabowo Subianto.
 - **Honorary Doctorate to President Murmu**: Conferred by Bucharest University of Economic Studies (Romania).
+- **Sarnath UNESCO World Heritage Site**: Inscribed as India's 45th World Heritage Site (UP's 4th).
+- **60th Jnanpith Award (2025)**: Conferred on eminent Tamil poet R. Vairamuthu.
+- **44th Lokmanya Tilak National Award**: NSA Ajit Doval selected.
+- **72nd National Film Awards**: *Article 370* Best Film; Mammootty & Kartik Aaryan Best Actor.
 
 ### Sports Milestones
+- **2026 FIFA World Cup**: Spain won 2nd title (1-0 vs Argentina at MetLife Stadium, $871M prize pool).
 - **Joe Root (England)**: Became 2nd batter in Test cricket history to reach 14,000 runs (joining Sachin Tendulkar).
 - **Ethan Vaz (Goa)**: Became India's 96th Chess Grandmaster at age 14 (youngest active GM in India).
 - **Harshavardhan G.B. (Chennai)**: Became India's 97th Chess Grandmaster.
@@ -790,11 +817,9 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **Centre of Excellence on Human-Wildlife Conflict**: Inaugurated at WII-SACON Coimbatore.
 - **UP Mukhyamantri Shikshak Cashless Chikitsa Yojana**: ₹5 lakh/year medical cover for 15 lakh teachers (with SBI insurance).
 - **AP "Pillale Sampada" Demographic Initiative**: ₹30,000 for 3rd child, ₹40,000 for 4th child.
-- **MoHUA PARIVARTAN Scheme (₹9,585 Crore)**: Fleet renewal for NCR trucks/buses to BS-VI/EVs.
 - **PLI-Auto Manufacturing Units**: 225 units nationwide; Maharashtra leads with 66 units.
 - **Beti Bachao Beti Padhao 10-Year Review**: National Sex Ratio at Birth improved to 929 (from 918 in 2015).
 - **Himachal Pradesh Mukhyamantri Machhuara Samman Nidhi**: ₹3,500 annual relief during fishing ban.
-- **PM-Vidyalaxmi Scheme Review**: 1,12,817 collateral-free loans worth ₹15,634 crore sanctioned.
 - **ESIC Atal Beemit Vyakti Kalyan Yojana (ABVKY) Extended to June 30, 2027**.
 - **Delhi Lakshmi Yojana**: ₹2,500 monthly installment for eligible eldest women.
 - **10th Apex NCORD Meeting**: Amit Shah launched Narcotics Vision 2026-2029; destroyed 2.09 lakh kg drugs.
