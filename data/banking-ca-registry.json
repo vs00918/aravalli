@@ -123,7 +123,9 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The Reserve Bank of India (RBI) released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks."
+      ],
       "mustMemorizeFacts": [
         "Operating Track Record: Minimum **10 years** of continuous operations.",
         "Deposit Base: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).",
@@ -154,7 +156,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**Must Memorize (Eligibility Thresholds)**\n* **Operating Track Record**: Minimum **10 years** of continuous operations.\n* **Deposit Base**: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).\n* **Net Worth**: Minimum **₹300 crore**.\n* **Capital Adequacy (CRAR)**: Minimum **12%**.\n* **Asset Quality (Net NPA)**: Maximum **3%**.\n* **Financial Trend**: Positive, progressive trend over the previous **5 years**.\n* **Initial Phase Scope**: Restricted to societies registered under the **Multi-State Cooperative Societies Act, 2002** with multi-state operations.\n* **Governance Norm**: Individual shareholding capped at **5%**.\n\n---"
+      "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**What Happened**\n* The Reserve Bank of India (RBI) released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks.\n\n**Must Memorize (Eligibility Thresholds)**\n* **Operating Track Record**: Minimum **10 years** of continuous operations.\n* **Deposit Base**: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).\n* **Net Worth**: Minimum **₹300 crore**.\n* **Capital Adequacy (CRAR)**: Minimum **12%**.\n* **Asset Quality (Net NPA)**: Maximum **3%**.\n* **Financial Trend**: Positive, progressive trend over the previous **5 years**.\n* **Initial Phase Scope**: Restricted to societies registered under the **Multi-State Cooperative Societies Act, 2002** with multi-state operations.\n* **Governance Norm**: Individual shareholding capped at **5%**.\n\n---"
     },
     "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627": {
       "id": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
@@ -176,7 +178,9 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The RBI published the annual list of Non-Banking Financial Companies in the Upper Layer (NBFC-UL) under its Scale-Based Regulation (SBR) framework for FY 2026–27."
+      ],
       "mustMemorizeFacts": [
         "**Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).",
         "Total NBFC-UL Entities: **17 entities** (REC, PFC, IRFC, HUDCO included).",
@@ -204,7 +208,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 3. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).\n* **Total NBFC-UL Entities**: **17 entities** (REC, PFC, IRFC, HUDCO included).\n* **5-Year Lock-In Rule**: Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n* **Mandatory Listing**: Must list on recognized stock exchanges within **3 years**.\n* **SBR Slabs**: Base Layer ($<₹1,000$ cr) $\\to$ Middle Layer ($\\ge ₹1,000$ cr) $\\to$ Upper Layer ($\\ge ₹1$ lakh cr / top 10 scoring).\n\n---"
+      "contentMarkdown": "### 3. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**What Happened**\n* The RBI published the annual list of Non-Banking Financial Companies in the Upper Layer (NBFC-UL) under its Scale-Based Regulation (SBR) framework for FY 2026–27.\n\n**Must Memorize**\n* **Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).\n* **Total NBFC-UL Entities**: **17 entities** (REC, PFC, IRFC, HUDCO included).\n* **5-Year Lock-In Rule**: Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n* **Mandatory Listing**: Must list on recognized stock exchanges within **3 years**.\n* **SBR Slabs**: Base Layer ($<₹1,000$ cr) $\\to$ Middle Layer ($\\ge ₹1,000$ cr) $\\to$ Upper Layer ($\\ge ₹1$ lakh cr / top 10 scoring).\n\n---"
     },
     "rbi-loan-recovery-directions-financed-smartphone-lockout-norms": {
       "id": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
@@ -226,7 +230,9 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The RBI notified comprehensive directions governing loan recovery agents and prohibiting predatory remote lockouts on financed smartphones."
+      ],
       "mustMemorizeFacts": [
         "**Effective Date:** **1 January 2027** | **Source:** CGB Mentors",
         "Calling Hours: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).",
@@ -255,7 +261,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**Must Memorize**\n* **Calling Hours**: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).\n* **Mandatory Certification**: All agents must hold **IIBF Certification**.\n* **Smartphone Locks**: No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n* **Protected SOS**: Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n* **Restoration**: Device must be unlocked within **1 hour** of payment; delay penalty = **₹250/hour** on the bank.\n\n---"
+      "contentMarkdown": "### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**What Happened**\n* The RBI notified comprehensive directions governing loan recovery agents and prohibiting predatory remote lockouts on financed smartphones.\n\n**Must Memorize**\n* **Calling Hours**: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).\n* **Mandatory Certification**: All agents must hold **IIBF Certification**.\n* **Smartphone Locks**: No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n* **Protected SOS**: Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n* **Restoration**: Device must be unlocked within **1 hour** of payment; delay penalty = **₹250/hour** on the bank.\n\n---"
     },
     "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": {
       "id": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
@@ -273,20 +279,22 @@
       "atomicRecall": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
       "examAngle": {
         "likelyAsks": [
-          "Implementing nodal ministry or statutory agency"
+          "Key factual numbers, dates, and institutional ownership"
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The RBI deferred the implementation of revised Basel III Pillar 3 market disclosure requirements to April 1, 2027, synchronizing them with the Expected Credit Loss (ECL) provisioning framework."
+      ],
       "mustMemorizeFacts": [
         "Effective Implementation Date: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).",
         "Core Alignment: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.",
         "Reporting Architecture: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).",
-        "Board Mandate: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.",
-        "*Context & Rationale**",
+        "Board Mandate: Banks must maintain a formal disclosure policy approved directly by their Board of Directors."
+      ],
+      "knowUnderstandContext": [
         "ECL Synchronization: Pillar 3 market discipline requires granular public credit-risk disclosures aligned with expected credit losses, which cannot be finalized until draft ECL provisioning norms are implemented by commercial banks."
       ],
-      "knowUnderstandContext": [],
       "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
@@ -306,7 +314,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**Must Memorize**\n* **Effective Implementation Date**: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).\n* **Core Alignment**: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.\n* **Reporting Architecture**: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).\n* **Board Mandate**: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.\n\n**Context & Rationale**\n* **ECL Synchronization**: Pillar 3 market discipline requires granular public credit-risk disclosures aligned with expected credit losses, which cannot be finalized until draft ECL provisioning norms are implemented by commercial banks.\n\n---"
+      "contentMarkdown": "### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**What Happened**\n* The RBI deferred the implementation of revised Basel III Pillar 3 market disclosure requirements to April 1, 2027, synchronizing them with the Expected Credit Loss (ECL) provisioning framework.\n\n**Must Memorize**\n* **Effective Implementation Date**: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).\n* **Core Alignment**: Aligns market disclosure frameworks directly with the **Expected Credit Loss (ECL)** provisioning framework and revised credit-risk capital rules.\n* **Reporting Architecture**: Applies at the **top consolidated level** of banking groups (non-top group entities provide standalone Pillar 3 disclosures).\n* **Board Mandate**: Banks must maintain a formal disclosure policy approved directly by their Board of Directors.\n\n**Context & Rationale**\n* **ECL Synchronization**: Pillar 3 market discipline requires granular public credit-risk disclosures aligned with expected credit losses, which cannot be finalized until draft ECL provisioning norms are implemented by commercial banks.\n\n---"
     },
     "priority-sector-lending-psl-nri-deposit-forex-swap-relief": {
       "id": "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
@@ -316,7 +324,7 @@
       "revisionMinutes": 6,
       "primaryCategory": "BANKING_REGULATION",
       "secondaryCategories": [],
-      "primaryInstitution": "OTHER",
+      "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "REGULATION",
       "compressionLevel": "C4",
@@ -328,7 +336,9 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The RBI introduced special US Dollar-Rupee swap windows and CRR/SLR exemptions for fresh NRI deposits, excluding advances against these deposits from ANBC for PSL target calculations."
+      ],
       "mustMemorizeFacts": [
         "Forex Swap: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).",
         "CRR/SLR Exemption: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).",
@@ -354,7 +364,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL\n* **Source:** CGB Mentors\n\n**Must Memorize**\n* **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).\n* **CRR/SLR Exemption**: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).\n* **ANBC Deduction**: Advances against these eligible fresh NRI deposits are **excluded from ANBC** for PSL target calculations.\n\n---"
+      "contentMarkdown": "### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL\n* **Source:** CGB Mentors\n\n**What Happened**\n* The RBI introduced special US Dollar-Rupee swap windows and CRR/SLR exemptions for fresh NRI deposits, excluding advances against these deposits from ANBC for PSL target calculations.\n\n**Must Memorize**\n* **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).\n* **CRR/SLR Exemption**: Fresh FCNR(B) (June 8–Sept 30, 2026) and NRE term deposits $\\ge 3$ yrs (June 19–Sept 30, 2026).\n* **ANBC Deduction**: Advances against these eligible fresh NRI deposits are **excluded from ANBC** for PSL target calculations.\n\n---"
     },
     "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min": {
       "id": "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
@@ -6759,7 +6769,8 @@
       "whatHappened": [
         "The Deposit Insurance and Credit Guarantee Corporation (DICGC), with the approval of the Reserve Bank of India (RBI), advised insured banks on the implementation of the **Risk-Based Premium (RBP) framework**.",
         "Replaces the flat-rate premium system of 12 paise per ₹100 of assessable deposits that has operated since 1962, exercising powers under **Section 15(1) of the DICGC Act, 1961**.",
-        "**Effective Implementation Date:** **April 1, 2026**, with mandatory review at least once every three years."
+        "**Effective Implementation Date:** **April 1, 2026**, with mandatory review at least once every three years.",
+        "$$\\text{Effective Rate} = \\text{Card Rate} \\times (1 - \\text{Risk\\_model\\_incentive}) \\times (1 - \\text{Vintage\\_model\\_incentive})$$"
       ],
       "mustMemorizeFacts": [
         "**Two Risk Assessment Models:**",
@@ -10572,7 +10583,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
         "The Reserve Bank of India finalized and notified its amended *Directions on Declaration of Dividends by Banks*, establishing a capital-linked distribution regime taking effect from **FY 2026-27 (FY27)**.",
-        "Replaced the erstwhile static 40% dividend cap with a risk-sensitive payout ratio of up to **75% of Profit After Tax (PAT)**."
+        "Replaced the erstwhile static 40% dividend cap with a risk-sensitive payout ratio of up to **75% of Profit After Tax (PAT)**.",
+        "$$\\text{Adjusted PAT} = \\text{PAT of Financial Year} - 50\\% \\text{ of Net Non-Performing Assets (Net NPAs as of March 31)}$$"
       ],
       "mustMemorizeFacts": [
         "**Maximum Dividend Cap:** Commercial banks incorporated in India can declare dividends up to **75% of Profit After Tax (PAT)** for the relevant financial year.",
@@ -21257,16 +21269,25 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The Supreme Court of India (SCI) Bench comprising **Justices Sanjay Karol and Prashant Kumar Mishra** directed that the mandatory long-term third-party (TP) motor insurance period for new vehicles be extended by **1 additional year**: 4 years for new four-wheelers (cars) and 6 years for new two-wheelers."
+      ],
       "mustMemorizeFacts": [
+        "Layer 1 (Mandatory): Standalone Third-Party (TP) liability policy.",
+        "Layer 2 (Optional): Legal liability cover for occupants or pillion riders.",
+        "Layer 3 (Optional): Personal accident (PA) cover for owner-driver and passengers.",
+        "Layer 4 (Optional): Own-Damage (OD) cover for vehicle loss or damage.",
         "IRDAI & GIC Stance Overruled: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.",
-        "Tech-Driven Enforcement: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**.",
+        "Tech-Driven Enforcement: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**."
+      ],
+      "knowUnderstandContext": [
+        "Judicial Rationale: The Court noted that despite 8 years having passed since the 2018 mandatory long-term insurance order, nearly **56% of vehicles plying on Indian roads remain uninsured**, compromising road accident victim compensation under the **Motor Vehicles Act, 1988 (MVA)**."
+      ],
+      "examFocus": [
         "Mandated Third-Party Durations: 4 years for new cars, 6 years for new two-wheelers.",
         "Uninsured Vehicles Context: Nearly 56% of Indian vehicles remain uninsured per Supreme Court data.",
         "4-Layer Motor Insurance Structure: Layer 1 (Mandatory TP), Layer 2 (Optional Occupant Liability), Layer 3 (Optional PA Cover), Layer 4 (Optional Own-Damage)."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
       "firstPublicationDate": "2026-08-15",
@@ -21285,7 +21306,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 1. Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `IRDAI`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-04`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n\n#### The Core Mechanism & Judicial Ruling\nThe Supreme Court of India (SCI) Bench comprising **Justices Sanjay Karol and Prashant Kumar Mishra** directed that the mandatory long-term third-party (TP) motor insurance period for new vehicles be extended by **1 additional year**:\n1. **New Private Four-Wheelers (Cars)**: Mandatory third-party insurance coverage extended to **4 years** (up from 3 years).\n2. **New Two-Wheelers**: Mandatory third-party insurance coverage extended to **6 years** (up from 5 years).\n3. **Judicial Rationale**: The Court noted that despite 8 years having passed since the 2018 mandatory long-term insurance order, nearly **56% of vehicles plying on Indian roads remain uninsured**, compromising road accident victim compensation under the **Motor Vehicles Act, 1988 (MVA)**.\n\n#### Approved 4-Layer Insurance Structure\nThe apex court approved a standardized 4-layer motor insurance structure for private vehicles:\n1. **Layer 1 (Mandatory)**: Standalone Third-Party (TP) liability policy.\n2. **Layer 2 (Optional)**: Legal liability cover for occupants or pillion riders.\n3. **Layer 3 (Optional)**: Personal accident (PA) cover for owner-driver and passengers.\n4. **Layer 4 (Optional)**: Own-Damage (OD) cover for vehicle loss or damage.\n\n#### Regulatory Overrule & Enforcement Measures\n- **IRDAI & GIC Stance Overruled**: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.\n- **Tech-Driven Enforcement**: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**.\n\n#### Key Exam Takeaways\n- **Mandated Third-Party Durations**: 4 years for new cars, 6 years for new two-wheelers.\n- **Uninsured Vehicles Context**: Nearly 56% of Indian vehicles remain uninsured per Supreme Court data.\n- **4-Layer Motor Insurance Structure**: Layer 1 (Mandatory TP), Layer 2 (Optional Occupant Liability), Layer 3 (Optional PA Cover), Layer 4 (Optional Own-Damage).\n\n---"
+      "contentMarkdown": "### 1. Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `IRDAI`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-04`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n\n#### Judicial Ruling & Mandatory Tenures\nThe Supreme Court of India (SCI) Bench comprising **Justices Sanjay Karol and Prashant Kumar Mishra** directed that the mandatory long-term third-party (TP) motor insurance period for new vehicles be extended by **1 additional year**: 4 years for new four-wheelers (cars) and 6 years for new two-wheelers.\n\n#### Judicial Rationale & Public Interest\n- **Judicial Rationale**: The Court noted that despite 8 years having passed since the 2018 mandatory long-term insurance order, nearly **56% of vehicles plying on Indian roads remain uninsured**, compromising road accident victim compensation under the **Motor Vehicles Act, 1988 (MVA)**.\n\n#### Approved 4-Layer Insurance Structure\n- **Layer 1 (Mandatory)**: Standalone Third-Party (TP) liability policy.\n- **Layer 2 (Optional)**: Legal liability cover for occupants or pillion riders.\n- **Layer 3 (Optional)**: Personal accident (PA) cover for owner-driver and passengers.\n- **Layer 4 (Optional)**: Own-Damage (OD) cover for vehicle loss or damage.\n\n#### Regulatory Overrule & Enforcement Measures\n- **IRDAI & GIC Stance Overruled**: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.\n- **Tech-Driven Enforcement**: Directed implementation of **Automatic Number Plate Recognition (ANPR)** cameras, electronic challans (e-challans), and a pilot project to **deny fuel at petrol pumps to uninsured vehicles**.\n\n#### Key Exam Takeaways\n- **Mandated Third-Party Durations**: 4 years for new cars, 6 years for new two-wheelers.\n- **Uninsured Vehicles Context**: Nearly 56% of Indian vehicles remain uninsured per Supreme Court data.\n- **4-Layer Motor Insurance Structure**: Layer 1 (Mandatory TP), Layer 2 (Optional Occupant Liability), Layer 3 (Optional PA Cover), Layer 4 (Optional Own-Damage).\n\n---"
     },
     "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore": {
       "id": "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
@@ -21308,29 +21329,32 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)** to scale up Compressed Biogas (CBG) production."
+      ],
       "mustMemorizeFacts": [
         "Corroborated Sources: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`",
-        "Nodal Ministry: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]",
+        "10-Year Macro Outcomes: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]",
         "Core Objective: Scale up Compressed Biogas (CBG) production by nearly 10 times, converting agricultural residue, cattle dung, press mud, and municipal organic solid waste into CBG and Fermented Organic Manure (FOM). [CGB Mentors & Smartkeeda]",
+        "Nodal Ministry: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]",
         "Component Outlays:",
-        "**₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT (Sustainable Alternative Towards Affordable Transportation) initiative.",
+        "**₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT initiative.",
         "**₹7,481 crore** for solid bio-manure (FOM/PROM) subsidies.",
         "**₹564.75 crore** under the BAM (Biomass Aggregation Machinery) Scheme.",
-        "**₹994.50 crore** (FY25–FY29) under the DPI (Development of Pipeline Infrastructure) Scheme to connect plants to CGD grids.",
+        "**₹994.50 crore** (FY25–FY29) under the DPI Scheme to connect plants to CGD grids.",
         "Market Development Assistance (MDA): ₹1,500/MT for organic fertilizer produced from CBG plants.",
         "Capital Assistance & Credit Guarantee: Up to **₹2 crore per Ton Per Day (TPD)** installed capacity (or up to ₹4 crore / 30% capital cost CFA), backed by **up to 85% credit guarantee coverage** for eligible MSME developers under PSL. [CGB Mentors & Smartkeeda]",
-        "**3% in FY 2026–27**",
-        "**4% in FY 2027–28**",
-        "**5% from FY 2028–29 onwards**.",
+        "Mandatory Blending Trajectory: 3% (FY 2026–27) → 4% (FY 2027–28) → 5% (FY 2028–29 onwards) for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic).",
+        "Stable Administered CBG Price: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
         "Total Outlay & Tenure: ₹23,731 crore (10 years: FY27 to FY36).",
         "Component Split: ₹11,250 cr (CBG) + ₹7,481 cr (Bio-manure) + ₹994.5 cr (DPI) + ₹564.75 cr (BAM) [CGB Mentors].",
         "Administered CBG Price: ₹2,110/MMBtu (~₹105/kg) with 10-year horizon [CGB Mentors & Smartkeeda].",
         "Mandatory Blending Trajectory: 3% (FY27) $\\to$ 4% (FY28) $\\to$ 5% (FY29+) [Smartkeeda].",
         "Credit Guarantee & CFA: Up to 85% guarantee; up to ₹2 cr/TPD or ₹4 cr / 30% capital subsidy [CGB Mentors & Smartkeeda]."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
       "firstPublicationDate": "2026-08-15",
@@ -21349,7 +21373,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 2. Cabinet Approves GOBARdhan National Circular Bioenergy Scheme with Outlay of ₹23,731 Crore\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-10`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`\n\n#### The Core Mechanism & Ten-Year Horizon\nThe Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a total central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)**.\n- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]\n- **Core Objective**: Scale up Compressed Biogas (CBG) production by nearly 10 times, converting agricultural residue, cattle dung, press mud, and municipal organic solid waste into CBG and Fermented Organic Manure (FOM). [CGB Mentors & Smartkeeda]\n\n#### Financial Allocation Breakdown & Supporting Schemes [CGB Mentors Grounded]\n- **Component Outlays**:\n  - **₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT (Sustainable Alternative Towards Affordable Transportation) initiative.\n  - **₹7,481 crore** for solid bio-manure (FOM/PROM) subsidies.\n  - **₹564.75 crore** under the BAM (Biomass Aggregation Machinery) Scheme.\n  - **₹994.50 crore** (FY25–FY29) under the DPI (Development of Pipeline Infrastructure) Scheme to connect plants to CGD grids.\n  - **Market Development Assistance (MDA)**: ₹1,500/MT for organic fertilizer produced from CBG plants.\n- **Capital Assistance & Credit Guarantee**: Up to **₹2 crore per Ton Per Day (TPD)** installed capacity (or up to ₹4 crore / 30% capital cost CFA), backed by **up to 85% credit guarantee coverage** for eligible MSME developers under PSL. [CGB Mentors & Smartkeeda]\n\n#### Mandatory Blending Trajectory & Administered Pricing [Smartkeeda Grounded]\n1. **Assured CBG Offtake Trajectory**: Mandatory blending for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic):\n   - **3% in FY 2026–27**\n   - **4% in FY 2027–28**\n   - **5% from FY 2028–29 onwards**.\n2. **Stable Administered CBG Price**: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon.\n3. **10-Year Macro Outcomes**: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]\n\n#### Key Exam Takeaways\n- **Total Outlay & Tenure**: ₹23,731 crore (10 years: FY27 to FY36).\n- **Component Split**: ₹11,250 cr (CBG) + ₹7,481 cr (Bio-manure) + ₹994.5 cr (DPI) + ₹564.75 cr (BAM) [CGB Mentors].\n- **Administered CBG Price**: ₹2,110/MMBtu (~₹105/kg) with 10-year horizon [CGB Mentors & Smartkeeda].\n- **Mandatory Blending Trajectory**: 3% (FY27) $\\to$ 4% (FY28) $\\to$ 5% (FY29+) [Smartkeeda].\n- **Credit Guarantee & CFA**: Up to 85% guarantee; up to ₹2 cr/TPD or ₹4 cr / 30% capital subsidy [CGB Mentors & Smartkeeda].\n\n---"
+      "contentMarkdown": "### 2. Cabinet Approves GOBARdhan National Circular Bioenergy Scheme with Outlay of ₹23,731 Crore\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-10`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`\n\n#### Scheme Approval & Objective\nThe Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)** to scale up Compressed Biogas (CBG) production.\n\n#### Macroeconomic & Climate Rationale\n- **10-Year Macro Outcomes**: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]\n- **Core Objective**: Scale up Compressed Biogas (CBG) production by nearly 10 times, converting agricultural residue, cattle dung, press mud, and municipal organic solid waste into CBG and Fermented Organic Manure (FOM). [CGB Mentors & Smartkeeda]\n\n#### Financial Allocation Breakdown & Supporting Schemes [CGB Mentors Grounded]\n- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]\n- **Component Outlays**:\n  - **₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT initiative.\n  - **₹7,481 crore** for solid bio-manure (FOM/PROM) subsidies.\n  - **₹564.75 crore** under the BAM (Biomass Aggregation Machinery) Scheme.\n  - **₹994.50 crore** (FY25–FY29) under the DPI Scheme to connect plants to CGD grids.\n  - **Market Development Assistance (MDA)**: ₹1,500/MT for organic fertilizer produced from CBG plants.\n- **Capital Assistance & Credit Guarantee**: Up to **₹2 crore per Ton Per Day (TPD)** installed capacity (or up to ₹4 crore / 30% capital cost CFA), backed by **up to 85% credit guarantee coverage** for eligible MSME developers under PSL. [CGB Mentors & Smartkeeda]\n\n#### Mandatory Blending Trajectory & Administered Pricing [Smartkeeda Grounded]\n- **Mandatory Blending Trajectory**: 3% (FY 2026–27) → 4% (FY 2027–28) → 5% (FY 2028–29 onwards) for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic).\n- **Stable Administered CBG Price**: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon.\n\n#### Key Exam Takeaways\n- **Total Outlay & Tenure**: ₹23,731 crore (10 years: FY27 to FY36).\n- **Component Split**: ₹11,250 cr (CBG) + ₹7,481 cr (Bio-manure) + ₹994.5 cr (DPI) + ₹564.75 cr (BAM) [CGB Mentors].\n- **Administered CBG Price**: ₹2,110/MMBtu (~₹105/kg) with 10-year horizon [CGB Mentors & Smartkeeda].\n- **Mandatory Blending Trajectory**: 3% (FY27) $\\to$ 4% (FY28) $\\to$ 5% (FY29+) [Smartkeeda].\n- **Credit Guarantee & CFA**: Up to 85% guarantee; up to ₹2 cr/TPD or ₹4 cr / 30% capital subsidy [CGB Mentors & Smartkeeda].\n\n---"
     },
     "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds": {
       "id": "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
@@ -21371,22 +21395,26 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "Parliament passed the **Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026** (cleared by Rajya Sabha on Aug 3 and Lok Sabha on Aug 7, 2026), amending the **MSMED Act, 2006** upon completing 20 years of its enactment.",
+        "Liquidity Protection: Solves persistent working capital bottlenecks for over **9.16 crore+ registered MSMEs** by establishing legally binding payment enforcement, mandatory TReDS discounting, and strict 90-day dispute settlement timelines."
+      ],
       "mustMemorizeFacts": [
         "Corroborated Sources: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`",
-        "Mediation: Must conclude within **90 days** from first appearance. [CGB Mentors & Smartkeeda]",
-        "Arbitration Reference: Must be made within **30 days** after termination of mediation. [CGB Mentors]",
-        "Arbitral Award: Must be delivered within **90 days** from completion of pleadings. [CGB Mentors]",
-        "Land Revenue Recovery: Any mediated settlement or arbitral award under Section 18 can be directly recovered as an **'arrear of land revenue'** via District Collectors / DMs. [CGB Mentors]",
-        "Mandatory 50% Court Deposit: Courts/appellate authorities must order payment of **at least 50% of the awarded amount** to the MSE supplier if an application to set aside remains pending for **more than 6 months**. [CGB Mentors & Smartkeeda]",
-        "Decriminalisation & Multiple MSEFCs: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]",
+        "Statutory Integration of Composite Criteria: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]",
+        "Statutory Permanence to Udyam Portal: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]",
+        "Mandatory TReDS Settlement for CPSEs: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]",
+        "Online Dispute Resolution (ODR) & Strict Timelines: Mediation must conclude within **90 days** from first appearance; Arbitration Reference within **30 days**; Arbitral Award within **90 days** from completion of pleadings. [CGB Mentors & Smartkeeda]",
+        "Judicial Enforcement & Land Revenue Recovery: Mediated settlements and arbitral awards are directly recoverable as **'arrears of land revenue'** via District Collectors / DMs; mandatory 50% court pre-deposit for appeals pending >6 months. [CGB Mentors & Smartkeeda]",
+        "Decriminalisation & Multiple MSEFCs: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [
         "Dispute Timelines: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days [CGB Mentors & Smartkeeda].",
         "Mandatory Court Pre-Deposit: At least 50% after 6 months pending appeal [CGB Mentors & Smartkeeda].",
         "Enforcement Route: Direct recovery as arrears of land revenue via DMs/Collectors [CGB Mentors].",
         "Mandatory TReDS Onboarding: CPSEs and corporates >₹250 cr turnover [CGB Mentors & Smartkeeda]."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
       "firstPublicationDate": "2026-08-15",
@@ -21405,7 +21433,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 3. Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-07`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~9 min`\n- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`\n\n#### Legislative Overview & Scope\nParliament passed the **Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026** (cleared by Rajya Sabha on Aug 3 and Lok Sabha on Aug 7, 2026), amending the **MSMED Act, 2006** upon completing 20 years of its enactment.\n\n#### Key Structural Provisions & Banking Impact\n1. **Statutory Integration of Composite Criteria**: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]\n2. **Statutory Permanence to Udyam Portal**: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]\n3. **Mandatory TReDS Settlement for CPSEs**: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]\n4. **Online Dispute Resolution (ODR) & Strict Dispute Timelines**:\n   - **Mediation**: Must conclude within **90 days** from first appearance. [CGB Mentors & Smartkeeda]\n   - **Arbitration Reference**: Must be made within **30 days** after termination of mediation. [CGB Mentors]\n   - **Arbitral Award**: Must be delivered within **90 days** from completion of pleadings. [CGB Mentors]\n5. **Judicial Enforcement & Land Revenue Recovery**:\n   - **Land Revenue Recovery**: Any mediated settlement or arbitral award under Section 18 can be directly recovered as an **'arrear of land revenue'** via District Collectors / DMs. [CGB Mentors]\n   - **Mandatory 50% Court Deposit**: Courts/appellate authorities must order payment of **at least 50% of the awarded amount** to the MSE supplier if an application to set aside remains pending for **more than 6 months**. [CGB Mentors & Smartkeeda]\n   - **Decriminalisation & Multiple MSEFCs**: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]\n\n#### Key Exam Takeaways\n- **Dispute Timelines**: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days [CGB Mentors & Smartkeeda].\n- **Mandatory Court Pre-Deposit**: At least 50% after 6 months pending appeal [CGB Mentors & Smartkeeda].\n- **Enforcement Route**: Direct recovery as arrears of land revenue via DMs/Collectors [CGB Mentors].\n- **Mandatory TReDS Onboarding**: CPSEs and corporates >₹250 cr turnover [CGB Mentors & Smartkeeda].\n\n---"
+      "contentMarkdown": "### 3. Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-07`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~9 min`\n- **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`\n\n#### Legislative Overview & Scope\nParliament passed the **Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026** (cleared by Rajya Sabha on Aug 3 and Lok Sabha on Aug 7, 2026), amending the **MSMED Act, 2006** upon completing 20 years of its enactment.\n\n#### Economic Rationale & Liquidity Support\n- **Liquidity Protection**: Solves persistent working capital bottlenecks for over **9.16 crore+ registered MSMEs** by establishing legally binding payment enforcement, mandatory TReDS discounting, and strict 90-day dispute settlement timelines.\n\n#### Key Structural Provisions & Banking Impact\n- **Statutory Integration of Composite Criteria**: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]\n- **Statutory Permanence to Udyam Portal**: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]\n- **Mandatory TReDS Settlement for CPSEs**: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]\n- **Online Dispute Resolution (ODR) & Strict Timelines**: Mediation must conclude within **90 days** from first appearance; Arbitration Reference within **30 days**; Arbitral Award within **90 days** from completion of pleadings. [CGB Mentors & Smartkeeda]\n- **Judicial Enforcement & Land Revenue Recovery**: Mediated settlements and arbitral awards are directly recoverable as **'arrears of land revenue'** via District Collectors / DMs; mandatory 50% court pre-deposit for appeals pending >6 months. [CGB Mentors & Smartkeeda]\n- **Decriminalisation & Multiple MSEFCs**: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]\n\n#### Key Exam Takeaways\n- **Dispute Timelines**: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days [CGB Mentors & Smartkeeda].\n- **Mandatory Court Pre-Deposit**: At least 50% after 6 months pending appeal [CGB Mentors & Smartkeeda].\n- **Enforcement Route**: Direct recovery as arrears of land revenue via DMs/Collectors [CGB Mentors].\n- **Mandatory TReDS Onboarding**: CPSEs and corporates >₹250 cr turnover [CGB Mentors & Smartkeeda].\n\n---"
     },
     "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning": {
       "id": "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
@@ -21427,19 +21455,23 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "The Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, based on recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**."
+      ],
       "mustMemorizeFacts": [
         "Expansion: Notified natural disaster categories expanded from **12 to 14** by adding **Heatwaves** and **Lightning**.",
-        "Complete List of 14 Calamities: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.",
+        "Complete List of 14 Calamities: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**."
+      ],
+      "knowUnderstandContext": [
         "Unlocks Main Relief Pool: States can now utilize the primary **80% SDRF response/relief allocation** directly for heatwave and lightning casualties and damages, removing the restrictive 10% ceiling previously applicable to unlisted local disasters.",
         "Unlocks SDMF: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.",
-        "Casualty Context: Lightning causes approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).",
+        "Casualty Context: Lightning causes approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India)."
+      ],
+      "examFocus": [
         "Award Period: 2026–31 (16th Finance Commission, Dr. Arvind Panagariya).",
         "Relief vs Mitigation Ratio: 80% SDRF (response/relief) and 20% SDMF (mitigation).",
         "Previous Restriction Removed: Eliminated the 10% expenditure cap on non-notified local disasters for heatwave/lightning relief."
       ],
-      "knowUnderstandContext": [],
-      "examFocus": [],
       "optionalFacts": [],
       "initialEventDate": "2026-08-01",
       "firstPublicationDate": "2026-08-15",
@@ -21458,7 +21490,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 4. MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_MEMORIZE`\n- **Date**: `2026-08-05`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~5 min`\n\n#### Policy Mechanism & Financial Devolution\nThe Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, based on recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**.\n- **Expansion**: Notified natural disaster categories expanded from **12 to 14** by adding **Heatwaves** and **Lightning**.\n- **Complete List of 14 Calamities**: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.\n\n#### Fiscal Significance\n- **Unlocks Main Relief Pool**: States can now utilize the primary **80% SDRF response/relief allocation** directly for heatwave and lightning casualties and damages, removing the restrictive 10% ceiling previously applicable to unlisted local disasters.\n- **Unlocks SDMF**: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.\n- **Casualty Context**: Lightning causes approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).\n\n#### Key Exam Takeaways\n- **Award Period**: 2026–31 (16th Finance Commission, Dr. Arvind Panagariya).\n- **Relief vs Mitigation Ratio**: 80% SDRF (response/relief) and 20% SDMF (mitigation).\n- **Previous Restriction Removed**: Eliminated the 10% expenditure cap on non-notified local disasters for heatwave/lightning relief.\n\n---"
+      "contentMarkdown": "### 4. MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_MEMORIZE`\n- **Date**: `2026-08-05`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~5 min`\n\n#### Policy Overview & Devolution\nThe Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, based on recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**.\n\n#### Expansion & Calamity List\n- **Expansion**: Notified natural disaster categories expanded from **12 to 14** by adding **Heatwaves** and **Lightning**.\n- **Complete List of 14 Calamities**: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.\n\n#### Fiscal Significance\n- **Unlocks Main Relief Pool**: States can now utilize the primary **80% SDRF response/relief allocation** directly for heatwave and lightning casualties and damages, removing the restrictive 10% ceiling previously applicable to unlisted local disasters.\n- **Unlocks SDMF**: Unlocks the **20% State Disaster Mitigation Fund (SDMF)** for long-term climate-resilience infrastructure, shelter sheds, and early lightning detection networks.\n- **Casualty Context**: Lightning causes approximately **2,000–2,500 deaths annually** (>35% of all natural-disaster fatalities in India).\n\n#### Key Exam Takeaways\n- **Award Period**: 2026–31 (16th Finance Commission, Dr. Arvind Panagariya).\n- **Relief vs Mitigation Ratio**: 80% SDRF (response/relief) and 20% SDMF (mitigation).\n- **Previous Restriction Removed**: Eliminated the 10% expenditure cap on non-notified local disasters for heatwave/lightning relief.\n\n---"
     },
     "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion": {
       "id": "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
@@ -27938,7 +27970,10 @@
       "whatHappened": [
         "The Central Government officially notified the **Employees’ Provident Funds Scheme, 2026**, comprehensively replacing the archaic **Employees’ Provident Funds Scheme, 1952**.",
         "Concurrently overhauled EPFO operating rules to mandate **3-day digital settlement** for PF withdrawal claims, backed by a **12% penal interest** on official delays beyond 20 days.",
-        "Introduced the concept of **'Principal Employer'** for contract workers, making the principal employer directly liable for contributions if contractors are not independently registered."
+        "Introduced the concept of **'Principal Employer'** for contract workers, making the principal employer directly liable for contributions if contractors are not independently registered.",
+        "1. **Essential Needs** (Illness of self/family, education, marriage).",
+        "2. **Housing Needs**.",
+        "3. **Special Circumstances**."
       ],
       "mustMemorizeFacts": [
         "**Statutory Scheme Replacement:** EPF Scheme 2026 replaces EPF Scheme 1952.",
@@ -28077,7 +28112,10 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
         "The Reserve Bank of India published the annual **Financial Inclusion Index (FI-Index)** for the year ending **March 2026**, showing deepening financial penetration and quality across India.",
-        "The composite index rose to **70.0 in March 2026** (from **67.0 in March 2025**), registering an annual growth of **4.48%**."
+        "The composite index rose to **70.0 in March 2026** (from **67.0 in March 2025**), registering an annual growth of **4.48%**.",
+        "1. **Access:** **35% weight** (availability of physical/digital banking touchpoints, ATMs, branches, BCs).",
+        "2. **Usage:** **45% weight** (active deposit, credit, remittance, digital transaction volumes).",
+        "3. **Quality:** **20% weight** (financial literacy, consumer protection, grievances, inequalities)."
       ],
       "mustMemorizeFacts": [
         "**Index Value:** **70.0** (March 2026) vs **67.0** (March 2025); Annual growth: **4.48%**.",
@@ -28383,7 +28421,12 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "1. **Low Income:** $\\le \\$1,175$.",
+        "2. **Lower-Middle Income:** **$\\$1,176 - \\$4,635$** $\\longrightarrow$ **India remains in Lower-Middle Income category**.",
+        "3. **Upper-Middle Income:** **$\\$4,636 - \\$14,375$** $\\longrightarrow$ Sri Lanka, Vietnam, Philippines, Jordan, and Micronesia moved up into this tier.",
+        "4. **High Income:** $> \\$14,375$."
+      ],
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "Updated annually every July using the **Atlas Method** based on Gross National Income (GNI) per capita.",
@@ -29056,7 +29099,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
         "The Reserve Bank of India issued updated Amendment Directions on the **Review of Framework of Limiting Customer Liability in Digital Transactions**, expanding protection beyond unauthorized transactions to cover all **Fraudulent Electronic Banking Transactions (EBTs)** across card-present and card-not-present channels.",
-        "Introduced a statutory compensation mechanism for small-value digital fraud victims and established strict timelines for banks to resolve fraud complaints."
+        "Introduced a statutory compensation mechanism for small-value digital fraud victims and established strict timelines for banks to resolve fraud complaints.",
+        "$$\\text{Compensation} = \\min(85\\% \\times \\text{Net Loss},\\ ₹25,000)$$"
       ],
       "mustMemorizeFacts": [
         "**Effective Date:** The revised customer protection framework comes into effect from **January 1, 2027**.",
@@ -29189,7 +29233,12 @@
       },
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
-        "The Reserve Bank of India issued final operational directions on the **Trade Receivables Discounting System (TReDS)**, expanding the participation of insurance companies and credit guarantee funds, mandating platform validation controls, and upgrading platform net worth criteria."
+        "The Reserve Bank of India issued final operational directions on the **Trade Receivables Discounting System (TReDS)**, expanding the participation of insurance companies and credit guarantee funds, mandating platform validation controls, and upgrading platform net worth criteria.",
+        "1. **RXIL** (Receivables Exchange of India Ltd — promoted by NSE & SIDBI)",
+        "2. **A.TReDS / Invoicemart** (Axis Bank & mjunction)",
+        "3. **M1xchange** (Mynd Solutions)",
+        "4. **C2FO Factoring Solutions (C2treds)**",
+        "5. **KredX Platform (DTX)**"
       ],
       "mustMemorizeFacts": [
         "**Net Worth Requirement for TReDS Platforms:**",
@@ -30328,7 +30377,12 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "1. **Mysore** (Karnataka)",
+        "2. **Salboni** (West Bengal)",
+        "1. **Nashik** (Maharashtra)",
+        "2. **Dewas** (Madhya Pradesh)"
+      ],
       "mustMemorizeFacts": [
         "**Total Printing Presses:** Exactly **4 Banknote Printing Presses** operating across India:",
         "**2 Presses under BRBNMPL (Bharatiya Reserve Bank Note Mudran Pvt Ltd — 100% RBI Subsidiary, Est. 3 Feb 1995, Bengaluru):**",
@@ -30488,7 +30542,12 @@
         ]
       },
       "lifecycleStatus": "ACTIVE",
-      "whatHappened": [],
+      "whatHappened": [
+        "1. **Reserve Bank of India (RBI)** — Banking & Foreign Exchange.",
+        "2. **Securities and Exchange Board of India (SEBI)** — Capital Markets & Funds.",
+        "3. **Insurance Regulatory and Development Authority of India (IRDAI)** — Insurance & Reinsurance.",
+        "4. **Pension Fund Regulatory and Development Authority (PFRDA)** — Pension Schemes."
+      ],
       "mustMemorizeFacts": [
         "**Establishment:** 27 April 2020 under the **International Financial Services Centres Authority Act, 2019**.",
         "**Headquarters:** GIFT City, Gandhinagar, Gujarat.",
@@ -31118,7 +31177,12 @@
       },
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
-        "The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**."
+        "The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**.",
+        "1. **Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total** (Rank 1)",
+        "2. **England:** **29 Gold, 45 Silver, 36 Bronze = 110 Total** (Rank 2)",
+        "3. **Canada:** **19 Gold, 20 Silver, 23 Bronze = 62 Total** (Rank 3)",
+        "4. **India:** **13 Gold, 17 Silver, 9 Bronze = 39 Total** (Rank 4)",
+        "5. **Scotland:** **13 Gold, 9 Silver, 17 Bronze = 39 Total** (Rank 5 — India ranked ahead on silver medal tiebreak)"
       ],
       "mustMemorizeFacts": [
         "**Key Tournament Facts:**",
@@ -31187,7 +31251,11 @@
       },
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
-        "SEBI overhauled the trading framework for commodity Exchange Traded Funds (ETFs), introducing dynamic price bands, objective base-price calculation methodologies, and a pre-open call auction mechanism to eliminate pricing anomalies and align secondary ETF market trading with underlying physical and commodity futures prices."
+        "SEBI overhauled the trading framework for commodity Exchange Traded Funds (ETFs), introducing dynamic price bands, objective base-price calculation methodologies, and a pre-open call auction mechanism to eliminate pricing anomalies and align secondary ETF market trading with underlying physical and commodity futures prices.",
+        "1. Base price is determined as the **Volume-Weighted Average Price (VWAP)** of trades executed during the **last 30 minutes of trading** on the previous trading day.",
+        "2. If no trades occur in the last 30 minutes $\\longrightarrow$ **Last Traded Price (LTP)** of the previous trading day is used.",
+        "3. If no trades occur throughout the entire trading day $\\longrightarrow$ Latest available **closing Net Asset Value (NAV)** serves as base price.",
+        "4. Exchanges and AMCs must transition to using **$T-1$ day closing NAV** as the universal base price from **April 1, 2027**."
       ],
       "mustMemorizeFacts": [
         "**Dynamic Price Bands Architecture:**",
@@ -34056,7 +34124,6 @@
         "president-droupadi-murmu-confers-131-padma-awards-2026",
         "president-droupadi-murmu-sortie-in-indigenous-lch-prachand",
         "presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
-        "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "prof-annapurni-subramaniam-awarded-cospar-vikram-sarabhai-medal-2026",
         "project-dolphin-2nd-range-wide-riverine-estuarine-dolphin-survey",
         "prudentialbharti-life",
@@ -34180,6 +34247,7 @@
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
         "pfc-board-approves-merger-with-subsidiary-rec-ltd-3-min",
         "pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps",
+        "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
         "rbi-bank-locker-guidelines-negligence-liability-cap",

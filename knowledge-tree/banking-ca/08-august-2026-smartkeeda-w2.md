@@ -20,18 +20,17 @@
 - **Target Exams**: `SBI PO Mains, IBPS PO Mains`
 - **Revision Effort**: `~7 min`
 
-#### The Core Mechanism & Judicial Ruling
-The Supreme Court of India (SCI) Bench comprising **Justices Sanjay Karol and Prashant Kumar Mishra** directed that the mandatory long-term third-party (TP) motor insurance period for new vehicles be extended by **1 additional year**:
-1. **New Private Four-Wheelers (Cars)**: Mandatory third-party insurance coverage extended to **4 years** (up from 3 years).
-2. **New Two-Wheelers**: Mandatory third-party insurance coverage extended to **6 years** (up from 5 years).
-3. **Judicial Rationale**: The Court noted that despite 8 years having passed since the 2018 mandatory long-term insurance order, nearly **56% of vehicles plying on Indian roads remain uninsured**, compromising road accident victim compensation under the **Motor Vehicles Act, 1988 (MVA)**.
+#### Judicial Ruling & Mandatory Tenures
+The Supreme Court of India (SCI) Bench comprising **Justices Sanjay Karol and Prashant Kumar Mishra** directed that the mandatory long-term third-party (TP) motor insurance period for new vehicles be extended by **1 additional year**: 4 years for new four-wheelers (cars) and 6 years for new two-wheelers.
+
+#### Judicial Rationale & Public Interest
+- **Judicial Rationale**: The Court noted that despite 8 years having passed since the 2018 mandatory long-term insurance order, nearly **56% of vehicles plying on Indian roads remain uninsured**, compromising road accident victim compensation under the **Motor Vehicles Act, 1988 (MVA)**.
 
 #### Approved 4-Layer Insurance Structure
-The apex court approved a standardized 4-layer motor insurance structure for private vehicles:
-1. **Layer 1 (Mandatory)**: Standalone Third-Party (TP) liability policy.
-2. **Layer 2 (Optional)**: Legal liability cover for occupants or pillion riders.
-3. **Layer 3 (Optional)**: Personal accident (PA) cover for owner-driver and passengers.
-4. **Layer 4 (Optional)**: Own-Damage (OD) cover for vehicle loss or damage.
+- **Layer 1 (Mandatory)**: Standalone Third-Party (TP) liability policy.
+- **Layer 2 (Optional)**: Legal liability cover for occupants or pillion riders.
+- **Layer 3 (Optional)**: Personal accident (PA) cover for owner-driver and passengers.
+- **Layer 4 (Optional)**: Own-Damage (OD) cover for vehicle loss or damage.
 
 #### Regulatory Overrule & Enforcement Measures
 - **IRDAI & GIC Stance Overruled**: The Supreme Court proceeded with the enhancement despite recommendations against it by the Insurance Regulatory and Development Authority of India (IRDAI) and General Insurance Council (GIC), citing paramount public interest and victim compensation.
@@ -53,27 +52,26 @@ The apex court approved a standardized 4-layer motor insurance structure for pri
 - **Revision Effort**: `~8 min`
 - **Corroborated Sources**: `CGB Mentors (PIB 1–10 Aug 2026)` + `Smartkeeda (Aug W2 2026)`
 
-#### The Core Mechanism & Ten-Year Horizon
-The Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a total central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)**.
-- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]
+#### Scheme Approval & Objective
+The Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped **GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) — The National Circular Bioenergy Scheme** on 6 August 2026 with a central outlay of **₹23,731 crore** over a **10-year implementation window (FY 2026–27 to FY 2035–36)** to scale up Compressed Biogas (CBG) production.
+
+#### Macroeconomic & Climate Rationale
+- **10-Year Macro Outcomes**: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]
 - **Core Objective**: Scale up Compressed Biogas (CBG) production by nearly 10 times, converting agricultural residue, cattle dung, press mud, and municipal organic solid waste into CBG and Fermented Organic Manure (FOM). [CGB Mentors & Smartkeeda]
 
 #### Financial Allocation Breakdown & Supporting Schemes [CGB Mentors Grounded]
+- **Nodal Ministry**: Ministry of Petroleum and Natural Gas (MoPNG) coordinating with Jal Shakti (DDWS), MNRE, and MoA&FW. [Shared Grounding]
 - **Component Outlays**:
-  - **₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT (Sustainable Alternative Towards Affordable Transportation) initiative.
+  - **₹11,250 crore** dedicated for commercial Bio-CNG / CBG plant subsidies under the SATAT initiative.
   - **₹7,481 crore** for solid bio-manure (FOM/PROM) subsidies.
   - **₹564.75 crore** under the BAM (Biomass Aggregation Machinery) Scheme.
-  - **₹994.50 crore** (FY25–FY29) under the DPI (Development of Pipeline Infrastructure) Scheme to connect plants to CGD grids.
+  - **₹994.50 crore** (FY25–FY29) under the DPI Scheme to connect plants to CGD grids.
   - **Market Development Assistance (MDA)**: ₹1,500/MT for organic fertilizer produced from CBG plants.
 - **Capital Assistance & Credit Guarantee**: Up to **₹2 crore per Ton Per Day (TPD)** installed capacity (or up to ₹4 crore / 30% capital cost CFA), backed by **up to 85% credit guarantee coverage** for eligible MSME developers under PSL. [CGB Mentors & Smartkeeda]
 
 #### Mandatory Blending Trajectory & Administered Pricing [Smartkeeda Grounded]
-1. **Assured CBG Offtake Trajectory**: Mandatory blending for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic):
-   - **3% in FY 2026–27**
-   - **4% in FY 2027–28**
-   - **5% from FY 2028–29 onwards**.
-2. **Stable Administered CBG Price**: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon.
-3. **10-Year Macro Outcomes**: Fossil fuel displacement of 10 MMT, forex savings >₹40,000 crore, GDP addition >₹75,000 crore, 1.5+ lakh rural jobs, 40+ MT CO₂ emissions reduction, and 250 MMT organic fertilizer. [CGB Mentors]
+- **Mandatory Blending Trajectory**: 3% (FY 2026–27) → 4% (FY 2027–28) → 5% (FY 2028–29 onwards) for City Gas Distribution (CGD) entities in CNG (transport) and PNG (domestic).
+- **Stable Administered CBG Price**: Fixed at **₹2,110 per MMBtu (~₹105/kg)** with a minimum 10-year revenue certainty horizon.
 
 #### Key Exam Takeaways
 - **Total Outlay & Tenure**: ₹23,731 crore (10 years: FY27 to FY36).
@@ -96,18 +94,16 @@ The Union Cabinet chaired by Prime Minister Narendra Modi approved the revamped 
 #### Legislative Overview & Scope
 Parliament passed the **Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026** (cleared by Rajya Sabha on Aug 3 and Lok Sabha on Aug 7, 2026), amending the **MSMED Act, 2006** upon completing 20 years of its enactment.
 
+#### Economic Rationale & Liquidity Support
+- **Liquidity Protection**: Solves persistent working capital bottlenecks for over **9.16 crore+ registered MSMEs** by establishing legally binding payment enforcement, mandatory TReDS discounting, and strict 90-day dispute settlement timelines.
+
 #### Key Structural Provisions & Banking Impact
-1. **Statutory Integration of Composite Criteria**: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]
-2. **Statutory Permanence to Udyam Portal**: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]
-3. **Mandatory TReDS Settlement for CPSEs**: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]
-4. **Online Dispute Resolution (ODR) & Strict Dispute Timelines**:
-   - **Mediation**: Must conclude within **90 days** from first appearance. [CGB Mentors & Smartkeeda]
-   - **Arbitration Reference**: Must be made within **30 days** after termination of mediation. [CGB Mentors]
-   - **Arbitral Award**: Must be delivered within **90 days** from completion of pleadings. [CGB Mentors]
-5. **Judicial Enforcement & Land Revenue Recovery**:
-   - **Land Revenue Recovery**: Any mediated settlement or arbitral award under Section 18 can be directly recovered as an **'arrear of land revenue'** via District Collectors / DMs. [CGB Mentors]
-   - **Mandatory 50% Court Deposit**: Courts/appellate authorities must order payment of **at least 50% of the awarded amount** to the MSE supplier if an application to set aside remains pending for **more than 6 months**. [CGB Mentors & Smartkeeda]
-   - **Decriminalisation & Multiple MSEFCs**: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]
+- **Statutory Integration of Composite Criteria**: Formally embeds composite classification criteria ('Investment in Plant & Machinery' and 'Turnover') directly into parent Act with executive threshold notification powers. [Smartkeeda]
+- **Statutory Permanence to Udyam Portal**: Confers permanent statutory evidentiary status upon **Udyam Registration** (surpassing **9.16 crore+ registered MSMEs** employing 40+ crore people). [CGB Mentors & Smartkeeda]
+- **Mandatory TReDS Settlement for CPSEs**: Mandates all CPSEs and large corporate buyers with turnover exceeding ₹250 crore to route MSE invoice settlements through **TReDS** (TReDS discounting reached **₹3.47 lakh crore** in 2025–26). [CGB Mentors & Smartkeeda]
+- **Online Dispute Resolution (ODR) & Strict Timelines**: Mediation must conclude within **90 days** from first appearance; Arbitration Reference within **30 days**; Arbitral Award within **90 days** from completion of pleadings. [CGB Mentors & Smartkeeda]
+- **Judicial Enforcement & Land Revenue Recovery**: Mediated settlements and arbitral awards are directly recoverable as **'arrears of land revenue'** via District Collectors / DMs; mandatory 50% court pre-deposit for appeals pending >6 months. [CGB Mentors & Smartkeeda]
+- **Decriminalisation & Multiple MSEFCs**: Replaces criminal fines with graded civil penalties and empowers States to establish multiple MSEFCs. [CGB Mentors]
 
 #### Key Exam Takeaways
 - **Dispute Timelines**: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days [CGB Mentors & Smartkeeda].
@@ -125,8 +121,10 @@ Parliament passed the **Micro, Small and Medium Enterprises Development (Amendme
 - **Target Exams**: `SBI PO Mains, IBPS PO Mains`
 - **Revision Effort**: `~5 min`
 
-#### Policy Mechanism & Financial Devolution
+#### Policy Overview & Devolution
 The Ministry of Home Affairs (MHA) revised the *Operational Guidelines for Administration of the State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF)* for the award period **2026–31**, based on recommendations of the **16th Finance Commission (chaired by Dr. Arvind Panagariya)**.
+
+#### Expansion & Calamity List
 - **Expansion**: Notified natural disaster categories expanded from **12 to 14** by adding **Heatwaves** and **Lightning**.
 - **Complete List of 14 Calamities**: Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, and **lightning**.
 

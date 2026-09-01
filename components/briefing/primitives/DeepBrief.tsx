@@ -26,22 +26,58 @@ interface PrimitiveProps {
 export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
   const isP1 = topic.priority.startsWith("P1");
 
-  // Filter examFocus to omit exact duplicates of facts already surfaced in mustMemorizeFacts
+  // Determine Orientation, Why It Matters, and Key Rules
+  const { orientationParagraphs, whyItMattersParagraphs, distinctMemorizeFacts } = useMemo(() => {
+    let orientation: string[] = [];
+    let whyItMatters: string[] = topic.knowUnderstandContext || [];
+    let memoFacts: string[] = topic.mustMemorizeFacts || [];
+
+    if (topic.whatHappened && topic.whatHappened.length > 0) {
+      orientation = topic.whatHappened;
+    } else if (memoFacts.length > 0) {
+      // If whatHappened is empty, use the first substantive fact as orientation
+      orientation = [memoFacts[0]];
+      memoFacts = memoFacts.slice(1);
+    }
+
+    // Filter memoFacts to exclude items that are identical to orientation or whyItMatters
+    const orientationNorm = new Set(
+      [...orientation, ...whyItMatters].map((s) => s.toLowerCase().replace(/[^a-z0-9]/g, ""))
+    );
+
+    const distinct = memoFacts.filter((fact) => {
+      const clean = fact.toLowerCase().replace(/[^a-z0-9]/g, "");
+      return !orientationNorm.has(clean);
+    });
+
+    return {
+      orientationParagraphs: orientation,
+      whyItMattersParagraphs: whyItMatters,
+      distinctMemorizeFacts: distinct
+    };
+  }, [topic.whatHappened, topic.knowUnderstandContext, topic.mustMemorizeFacts]);
+
+  // Filter examFocus to omit exact duplicates of facts already surfaced
   const filteredExamFocus = useMemo(() => {
     if (!topic.examFocus || topic.examFocus.length === 0) return [];
-    const memoFacts = (topic.mustMemorizeFacts || []).map(f => f.toLowerCase().replace(/[^a-z0-9]/g, ''));
+    const allSurfaced = [
+      ...orientationParagraphs,
+      ...whyItMattersParagraphs,
+      ...distinctMemorizeFacts
+    ].map((f) => f.toLowerCase().replace(/[^a-z0-9]/g, ""));
 
-    return topic.examFocus.filter(focus => {
-      const cleanFocus = focus.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return topic.examFocus.filter((focus) => {
+      const cleanFocus = focus.toLowerCase().replace(/[^a-z0-9]/g, "");
       // If it contains an explicit exam angle/trap indicator, always preserve it
       if (/\b(trap|note|watch out|caution|key distinction|eligible|ineligible|tenure|limit)\b/i.test(focus)) {
         return true;
       }
-      // If it is almost identical to a memorization fact, skip it to reduce duplication
-      const isDuplicated = memoFacts.some(f => f.includes(cleanFocus) || (cleanFocus.length > 20 && f.length > 20 && (cleanFocus.includes(f) || f.includes(cleanFocus))));
+      const isDuplicated = allSurfaced.some(
+        (f) => f.includes(cleanFocus) || (cleanFocus.length > 20 && f.length > 20 && (cleanFocus.includes(f) || f.includes(cleanFocus)))
+      );
       return !isDuplicated;
     });
-  }, [topic.examFocus, topic.mustMemorizeFacts]);
+  }, [topic.examFocus, orientationParagraphs, whyItMattersParagraphs, distinctMemorizeFacts]);
 
   return (
     <article
@@ -130,45 +166,45 @@ export function DeepBrief({ topic, isRead, onToggleRead }: PrimitiveProps) {
         </div>
       )}
 
-      {/* WHAT HAPPENED / WHAT CHANGED */}
-      {topic.whatHappened && topic.whatHappened.length > 0 && (
+      {/* 1. ORIENTATION & WHAT HAPPENED */}
+      {orientationParagraphs.length > 0 && (
         <div className="space-y-1.5 pt-1">
           <div className="text-[11px] font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
-            WHAT HAPPENED
+            ORIENTATION & WHAT HAPPENED
           </div>
           <div className="space-y-2 text-sm sm:text-[15px] text-[var(--text-primary)] font-serif leading-relaxed">
-            {topic.whatHappened.map((para, pIdx) => (
+            {orientationParagraphs.map((para, pIdx) => (
               <p key={pIdx}><FormattedText text={para} /></p>
             ))}
           </div>
         </div>
       )}
 
-      {/* KEY RULES & NUMBERS (Quiet Editorial Section with Deduplication) */}
-      {topic.mustMemorizeFacts && topic.mustMemorizeFacts.length > 0 && (
-        <div className="space-y-2 pt-1">
-          <div className="text-[11px] font-mono font-bold tracking-wider text-amber-950 dark:text-amber-300 uppercase select-none">
-            KEY RULES & NUMBERS
-          </div>
-          <StructuredFactBlock facts={topic.mustMemorizeFacts} />
-        </div>
-      )}
-
-      {/* WHY IT MATTERS (PEDAGOGICAL / CONCEPTUAL CONTEXT) */}
-      {topic.knowUnderstandContext && topic.knowUnderstandContext.length > 0 && (
+      {/* 2. WHY IT MATTERS (CONCEPTUAL CONTEXT & MECHANISM) */}
+      {whyItMattersParagraphs.length > 0 && (
         <div className="space-y-1.5 pt-1">
-          <div className="text-[11px] font-mono font-bold tracking-wider text-[var(--text-subtle)] uppercase select-none">
+          <div className="text-[11px] font-mono font-bold tracking-wider text-amber-900/90 dark:text-amber-400 uppercase select-none">
             WHY IT MATTERS / CONCEPTUAL CONTEXT
           </div>
-          <div className="space-y-1.5 text-sm text-[var(--text-secondary)] font-serif leading-relaxed italic">
-            {topic.knowUnderstandContext.map((para, cIdx) => (
+          <div className="space-y-2 text-sm text-[var(--text-secondary)] font-serif leading-relaxed italic bg-amber-50/40 dark:bg-amber-950/20 p-3 rounded-lg border border-amber-200/40 dark:border-amber-800/30">
+            {whyItMattersParagraphs.map((para, cIdx) => (
               <p key={cIdx}><FormattedText text={para} /></p>
             ))}
           </div>
         </div>
       )}
 
-      {/* EXAM RECALL & ANGLES (Quiet Left-Accent Border - Deduplicated) */}
+      {/* 3. KEY RULES & NUMBERS */}
+      {distinctMemorizeFacts.length > 0 && (
+        <div className="space-y-2 pt-1">
+          <div className="text-[11px] font-mono font-bold tracking-wider text-amber-950 dark:text-amber-300 uppercase select-none">
+            KEY RULES & NUMBERS
+          </div>
+          <StructuredFactBlock facts={distinctMemorizeFacts} />
+        </div>
+      )}
+
+      {/* 4. EXAM RECALL & ANGLES */}
       {filteredExamFocus.length > 0 && (
         <div className="border-l-2 border-emerald-600/80 dark:border-emerald-500/80 pl-3.5 py-1 space-y-1.5 text-xs sm:text-sm font-sans">
           <div className="font-mono font-bold text-emerald-950 dark:text-emerald-300 uppercase tracking-wider text-[11px] select-none flex items-center gap-1.5">

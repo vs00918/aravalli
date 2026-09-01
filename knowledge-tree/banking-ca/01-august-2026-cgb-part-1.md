@@ -38,6 +38,9 @@
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives
 * **Source:** CGB Mentors
 
+**What Happened**
+* The Reserve Bank of India (RBI) released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks.
+
 **Must Memorize (Eligibility Thresholds)**
 * **Operating Track Record**: Minimum **10 years** of continuous operations.
 * **Deposit Base**: Minimum **₹10,000 crore** (audited as of March 31 of previous FY).
@@ -54,6 +57,9 @@
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation
 * **Source:** CGB Mentors
 
+**What Happened**
+* The RBI published the annual list of Non-Banking Financial Companies in the Upper Layer (NBFC-UL) under its Scale-Based Regulation (SBR) framework for FY 2026–27.
+
 **Must Memorize**
 * **Tata Sons Private Limited** classified in Upper Layer (standalone assets $>₹2$ trillion).
 * **Total NBFC-UL Entities**: **17 entities** (REC, PFC, IRFC, HUDCO included).
@@ -67,6 +73,9 @@
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending
 * **Effective Date:** **1 January 2027** | **Source:** CGB Mentors
 
+**What Happened**
+* The RBI notified comprehensive directions governing loan recovery agents and prohibiting predatory remote lockouts on financed smartphones.
+
 **Must Memorize**
 * **Calling Hours**: Strictly between **8:00 AM and 7:00 PM** (No calls during bereavement/emergencies).
 * **Mandatory Certification**: All agents must hold **IIBF Certification**.
@@ -79,6 +88,9 @@
 ### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III
 * **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification
+
+**What Happened**
+* The RBI deferred the implementation of revised Basel III Pillar 3 market disclosure requirements to April 1, 2027, synchronizing them with the Expected Credit Loss (ECL) provisioning framework.
 
 **Must Memorize**
 * **Effective Implementation Date**: **April 1, 2027** (First revised quarterly disclosure applicable for quarter ending **June 30, 2027**).
@@ -94,6 +106,9 @@
 ### 6. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~6 min | **Category:** Banking Operations & PSL
 * **Source:** CGB Mentors
+
+**What Happened**
+* The RBI introduced special US Dollar-Rupee swap windows and CRR/SLR exemptions for fresh NRI deposits, excluding advances against these deposits from ANBC for PSL target calculations.
 
 **Must Memorize**
 * **Forex Swap**: US Dollar-Rupee swap for fresh FCNR(B) dollar funds (3 to 5 year tenor).

@@ -8,11 +8,11 @@
 ## 🪜 The Ascending Ladder Architecture
 
 ```
-VOLUME 6: EXISTENTIAL SOVEREIGNTY, PURPOSE & THE SUMMIT (Ch 30-38)
+VOLUME 6: EXISTENTIAL SOVEREIGNTY, PURPOSE & THE SUMMIT (Ch 36-44)
 True Confidence · Integrated Strength · Solitude · Emotional Granularity · Self-Knowledge · Purpose · The Void
                                     ▲
-VOLUME 5: THE ARCHITECTURE OF SOCIAL SOVEREIGNTY (Ch 25-29)
-Social Fiction Matrix · 3 Forms of Capital · Front/Back Stage · Sociological Imagination · Anomie
+VOLUME 5: THE ARCHITECTURE OF SOCIAL SOVEREIGNTY (Ch 25-35)
+Social Fiction Matrix · 3 Forms of Capital · Front/Back Stage · Sociological Imagination · Anomie · Vocal Resonance · Spontaneous Speech · MIT Pedagogy & Sovereign Writing · Social Connectivity · Difficult Conversations · Supercommunication
                                     ▲
 VOLUME 4: HIGH-VELOCITY EXECUTION & ASYMMETRIC LEVERAGE (Ch 18-24)
 First-Principles Outworking · Compounding Gains · 80/20 Leverage · Active Memory
@@ -96,7 +96,7 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
   * *Iteration Velocity · First-Principles Execution · Closed Feedback Loops*
 
 ### Volume 5: The Architecture of Social Sovereignty
-*Navigating institutions, status dynamics, and invisible scripts: the social fiction matrix, the 3 forms of capital, Goffman's front stage, the sociological imagination, and chosen constraints against anomie.*
+*Navigating institutions, status dynamics, interpersonal communication, sovereign writing, pedagogy, difficult conversations, and supercommunication.*
 
 * [Chapter 25: The Social Fiction Matrix — The Thomas Theorem & Demystifying Status Games](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-32-the-social-fiction-matrix-and-status-games.md)
   * *Thomas Theorem · Shared Social Agreements · Demystification Protocol*
@@ -108,31 +108,43 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
   * *C. Wright Mills · Micro-Accountability · Cold Macro-Realism*
 * [Chapter 29: The Iron Cage & Anomie — Navigating Sterile Systems & Chosen Constraints](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-36-the-iron-cage-and-anomie.md)
   * *Max Weber's Iron Cage · Durkheim's Anomie · Voluntary Monastic Order*
+* [Chapter 30: The Architecture of Resonance — Vocal Mastery, HAIL, Conviction & Conscious Listening](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-40-the-architecture-of-resonance-and-vocal-sovereignty.md)
+  * *Internal Conviction · Humanizing Shortcomings · HAIL Compass · RASA Loop*
+* [Chapter 31: The Architecture of Spontaneous Communication — Impromptu Clarity, The 60-Second Narrative & Subtractive Articulation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-41-the-architecture-of-spontaneous-communication.md)
+  * *Subtractive Articulation · 5 Authority Leaks · What? So What? Now What? · 60s Micro-Story*
+* [Chapter 32: The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-42-the-architecture-of-high-impact-pedagogy.md)
+  * *Reader-Centric Value · Instability Engine · Topic-Stress Mechanics · Cognitive Fences*
+* [Chapter 33: The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine, Levity & The 7 Hooks of Rapport](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-43-the-architecture-of-social-connectivity.md)
+  * *Incomplete Sentence Engine · Comfortable Silence · Eye-Smile Ping · Skill of Levity · Question Engineering*
+* [Chapter 34: The Architecture of Difficult Conversations — Frame of Reference, Sovereign Boundaries & Navigating Unsupportive Circles](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-44-the-architecture-of-difficult-conversations.md)
+  * *Thermostat Law · Considered Before Corrected · Curiosity Pivot*
+* [Chapter 35: The Architecture of Supercommunication — The Matching Principle & Three Layers of Dialogue](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-45-the-architecture-of-supercommunication.md)
+  * *Matching Principle · Practical vs Emotional vs Social · Neural Synchronization*
 
 ### Volume 6: Existential Sovereignty, Purpose & The Summit
-*Transcending ego and status games: true confidence, integrated strength, unattached execution, sovereign solitude, emotional granularity, self-knowledge via negative elimination, multiple intelligences, and the power of zero (Shunya).*
+*Transcending ego and status games: true confidence, integrated strength, unattached execution, sovereign solitude, emotional granularity, self-knowledge, and the power of zero (Shunya).*
 
-* [Chapter 30: The Architecture of True Confidence & Undeniable Proof](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-08-the-architecture-of-true-confidence.md)
-  * *Self-Efficacy · The Competence Loop · The Stack of Proof Protocol*
-* [Chapter 31: The Architecture of Integrated Strength — Quiet Competence & Radical Ownership](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-39-the-architecture-of-integrated-strength.md)
-  * *Quiet Competence · Emotional Containment · Radical Ownership Code*
-* [Chapter 32: The Three Modes of Execution — Perception, Action & Self](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-03-the-three-modes-of-execution.md)
-  * *Perception Lenses · Quality of Action · The 3-Question Diagnostic Pivot*
-* [Chapter 33: The Architecture of Solitude & Dismantling Loneliness](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-27-the-architecture-of-solitude-and-loneliness.md)
+* [Chapter 36: The Architecture of True Confidence — Self-Efficacy, Somatic Poise & Undeniable Proof](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-08-the-architecture-of-true-confidence.md)
+  * *Base Stance Calibration · Open-Palm Matrix · 3-5s Eye Contact · Stack of Proof*
+* [Chapter 37: The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-39-the-architecture-of-integrated-strength.md)
+  * *Respect Over Likability · Hard-No Boundaries · Keeping Promises to Yourself*
+* [Chapter 38: The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-03-the-three-modes-of-execution.md)
+  * *Existential Immunity · Value Invariant (€20 bill) · Enemy Within Law · 3 Modes*
+* [Chapter 39: The Architecture of Solitude & Dismantling Loneliness](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-27-the-architecture-of-solitude-and-loneliness.md)
   * *Solitude vs Loneliness · Threat Hyper-Vigilance · Parasocial Illusion*
-* [Chapter 34: The Architecture of Emotional Granularity — Naming the Unspoken Landscape](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-38-the-architecture-of-emotional-granularity.md)
+* [Chapter 40: The Architecture of Emotional Granularity — Naming the Unspoken Landscape](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-38-the-architecture-of-emotional-granularity.md)
   * *Affect Labeling · Sonder · Liberosis · Occhiolism · Monachopsis*
-* [Chapter 35: The Architecture of Self-Knowledge & Four Reality Mirrors](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-28-the-architecture-of-self-knowledge.md)
+* [Chapter 41: The Architecture of Self-Knowledge & Four Reality Mirrors](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-28-the-architecture-of-self-knowledge.md)
   * *Borrowed Identity · The Via Negativa · Four Reality Mirrors*
-* [Chapter 36: The Architecture of Purpose & Mastery](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-29-the-architecture-of-purpose-and-mastery.md)
+* [Chapter 42: The Architecture of Purpose & Mastery](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-29-the-architecture-of-purpose-and-mastery.md)
   * *Craftsman Mindset · Multiple Intelligences · Pro-Social Transcendence*
-* [Chapter 37: The Architecture of True Fulfillment & Hedonic Adaptation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-12-the-architecture-of-true-fulfillment-and-hedonic-treadmill.md)
+* [Chapter 43: The Architecture of True Fulfillment & Hedonic Adaptation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-12-the-architecture-of-true-fulfillment-and-hedonic-treadmill.md)
   * *Hedonic Adaptation · The Satisfaction Equation · Arrival Fallacy*
-* [Chapter 38: The Philosophy of the Void & Radical Resilience](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-31-the-philosophy-of-the-void-and-radical-resilience.md)
+* [Chapter 44: The Philosophy of the Void & Radical Resilience](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-31-the-philosophy-of-the-void-and-radical-resilience.md)
   * *Power of Zero (Shunya) · Transmuting Adversity · The Art of Quiet Reconstruction*
 
 ### Volume 7: Capital Allocation & Financial Independence
 *The mathematical reality of wealth: cashflow engineering, the true cost of debt, and multi-decade compounding.*
 
-* [Chapter 39: The Engine of Wealth — Cashflow, Debt & Compounding](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-02-the-engine-of-wealth-and-capital-allocation.md)
+* [Chapter 45: The Engine of Wealth — Cashflow, Debt & Compounding](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-02-the-engine-of-wealth-and-capital-allocation.md)
   * *Cashflow Engineering · Rent vs. Buy Reality · Speculation Elimination*

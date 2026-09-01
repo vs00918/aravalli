@@ -307,16 +307,16 @@ export function parseCanonicalMarkdownFile(
       topicMarkdownBuffer.push(line);
 
       // Subsection matching (supports both **What Happened** and #### What Happened)
-      if (/^\s*(####|\*?\*?)\s*What Happened/i.test(line)) {
+      if (/^\s*(####|\*?\*?)\s*(What Happened|Legislative Overview|Overview|Background|Core Announcement|Announcement|The Core Mechanism)/i.test(line)) {
         currentSubSection = 'WHAT_HAPPENED';
         continue;
-      } else if (/^\s*(####|\*?\*?)\s*Must Memorize/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Must Memorize|Key Rules|Key Provisions|Rules & Numbers|Structural Provisions|Key Structural Provisions|Insurance Structure|Approved \d+-Layer|Financial Allocation|Mandatory Blending|Regulatory Overrule|Specifications|Incentive Parameters|Specifications & Outlay|Core Findings|Parameters|Expansion & Calamity List)/i.test(line)) {
         currentSubSection = 'MUST_MEMORIZE';
         continue;
-      } else if (/^\s*(####|\*?\*?)\s*(Know\s*\/?\s*Understand|Why It Matters)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Know\s*\/?\s*Understand|Why It Matters|Fiscal Significance|Significance|Conceptual Context|Impact|Rationale|Context & Rationale|Judicial Rationale)/i.test(line)) {
         currentSubSection = 'KNOW_UNDERSTAND';
         continue;
-      } else if (/^\s*(####|\*?\*?)\s*(Exam Angle|Exam Focus|Descriptive \/ Mains Utility)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Exam Angle|Exam Focus|Key Exam Takeaways|Key Takeaways|Descriptive \/ Mains Utility)/i.test(line)) {
         currentSubSection = 'EXAM_FOCUS';
         continue;
       }
@@ -446,6 +446,27 @@ export function parseCanonicalMarkdownFile(
           } else {
             currentTopic.mustMemorizeFacts = currentTopic.mustMemorizeFacts || [];
             currentTopic.mustMemorizeFacts.push(text);
+          }
+        }
+      } else if (
+        !bulletMatch &&
+        currentPart !== 'IGNORE' &&
+        currentPart !== 'REPORT' &&
+        !line.startsWith('#') &&
+        !line.startsWith('---') &&
+        !line.startsWith('|') &&
+        !line.startsWith('>') &&
+        !line.includes('MIGRATION RECORD') &&
+        !isMetadataLine
+      ) {
+        const prose = line.trim();
+        if (prose.length > 15) {
+          if (currentSubSection === 'KNOW_UNDERSTAND') {
+            currentTopic.knowUnderstandContext = currentTopic.knowUnderstandContext || [];
+            currentTopic.knowUnderstandContext.push(prose);
+          } else {
+            currentTopic.whatHappened = currentTopic.whatHappened || [];
+            currentTopic.whatHappened.push(prose);
           }
         }
       }
