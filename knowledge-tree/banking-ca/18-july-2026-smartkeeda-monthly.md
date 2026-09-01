@@ -666,13 +666,13 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 
 ## PART 3: P3 — MODERATE (RAPID RECALL REFERENCE CLUSTERS)
 
-### Appointments & Institutional Transitions
+### Appointments & Institutional Transitions (July 2026)
 - **Mahesh Dixit (IPS)**: Appointed Director of the Intelligence Bureau (IB) for 2 years (succeeding Tapan Kumar Deka).
 - **Anurag Jain (IAS)**: Appointed CEO of NITI Aayog for 2 years (succeeding Nidhi Chibber / BVR Subrahmanyam).
 - **Pralhad Joshi**: Appointed Union Minister of Education (additional charge).
 - **Ravi Agrawal**: Re-appointed Chairman of CBDT on contract for 6 months (till Dec 31, 2026).
 - **Vikram Misri (IFS)**: Granted 1-year extension as Foreign Secretary (till July 14, 2027).
-- **Air Marshal Ashutosh Dixit**: Assumed charge as 51st Vice Chief of the Air Staff (VCAS).
+- **Air Marshal Ashutosh Dixit Assumes Vice Chief of Air Staff Charge**: Assumed charge as 51st Vice Chief of the Air Staff (VCAS).
 - **Lt Gen Sandeep Jain**: Assumed appointment as Vice Chief of the Army Staff (VCOAS).
 - **General Dhiraj Seth Unveils 'VIJAY' Transformation Roadmap for Indian Army**: Assumed charge as 31st Chief of the Army Staff (COAS), unveiling a five-pillar 'VIJAY' transformation roadmap.
 - **Viswanathan Anand**: Assumed role of Interim President of FIDE following Arkady Dvorkovich's suspension.
@@ -691,7 +691,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **Dr. Bijay Kumar Mohanty**: Assumed additional charge as CMD of IREDA.
 - **Air Marshal Tejinder Singh**: Assumed appointment as Chief of Integrated Defence Staff (CISC).
 
-### Awards, Honours & Fellowships
+### Awards, Honours & Fellowships (July 2026)
 - **Whitley Awards 2026 ('Green Oscar')**: Conferred on Parveen Shaikh (BNHS, Indian skimmers) and Barkha Subba (Darjeeling Himalayan salamander).
 - **UNESCO Asia-Pacific Award of Merit**: Jestha Varna Mahavihar Buddhist monastery in Lalitpur, Nepal (restored under GoI $1B grant).
 - **Best Egmont Case Award (BECA 2026)**: FIU-IND adjudged Runner-up in Baku for solving ₹868 cr cyber fraud network.
@@ -712,7 +712,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **44th Lokmanya Tilak National Award**: NSA Ajit Doval selected.
 - **72nd National Film Awards**: *Article 370* Best Film; Mammootty & Kartik Aaryan Best Actor.
 
-### Sports Milestones
+### Sports Milestones (July 2026)
 - **2026 FIFA World Cup**: Spain won 2nd title (1-0 vs Argentina at MetLife Stadium, $871M prize pool).
 - **Joe Root (England)**: Became 2nd batter in Test cricket history to reach 14,000 runs (joining Sachin Tendulkar).
 - **Ethan Vaz (Goa)**: Became India's 96th Chess Grandmaster at age 14 (youngest active GM in India).
@@ -736,7 +736,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **BWF World Championships 2026 Mascot**: "Peacko" unveiled by Sports Minister Mandaviya for New Delhi event.
 - **PV Sindhu**: Won Japan Open 2026 Super 750 women's singles title defeating Akane Yamaguchi.
 
-### Defence, Space & Technology
+### Defence, Space & Technology (July 2026)
 - **ICGS Akshay Commissioning**: Fast Patrol Vessel built by Goa Shipyard commissioned into Indian Coast Guard.
 - **7 Thematic Regional Defence Manufacturing Clusters**: MoD formalised Whole-of-Nation clusters paired with IITs.
 - **3 Warships Commissioned at Kolkata (GRSE)**: INS Dunagiri (Project 17A), INS Sanshodhak (SVL), INS Agray (ASW-SWC).
@@ -781,7 +781,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **CSIR Technology Transfer Event**: Licensed MSCOPE, PU-MPPM, and IPQA; transferred SU-30 HUD optical module to BEL.
 - **NASA PRAXIS Mission Concept**: AI-enabled autonomous robotic spacecraft for planetary ring sampling.
 
-### State Initiatives & Sectoral MoUs
+### State Initiatives & Sectoral MoUs (July 2026)
 - **Adani Airport City (AACL)**: Investing ₹20,000 crore across 6 airport cities (Mumbai, Navi Mumbai, Ahmedabad, Lucknow, Jaipur, Guwahati).
 - **Nasha Mukt Bharat Saptah**: Over 1.31 crore citizens participated; MoU signed with All World Gayatri Pariwar.
 - **20th Statistics Day (June 29, 2026)**: Theme "Unlocking the Potential of Administrative Data"; Sukhatme Award conferred on Prof. Arup Bose.
@@ -868,7 +868,7 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **Ministry of Tourism & Air India 'Incredible India' Framework MoU**.
 
 ### Static Roundups & Important Days (July 2026)
-- **Obituaries**: Vijaya Mehta (Marathi Theatre Legend, Padma Shri), Lt Gen MM Lakhera (Former Governor of Mizoram), Girish Bharadwaj ("Bridge Man of India", Padma Shri), K. Bhagyaraj (Tamil Filmmaker), Puviyarasu (Tamil Poet), Dr. Teejan Bai (Pandavani Folk Singer, Padma Vibhushan), Poomani (Tamil Writer), H. Hanumanthappa (Former NCSC/ST Chairman), Moozhikkal Pankajakshi (Nokkuvidya Puppetry, Padma Shri), Sir Garfield Sobers (West Indies Cricket Legend), Kevin Keegan (England Football Legend).
+- **July 2026 Important Obituaries**: Vijaya Mehta (Marathi Theatre Legend, Padma Shri), Lt Gen MM Lakhera (Former Governor of Mizoram), Girish Bharadwaj ("Bridge Man of India", Padma Shri), K. Bhagyaraj (Tamil Filmmaker), Puviyarasu (Tamil Poet), Dr. Teejan Bai (Pandavani Folk Singer, Padma Vibhushan), Poomani (Tamil Writer), H. Hanumanthappa (Former NCSC/ST Chairman), Moozhikkal Pankajakshi (Nokkuvidya Puppetry, Padma Shri), Sir Garfield Sobers (West Indies Cricket Legend), Kevin Keegan (England Football Legend).
 - **Important Days (July 2026)**:
   - July 1: National Doctor's Day (*Theme: "Behind the Mask: Who Heals the Healers?"*); 78th Chartered Accountants Day; 9th GST Day (*Theme: "GST – Simplified Tax System: Empowered India"*); SBI Foundation Day (1955).
   - July 2: World Sports Journalists Day.
