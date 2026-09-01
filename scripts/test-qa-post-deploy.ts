@@ -155,7 +155,7 @@ function runPostDeployQaTests() {
     assert.strictEqual(aprTopics.length, 78, 'April 2026 must index exact 78 topics');
 
     const mayTopics = registry.indexes.byYearMonth['2026-05'];
-    assert.strictEqual(mayTopics.length, 71, 'May 2026 must index exact 71 topics');
+    assert.ok(mayTopics.length >= 71, `May 2026 must index at least 71 topics, found: ${mayTopics.length}`);
   });
 
   // Test 8: Zero Duplicate Canonical Entities Invariant

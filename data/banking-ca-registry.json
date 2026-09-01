@@ -3,12 +3,12 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 1161,
-    "activeP1Count": 74,
-    "activeP1RevisionMinutes": 566,
-    "totalP2Count": 375,
-    "totalP3Count": 712,
-    "totalBatchesIngested": 19
+    "totalCanonicalTopics": 1194,
+    "activeP1Count": 80,
+    "activeP1RevisionMinutes": 614,
+    "totalP2Count": 395,
+    "totalP3Count": 719,
+    "totalBatchesIngested": 20
   },
   "examProfiles": [
     {
@@ -55553,6 +55553,1728 @@
         }
       ],
       "contentMarkdown": "- **June 2026 Important Obituaries**: Dr. Bashir Badr (Renowned Urdu Poet, Padma Shri 1999), Dhanendra Kumar (1st CCI Chairman), Suman Kalyanpur (Playback Singer, Padma Bhushan 2023), Subhash C. Kashyap (Constitutional Expert, Lok Sabha Secy-Gen), Balwinder Singh Dhaliwal ('Baba Dhaliwal', Arjuna Award), Salim Kumar (Malayalam Actor, National Award), Pahlaj Nihalani (Former CBFC Chief), Jaspal Rana (Shooting Legend & Coach, Padma Shri), Princess Bajrakitiyabha Mahidol (Thailand), Bharathiraja ('Iyakkunar Imayam', Padma Shri 2004), Gavri Devi (Mand Folk Singer), Lt Gen Vijay Oberoi (Former VCOAS, CLAWS founder), Robert A.F. Thurman (Buddhist Scholar, Padma Shri 2020)."
+    },
+    "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures": {
+      "id": "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
+      "slug": "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
+      "title": "RBI Releases Draft Capital Adequacy Amendment Directions & Basel Pillar 3 Market Disclosures",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "regulatoryStatus": "DRAFT",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C4",
+      "memoryAnchor": "RBI → RELEASES → DRAFT → CAPITAL → ADEQUACY",
+      "atomicRecall": "RBI Releases Draft Capital Adequacy Amendment Directions & Basel Pillar 3 Market Disclosures",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "The Reserve Bank of India unveiled the draft \"Reserve Bank of India (Capital Adequacy) Amendment Directions, 2026\" and standardized reporting templates to align domestic banking disclosures with the revised **Basel Pillar 3 Market Discipline framework** issued by the Basel Committee on Banking Supervision (BCBS)."
+      ],
+      "mustMemorizeFacts": [
+        "Pillar 3 Scope: Mandatory quarterly/half-yearly qualitative and quantitative disclosure templates for all scheduled commercial banks (excluding RRBs and Small Finance Banks).",
+        "Key Ratios Under Pillar 3: Liquidity Coverage Ratio (LCR >= 100%), Net Stable Funding Ratio (NSFR >= 100%), Leverage Ratio (minimum 4.0% for D-SIBs, 3.5% for other banks)."
+      ],
+      "knowUnderstandContext": [
+        "Objective of Pillar 3 Upgrades: To enhance transparency, prevent regulatory arbitrage, and provide standardized, comparable data to depositors, market participants, and rating agencies regarding bank capital buffers, credit risk models, counterparty credit risk, and liquidity ratios.",
+        "Key Regulatory Thresholds:",
+        "Minimum Capital to Risk-Weighted Assets Ratio (CRAR): Maintained at **9.0%** for commercial banks (11.5% including Capital Conservation Buffer).",
+        "Common Equity Tier 1 (CET-1) Ratio: Minimum **5.5%**.",
+        "Tier-1 Capital Ratio: Minimum **7.0%**.",
+        "Capital Conservation Buffer (CCB): **2.50%** comprised entirely of CET-1.",
+        "Countercyclical Capital Buffer (CCyB): Maintained at **0%** for May 2026."
+      ],
+      "examFocus": [
+        "Minimum CRAR requirement: 9.0% (11.5% with CCB).",
+        "CET-1 minimum: 5.5%.",
+        "Current CCyB rate: 0%.",
+        "Minimum Leverage Ratio: 3.5% (4.0% for Domestic Systemically Important Banks - D-SIBs)."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 1. RBI Releases Draft Capital Adequacy Amendment Directions & Basel Pillar 3 Market Disclosures\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-15`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nThe Reserve Bank of India unveiled the draft \"Reserve Bank of India (Capital Adequacy) Amendment Directions, 2026\" and standardized reporting templates to align domestic banking disclosures with the revised **Basel Pillar 3 Market Discipline framework** issued by the Basel Committee on Banking Supervision (BCBS).\n\n#### Know / Understand\n- **Objective of Pillar 3 Upgrades**: To enhance transparency, prevent regulatory arbitrage, and provide standardized, comparable data to depositors, market participants, and rating agencies regarding bank capital buffers, credit risk models, counterparty credit risk, and liquidity ratios.\n- **Key Regulatory Thresholds**:\n  - **Minimum Capital to Risk-Weighted Assets Ratio (CRAR)**: Maintained at **9.0%** for commercial banks (11.5% including Capital Conservation Buffer).\n  - **Common Equity Tier 1 (CET-1) Ratio**: Minimum **5.5%**.\n  - **Tier-1 Capital Ratio**: Minimum **7.0%**.\n  - **Capital Conservation Buffer (CCB)**: **2.50%** comprised entirely of CET-1.\n  - **Countercyclical Capital Buffer (CCyB)**: Maintained at **0%** for May 2026.\n\n#### Must Memorize\n- **Pillar 3 Scope**: Mandatory quarterly/half-yearly qualitative and quantitative disclosure templates for all scheduled commercial banks (excluding RRBs and Small Finance Banks).\n- **Key Ratios Under Pillar 3**: Liquidity Coverage Ratio (LCR >= 100%), Net Stable Funding Ratio (NSFR >= 100%), Leverage Ratio (minimum 4.0% for D-SIBs, 3.5% for other banks).\n\n#### Exam Focus\n- Minimum CRAR requirement: 9.0% (11.5% with CCB).\n- CET-1 minimum: 5.5%.\n- Current CCyB rate: 0%.\n- Minimum Leverage Ratio: 3.5% (4.0% for Domestic Systemically Important Banks - D-SIBs).\n\n---"
+    },
+    "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones": {
+      "id": "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+      "slug": "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+      "title": "Union Cabinet Approves Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0) & Jan Suraksha Milestones",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "PFRDA",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C4",
+      "memoryAnchor": "UNION → CABINET → APPROVES → EMERGENCY → CREDIT",
+      "atomicRecall": "Union Cabinet Approves Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0) & Jan Suraksha Milestones",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "The Union Cabinet, chaired by Prime Minister Narendra Modi, approved the rollout of **Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0)** with dedicated allocations for green MSME transitions, export-oriented units, and critical manufacturing clusters, while the Ministry of Finance marked the **11th Anniversary** of the three flagship **Jan Suraksha Schemes** (PMSBY, PMJJBY, and APY)."
+      ],
+      "mustMemorizeFacts": [
+        "Jan Suraksha Scheme Parameters:",
+        "PMJJBY Premium: **₹436/year** | Age: **18–50 yrs** | Cover: **₹2 Lakh**.",
+        "PMSBY Premium: **₹20/year** | Age: **18–70 yrs** | Cover: **₹2 Lakh** (Accidental).",
+        "APY Entry Age: **18–40 yrs** | Pension: **₹1,000 to ₹5,000/month** at age 60.",
+        "APY Tax Payer Rule: Income tax payers barred from joining APY since October 1, 2022.",
+        "Cumulative Enrolment Figures (as of May 2026):",
+        "PMSBY: Over **45.8 crore** enrolments.",
+        "PMJJBY: Over **20.4 crore** enrolments.",
+        "APY: Over **6.75 crore** subscribers."
+      ],
+      "knowUnderstandContext": [
+        "ECLGS 5.0 Architecture: Administered through National Credit Guarantee Trustee Company (NCGTC), providing **100% guarantee coverage** to Member Lending Institutions (MLIs) including Scheduled Commercial Banks, NBFCs, and Financial Institutions.",
+        "Jan Suraksha Schemes Summary:",
+        "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY): Life insurance cover of **₹2 lakh** for natural/accidental death for age group **18–50 years** at an annual premium of **₹436**.",
+        "Pradhan Mantri Suraksha Bima Yojana (PMSBY): Accidental death/disability cover of **₹2 lakh** (₹1 lakh for partial disability) for age group **18–70 years** at an annual premium of **₹20**.",
+        "Atal Pension Yojana (APY): Guaranteed monthly pension of **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** from age 60 for subscribers joining between **18–40 years**, administered by PFRDA."
+      ],
+      "examFocus": [
+        "PMJJBY: ₹436/year, 18-50 age limit, ₹2 lakh life cover.",
+        "PMSBY: ₹20/year, 18-70 age limit, ₹2 lakh accidental cover.",
+        "APY: 18-40 entry age, 60 maturity age, ₹1,000-₹5,000 slab.",
+        "Administering agency for ECLGS: NCGTC."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 2. Union Cabinet Approves Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0) & Jan Suraksha Milestones\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `MINISTRY_OF_FINANCE`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-08`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nThe Union Cabinet, chaired by Prime Minister Narendra Modi, approved the rollout of **Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0)** with dedicated allocations for green MSME transitions, export-oriented units, and critical manufacturing clusters, while the Ministry of Finance marked the **11th Anniversary** of the three flagship **Jan Suraksha Schemes** (PMSBY, PMJJBY, and APY).\n\n#### Know / Understand\n- **ECLGS 5.0 Architecture**: Administered through National Credit Guarantee Trustee Company (NCGTC), providing **100% guarantee coverage** to Member Lending Institutions (MLIs) including Scheduled Commercial Banks, NBFCs, and Financial Institutions.\n- **Jan Suraksha Schemes Summary**:\n  - **Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)**: Life insurance cover of **₹2 lakh** for natural/accidental death for age group **18–50 years** at an annual premium of **₹436**.\n  - **Pradhan Mantri Suraksha Bima Yojana (PMSBY)**: Accidental death/disability cover of **₹2 lakh** (₹1 lakh for partial disability) for age group **18–70 years** at an annual premium of **₹20**.\n  - **Atal Pension Yojana (APY)**: Guaranteed monthly pension of **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** from age 60 for subscribers joining between **18–40 years**, administered by PFRDA.\n\n#### Must Memorize\n- **Jan Suraksha Scheme Parameters**:\n  - **PMJJBY Premium**: **₹436/year** | Age: **18–50 yrs** | Cover: **₹2 Lakh**.\n  - **PMSBY Premium**: **₹20/year** | Age: **18–70 yrs** | Cover: **₹2 Lakh** (Accidental).\n  - **APY Entry Age**: **18–40 yrs** | Pension: **₹1,000 to ₹5,000/month** at age 60.\n  - **APY Tax Payer Rule**: Income tax payers barred from joining APY since October 1, 2022.\n- **Cumulative Enrolment Figures (as of May 2026)**:\n  - **PMSBY**: Over **45.8 crore** enrolments.\n  - **PMJJBY**: Over **20.4 crore** enrolments.\n  - **APY**: Over **6.75 crore** subscribers.\n\n#### Exam Focus\n- PMJJBY: ₹436/year, 18-50 age limit, ₹2 lakh life cover.\n- PMSBY: ₹20/year, 18-70 age limit, ₹2 lakh accidental cover.\n- APY: 18-40 entry age, 60 maturity age, ₹1,000-₹5,000 slab.\n- Administering agency for ECLGS: NCGTC.\n\n---"
+    },
+    "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394": {
+      "id": "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
+      "slug": "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
+      "title": "MoHFW Releases National Health Accounts (NHA) Estimates: Out-of-Pocket Expenditure Drops to 39.4%",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C4",
+      "memoryAnchor": "MOHFW → RELEASES → NATIONAL → HEALTH → ACCOUNTS",
+      "atomicRecall": "MoHFW Releases National Health Accounts (NHA) Estimates: Out-of-Pocket Expenditure Drops to 39.4%",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "The Union Ministry of Health & Family Welfare (MoHFW) released the National Health Accounts (NHA) Estimates for India, showing a historic reduction in **Out-of-Pocket Expenditure (OOPE)** as a share of Total Health Expenditure (THE) down to **39.4%**, alongside a steady rise in **Government Health Expenditure (GHE)** to **48.0%** of THE."
+      ],
+      "mustMemorizeFacts": [
+        "Key Health Financing Indicators:",
+        "Out-of-Pocket Expenditure (OOPE): **39.4%** of THE (down from 64.2% in 2013-14).",
+        "Government Health Expenditure (GHE): **48.0%** of THE (up from 28.6% in 2013-14).",
+        "GHE as % of GDP: **1.84%** (up from 1.15% in 2013-14).",
+        "Total Health Expenditure (THE) as % of GDP: **3.83%**.",
+        "Social Security Expenditure on Health: Increased to **9.3%** of THE.",
+        "Per Capita Government Health Expenditure: Rose to **₹3,167** per year."
+      ],
+      "knowUnderstandContext": [
+        "Transformational Healthcare Financing: In 2013–14, OOPE accounted for **64.2%** of total health spending, pushing millions of households into medical poverty. The decline to 39.4% reflects the massive footprint of Ayushman Bharat (PM-JAY), PM Ayushman Bharat Health Infrastructure Mission (PM-ABHIM), free essential diagnostics/medicines, and Jan Aushadhi Kendras."
+      ],
+      "examFocus": [
+        "Current OOPE share in Total Health Expenditure: 39.4%.",
+        "Current Government Health Expenditure share: 48.0%.",
+        "GHE as percentage of GDP: 1.84%.",
+        "Primary institutional driver: National Health Systems Resource Centre (NHSRC) / MoHFW."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 3. MoHFW Releases National Health Accounts (NHA) Estimates: Out-of-Pocket Expenditure Drops to 39.4%\n- **Category**: `REPORTS_AND_INDICES`\n- **Institution**: `MINISTRY_OF_HEALTH`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-18`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nThe Union Ministry of Health & Family Welfare (MoHFW) released the National Health Accounts (NHA) Estimates for India, showing a historic reduction in **Out-of-Pocket Expenditure (OOPE)** as a share of Total Health Expenditure (THE) down to **39.4%**, alongside a steady rise in **Government Health Expenditure (GHE)** to **48.0%** of THE.\n\n#### Know / Understand\n- **Transformational Healthcare Financing**: In 2013–14, OOPE accounted for **64.2%** of total health spending, pushing millions of households into medical poverty. The decline to 39.4% reflects the massive footprint of Ayushman Bharat (PM-JAY), PM Ayushman Bharat Health Infrastructure Mission (PM-ABHIM), free essential diagnostics/medicines, and Jan Aushadhi Kendras.\n\n#### Must Memorize\n- **Key Health Financing Indicators**:\n  - **Out-of-Pocket Expenditure (OOPE)**: **39.4%** of THE (down from 64.2% in 2013-14).\n  - **Government Health Expenditure (GHE)**: **48.0%** of THE (up from 28.6% in 2013-14).\n  - **GHE as % of GDP**: **1.84%** (up from 1.15% in 2013-14).\n  - **Total Health Expenditure (THE) as % of GDP**: **3.83%**.\n  - **Social Security Expenditure on Health**: Increased to **9.3%** of THE.\n  - **Per Capita Government Health Expenditure**: Rose to **₹3,167** per year.\n\n#### Exam Focus\n- Current OOPE share in Total Health Expenditure: 39.4%.\n- Current Government Health Expenditure share: 48.0%.\n- GHE as percentage of GDP: 1.84%.\n- Primary institutional driver: National Health Systems Resource Centre (NHSRC) / MoHFW.\n\n---"
+    },
+    "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks": {
+      "id": "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
+      "slug": "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
+      "title": "RBI Tightens Governance, Board Composition & MD/CEO Tenure Norms for Urban & Rural Co-operative Banks",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "APPOINTMENT",
+      "compressionLevel": "C4",
+      "memoryAnchor": "RBI → TIGHTENS → GOVERNANCE → BOARD → COMPOSITION",
+      "atomicRecall": "RBI Tightens Governance, Board Composition & MD/CEO Tenure Norms for Urban & Rural Co-operative Banks",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "The Reserve Bank of India issued final comprehensive governance directions for **Urban Co-operative Banks (UCBs)** in Tier 3 & Tier 4 and **State/District Central Co-operative Banks (StCBs/DCCBs)**, establishing strict professional qualification criteria for board members, capping MD & CEO tenures at 15 years, and mandating dedicated board committees."
+      ],
+      "mustMemorizeFacts": [
+        "Key Governance Mandates:",
+        "MD & CEO Tenure Cap: Maximum **15 consecutive or aggregate years** in the same co-operative bank.",
+        "Cooling-Off Period: Minimum **3 years** before reappointment after completing 15 years.",
+        "Upper Age Limit: **70 years** for MD, CEO, and Whole-Time Directors.",
+        "Board Qualifications: Minimum **50% of Board members** must possess specialized professional knowledge in banking, finance, accountancy, law, or IT.",
+        "Mandatory Committees: Audit Committee of the Board (ACB) and Risk Management Committee of the Board (RMCB) must be headed by independent professionals."
+      ],
+      "knowUnderstandContext": [
+        "Objective of Co-operative Governance Overhaul: Co-operative banks have historically faced systemic vulnerabilities due to localized political interference and lack of risk oversight. Following the Banking Regulation (Amendment) Act 2020, RBI is standardizing co-operative governance with commercial banking rigor."
+      ],
+      "examFocus": [
+        "Maximum tenure of MD/CEO in UCBs: 15 years.",
+        "Mandatory cooling-off period: 3 years.",
+        "Upper age limit for Whole-Time Directors: 70 years.",
+        "Minimum specialized Board members requirement: 50%."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 4. RBI Tightens Governance, Board Composition & MD/CEO Tenure Norms for Urban & Rural Co-operative Banks\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-27`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nThe Reserve Bank of India issued final comprehensive governance directions for **Urban Co-operative Banks (UCBs)** in Tier 3 & Tier 4 and **State/District Central Co-operative Banks (StCBs/DCCBs)**, establishing strict professional qualification criteria for board members, capping MD & CEO tenures at 15 years, and mandating dedicated board committees.\n\n#### Know / Understand\n- **Objective of Co-operative Governance Overhaul**: Co-operative banks have historically faced systemic vulnerabilities due to localized political interference and lack of risk oversight. Following the Banking Regulation (Amendment) Act 2020, RBI is standardizing co-operative governance with commercial banking rigor.\n\n#### Must Memorize\n- **Key Governance Mandates**:\n  - **MD & CEO Tenure Cap**: Maximum **15 consecutive or aggregate years** in the same co-operative bank.\n  - **Cooling-Off Period**: Minimum **3 years** before reappointment after completing 15 years.\n  - **Upper Age Limit**: **70 years** for MD, CEO, and Whole-Time Directors.\n  - **Board Qualifications**: Minimum **50% of Board members** must possess specialized professional knowledge in banking, finance, accountancy, law, or IT.\n  - **Mandatory Committees**: Audit Committee of the Board (ACB) and Risk Management Committee of the Board (RMCB) must be headed by independent professionals.\n\n#### Exam Focus\n- Maximum tenure of MD/CEO in UCBs: 15 years.\n- Mandatory cooling-off period: 3 years.\n- Upper age limit for Whole-Time Directors: 70 years.\n- Minimum specialized Board members requirement: 50%.\n\n---"
+    },
+    "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges": {
+      "id": "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
+      "slug": "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
+      "title": "Parliament Passes Supreme Court (Number of Judges) Amendment Bill 2026: Sanctioned Strength Raised to 39 Judges",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "POLICY",
+      "compressionLevel": "C4",
+      "memoryAnchor": "PARLIAMENT → PASSES → SUPREME → COURT → NUMBER",
+      "atomicRecall": "Parliament Passes Supreme Court (Number of Judges) Amendment Bill 2026: Sanctioned Strength Raised to 39 Judges",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "Parliament passed the **Supreme Court (Number of Judges) Amendment Bill, 2026**, increasing the maximum sanctioned judge strength of the Supreme Court of India from **34 (33 judges + CJI) to 39 (38 judges + CJI)** to clear the backlog of constitutional and appellate cases."
+      ],
+      "mustMemorizeFacts": [
+        "Sanctioned Strength: **39 Judges** (38 Puisne Judges + 1 Chief Justice of India).",
+        "Previous Strength: **34 Judges** (established under the 2019 Amendment).",
+        "Relevant Constitutional Article: **Article 124(1)**.",
+        "Retirement Age: Supreme Court Judges retire at age **65 years** (High Court judges retire at 62 years)."
+      ],
+      "knowUnderstandContext": [
+        "Constitutional Basis: Under **Article 124(1)** of the Constitution of India, the power to increase the number of Supreme Court judges vests exclusively with Parliament through legislative enactment.",
+        "Historical Evolution of Supreme Court Strength:",
+        "1950 (Original Constitution): **8 Judges** (7 Judges + CJI).",
+        "1956: Raised to **11 Judges**.",
+        "1960: Raised to **14 Judges**.",
+        "1977: Raised to **18 Judges**.",
+        "1986: Raised to **26 Judges**.",
+        "2009: Raised to **31 Judges**.",
+        "2019: Raised to **34 Judges**.",
+        "2026 (Current Amendment): Raised to **39 Judges** (38 Judges + 1 CJI)."
+      ],
+      "examFocus": [
+        "New sanctioned strength of Supreme Court: 39 judges.",
+        "Constitutional authority: Parliament under Article 124(1).",
+        "Retirement age: 65 years."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 5. Parliament Passes Supreme Court (Number of Judges) Amendment Bill 2026: Sanctioned Strength Raised to 39 Judges\n- **Category**: `NATIONAL_AND_STATES`\n- **Institution**: `OTHER`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-06`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nParliament passed the **Supreme Court (Number of Judges) Amendment Bill, 2026**, increasing the maximum sanctioned judge strength of the Supreme Court of India from **34 (33 judges + CJI) to 39 (38 judges + CJI)** to clear the backlog of constitutional and appellate cases.\n\n#### Know / Understand\n- **Constitutional Basis**: Under **Article 124(1)** of the Constitution of India, the power to increase the number of Supreme Court judges vests exclusively with Parliament through legislative enactment.\n- **Historical Evolution of Supreme Court Strength**:\n  - 1950 (Original Constitution): **8 Judges** (7 Judges + CJI).\n  - 1956: Raised to **11 Judges**.\n  - 1960: Raised to **14 Judges**.\n  - 1977: Raised to **18 Judges**.\n  - 1986: Raised to **26 Judges**.\n  - 2009: Raised to **31 Judges**.\n  - 2019: Raised to **34 Judges**.\n  - **2026 (Current Amendment)**: Raised to **39 Judges** (38 Judges + 1 CJI).\n\n#### Must Memorize\n- **Sanctioned Strength**: **39 Judges** (38 Puisne Judges + 1 Chief Justice of India).\n- **Previous Strength**: **34 Judges** (established under the 2019 Amendment).\n- **Relevant Constitutional Article**: **Article 124(1)**.\n- **Retirement Age**: Supreme Court Judges retire at age **65 years** (High Court judges retire at 62 years).\n\n#### Exam Focus\n- New sanctioned strength of Supreme Court: 39 judges.\n- Constitutional authority: Parliament under Article 124(1).\n- Retirement age: 65 years.\n\n---"
+    },
+    "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme": {
+      "id": "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
+      "slug": "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
+      "title": "Union Cabinet Approves 'Mission for Cotton Productivity' (₹3,500 Crore Outlay) & Surface Coal Gasification Scheme",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C4",
+      "memoryAnchor": "UNION → CABINET → APPROVES → MISSION → FOR",
+      "atomicRecall": "Union Cabinet Approves 'Mission for Cotton Productivity' (₹3,500 Crore Outlay) & Surface Coal Gasification Scheme",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "The Union Cabinet approved the **\"Mission for Cotton Productivity\"** with a total financial outlay of **₹3,500 crore** over five years (FY 2026–27 to FY 2030–31) to promote High-Density Planting Systems (HDPS), expand Extra Long Staple (ELS) cotton acreage, and double domestic lint yields."
+      ],
+      "mustMemorizeFacts": [
+        "Mission for Cotton Productivity Parameters:",
+        "Total Financial Outlay: **₹3,500 crore**.",
+        "Implementation Period: **5 Years** (FY 2026–27 to FY 2030–31).",
+        "Yield Target: **750 kg lint/hectare** by 2030–31.",
+        "HDPS Coverage Target: **15 lakh hectares**.",
+        "Surface Coal Gasification (SCG) Scheme:",
+        "Approved financial incentive of **₹8,500 crore** for coal gasification projects by Coal India Limited (CIL) and private entities to achieve 100 MT coal gasification by 2030."
+      ],
+      "knowUnderstandContext": [
+        "Strategic Agricultural Priority: India has the largest cotton cultivation area globally (~125 lakh hectares) but ranks low in productivity (~450 kg lint/ha vs world average of 780 kg/ha). The mission aims to elevate national yield to **750 kg/ha** through mechanized harvesting, micro-irrigation, and bollworm-resistant seed varieties."
+      ],
+      "examFocus": [
+        "Cotton Mission Outlay: ₹3,500 crore.",
+        "Target Cotton Yield: 750 kg lint/hectare.",
+        "Coal Gasification target: 100 MT by 2030."
+      ],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 6. Union Cabinet Approves 'Mission for Cotton Productivity' (₹3,500 Crore Outlay) & Surface Coal Gasification Scheme\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `MINISTRY_OF_AGRICULTURE`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-05-14`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n\n#### What Happened\nThe Union Cabinet approved the **\"Mission for Cotton Productivity\"** with a total financial outlay of **₹3,500 crore** over five years (FY 2026–27 to FY 2030–31) to promote High-Density Planting Systems (HDPS), expand Extra Long Staple (ELS) cotton acreage, and double domestic lint yields.\n\n#### Know / Understand\n- **Strategic Agricultural Priority**: India has the largest cotton cultivation area globally (~125 lakh hectares) but ranks low in productivity (~450 kg lint/ha vs world average of 780 kg/ha). The mission aims to elevate national yield to **750 kg/ha** through mechanized harvesting, micro-irrigation, and bollworm-resistant seed varieties.\n\n#### Must Memorize\n- **Mission for Cotton Productivity Parameters**:\n  - **Total Financial Outlay**: **₹3,500 crore**.\n  - **Implementation Period**: **5 Years** (FY 2026–27 to FY 2030–31).\n  - **Yield Target**: **750 kg lint/hectare** by 2030–31.\n  - **HDPS Coverage Target**: **15 lakh hectares**.\n- **Surface Coal Gasification (SCG) Scheme**:\n  - Approved financial incentive of **₹8,500 crore** for coal gasification projects by Coal India Limited (CIL) and private entities to achieve 100 MT coal gasification by 2030.\n\n#### Exam Focus\n- Cotton Mission Outlay: ₹3,500 crore.\n- Target Cotton Yield: 750 kg lint/hectare.\n- Coal Gasification target: 100 MT by 2030.\n\n---"
+    },
+    "rbi-appoints-gunveer-singh-as-executive-director": {
+      "id": "rbi-appoints-gunveer-singh-as-executive-director",
+      "slug": "rbi-appoints-gunveer-singh-as-executive-director",
+      "title": "RBI Appoints Gunveer Singh as Executive Director",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "APPOINTMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "APPOINTMENT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "RBI → APPOINTS → GUNVEER → SINGH → EXECUTIVE",
+      "atomicRecall": "RBI Appoints Gunveer Singh as Executive Director",
+      "examAngle": {
+        "likelyAsks": [
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: RBI appointed Gunveer Singh as Executive Director (ED) with effect from May 18, 2026.",
+        "Key Facts:",
+        "He will oversee the Department of Supervision (Risk, Analytics and Supervisory Strategy) and Financial Stability Unit.",
+        "Prior to promotion, he served as Chief General Manager in the Department of Banking Supervision."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 7. RBI Appoints Gunveer Singh as Executive Director\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-18`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: RBI appointed Gunveer Singh as Executive Director (ED) with effect from May 18, 2026.\n- **Key Facts**:\n  - He will oversee the Department of Supervision (Risk, Analytics and Supervisory Strategy) and Financial Stability Unit.\n  - Prior to promotion, he served as Chief General Manager in the Department of Banking Supervision."
+    },
+    "index-of-eight-core-industries-ici-grows-17-in-april-2026": {
+      "id": "index-of-eight-core-industries-ici-grows-17-in-april-2026",
+      "slug": "index-of-eight-core-industries-ici-grows-17-in-april-2026",
+      "title": "Index of Eight Core Industries (ICI) Grows 1.7% in April 2026",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "INDEX",
+      "compressionLevel": "C3",
+      "memoryAnchor": "INDEX → EIGHT → CORE → INDUSTRIES → ICI",
+      "atomicRecall": "Index of Eight Core Industries (ICI) Grows 1.7% in April 2026 → 1.7% → 2026",
+      "examAngle": {
+        "likelyAsks": [
+          "Global rank of India / benchmark publishing institution"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The Office of the Economic Adviser, DPIIT, reported that the combined Index of Eight Core Industries (ICI) increased by **1.7%** in April 2026 compared to April 2025.",
+        "Key Facts:",
+        "Weight of 8 Core Industries in IIP: **40.27%**.",
+        "Sectoral Weights: Petroleum Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).",
+        "Fastest growing sector: Coal (+7.8%) and Electricity (+6.4%)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 8. Index of Eight Core Industries (ICI) Grows 1.7% in April 2026\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The Office of the Economic Adviser, DPIIT, reported that the combined Index of Eight Core Industries (ICI) increased by **1.7%** in April 2026 compared to April 2025.\n- **Key Facts**:\n  - **Weight of 8 Core Industries in IIP**: **40.27%**.\n  - **Sectoral Weights**: Petroleum Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).\n  - Fastest growing sector: Coal (+7.8%) and Electricity (+6.4%)."
+    },
+    "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city": {
+      "id": "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
+      "slug": "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
+      "title": "Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "IFSCA",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C3",
+      "memoryAnchor": "CENTRAL → BANK → INDIA → OPERATIONALISES → IFSC",
+      "atomicRecall": "Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Public sector lender Central Bank of India operationalised its dedicated IFSC Banking Unit (IBU) at GIFT SEZ in Gandhinagar, Gujarat.",
+        "Key Facts:",
+        "Regulated by International Financial Services Centres Authority (IFSCA).",
+        "The IBU enables Central Bank of India to provide external commercial borrowings (ECBs), trade finance, foreign currency deposits, and cross-border syndication loans."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 9. Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `IFSCA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-20`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Public sector lender Central Bank of India operationalised its dedicated IFSC Banking Unit (IBU) at GIFT SEZ in Gandhinagar, Gujarat.\n- **Key Facts**:\n  - Regulated by International Financial Services Centres Authority (IFSCA).\n  - The IBU enables Central Bank of India to provide external commercial borrowings (ECBs), trade finance, foreign currency deposits, and cross-border syndication loans."
+    },
+    "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india": {
+      "id": "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
+      "slug": "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
+      "title": "Greece's Eurobank Opens Mumbai Representative Office (1st Greek Bank in India)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C3",
+      "memoryAnchor": "GREECES → EUROBANK → OPENS → MUMBAI → REPRESENTATIVE",
+      "atomicRecall": "Greece's Eurobank Opens Mumbai Representative Office (1st Greek Bank in India)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Eurobank, one of Greece's four systemic banking groups, inaugurated its representative office in Mumbai, becoming the **first Greek bank** to establish a formal operational presence in India.",
+        "Key Facts:",
+        "Focuses on the India-Middle East-Europe Economic Corridor (IMEC) trade flows, maritime finance, and bilateral cross-border remittances.",
+        "Headquartered in Athens, Greece; CEO: Fokion Karavias."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 10. Greece's Eurobank Opens Mumbai Representative Office (1st Greek Bank in India)\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-21`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Eurobank, one of Greece's four systemic banking groups, inaugurated its representative office in Mumbai, becoming the **first Greek bank** to establish a formal operational presence in India.\n- **Key Facts**:\n  - Focuses on the India-Middle East-Europe Economic Corridor (IMEC) trade flows, maritime finance, and bilateral cross-border remittances.\n  - Headquartered in Athens, Greece; CEO: Fokion Karavias."
+    },
+    "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence": {
+      "id": "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
+      "slug": "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
+      "title": "Karnataka Grameena Bank Wins National Award from PFRDA for APY Excellence",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "PENSION_SYSTEMS",
+      "secondaryCategories": [],
+      "primaryInstitution": "PFRDA",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "AWARD",
+      "compressionLevel": "C3",
+      "memoryAnchor": "KARNATAKA → GRAMEENA → BANK → WINS → NATIONAL",
+      "atomicRecall": "Karnataka Grameena Bank Wins National Award from PFRDA for APY Excellence",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Karnataka Grameena Bank (KGB), sponsored by Canara Bank, was conferred the \"National Award of Excellence\" by the Pension Fund Regulatory and Development Authority (PFRDA) for outstanding enrolment and operational performance under Atal Pension Yojana (APY).",
+        "Key Facts:",
+        "KGB achieved the highest per-branch average enrolment among all Regional Rural Banks (RRBs) in the southern region.",
+        "KGB HQ: Ballari, Karnataka; Chairman: Shreekant M. Bhandiwad."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 11. Karnataka Grameena Bank Wins National Award from PFRDA for APY Excellence\n- **Category**: `PENSION_SYSTEMS`\n- **Institution**: `PFRDA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-25`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Karnataka Grameena Bank (KGB), sponsored by Canara Bank, was conferred the \"National Award of Excellence\" by the Pension Fund Regulatory and Development Authority (PFRDA) for outstanding enrolment and operational performance under Atal Pension Yojana (APY).\n- **Key Facts**:\n  - KGB achieved the highest per-branch average enrolment among all Regional Rural Banks (RRBs) in the southern region.\n  - KGB HQ: Ballari, Karnataka; Chairman: Shreekant M. Bhandiwad."
+    },
+    "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license": {
+      "id": "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
+      "slug": "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
+      "title": "Cross-Border Fintech Skydo Receives RBI In-Principle Approval for PA-CB License",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C3",
+      "memoryAnchor": "CROSS-BORDER → FINTECH → SKYDO → RECEIVES → RBI",
+      "atomicRecall": "Cross-Border Fintech Skydo Receives RBI In-Principle Approval for PA-CB License",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Bengaluru-based cross-border payments platform Skydo received in-principle approval from the Reserve Bank of India to operate as a Payment Aggregator - Cross Border (PA-CB) for export and import trade transactions.",
+        "Key Facts:",
+        "PA-CB regulations introduced in October 2023 require net worth of ₹15 crore at application and ₹25 crore within 3 years.",
+        "Facilitates seamless B2B export remittances for Indian SME exporters and IT service providers."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 12. Cross-Border Fintech Skydo Receives RBI In-Principle Approval for PA-CB License\n- **Category**: `DIGITAL_PAYMENTS`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-23`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Bengaluru-based cross-border payments platform Skydo received in-principle approval from the Reserve Bank of India to operate as a Payment Aggregator - Cross Border (PA-CB) for export and import trade transactions.\n- **Key Facts**:\n  - PA-CB regulations introduced in October 2023 require net worth of ₹15 crore at application and ₹25 crore within 3 years.\n  - Facilitates seamless B2B export remittances for Indian SME exporters and IT service providers."
+    },
+    "elias-george-appointed-chairperson-of-federal-bank-board": {
+      "id": "elias-george-appointed-chairperson-of-federal-bank-board",
+      "slug": "elias-george-appointed-chairperson-of-federal-bank-board",
+      "title": "Elias George Appointed Chairperson of Federal Bank Board",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "APPOINTMENT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "ELIAS → GEORGE → APPOINTED → CHAIRPERSON → FEDERAL",
+      "atomicRecall": "Elias George Appointed Chairperson of Federal Bank Board",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Federal Bank Ltd appointed retired IAS officer Elias George as the Chairperson of the Board of Directors, approved by RBI for a period of 3 years.",
+        "Key Facts:",
+        "Former Managing Director of Kochi Metro Rail Limited (KMRL).",
+        "Federal Bank HQ: Aluva, Kochi, Kerala; Tagline: \"Your Perfect Banking Partner\"."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 13. Elias George Appointed Chairperson of Federal Bank Board\n- **Category**: `APPOINTMENTS`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-26`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Federal Bank Ltd appointed retired IAS officer Elias George as the Chairperson of the Board of Directors, approved by RBI for a period of 3 years.\n- **Key Facts**:\n  - Former Managing Director of Kochi Metro Rail Limited (KMRL).\n  - Federal Bank HQ: Aluva, Kochi, Kerala; Tagline: \"Your Perfect Banking Partner\"."
+    },
+    "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term": {
+      "id": "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
+      "slug": "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
+      "title": "LIC Introduces 2 New Term Insurance Products: 'New Jeevan Amar' & 'Digi Term'",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "INSURANCE_SECTOR",
+      "secondaryCategories": [],
+      "primaryInstitution": "IRDAI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "BANKING_DEVELOPMENT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "LIC → INTRODUCES → NEW → TERM → INSURANCE",
+      "atomicRecall": "LIC Introduces 2 New Term Insurance Products: 'New Jeevan Amar' & 'Digi Term'",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Life Insurance Corporation of India (LIC) launched two non-linked, non-participating pure risk term insurance plans: \"New Jeevan Amar\" (offline distribution) and \"Digi Term\" (exclusive online portal).",
+        "Key Facts:",
+        "Entry Age: Minimum 18 years, Maximum 65 years; Maturity Age: Up to 80 years.",
+        "Minimum Sum Assured: ₹25 lakh for New Jeevan Amar, ₹50 lakh for Digi Term.",
+        "Special lower premium rates for non-smokers and women policyholders."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 14. LIC Introduces 2 New Term Insurance Products: 'New Jeevan Amar' & 'Digi Term'\n- **Category**: `INSURANCE_SECTOR`\n- **Institution**: `IRDAI`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-28`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Life Insurance Corporation of India (LIC) launched two non-linked, non-participating pure risk term insurance plans: \"New Jeevan Amar\" (offline distribution) and \"Digi Term\" (exclusive online portal).\n- **Key Facts**:\n  - Entry Age: Minimum 18 years, Maximum 65 years; Maturity Age: Up to 80 years.\n  - Minimum Sum Assured: ₹25 lakh for New Jeevan Amar, ₹50 lakh for Digi Term.\n  - Special lower premium rates for non-smokers and women policyholders."
+    },
+    "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india": {
+      "id": "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
+      "slug": "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
+      "title": "Development Bank of Japan (DBJ) Makes Maiden ₹1,250 Crore Real Estate Investment in India",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C3",
+      "memoryAnchor": "DEVELOPMENT → BANK → JAPAN → DBJ → MAKES",
+      "atomicRecall": "Development Bank of Japan (DBJ) Makes Maiden ₹1,250 Crore Real Estate Investment in India → ₹1,250 crore",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Japan's state-owned Development Bank of Japan Inc. (DBJ) made its first-ever direct real estate investment in India, committing ₹1,250 crore ($150 million) to Grade-A warehousing and industrial logistics parks.",
+        "Key Facts:",
+        "Partnered with IndoSpace logistics platform.",
+        "Reflects accelerating Japanese institutional investment under the India-Japan Special Strategic and Global Partnership."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 15. Development Bank of Japan (DBJ) Makes Maiden ₹1,250 Crore Real Estate Investment in India\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-29`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Japan's state-owned Development Bank of Japan Inc. (DBJ) made its first-ever direct real estate investment in India, committing ₹1,250 crore ($150 million) to Grade-A warehousing and industrial logistics parks.\n- **Key Facts**:\n  - Partnered with IndoSpace logistics platform.\n  - Reflects accelerating Japanese institutional investment under the India-Japan Special Strategic and Global Partnership."
+    },
+    "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026": {
+      "id": "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
+      "slug": "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
+      "title": "Government Formally Notifies Viksit Bharat Rozgar & Ajeevika (VB-GRA) Rules 2026",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C3",
+      "memoryAnchor": "GOVERNMENT → FORMALLY → NOTIFIES → VIKSIT → BHARAT",
+      "atomicRecall": "Government Formally Notifies Viksit Bharat Rozgar & Ajeevika (VB-GRA) Rules 2026",
+      "examAngle": {
+        "likelyAsks": [
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Ministry of Rural Development and Ministry of Labour formally notified the implementation rules for the \"Viksit Bharat - Guarantee for Rozgar and Ajeevika (VB-GRA) Framework 2026\".",
+        "Key Facts:",
+        "Enhances rural wage employment framework with mandatory biometric ABPS (Aadhaar-Based Payment System) wage disbursement within 7 days.",
+        "Integrates drone-based spatial asset mapping and climate-resilient water conservation works."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 16. Government Formally Notifies Viksit Bharat Rozgar & Ajeevika (VB-GRA) Rules 2026\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `MINISTRY_OF_LABOUR`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-09`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Ministry of Rural Development and Ministry of Labour formally notified the implementation rules for the \"Viksit Bharat - Guarantee for Rozgar and Ajeevika (VB-GRA) Framework 2026\".\n- **Key Facts**:\n  - Enhances rural wage employment framework with mandatory biometric ABPS (Aadhaar-Based Payment System) wage disbursement within 7 days.\n  - Integrates drone-based spatial asset mapping and climate-resilient water conservation works."
+    },
+    "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report": {
+      "id": "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
+      "slug": "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
+      "title": "MoSPI Releases 27th Issue of 'Women and Men in India 2025' Report",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REPORT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "MOSPI → RELEASES → 27TH → ISSUE → WOMEN",
+      "atomicRecall": "MoSPI Releases 27th Issue of 'Women and Men in India 2025' Report",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: MoSPI released the 27th issue of its annual publication \"Women and Men in India 2025\", capturing gender statistics across education, health, workforce participation, and decision-making.",
+        "Key Facts:",
+        "Female Labour Force Participation Rate (FLFPR): Rose to **41.7%** in 2023–24 (usual status) up from 23.3% in 2017–18.",
+        "Sex Ratio at Birth (SRB): Improved to **910** females per 1,000 males (SRS).",
+        "Maternal Mortality Ratio (MMR): Declined to **97** per 100,000 live births (surpassing SDG target of 70 in multiple states)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 17. MoSPI Releases 27th Issue of 'Women and Men in India 2025' Report\n- **Category**: `REPORTS_AND_INDICES`\n- **Institution**: `MOSPI`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-04`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: MoSPI released the 27th issue of its annual publication \"Women and Men in India 2025\", capturing gender statistics across education, health, workforce participation, and decision-making.\n- **Key Facts**:\n  - **Female Labour Force Participation Rate (FLFPR)**: Rose to **41.7%** in 2023–24 (usual status) up from 23.3% in 2017–18.\n  - **Sex Ratio at Birth (SRB)**: Improved to **910** females per 1,000 males (SRS).\n  - **Maternal Mortality Ratio (MMR)**: Declined to **97** per 100,000 live births (surpassing SDG target of 70 in multiple states)."
+    },
+    "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers": {
+      "id": "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
+      "slug": "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
+      "title": "ASUSE 2023–24 Survey Highlights: Informal Sector Employs 11.2 Crore Workers",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REPORT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "ASUSE → 202324 → SURVEY → HIGHLIGHTS → INFORMAL",
+      "atomicRecall": "ASUSE 2023–24 Survey Highlights: Informal Sector Employs 11.2 Crore Workers",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The National Sample Survey Office (NSSO), MoSPI, published key findings from the Annual Survey of Unincorporated Sector Enterprises (ASUSE) for 2023–24.",
+        "Key Facts:",
+        "Total unincorporated non-agricultural enterprises: **6.50 crore**.",
+        "Total workers employed: **11.2 crore** (Trade sector 35%, Services 35%, Manufacturing 30%).",
+        "Gross Value Added (GVA) by unincorporated sector: Grew **9.8%** YoY to ₹15.4 lakh crore."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 18. ASUSE 2023–24 Survey Highlights: Informal Sector Employs 11.2 Crore Workers\n- **Category**: `REPORTS_AND_INDICES`\n- **Institution**: `MOSPI`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-11`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The National Sample Survey Office (NSSO), MoSPI, published key findings from the Annual Survey of Unincorporated Sector Enterprises (ASUSE) for 2023–24.\n- **Key Facts**:\n  - Total unincorporated non-agricultural enterprises: **6.50 crore**.\n  - Total workers employed: **11.2 crore** (Trade sector 35%, Services 35%, Manufacturing 30%).\n  - Gross Value Added (GVA) by unincorporated sector: Grew **9.8%** YoY to ₹15.4 lakh crore."
+    },
+    "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list": {
+      "id": "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
+      "slug": "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
+      "title": "US USTR Releases Special 301 Report: India Retained on 'Priority Watch List'",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REPORT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "USTR → RELEASES → SPECIAL → 301 → REPORT",
+      "atomicRecall": "US USTR Releases Special 301 Report: India Retained on 'Priority Watch List'",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The United States Trade Representative (USTR) released its annual \"Special 301 Report\" on Intellectual Property (IP) protection, placing India on the \"Priority Watch List\" alongside 5 other countries (China, Russia, Indonesia, Chile, Argentina).",
+        "Key Facts:",
+        "USTR cited concerns over patent opposition hurdles, copyright enforcement, and trade secret protections.",
+        "India rejected the unilateral report, affirming its full compliance with WTO TRIPS agreement."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 19. US USTR Releases Special 301 Report: India Retained on 'Priority Watch List'\n- **Category**: `INTERNATIONAL_AFFAIRS`\n- **Institution**: `INTERNATIONAL_BODIES`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-05`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The United States Trade Representative (USTR) released its annual \"Special 301 Report\" on Intellectual Property (IP) protection, placing India on the \"Priority Watch List\" alongside 5 other countries (China, Russia, Indonesia, Chile, Argentina).\n- **Key Facts**:\n  - USTR cited concerns over patent opposition hurdles, copyright enforcement, and trade secret protections.\n  - India rejected the unilateral report, affirming its full compliance with WTO TRIPS agreement."
+    },
+    "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year": {
+      "id": "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
+      "slug": "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
+      "title": "Sunday Times Rich List 2026: Hinduja Group Retains Top Spot for 6th Consecutive Year",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C3",
+      "memoryAnchor": "SUNDAY → TIMES → RICH → LIST → 2026",
+      "atomicRecall": "Sunday Times Rich List 2026: Hinduja Group Retains Top Spot for 6th Consecutive Year → ₹3.95 lakh → 2026",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The 38th edition of the \"Sunday Times Rich List 2026\" ranked the Anglo-Indian Hinduja family as the wealthiest in the United Kingdom with an estimated net worth of **£37.2 billion** (approx. ₹3.95 lakh crore).",
+        "Key Facts:",
+        "Gopi Hinduja and family retained the #1 ranking for the 6th consecutive year.",
+        "The Hinduja Group operates across banking (IndusInd Bank), automotive (Ashok Leyland), lubricants (Gulf Oil), and energy."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 20. Sunday Times Rich List 2026: Hinduja Group Retains Top Spot for 6th Consecutive Year\n- **Category**: `REPORTS_AND_INDICES`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-17`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The 38th edition of the \"Sunday Times Rich List 2026\" ranked the Anglo-Indian Hinduja family as the wealthiest in the United Kingdom with an estimated net worth of **£37.2 billion** (approx. ₹3.95 lakh crore).\n- **Key Facts**:\n  - Gopi Hinduja and family retained the #1 ranking for the 6th consecutive year.\n  - The Hinduja Group operates across banking (IndusInd Bank), automotive (Ashok Leyland), lubricants (Gulf Oil), and energy."
+    },
+    "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain": {
+      "id": "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
+      "slug": "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
+      "title": "UN Global Forest Goals Report 2026: India Ranks 3rd Globally in Net Forest Area Gain",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REPORT",
+      "compressionLevel": "C3",
+      "memoryAnchor": "GLOBAL → FOREST → GOALS → REPORT → 2026",
+      "atomicRecall": "UN Global Forest Goals Report 2026: India Ranks 3rd Globally in Net Forest Area Gain → 3rd → 2026",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The United Nations Forum on Forests (UNFF) published the \"Global Forest Goals Report 2026\", highlighting that India ranked **3rd globally** in average annual net gain in forest area over the past decade (behind China and Australia).",
+        "Key Facts:",
+        "India expanded forest cover by an average of **2.66 lakh hectares per year**.",
+        "Forest and tree cover constitutes **24.62%** of India's total geographical area (ISFR)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 21. UN Global Forest Goals Report 2026: India Ranks 3rd Globally in Net Forest Area Gain\n- **Category**: `REPORTS_AND_INDICES`\n- **Institution**: `INTERNATIONAL_BODIES`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-13`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The United Nations Forum on Forests (UNFF) published the \"Global Forest Goals Report 2026\", highlighting that India ranked **3rd globally** in average annual net gain in forest area over the past decade (behind China and Australia).\n- **Key Facts**:\n  - India expanded forest cover by an average of **2.66 lakh hectares per year**.\n  - Forest and tree cover constitutes **24.62%** of India's total geographical area (ISFR)."
+    },
+    "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a": {
+      "id": "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
+      "slug": "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
+      "title": "DGCA Releases Flying Training Organisations (FTOs) Phase 2 Rankings: Avyanna Aviation Ranked Category A",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "RANKING",
+      "compressionLevel": "C3",
+      "memoryAnchor": "DGCA → RELEASES → FLYING → TRAINING → ORGANISATIONS",
+      "atomicRecall": "DGCA Releases Flying Training Organisations (FTOs) Phase 2 Rankings: Avyanna Aviation Ranked Category A → 2nd",
+      "examAngle": {
+        "likelyAsks": [
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Directorate General of Civil Aviation (DGCA), Ministry of Civil Aviation, released the 2nd phase rankings for Flying Training Organisations (FTOs), with Avyanna Aviation Pvt Ltd emerging as the sole flying institute in India to achieve the elite **Category 'A'** rating.",
+        "Key Facts:",
+        "Rankings assess safety, instructional standards, aircraft fleet serviceability, and simulator hours.",
+        "Indira Gandhi Rashtriya Udan Akademi (IGRUA) at Amethi, UP, ranked in Category B+."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 22. DGCA Releases Flying Training Organisations (FTOs) Phase 2 Rankings: Avyanna Aviation Ranked Category A\n- **Category**: `NATIONAL_AND_STATES`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-02`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Directorate General of Civil Aviation (DGCA), Ministry of Civil Aviation, released the 2nd phase rankings for Flying Training Organisations (FTOs), with Avyanna Aviation Pvt Ltd emerging as the sole flying institute in India to achieve the elite **Category 'A'** rating.\n- **Key Facts**:\n  - Rankings assess safety, instructional standards, aircraft fleet serviceability, and simulator hours.\n  - Indira Gandhi Rashtriya Udan Akademi (IGRUA) at Amethi, UP, ranked in Category B+."
+    },
+    "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed": {
+      "id": "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
+      "slug": "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
+      "title": "IIT Roorkee Publishes SVAMITVA Scheme Impact Assessment: 1.45 Crore Property Cards Distributed",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C3",
+      "memoryAnchor": "IIT → ROORKEE → PUBLISHES → SVAMITVA → SCHEME",
+      "atomicRecall": "IIT Roorkee Publishes SVAMITVA Scheme Impact Assessment: 1.45 Crore Property Cards Distributed",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures",
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: The Ministry of Panchayati Raj released an independent impact assessment of the SVAMITVA scheme conducted by IIT Roorkee on National Panchayati Raj Day.",
+        "Key Facts:",
+        "SVAMITVA (Survey of Villages and Mapping with Improvised Technology in Village Areas) uses drone mapping.",
+        "Over **1.45 crore property cards (SVAMITVA cards)** distributed across 1.15 lakh villages.",
+        "Property card holders leveraged rural land collateral to secure **₹2,800 crore in bank credit**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 23. IIT Roorkee Publishes SVAMITVA Scheme Impact Assessment: 1.45 Crore Property Cards Distributed\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-07`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: The Ministry of Panchayati Raj released an independent impact assessment of the SVAMITVA scheme conducted by IIT Roorkee on National Panchayati Raj Day.\n- **Key Facts**:\n  - SVAMITVA (Survey of Villages and Mapping with Improvised Technology in Village Areas) uses drone mapping.\n  - Over **1.45 crore property cards (SVAMITVA cards)** distributed across 1.15 lakh villages.\n  - Property card holders leveraged rural land collateral to secure **₹2,800 crore in bank credit**."
+    },
+    "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment": {
+      "id": "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
+      "slug": "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
+      "title": "Ministry of Mines Completes ₹1,500 Crore Critical Mineral Processing Incentive Assessment",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C3",
+      "memoryAnchor": "MINISTRY → MINES → COMPLETES → 1500 → CRORE",
+      "atomicRecall": "Ministry of Mines Completes ₹1,500 Crore Critical Mineral Processing Incentive Assessment → ₹1,500 crore",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures",
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Ministry of Mines approved the first batch of beneficiaries under the ₹1,500 crore \"Incentive Scheme for Promotion of Critical and Strategic Mineral Processing\".",
+        "Key Facts:",
+        "Supports domestic processing of Lithium, Cobalt, Nickel, Rare Earth Elements (REEs), and Titanium.",
+        "Financial assistance of up to **20% of capital expenditure (CapEx)** for setting up advanced refining plants."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 24. Ministry of Mines Completes ₹1,500 Crore Critical Mineral Processing Incentive Assessment\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-08`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Ministry of Mines approved the first batch of beneficiaries under the ₹1,500 crore \"Incentive Scheme for Promotion of Critical and Strategic Mineral Processing\".\n- **Key Facts**:\n  - Supports domestic processing of Lithium, Cobalt, Nickel, Rare Earth Elements (REEs), and Titanium.\n  - Financial assistance of up to **20% of capital expenditure (CapEx)** for setting up advanced refining plants."
+    },
+    "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals": {
+      "id": "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
+      "slug": "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
+      "title": "Punjab Government Launches 'CM Meri Rasoi Yojna' (₹10 Subsidized Meals)",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C2",
+      "memoryAnchor": "PUNJAB → GOVERNMENT → LAUNCHES → MERI → RASOI",
+      "atomicRecall": "Punjab Government Launches 'CM Meri Rasoi Yojna' (₹10 Subsidized Meals) → ₹10 ",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Punjab Chief Minister Bhagwant Mann inaugurated the \"CM Meri Rasoi Yojna\" from Bhalwan village in Sangrur district, providing nutritious cooked meals at a subsidized rate of **₹10 per thali** to industrial workers and vulnerable citizens.",
+        "Key Facts:",
+        "Target: 100 subsidized kitchens established across all municipal corporations in Punjab."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 25. Punjab Government Launches 'CM Meri Rasoi Yojna' (₹10 Subsidized Meals)\n- **Category**: `NATIONAL_AND_STATES`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-14`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Punjab Chief Minister Bhagwant Mann inaugurated the \"CM Meri Rasoi Yojna\" from Bhalwan village in Sangrur district, providing nutritious cooked meals at a subsidized rate of **₹10 per thali** to industrial workers and vulnerable citizens.\n- **Key Facts**:\n  - Target: 100 subsidized kitchens established across all municipal corporations in Punjab."
+    },
+    "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization": {
+      "id": "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
+      "slug": "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
+      "title": "Taiwan Briefly Overtakes India as 5th Largest Stock Market by Market Capitalization",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "CAPITAL_MARKETS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C3",
+      "memoryAnchor": "TAIWAN → BRIEFLY → OVERTAKES → INDIA → 5TH",
+      "atomicRecall": "Taiwan Briefly Overtakes India as 5th Largest Stock Market by Market Capitalization → $5.12 ",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "What Happened: Driven by a global surge in semiconductor and AI hardware stocks (led by TSMC and Hon Hai Precision/Foxconn), Taiwan's stock market capitalization reached **$5.12 trillion**, briefly overtaking India ($5.08 trillion) as the **5th largest equity market** globally before market parity was restored.",
+        "Key Facts:",
+        "Top 4 Stock Markets: US ($58T), China ($9.5T), Japan ($6.8T), Hong Kong ($5.4T).",
+        "India's market cap on BSE crossed the $5 Trillion milestone in May 2026."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 26. Taiwan Briefly Overtakes India as 5th Largest Stock Market by Market Capitalization\n- **Category**: `CAPITAL_MARKETS`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-27`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Driven by a global surge in semiconductor and AI hardware stocks (led by TSMC and Hon Hai Precision/Foxconn), Taiwan's stock market capitalization reached **$5.12 trillion**, briefly overtaking India ($5.08 trillion) as the **5th largest equity market** globally before market parity was restored.\n- **Key Facts**:\n  - Top 4 Stock Markets: US ($58T), China ($9.5T), Japan ($6.8T), Hong Kong ($5.4T).\n  - India's market cap on BSE crossed the $5 Trillion milestone in May 2026.\n\n---"
+    },
+    "key-high-level-appointments-resignations-may-2026": {
+      "id": "key-high-level-appointments-resignations-may-2026",
+      "slug": "key-high-level-appointments-resignations-may-2026",
+      "title": "Key High-Level Appointments & Resignations (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "APPOINTMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "APPOINTMENT",
+      "compressionLevel": "C2",
+      "memoryAnchor": "KEY → HIGH-LEVEL → APPOINTMENTS → RESIGNATIONS → MAY",
+      "atomicRecall": "Key High-Level Appointments & Resignations (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "Justice Surya Kant: Took oath as the **53rd Chief Justice of India (CJI)** succeeding Justice Sanjiv Khanna.",
+        "Sandeep Bakhshi: Reappointed as MD & CEO of **ICICI Bank** for a 3-year term (up to October 2029) approved by RBI.",
+        "Ketan Merchant: Tenure extended as interim CEO of **Kotak Mahindra Bank**.",
+        "Rakesh Sharma: Appointed Managing Director & CEO of **IDBI Bank**.",
+        "Praveen Mal Khanooja: Appointed Additional Secretary in the Ministry of Petroleum and Natural Gas.",
+        "Subhashree Ananthan: Appointed Director (Finance) of **Hindustan Petroleum Corporation Ltd (HPCL)**.",
+        "Arunish Chawla: Appointed Chairperson of the National Authority for Chemical Weapons Convention (NACWC).",
+        "R. K. Tyagi: Appointed Chairman and Managing Director (CMD) of **Power Grid Corporation of India Ltd (POWERGRID)**.",
+        "Lawrence Wong: Sworn in as the **4th Prime Minister of Singapore**, succeeding Lee Hsien Loong.",
+        "Peter Pellegrini: Sworn in as the **President of Slovakia**.",
+        "Gitanas Nauseda: Re-elected as the **President of Lithuania** for a second 5-year term.",
+        "Mahamat Idriss Deby: Elected President of the **Republic of Chad**.",
+        "Tamás Sulyok: Elected President of **Hungary**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 27. Key High-Level Appointments & Resignations (May 2026)\n- **Category**: `APPOINTMENTS`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **Justice Surya Kant**: Took oath as the **53rd Chief Justice of India (CJI)** succeeding Justice Sanjiv Khanna.\n  - **Sandeep Bakhshi**: Reappointed as MD & CEO of **ICICI Bank** for a 3-year term (up to October 2029) approved by RBI.\n  - **Ketan Merchant**: Tenure extended as interim CEO of **Kotak Mahindra Bank**.\n  - **Rakesh Sharma**: Appointed Managing Director & CEO of **IDBI Bank**.\n  - **Praveen Mal Khanooja**: Appointed Additional Secretary in the Ministry of Petroleum and Natural Gas.\n  - **Subhashree Ananthan**: Appointed Director (Finance) of **Hindustan Petroleum Corporation Ltd (HPCL)**.\n  - **Arunish Chawla**: Appointed Chairperson of the National Authority for Chemical Weapons Convention (NACWC).\n  - **R. K. Tyagi**: Appointed Chairman and Managing Director (CMD) of **Power Grid Corporation of India Ltd (POWERGRID)**.\n  - **Lawrence Wong**: Sworn in as the **4th Prime Minister of Singapore**, succeeding Lee Hsien Loong.\n  - **Peter Pellegrini**: Sworn in as the **President of Slovakia**.\n  - **Gitanas Nauseda**: Re-elected as the **President of Lithuania** for a second 5-year term.\n  - **Mahamat Idriss Deby**: Elected President of the **Republic of Chad**.\n  - **Tamás Sulyok**: Elected President of **Hungary**."
+    },
+    "national-international-awards-honours-may-2026": {
+      "id": "national-international-awards-honours-may-2026",
+      "slug": "national-international-awards-honours-may-2026",
+      "title": "National & International Awards & Honours (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "AWARD",
+      "compressionLevel": "C2",
+      "memoryAnchor": "NATIONAL → INTERNATIONAL → AWARDS → HONOURS → MAY",
+      "atomicRecall": "National & International Awards & Honours (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "Whitley Gold Award 2026 (Green Oscar): Conferred on Indian wildlife biologist **Dr. Purnima Devi Barman** for conservation of the Greater Adjutant Stork (*Hargila Army*).",
+        "World Press Freedom Prize (UNESCO/Guillermo Cano) 2026: Awarded to Palestinian journalists covering the Gaza conflict.",
+        "Oxford Bookstore Book Cover Prize 2026: Won by designer **Bhavneet Kaur** for the book cover of *The Book of Everlasting Things*.",
+        "Sangeet Natak Akademi Fellowships (Akademi Ratna): President Droupadi Murmu conferred Akademi Ratna on 6 eminent masters (including Bharatnatyam exponent Saroja Vaidyanathan and folk singer Teejan Bai)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 28. National & International Awards & Honours (May 2026)\n- **Category**: `SPORTS_AND_AWARDS`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **Whitley Gold Award 2026 (Green Oscar)**: Conferred on Indian wildlife biologist **Dr. Purnima Devi Barman** for conservation of the Greater Adjutant Stork (*Hargila Army*).\n  - **World Press Freedom Prize (UNESCO/Guillermo Cano) 2026**: Awarded to Palestinian journalists covering the Gaza conflict.\n  - **Oxford Bookstore Book Cover Prize 2026**: Won by designer **Bhavneet Kaur** for the book cover of *The Book of Everlasting Things*.\n  - **Sangeet Natak Akademi Fellowships (Akademi Ratna)**: President Droupadi Murmu conferred Akademi Ratna on 6 eminent masters (including Bharatnatyam exponent Saroja Vaidyanathan and folk singer Teejan Bai)."
+    },
+    "defence-strategic-security-operations-may-2026": {
+      "id": "defence-strategic-security-operations-may-2026",
+      "slug": "defence-strategic-security-operations-may-2026",
+      "title": "Defence & Strategic Security Operations (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C2",
+      "memoryAnchor": "DEFENCE → STRATEGIC → SECURITY → OPERATIONS → MAY",
+      "atomicRecall": "Defence & Strategic Security Operations (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "Joint Military Exercise 'Maitree 2026': Conducted between Indian Army and Royal Thai Army in Umroi, Meghalaya.",
+        "Exercise 'Desert Knight 2026': Multi-nation air exercise between Indian Air Force (IAF), French Air and Space Force, and UAE Air Force over the Arabian Sea."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 29. Defence & Strategic Security Operations (May 2026)\n- **Category**: `DEFENCE_AND_SCIENCE`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **Joint Military Exercise 'Maitree 2026'**: Conducted between Indian Army and Royal Thai Army in Umroi, Meghalaya.\n  - **Exercise 'Desert Knight 2026'**: Multi-nation air exercise between Indian Air Force (IAF), French Air and Space Force, and UAE Air Force over the Arabian Sea."
+    },
+    "science-space-technology-milestones-may-2026": {
+      "id": "science-space-technology-milestones-may-2026",
+      "slug": "science-space-technology-milestones-may-2026",
+      "title": "Science, Space & Technology Milestones (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "DEFENCE_AND_SCIENCE",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SPACE",
+      "compressionLevel": "C2",
+      "memoryAnchor": "SCIENCE → SPACE → TECHNOLOGY → MILESTONES → MAY",
+      "atomicRecall": "Science, Space & Technology Milestones (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "ISRO Semi-Cryogenic Pre-Burner Test: ISRO successfully completed the hot test of the intermediate configuration semi-cryogenic engine (SE-2000) using Isrosene (refined kerosene) and Liquid Oxygen (LOX) at Mahendragiri, Tamil Nadu.",
+        "IBM & IIT Madras Quantum Hub: IBM operationalised a 127-qubit Quantum System One processor node at IIT Madras Research Park.",
+        "C-DOT & CSIR AI Cyber Shield: Centre for Development of Telematics launched 'Trishul-AI' automated telecom threat intelligence platform."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 30. Science, Space & Technology Milestones (May 2026)\n- **Category**: `DEFENCE_AND_SCIENCE`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **ISRO Semi-Cryogenic Pre-Burner Test**: ISRO successfully completed the hot test of the intermediate configuration semi-cryogenic engine (SE-2000) using Isrosene (refined kerosene) and Liquid Oxygen (LOX) at Mahendragiri, Tamil Nadu.\n  - **IBM & IIT Madras Quantum Hub**: IBM operationalised a 127-qubit Quantum System One processor node at IIT Madras Research Park.\n  - **C-DOT & CSIR AI Cyber Shield**: Centre for Development of Telematics launched 'Trishul-AI' automated telecom threat intelligence platform."
+    },
+    "sports-athletic-championships-may-2026": {
+      "id": "sports-athletic-championships-may-2026",
+      "slug": "sports-athletic-championships-may-2026",
+      "title": "Sports & Athletic Championships (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "SPORTS_AND_AWARDS",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SPORTS_EVENT",
+      "compressionLevel": "C2",
+      "memoryAnchor": "SPORTS → ATHLETIC → CHAMPIONSHIPS → MAY → 2026",
+      "atomicRecall": "Sports & Athletic Championships (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "F1 Canadian Grand Prix 2026: Won by Mercedes driver **Kimi Antonelli** (Italy), becoming the 3rd youngest driver in F1 history to win a Grand Prix.",
+        "F1 Monaco Grand Prix 2026: Won by Ferrari driver **Charles Leclerc** (Monaco).",
+        "FIDE Candidates 2026: D. Gukesh became the youngest challenger in history to qualify for the World Chess Championship title match.",
+        "BWF Thailand Open 2026: Satwiksairaj Rankireddy and Chirag Shetty won the Men's Doubles title.",
+        "Madrid Open Tennis 2026: Andrey Rublev won the Men's Singles; Iga Swiatek won the Women's Singles title.",
+        "ISSF World Cup 2026 (Baku, Azerbaijan): India finished 2nd on the medal table with 4 Gold, 3 Silver, and 2 Bronze medals."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 31. Sports & Athletic Championships (May 2026)\n- **Category**: `SPORTS_AND_AWARDS`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **F1 Canadian Grand Prix 2026**: Won by Mercedes driver **Kimi Antonelli** (Italy), becoming the 3rd youngest driver in F1 history to win a Grand Prix.\n  - **F1 Monaco Grand Prix 2026**: Won by Ferrari driver **Charles Leclerc** (Monaco).\n  - **FIDE Candidates 2026**: D. Gukesh became the youngest challenger in history to qualify for the World Chess Championship title match.\n  - **BWF Thailand Open 2026**: Satwiksairaj Rankireddy and Chirag Shetty won the Men's Doubles title.\n  - **Madrid Open Tennis 2026**: Andrey Rublev won the Men's Singles; Iga Swiatek won the Women's Singles title.\n  - **ISSF World Cup 2026 (Baku, Azerbaijan)**: India finished 2nd on the medal table with 4 Gold, 3 Silver, and 2 Bronze medals."
+    },
+    "key-global-summits-environmental-news-may-2026": {
+      "id": "key-global-summits-environmental-news-may-2026",
+      "slug": "key-global-summits-environmental-news-may-2026",
+      "title": "Key Global Summits & Environmental News (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C2",
+      "memoryAnchor": "KEY → GLOBAL → SUMMITS → ENVIRONMENTAL → NEWS",
+      "atomicRecall": "Key Global Summits & Environmental News (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "UN High-Level Meeting on Global Road Safety: Held in New York; Theme: \"Scaling Up and Accelerating Commitments to Halving Road Traffic Deaths by 2030\".",
+        "68th Session of Asian Productivity Organization (APO): Governing Body Meeting hosted in New Delhi, India.",
+        "1st International Big Cat Alliance (IBCA) Summit: Hosted in New Delhi in conjunction with the India-Africa Forum Summit.",
+        "New Species Discovered:",
+        "*Kali Night Frog* (*Nyctibatrachus kali*): Discovered in Kali river basin, Uttara Kannada, Karnataka.",
+        "*Trachischium lalremsangai* (new non-venomous snake species): Discovered in Champhai, Mizoram."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 32. Key Global Summits & Environmental News (May 2026)\n- **Category**: `INTERNATIONAL_AFFAIRS`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **UN High-Level Meeting on Global Road Safety**: Held in New York; Theme: \"Scaling Up and Accelerating Commitments to Halving Road Traffic Deaths by 2030\".\n  - **68th Session of Asian Productivity Organization (APO)**: Governing Body Meeting hosted in New Delhi, India.\n  - **1st International Big Cat Alliance (IBCA) Summit**: Hosted in New Delhi in conjunction with the India-Africa Forum Summit.\n  - **New Species Discovered**:\n    - *Kali Night Frog* (*Nyctibatrachus kali*): Discovered in Kali river basin, Uttara Kannada, Karnataka.\n    - *Trachischium lalremsangai* (new non-venomous snake species): Discovered in Champhai, Mizoram."
+    },
+    "key-institutional-strategic-mous-may-2026": {
+      "id": "key-institutional-strategic-mous-may-2026",
+      "slug": "key-institutional-strategic-mous-may-2026",
+      "title": "Key Institutional Strategic MoUs (May 2026)",
+      "priority": "P3_MODERATE",
+      "revisionMinutes": 1,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C2",
+      "memoryAnchor": "KEY → INSTITUTIONAL → STRATEGIC → MOUS → MAY",
+      "atomicRecall": "Key Institutional Strategic MoUs (May 2026)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Master Roster:",
+        "India & State Bank of Vietnam: Signed MoU on digital payments linking UPI with Vietnam's NAPAS.",
+        "India & European Central Bank (ECB): Signed upgraded central banking supervision cooperation pact.",
+        "RBI Innovation Hub (RBIH) & Indian Cyber Crime Coordination Centre (I4C): Signed strategic MoU to develop real-time AI mule account prevention network."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-05-01",
+      "firstPublicationDate": "2026-05-15",
+      "lastUpdatedDate": "2026-05-15",
+      "chronologicalMonth": "2026-05",
+      "eventMonth": "2026-05",
+      "activeInMonths": [
+        "2026-05"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "20-may-2026-smartkeeda-monthly",
+          "publishedDate": "2026-05-15"
+        }
+      ],
+      "contentMarkdown": "### 33. Key Institutional Strategic MoUs (May 2026)\n- **Category**: `INTERNATIONAL_AFFAIRS`\n- **Priority**: `P3_MODERATE`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **Master Roster**:\n  - **India & State Bank of Vietnam**: Signed MoU on digital payments linking UPI with Vietnam's NAPAS.\n  - **India & European Central Bank (ECB)**: Signed upgraded central banking supervision cooperation pact.\n  - **RBI Innovation Hub (RBIH) & Indian Cyber Crime Coordination Centre (I4C)**: Signed strategic MoU to develop real-time AI mule account prevention network."
     }
   },
   "topicSlugMap": {
@@ -56716,7 +58438,40 @@
     "kishau-multipurpose-dam-project-422-mw-660-mw-tons-river": "kishau-multipurpose-dam-project-422-mw-660-mw-tons-river",
     "ashok-leyland-switch-mobility-morth-mou": "ashok-leyland-switch-mobility-morth-mou",
     "static-roundups-important-days-june-2026": "static-roundups-important-days-june-2026",
-    "june-2026-important-obituaries": "june-2026-important-obituaries"
+    "june-2026-important-obituaries": "june-2026-important-obituaries",
+    "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures": "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
+    "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones": "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+    "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394": "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
+    "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks": "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
+    "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges": "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
+    "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme": "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
+    "rbi-appoints-gunveer-singh-as-executive-director": "rbi-appoints-gunveer-singh-as-executive-director",
+    "index-of-eight-core-industries-ici-grows-17-in-april-2026": "index-of-eight-core-industries-ici-grows-17-in-april-2026",
+    "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city": "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
+    "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india": "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
+    "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence": "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
+    "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license": "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
+    "elias-george-appointed-chairperson-of-federal-bank-board": "elias-george-appointed-chairperson-of-federal-bank-board",
+    "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term": "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
+    "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india": "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
+    "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026": "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
+    "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report": "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
+    "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers": "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
+    "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list": "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
+    "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year": "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
+    "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain": "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
+    "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a": "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
+    "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed": "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
+    "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment": "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
+    "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals": "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
+    "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization": "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
+    "key-high-level-appointments-resignations-may-2026": "key-high-level-appointments-resignations-may-2026",
+    "national-international-awards-honours-may-2026": "national-international-awards-honours-may-2026",
+    "defence-strategic-security-operations-may-2026": "defence-strategic-security-operations-may-2026",
+    "science-space-technology-milestones-may-2026": "science-space-technology-milestones-may-2026",
+    "sports-athletic-championships-may-2026": "sports-athletic-championships-may-2026",
+    "key-global-summits-environmental-news-may-2026": "key-global-summits-environmental-news-may-2026",
+    "key-institutional-strategic-mous-may-2026": "key-institutional-strategic-mous-may-2026"
   },
   "indexes": {
     "byPriority": {
@@ -56742,10 +58497,12 @@
         "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
         "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
         "mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push",
+        "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
         "mospi-releases-provisional-gdp-estimates-fy-202526-indian-economy-grew-77-base-year-202223",
         "mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
         "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
         "pm-e-drive-scheme-extended-to-march-2028-outlay-raised-to-11900-crore",
         "pm-setu-scheme-pan-india-rollout-approved-with-outlay-of-60000-crore",
@@ -56769,17 +58526,21 @@
         "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "rbi-overhauls-foreign-exchange-authorization-forex-correspondent-fxc-model",
         "rbi-overhauls-forex-inflow-architecture-us-dollar-rupee-swap-facilities-crrslr-exemptions",
+        "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
         "rbi-responsible-business-conduct-directions-2026-online-fraud-compensation-2fa-mandate",
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
         "rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions",
         "rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh",
         "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "rbi-scale-based-regulation-sbr-1-lakh-crore-absolute-threshold-for-nbfc-upper-layer-nbfc-ul",
+        "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
         "sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
         "sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auction",
         "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
         "taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+        "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+        "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
         "viksit-bharat-guarantee-for-rozgar-and-aajeevika-mission-vb-g-ram-g-act-replaces-mgnrega"
       ],
       "P1_CRITICAL_MEMORIZE": [
@@ -56814,6 +58575,7 @@
         "apex-financial-regulatory-appointments-4-min",
         "apex-regulatory-executive-appointments-june-2026",
         "asian-development-bank-adb-shareholding-voting-matrix",
+        "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
         "ayushman-bharat-ab-pmjay-rolled-out-in-west-bengal-36th-stateut-to-adopt",
         "bank-credit-to-deposit-ratio-touches-record-high-of-8175-3-min",
         "bank-of-america-acquires-499-stake-in-jio-credit-for-18268-crore-19-billion",
@@ -56829,12 +58591,14 @@
         "cbdt-notifies-cost-inflation-index-cii-for-fy-2026-27-at-384",
         "cbdt-notifies-cost-inflation-index-cii-for-fy-202627-at-384-23",
         "cbdt-notifies-nabfid-10-year-zero-coupon-bonds-20000-crore-maturity-value",
+        "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "conclusion-of-landmark-india-eu-free-trade-agreement-22nd-fta-3-min",
         "cpcl-28th-and-grse-29th-accorded-navratna-cpse-status",
         "cpgrams-21-day-resolution-target-samadhan-didi-ai-3-min",
         "credit-guarantee-scheme-for-mfis-cgsmfi-20-3-min",
         "credit-guarantee-scheme-for-microfinance-institutions-cgsmfi-20-extended",
+        "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "cross-border-payments-maldives-favara-leftrightarrow-india-upi-corridor-3-min",
         "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
         "customs-duty-exemption-on-nuclear-power-generation-imports-section-28a-customs-act",
@@ -56845,7 +58609,9 @@
         "dcgi-approves-indias-1st-dengue-vaccine-qdenga-takeda",
         "dea-creates-17-lakh-crore-3-year-ppp-infrastructure-pipeline-3-min",
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
+        "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+        "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
         "dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
         "dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured-3-min",
         "digital-food-currency-pilot-launched-by-ministry-of-consumer-affairs-rbi-3-min",
@@ -56860,6 +58626,7 @@
         "ebixcash-world-money-secures-1st-perpetual-ad-ii-non-bank-licence-from-rbi",
         "economic-survey-2025-26-gdp-growth-projection-6872-for-fy27-3-min",
         "electric-vehicles-ev-landscape-pm-e-drive-4-min",
+        "elias-george-appointed-chairperson-of-federal-bank-board",
         "emergency-credit-line-guarantee-scheme-eclgs-50-155-lakh-crore-guaranteed",
         "enkash-launches-indias-1st-meal-card-with-direct-upi-integration",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
@@ -56883,18 +58650,22 @@
         "global-gdp-outlooks-world-bank-oecd-june-2026-releases",
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "government-approves-rbi-field-trials-for-1-billion-polymer-banknotes-10-20",
+        "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
         "government-modifies-pm-fasal-bima-yojana-12-penalty-interest-for-delayed-claims-3-min",
         "government-rbi-retain-4-inflation-target-band-till-march-31-2031-3-min",
         "government-restores-rodtep-rates-and-value-caps-effective-march-23-2026-3-min",
+        "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
         "hdfc-bank-appoints-former-cec-rajiv-kumar-as-part-time-chairman",
         "icar-develops-indias-1st-t2t-reference-genome-for-pigeonpea-asha-variety",
         "icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox-3-min",
         "iisc-spire-lab-releases-sravaani-65-language-open-source-speech-ai-model",
+        "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
         "ilo-ilostat-indias-social-security-coverage-reaches-643-943-crore-beneficiaries",
         "imf-world-economic-outlook-government-debt-to-gdp-projections-2026",
         "in-space-allied-orbits-indias-1st-commercial-earth-observation-satellite-constellation",
         "income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard-3-min",
+        "index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "india-achieves-9992-banking-coverage-5877-crore-pmjdy-accounts-with-312-lakh-crore-balance",
         "india-and-gcc-sign-terms-of-reference-for-free-trade-agreement-fta-3-min",
         "india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility-3-min",
@@ -56934,9 +58705,11 @@
         "jai-prakash-narayan-bird-sanctuary-surha-tal-designated-100th-ramsar-site",
         "jai-prakash-narayan-bird-sanctuary-surha-tal-up-designated-indias-100th-ramsar-site",
         "jal-jeevan-mission-jjm-7-year-review-82-rural-tap-coverage-jjm-20-869-lakh-crore",
+        "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
         "khelo-india-ansf-expansion-3-min",
         "lakhpati-didi-target-doubled-to-6-crore-by-march-2029-3-min",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
+        "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
         "major-regulatory-executive-apex-appointments",
         "manappuram-finance-leadership-transition-ashish-singh-appointed-md-ceo",
         "mca-amends-schedule-vii-zero-coupon-zero-principal-zczp-on-sse-eligible-for-csr",
@@ -56948,6 +58721,7 @@
         "ministry-of-education-udise-202526-pgi-s-20-reports",
         "ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route-3-min",
         "ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs-3-min",
+        "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
         "ministry-of-mines-mineral-exchange-rules-2026-electronic-mineral-trading-framework",
         "mobile-phone-manufacturing-scheme-mpms-approved-with-outlay-of-62500-crore",
         "mod-signs-1577-crore-contracts-for-loiter-munitions-with-tasl-nibe",
@@ -56959,6 +58733,7 @@
         "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "mospi-launches-trial-index-of-services-production-isp-with-base-year-202425",
         "mospi-plfs-quarterly-bulletin-apriljune-2026-headline-ur-at-54-youth-ur-at-159",
+        "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
         "mospi-signs-mous-with-ideas-isi-kolkata-for-gdp-nowcasting-software",
         "mospi-updates-base-year-of-index-of-core-industries-ici-to-202223-iron-ore-added-as-9th-core",
         "msme-dpiit-sign-mou-for-bharat-gi-commercialisation-on-ondc-gem",
@@ -57017,10 +58792,12 @@
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
+        "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
         "qatar-post-india-post-launch-postransfer-powered-by-upi",
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
         "rbi-announces-special-us-dollar-rupee-forex-swap-windows-for-fcnrb-ecbs",
+        "rbi-appoints-gunveer-singh-as-executive-director",
         "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-builds-second-high-security-greenfield-data-centre-in-bhubaneswar-3-min",
         "rbi-caps-net-rupee-fx-positions-nop-inr-at-100-million-for-ad-banks-3-min",
@@ -57153,7 +58930,10 @@
         "standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
+        "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
         "supreme-court-directs-10-km-mining-buffer-for-notified-wetlands-glaw-lake-101st-ramsar-site",
+        "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
+        "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
         "un-security-council-elects-5-new-non-permanent-members-for-202728-term",
         "un-sustainable-development-report-2026-india-ranks-94th-globally-score-683",
         "unctad-world-investment-report-2026-india-climbs-to-11th-largest-global-fdi-recipient",
@@ -57162,6 +58942,7 @@
         "union-cabinet-approves-semicon-20-with-outlay-of-127500-crore",
         "upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026",
         "urban-challenge-fund-ucf-adb-1-billion-loan-4-min",
+        "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
         "uzbekistan-joins-new-development-bank-ndb-as-10th-member",
         "voc-port-authority-becomes-1st-indian-port-with-iso-500012018-energy-management-certification",
         "vyomaai-lt-secures-1000015000-crore-nvidia-b300-ai-factory-from-together-ai",
@@ -57348,6 +59129,7 @@
         "defence-space-technology-july-2026",
         "defence-space-technology-june-2026",
         "defence-srijan-portal",
+        "defence-strategic-security-operations-may-2026",
         "defence-vessels",
         "delegation-of-financial-powers-to-drdo-dfp-2026",
         "delhi-lakshmi-yojana",
@@ -57542,6 +59324,9 @@
         "key-banking-financial-leadership-appointments-april-2026",
         "key-financial-institutional-appointments-march-2026",
         "key-financial-regulatory-appointments-may-2026",
+        "key-global-summits-environmental-news-may-2026",
+        "key-high-level-appointments-resignations-may-2026",
+        "key-institutional-strategic-mous-may-2026",
         "khalilur-rahman-bangladesh",
         "khelo-india-winter-games-2026",
         "kidambi-srikanth",
@@ -57618,6 +59403,7 @@
         "national-gopal-ratna-award-2026",
         "national-highways-green-cover-index-nh-gci-first-report",
         "national-housing-bank-launches-gruh-sugam-portal",
+        "national-international-awards-honours-may-2026",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-awards-2025",
         "national-sports-governance-act-2025-comes-into-partial-effect",
@@ -57757,6 +59543,7 @@
         "sbi-raises-1-billion-mufg-social-loan-targets-10-green-advances",
         "sbm-paisabazaar-paisa-credit-card",
         "schemes-regional-developments",
+        "science-space-technology-milestones-may-2026",
         "sebi-bullion-vaulting",
         "sebi-clarifies-family-trusts-cannot-sponsor-mutual-funds",
         "sebi-clears-mcx-nse-coal-exchange-proposals",
@@ -57784,6 +59571,7 @@
         "soyuz-ms-29-launch",
         "spacex-38-minute-launch-record",
         "sports",
+        "sports-athletic-championships-may-2026",
         "sports-athletics",
         "sports-milestones-july-2026",
         "sports-milestones-june-2026",
@@ -57977,6 +59765,7 @@
         "cpcl-28th-and-grse-29th-accorded-navratna-cpse-status",
         "cpgrams-21-day-resolution-target-samadhan-didi-ai-3-min",
         "cristiano-ronaldo",
+        "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "csir-bnd-reference-materials",
         "csir-technology-transfer-event",
         "csl-ms-maria-delivery",
@@ -58097,6 +59886,7 @@
         "kerala-approves-indias-first-graphene-policy-grefine-park",
         "kerala-ashwas-2026-100-day-ots",
         "kerala-hawk-wildlife-offence-management",
+        "key-global-summits-environmental-news-may-2026",
         "khalilur-rahman-bangladesh",
         "khelo-india-ansf-expansion-3-min",
         "kidambi-srikanth",
@@ -58165,6 +59955,7 @@
         "pacific-island-nation-of-nauru-renamed-as-republic-of-naoero",
         "parichha-dam-jhansi-betwa-river",
         "parichha-weir-whis-designation",
+        "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
         "payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
         "pcimh-ipc-one-herb-one-standard",
@@ -58188,6 +59979,7 @@
         "project-brahmank-bro",
         "psbs-proposal-2-psl-sub-target-for-climate-transition-finance-3-min",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
+        "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
         "pv-sindhu",
         "rabi-202627-wheat-procurement-35-million-tonnes",
         "rahul-himalian",
@@ -58317,6 +60109,7 @@
         "irdai-revises-information-security-cybersecurity-governance-guidelines-3-min",
         "irdai-working-group-on-ai-governance-wg-ai",
         "jio-financial-services-allianz-form-5050-insurance-jv",
+        "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
         "m-pallonji-group-divya-sehgal-federal-bank-receive-irdai-r1-approval",
         "mahindra-manulife-insurance-ltd-mmil",
         "ministry-of-cooperation-5th-foundation-day",
@@ -58391,6 +60184,7 @@
         "mha-gallantry-service-medals-for-80th-independence-day-1057-personnel",
         "national-awards-for-e-governance-2026",
         "national-gopal-ratna-award-2026",
+        "national-international-awards-honours-may-2026",
         "national-sports-awards-2025",
         "norway-chess-2026",
         "pm-modi-addresses-israeli-knesset-awarded-speaker-of-the-knesset-medal",
@@ -58410,6 +60204,7 @@
         "sinquefield-cup-2026",
         "sjfi-medal",
         "skytrax-world-airport-awards-2026",
+        "sports-athletic-championships-may-2026",
         "subhash-chandra-bose-aapda-prabandhan-puraskar-2026",
         "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
         "unesco-asia-pacific-award-of-merit",
@@ -58484,6 +60279,7 @@
         "defence-space-technology-july-2026",
         "defence-space-technology-june-2026",
         "defence-srijan-portal",
+        "defence-strategic-security-operations-may-2026",
         "defence-vessels",
         "delegation-of-financial-powers-to-drdo-dfp-2026",
         "divyastra-mk3-indias-1st-indigenous-jet-powered-loitering-munition",
@@ -58541,6 +60337,7 @@
         "reliance-industries-rolls-royce-strategic-partnership-for-amca-mk2-engine",
         "reliance-jio-receives-in-space-approval-for-1600-leo-satellite-constellation-455-tbps",
         "rudram-ii-air-to-surface-missile",
+        "science-space-technology-milestones-may-2026",
         "spacex-38-minute-launch-record",
         "sqn-ldr-bhawana-kanth-1st-woman-officer-to-complete-iaf-fighter-combat-leader-course",
         "strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
@@ -58558,6 +60355,7 @@
         "epfo-authorizes-direct-upi-withdrawals-and-raises-auto-settlement-cap-to-5-lakh-3-min",
         "icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox-3-min",
         "inst-mohali-barc-develop-light-activated-nanobots-for-targeted-breast-cancer-therapy",
+        "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
         "national-anubhav-awards-2026",
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-approves-ppfas-amc-as-nps-pension-fund-sponsor-clarifies-tier-ii-charges",
@@ -58607,9 +60405,11 @@
         "ethanol-interest-subvention-schemes-nabard-nodal-role",
         "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
         "galaxeye-launches-mission-drishti-on-spacex-falcon-9",
+        "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
         "government-modifies-pm-fasal-bima-yojana-12-penalty-interest-for-delayed-claims-3-min",
         "gujarat-namo-swachhata-amritpan-abhiyan",
         "icgs-akshay-commissioning",
+        "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
         "indian-navy-commissions-stealth-frigate-taragiri-p17a-submarine-ins-aridhaman",
         "indian-pharmacopoeia-commission-ipc",
         "indias-1st-geothermal-wells-commissioned-at-puga-valley-ladakh-ongc-energy-centre",
@@ -58618,6 +60418,7 @@
         "jal-jeevan-mission-jjm-7-year-review-82-rural-tap-coverage-jjm-20-869-lakh-crore",
         "karnataka-sandhya-kiran-scheme",
         "lakhpati-didi-target-doubled-to-6-crore-by-march-2029-3-min",
+        "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
         "mission-senehjori-411-crore",
         "mission-shakthisat",
         "mobile-phone-manufacturing-scheme-mpms-approved-with-outlay-of-62500-crore",
@@ -58666,6 +60467,8 @@
         "small-savings-schemes-interest-rates-retained-unchanged-for-q2-fy27-9th-consecutive-quarter",
         "smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "sukanya-samriddhi-yojana-ssy-interest-rate-at-82",
+        "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+        "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
         "up-mukhyamantri-shikshak-cashless-chikitsa-yojana",
         "viksit-bharat-guarantee-for-rozgar-and-aajeevika-mission-vb-g-ram-g-act-replaces-mgnrega",
         "women-schemes-swavalambini-navya",
@@ -58699,15 +60502,18 @@
         "canara-bank-penalties-418-lakh-249-lakh",
         "canara-bank-raises-5000-crore-tier-ii-bonds",
         "cbdt-notifies-nabfid-10-year-zero-coupon-bonds-20000-crore-maturity-value",
+        "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "day-nrlm-self-help-group-bank-credit-milestone-3-min",
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
+        "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
         "dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured-3-min",
         "dicgc-notifies-risk-based-premium-rbp-framework-for-deposit-insurance",
         "digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework",
         "ebixcash-world-money-secures-1st-perpetual-ad-ii-non-bank-licence-from-rbi",
+        "elias-george-appointed-chairperson-of-federal-bank-board",
         "emirates-nbd-acquires-up-to-74-stake-in-rbl-bank",
         "export-promotion-mission-exim-bank-designated-implementing-agency",
         "federal-bank-acquires-standard-chartered-bank-india-credit-card-portfolio",
@@ -58719,6 +60525,7 @@
         "government-approves-1-billion-polymer-banknotes-of-10-20-3-min",
         "government-approves-rbi-field-trials-for-1-billion-polymer-banknotes-10-20",
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
+        "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
         "hdfc-bank-appoints-former-cec-rajiv-kumar-as-part-time-chairman",
         "hdfc-bank-interim-chairman-keki-mistry",
         "hdfc-bank-launches-max-for-seniors-max-for-her-savings-accounts",
@@ -58739,6 +60546,7 @@
         "key-banking-corporate-appointments-february-2026",
         "key-banking-financial-appointments-january-2026",
         "key-banking-financial-leadership-appointments-april-2026",
+        "key-institutional-strategic-mous-may-2026",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "mca-amends-schedule-vii-zero-coupon-zero-principal-zczp-on-sse-eligible-for-csr",
         "mecon-limited-accorded-miniratna-category-i-cpse-status",
@@ -58827,6 +60635,7 @@
         "rbi-prudential-norms-on-capital-adequacy-counterparty-credit-risk-ccr-amendments-4-min",
         "rbi-regulatory-relief-compliance-directions",
         "rbi-relaxes-prior-approval-for-ad-banks-digital-outward-remittance-tie-ups-3-min",
+        "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
         "rbi-responsible-business-conduct-directions-2026-online-fraud-compensation-2fa-mandate",
         "rbi-returns-ujjivan-sfb-application-for-universal-banking-transition-3-min",
         "rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap",
@@ -58842,6 +60651,7 @@
         "rbi-spot-forex-interventions-record-net-sale-of-5313-billion-in-fy26-3-min",
         "rbi-suo-motu-loan-restructuring-framework-in-areas-hit-by-natural-calamities-3-min",
         "rbi-supervisory-data-quality-index-sdqi-for-scheduled-commercial-banks-3-min",
+        "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification-3-min",
         "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
         "rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029-3-min",
@@ -58855,6 +60665,7 @@
         "state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
         "state-bank-of-india-raises-6051-crore-tier-2-bonds-500m-social-term-loan",
         "state-bank-of-india-surpasses-icici-bank-in-market-cap",
+        "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
         "trai-imposes-150-crore-penalty-on-telecom-operators",
         "tripura-gramin-bank-launches-1st-rrb-rupay-credit-card",
         "uzbekistan-joins-new-development-bank-ndb-as-10th-member",
@@ -58887,6 +60698,7 @@
         "harjit-singh-grewal",
         "july-2026-important-obituaries",
         "june-2026-important-obituaries",
+        "key-high-level-appointments-resignations-may-2026",
         "kunal-shah-cred",
         "leander-paes",
         "lt-gen-rajiv-ghai",
@@ -58900,6 +60712,7 @@
         "pralhad-joshi",
         "rajendra-kumar-saboo",
         "ravi-agrawal",
+        "rbi-appoints-gunveer-singh-as-executive-director",
         "sanjay-jaju",
         "saurabh-vijay-uidai-ceo",
         "swaminathan-janakiraman",
@@ -58910,6 +60723,7 @@
       ],
       "REPORTS_AND_INDICES": [
         "andhra-pradesh-csir-ngri-140-crore-critical-mineral-exploration-in-kadapa",
+        "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
         "barclays-hurun-india-family-businesses-2026-ambani-adani-lead-rankings",
         "bimco-ics-seafarer-workforce-report-2026",
         "bloomberg-billionaires-index-may-2026",
@@ -58919,6 +60733,7 @@
         "census-2027-40-question-household-schedule-comprehensive-caste-enumeration",
         "central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion",
         "corruption-perceptions-index-cpi-2025",
+        "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
         "environmental-performance-index-epi-2026-estonia-ranked-1st-india-ranked-176th",
         "global-report-on-food-crises-2026-gnafc",
         "global-soft-power-index-2026-brand-finance",
@@ -58927,14 +60742,17 @@
         "henley-passport-index-february-2026",
         "henley-passport-index-may-2026-update",
         "high-level-study-group-on-indian-cinema",
+        "index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
         "indias-balance-of-payments-bop-q4-fy-202526-current-account-surplus-of-71-billion",
         "logistics-port-performance-index-lppi-fy25",
         "manual-scavenging-survey-202425",
         "ministry-of-education-udise-202526-pgi-s-20-reports",
+        "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
         "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "mospi-launches-trial-index-of-services-production-isp-with-base-year-202425",
         "mospi-plfs-quarterly-bulletin-apriljune-2026-headline-ur-at-54-youth-ur-at-159",
+        "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
         "mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
         "mospi-updates-base-year-of-index-of-core-industries-ici-to-202223-iron-ore-added-as-9th-core",
         "national-family-health-survey-6-nfhs-6-data-release-202324",
@@ -58962,9 +60780,11 @@
         "sipri-international-arms-transfers-report-2026",
         "times-higher-education-the-asia-university-rankings-2026",
         "ubs-billionaire-ambition-report-2025",
+        "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
         "un-igme-child-mortality-report",
         "un-sustainable-development-report-2026-india-ranks-94th-globally-score-683",
         "unctad-world-investment-report-2026-india-climbs-to-11th-largest-global-fdi-recipient",
+        "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
         "white-house-report-the-great-transshipment-scam-peter-navarro",
         "wipo-genai-patent-report",
         "wipo-world-intangible-investment-report-2026-india-1-in-intangible-growth-79",
@@ -59053,6 +60873,7 @@
         "sebi-streamlines-demat-transfer-process-from-150-days-to-30-days-3-min",
         "sebi-swagat-fi-framework-for-trusted-foreign-investors-3-min",
         "standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
+        "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
         "zerodha-fund-house-1st-lifecycle-mutual-funds"
       ],
       "DIGITAL_PAYMENTS": [
@@ -59175,6 +60996,7 @@
         "asian-u23-athletics-championships-ordos-china",
         "assam-1st-blue-valley-cluster",
         "astrobase-space-technologies-unveils-everest-800-kn-ffsc-rocket-engine",
+        "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
         "atal-vayo-abhyudaya-yojana-avyay",
         "aukus-pillar-two-uuv-partnership",
         "australia-announces-dates-for-exercise-talisman-sabre-2027",
@@ -59281,12 +61103,15 @@
         "defence-space-technology-july-2026",
         "defence-space-technology-june-2026",
         "defence-srijan-portal",
+        "defence-strategic-security-operations-may-2026",
         "defence-vessels",
         "delegation-of-financial-powers-to-drdo-dfp-2026",
         "delhi-lakshmi-yojana",
         "delhidehradun-economic-corridor-210-km-11868-cr-inaugurated",
+        "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
         "dfs-common-landing-portal-for-unclaimed-financial-assets-unclaimedassetsportalin",
         "dfs-launches-indias-1st-sovereign-backed-bharat-maritime-insurance-pool-bmip-4-min",
+        "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
         "dgft-silver-import-restrictions",
         "dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
         "digilocker-aaeri",
@@ -59374,12 +61199,14 @@
         "global-terrorism-index-2026-iep",
         "goldman-environmental-prize-2026-green-nobel",
         "government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
+        "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
         "government-imposes-immediate-ban-on-sugar-exports-until-september-30-2026",
         "government-modifies-pm-fasal-bima-yojana-12-penalty-interest-for-delayed-claims-3-min",
         "government-notifies-coking-coal-as-critical-strategic-mineral",
         "government-permits-15-banks-to-import-gold-and-silver-till-march-2029",
         "government-restores-rodtep-rates-and-value-caps-effective-march-23-2026-3-min",
         "gramin-gyan-setu-app",
+        "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
         "green-hydrogen-certification-portal-ghci",
         "grse-launches-shruti-2nd-next-generation-offshore-patrol-vessel-ngopv",
         "gst-collections-touch-193-trillion-in-january-2026",
@@ -59424,9 +61251,11 @@
         "iit-bombay-suny-old-westbury-new-york-loi",
         "iit-delhi-tactical-aerostat",
         "iit-kanpur-ecogen-green-hydrogen-coe",
+        "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
         "ilo-ilostat-indias-social-security-coverage-reaches-643-943-crore-beneficiaries",
         "in-space-technology-adoption-fund-500-crore",
         "income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard-3-min",
+        "index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "india-achieves-9992-banking-coverage-5877-crore-pmjdy-accounts-with-312-lakh-crore-balance",
         "india-and-gcc-sign-terms-of-reference-for-free-trade-agreement-fta-3-min",
         "india-becomes-worlds-largest-rice-producer",
@@ -59507,6 +61336,7 @@
         "key-banking-corporate-appointments-february-2026",
         "key-banking-financial-appointments-january-2026",
         "key-banking-financial-leadership-appointments-april-2026",
+        "key-global-summits-environmental-news-may-2026",
         "khalilur-rahman-bangladesh",
         "khelo-india-ansf-expansion-3-min",
         "khelo-india-winter-games-2026",
@@ -59552,6 +61382,7 @@
         "midhani-s400-approval",
         "ministry-of-cooperation-5th-foundation-day",
         "ministry-of-education-udise-202526-pgi-s-20-reports",
+        "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
         "ministry-of-mines-mineral-exchange-rules-2026-electronic-mineral-trading-framework",
         "ministry-of-tourism-google-india-mou",
         "mission-senehjori-411-crore",
@@ -59566,6 +61397,7 @@
         "mod-tactical-missile-monopoly-reform",
         "modified-udan-rcs-scheme-approved-with-outlay-of-28840-crore-10-years",
         "mohfw-fssai-food-safety-reforms-effective-april-1-2026",
+        "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
         "mohua-parivartan-scheme-approved-for-ncr-commercial-fleet-modernisation-9585-crore",
         "moib-removes-tv-ad-cap",
         "mord-rural-internal-audit-portal",
@@ -59575,6 +61407,7 @@
         "mospi-introduces-index-of-services-production-isp-with-base-year-202425",
         "mospi-launches-trial-index-of-services-production-isp-with-base-year-202425",
         "mospi-plfs-quarterly-bulletin-apriljune-2026-headline-ur-at-54-youth-ur-at-159",
+        "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
         "mospi-releases-provisional-gdp-estimates-fy-202526-indian-economy-grew-77-base-year-202223",
         "mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
         "mospi-signs-mous-with-ideas-isi-kolkata-for-gdp-nowcasting-software",
@@ -59608,6 +61441,7 @@
         "national-handloom-day-7-august-4th-handloom-census-3-min",
         "national-highways-green-cover-index-nh-gci-first-report",
         "national-housing-bank-launches-gruh-sugam-portal",
+        "national-international-awards-honours-may-2026",
         "national-investment-policy-for-urea-2026-nipu-2026-3-min",
         "national-quality-assurance-standards-nqas-crosses-50000-certified-health-facilities",
         "national-sports-awards-2025",
@@ -59653,6 +61487,7 @@
         "palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "parichha-dam-jhansi-betwa-river",
         "parichha-weir-whis-designation",
+        "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "parliament-passes-tribunals-reforms-bill-2026-national-tribunals-commission-formed",
         "pcimh-ipc-one-herb-one-standard",
         "periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026-3-min",
@@ -59715,6 +61550,7 @@
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026",
         "public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent-3-min",
         "public-sector-banks-asset-quality-fy26-3-min",
+        "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
         "pv-sindhu",
         "qatar-post-india-post-launch-postransfer-powered-by-upi",
         "qs-world-university-rankings-by-subject-2026",
@@ -59752,6 +61588,7 @@
         "saurabh-vijay-uidai-ceo",
         "sbm-paisabazaar-paisa-credit-card",
         "schemes-regional-developments",
+        "science-space-technology-milestones-may-2026",
         "shakti-ki-sapt-dhara",
         "shan-conservation-society-in-ladakh",
         "simha-4x4-lampv-marg-155mm",
@@ -59773,6 +61610,7 @@
         "spacex-38-minute-launch-record",
         "special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore-3-min",
         "sports",
+        "sports-athletic-championships-may-2026",
         "sports-athletics",
         "sports-milestones-july-2026",
         "sports-milestones-june-2026",
@@ -59793,10 +61631,12 @@
         "su-57-5th-gen-stealth-fighter-offer",
         "subhash-chandra-bose-aapda-prabandhan-puraskar-2026",
         "sukanya-samriddhi-yojana-ssy-interest-rate-at-82",
+        "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
         "suparco-jinnah-1",
         "supreme-court-directs-10-km-mining-buffer-for-notified-wetlands-glaw-lake-101st-ramsar-site",
         "suryapath-tiranga-relay",
         "sword-of-honour-ima-dehradun",
+        "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
         "tamil-nadu-curriculum-design-committee",
         "tanvi-sharma-wins-maiden-bwf-title-at-taipei-open-2026",
         "tarun-kapoor",
@@ -59816,6 +61656,7 @@
         "uae-announces-exit-from-opec-and-opec-effective-may-1-2026",
         "ubs-billionaire-ambition-report-2025",
         "uk-social-media-ban-for-under-16s",
+        "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
         "un-high-seas-biodiversity-treaty-bbnj-enters-into-force",
         "un-igme-child-mortality-report",
         "un-security-council-elects-5-new-non-permanent-members-for-202728-term",
@@ -59829,6 +61670,7 @@
         "unesco-world-heritage-nomination-for-meghalayas-living-root-bridges",
         "unilever-fragrance-hub-at-iit-bombay",
         "union-budget-fy27-2000-crore-incentive-for-upi-rupay-p2m-transactions-3-min",
+        "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
         "union-cabinet-approves-semicon-20-with-outlay-of-127500-crore",
         "university-of-liverpool-bengaluru-branch-campus",
         "unog-peacock-diplomacy",
@@ -59836,6 +61678,7 @@
         "up-mukhyamantri-shikshak-cashless-chikitsa-yojana",
         "upi-live-in-cambodia-via-khqr-9th-country",
         "us-dsca-4822-million-sustainment-package",
+        "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
         "usgbc-leed-green-building-list-2025",
         "usispf-2026-leadership-award",
         "ut-ladakh-state-award-2025",
@@ -59899,6 +61742,7 @@
         "irdai-retains-d-siis-lic-new-india-assurance-and-gic-re-for-fy26-3-min",
         "irdai-revises-information-security-cybersecurity-governance-guidelines-3-min",
         "irdai-working-group-on-ai-governance-wg-ai",
+        "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
         "m-pallonji-group-divya-sehgal-federal-bank-receive-irdai-r1-approval",
         "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period"
       ],
@@ -59918,6 +61762,7 @@
         "bhoomi-pujan-for-kaziranga-elevated-corridor-project-nh-715",
         "blackstone-999-stake-in-federal-bank-sbi-mf-999-in-bandhan-bank-3-min",
         "china-long-march-10b-booster-sea-net-recovery",
+        "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
         "d-sib-framework-rbi-leverage-ratio-buffer-4-min",
         "deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026-3-min",
@@ -59925,6 +61770,7 @@
         "dicgc-notifies-risk-based-premium-rbp-framework-for-deposit-insurance",
         "digital-food-currency-pilot-launched-by-ministry-of-consumer-affairs-rbi-3-min",
         "ebixcash-world-money-secures-1st-perpetual-ad-ii-non-bank-licence-from-rbi",
+        "elias-george-appointed-chairperson-of-federal-bank-board",
         "emirates-nbd-acquires-up-to-74-stake-in-rbl-bank",
         "export-promotion-mission-exim-bank-designated-implementing-agency",
         "first-meeting-of-payments-regulatory-board-prb",
@@ -59947,6 +61793,8 @@
         "irdai-137th-meeting-insurance-sector-overhauls",
         "irdai-ipai-partnership-to-eliminate-digital-insurance-dark-patterns",
         "key-financial-regulatory-appointments-may-2026",
+        "key-high-level-appointments-resignations-may-2026",
+        "key-institutional-strategic-mous-may-2026",
         "lic-gets-rbi-approval-to-raise-stake-in-hdfc-bank-up-to-999-2-min",
         "mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
         "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
@@ -59963,6 +61811,7 @@
         "rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629-3-min",
         "rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits-3-min",
         "rbi-announces-special-us-dollar-rupee-forex-swap-windows-for-fcnrb-ecbs",
+        "rbi-appoints-gunveer-singh-as-executive-director",
         "rbi-bank-locker-guidelines-negligence-liability-cap",
         "rbi-builds-second-high-security-greenfield-data-centre-in-bhubaneswar-3-min",
         "rbi-cancels-banking-license-of-paytm-payments-bank-limited-under-section-224",
@@ -60053,6 +61902,7 @@
         "rbi-reelathon-2026-kerala",
         "rbi-regulatory-relief-compliance-directions",
         "rbi-relaxes-prior-approval-for-ad-banks-digital-outward-remittance-tie-ups-3-min",
+        "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
         "rbi-responsible-business-conduct-directions-2026-online-fraud-compensation-2fa-mandate",
         "rbi-retains-fpi-investment-caps-in-debt-instruments-for-fy-2026-27-3-min",
         "rbi-returns-ujjivan-sfb-application-for-universal-banking-transition-3-min",
@@ -60074,6 +61924,7 @@
         "rbi-suo-motu-loan-restructuring-framework-in-areas-hit-by-natural-calamities-3-min",
         "rbi-supervisory-data-quality-index-sdqi-for-scheduled-commercial-banks-3-min",
         "rbi-survey-of-professional-forecasters-spf",
+        "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification-3-min",
         "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
         "rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029-3-min",
@@ -60137,6 +61988,7 @@
       ],
       "IFSCA": [
         "bank-of-baroda-green-infra-bonds-gift-city-syndicated-loan",
+        "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "ifsca-clears-poornam-asset-management-as-1st-foreign-family-investment-fund-in-gift-city",
         "iob-ifsc-banking-unit-ibu-at-gift-city",
@@ -60150,6 +62002,7 @@
       "PFRDA": [
         "cabinet-extends-atal-pension-yojana-apy-up-to-fy-2030-31-3-min",
         "icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox-3-min",
+        "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-approves-ppfas-amc-as-nps-pension-fund-sponsor-clarifies-tier-ii-charges",
         "pfrda-constitutes-high-level-panels-assured-payouts-dr-ms-sahoo-saarg-3-min",
@@ -60164,7 +62017,8 @@
         "pfrda-pension-sahayak",
         "pfrda-revises-nps-point-of-presence-pop-distributor-charges-3-min",
         "pfrda-star-nps-digital-onboarding-framework",
-        "pfrda-star-nps-onboarding-platform"
+        "pfrda-star-nps-onboarding-platform",
+        "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones"
       ],
       "MINISTRY_OF_FINANCE": [
         "central-kyc-registry-ckyc-14-digit-kin-architecture",
@@ -61296,29 +63150,50 @@
         "2025-un-military-gender-advocate-award",
         "2026-international-booker-prize",
         "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
+        "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
         "axis-bank-raises-500-million-offshore-loan-from-mufg",
         "bloomberg-billionaires-index-may-2026",
+        "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "chandrayaan-3-receives-2026-aiaa-goddard-astronautics-award",
         "cji-surya-kant-declares-sikkim-countrys-1st-paperless-judiciary-state-launches-su-sahay-ai-chatbot",
+        "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154-3-min",
+        "defence-strategic-security-operations-may-2026",
+        "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
+        "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
         "drdo-flight-tests-1500-km-long-range-hypersonic-anti-ship-missile-lr-ashm",
         "drdo-tests-actively-cooled-scramjet-combustor-1200s-duration",
+        "elias-george-appointed-chairperson-of-federal-bank-board",
         "finance-ministry-eases-fdi-under-automatic-route-for-foreign-firms-with-up-to-10-chinese-stake-3-min",
         "finance-ministry-notifies-3000-crore-sasci-incentive-pool-for-fiscally-disciplined-states-3-min",
         "forbes-worlds-best-banks-2026-india",
         "galaxeye-launches-mission-drishti-on-spacex-falcon-9",
+        "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
         "government-imposes-immediate-ban-on-sugar-exports-until-september-30-2026",
+        "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
         "henley-passport-index-may-2026-update",
         "icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "iea-world-energy-investment-2026",
+        "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
+        "index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "india-post-payments-bank-ippb-launches-shg-savings-account",
         "indian-navy-inductions-stealth-frigate-mahendragiri-p17a-ngopv-sanghmitra",
         "ipl-2026-championship",
+        "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
         "key-financial-regulatory-appointments-may-2026",
+        "key-global-summits-environmental-news-may-2026",
+        "key-high-level-appointments-resignations-may-2026",
+        "key-institutional-strategic-mous-may-2026",
+        "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
         "ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route-3-min",
+        "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
+        "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
+        "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
+        "national-international-awards-honours-may-2026",
         "national-stock-exchange-nse-launches-electronic-gold-receipts-egrs",
         "ncdex-launches-rainmumbai-weather-derivatives-contract",
         "ncrb-crime-in-india-2024-report",
+        "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds-3-min",
         "pfrda-launches-nps-retirement-income-scheme-ris-eases-critical-illness-annuity-exit-3-min",
@@ -61327,6 +63202,8 @@
         "pm-narendra-modi-conferred-international-honours",
         "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
         "president-droupadi-murmu-confers-131-padma-awards-2026",
+        "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
+        "rbi-appoints-gunveer-singh-as-executive-director",
         "rbi-cancels-sarvodaya-co-operative-bank-license-curbs-nagar-sahakari-bank",
         "rbi-conducts-5-billion-usdinr-buy-sell-swap-auction-3-min",
         "rbi-decides-against-activating-countercyclical-capital-buffer-ccyb-3-min",
@@ -61343,12 +63220,15 @@
         "rbi-overhauls-foreign-exchange-authorization-forex-correspondent-fxc-model",
         "rbi-payment-systems-report-upi-commands-855-volume-share-prb-restructuring-3-min",
         "rbi-relaxes-prior-approval-for-ad-banks-digital-outward-remittance-tie-ups-3-min",
+        "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
         "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure-3-min",
         "rbi-sets-up-expert-committee-on-quantum-secure-financial-ecosystem-q-safe-3-min",
         "rbi-spot-forex-interventions-record-net-sale-of-5313-billion-in-fy26-3-min",
         "rbi-state-bank-of-vietnam-sign-digital-payments-mou",
+        "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "rbih-i4c-sign-strategic-mou-on-anti-mule-account-detection",
         "sample-registration-system-srs-statistical-report-2024-orgi",
+        "science-space-technology-milestones-may-2026",
         "sebi-allows-depositories-to-utilize-up-to-5-of-ipf-income-for-trust-costs-3-min",
         "sebi-allows-employer-third-party-mutual-fund-payroll-investments-3-min",
         "sebi-directs-significant-indices-providers-to-register-within-6-months-3-min",
@@ -61360,8 +63240,15 @@
         "sebi-proposes-open-market-stock-exchange-buyback-framework-66-day-window-3-min",
         "skyroot-aerospace-becomes-indias-1st-space-tech-unicorn",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
+        "sports-athletic-championships-may-2026",
         "state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
+        "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
+        "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
         "times-higher-education-the-asia-university-rankings-2026",
+        "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
+        "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+        "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
+        "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
         "world-bank-state-trends-of-carbon-pricing-2026",
         "world-migration-report-2026-iom"
       ],
@@ -62475,29 +64362,50 @@
         "2025-un-military-gender-advocate-award",
         "2026-international-booker-prize",
         "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
+        "asuse-202324-survey-highlights-informal-sector-employs-112-crore-workers",
         "axis-bank-raises-500-million-offshore-loan-from-mufg",
         "bloomberg-billionaires-index-may-2026",
+        "central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "chandrayaan-3-receives-2026-aiaa-goddard-astronautics-award",
         "cji-surya-kant-declares-sikkim-countrys-1st-paperless-judiciary-state-launches-su-sahay-ai-chatbot",
+        "cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154-3-min",
+        "defence-strategic-security-operations-may-2026",
+        "development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
+        "dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
         "drdo-flight-tests-1500-km-long-range-hypersonic-anti-ship-missile-lr-ashm",
         "drdo-tests-actively-cooled-scramjet-combustor-1200s-duration",
+        "elias-george-appointed-chairperson-of-federal-bank-board",
         "finance-ministry-eases-fdi-under-automatic-route-for-foreign-firms-with-up-to-10-chinese-stake-3-min",
         "finance-ministry-notifies-3000-crore-sasci-incentive-pool-for-fiscally-disciplined-states-3-min",
         "forbes-worlds-best-banks-2026-india",
         "galaxeye-launches-mission-drishti-on-spacex-falcon-9",
+        "government-formally-notifies-viksit-bharat-rozgar-ajeevika-vb-gra-rules-2026",
         "government-imposes-immediate-ban-on-sugar-exports-until-september-30-2026",
+        "greeces-eurobank-opens-mumbai-representative-office-1st-greek-bank-in-india",
         "henley-passport-index-may-2026-update",
         "icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "iea-world-energy-investment-2026",
+        "iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
+        "index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "india-post-payments-bank-ippb-launches-shg-savings-account",
         "indian-navy-inductions-stealth-frigate-mahendragiri-p17a-ngopv-sanghmitra",
         "ipl-2026-championship",
+        "karnataka-grameena-bank-wins-national-award-from-pfrda-for-apy-excellence",
         "key-financial-regulatory-appointments-may-2026",
+        "key-global-summits-environmental-news-may-2026",
+        "key-high-level-appointments-resignations-may-2026",
+        "key-institutional-strategic-mous-may-2026",
+        "lic-introduces-2-new-term-insurance-products-new-jeevan-amar-digi-term",
         "ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route-3-min",
+        "ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
+        "mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
+        "mospi-releases-27th-issue-of-women-and-men-in-india-2025-report",
+        "national-international-awards-honours-may-2026",
         "national-stock-exchange-nse-launches-electronic-gold-receipts-egrs",
         "ncdex-launches-rainmumbai-weather-derivatives-contract",
         "ncrb-crime-in-india-2024-report",
+        "parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "pfrda-approves-motilal-oswal-amc-as-pension-fund-sponsor",
         "pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds-3-min",
         "pfrda-launches-nps-retirement-income-scheme-ris-eases-critical-illness-annuity-exit-3-min",
@@ -62506,6 +64414,8 @@
         "pm-narendra-modi-conferred-international-honours",
         "pm-surya-ghar-muft-bijli-yojana-solarises-40-lakh-households",
         "president-droupadi-murmu-confers-131-padma-awards-2026",
+        "punjab-government-launches-cm-meri-rasoi-yojna-10-subsidized-meals",
+        "rbi-appoints-gunveer-singh-as-executive-director",
         "rbi-cancels-sarvodaya-co-operative-bank-license-curbs-nagar-sahakari-bank",
         "rbi-conducts-5-billion-usdinr-buy-sell-swap-auction-3-min",
         "rbi-decides-against-activating-countercyclical-capital-buffer-ccyb-3-min",
@@ -62522,12 +64432,15 @@
         "rbi-overhauls-foreign-exchange-authorization-forex-correspondent-fxc-model",
         "rbi-payment-systems-report-upi-commands-855-volume-share-prb-restructuring-3-min",
         "rbi-relaxes-prior-approval-for-ad-banks-digital-outward-remittance-tie-ups-3-min",
+        "rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures",
         "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure-3-min",
         "rbi-sets-up-expert-committee-on-quantum-secure-financial-ecosystem-q-safe-3-min",
         "rbi-spot-forex-interventions-record-net-sale-of-5313-billion-in-fy26-3-min",
         "rbi-state-bank-of-vietnam-sign-digital-payments-mou",
+        "rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "rbih-i4c-sign-strategic-mou-on-anti-mule-account-detection",
         "sample-registration-system-srs-statistical-report-2024-orgi",
+        "science-space-technology-milestones-may-2026",
         "sebi-allows-depositories-to-utilize-up-to-5-of-ipf-income-for-trust-costs-3-min",
         "sebi-allows-employer-third-party-mutual-fund-payroll-investments-3-min",
         "sebi-directs-significant-indices-providers-to-register-within-6-months-3-min",
@@ -62539,8 +64452,15 @@
         "sebi-proposes-open-market-stock-exchange-buyback-framework-66-day-window-3-min",
         "skyroot-aerospace-becomes-indias-1st-space-tech-unicorn",
         "south-coast-railway-scor-notified-as-indias-18th-railway-zone",
+        "sports-athletic-championships-may-2026",
         "state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
+        "sunday-times-rich-list-2026-hinduja-group-retains-top-spot-for-6th-consecutive-year",
+        "taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
         "times-higher-education-the-asia-university-rankings-2026",
+        "un-global-forest-goals-report-2026-india-ranks-3rd-globally-in-net-forest-area-gain",
+        "union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
+        "union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
+        "us-ustr-releases-special-301-report-india-retained-on-priority-watch-list",
         "world-bank-state-trends-of-carbon-pricing-2026",
         "world-migration-report-2026-iom"
       ],
@@ -62935,6 +64855,22 @@
       "sourceOnlyCount": 240,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 240 canonical topics for 2026-06 week-1-4."
+    },
+    {
+      "batchId": "20-may-2026-smartkeeda-monthly",
+      "sourceName": "SMARTKEEDA",
+      "dateRange": "2026-05 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 33,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 33,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 33,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 33 canonical topics for 2026-05 week-1-4."
     }
   ]
 }
