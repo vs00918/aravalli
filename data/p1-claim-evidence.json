@@ -1,0 +1,1307 @@
+{
+  "metadata": {
+    "datasetVersion": "1.0.0",
+    "auditStandard": "W8.3 Claim-Level Verification Standard",
+    "generatedAt": "2026-08-28T14:17:02.898Z",
+    "totalP1Topics": 45,
+    "totalClaimsAudited": 61,
+    "topicStatusSummary": {
+      "FULLY_VERIFIED": 39,
+      "PARTIALLY_VERIFIED": 0,
+      "NOT_VERIFIED": 0,
+      "CONFLICT": 0,
+      "DUPLICATE_PENDING": 6
+    },
+    "certificationStatus": "NOT_YET_CERTIFIED"
+  },
+  "topics": [
+    {
+      "topicSlug": "62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+      "canonicalTitle": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+      "sourceProvenance": "CGB Mentors & Smartkeeda",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:15-35",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Policy Repo Rate",
+          "canonicalValue": "5.25% (Unchanged)",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "5.25%",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Standing Deposit Facility (SDF) Rate",
+          "canonicalValue": "5.00%",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "5.00%",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Marginal Standing Facility (MSF) & Bank Rate",
+          "canonicalValue": "5.50%",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "5.50%",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "MPC Meeting Dates",
+          "canonicalValue": "August 3–5, 2026",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § Header",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "August 3 to 5, 2026",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Governor / Chair",
+          "canonicalValue": "Sanjay Malhotra",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § Members List",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Shri Sanjay Malhotra (Governor & Chair)",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "MPC Members Composition",
+          "canonicalValue": "External: Dr. Nagesh Kumar, Saugata Bhattacharya, Prof. Ram Singh; Internal: Sanjay Malhotra, Dr. Poonam Gupta, Indranil Bhattacharyya",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § Members List",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Dr. Nagesh Kumar, Shri Saugata Bhattacharya, Prof. Ram Singh, Dr. Poonam Gupta, Shri Indranil Bhattacharyya, Shri Sanjay Malhotra",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Real GDP Growth FY27 Projection",
+          "canonicalValue": "6.7% (Q1: 7.0%, Q2: 6.4%, Q3: 6.5%, Q4: 6.8%)",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 8",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "6.7% (Q1: 7.0%, Q2: 6.4%, Q3: 6.5%, Q4: 6.8%)",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "CPI Inflation FY27 Projection",
+          "canonicalValue": "5.0% (Q2: 4.7%, Q3: 5.9%, Q4: 5.5%)",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 11",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "5.0% (Q2: 4.7%, Q3: 5.9%, Q4: 5.5%)",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Core Inflation FY27",
+          "canonicalValue": "4.3%",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) August 3 to 5, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/MPC-62",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58210",
+          "sourceLocation": "RBI PR 2026-27/MPC-62 § 12",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "4.3%",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
+      "canonicalTitle": "RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:37-51",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Continuous Operating Track Record",
+          "canonicalValue": "Minimum 10 years continuous operations",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Revised Guidelines for On-Tap Licensing of Universal and Urban Co-operative Banks",
+          "documentIdentifier": "RBI/2026-27/104 DOR.HGG.GOV.REC.44/12.01.001/2026-27",
+          "documentDate": "2026-08-06",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12644&Mode=0",
+          "sourceLocation": "RBI Notification 12644 § 3(a)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Minimum continuous operating track record of 10 years",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Deposit Base Threshold",
+          "canonicalValue": "Minimum ₹10,000 crore",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Revised Guidelines for On-Tap Licensing of Universal and Urban Co-operative Banks",
+          "documentIdentifier": "RBI/2026-27/104 DOR.HGG.GOV.REC.44/12.01.001/2026-27",
+          "documentDate": "2026-08-06",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12644&Mode=0",
+          "sourceLocation": "RBI Notification 12644 § 3(b)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Audited deposit base of not less than ₹10,000 crore",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Net Worth / NOF & CRAR",
+          "canonicalValue": "Net Worth: Minimum ₹300 crore; CRAR: Minimum 12%; Net NPA: Maximum 3%",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Revised Guidelines for On-Tap Licensing of Universal and Urban Co-operative Banks",
+          "documentIdentifier": "RBI/2026-27/104 DOR.HGG.GOV.REC.44/12.01.001/2026-27",
+          "documentDate": "2026-08-06",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12644&Mode=0",
+          "sourceLocation": "RBI Notification 12644 § 3(c)-(e)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Net worth of ₹300 crore, CRAR of 12.0%, Net NPA ≤ 3.0%",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+      "canonicalTitle": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:53-63",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Upper Layer NBFCs Count & Key Inclusions",
+          "canonicalValue": "17 entities (Tata Sons >₹2T, REC, PFC, IRFC, HUDCO included)",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Scale Based Regulation (SBR) for NBFCs — Upper Layer List for 2026-27",
+          "documentIdentifier": "RBI Press Release 2026-27/842",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58219",
+          "sourceLocation": "RBI PR 2026-27/842 § 1-2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "17 Non-Banking Financial Companies in the Upper Layer",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "5-Year Lock-In Rule",
+          "canonicalValue": "Enhanced regulation applies for at least 5 years even if criteria drop later",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Scale Based Regulation (SBR) for NBFCs — Upper Layer List for 2026-27",
+          "documentIdentifier": "RBI Press Release 2026-27/842",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58219",
+          "sourceLocation": "RBI PR 2026-27/842 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Subject to enhanced regulatory framework for at least five years",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+      "canonicalTitle": "RBI Loan Recovery Directions & Financed Smartphone Lockout Norms",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:65-79",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Permissible Calling Window",
+          "canonicalValue": "7:00 AM to 7:00 PM only",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Fair Practices Code — Standards for Loan Recovery by Regulated Entities",
+          "documentIdentifier": "RBI/2026-27/101 DOR.MCS.REC.39/01.01.001/2026-27",
+          "documentDate": "2026-08-04",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12638&Mode=0",
+          "sourceLocation": "RBI Notification 12638 § 6(b)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Between 0700 hours and 1900 hours",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Remote Lockout Prohibition",
+          "canonicalValue": "Prohibits disabling primary emergency communication on financed mobile devices",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Fair Practices Code — Standards for Loan Recovery by Regulated Entities",
+          "documentIdentifier": "RBI/2026-27/101 DOR.MCS.REC.39/01.01.001/2026-27",
+          "documentDate": "2026-08-04",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12638&Mode=0",
+          "sourceLocation": "RBI Notification 12638 § 8(a)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Prohibition on disabling emergency dialling or fundamental handset access",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+      "canonicalTitle": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:81-93",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Pillar 3 Revised Effective Date",
+          "canonicalValue": "Deferred to April 1, 2027",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Basel III Framework on Market Discipline (Pillar 3) — Deferment of Implementation",
+          "documentIdentifier": "RBI/2026-27/98 DOR.CAP.REC.33/21.06.201/2026-27",
+          "documentDate": "2026-08-03",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12631&Mode=0",
+          "sourceLocation": "RBI Notification 12631 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Deferred to April 1, 2027",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+      "canonicalTitle": "Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "01-august-2026-cgb-part-1.md:95-108",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Swap Concession & PSL Relief",
+          "canonicalValue": "100 bps swap discount; 50% PSL credit for incremental mobilization",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "USD/INR Forex Swap Window for Incremental FCNR(B) and NRE Deposits",
+          "documentIdentifier": "RBI/2026-27/95 FMD.MOAG.No.04/01.01.001/2026-27",
+          "documentDate": "2026-08-02",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12625&Mode=0",
+          "sourceLocation": "RBI Notification 12625 § 2-3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "100 bps below market forward curve; 50% PSL weightage",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
+      "canonicalTitle": "RBI Draft Master Directions: Interest Rates on Loans and Advances 2026",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "02-august-2026-cgb-part-2.md:15-32",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Daily Compounding Ban on Penal Charges",
+          "canonicalValue": "Daily compounding of penal interest prohibited; mandatory reset periodicity linked to benchmark",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Draft Master Direction — Reserve Bank of India (Interest Rates on Advances) Directions, 2026",
+          "documentIdentifier": "RBI Draft Circular DOR.DIR.REC.47/13.03.00/2026-27",
+          "documentDate": "2026-08-14",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58288",
+          "sourceLocation": "Draft Direction § 7(iv)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Penal charges shall not be capitalised / no daily compounding",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026",
+      "canonicalTitle": "RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "02-august-2026-cgb-part-2.md:34-52",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Applicability Asset Size Thresholds",
+          "canonicalValue": "Mandatory for deposit NBFCs, non-deposit NBFCs ≥₹5,000 crore, deposit UCBs ≥₹500 crore",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Reserve Bank of India (Internal Ombudsman) Directions, 2026",
+          "documentIdentifier": "RBI/2026-27/112 CEPD.PR.No.09/13.01.001/2026-27",
+          "documentDate": "2026-08-15",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12680&Mode=0",
+          "sourceLocation": "RBI Notification 12680 § 2(1)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "NBFCs ≥₹5,000 crore; deposit-taking UCBs ≥₹500 crore",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
+      "canonicalTitle": "RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "02-august-2026-cgb-part-2.md:54-72",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Single RPT Exposure Limit",
+          "canonicalValue": "10% of Tier-1 Capital ceiling on single related party entity; 25% aggregate",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Prudential Norms on Related Party Transactions and Large Exposures",
+          "documentIdentifier": "RBI/2026-27/118 DOR.CRE.REC.52/21.01.002/2026-27",
+          "documentDate": "2026-08-16",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12692&Mode=0",
+          "sourceLocation": "RBI Notification 12692 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Single RPT: 10.0% of Tier 1 Capital; Aggregate: 25.0%",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
+      "canonicalTitle": "MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "02-august-2026-cgb-part-2.md:74-92",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "New CPI Base Year & Food Weight",
+          "canonicalValue": "Base year revised to 2023-24 (from 2012); Food weight reduced to ~38.6% (from 45.86%)",
+          "verificationAuthority": "Ministry of Statistics & Programme Implementation (MoSPI)",
+          "documentTitle": "Modernisation of National Macroeconomic Series — Revision of Base Year to 2023-24",
+          "documentIdentifier": "PIB Press Release ID: 2045911",
+          "documentDate": "2026-08-18",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2045911",
+          "sourceLocation": "PIB PRID 2045911 § 3-4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "CPI base year: 2023-24=100; Food weight: ~38.6%",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending",
+      "canonicalTitle": "RBI Eases Risk Weights on NBFC Infrastructure Project Lending",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "03-january-2026-cgb.md:12-30",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Risk Weight Reduction to 75%",
+          "canonicalValue": "Reduced from 100% to 75% for bank exposure to AAA/AA rated NBFC-IFCs",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Bank Credit to Non-Banking Financial Companies (NBFCs) for Infrastructure Lending — Risk Weights",
+          "documentIdentifier": "RBI/2025-26/82 DOR.CAP.REC.71/21.06.201/2025-26",
+          "documentDate": "2026-01-12",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12410&Mode=0",
+          "sourceLocation": "RBI Notification 12410 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Risk weight lowered to 75 per cent",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "dicgc-notifies-risk-based-premium-rbp-framework-for-deposit-insurance",
+      "canonicalTitle": "DICGC Notifies Risk-Based Premium (RBP) Framework for Deposit Insurance",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "03-january-2026-cgb.md:32-50",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Risk-Based Premium Grid",
+          "canonicalValue": "Calibrated between 10 paise and 15 paise per ₹100 of assessable deposits",
+          "verificationAuthority": "Deposit Insurance and Credit Guarantee Corporation (DICGC / RBI)",
+          "documentTitle": "Introduction of Risk-Based Premium (RBP) Framework for Insured Banks",
+          "documentIdentifier": "DICGC Notification 2026/01",
+          "documentDate": "2026-01-18",
+          "officialUrl": "https://www.dicgc.org.in/Circulars/RBP_Framework_2026.pdf",
+          "sourceLocation": "DICGC Circular 2026/01 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "10 paise to 15 paise per ₹100 of assessable deposits",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh",
+      "canonicalTitle": "RBI Revises MSME Lending Norms: Collateral-Free Limit Raised to ₹20 Lakh",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "03-january-2026-cgb.md:52-68",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Collateral-Free Ceiling",
+          "canonicalValue": "Raised from ₹10 lakh to ₹20 lakh for all MSE borrowers",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Lending to Micro and Small Enterprises (MSEs) — Collateral Free Loans",
+          "documentIdentifier": "RBI/2025-26/89 FIDD.MSME.BC.No.14/06.02.031/2025-26",
+          "documentDate": "2026-01-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12428&Mode=0",
+          "sourceLocation": "RBI Notification 12428 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Enhanced from ₹10 lakh to ₹20 lakh",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-notifies-amended-ecb-framework-borrowing-limit-raised-to-1-billion",
+      "canonicalTitle": "RBI Notifies Amended ECB Framework: Borrowing Limit Raised to $1 Billion",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "03-january-2026-cgb.md:70-86",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Automatic Route Limit",
+          "canonicalValue": "Raised from $750 million to $1.0 billion per financial year",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Master Direction — External Commercial Borrowings, Trade Credits and Structured Obligations (Amendment)",
+          "documentIdentifier": "RBI/2025-26/94 FED.DIR.No.18/02.02.001/2025-26",
+          "documentDate": "2026-01-28",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12440&Mode=0",
+          "sourceLocation": "RBI Notification 12440 § 3(i)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "USD 1,000 million (USD 1 billion) or equivalent per financial year",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "16th-finance-commission-submits-devolution-report-for-20262031-41-retained",
+      "canonicalTitle": "16th Finance Commission Submits Devolution Report for 2026–2031 (41% Retained)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "04-february-2026-cgb.md:12-32",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Vertical Tax Devolution Share & Chair",
+          "canonicalValue": "41% of net divisible tax pool retained for States; Chaired by Dr. Arvind Panagariya",
+          "verificationAuthority": "16th Finance Commission of India",
+          "documentTitle": "Report of the 16th Finance Commission for 2026-2031",
+          "documentIdentifier": "PIB Press Release ID: 2008412",
+          "documentDate": "2026-02-05",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2008412",
+          "sourceLocation": "PIB PRID 2008412 § 1-3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "41 per cent vertical tax devolution; Dr. Arvind Panagariya",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
+      "canonicalTitle": "Insolvency & Bankruptcy Code (Amendment) Bill, 2025: Introduction of CIIRP & Structural Timelines",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "04-february-2026-cgb.md:34-52",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "CIIRP & 270-Day Timeline",
+          "canonicalValue": "Creditor-Led Resolution (CIIRP) introduced with strict 270-day outer ceiling",
+          "verificationAuthority": "Parliament of India / Ministry of Corporate Affairs (MCA)",
+          "documentTitle": "The Insolvency and Bankruptcy Code (Amendment) Bill, 2025",
+          "documentIdentifier": "Lok Sabha Bill No. 114 of 2025",
+          "documentDate": "2026-02-12",
+          "officialUrl": "https://sansad.in/ls/legislation/bills/114-2025",
+          "sourceLocation": "Bill 114/2025 Clause 6",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Creditor-Led Insolvency Resolution Process with 270-day timeline",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "government-notifies-income-tax-rules-2026-under-income-tax-act-2025",
+      "canonicalTitle": "Government Notifies Income Tax Rules, 2026 (Under Income-tax Act, 2025)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "04-february-2026-cgb.md:54-72",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Standard Deduction & 87A Rebate",
+          "canonicalValue": "Standard deduction raised to ₹1,00,000; Section 87A full rebate up to ₹12.5 lakh income",
+          "verificationAuthority": "Central Board of Direct Taxes (CBDT) / Ministry of Finance",
+          "documentTitle": "Notification No. G.S.R. 112(E) — Income Tax Rules, 2026",
+          "documentIdentifier": "Gazette Notification G.S.R. 112(E)",
+          "documentDate": "2026-02-18",
+          "officialUrl": "https://egazette.gov.in/WriteReadData/2026/GSR112E.pdf",
+          "sourceLocation": "G.S.R. 112(E) Rule 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Standard deduction ₹1,00,000; Section 87A rebate ₹12.5 lakh",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-responsible-business-conduct-directions-2026-online-fraud-compensation-2fa-mandate",
+      "canonicalTitle": "RBI Responsible Business Conduct Directions 2026: Online Fraud Compensation & 2FA Mandate",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "05-march-2026-cgb.md:12-32",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "30-Day Zero Liability Fraud Reversal",
+          "canonicalValue": "100% refund within 30 days for customer zero liability online fraud",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Master Direction on Responsible Business Conduct and Customer Protection",
+          "documentIdentifier": "RBI/2025-26/112 DPSS.CO.POL.No.19/02.14.008/2025-26",
+          "documentDate": "2026-03-08",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12512&Mode=0",
+          "sourceLocation": "RBI Notification 12512 § 8(c)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Shadow credit within 10 days, full reversal within 30 days",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
+      "canonicalTitle": "RBI Master Guidelines on Bank Dividend Declaration & Adjusted PAT Formula",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "05-march-2026-cgb.md:34-52",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Dividend Payout Cap",
+          "canonicalValue": "Maximum 50% payout ratio calculated on Adjusted PAT",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Declaration of Dividend by Commercial Banks and Adjusted Net Profit Computation",
+          "documentIdentifier": "RBI/2025-26/118 DOR.ACC.REC.84/21.02.007/2025-26",
+          "documentDate": "2026-03-14",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12524&Mode=0",
+          "sourceLocation": "RBI Notification 12524 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Maximum 50 per cent of Adjusted Profit After Tax",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-finalizes-expected-credit-loss-ecl-provisioning-norms-effective-april-1-2027",
+      "canonicalTitle": "RBI Finalizes Expected Credit Loss (ECL) Provisioning Norms (Effective April 1, 2027)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "05-march-2026-cgb.md:54-74",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "ECL Rollout Date & 5-Year Capital Transition",
+          "canonicalValue": "Effective April 1, 2027; 5-year transitional amortization for CET1 capital impact",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Prudential Framework for Provisioning based on Expected Credit Loss (ECL)",
+          "documentIdentifier": "RBI/2025-26/124 DOR.PRU.REC.91/21.04.048/2025-26",
+          "documentDate": "2026-03-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12538&Mode=0",
+          "sourceLocation": "RBI Notification 12538 § 2 & Annex A",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "April 1, 2027 effective date; 5-year transitional spread",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-finalizes-basel-iii-standardised-credit-risk-capital-directions",
+      "canonicalTitle": "RBI Finalizes Basel III Standardised Credit Risk Capital Directions",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "05-march-2026-cgb.md:76-96",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Standardised Output Floor",
+          "canonicalValue": "Aggregate output floor set at 72.5% of standardised RWA",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Basel III Capital Regulations — Standardised Approach for Credit Risk (SCRA)",
+          "documentIdentifier": "RBI/2025-26/130 DOR.CAP.REC.98/21.06.201/2025-26",
+          "documentDate": "2026-03-28",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12549&Mode=0",
+          "sourceLocation": "RBI Notification 12549 § 6",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Output floor of 72.5 per cent of standardised approaches",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "60th-rbi-monetary-policy-committee-mpc-statement-april-2026",
+      "canonicalTitle": "60th RBI Monetary Policy Committee (MPC) Statement (April 2026)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "06-april-2026-cgb.md:12-32",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "April 2026 Policy Repo Rate",
+          "canonicalValue": "5.25% (Unchanged)",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Resolution of the Monetary Policy Committee (MPC) April 6 to 8, 2026",
+          "documentIdentifier": "RBI Press Release 2026-27/02",
+          "documentDate": "2026-04-08",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57620",
+          "sourceLocation": "RBI PR 2026-27/02 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "5.25%",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-cancels-banking-license-of-paytm-payments-bank-limited-under-section-224",
+      "canonicalTitle": "RBI Cancels Banking License of Paytm Payments Bank Limited under Section 22(4)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "07-may-2026-cgb.md:120-140",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Statutory Section Applied",
+          "canonicalValue": "Section 22(4) of Banking Regulation Act, 1949",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Cancellation of Licence of Paytm Payments Bank Limited under Section 22(4) of Banking Regulation Act, 1949",
+          "documentIdentifier": "RBI Press Release 2026-27/294",
+          "documentDate": "2026-05-10",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57912",
+          "sourceLocation": "RBI PR 2026-27/294 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Section 22(4) of the Banking Regulation Act, 1949",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65",
+      "canonicalTitle": "623rd RBI Central Board Meeting: Record ₹2.86 Lakh Crore Dividend & CRB at 6.5%",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "07-may-2026-cgb.md:11-42",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Surplus Dividend Transferred to Government",
+          "canonicalValue": "₹2,86,588.46 crore",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "623rd Meeting of the Central Board of the Reserve Bank of India",
+          "documentIdentifier": "RBI Press Release 2026-27/388",
+          "documentDate": "2026-05-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58014",
+          "sourceLocation": "RBI PR 2026-27/388 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹2,86,588.46 crore",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Contingent Risk Buffer (CRB) Allocation Amount",
+          "canonicalValue": "₹1,09,379.64 crore",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "623rd Meeting of the Central Board of the Reserve Bank of India",
+          "documentIdentifier": "RBI Press Release 2026-27/388",
+          "documentDate": "2026-05-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58014",
+          "sourceLocation": "RBI PR 2026-27/388 § 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹1,09,379.64 crore transferred to CRB",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Contingent Risk Buffer (CRB) Percentage",
+          "canonicalValue": "6.5% of total balance sheet",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "623rd Meeting of the Central Board of the Reserve Bank of India",
+          "documentIdentifier": "RBI Press Release 2026-27/388",
+          "documentDate": "2026-05-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58014",
+          "sourceLocation": "RBI PR 2026-27/388 § 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "6.50 per cent",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Total Balance Sheet Size",
+          "canonicalValue": "₹91,97,121.08 crore",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "623rd Meeting of the Central Board of the Reserve Bank of India",
+          "documentIdentifier": "RBI Press Release 2026-27/388",
+          "documentDate": "2026-05-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58014",
+          "sourceLocation": "RBI PR 2026-27/388 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹91,97,121.08 crore",
+          "matchStatus": "MATCH"
+        },
+        {
+          "claim": "Balance Sheet Expansion Rate",
+          "canonicalValue": "20.61%",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "623rd Meeting of the Central Board of the Reserve Bank of India",
+          "documentIdentifier": "RBI Press Release 2026-27/388",
+          "documentDate": "2026-05-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58014",
+          "sourceLocation": "RBI PR 2026-27/388 § 4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "20.61 per cent increase",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-finalizes-revised-lending-housing-loan-norms-for-urban-co-operative-banks-ucbs",
+      "canonicalTitle": "RBI Finalizes Revised Lending & Housing Loan Norms for Urban Co-operative Banks (UCBs)",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "07-may-2026-cgb.md:44-62",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Tier-3/4 Housing Loan Limit",
+          "canonicalValue": "₹1.40 crore per individual borrower",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Housing Loans by Urban Co-operative Banks (UCBs) — Revision in Limits",
+          "documentIdentifier": "RBI/2026-27/32 DOR.CRE.REC.12/07.10.002/2026-27",
+          "documentDate": "2026-05-18",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12590&Mode=0",
+          "sourceLocation": "RBI Notification 12590 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Enhanced to ₹1.40 crore",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-overhauls-foreign-exchange-authorization-forex-correspondent-fxc-model",
+      "canonicalTitle": "RBI Overhauls Foreign Exchange Authorization & Forex Correspondent (FxC) Model",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "06-april-2026-cgb.md:34-52",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Principal Sponsoring Entities",
+          "canonicalValue": "AD Cat-I and AD Cat-II authorized to appoint FxCs for retail currency exchange",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Authorisation of Money Changers and Operations of Forex Correspondents (FxC)",
+          "documentIdentifier": "RBI/2026-27/18 FED.CO.FMD.No.02/02.03.001/2026-27",
+          "documentDate": "2026-04-22",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12570&Mode=0",
+          "sourceLocation": "RBI Notification 12570 § 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "AD Category-I and AD Category-II banks",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "rbi-discontinues-mandatory-investment-fluctuation-reserve-ifr-for-banks",
+      "canonicalTitle": "RBI Discontinues Mandatory Investment Fluctuation Reserve (IFR) for Banks",
+      "sourceProvenance": "CGB Mentors",
+      "canonicalLocation": "06-april-2026-cgb.md:54-72",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "2% IFR Creation Requirement",
+          "canonicalValue": "Mandatory 2% IFR creation on HFT/AFS portfolio abolished under revised investment directions",
+          "verificationAuthority": "Reserve Bank of India (RBI)",
+          "documentTitle": "Prudential Directions for Classification, Valuation and Operation of Investment Portfolio by Commercial Banks",
+          "documentIdentifier": "RBI/2026-27/24 DOR.MRG.REC.08/00-00-003/2026-27",
+          "documentDate": "2026-04-26",
+          "officialUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12578&Mode=0",
+          "sourceLocation": "RBI Notification 12578 § 14",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "2% IFR requirement stands withdrawn",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
+      "canonicalTitle": "Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period",
+      "sourceProvenance": "Smartkeeda Week 2",
+      "canonicalLocation": "08-august-2026-smartkeeda-w2.md:15-44",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Mandated Long-Term TP Durations",
+          "canonicalValue": "4 years for new 4-wheelers (cars); 6 years for new 2-wheelers; ~56% uninsured vehicle baseline",
+          "verificationAuthority": "Supreme Court of India",
+          "documentTitle": "Writ Petition (Civil) No. 295/2012 — S. Rajaseekaran v. Union of India & Ors.",
+          "documentIdentifier": "SCI Judgment WP(C) 295/2012",
+          "documentDate": "2026-08-04",
+          "officialUrl": "https://main.sci.gov.in/supremecourt/2012/295/judgment_04-Aug-2026.pdf",
+          "sourceLocation": "SCI Judgment WP(C) 295/2012 p. 18-24",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "4 years for private cars; 6 years for two-wheelers; 56% uninsured",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
+      "canonicalTitle": "Cabinet Approves GOBARdhan National Circular Bioenergy Scheme with Outlay of ₹23,731 Crore",
+      "sourceProvenance": "Smartkeeda Week 2",
+      "canonicalLocation": "08-august-2026-smartkeeda-w2.md:47-76",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "cabinet-approves-national-circular-bioenergy-scheme-gobardhan-23731-crore-outlay",
+      "claims": [
+        {
+          "claim": "Outlay, Administered Price & Blending",
+          "canonicalValue": "₹23,731 crore for 10 years (FY27–FY36); Administered CBG price ₹2,110/MMBtu; Blending trajectory 3% -> 4% -> 5%",
+          "verificationAuthority": "Union Cabinet / Ministry of Petroleum & Natural Gas (MoPNG)",
+          "documentTitle": "Cabinet Decision: National Circular Bioenergy Scheme — GOBARdhan",
+          "documentIdentifier": "PIB Press Release ID: 2044810",
+          "documentDate": "2026-08-10",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044810",
+          "sourceLocation": "PIB PRID 2044810 § 1-5",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹23,731 crore (10 years); ₹2,110/MMBtu; 3% to 5% blending",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+      "canonicalTitle": "Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS",
+      "sourceProvenance": "Smartkeeda Week 2",
+      "canonicalLocation": "08-august-2026-smartkeeda-w2.md:79-103",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "msmed-amendment-bill-2026-passed-by-parliament-judicial-treds-recovery-reforms",
+      "claims": [
+        {
+          "claim": "ODR Timeline, Pre-Deposit & TReDS Mandate",
+          "canonicalValue": "90-day statutory mediation timeline, 50% arbitral pre-deposit for appeal, mandatory TReDS settlement for CPSEs",
+          "verificationAuthority": "Parliament of India / Ministry of MSME",
+          "documentTitle": "The Micro, Small and Medium Enterprises Development (Amendment) Act, 2026",
+          "documentIdentifier": "Act No. 19 of 2026",
+          "documentDate": "2026-08-07",
+          "officialUrl": "https://sansad.in/ls/legislation/acts/19-2026",
+          "sourceLocation": "Act 19 of 2026 Section 18",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "90-day ODR timeline; 50% pre-deposit; mandatory TReDS",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
+      "canonicalTitle": "MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning",
+      "sourceProvenance": "Smartkeeda Week 2",
+      "canonicalLocation": "08-august-2026-smartkeeda-w2.md:106-129",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "14 Notified Calamities & 80% Primary Pool",
+          "canonicalValue": "Heatwaves and Lightning added (expanding list from 12 to 14); unlocks 80% primary response pool",
+          "verificationAuthority": "Ministry of Home Affairs (MHA) / 16th Finance Commission",
+          "documentTitle": "MHA Order No. 33-04/2026-NDM-I — Operational Guidelines for SDRF & NDRF (2026-31)",
+          "documentIdentifier": "MHA Order 33-04/2026-NDM-I",
+          "documentDate": "2026-08-05",
+          "officialUrl": "https://www.ndmindia.nic.in/guidelines/SDRF_NDRF_2026-31.pdf",
+          "sourceLocation": "MHA Order 33-04/2026-NDM-I p. 4-6",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "14 notified categories with Heatwaves and Lightning; 80% primary SDRF",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "msmed-amendment-bill-2026-passed-by-parliament-judicial-treds-recovery-reforms",
+      "canonicalTitle": "MSMED (Amendment) Bill 2026 Passed by Parliament: Judicial, TReDS & Recovery Reforms",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:15-38",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+      "claims": [
+        {
+          "claim": "TReDS Mandatory CPSE Onboarding",
+          "canonicalValue": "Mandatory invoice settlement via TReDS for CPSEs and large buyers; 90-day ODR timeline",
+          "verificationAuthority": "Parliament of India / Ministry of MSME",
+          "documentTitle": "The Micro, Small and Medium Enterprises Development (Amendment) Act, 2026",
+          "documentIdentifier": "Act No. 19 of 2026",
+          "documentDate": "2026-08-07",
+          "officialUrl": "https://sansad.in/ls/legislation/acts/19-2026",
+          "sourceLocation": "Act 19 of 2026 Section 18",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Mandatory TReDS invoice settlement; 90-day ODR",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "cabinet-approves-national-circular-bioenergy-scheme-gobardhan-23731-crore-outlay",
+      "canonicalTitle": "Cabinet Approves National Circular Bioenergy Scheme: GOBARdhan (₹23,731 Crore Outlay)",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:41-68",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
+      "claims": [
+        {
+          "claim": "Total Financial Outlay & Duration",
+          "canonicalValue": "₹23,731 crore over 10-year window (FY27 to FY36)",
+          "verificationAuthority": "Union Cabinet / MoPNG",
+          "documentTitle": "PIB Press Release: Cabinet approves National Circular Bioenergy Scheme — GOBARdhan",
+          "documentIdentifier": "PIB Press Release ID: 2044810",
+          "documentDate": "2026-08-10",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044810",
+          "sourceLocation": "PIB PRID 2044810 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹23,731 crore over 10 years (FY27 to FY36)",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "kcc-miss-assessment-1-investment-generates-230-net-agricultural-value",
+      "canonicalTitle": "KCC-MISS Assessment: ₹1 Investment Generates ₹2.30 Net Agricultural Value",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:71-90",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Benefit-Cost Multiplier Ratio",
+          "canonicalValue": "₹1 budgetary expenditure generates ₹2.30 in net agricultural value addition",
+          "verificationAuthority": "Ministry of Agriculture & Farmers Welfare / NITI Aayog",
+          "documentTitle": "Third-Party Evaluation Report on Modified Interest Subvention Scheme (MISS) & Kisan Credit Card (KCC)",
+          "documentIdentifier": "PIB Press Release ID: 2044718",
+          "documentDate": "2026-08-08",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044718",
+          "sourceLocation": "PIB PRID 2044718 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹1 generates ₹2.30 in net agricultural value",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "pradhan-mantri-viksit-bharat-rojgar-yojana-pm-vbry-two-part-incentive-structure",
+      "canonicalTitle": "Pradhan Mantri Viksit Bharat Rojgar Yojana (PM-VBRY): Two-Part Incentive Structure",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:93-115",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Part A & Part B Formula",
+          "canonicalValue": "Part A: One-month wage up to ₹15,000 in 3 installments; Part B: EPFO subsidy for employers",
+          "verificationAuthority": "Ministry of Labour and Employment / EPFO",
+          "documentTitle": "Operational Guidelines: Pradhan Mantri Viksit Bharat Rojgar Yojana (PM-VBRY)",
+          "documentIdentifier": "PIB Press Release ID: 2044590",
+          "documentDate": "2026-08-06",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044590",
+          "sourceLocation": "PIB PRID 2044590 § 2-4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Part A: ₹15,000 wage support; Part B: Employer EPFO reimbursement",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push",
+      "canonicalTitle": "Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:118-135",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Consolidated Fiscal Envelope",
+          "canonicalValue": "₹1.90 lakh crore combined manufacturing support",
+          "verificationAuthority": "Ministry of Electronics and Information Technology (MeitY) / Union Cabinet",
+          "documentTitle": "Cabinet approves Next-Gen Electronics & Semicon 2.0 PLI Framework",
+          "documentIdentifier": "PIB Press Release ID: 2044920",
+          "documentDate": "2026-08-09",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044920",
+          "sourceLocation": "PIB PRID 2044920 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "₹1.90 lakh crore total fiscal allocation",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
+      "canonicalTitle": "Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone",
+      "sourceProvenance": "CGB Mentors (PIB 1st-10th Aug)",
+      "canonicalLocation": "09-august-2026-cgb-pib.md:138-155",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Cumulative GMV Milestone",
+          "canonicalValue": "Surpassed ₹20 lakh crore ($240 billion) in cumulative procurement value",
+          "verificationAuthority": "Ministry of Commerce and Industry / GeM SPV",
+          "documentTitle": "GeM Celebrates 10 Years of Public Procurement Excellence",
+          "documentIdentifier": "PIB Press Release ID: 2044888",
+          "documentDate": "2026-08-09",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2044888",
+          "sourceLocation": "PIB PRID 2044888 § 1",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Cumulative GMV crossed ₹20 lakh crore ($240 billion)",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "exim-bank-replaces-rbi-as-implementing-agency-for-export-credit-interest-subvention",
+      "canonicalTitle": "EXIM Bank Replaces RBI as Implementing Agency for Export Credit Interest Subvention",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:15-30",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Nodal Agency Transfer",
+          "canonicalValue": "EXIM Bank appointed nodal implementing agency for IES, taking over from RBI",
+          "verificationAuthority": "Ministry of Commerce and Industry / Export-Import Bank of India (EXIM Bank)",
+          "documentTitle": "Trade Notice No. 14/2026-27 — Implementation of Interest Equalisation Scheme (IES)",
+          "documentIdentifier": "DGFT Trade Notice 14/2026-27",
+          "documentDate": "2026-08-18",
+          "officialUrl": "https://www.dgft.gov.in/CP/?opt=trade-notices/TN14_2026-27.pdf",
+          "sourceLocation": "DGFT Trade Notice 14/2026-27 § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Administration of IES transferred from RBI to EXIM Bank",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "mospi-adopts-producer-price-index-ppi-double-deflation-method-for-gdp-estimation",
+      "canonicalTitle": "MoSPI Adopts Producer Price Index (PPI) & Double Deflation Method for GDP Estimation",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:33-49",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Double Deflation Methodology",
+          "canonicalValue": "Independent deflation of gross output and intermediate consumption via PPI for real GVA calculation",
+          "verificationAuthority": "Ministry of Statistics & Programme Implementation (MoSPI)",
+          "documentTitle": "MoSPI White Paper on National Accounts Modernisation & Double Deflation",
+          "documentIdentifier": "MoSPI NAD White Paper 2026/04",
+          "documentDate": "2026-08-19",
+          "officialUrl": "https://mospi.gov.in/sites/default/files/white_paper_double_deflation_2026.pdf",
+          "sourceLocation": "White Paper 2026/04 § 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Double deflation for real GVA estimation",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-mdr-charges",
+      "canonicalTitle": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI MDR Charges",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:52-64",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "MDR Enabling Clause for P2M",
+          "canonicalValue": "Enables capped MDR on high-turnover merchant P2M transactions by amending Section 10A of PSS Act",
+          "verificationAuthority": "Parliament of India / Ministry of Finance",
+          "documentTitle": "The Taxation and Other Laws (Amendment) Bill, 2026",
+          "documentIdentifier": "Lok Sabha Bill No. 138 of 2026",
+          "documentDate": "2026-08-20",
+          "officialUrl": "https://sansad.in/ls/legislation/bills/138-2026",
+          "sourceLocation": "Bill 138 of 2026 Clause 14",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Enables prescribed tiered MDR on high-turnover P2M",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "cbdc-based-direct-benefit-transfer-dbt-launched-under-pmgkay-in-chandigarh-dnh",
+      "canonicalTitle": "CBDC-Based Direct Benefit Transfer (DBT) Launched under PMGKAY in Chandigarh & DNH",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:67-78",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Programmable CBDC Pilot",
+          "canonicalValue": "Chandigarh and Dadra & Nagar Haveli (DNH); tokens redeemable exclusively at Fair Price Shops",
+          "verificationAuthority": "Ministry of Consumer Affairs, Food & Public Distribution / Reserve Bank of India",
+          "documentTitle": "DFPD Notification: Programmable e₹ Direct Benefit Transfer Pilot in Chandigarh and DNH",
+          "documentIdentifier": "PIB Press Release ID: 2046104",
+          "documentDate": "2026-08-19",
+          "officialUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2046104",
+          "sourceLocation": "PIB PRID 2046104 § 1-3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Programmable e₹ food subsidy DBT pilot in Chandigarh and DNH",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "sebi-proposes-colour-coded-credit-risk-o-meter-for-debt-securities",
+      "canonicalTitle": "SEBI Proposes Colour-Coded \"Credit Risk-o-Meter\" for Debt Securities",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:81-93",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "sebi-proposal-colour-coded-credit-risk-o-meter-for-debt-securities-3-min",
+      "claims": [
+        {
+          "claim": "6 Colour-Coded Bands",
+          "canonicalValue": "6-level risk classification matrix from Green to Red for listed bonds",
+          "verificationAuthority": "Securities and Exchange Board of India (SEBI)",
+          "documentTitle": "SEBI Consultation Paper on Introduction of Colour-Coded Risk-o-Meter for Listed Debt Securities",
+          "documentIdentifier": "SEBI/CP/2026/08/04",
+          "documentDate": "2026-08-21",
+          "officialUrl": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-risk-o-meter_85412.html",
+          "sourceLocation": "SEBI Consultation Paper § 2",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "6-tier colour-coded Risk-o-Meter spectrum",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "sebi-draft-settlement-regulations-2026-fast-track-route-for-cases-up-to-10-lakh",
+      "canonicalTitle": "SEBI Draft Settlement Regulations 2026: Fast-Track Route for Cases up to ₹10 Lakh",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:96-108",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Fast-Track Ceiling & Turnaround",
+          "canonicalValue": "Cases involving violations up to ₹10 lakh settled within 60 days via summary route",
+          "verificationAuthority": "Securities and Exchange Board of India (SEBI)",
+          "documentTitle": "Consultation Paper on Draft Securities and Exchange Board of India (Settlement Proceedings) (Amendment) Regulations, 2026",
+          "documentIdentifier": "SEBI/LAD-NRO/GN/2026/89",
+          "documentDate": "2026-08-22",
+          "officialUrl": "https://www.sebi.gov.in/legal/regulations/aug-2026/draft-settlement-regulations_85420.html",
+          "sourceLocation": "Draft Regulation § 4(a)",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Cases up to ₹10 lakh settled within 60 days",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    },
+    {
+      "topicSlug": "cbdt-operationalises-foreign-assets-of-small-taxpayers-disclosure-scheme-fast-ds-2026",
+      "canonicalTitle": "CBDT Operationalises Foreign Assets of Small Taxpayers-Disclosure Scheme (FAST-DS), 2026",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:111-127",
+      "isDuplicateCandidate": true,
+      "duplicateWith": "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026-3-min",
+      "claims": [
+        {
+          "claim": "Eligibility & Declaration Window",
+          "canonicalValue": "Aggregate undeclared foreign movable assets up to ₹20 lakh; window open Aug 16 to Dec 31, 2026",
+          "verificationAuthority": "Central Board of Direct Taxes (CBDT) / Ministry of Finance",
+          "documentTitle": "Notification No. 78/2026 — Foreign Assets of Small Taxpayers-Disclosure Scheme Rules, 2026",
+          "documentIdentifier": "Notification No. 78/2026/F. No. 370142/18/2026-TPL",
+          "documentDate": "2026-08-23",
+          "officialUrl": "https://incometaxindia.gov.in/communications/notification_78_2026.pdf",
+          "sourceLocation": "Notification 78/2026 Rule 2-4",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Assets up to ₹20 lakh; window August 16 to December 31, 2026",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "DUPLICATE_PENDING"
+    },
+    {
+      "topicSlug": "national-co-operative-development-corporation-ncdc-amendment-bill-2026-passed",
+      "canonicalTitle": "National Co-operative Development Corporation (NCDC) Amendment Bill, 2026 Passed",
+      "sourceProvenance": "Smartkeeda Week 3",
+      "canonicalLocation": "10-august-2026-smartkeeda-w3.md:130-144",
+      "isDuplicateCandidate": false,
+      "duplicateWith": null,
+      "claims": [
+        {
+          "claim": "Authorized Capital Enhancement",
+          "canonicalValue": "Authorized capital enhanced from ₹100 crore to ₹5,000 crore",
+          "verificationAuthority": "Parliament of India / Ministry of Cooperation",
+          "documentTitle": "The National Co-operative Development Corporation (Amendment) Act, 2026",
+          "documentIdentifier": "Act No. 23 of 2026",
+          "documentDate": "2026-08-24",
+          "officialUrl": "https://sansad.in/ls/legislation/acts/23-2026",
+          "sourceLocation": "Act 23 of 2026 Section 3",
+          "evidenceType": "DIRECT_OFFICIAL_TEXT",
+          "officialValue": "Enhanced from ₹100 crore to ₹5,000 crore",
+          "matchStatus": "MATCH"
+        }
+      ],
+      "topicVerificationStatus": "FULLY_VERIFIED"
+    }
+  ]
+}

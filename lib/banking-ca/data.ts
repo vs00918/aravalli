@@ -7,10 +7,14 @@ import {
   ExamTargetProfile
 } from './schema';
 
+let cachedRegistry: BankingCaMasterRegistry | null = null;
+
 /**
  * Loads the compiled Banking CA Master Registry synchronously at build time / in Server Components.
  */
 export function getBankingCaRegistry(): BankingCaMasterRegistry {
+  if (cachedRegistry) return cachedRegistry;
+
   const registryPath = path.join(process.cwd(), 'data/banking-ca-registry.json');
   
   if (!fs.existsSync(registryPath)) {
@@ -22,6 +26,7 @@ export function getBankingCaRegistry(): BankingCaMasterRegistry {
   const raw = fs.readFileSync(registryPath, 'utf8');
   const parsed = JSON.parse(raw);
   const validated = BankingCaMasterRegistrySchema.parse(parsed);
+  cachedRegistry = validated;
   return validated;
 }
 

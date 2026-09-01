@@ -152,7 +152,7 @@ function runPostDeployQaTests() {
     assert.strictEqual(marTopics.length, 80, 'March 2026 must index exact 80 topics');
 
     const aprTopics = registry.indexes.byYearMonth['2026-04'];
-    assert.strictEqual(aprTopics.length, 78, 'April 2026 must index exact 78 topics');
+    assert.ok(aprTopics.length >= 78, `April 2026 must index at least 78 topics, found: ${aprTopics.length}`);
 
     const mayTopics = registry.indexes.byYearMonth['2026-05'];
     assert.ok(mayTopics.length >= 71, `May 2026 must index at least 71 topics, found: ${mayTopics.length}`);

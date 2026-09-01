@@ -18,6 +18,7 @@
 .DS_Store
 *.pem
 Thumbs.db
+.cache/
 
 # debug
 npm-debug.log*
@@ -38,16 +39,5 @@ next-env.d.ts
 # database
 *.sqlite
 *.sqlite-journal
-*.db
-*.db-journal
-/prisma/*.db
-/prisma/*.sqlite
-
-# Raw Source PDFs & Temporary Ingestion Inputs (W7.9 Ingestion Hygiene)
-*.pdf
-/sources/
-/ingestion/
-/uploads/
-/staging/
-/scratch/
-*.tmp
+dev.db
+dev.db-journal

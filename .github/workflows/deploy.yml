@@ -1,4 +1,4 @@
-name: Deploy Banking CA Web App to GitHub Pages
+name: Deploy Mind of Aravalli & Living Codex to GitHub Pages
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
           node-version: 20
           cache: "npm"
 
-      - name: Install Dependencies
+      - name: Install Root Dependencies
         run: npm ci
 
       - name: Generate Prisma Client
@@ -42,7 +42,7 @@ jobs:
       - name: Compile Canonical Knowledge
         run: npm run compile:banking-ca
 
-      - name: Run Test Suites
+      - name: Run Banking Test Suites
         run: |
           npm run test:compiler
           npm run test:search
@@ -55,8 +55,18 @@ jobs:
           npm run type-check
           npm run lint
 
-      - name: Build Static Export
+      - name: Build Banking App Static Export
         run: npm run build
+
+      - name: Build & Test Living Codex
+        run: |
+          cd codex
+          npm ci
+          npm test
+          npm run build
+          cd ..
+          mkdir -p out/ytdecoded
+          cp -r codex/dist/* out/ytdecoded/
 
       - name: Ensure .nojekyll Exists
         run: touch out/.nojekyll

@@ -9,16 +9,16 @@
 
 ```
 VOLUME 6: EXISTENTIAL SOVEREIGNTY, PURPOSE & THE SUMMIT (Ch 36-44)
-True Confidence · Integrated Strength · Solitude · Emotional Granularity · Self-Knowledge · Purpose · The Void
+True Confidence & Pressure Inoculation · Integrated Strength · Solitude · Emotional Granularity · Self-Knowledge · Purpose · The Void
                                     ▲
 VOLUME 5: THE ARCHITECTURE OF SOCIAL SOVEREIGNTY (Ch 25-35)
-Social Fiction Matrix · 3 Forms of Capital · Front/Back Stage · Sociological Imagination · Anomie · Vocal Resonance · Spontaneous Speech · MIT Pedagogy & Sovereign Writing · Social Connectivity · Difficult Conversations · Supercommunication
+Social Fiction Matrix · 3 Forms of Capital · Front/Back Stage · Sociological Imagination · Anomie · Vocal Resonance · Spontaneous Speech · MIT Pedagogy & Sovereign Writing · Social Connectivity & Authenticity · Difficult Conversations · Supercommunication
                                     ▲
 VOLUME 4: HIGH-VELOCITY EXECUTION & ASYMMETRIC LEVERAGE (Ch 18-24)
-First-Principles Outworking · Compounding Gains · 80/20 Leverage · Active Memory
+Paradox of Safety & Hormesis · First-Principles Outworking · Compounding Gains · 80/20 Leverage · Active Memory
                                     ▲
 VOLUME 3: DISMANTLING INTERNAL SABOTEURS (Ch 11-17)
-Procrastination · Perfectionism · Overthinking · Biases · Cognitive Firewall & Razors · Social Comparison
+Procrastination · Action Paradox & Choice Point · Perfectionism · Overthinking · Biases · Cognitive Firewall · Social Comparison
                                     ▲
 VOLUME 2: DAILY SYSTEMS & HABIT ARCHITECTURE (Ch 6-10)
 Circadian Architecture · Monk Mode 5-Pillars · Habit Cascades · Always Day 1
@@ -60,12 +60,12 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
   * *The Streak Fallacy · Beginner's Mind (Shoshin) · 24-Hour Reset*
 
 ### Volume 3: Dismantling Internal Saboteurs
-*Neutralizing subconscious resistance: activation energy collapse, the preparation trap, ego-defensive perfectionism, overthinking rumination loops, cognitive biases, and logical fallacies.*
+*Neutralizing subconscious resistance: activation energy collapse, the preparation trap & ACT choice point, ego-defensive perfectionism, overthinking rumination loops, cognitive biases, and logical fallacies.*
 
 * [Chapter 11: The Architecture of Action & Procrastination Equation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-04-eliminating-procrastination-and-activation-energy.md)
   * *Procrastination Equation · Activation Energy Collapse · Friction Inversion*
-* [Chapter 12: The Action Paradox & The Preparation Trap](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-20-the-action-paradox-and-illusion-of-preparation.md)
-  * *Vicarious Dopamine · Motion vs Action · The 1:6 Ratio*
+* [Chapter 12: The Action Paradox — The Preparation Trap, The Choice Point & The Four 'Playing-It-Safe' Saboteurs](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-20-the-action-paradox-and-illusion-of-preparation.md)
+  * *The Choice Point · Towards vs Away Moves · 4 Playing-It-Safe Saboteurs · Motion vs Action*
 * [Chapter 13: The Perfectionism Paradox & Ego Armor](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-23-the-perfectionism-paradox.md)
   * *Ego Armor · The Polish Trap · The 80% Completion Rule*
 * [Chapter 14: The Architecture of Metacognition & Overthinking](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-17-dismantling-the-overthinking-loop.md)
@@ -78,10 +78,10 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
   * *The Backstage Fallacy · The Package Trade Heuristic · Craft Sovereignty*
 
 ### Volume 4: High-Velocity Execution & Asymmetric Leverage
-*Scaling speed, retention, and strategic leverage: progressive friction, growth error waves, active memory retrieval, 80/20 power laws, and iteration velocity.*
+*Scaling speed, retention, and strategic leverage: progressive friction, the paradox of safety, growth error waves, active memory retrieval, 80/20 power laws, and iteration velocity.*
 
-* [Chapter 18: The Pathology of Comfort & Progressive Friction](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-14-the-pathology-of-comfort-and-progressive-friction.md)
-  * *Homeostasis · Yerkes-Dodson Law · The Hormesis Protocol*
+* [Chapter 18: The Pathology of Comfort — Homeostasis, The Paradox of Safety & Progressive Friction](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-14-the-pathology-of-comfort-and-progressive-friction.md)
+  * *Paradox of Safety · False Humility · Yerkes-Dodson Law · Hormesis Protocol*
 * [Chapter 19: The Neurobiology of Growth & Fixed Mindset](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-11-the-neurobiology-of-growth-and-fixed-mindset.md)
   * *Fixed vs Growth Mindset · Error Waves (ERN/Pe) · The 'Yet' Protocol*
 * [Chapter 20: The Architecture of Memory & Active Recall](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-13-the-architecture-of-memory-and-active-recall.md)
@@ -114,18 +114,18 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
   * *Subtractive Articulation · 5 Authority Leaks · What? So What? Now What? · 60s Micro-Story*
 * [Chapter 32: The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-42-the-architecture-of-high-impact-pedagogy.md)
   * *Reader-Centric Value · Instability Engine · Topic-Stress Mechanics · Cognitive Fences*
-* [Chapter 33: The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine, Levity & The 7 Hooks of Rapport](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-43-the-architecture-of-social-connectivity.md)
-  * *Incomplete Sentence Engine · Comfortable Silence · Eye-Smile Ping · Skill of Levity · Question Engineering*
+* [Chapter 33: The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-43-the-architecture-of-social-connectivity.md)
+  * *Radical Authenticity · Playing It Cool Trap · Incomplete Sentence Engine · Comfortable Silence · Levity*
 * [Chapter 34: The Architecture of Difficult Conversations — Frame of Reference, Sovereign Boundaries & Navigating Unsupportive Circles](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-44-the-architecture-of-difficult-conversations.md)
   * *Thermostat Law · Considered Before Corrected · Curiosity Pivot*
 * [Chapter 35: The Architecture of Supercommunication — The Matching Principle & Three Layers of Dialogue](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-45-the-architecture-of-supercommunication.md)
   * *Matching Principle · Practical vs Emotional vs Social · Neural Synchronization*
 
 ### Volume 6: Existential Sovereignty, Purpose & The Summit
-*Transcending ego and status games: true confidence, integrated strength, unattached execution, sovereign solitude, emotional granularity, self-knowledge, and the power of zero (Shunya).*
+*Transcending ego and status games: true confidence, performance under pressure, integrated strength, unattached execution, sovereign solitude, emotional granularity, self-knowledge, and the power of zero (Shunya).*
 
-* [Chapter 36: The Architecture of True Confidence — Self-Efficacy, Somatic Poise & Undeniable Proof](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-08-the-architecture-of-true-confidence.md)
-  * *Base Stance Calibration · Open-Palm Matrix · 3-5s Eye Contact · Stack of Proof*
+* [Chapter 36: The Architecture of True Confidence — Self-Efficacy, Performance Under Pressure & Somatic Poise](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-08-the-architecture-of-true-confidence.md)
+  * *Distraction Theory · Explicit Monitoring · Pressure Inoculation · Base Stance · Open-Palm Matrix*
 * [Chapter 37: The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-39-the-architecture-of-integrated-strength.md)
   * *Respect Over Likability · Hard-No Boundaries · Keeping Promises to Yourself*
 * [Chapter 38: The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-03-the-three-modes-of-execution.md)
