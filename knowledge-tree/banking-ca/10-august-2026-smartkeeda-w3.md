@@ -576,7 +576,7 @@ The Government of India launched **Central Bank Digital Currency (CBDC)-based Di
 - **Sangeet Natak Akademi Fellowships (Akademi Ratna)**: Conferred on 7 eminent artists: Ramlal Bareth, A.V. Anand, Rita Ganguly, Puru Dadheech, Chittaranjan Jyotishi, Pasumarthi Rattaiah Sarma, and Sudharani Raghupathy (₹3 lakh award).
 - **National Anubhav Awards 2026**: MoPPG&P conferred awards on 15 retiring/retired government and PSB employees; released Pension Mitra handbook.
 - **PMIS Industry Awards**: Mahindra & Mahindra named 'Overall Industry Champion'; HDFC Bank received Pre-Internship Excellence Award; Shriram Finance received Internship Management Excellence Award.
-- **General Dhiraj Seth**: Conferred the 'Honorary Rank of General of the Nepali Army' by Nepal President Ramchandra Paudel at Kathmandu.
+- **General Dhiraj Seth Conferred Honorary Nepali Army General Rank**: Conferred the 'Honorary Rank of General of the Nepali Army' by Nepal President Ramchandra Paudel at Kathmandu.
 
 ### Defence & Space
 - **Exercise Udara Shakti 2026**: Bilateral air exercise between IAF (Rafale, C-17) and Royal Malaysian Air Force (Su-30MKM, F/A-18D) at Subang Air Base, Malaysia.
