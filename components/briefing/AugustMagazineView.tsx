@@ -150,7 +150,7 @@ export function AugustMagazineView({
               <span>{readCount}/{topics.length} read ({readPercent}%)</span>
             </div>
             <span className="text-gray-300 dark:text-gray-700">|</span>
-            <span className="text-[var(--text-subtle)]">~{totalHours}h core study load</span>
+            <span className="text-[var(--text-subtle)]">~{totalHours}h est. active reading</span>
           </div>
         </div>
 

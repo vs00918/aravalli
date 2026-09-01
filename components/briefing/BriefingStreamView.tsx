@@ -165,7 +165,7 @@ export function BriefingStreamView({
           <div className="flex items-center gap-3 text-xs font-mono text-[var(--text-muted)]">
             <span>{topics.length} Topics</span>
             <span>·</span>
-            <span>~{totalMinutes} min study load</span>
+            <span>~{totalMinutes} min est. active reading time</span>
           </div>
         </div>
 

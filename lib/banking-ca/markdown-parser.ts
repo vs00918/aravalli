@@ -60,6 +60,16 @@ export function normalizeCategoryString(catStr: string): CategoryId | null {
   return null;
 }
 
+export function sanitizeTitle(rawTitle: string): string {
+  if (!rawTitle) return '';
+  return rawTitle
+    .trim()
+    .replace(/\s*\(\~?\s*\d+\s*min\)\s*(\*\*)?$/i, '$1') // Strip trailing time annotation (e.g. (~3 min))
+    .replace(/^(\*\*|`)+|(\*\*|`)+$/g, '')               // Strip outer markdown bold (**) and code backticks (`)
+    .replace(/\s*\(\~?\s*\d+\s*min\)\s*$/i, '')          // Strip trailing time annotation if previously inside bolding
+    .trim();
+}
+
 function identifyCategory(title: string, content: string): CategoryId {
   const tUpper = title.toUpperCase();
 
@@ -229,7 +239,8 @@ export function parseCanonicalMarkdownFile(
     if (h3Match && (currentPart === 'P1' || currentPart === 'P2' || currentPart === 'P3')) {
       flushCurrentTopic();
       const rawTitle = h3Match[2].trim();
-      const isDraft = rawTitle.toUpperCase().includes('DRAFT') || rawTitle.toUpperCase().includes('PROPOSAL');
+      const cleanTitle = sanitizeTitle(rawTitle);
+      const isDraft = cleanTitle.toUpperCase().includes('DRAFT') || cleanTitle.toUpperCase().includes('PROPOSAL');
 
       let defaultPriority: PriorityLevel = 'P1_CRITICAL_DEEP';
       let defaultRevTime = 8;
@@ -242,8 +253,8 @@ export function parseCanonicalMarkdownFile(
       }
 
       currentTopic = {
-        title: rawTitle,
-        slug: generateStableSlug(rawTitle),
+        title: cleanTitle,
+        slug: generateStableSlug(cleanTitle),
         priority: defaultPriority,
         revisionMinutes: defaultRevTime,
         regulatoryStatus: isDraft ? 'DRAFT' : undefined, // Only assign DRAFT if explicit, never default to IMPLEMENTED
@@ -260,12 +271,13 @@ export function parseCanonicalMarkdownFile(
     } else if (p2NumMatch && currentPart === 'P2') {
       flushCurrentTopic();
       const rawTitle = p2NumMatch[2].trim();
+      const cleanTitle = sanitizeTitle(rawTitle);
       const revTime = p2NumMatch[4] ? parseInt(p2NumMatch[4], 10) : 3;
-      const isDraft = rawTitle.toUpperCase().includes('PROPOSAL') || rawTitle.toUpperCase().includes('DRAFT');
+      const isDraft = cleanTitle.toUpperCase().includes('PROPOSAL') || cleanTitle.toUpperCase().includes('DRAFT');
 
       currentTopic = {
-        title: rawTitle,
-        slug: generateStableSlug(rawTitle),
+        title: cleanTitle,
+        slug: generateStableSlug(cleanTitle),
         priority: 'P2_HIGH',
         revisionMinutes: revTime,
         regulatoryStatus: isDraft ? 'PROPOSAL' : undefined,
@@ -282,11 +294,12 @@ export function parseCanonicalMarkdownFile(
     } else if (p3BulletMatch && currentPart === 'P3') {
       flushCurrentTopic();
       const rawTitle = p3BulletMatch[1].trim();
+      const cleanTitle = sanitizeTitle(rawTitle);
       const factBody = p3BulletMatch[2].trim();
 
       currentTopic = {
-        title: rawTitle,
-        slug: generateStableSlug(rawTitle),
+        title: cleanTitle,
+        slug: generateStableSlug(cleanTitle),
         priority: 'P3_MODERATE',
         revisionMinutes: 1,
         regulatoryStatus: undefined, // Non-regulatory factoids have NO regulatory status

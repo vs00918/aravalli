@@ -526,6 +526,6 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **India & State Bank of Vietnam**: Signed MoU on digital payments linking UPI with Vietnam's NAPAS.
+  - **India & State Bank of Vietnam**: Signed MoU on cross-border payments linking UPI with Vietnam's National Payment Corporation (NAPAS) switch.
   - **India & European Central Bank (ECB)**: Signed upgraded central banking supervision cooperation pact.
   - **RBI Innovation Hub (RBIH) & Indian Cyber Crime Coordination Centre (I4C)**: Signed strategic MoU to develop real-time AI mule account prevention network.

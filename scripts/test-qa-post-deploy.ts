@@ -1045,7 +1045,8 @@ function runPostDeployQaTests() {
 
     // Invariant 2: Survivor slugs exist in registry, retired slugs are cleanly removed
     for (const audit of w105Data.migrationAudit) {
-      const survivor = reg.topics[audit.survivorSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.survivorSlug || t.id === audit.survivorSlug);
+      const cleanSlug = audit.survivorSlug.replace(/-3-min$/, '');
+      const survivor = reg.topics[audit.survivorSlug] || reg.topics[cleanSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.survivorSlug || t.slug === cleanSlug || t.id === audit.survivorSlug || t.id === cleanSlug);
       const retired = reg.topics[audit.retiredSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.retiredSlug || t.id === audit.retiredSlug);
 
       assert.ok(survivor, `Survivor topic '${audit.survivorSlug}' must exist in registry`);
