@@ -17,31 +17,30 @@
 * **Status:** CONCLUDED
 
 #### What Happened
-* The 23rd Commonwealth Games took place in **Glasgow, Scotland** from July 23 to August 2, 2026 (4th time Scotland hosted after Edinburgh 1970/1986 and Glasgow 2014). Featuring a cost-streamlined program of 10 able-bodied and 5 integrated para sports, **India finished 4th in the overall medal tally with 39 medals (13 Gold, 17 Silver, 9 Bronze)**.
+* **23rd Commonwealth Games (Glasgow 2026) → India Finishes 4th:**
+  * Held in Glasgow, Scotland from July 23 to August 2, 2026.
+  * India finished **4th overall with 39 medals (13 Gold, 17 Silver, 9 Bronze)** across 10 able-bodied and 5 para disciplines.
 
 #### Must Memorize
-* **Key Tournament Facts:**
-  * **Edition:** 23rd Commonwealth Games | **Motto:** *"Sport Is Just the Beginning"* | **Mascot:** *Finnie the unicorn*.
-  * **Opening Ceremony Flag Bearers for India:** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).
-  * **Indian Contingent:** 122 athletes across 13 disciplines (8 able-bodied, 5 para).
-* **Overall Top 5 Medal Tally:**
-  1. **Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total** (Rank 1)
-  2. **England:** **29 Gold, 45 Silver, 36 Bronze = 110 Total** (Rank 2)
-  3. **Canada:** **19 Gold, 20 Silver, 23 Bronze = 62 Total** (Rank 3)
-  4. **India:** **13 Gold, 17 Silver, 9 Bronze = 39 Total** (Rank 4)
-  5. **Scotland:** **13 Gold, 9 Silver, 17 Bronze = 39 Total** (Rank 5 — India ranked ahead on silver medal tiebreak)
-* **Historic Firsts & Milestone Performances:**
-  * **No. 1 Nation in Boxing:** India topped the boxing medal table with an unprecedented **7 Gold and 3 Silver medals** (10 medals total).
-  * **First Indian Medal:** **Jhandu Kumar** won India's first medal of the Games (Bronze in Men's Heavyweight Para Powerlifting).
-  * **First Indian Gold:** **Mirabai Chanu** (Women's 48kg Weightlifting).
-  * **First-Ever Judo Golds:** **Asmita Dey** (Women's 48kg) and **Harsh Singh** (Men's 60kg) became India's first-ever CWG Judo Gold medalists.
-  * **First-Ever Para-Athletics Gold:** **Sharmila Dhankar** (Women's Shot Put F57).
-  * **Distance Running Record:** **Gulveer Singh** became the first Indian track & field athlete to win two individual medals at a single CWG (Silver in 10,000m, Bronze in 5,000m).
-  * **First Decathlon Medal:** **Tejaswin Shankar** won historic Bronze with 7,976 points.
-  * **First High Jump Silver:** **Sarvesh Kushare** cleared 2.25m for historic silver.
-  * **Men's Javelin:** **Neeraj Chopra** won Silver (85.83m) and **Yash Vir Singh** won Bronze (85.41m) in a double podium.
-* **Next Edition (2030 Centenary Games):**
-  * Awarded to **Ahmedabad, Gujarat, India** (October 2030), marking 100 years since the inaugural 1930 Hamilton Games.
+* **Key Metrics & Medal Standings Ladder:**
+  * **Tournament Identity:** 23rd Edition $mid$ Motto: *"Sport Is Just the Beginning"* $mid$ Mascot: *Finnie the unicorn*.
+  * **Flag Bearers (India):** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).
+  * **Top 5 Medal Tally:**
+    * **1. Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total**
+    * **2. England:** **29 Gold, 45 Silver, 36 Bronze = 110 Total**
+    * **3. Canada:** **19 Gold, 20 Silver, 23 Bronze = 62 Total**
+    * **4. India:** **13 Gold, 17 Silver, 9 Bronze = 39 Total** (Ahead of Scotland on silver tiebreak)
+    * **5. Scotland:** **13 Gold, 9 Silver, 17 Bronze = 39 Total**
+  * **Key Historic Milestones:**
+    * **Top Boxing Nation:** India #1 in boxing table (**7 Gold, 3 Silver**).
+    * **First Medal:** **Jhandu Kumar** (Bronze in Men's Heavyweight Para Powerlifting).
+    * **First Gold:** **Mirabai Chanu** (Women's 48kg Weightlifting).
+    * **First-Ever Judo Golds:** **Asmita Dey** (48kg) & **Harsh Singh** (60kg).
+    * **First-Ever Para-Athletics Gold:** **Sharmila Dhankar** (Shot Put F57).
+    * **First Decathlon Medal:** **Tejaswin Shankar** (Bronze, 7,976 pts).
+    * **Men's Javelin Double Podium:** **Neeraj Chopra** (Silver, 85.83m) & **Yash Vir Singh** (Bronze, 85.41m).
+  * **Next Edition:** **Ahmedabad, Gujarat, India (October 2030)** (Centenary Games).
+  * 🎯 **Recap:** *Glasgow CWG 2026: India 4th (13G, 17S, 9B = 39) $mid$ #1 Boxing (7G) $mid$ Next host: Ahmedabad 2030.*
 
 #### Exam Focus
 * India's finish & medal count: 4th rank, 39 medals (13 Gold, 17 Silver, 9 Bronze).

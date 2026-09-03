@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const codexRoot = path.join(__dirname, '..');
-const repoRoot = path.join(codexRoot, '..');
+const repoRoot = fs.existsSync(path.join(codexRoot, 'knowledge-tree')) ? codexRoot : path.join(codexRoot, '..');
 
 const testPairs = [
   {

@@ -19,6 +19,9 @@
 *.pem
 Thumbs.db
 .cache/
+*.pdf
+/sources/
+/ingestion/
 
 # debug
 npm-debug.log*

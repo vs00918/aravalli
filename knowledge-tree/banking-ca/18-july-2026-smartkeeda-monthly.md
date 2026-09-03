@@ -22,29 +22,23 @@
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India (RBI) released India's external debt data for the financial year ended March 31, 2026, showing total external debt increased by **$26.3 billion** over end-March 2025 to reach **$762.8 billion**, raising the external debt-to-GDP ratio to **20.8%** (up from 19.8% in 2025).
+* **Sovereign & Corporate External Debt Dynamics:**
+  * RBI released external debt data showing total debt rose by **$26.3 Billion** to reach **$762.8 Billion** at end-March 2026.
+  * External debt-to-GDP ratio rose to **20.8%** (from 19.8% in 2025).
 
 #### Know / Understand
-- **Valuation Impact vs Real Borrowing**: Valuation gains from US dollar appreciation against the Indian rupee and other major currencies amounted to **$24.6 billion**; excluding this valuation effect, the actual increase in external debt would have been **$51.0 billion**.
-- **Private Sector Leverage Shift**: General government external debt declined during the year, meaning the entire increase in external debt was driven by corporate, commercial bank, and private non-banking financial institution borrowings.
+* Entire increase was driven by corporate and commercial bank borrowings as General Government external debt declined. Valuation gains from USD appreciation amounted to $24.6 Billion.
 
 #### Must Memorize
-- **Total External Debt**: **$762.8 billion** (Debt-to-GDP: **20.8%**).
-- **Maturity Profile**:
-  - **Long-Term Debt (>1 year)**: **$613.5 billion** (80.4% of total debt, up $11.6B).
-  - **Short-Term Debt (≤1 year)**: **$149.3 billion** (Share rose to **19.6%** from 18.3%).
-  - **Short-Term Debt to Forex Reserves**: Rose to **21.6%** (from 20.1% in 2025).
-- **Debt Service Ratio**: Declined to **5.8%** of current receipts (improved from 6.6% in 2025).
-- **Currency Composition**:
-  - **US Dollar**: **55.5%** (Largest currency component).
-  - **Indian Rupee**: **29.4%** (Second largest).
-  - **Japanese Yen**: **6.4%** | **SDR (IMF)**: **4.3%** | **Euro**: **3.7%**.
-- **Institutional Borrower Share**:
-  - **Non-Financial Corporations**: **36.4%** (Largest debtor group).
-  - **Deposit-Taking Corporations (excl. RBI)**: **26.5%**.
-  - **General Government**: **22.0%**.
-  - **Other Financial Corporations**: **10.2%**.
-- **Instrument Breakdown**: Loans (**34.7%**), Currency & Deposits (**22.3%**), Trade Credit & Advances (**19.0%**), Debt Securities (**16.1%**).
+* **External Debt Indicators Ladder:**
+  * **Total External Debt:** **$762.8 Billion** *(Debt-to-GDP: **20.8%**)*
+  * **Long-Term Debt (>1 year):** **$613.5 Billion** (80.4% share).
+  * **Short-Term Debt (≤1 year):** **$149.3 Billion** (19.6% share; 21.6% of forex reserves).
+  * **Debt Service Ratio:** **5.8%** of current receipts (improved from 6.6%).
+  * **Top Currencies:** **US Dollar (55.5%)**, **Indian Rupee (29.4%)**, Yen (6.4%), SDR (4.3%), Euro (3.7%).
+  * **Largest Debtor Group:** **Non-Financial Corporations (36.4%)**.
+  * **Top Instrument:** **Commercial Loans (34.7%)**.
+  * 🎯 **Recap:** *External debt: $762.8B (20.8% GDP) $mid$ Debt service: 5.8% $mid$ USD 55.5%, INR 29.4% $mid$ Commercial loans 34.7%.*
 
 #### Exam Focus
 - Debt-to-GDP Ratio: 20.8% (end-March 2026).
@@ -64,26 +58,22 @@ The Reserve Bank of India (RBI) released India's external debt data for the fina
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The Central Government notified the **Employees' Provident Fund (EPF) Scheme, 2026**, the **Employees' Pension Scheme (EPS), 2026**, and the **Employees' Deposit Linked Insurance (EDLI) Scheme, 2026** in the Official Gazette under Chapter III of the **Code on Social Security, 2020**, formally superseding the 74-year-old framework of the **EPF & MP Act, 1952**.
+* **Social Security & Labour Code Modernisation → 2026 Scheme Trilogy:**
+  * Notified EPF Scheme 2026, EPS 2026, and EDLI Scheme 2026 under the **Code on Social Security, 2020**, replacing the 1952 framework.
 
 #### Know / Understand
-- **Consolidated Labour Architecture**: Replaces 3 legacy schemes with legally modernised regulations aligned with the unified Code on Social Security, 2020 (which consolidated 9 historic labour laws).
-- **Core Contribution Invariant**: Maintains the statutory 12% employee and 12% employer contribution rates towards the Provident Fund (with 10% continuing for specially notified small/distressed establishments).
+* Consolidates 9 historic labour laws while maintaining 12% standard contribution rates and establishing dispute regularisation windows.
 
 #### Must Memorize
-- **Three Landmark Transitory Measures**:
-  1. **Employees' Enrolment Campaign, 2026** (Valid till **October 31, 2026**): Allows employers to regularise and enrol un-enrolled employees who joined between **April 1, 2009 and March 31, 2026**.
-  2. **VISHWAS, 2026 (Dispute Settlement Mechanism)**: 6-month window (extendable by 6 months) offering significantly reduced penalty/damages rates for defaults occurring prior to **June 14, 2024**:
-     - Defaults up to 2 months: **0.25% per month**.
-     - Defaults 2 to <4 months: **0.50% per month**.
-     - Defaults >4 months: **1.0% per month**.
-  3. **AMNESTY, 2026**: Provides establishments a formal window to regularise EPF coverage exemptions.
-- **EPFO CBT 239th Meeting Decisions**:
-  - **EPF Interest Rate for FY 2025–26**: Recommends **8.25% p.a.** (maintains the same rate for the 3rd consecutive year across FY24, FY25, and FY26).
-  - **Tax-Free Threshold**: Interest earned is tax-exempt on employee annual contributions up to **₹2.5 lakh** (or ₹5 lakh for non-employer contributing funds).
-- **CITES 2.01 Modernisation Platform**:
-  - Auto-settlement limit for advance claims raised from **₹1 lakh to ₹5 lakh** for fully KYC-compliant members.
-  - Members permitted to withdraw up to **75% of PF balance** across 3 simplified categories (essential needs, housing, special circumstances).
+* **Transitory Measures & EPFO Rates Ladder:**
+  * **Enrolment Campaign 2026:** Regularises un-enrolled staff joining between **April 1, 2009 and March 31, 2026** (valid till Oct 31, 2026).
+  * **VISHWAS 2026 Dispute Reductions:**
+    * Defaults $<2$ months: **0.25%/month**.
+    * Defaults 2 to $<4$ months: **0.50%/month**.
+    * Defaults $>4$ months: **1.0%/month**.
+  * **EPF FY26 Interest Rate:** Recommends **8.25% p.a.** (3rd consecutive year).
+  * **CITES 2.01 Platform:** Auto-settlement advance limit raised to **₹5 Lakh** $mid$ **75% withdrawal** across 3 simplified heads.
+  * 🎯 **Recap:** *EPF FY26 interest: 8.25% $mid$ VISHWAS rates: 0.25%, 0.50%, 1.0% $mid$ Auto-settlement limit: ₹5 Lakh.*
 
 #### Exam Focus
 - EPF FY26 Interest Rate: 8.25% (3rd consecutive year).
@@ -103,18 +93,17 @@ The Central Government notified the **Employees' Provident Fund (EPF) Scheme, 20
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India (RBI) expanded its pilot **Benchmark Issuance Strategy (BIS)** for State Government Securities / State Development Loans (SDLs) to 10 additional jurisdictions (9 states and the UT of Delhi), bringing the total coverage to **18 states plus Delhi** to standardize market borrowing calendars.
-
-#### Know / Understand
-- **Market Liquidity & Price Discovery**: State governments previously issued SDLs with fragmented, non-standard maturities that caused liquidity discounts and bidding mismatches. The BIS framework mandates issuing state debt in standardized, pre-announced benchmark maturity tenor buckets (5-year, 10-year, 15-year, and 25+ years) to create liquid secondary market benchmarks matching central G-Secs.
+* **Sub-Sovereign Debt Market Standardisation → BIS Framework:**
+  * RBI expanded the Benchmark Issuance Strategy for State Development Loans (SDLs) to **18 states plus Delhi**.
+  * Standardizes state borrowings into liquid tenor buckets matching central G-Secs under Section 21A of RBI Act, 1934.
 
 #### Must Memorize
-- **Regulatory Authority**: Managed by RBI under **Section 21A of the RBI Act, 1934** and constitutional borrowing approvals under **Article 293(3)**.
-- **Pilot Rollout Phase**:
-  - Phase 1 (Q1 FY27): 9 states (Andhra Pradesh, Bihar, Chhattisgarh, Kerala, Madhya Pradesh, Maharashtra, Rajasthan, Telangana, Uttar Pradesh).
-  - Phase 2 Expansion (Q2 FY27): 9 additional states + UT of Delhi (Total 18 states + Delhi).
-- **Q2 FY27 Borrowing Target**: States and UTs scheduled to raise **₹3.19 trillion** in Q2 FY27 market borrowings.
-- **Gross State Borrowing Scale**: Gross amount raised by states via SDLs rose to **₹12.76 trillion in FY 2025–26** (from ₹10.73 trillion in FY24–25).
+* **BIS Architecture & Borrowing Metrics Ladder:**
+  * **Governing Provisions:** Section 21A of RBI Act, 1934 & Article 293(3) of the Constitution.
+  * **Coverage Scope:** **18 States + UT of Delhi**.
+  * **Q2 FY27 Borrowing Target:** **₹3.19 Trillion**.
+  * **FY26 Gross State Borrowings:** Reached **₹12.76 Trillion** (up from ₹10.73 Trillion in FY25).
+  * 🎯 **Recap:** *SDL BIS expanded to 18 States + Delhi $mid$ Sec 21A RBI Act $mid$ Gross FY26 SDL: ₹12.76 Trillion.*
 
 #### Exam Focus
 - Governing RBI Act Provision: Section 21A of RBI Act, 1934.
@@ -134,17 +123,17 @@ The Reserve Bank of India (RBI) expanded its pilot **Benchmark Issuance Strategy
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The **Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission (Gramin) (VB-G RAM G) Act** came into force nationwide on **July 1, 2026**, officially replacing the historic Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005.
-
-#### Know / Understand
-- **Statutory Expansion**: Enhances the guaranteed rural wage employment entitlement from 100 days to **125 days per household per financial year**, while establishing a mandatory national wage floor of **₹300 per day** to combat rural wage disparities.
+* **Rural Employment Guarantee Overhaul → VB-G RAM G Act:**
+  * VB-G RAM G Act came into force on **July 1, 2026**, officially replacing MGNREGA 2005.
+  * Expanded guaranteed days to **125 days** and introduced a **₹300/day** statutory national wage floor.
 
 #### Must Memorize
-- **Guaranteed Employment Days**: **125 days/year** (Statutory entitlement, up from 100 days under MGNREGA).
-- **Total Annual Outlay**: **₹1,51,282 crore**.
-- **First Mother Sanction**: Union Minister Shivraj Singh Chouhan released the first installment of **₹25,863 crore** to states (following an earlier interim allocation of ₹95,692.31 crore).
-- **Wage Rate Revisions**: National average wage increased by ~10%; statutory floor set so **no state has a wage rate below ₹300/day** (states like UP, Bihar, Jharkhand, WB, Assam, and HP saw increases of 15–25%).
-- **Timely Payment Mandate**: States mandated to disburse wage payments into Aadhaar-seeded accounts within **15 days** of muster roll closure.
+* **VB-G RAM G Entitlements Ladder:**
+  * **Guaranteed Employment:** **125 days/year** per rural household.
+  * **Wage Floor:** Mandatory minimum **₹300 per day** across all states/UTs.
+  * **Scheme Outlay:** **₹1,51,282 Crore** total outlay (1st Mother Sanction: **₹25,863 Crore**).
+  * **Payment Timeline:** Disbursed into Aadhaar-seeded accounts within **15 days** of muster roll closure.
+  * 🎯 **Recap:** *VB-G RAM G: 125 days guaranteed work $mid$ ₹300/day wage floor $mid$ ₹1,51,282 Cr outlay.*
 
 #### Exam Focus
 - Entitlement Days: 125 days (up from 100 days).
@@ -164,19 +153,15 @@ The **Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission (Gramin) (VB-G RA
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India announced that its composite **Financial Inclusion Index (FI-Index)** rose to **70.0** for the fiscal year ended March 2026, up from **67.0** in March 2025, registering a growth of **4.48%**.
-
-#### Know / Understand
-- **Parameter Engine**: Growth was driven primarily by an uptick in the **Usage parameter**, demonstrating that Indian citizens are transitioning from mere bank account opening to active usage of digital payments, insurance, pension, and credit facilities.
+* **Annual Inclusion Metric → FI-Index 2026:**
+  * Rose to **70.0** in March 2026 (+4.48% YoY), propelled by high Usage dimensions.
 
 #### Must Memorize
-- **Composite Score**: **70.0** for March 2026 (67.0 in March 2025, 60.1 in March 2023, 53.9 in March 2021).
-- **Index Dimensions & Weights**:
-  - **Access**: **35% weight** (Physical & digital touchpoints).
-  - **Usage**: **45% weight** (Transactions, credit, savings, insurance, pension).
-  - **Quality**: **20% weight** (Financial literacy, consumer protection, grievances).
-- **Index Architecture**: Measured on a **0 to 100 scale** (0 = complete exclusion, 100 = complete inclusion); captures **97 indicators** across banking, insurance, postal, investments, and pensions.
-- **Base Year Note**: The FI-Index has **NO base year** (reflects cumulative historical progress).
+* **FI-Index Parameter Ladder:**
+  * **Score:** **70.0** *(March 2026)* $mid$ Scale: 0 to 100 $mid$ **No Base Year**.
+  * **Weights:** **Usage (45%)**, **Access (35%)**, **Quality (20%)**.
+  * **Coverage:** **97 indicators** across banking, insurance, postal, investments, pensions.
+  * 🎯 **Recap:** *FI-Index: 70.0 (Usage 45%, Access 35%, Quality 20%) across 97 indicators.*
 
 #### Exam Focus
 - March 2026 FI-Index Score: 70.0 (Growth: 4.48%).
@@ -196,17 +181,15 @@ The Reserve Bank of India announced that its composite **Financial Inclusion Ind
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The International Financial Services Centres Authority (IFSCA) issued draft regulations establishing a unified **"One KYC"** framework, requiring all regulated entities operating in GIFT-IFSC to integrate with SEBI-registered **KYC Registration Agencies (KRAs)**.
-
-#### Know / Understand
-- **Single-Identifier Interoperability**: Eliminates redundant onboarding documentation for international and domestic investors transacting across multiple brokers, fund managers, and banks in GIFT City by assigning a single, verified unique client identification code.
+* **Offshore Financial Centre Onboarding → One KYC:**
+  * IFSCA notified unified "One KYC" framework requiring integration with SEBI-registered KRAs.
 
 #### Must Memorize
-- **Regulatory Foundation**: Issued under the **IFSCA Act, 2019** for India's sole IFSC at Gandhinagar, Gujarat.
-- **KRA Integration Timelines**:
-  - **New Clients (Onboarded on/after Sept 1, 2026)**: KYC details must be uploaded to the KRA system within **3 working days** of KYC completion.
-  - **Existing Clients**: Legacy KYC records must be uploaded by **October 30, 2026**.
-- **Mandatory Linkage**: Every IFSCA-regulated entity must integrate with **at least 1 KRA**.
+* **KRA Integration Timelines Ladder:**
+  * **New Clients (from Sept 1, 2026):** Upload to KRA within **3 working days**.
+  * **Existing Clients:** Legacy upload deadline: **October 30, 2026**.
+  * **Mandatory Linkage:** All regulated entities must integrate with **at least 1 KRA**.
+  * 🎯 **Recap:** *One KYC at GIFT City: 3-day KRA upload for new clients $mid$ Oct 30, 2026 legacy cut-off.*
 
 #### Exam Focus
 - Implementing Authority: IFSCA (Chairperson: K. Rajaraman).
@@ -225,16 +208,14 @@ The International Financial Services Centres Authority (IFSCA) issued draft regu
 - **Source**: `Smartkeeda (July 2026 Monthly)`
 
 #### What Happened
-The National Steering Committee on PM-SETU approved the nationwide rollout of the **₹60,000-crore Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs (PM-SETU)** scheme across **200 Industrial Training Institute (ITI) clusters**.
-
-#### Know / Understand
-- **Modernising Industrial Skilling**: Upgrades obsolete vocational infrastructure by creating hub-and-spoke ITI clusters with industry-backed curricula, advanced robotics, green tech labs, and direct PSU apprenticeship linkages.
+* **Industrial Skilling Infrastructure Modernisation → PM-SETU:**
+  * Approved nationwide rollout of **PM-SETU** across **200 ITI clusters** with **₹60,000 Crore outlay**.
 
 #### Must Memorize
-- **Total Financial Outlay**: **₹60,000 crore**.
-- **Target Scope**: **200 ITI clusters** across all States and Union Territories.
-- **Initial Approvals**: Cleared 5 Strategic Investment Plans (SIPs) with a combined outlay of **₹1,237.58 crore** to upgrade ITI clusters in **Odisha, Gujarat, and Telangana**.
-- **Nodal Ministry**: Ministry of Skill Development and Entrepreneurship (MSDE).
+* **PM-SETU Parameters Ladder:**
+  * **Total Outlay:** **₹60,000 Crore** across **200 ITI clusters**.
+  * **Initial 5 SIPs:** **₹1,237.58 Crore** approved for Odisha, Gujarat, and Telangana.
+  * 🎯 **Recap:** *PM-SETU: ₹60,000 Cr outlay for 200 ITI clusters (MSDE).*
 
 #### Exam Focus
 - Total Scheme Outlay: ₹60,000 crore.
@@ -250,417 +231,304 @@ The National Steering Committee on PM-SETU approved the nationwide rollout of th
 - **Institution**: `MINISTRY_OF_ELECTRONICS_AND_IT`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-16`
-- **Revision Effort**: `~5 min`
-- **Overview**: Union Cabinet approved **Semicon 2.0** with a budgetary outlay of **₹1,27,500 crore** (succeeding Semicon 1.0 / ISM). Structured across 6 pillars (chip design, materials, fab capacity, ATMP/OSAT, R&D, talent).
-- **Key Parameters**:
-  - **Silicon Fab Subsidies**: **40% fiscal support** on eligible capital expenditure.
-  - **Compound / Display Fabs**: **35% fiscal support**.
-  - **Advanced Packaging (ATMP/OSAT)**: **35% support** (25% for conventional packaging).
-  - **Private Capex Catalyst**: Expected to mobilise **₹4 lakh crore** in private investments.
-  - **First Commercial Fab**: India's 1st semiconductor fabrication plant scheduled to be commissioned in **2028**.
-
----
+- **Key Facts**: Budgetary outlay of **₹1,27,500 Crore** (40% capex support for silicon fabs; 35% for compound/display/packaging); 1st commercial fab in 2028.
+- 🎯 **Recap:** *Semicon 2.0: ₹1,27,500 Cr outlay (40% silicon fab capex subsidy).*
 
 ### 9. Mobile Phone Manufacturing Scheme (MPMS) Approved with Outlay of ₹62,500 Crore
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_ELECTRONICS_AND_IT`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-16`
-- **Revision Effort**: `~4 min`
-- **Overview**: Successor to the PLI for Large Scale Electronics Manufacturing (PLI-LSEM which concluded March 31, 2026). Runs for 5 years (**FY 2026–27 to FY 2030–31**) with an outlay of **₹62,500 crore**.
-- **Incentive Structure**:
-  - **Base Sales Incentive**: Differentiated rates from **2.25% to 5.0%** on eligible incremental sales.
-  - **Domestic Sourcing Bonus**: Up to **1.5% additional incentive** linked to domestic component sourcing.
-  - **Design & IP Bonus**: **3% additional incentive** linked to product design and R&D for Indian brands.
-  - **Macro Target**: Expected to drive **₹39 lakh crore** in cumulative production and create 60,000 direct jobs.
-
----
+- **Key Facts**: 5-year scheme (FY27 to FY31) with **₹62,500 Crore outlay** (2.25% to 5.0% sales incentive + 1.5% domestic sourcing bonus).
+- 🎯 **Recap:** *MPMS: ₹62,500 Cr outlay for mobile manufacturing.*
 
 ### 10. Emergency Credit Line Guarantee Scheme (ECLGS 5.0): ₹1.55 Lakh Crore Guaranteed
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-18`
-- **Revision Effort**: `~4 min`
-- **Overview**: Finance Ministry reported that ECLGS 5.0 has issued **4,11,497 guarantees** worth **₹1,55,229 crore** (~₹1.55 lakh crore) to cushion businesses from West Asia supply disruptions.
-- **Key Loan Limits & Terms**:
-  - **MSME Guarantee**: **100% sovereign guarantee** for credit up to **20% of peak working capital** (cap: **₹100 crore**).
-  - **Airlines Guarantee**: **100% of working capital** (capped at **₹1,500 crore per borrower**).
-  - **Eligible Sanction Window**: Loans sanctioned till end of **FY 2026–27** (March 31, 2027).
-  - **Target Segment**: MSMEs accounted for **98% of total guarantees** and **82% of total funds**.
-
----
+- **Key Facts**: Guaranteed **₹1,55,229 Crore** across 4.11 lakh loans (100% guarantee up to ₹100 Cr for MSMEs; up to ₹1,500 Cr for airlines).
+- 🎯 **Recap:** *ECLGS 5.0: ₹1.55 Lakh Crore guaranteed across 4.11 lakh loans.*
 
 ### 11. PM-Vidyalaxmi Scheme & Education Loan Credit Guarantee (PM-USP CGFSEL) Review
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_EDUCATION`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-22`
-- **Revision Effort**: `~4 min`
-- **Overview**: PM-Vidyalaxmi Scheme sanctioned **1,12,817 collateral-free loans worth ₹15,634 crore** as of July 2026.
-- **Key Scheme Provisions**:
-  - **Interest Subvention**: **3% interest subvention** on loans up to **₹10 lakh** for students from families with annual income up to **₹8 lakh** admitted to Quality Higher Education Institutions (over 860 QHEIs).
-  - **Credit Guarantee (PM-USP CGFSEL)**: Central Government provides **75% credit guarantee** for collateral-free education loans up to **₹7.5 lakh** (₹59,843.74 crore guaranteed across 14.65 lakh loans since 2015).
-
----
+- **Key Facts**: 1.12 lakh loans worth ₹15,634 Crore sanctioned (3% interest subvention up to ₹10L; 75% credit guarantee up to ₹7.5L).
+- 🎯 **Recap:** *PM-Vidyalaxmi: 3% subvention on education loans up to ₹10L.*
 
 ### 12. MoHUA PARIVARTAN Scheme Approved for NCR Commercial Fleet Modernisation (₹9,585 Crore)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_HOUSING_AND_URBAN_AFFAIRS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: Operationalised **PARIVARTAN** (Programme for Accelerated Renewal and Incentivization of Vehicle Assets for Reducing Transport Air Pollution and Network Emissions) across Delhi, Haryana, Rajasthan, and UP districts of NCR.
-- **Financial Structure**:
-  - **Total Outlay**: **₹9,585 crore** (Central budgetary support: ₹5,041 crore).
-  - **Incentives**: **5% interest subvention** on commercial vehicle replacement loans; minimum **8% OEM discount**; Motor Vehicle Tax concessions and Certificate of Deposit (CoD) trading.
-
----
+- **Key Facts**: **₹9,585 Crore outlay** (5% interest subvention, min 8% OEM discount) for cleaner commercial vehicle replacements in NCR.
+- 🎯 **Recap:** *PARIVARTAN: ₹9,585 Cr for green commercial vehicle replacement in NCR.*
 
 ### 13. HDFC Bank Appoints Former CEC Rajiv Kumar as Part-Time Chairman
 - **Category**: `APPOINTMENTS`
 - **Institution**: `HDFC_BANK`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
-- **Revision Effort**: `~4 min`
-- **Overview**: HDFC Bank approved Rajiv Kumar (former Finance Secretary and 25th Chief Election Commissioner of India) as Part-time Non-Executive Chairman for 3 years, succeeding Interim Chairman Keki Mistry.
-- **Profile**: Rajiv Kumar oversaw the 2024 Lok Sabha General Election (642 million voters) and previously served on the Central Boards of RBI, SBI, and NABARD.
-
----
+- **Key Facts**: Appointed former CEC **Rajiv Kumar** as Part-time Non-Executive Chairman for 3 years.
+- 🎯 **Recap:** *Rajiv Kumar appointed Part-time Chairman of HDFC Bank.*
 
 ### 14. SEBI Constitutes Expert Working Group on Debenture Trusteeship Framework
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `SEBI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-09`
-- **Revision Effort**: `~4 min`
-- **Overview**: SEBI constituted an Expert Working Group chaired by **Ananta Barua** (former WTM SEBI) and **Rajnish Kumar** (former Chairman SBI as Co-Chair) to overhaul the *SEBI (Debenture Trustees) Regulations, 1993*.
-- **Key Terms of Reference**: Reviewing net-worth requirements, default tracking mechanisms, issuer compliance oversight, and enhanced investor protection.
-
----
+- **Key Facts**: Working group chaired by **Ananta Barua** (Co-Chair: **Rajnish Kumar**) to overhaul Debenture Trustees Regulations 1993.
+- 🎯 **Recap:** *Ananta Barua & Rajnish Kumar chair SEBI debenture trusteeship panel.*
 
 ### 15. Small Savings Schemes Interest Rates Retained Unchanged for Q2 FY27 (9th Consecutive Quarter)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-01`
-- **Revision Effort**: `~4 min`
-- **Key Interest Rates (July–September 2026 Quarter)**:
-  - **Sukanya Samriddhi Yojana (SSY)**: **8.2% p.a.** (Tax-free)
-  - **Senior Citizen Savings Scheme (SCSS)**: **8.2% p.a.** (Quarterly payouts)
-  - **National Savings Certificate (NSC)**: **7.7% p.a.** (5-year lock-in)
-  - **Kisan Vikas Patra (KVP)**: **7.5% p.a.** (Matures in **115 months** / 9 years 7 months)
-  - **Post Office Monthly Income Scheme (POMIS)**: **7.4% p.a.**
-  - **5-Year Post Office Time Deposit**: **7.5% p.a.**
-  - **Public Provident Fund (PPF)**: **7.1% p.a.**
-  - **Post Office Savings Account**: **4.0% p.a.**
-- **Formula Context**: Reviewed quarterly per the **Shyamala Gopinath Committee formula** (2011) linked to secondary market G-Sec yields with a 0–100 bps spread.
-
----
+- **Key Facts**: SSY **8.2%**, SCSS **8.2%**, NSC **7.7%**, KVP **7.5% (115 months)**, PPF **7.1%**, Savings **4.0%**.
+- 🎯 **Recap:** *Small savings rates unchanged: SSY 8.2%, SCSS 8.2%, PPF 7.1%, KVP 7.5% (115m).*
 
 ### 16. CBDT Notifies Cost Inflation Index (CII) for FY 2026–27 at 384 (+2.3%)
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `CBDT`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-15`
-- **Revision Effort**: `~3 min`
-- **Overview**: CBDT notified CII for FY 2026-27 at **384** (up 2.3% from 376 in FY26 and 363 in FY25) under the Income-tax Act, 2025 (Base year: 2001-02 = 100).
-- **Direct Tax Performance**: Net direct tax collections grew **16.4% YoY to ₹6.51 lakh crore** as of July 13, 2026 (Corporate tax ₹2.40 lakh cr, Non-corporate tax ₹3.85 lakh cr).
-
----
+- **Key Facts**: CII set at **384** (Base 2001-02=100); net direct tax collections grew 16.4% YoY to ₹6.51 lakh crore.
+- 🎯 **Recap:** *CII for FY 2026–27 notified at 384.*
 
 ### 17. CBDT Notifies NaBFID 10-Year Zero Coupon Bonds (₹20,000 Crore Maturity Value)
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `NABFID`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: CBDT notified 10-year zero coupon bonds of the National Bank for Financing Infrastructure and Development under Section 2(112) of the Income-tax Act, 2025.
-- **Specifications**: Permitted to raise **₹20,000 crore** maturity value at a discounted issue price of **₹10,296.12 crore** via 20 lakh bonds on or before **March 31, 2028**.
-
----
+- **Key Facts**: NaBFID permitted to raise **₹20,000 Crore maturity value** (issue price ₹10,296.12 Cr) via 10-year Zero Coupon Bonds by March 2028.
+- 🎯 **Recap:** *NaBFID ₹20,000 Cr 10-year Zero Coupon Bonds notified by CBDT.*
 
 ### 18. EbixCash World Money Secures 1st Perpetual AD-II Non-Bank Licence from RBI
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-06`
-- **Revision Effort**: `~4 min`
-- **Overview**: Under RBI's revised May 2026 FEMA framework, EbixCash World Money became the 1st non-bank entity authorized to handle trade remittances up to **₹25 lakh per transaction**, family maintenance transfers, and hold direct Nostro accounts.
-
----
+- **Key Facts**: First non-bank to receive perpetual AD-II licence (trade remittances up to **₹25 Lakh/transaction**).
+- 🎯 **Recap:** *EbixCash: 1st perpetual non-bank AD-II licence (₹25L trade limit).*
 
 ### 19. EnKash Launches India's 1st Meal Card with Direct UPI Integration
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `NPCI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
-- **Revision Effort**: `~3 min`
-- **Overview**: Enabled employees to scan UPI QR codes directly from their meal benefit balance under revised Income Tax rules (tax-free meal allowance raised to **₹8,800/month or ₹200/meal**, up to ₹1,05,600/year).
-
----
+- **Key Facts**: Direct UPI QR scan from meal wallet balance (tax-free limit raised to **₹200/meal or ₹8,800/month**).
+- 🎯 **Recap:** *EnKash launched India's 1st UPI-integrated corporate meal card.*
 
 ### 20. NSE Launches India's 1st Domestically Benchmarked Energy Derivative: "Indian Natural Gas Futures"
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `NSE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-11`
-- **Revision Effort**: `~3 min`
-- **Overview**: Cash-settled energy contract (`NATGASIND`) referenced to the Indian Gas Exchange's (IGX) Gujarat Dahej hub price (Trading unit: 250 mmBtu).
-
----
+- **Key Facts**: Cash-settled contract (`NATGASIND`) benchmarked to IGX Dahej hub price (250 mmBtu unit).
+- 🎯 **Recap:** *NSE launched Indian Natural Gas Futures (`NATGASIND`) benchmarked to IGX Dahej.*
 
 ### 21. NSE Indices Launches "Nifty 500 Ahimsa Index" (326 Ethical Stocks)
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `NSE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-12`
-- **Revision Effort**: `~3 min`
-- **Overview**: Developed with Ahimsagain Foundation; screens Nifty 500 companies against animal cruelty; 326 stocks (Bharti Airtel, Infosys, M&M, TCS, Maruti top weights); delivered 15.11% CAGR since 2016 base.
-
----
+- **Key Facts**: Screens Nifty 500 against animal cruelty (326 constituents; Bharti Airtel, Infosys, M&M top weights).
+- 🎯 **Recap:** *Nifty 500 Ahimsa Index launched with 326 ethical stocks.*
 
 ### 22. Government Approves RBI Field Trials for 1 Billion Polymer Banknotes (₹10 & ₹20)
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-14`
-- **Revision Effort**: `~4 min`
-- **Overview**: Parliament informed that Government approved RBI's proposal to conduct field trials of 1 billion pieces each of ₹10 and ₹20 polymer banknotes for enhanced durability.
-- **Historical & Currency Context**: India spent ₹6,372.8 crore on secure paper currency printing in FY25; Australia was 1st country to introduce polymer notes in 1988; Romania 1st European country in 1999.
-
----
+- **Key Facts**: Approved trials of 1 billion pieces each of ₹10 and ₹20 polymer notes across 5 climatic zones.
+- 🎯 **Recap:** *1 Billion polymer banknotes approved for ₹10 and ₹20 field trials.*
 
 ### 23. UNCTAD World Investment Report 2026: India Climbs to 11th Largest Global FDI Recipient
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `UNCTAD`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-07`
-- **Revision Effort**: `~4 min`
-- **Overview**: India's FDI inflows surged **44% to $38.89 billion in 2025** (climbing from 13th in 2024); Outward FDI rose 47% to $35.66 billion (18th globally). US remained #1 recipient ($277B), China #4 ($104.66B).
-
----
+- **Key Facts**: FDI inflows surged 44% to **$38.89 Billion in 2025** (11th globally); outward FDI stood at $35.66 Billion.
+- 🎯 **Recap:** *India ranked 11th largest FDI destination ($38.89B) in UNCTAD WIR 2026.*
 
 ### 24. WIPO World Intangible Investment Report 2026: India #1 in Intangible Growth (+7.9%)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `WIPO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: India recorded the fastest growth in intangible asset investment among top 15 economies (7.9% YoY to $78.2 billion in 2023); Software & databases accounted for 45% of India's intangible capital. Global intangible investment topped $10 trillion.
-
----
+- **Key Facts**: Fastest growth among top 15 economies (7.9% YoY to **$78.2 Billion** in 2023; software & DB 45%).
+- 🎯 **Recap:** *India led global intangible investment growth at +7.9% ($78.2B).*
 
 ### 25. MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `MOSPI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-12`
-- **Revision Effort**: `~4 min`
-- **Overview**: DPIIT revised ICI series base year to 2022–23, expanding from 8 to **9 core industries** by adding **Iron Ore** (Coal, Crude Oil, Natural Gas, Refinery Products, Fertilisers, Steel, Cement, Electricity, Iron Ore). Combined weight in IIP is **32.88%**.
-
----
+- **Key Facts**: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% IIP weight).
+- 🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% IIP weight).*
 
 ### 26. MoSPI Launches Trial Index of Services Production (ISP) with Base Year 2024–25
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `MOSPI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-14`
-- **Revision Effort**: `~4 min`
-- **Overview**: First monthly short-term activity tracker for India's formal services sector (covering 19 sub-sectors and ~60% of services GVA); Technical Advisory Committee chaired by Debjani Ghosh.
-
----
+- **Key Facts**: Monthly tracker for formal services covering 19 sub-sectors (~60% services GVA); TAC chaired by Debjani Ghosh.
+- 🎯 **Recap:** *Index of Services Production (ISP) trial launched with Base Year 2024–25.*
 
 ### 27. NITI Aayog Investment Friendliness Index (IFI) 2026: Gujarat Ranks #1 Among Large States
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-04`
-- **Revision Effort**: `~4 min`
-- **Overview**: First-ever state investment ranking based on 84 indicators across 8 pillars.
-  - **Large States**: #1 Gujarat (56.6), #2 Maharashtra (53.7), #3 Tamil Nadu (53.3).
-  - **Hilly & NE States**: #1 Uttarakhand, #2 Assam, #3 Himachal Pradesh.
-  - **UTs & City States**: #1 Goa, #2 Delhi, #3 Chandigarh.
-
----
+- **Key Facts**: Large States: #1 Gujarat, #2 Maharashtra, #3 Tamil Nadu $mid$ Hilly: #1 Uttarakhand $mid$ UTs: #1 Goa.
+- 🎯 **Recap:** *NITI Aayog IFI 2026: Gujarat #1 large state for investment.*
 
 ### 28. NITI Aayog BioEconomy Powerhouse Roadmap: $691 Billion Target by 2035
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-05`
-- **Revision Effort**: `~4 min`
-- **Overview**: 10-year strategy projecting India's bioeconomy to grow from $195.3B in 2025 to $691B by 2035 ($2.6T by 2047, 8–10% of GDP); recommends 6 National BioMissions and a ₹50,000 crore BioEconomy Growth Fund.
-
----
+- **Key Facts**: Targets bioeconomy growth to **$691 Billion by 2035** ($2.6T by 2047) via 6 National BioMissions.
+- 🎯 **Recap:** *NITI Aayog bioeconomy roadmap targets $691B by 2035.*
 
 ### 29. UN Sustainable Development Report 2026: India Ranks 94th Globally (Score 68.3)
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `UNITED_NATIONS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-03`
-- **Revision Effort**: `~4 min`
-- **Overview**: SDSN report evaluated 167 nations across 17 SDGs. India climbed to 94th (from 99th in 2025, up 18 places since 2015); Finland #1; Zero Hunger (SDG 2) remains India's most pressing challenge.
-
----
+- **Key Facts**: India ranked **94th** (score 68.3, up from 99th in 2025); Finland #1.
+- 🎯 **Recap:** *UN SDG Index 2026: India ranks 94th (score 68.3).*
 
 ### 30. Ministry of Education UDISE+ 2025–26 & PGI-S 2.0 Reports
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MINISTRY_OF_EDUCATION`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
-- **Revision Effort**: `~4 min`
-- **Overview**: Covers 14.8 lakh schools and 26 crore students. Pupil-Teacher Ratio: 10 (foundational), 12 (preparatory), 17 (middle), 21 (secondary). Secondary GER rose to 71.7%. Chandigarh #1 in PGI-S 2.0 (Uttam-3 grade).
-
----
+- **Key Facts**: Secondary GER rose to 71.7%; Chandigarh #1 in PGI-S 2.0 (Uttam-3 grade).
+- 🎯 **Recap:** *UDISE+ 2025-26: Secondary GER 71.7% $mid$ Chandigarh #1 in PGI-S 2.0.*
 
 ### 31. World Bank Approves $890 Million Financing for PM Surya Ghar Rooftop Solar
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `WORLD_BANK`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-05`
-- **Revision Effort**: `~4 min`
-- **Overview**: $820M IBRD loan + $60M Clean Tech Fund + $10M grant (mobilising $4.2B private capital) to support 10 million rooftop solar installations (9.56 GW installed as of March 2026).
-
----
+- **Key Facts**: $890 Million package ($820M IBRD + $60M CTF + $10M grant) supporting 10M rooftop solar units.
+- 🎯 **Recap:** *World Bank $890M loan for PM Surya Ghar solar rooftops.*
 
 ### 32. ADB Approves $230 Million Loan for Chennai Climate Resilient Water Project (CCRWSSP)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `ASIAN_DEVELOPMENT_BANK`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-06`
-- **Revision Effort**: `~3 min`
-- **Overview**: Modernises water supply in Greater Chennai; introduces India's first closed-loop ring-main water distribution system (170 km pipelines, 7 water & 38 sewer pumping stations).
-
----
+- **Key Facts**: $230 Million loan to build India's 1st closed-loop ring-main water distribution system in Chennai.
+- 🎯 **Recap:** *ADB $230M loan for Chennai ring-main water distribution.*
 
 ### 33. POWERGRID Secures JPY 80 Billion Green Loan from JBIC for Khavda–Nagpur HVDC
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `POWER_GRID_CORPORATION`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-09`
-- **Revision Effort**: `~3 min`
-- **Overview**: JBIC contributes JPY 48 billion directly alongside Japanese commercial banks to finance high-voltage direct current transmission evacuating green power from Khavda Park (Gujarat) to Nagpur.
-
----
+- **Key Facts**: JPY 80 Billion green loan to evacuate renewable power from Khavda Park (Gujarat) to Nagpur.
+- 🎯 **Recap:** *POWERGRID secured JPY 80B green loan from JBIC for Khavda-Nagpur HVDC.*
 
 ### 34. Adani Enterprises & IRH Abu Dhabi $11.5 Billion (₹1.08 Lakh Crore) Odisha Aluminium Project
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `ADANI_GROUP`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-12`
-- **Revision Effort**: `~4 min`
-- **Overview**: 50:50 JV between AEL and Abu Dhabi's IRH; 4 MMTPA alumina refinery at Rayagada, 2 MMTPA smelter at Sundargarh, and 4,000 MW captive power plant.
-
----
+- **Key Facts**: 50:50 JV for 4 MMTPA alumina refinery at Rayagada and 2 MMTPA smelter at Sundargarh.
+- 🎯 **Recap:** *Adani + IRH ₹1.08 Lakh Crore aluminium complex in Odisha.*
 
 ### 35. India–Israel Bilateral Investment Agreement (BIA) Enters into Force
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-04`
-- **Revision Effort**: `~3 min`
-- **Overview**: Bilateral investment pact signed Sept 2025 came into force July 4, 2026. Reduces local remedies exhaustion period to 3 years (from 5 years under 2015 Model BIT). Israel is 1st OECD member to sign.
-
----
+- **Key Facts**: Entered into force July 4, 2026 (local remedies exhaustion period reduced to 3 years).
+- 🎯 **Recap:** *India-Israel BIA operational from July 4, 2026.*
 
 ### 36. India Tightens Double Taxation Avoidance Agreement (DTAA) with Sri Lanka via Principal Purpose Test (PPT)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-03`
-- **Revision Effort**: `~3 min`
-- **Overview**: Incorporates OECD BEPS Multilateral Instrument anti-abuse rules to deny treaty benefits to tax avoidance structures (effective in India from April 1, 2027).
-
----
+- **Key Facts**: Added OECD BEPS Principal Purpose Test to prevent treaty abuse (effective April 1, 2027).
+- 🎯 **Recap:** *India-Sri Lanka DTAA amended with Principal Purpose Test (PPT).*
 
 ### 37. Cabinet Approves National Investment Policy for Urea-2026 (NIPU-2026)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_CHEMICALS_AND_FERTILIZERS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-06`
-- **Revision Effort**: `~4 min`
-- **Overview**: Replaces NIP-2012; introduces Return on Equity (RoE) band of 12–16% and forex risk mitigation to set up 8–9 new gas-based urea plants adding 1 crore metric tonnes of domestic capacity.
-
----
+- **Key Facts**: Replaces NIP-2012; 12–16% RoE band to add 1 crore MT gas-based urea capacity.
+- 🎯 **Recap:** *NIPU-2026 approved for 1 crore MT domestic urea capacity.*
 
 ### 38. BHAVYA Rasayan Scheme Approved for 3 Chemical Parks (₹3,030 Crore Outlay)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_CHEMICALS_AND_FERTILIZERS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-07`
-- **Revision Effort**: `~4 min`
-- **Overview**: Central grant of up to ₹1,000 crore per park (minimum ₹500 cr state share; minimum 2,000 acres contiguous land) for 3 dedicated Chemical Parks selected via Challenge Route.
-
----
+- **Key Facts**: ₹3,030 Crore outlay for 3 dedicated Chemical Parks (up to ₹1,000 Cr grant per park).
+- 🎯 **Recap:** *BHAVYA Rasayan: ₹3,030 Cr for 3 chemical parks.*
 
 ### 39. DRDO Netra AEW&C Receives Final Operational Clearance (FOC) & ₹19,000 Cr Netra Mk II Contracts
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
-- **Revision Effort**: `~4 min`
-- **Overview**: DRDO handed over Netra FOC certificate on Embraer ERJ-145 platform; signed ₹19,000 crore contracts for Netra Mk II converting 6 Airbus A321 aircraft with AIESL and Adani Defence (ADSTL).
-
----
+- **Key Facts**: Netra Mk I received FOC; ₹19,000 Crore contracts signed for 6 Netra Mk II aircraft on Airbus A321.
+- 🎯 **Recap:** *DRDO Netra AEW&C received FOC $mid$ ₹19,000 Cr Netra Mk II contract.*
 
 ### 40. DRDO Successfully Tests Project Kusha Long-Range Surface-to-Air Missile (LR-SAM)
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-09`
-- **Revision Effort**: `~3 min`
-- **Overview**: Maiden flight test of indigenous Kusha LR-SAM from APJ Abdul Kalam Island; foundation of India's long-range multi-tier air defence shield comparable to S-400 and Patriot.
-
----
+- **Key Facts**: Maiden test of Project Kusha LR-SAM from APJ Abdul Kalam Island (3-tier air defence shield).
+- 🎯 **Recap:** *Project Kusha LR-SAM maiden flight test successful.*
 
 ### 41. Skyroot Aerospace Launches "Vikram-1" Orbital Rocket on Mission Aagaman
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `IN_SPACE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: 4-stage small-lift launch vehicle successfully injected payloads into 450 km orbit from SDSC Sriharikota; made India the 3rd country to achieve private orbital launch capability.
-
----
+- **Key Facts**: 4-stage rocket injected payloads into 450 km orbit, making India 3rd country with private orbital launch capability.
+- 🎯 **Recap:** *Skyroot Vikram-1 achieved successful orbital launch (Mission Aagaman).*
 
 ### 42. Reliance Jio Receives IN-SPACe Approval for ~1,600 LEO Satellite Constellation (4.5–5 Tbps)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `IN_SPACE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-12`
-- **Revision Effort**: `~3 min`
-- **Overview**: IN-SPACe approved Reliance Jio's proposal to deploy ~1,600 LEO broadband satellites offering 4.5–5 Tbps capacity across 20–22 ground stations, enabling ITU orbital filings.
-
----
+- **Key Facts**: Approved ~1,600 LEO broadband satellites offering 4.5–5 Tbps capacity across 20–22 ground stations.
+- 🎯 **Recap:** *Jio received IN-SPACe approval for 1,600 LEO satellite constellation.*
 
 ### 43. PM Narendra Modi Inaugurates India's 1st Hydrogen Train "NaMo Green Rail" (Jind, Haryana)
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MINISTRY_OF_RAILWAYS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-15`
-- **Revision Effort**: `~4 min`
-- **Overview**: 10-coach train operating on 89 km Jind–Sonipat section powered by 3,200 hp fuel cell propulsion system; 3,000 kg electrolysis hydrogen storage facility built at Jind by ICF and RDSO.
-
----
+- **Key Facts**: 10-coach train on 89 km Jind–Sonipat section powered by 3,200 hp fuel cell system.
+- 🎯 **Recap:** *India's 1st Hydrogen Train "NaMo Green Rail" flagged off on Jind-Sonipat section.*
 
 ### 44. India's 1st Geothermal Wells Commissioned at Puga Valley, Ladakh (ONGC Energy Centre)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `ONGC`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-09`
-- **Revision Effort**: `~3 min`
-- **Overview**: Two 1,000-metre production wells drilled at >14,000 feet altitude for India's first 1 MW pilot geothermal power demonstration project.
-
----
+- **Key Facts**: Drilled two 1,000m wells at >14,000 ft altitude for 1 MW pilot geothermal project.
+- 🎯 **Recap:** *India's 1st geothermal production wells commissioned at Puga Valley, Ladakh.*
 
 ### 45. DCGI Approves India's 1st Dengue Vaccine "QDENGA" (Takeda)
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `CDSCO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-06`
-- **Revision Effort**: `~3 min`
-- **Overview**: Live-attenuated tetravalent vaccine approved for individuals aged 4 to 60 years protecting against all 4 dengue serotypes (DENV 1–4) without requiring pre-vaccination testing.
+- **Key Facts**: Live-attenuated tetravalent vaccine approved for ages 4 to 60 protecting against all 4 dengue serotypes (DENV 1–4).
+- 🎯 **Recap:** *DCGI approved "QDENGA" dengue vaccine for ages 4–60.*
 
 ---
 

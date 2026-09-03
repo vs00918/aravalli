@@ -1,0 +1,319 @@
+[
+  {
+    "canonical_id": "ca-62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026",
+    "title": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://www.rbi.org.in",
+    "primary_source_title": "Reserve Bank of India Portal - Monetary Policy Committee Statements",
+    "issuing_authority": "Reserve Bank of India (Monetary Policy Committee)",
+    "publication_date": "August 2026",
+    "document_identifier": "RBI/2026-27/MPC-08 (Awaiting exact PRID)",
+    "claim_checks": [
+      {
+        "claim": "Policy Repo Rate maintained at 5.25% with neutral stance",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "RBI Monthly MPC Press Releases",
+        "evidence_text_or_precise_reference": "Reported in financial press; exact direct permalink to RBI PR PDF not verified via HTTP payload."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Previous URL was generic landing page (BS_PressReleaseDisplay.aspx). Downgraded from PRIMARY_SOURCE_VERIFIED to VERIFICATION_PENDING per strict evidence rules."
+  },
+  {
+    "canonical_id": "ca-61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul",
+    "title": "61st RBI Monetary Policy Committee (MPC) Meeting: Repo Rate Held at 5.25% & FPI G-Sec Limit Overhaul",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "CROSS_SOURCE_CORROBORATED",
+    "primary_source_url": "https://www.rbi.org.in",
+    "primary_source_title": "RBI MPC Resolution June 2026",
+    "issuing_authority": "Reserve Bank of India",
+    "publication_date": "June 2026",
+    "document_identifier": "RBI MPC June 2026",
+    "claim_checks": [
+      {
+        "claim": "Repo rate held at 5.25%; FPI G-Sec investment limit overhaul",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "CGB Mentors June Batch + Smartkeeda June Monthly Master",
+        "evidence_text_or_precise_reference": "Corroborated across two independent coaching feeds; primary RBI circular permalink pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded from PRIMARY_SOURCE_VERIFIED to CROSS_SOURCE_CORROBORATED. Multi-source agreement present, but primary gazette link unverified."
+  },
+  {
+    "canonical_id": "ca-60th-rbi-monetary-policy-committee-mpc-statement-april-2026",
+    "title": "60th RBI Monetary Policy Committee (MPC) Statement (April 2026)",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://www.rbi.org.in",
+    "primary_source_title": "RBI MPC Resolution April 2026",
+    "issuing_authority": "Reserve Bank of India",
+    "publication_date": "April 2026",
+    "document_identifier": "RBI MPC April 2026",
+    "claim_checks": [
+      {
+        "claim": "MPC maintained repo rate at 5.25%",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "CGB Mentors April Batch",
+        "evidence_text_or_precise_reference": "Coaching feed claim; primary permalink pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING due to generic URL."
+  },
+  {
+    "canonical_id": "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+    "title": "RBI Loan Recovery Directions & Financed Smartphone Lockout Norms",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "CROSS_SOURCE_CORROBORATED",
+    "primary_source_url": "https://www.rbi.org.in",
+    "primary_source_title": "RBI (Responsible Business Conduct) Fourth Amendment Directions, 2026",
+    "issuing_authority": "Reserve Bank of India (Department of Regulation)",
+    "publication_date": "August 2026 (Effective Jan 1, 2027)",
+    "document_identifier": "DOR.RBC.REC.No./2026-27 (Draft/Amendment)",
+    "claim_checks": [
+      {
+        "claim": "Device locking permitted ONLY for loans taken to finance that specific device; 30-day default before restrictions; full lockout at 60 days; ₹250/hr compensation.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "CGB Mentors Part 1 + Smartkeeda W2 + Media Reports",
+        "evidence_text_or_precise_reference": "Detailed provisions corroborated across sources; exact notification PDF permalink pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to CROSS_SOURCE_CORROBORATED. Strong multi-source agreement with exact figures, but primary notification PDF URL not directly anchored."
+  },
+  {
+    "canonical_id": "ca-supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
+    "title": "Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://main.sci.gov.in",
+    "primary_source_title": "Supreme Court of India Motor Insurance Directions",
+    "issuing_authority": "Supreme Court of India (Bench of Karol & Mishra JJ.)",
+    "publication_date": "August 4, 2026",
+    "document_identifier": "Writ Petition (Civil) S. Rajaseekaran v. Union of India (Follow-up Order)",
+    "claim_checks": [
+      {
+        "claim": "Mandatory third-party insurance increased to 4 years for new cars and 6 years for new two-wheelers.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Supreme Court Order reported across national law journals and media.",
+        "evidence_text_or_precise_reference": "Exact official SCI judgment PDF permalink pending direct payload fetch."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING due to generic court landing URL."
+  },
+  {
+    "canonical_id": "ca-cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme",
+    "title": "CBDT FAST-DS 2026: Foreign Assets of Small Taxpayers-Disclosure Scheme",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://www.incometaxindia.gov.in",
+    "primary_source_title": "Foreign Assets of Small Taxpayers – Disclosure Scheme, 2026",
+    "issuing_authority": "Central Board of Direct Taxes / Ministry of Finance",
+    "publication_date": "August 16, 2026",
+    "document_identifier": "Finance Act, 2026 (Chapter IV, Sections 130-144)",
+    "claim_checks": [
+      {
+        "claim": "Declaration window till Dec 31, 2026; Category I (undisclosed up to ₹1 Cr, 60% tax/penalty); Category II (undeclared up to ₹5 Cr, flat ₹1 Lakh fee).",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Finance Act 2026 Chapter IV statutory text.",
+        "evidence_text_or_precise_reference": "Statutory provisions referenced, but exact CBDT circular/Gazette PDF permalink pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING."
+  },
+  {
+    "canonical_id": "ca-cabinet-approves-gobardhan-national-circular-bioenergy-scheme-with-outlay-of-23731-crore",
+    "title": "Cabinet Approves GOBARdhan National Circular Bioenergy Scheme with Outlay of ₹23,731 Crore",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "CROSS_SOURCE_CORROBORATED",
+    "primary_source_url": "https://pib.gov.in",
+    "primary_source_title": "Cabinet Approval of GOBARdhan National Circular Bioenergy Scheme",
+    "issuing_authority": "Union Cabinet / Ministry of Petroleum & Natural Gas",
+    "publication_date": "August 6, 2026",
+    "document_identifier": "PIB Press Release (August 6, 2026)",
+    "claim_checks": [
+      {
+        "claim": "₹23,731 Crore outlay from FY 2026-27 to FY 2035-36 under MoPNG.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "PIB Release August 6, 2026; CGB Part 1 + Smartkeeda W2.",
+        "evidence_text_or_precise_reference": "Synthetic URL 'PRID=GOBARDHAN2026' was invalid and is discarded; downgraded to CROSS_SOURCE_CORROBORATED."
+      }
+    ],
+    "source_retrieval_status": "SYNTHETIC_PARAM_REJECTED",
+    "audit_notes": "Synthetic URL rejected. Downgraded to CROSS_SOURCE_CORROBORATED."
+  },
+  {
+    "canonical_id": "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+    "title": "Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "CROSS_SOURCE_CORROBORATED",
+    "primary_source_url": "https://egazette.gov.in",
+    "primary_source_title": "MSMED (Amendment) Act, 2026",
+    "issuing_authority": "Parliament of India / Ministry of Law & Justice",
+    "publication_date": "August 13, 2026",
+    "document_identifier": "Act No. of 2026",
+    "claim_checks": [
+      {
+        "claim": "90-day dispute resolution; mandatory TReDS for CPSEs; statutory recognition of Udyam.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Gazette publication August 13, 2026; CGB Part 1 + Smartkeeda W2.",
+        "evidence_text_or_precise_reference": "Provisions corroborated; direct PDF download payload fetch pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to CROSS_SOURCE_CORROBORATED."
+  },
+  {
+    "canonical_id": "ca-cabinet-approves-pm-e-drive-scheme-10900-crore-outlay-for-ev-revolution",
+    "title": "Cabinet Approves PM E-DRIVE Scheme with ₹10,900 Crore Outlay",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "CROSS_SOURCE_CORROBORATED",
+    "primary_source_url": "https://pib.gov.in",
+    "primary_source_title": "PM E-DRIVE Scheme Cabinet Resolution",
+    "issuing_authority": "Ministry of Heavy Industries / Union Cabinet",
+    "publication_date": "2026",
+    "document_identifier": "PIB Release",
+    "claim_checks": [
+      {
+        "claim": "₹10,900 Crore financial outlay for EV promotion.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "PIB Releases; CGB Part 1 + Smartkeeda W2.",
+        "evidence_text_or_precise_reference": "Synthetic PRID rejected; corroborated across feeds."
+      }
+    ],
+    "source_retrieval_status": "SYNTHETIC_PARAM_REJECTED",
+    "audit_notes": "Synthetic URL rejected. Downgraded to CROSS_SOURCE_CORROBORATED."
+  },
+  {
+    "canonical_id": "ca-pm-e-drive-scheme-extended-to-march-2028-outlay-raised-to-11900-crore",
+    "title": "PM E-DRIVE Scheme Extended to March 2028: Outlay Raised to ₹11,900 Crore",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://pmedrive.heavyindustries.gov.in",
+    "primary_source_title": "PM E-DRIVE Portal",
+    "issuing_authority": "Ministry of Heavy Industries",
+    "publication_date": "August 2026",
+    "document_identifier": "MHI Scheme Extension Notification",
+    "claim_checks": [
+      {
+        "claim": "Extension to March 31, 2028; outlay adjustment to ₹11,900 Cr.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Scheme portal and Smartkeeda W3.",
+        "evidence_text_or_precise_reference": "Exact gazette notification number pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING."
+  },
+  {
+    "canonical_id": "ca-viksit-bharat-guarantee-for-rozgar-and-aajeevika-mission-vb-g-ram-g-act-replaces-mgnrega",
+    "title": "Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G) Act",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://pib.gov.in",
+    "primary_source_title": "VB-G RAM G Act Notification",
+    "issuing_authority": "Ministry of Rural Development",
+    "publication_date": "July 1, 2026",
+    "document_identifier": "VB-G RAM G Act, 2026",
+    "claim_checks": [
+      {
+        "claim": "Replaces MGNREGA with 125 days statutory wage employment guarantee.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Smartkeeda July Monthly Master; Ministry announcements.",
+        "evidence_text_or_precise_reference": "Synthetic PRID rejected; primary statutory text pending."
+      }
+    ],
+    "source_retrieval_status": "SYNTHETIC_PARAM_REJECTED",
+    "audit_notes": "Synthetic URL rejected. Downgraded to VERIFICATION_PENDING."
+  },
+  {
+    "canonical_id": "ca-mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
+    "title": "MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://www.mha.gov.in",
+    "primary_source_title": "MHA Disaster Management Division Operational Guidelines",
+    "issuing_authority": "Ministry of Home Affairs",
+    "publication_date": "August 2026",
+    "document_identifier": "MHA SDRF Guidelines 2026-31",
+    "claim_checks": [
+      {
+        "claim": "Heatwaves and lightning added as 13th and 14th notified calamities under SDRF/NDRF.",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "CGB Part 1; 16th Finance Commission guidelines.",
+        "evidence_text_or_precise_reference": "Order reported widely; specific MHA notification PDF link pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING."
+  },
+  {
+    "canonical_id": "ca-census-2027-40-question-household-schedule-comprehensive-caste-enumeration",
+    "title": "Census 2027: 40-Question Household Schedule & Comprehensive Caste Enumeration",
+    "previous_status": "PRIMARY_SOURCE_VERIFIED",
+    "final_status": "VERIFICATION_PENDING",
+    "primary_source_url": "https://censusindia.gov.in",
+    "primary_source_title": "Office of the Registrar General - Census 2027 Schedule",
+    "issuing_authority": "Office of the Registrar General and Census Commissioner of India (MHA)",
+    "publication_date": "August 2026",
+    "document_identifier": "Census 2027 Schedule Notification",
+    "claim_checks": [
+      {
+        "claim": "40-question schedule with Question 10 open-ended caste enumeration; Phase 2 in Feb 2027 (Sept 2026 for snow-bound).",
+        "result": "PARTIALLY_SUPPORTED",
+        "evidence_location": "Smartkeeda W3 + National media reports.",
+        "evidence_text_or_precise_reference": "Specific Gazette notification number pending."
+      }
+    ],
+    "source_retrieval_status": "GENERIC_LANDING_PAGE_ONLY",
+    "audit_notes": "Downgraded to VERIFICATION_PENDING."
+  },
+  {
+    "canonical_id": "ca-cabinet-approves-pradhan-mantri-viksit-bharat-rozgar-yojana-pm-vbry-107000-crore-outlay",
+    "title": "Cabinet Approves Pradhan Mantri Viksit Bharat Rozgar Yojana (PM-VBRY) (₹1,07,000 Crore Outlay)",
+    "previous_status": "QUARANTINED",
+    "final_status": "QUARANTINED",
+    "primary_source_url": "https://pib.gov.in/PressReleasePage.aspx (Ministry of Labour & Employment, Cabinet Decisions)",
+    "primary_source_title": "Union Cabinet Approval of Employment-Linked Incentive (ELI) Scheme — Pradhan Mantri Viksit Bharat Rozgar Yojana (PM-VBRY)",
+    "issuing_authority": "Union Cabinet / Ministry of Labour & Employment / EPFO",
+    "publication_date": "Cabinet Resolution / Notification (Registration: Aug 1, 2025 to Jul 31, 2027; Horizon: FY 2025-26 to FY 2031-32)",
+    "document_identifier": "PIB Press Release (Ministry of Labour & Employment) / MoL&E Scheme Guidelines",
+    "claim_checks": [
+      {
+        "claim": "Outlay is ₹1,07,000 Crore",
+        "result": "CONTRADICTED",
+        "evidence_location": "PIB Release — Cabinet Decisions Summary / MoL&E Financial Allocation Table",
+        "evidence_text_or_precise_reference": "Official government sanctioned outlay is ₹99,446 Crore (not ₹1,07,000 Crore). Outlay spans FY 2025-26 to FY 2031-32, targeting 3.5 Crore total jobs (1.92 Crore first-time entrants under Part A incentive up to ₹15,000; Part B employer incentive up to ₹3,000/month)."
+      }
+    ],
+    "contradiction_details": "PROVEN NUMERICAL CONTRADICTION: Coaching note in CGB Mentors & Smartkeeda asserts a ₹1,07,000 Crore outlay based on unverified pre-Cabinet draft estimates. Official Cabinet sanction is ₹99,446 Crore. Unreconciled discrepancy: ₹7,554 Crore.",
+    "source_retrieval_status": "CONTRADICTION_PROVEN",
+    "audit_notes": "QUARANTINED. Direct primary document retrieved. Factual numerical inflation in coaching source."
+  },
+  {
+    "canonical_id": "ca-continuation-of-modified-interest-subvention-scheme-miss-through-kcc-127-lakh-crore-outlay",
+    "title": "Continuation of Modified Interest Subvention Scheme (MISS) through KCC (₹1.27 Lakh Crore Outlay)",
+    "previous_status": "QUARANTINED",
+    "final_status": "QUARANTINED",
+    "primary_source_url": "https://www.indiabudget.gov.in (Union Budget — Expenditure Budget & Expenditure Profile)",
+    "primary_source_title": "Union Budget — Demand for Grants No. 1: Department of Agriculture and Farmers Welfare (Statement of Budget Estimates BE 2025-26)",
+    "issuing_authority": "Ministry of Finance (Budget Division) / Ministry of Agriculture and Farmers Welfare (DA&FW)",
+    "publication_date": "Union Budget BE 2025-26",
+    "document_identifier": "Demand for Grants No. 1 (DA&FW), Notes on Demands for Grants / Central Sector Schemes Table",
+    "claim_checks": [
+      {
+        "claim": "Modified Interest Subvention Scheme (MISS) has a ₹1.27 Lakh Crore scheme outlay",
+        "result": "CONTRADICTED",
+        "evidence_location": "Union Budget Demand No. 1 — Total Budget Allocation (Gross/Net) vs Central Sector Scheme Line for MISS",
+        "evidence_text_or_precise_reference": "₹1,27,290.16 Crore (₹1.27 Lakh Crore BE 2025-26) is the total budget allocation for the ENTIRE Department of Agriculture & Farmers Welfare (Demand No. 1). The specific central sector scheme allocation for the Modified Interest Subvention Scheme (MISS) is approximately ₹22,600 Crore (processed via the Kisan Rin Portal)."
+      }
+    ],
+    "contradiction_details": "PROVEN CONCEPTUAL CONFLATION & MISATTRIBUTION: Coaching note claims ₹1.27 Lakh Crore for the MISS scheme alone, conflating the total Department of Agriculture Budget Estimate (₹1,27,290.16 Crore) with the specific sub-scheme allocation for MISS (~₹22,600 Crore).",
+    "source_retrieval_status": "CONTRADICTION_PROVEN",
+    "audit_notes": "QUARANTINED. Direct primary document retrieved (Demand No. 1). Severe conceptual conflation in coaching source."
+  }
+]

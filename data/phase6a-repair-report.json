@@ -1,0 +1,258 @@
+{
+  "phase": "PHASE_6A_REPAIR",
+  "repair_date": "2026-09-03",
+  "status": "READY_FOR_REVIEW",
+  "verdict": "PASS",
+  "reconciliation_invariants": {
+    "active_canonical_topics": 1450,
+    "active_p1": 99,
+    "active_p2": 475,
+    "active_p3": 876,
+    "mathematical_sum_check": true,
+    "gross_historical_topics": 1462
+  },
+  "four_unauthorized_downgrades_removed": [
+    {
+      "id": "ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
+      "title": "Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone",
+      "restored_priority": "P1_CRITICAL_MEMORIZE",
+      "action": "RESTORED_TO_P1",
+      "reason": "Unauthorized downgrade removed; restored to pre-Phase-6A P1 status."
+    },
+    {
+      "id": "ca-ifsca-notifies-unified-one-kyc-framework-for-gift-ifsc-regulated-entities",
+      "title": "IFSCA Notifies Unified \"One KYC\" Framework for GIFT-IFSC Regulated Entities",
+      "restored_priority": "P1_CRITICAL_DEEP",
+      "action": "RESTORED_TO_P1",
+      "reason": "Unauthorized downgrade removed; restored to pre-Phase-6A P1 status."
+    },
+    {
+      "id": "ca-mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
+      "title": "MoSPI Releases Revised Index of Industrial Production (IIP) Series with Base Year 2022–23 (4 Sectors)",
+      "restored_priority": "P1_CRITICAL_DEEP",
+      "action": "RESTORED_TO_P1",
+      "reason": "Unauthorized downgrade removed; restored to pre-Phase-6A P1 status."
+    },
+    {
+      "id": "ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion",
+      "title": "Central Government Unveils FPI G-Sec Tax Exemptions & Fully Accessible Route (FAR) Expansion",
+      "restored_priority": "P1_CRITICAL_DEEP",
+      "action": "RESTORED_TO_P1",
+      "reason": "Unauthorized downgrade removed; restored to pre-Phase-6A P1 status."
+    }
+  ],
+  "fourteen_validated_upgrades_preserved": [
+    {
+      "id": "ca-d-sib-framework-rbi-leverage-ratio-buffer",
+      "title": "D-SIB Framework & RBI Leverage Ratio Buffer",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+      "title": "RBI Credit Valuation Adjustment (CVA) Risk Capital Framework",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+      "title": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-principle-based-resolution-framework-for-natural-calamity-hit-loans",
+      "title": "RBI Principle-Based Resolution Framework for Natural Calamity-Hit Loans",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims",
+      "title": "RBI Monetary Policy Relief: Up to ₹25,000 Compensation for Small Digital Fraud Victims",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+      "title": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+      "title": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029",
+      "title": "RBI Utkarsh 2029: Medium-Term Strategic Framework for 2026–2029",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-irdai-revises-information-security-cybersecurity-governance-guidelines",
+      "title": "IRDAI Revises Information Security & Cybersecurity Governance Guidelines",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+      "title": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+      "title": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+      "title": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-bank-locker-guidelines-negligence-liability-cap",
+      "title": "RBI Bank Locker Guidelines: Negligence Liability Cap",
+      "priority": "P1_CRITICAL_DEEP"
+    },
+    {
+      "id": "ca-rbi-expands-credit-derivatives-framework-credit-default-swaps-cds-total-return-swaps",
+      "title": "RBI Expands Credit Derivatives Framework: Credit Default Swaps (CDS) & Total Return Swaps",
+      "priority": "P1_CRITICAL_DEEP"
+    }
+  ],
+  "four_requested_downgrades_status": [
+    {
+      "id": "ca-presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
+      "title": "Presidential Assent to Prevention of Insults to National Honour (Amendment) Act 2026",
+      "status": "ALREADY_AT_TARGET_PRIORITY / NO_OP",
+      "current_priority": "P2_HIGH"
+    },
+    {
+      "id": "ca-birth-and-death-registration-amendment-rules-2026-mandatory-digital-reporting",
+      "title": "Birth and Death Registration (Amendment) Rules 2026",
+      "status": "ALREADY_AT_TARGET_PRIORITY / NO_OP",
+      "current_priority": "P2_HIGH / P3"
+    },
+    {
+      "id": "ca-v2v-communication-safety-standard-ais-230-mandated-for-all-commercial-vehicles-by-2027",
+      "title": "V2V Communication Safety Standard (AIS-230)",
+      "status": "ALREADY_AT_TARGET_PRIORITY / NO_OP",
+      "current_priority": "P2_HIGH / P3"
+    },
+    {
+      "id": "ca-drdo-successfully-flight-tests-long-range-glide-bomb-gaurav-from-su-30-mki",
+      "title": "DRDO Successfully Flight-Tests Long-Range Glide Bomb (GAURAV)",
+      "status": "ALREADY_AT_TARGET_PRIORITY / NO_OP",
+      "current_priority": "P2_HIGH / P3"
+    }
+  ],
+  "twelve_duplicate_merges_preserved": [
+    {
+      "retired_id": "ca-fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026",
+      "retired_slug": "fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026",
+      "retired_title": "FAST-DS Scheme: Foreign Assets of Small Taxpayers-Disclosure Scheme 2026",
+      "survivor_id": "ca-cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme",
+      "survivor_slug": "cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme",
+      "survivor_title": "CBDT FAST-DS 2026: Foreign Assets of Small Taxpayers-Disclosure Scheme",
+      "reason": "Duplicate reporting across CGB and Smartkeeda of the same CBDT FAST-DS disclosure scheme under Finance Act 2026."
+    },
+    {
+      "retired_id": "ca-henley-passport-index-february-2026",
+      "retired_slug": "henley-passport-index-february-2026",
+      "retired_title": "Henley Passport Index (February 2026)",
+      "survivor_id": "ca-henley-passport-index-2026",
+      "survivor_slug": "henley-passport-index-2026",
+      "survivor_title": "Henley Passport Index 2026",
+      "reason": "Duplicate reporting of the Q1 Henley Passport Index 2026 release."
+    },
+    {
+      "retired_id": "ca-bharat-taxi-cooperative-ride-hailing",
+      "retired_slug": "bharat-taxi-cooperative-ride-hailing",
+      "retired_title": "Bharat Taxi Cooperative Ride-Hailing",
+      "survivor_id": "ca-bharat-taxi-cooperative-ride-hailing-platform-launched",
+      "survivor_slug": "bharat-taxi-cooperative-ride-hailing-platform-launched",
+      "survivor_title": "Bharat Taxi Cooperative Ride-Hailing Platform Launched",
+      "reason": "Duplicate reporting of the Ministry of Cooperation national ride-hailing cooperative platform."
+    },
+    {
+      "retired_id": "ca-rbi-imposes-monetary-penalties-on-multiple-financial-institutions",
+      "retired_slug": "rbi-imposes-monetary-penalties-on-multiple-financial-institutions",
+      "retired_title": "RBI Imposes Monetary Penalties on Multiple Financial Institutions",
+      "survivor_id": "ca-rbi-imposes-monetary-penalties-on-multiple-financial-entities",
+      "survivor_slug": "rbi-imposes-monetary-penalties-on-multiple-financial-entities",
+      "survivor_title": "RBI Imposes Monetary Penalties on Multiple Financial Entities",
+      "reason": "Duplicate aggregate summary of monthly RBI enforcement penalties."
+    },
+    {
+      "retired_id": "ca-solid-waste-management-rules-2026-notified",
+      "retired_slug": "solid-waste-management-rules-2026-notified",
+      "retired_title": "Solid Waste Management Rules 2026 Notified",
+      "survivor_id": "ca-moefcc-notifies-solid-waste-management-swm-rules-2026-mandatory-4-stream-segregation",
+      "survivor_slug": "moefcc-notifies-solid-waste-management-swm-rules-2026-mandatory-4-stream-segregation",
+      "survivor_title": "MoEFCC Notifies Solid Waste Management (SWM) Rules 2026: Mandatory 4-Stream Segregation",
+      "reason": "Duplicate coverage of the statutory MoEFCC 4-stream solid waste management rules."
+    },
+    {
+      "retired_id": "ca-131-padma-awards-2026-announced",
+      "retired_slug": "131-padma-awards-2026-announced",
+      "retired_title": "131 Padma Awards 2026 Announced",
+      "survivor_id": "ca-president-droupadi-murmu-confers-131-padma-awards-2026",
+      "survivor_slug": "president-droupadi-murmu-confers-131-padma-awards-2026",
+      "survivor_title": "President Droupadi Murmu Confers 131 Padma Awards 2026",
+      "reason": "Duplicate reporting of Republic Day 131 Padma awards announcement and conferment."
+    },
+    {
+      "retired_id": "ca-government-approves-1-billion-polymer-banknotes-of-10-20",
+      "retired_slug": "government-approves-1-billion-polymer-banknotes-of-10-20",
+      "retired_title": "Government Approves 1 Billion Polymer Banknotes of ₹10 & ₹20",
+      "survivor_id": "ca-government-approves-rbi-field-trials-for-1-billion-polymer-banknotes-10-20",
+      "survivor_slug": "government-approves-rbi-field-trials-for-1-billion-polymer-banknotes-10-20",
+      "survivor_title": "Government Approves RBI Field Trials for 1 Billion Polymer Banknotes (₹10 & ₹20)",
+      "reason": "Duplicate coverage of the 1 billion polymer banknote field trial approval."
+    },
+    {
+      "retired_id": "ca-100-fdi-in-insurance-sector-operationalized-under-automatic-route",
+      "retired_slug": "100-fdi-in-insurance-sector-operationalized-under-automatic-route",
+      "retired_title": "100% FDI in Insurance Sector Operationalized under Automatic Route",
+      "survivor_id": "ca-ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route",
+      "survivor_slug": "ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route",
+      "survivor_title": "Ministry of Finance Notifies 100% FDI in Insurance Sector under Automatic Route",
+      "reason": "Duplicate coverage of the statutory Ministry of Finance notification on 100% FDI in insurance."
+    },
+    {
+      "retired_id": "ca-rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure",
+      "retired_slug": "rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure",
+      "retired_title": "RBI Sets 3-Year Cooling-Off for Co-operative Bank Directors after 10-Year Tenure",
+      "survivor_id": "ca-rbi-draft-governance-directions-for-co-operative-banks-3-year-cooling-off",
+      "survivor_slug": "rbi-draft-governance-directions-for-co-operative-banks-3-year-cooling-off",
+      "survivor_title": "RBI Draft Governance Directions for Co-operative Banks (3-Year Cooling-Off)",
+      "reason": "Duplicate reporting of RBI draft governance framework for UCBs/StCBs."
+    },
+    {
+      "retired_id": "ca-sebi-it-resilience-index-framework-for-market-infrastructure-institutions",
+      "retired_slug": "sebi-it-resilience-index-framework-for-market-infrastructure-institutions",
+      "retired_title": "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+      "survivor_id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri",
+      "survivor_slug": "sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri",
+      "survivor_title": "SEBI Scale-Based Framework for Market Infrastructure: IT Resilience Index (ITRI)",
+      "reason": "Duplicate coverage of the SEBI ITRI scale-based compliance framework."
+    },
+    {
+      "retired_id": "ca-irdai-regulations-on-ind-as-ind-as-117-implementation-by-insurers",
+      "retired_slug": "irdai-regulations-on-ind-as-ind-as-117-implementation-by-insurers",
+      "retired_title": "IRDAI Regulations on Ind AS & Ind AS 117 Implementation by Insurers",
+      "survivor_id": "ca-irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026",
+      "survivor_slug": "irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026",
+      "survivor_title": "IRDAI Mandates Ind AS and Ind AS 117 for All Insurers from April 1, 2026",
+      "reason": "Duplicate coverage of the IRDAI mandatory accounting standard transition."
+    },
+    {
+      "retired_id": "ca-sebi-minimum-public-shareholding-mps-timeline",
+      "retired_slug": "sebi-minimum-public-shareholding-mps-timeline",
+      "retired_title": "SEBI Minimum Public Shareholding (MPS) Timeline",
+      "survivor_id": "ca-ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs",
+      "survivor_slug": "ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs",
+      "survivor_title": "Ministry of Finance Restructures Minimum Public Shareholding (MPS) Slabs",
+      "reason": "Duplicate coverage of the MPS relaxation slabs for large listed CPSEs."
+    }
+  ],
+  "regression_tests": {
+    "compiler_suite": "11 / 11 Passed",
+    "search_suite": "13 / 13 Passed",
+    "revision_suite": "8 / 8 Passed",
+    "qa_suite": "38 / 38 Passed"
+  }
+}

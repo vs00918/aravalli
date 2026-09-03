@@ -8,6 +8,7 @@ import {
   ExamTargetProfile
 } from '../lib/banking-ca/schema';
 import { parseCanonicalMarkdownFile } from '../lib/banking-ca/markdown-parser';
+import { resolveCanonicalSlug, mergeCanonicalTopics, CANONICAL_PRIORITY_OVERRIDES } from '../lib/banking-ca/canonical-deduplication';
 
 export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry; validationErrors: string[] } {
   const rootDir = path.join(__dirname, '..');
@@ -53,23 +54,26 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     batches.push(batch);
 
     for (const topic of topics) {
-      if (allTopicsMap[topic.id]) {
-        // Deterministic merge: Append source references, updates, and union activeInMonths
-        const existing = allTopicsMap[topic.id];
-        existing.sourceReferences = [...existing.sourceReferences, ...topic.sourceReferences];
-        if (topic.updatesHistory && topic.updatesHistory.length > 0) {
-          existing.updatesHistory = [...existing.updatesHistory, ...topic.updatesHistory];
-        }
-        // Union activeInMonths
-        const mergedMonths = Array.from(new Set([...(existing.activeInMonths || []), ...(topic.activeInMonths || [])])).sort();
-        existing.activeInMonths = mergedMonths;
-        if (topic.lastUpdatedDate > existing.lastUpdatedDate) {
-          existing.lastUpdatedDate = topic.lastUpdatedDate;
-        }
+      const canonicalSlug = resolveCanonicalSlug(topic.slug);
+      const canonicalId = `ca-${canonicalSlug}`;
+      topic.id = canonicalId;
+      topic.slug = canonicalSlug;
+
+      if (allTopicsMap[canonicalId]) {
+        allTopicsMap[canonicalId] = mergeCanonicalTopics(allTopicsMap[canonicalId], topic);
       } else {
-        allTopicsMap[topic.id] = topic;
-        topicSlugMap[topic.slug] = topic.id;
+        allTopicsMap[canonicalId] = topic;
+        topicSlugMap[canonicalSlug] = canonicalId;
       }
+    }
+  }
+
+  // Apply explicit Phase 6A priority remediations
+  for (const [slug, override] of Object.entries(CANONICAL_PRIORITY_OVERRIDES)) {
+    const id = `ca-${slug}`;
+    if (allTopicsMap[id]) {
+      allTopicsMap[id].priority = override.priority;
+      allTopicsMap[id].revisionMinutes = override.revisionMinutes;
     }
   }
 

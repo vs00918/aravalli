@@ -8,8 +8,6 @@
 
 # PART 2: P2 — HIGH (HIGH-YIELD INSTITUTIONAL PROFILES)
 
-*Estimated Quick Study Time: ~15 Minutes*
-
 ### 1. National Housing Bank (NHB): Capital Structure & Governance
 * **Priority:** P2 — High
 * **Category:** FINANCIAL_INSTITUTIONS
@@ -19,10 +17,11 @@
 * **Status:** OPERATIONAL
 
 #### Must Memorize
-* **Founding Date:** 9 July 1988 (Under National Housing Bank Act, 1987).
-* **Headquarters:** New Delhi.
-* **Authorized & Paid-up Capital:** **₹1,450 crore**, **100% fully subscribed and owned by the Government of India** (transferred from RBI in 2019 following Narasimham-II committee recommendations).
-* **Leadership:** Managing Director: **Sanjay Shukla**; Chairman: **Prabhanjan Mohapatra**.
+* **NHB Profile Ladder:**
+  * **Establishment:** 9 July 1988 (National Housing Bank Act, 1987) $mid$ HQ: **New Delhi**.
+  * **Capital & Ownership:** **₹1,450 Crore** authorized/paid-up capital; **100% owned by Government of India** (transferred from RBI in 2019).
+  * **Leadership:** MD: **Sanjay Shukla** $mid$ Chairman: **Prabhanjan Mohapatra**.
+  * 🎯 **Recap:** *NHB: 100% Govt of India owned $mid$ ₹1,450 Cr capital $mid$ MD Sanjay Shukla.*
 
 #### Exam Focus
 * Ownership: 100% Government of India (not RBI).
@@ -39,14 +38,12 @@
 * **Status:** OPERATIONAL
 
 #### Must Memorize
-* **Total Printing Presses:** Exactly **4 Banknote Printing Presses** operating across India:
-  * **2 Presses under BRBNMPL (Bharatiya Reserve Bank Note Mudran Pvt Ltd — 100% RBI Subsidiary, Est. 3 Feb 1995, Bengaluru):**
-    1. **Mysore** (Karnataka)
-    2. **Salboni** (West Bengal)
-  * **2 Presses under SPMCIL (Security Printing and Minting Corporation of India Ltd — 100% Government of India):**
-    1. **Nashik** (Maharashtra)
-    2. **Dewas** (Madhya Pradesh)
-* **Mints (Coin Production under SPMCIL):** 4 Mints located in Mumbai, Kolkata, Hyderabad, and Noida.
+* **Currency Production Infrastructure Ladder:**
+  * **4 Banknote Presses:**
+    * **BRBNMPL (100% RBI Subsidiary, HQ Bengaluru):** **Mysore** (Karnataka) & **Salboni** (West Bengal).
+    * **SPMCIL (100% Govt of India, HQ New Delhi):** **Nashik** (Maharashtra) & **Dewas** (Madhya Pradesh).
+  * **4 Coin Mints (under SPMCIL):** Mumbai, Kolkata, Hyderabad, and Noida.
+  * 🎯 **Recap:** *RBI Subsidiary (BRBNMPL): Mysore & Salboni $mid$ Govt (SPMCIL): Nashik & Dewas $mid$ 4 Mints.*
 
 #### Exam Focus
 * Which press belongs to RBI subsidiary (BRBNMPL) vs Govt of India (SPMCIL).
@@ -63,10 +60,11 @@
 * **Status:** OPERATIONAL
 
 #### Must Memorize
-* **Establishment:** Set up in **November 2004** by the Government of India.
-* **Statutory Nature:** **Non-statutory, administrative intelligence body**.
-* **Core Mandate:** Central national agency responsible for receiving, processing, analyzing, and disseminating information relating to suspect financial transactions under the **Prevention of Money Laundering Act (PMLA), 2002**.
-* **Reporting Structure:** Reports directly to the **Economic Intelligence Council (EIC)** chaired by the **Union Finance Minister**.
+* **FIU-IND Profile Ladder:**
+  * **Setup & Legal Status:** Established **November 2004** as a **non-statutory, administrative intelligence body**.
+  * **Mandate:** Processing and disseminating suspect transaction reports under **PMLA 2002**.
+  * **Reporting Line:** Reports directly to the **Economic Intelligence Council (EIC)** chaired by the **Union Finance Minister**.
+  * 🎯 **Recap:** *FIU-IND: Non-statutory PMLA intelligence body reporting directly to Finance Minister (EIC).*
 
 #### Exam Focus
 * Statutory status: Non-statutory administrative body.
@@ -83,14 +81,15 @@
 * **Status:** OPERATIONAL
 
 #### Must Memorize
-* **Establishment:** 19 December 1966 | **Headquarters:** Metro Manila, Philippines.
-* **Total Member Countries:** **69 countries** (49 within Asia-Pacific, 20 non-regional).
-* **Leadership:** President: **Masato Kanda**.
-* **Shareholding Matrix (Top Shareholders):**
-  * **Japan:** **15.6%** (Largest Shareholder)
-  * **United States:** **15.6%** (Co-Largest Shareholder)
-  * **China (PRC):** **6.4%**
-  * **India:** **6.3%** (4th Largest Shareholder globally, 2nd largest regional borrower)
+* **ADB Ownership Ladder:**
+  * **Establishment:** 19 December 1966 $mid$ HQ: **Metro Manila, Philippines** $mid$ **69 Member Countries**.
+  * **Leadership:** President: **Masato Kanda**.
+  * **Shareholding Matrix:**
+    * **Japan:** **15.6%** (Largest Shareholder)
+    * **United States:** **15.6%** (Co-Largest Shareholder)
+    * **China:** **6.4%**
+    * **India:** **6.3%** *(4th largest shareholder globally, 2nd largest regional borrower)*
+  * 🎯 **Recap:** *ADB: 69 members $mid$ Japan & US (15.6% each) $mid$ India (6.3%, 4th largest).*
 
 #### Exam Focus
 * India's shareholding in ADB: 6.3%.
@@ -107,14 +106,10 @@
 * **Status:** OPERATIONAL
 
 #### Must Memorize
-* **Establishment:** 27 April 2020 under the **International Financial Services Centres Authority Act, 2019**.
-* **Headquarters:** GIFT City, Gandhinagar, Gujarat.
-* **Leadership:** Chairperson: **K. Rajaraman**.
-* **Unified Regulatory Power:** Combines the regulatory, supervisory, and developmental roles of **four major domestic financial regulators** within IFSC jurisdictions:
-  1. **Reserve Bank of India (RBI)** — Banking & Foreign Exchange.
-  2. **Securities and Exchange Board of India (SEBI)** — Capital Markets & Funds.
-  3. **Insurance Regulatory and Development Authority of India (IRDAI)** — Insurance & Reinsurance.
-  4. **Pension Fund Regulatory and Development Authority (PFRDA)** — Pension Schemes.
+* **IFSCA Framework Ladder:**
+  * **Establishment:** 27 April 2020 (IFSCA Act, 2019) $mid$ HQ: **GIFT City, Gandhinagar** $mid$ Chairperson: **K. Rajaraman**.
+  * **4 Unified Domestic Regulators:** Combines powers of **RBI**, **SEBI**, **IRDAI**, and **PFRDA** within IFSC.
+  * 🎯 **Recap:** *IFSCA: GIFT City HQ $mid$ Unifies powers of RBI, SEBI, IRDAI, and PFRDA.*
 
 #### Exam Focus
 * 4 Regulators unified under IFSCA: RBI, SEBI, IRDAI, PFRDA.
@@ -131,16 +126,14 @@
 * **Status:** IMPLEMENTED
 
 #### Must Memorize
-* **Upgradation:** Ministry of Steel approved the grant of **Miniratna Category-I status** to **MECON Limited**.
-* **Classification:** Schedule 'A' Central Public Sector Enterprise (CPSE) under the administrative jurisdiction of the **Ministry of Steel** (HQ: Ranchi, Jharkhand).
+* **MECON Upgrade:** Upgraded to **Miniratna Category-I** Schedule 'A' CPSE under Ministry of Steel (HQ: Ranchi, Jharkhand).
+* 🎯 **Recap:** *MECON Limited accorded Miniratna Category-I status (Ministry of Steel, Ranchi).*
 
 ---
 
-# PART 2: P3 — MODERATE (ONE-LINERS & RAPID-RECALL FACTOIDS)
+# PART 3: P3 — MODERATE (ONE-LINERS & RAPID-RECALL FACTOIDS)
 
-*Estimated Quick Scan Time: ~5 Minutes*
-
-* **Bank Taglines & Leadership Profiles:**
+* **Bank Taglines & Leadership Profiles**:
   * **State Bank of India (SBI):** Chairman: Challa Sreenivasulu Setty | CFO: Kameshwar Rao Kodavanti | Tagline: *"The Banker to Every Indian"* | App: YONO.
   * **Punjab & Sind Bank:** MD & CEO: Swarup Kumar Saha | Non-Exec Chairman: Charan Singh | Tagline: *"Where Service is a Way of Life"*.
   * **Bank of Maharashtra:** MD & CEO: Nidhu Saxena | Tagline: *"One Family, One Bank"*.
@@ -148,13 +141,13 @@
   * **AU Small Finance Bank:** Founder & MD: Sanjay Agarwal | Chairman: H. R. Khan | Tagline: *"Chalo Aage Badhein"*.
   * **Federal Bank:** MD & CEO: KVS Manian | Tagline: *"Your Perfect Banking Partner"*.
   * **IDFC First Bank:** MD & CEO: V. Vaidyanathan | Tagline: *"Always You First"*.
-* **Market Depositories & Stock Exchanges:**
+* **Market Depositories & Stock Exchanges**:
   * **CDSL (Central Depository Services Ltd):** Founded 1999 (Mumbai) | MD & CEO: Nehal Vora | Chairperson Public Interest Director: Gurumoorthy Mahalingam.
   * **NSE (National Stock Exchange):** Founded 27 Nov 1992 (Mumbai) | MD & CEO: Ashishkumar Chauhan | Chairman: Srinivas Injeti.
-* **National Payments Corporation of India (NPCI):** Founded 19 Dec 2008 (Section 8 Company, Mumbai) | Non-Exec Chairman: Ajay Kumar Choudhary | MD & CEO: Dilip Asbe.
-* **Life Insurance Corporation of India (LIC):** Founded 1 Sept 1956 | Govt holds 96.5% stake | CEO & MD: R. Doraiswamy.
-* **FATF Leadership:** Headquartered in Paris (Est. 1989) | President: Giles Thomson (UK) | Vice-President: Vivek Aggarwal.
-* **Tarapur Atomic Power Station (TAPS Units 1&2):** Commissioned in 1969 in Maharashtra; oldest operating commercial nuclear power reactors in the world.
-* **Loktak Lake:** Located in Moirang, Manipur; largest freshwater lake in Northeast India; famous for *phumdis* (floating circular wetlands) and Keibul Lamjao National Park; Ramsar Site (1990), Montreux Record (1993).
-* **Jnanpith Award:** Instituted in 1961 by Bharatiya Jnanpith; highest literary award in India; prize: ₹11 Lakh + bronze statue of Goddess Vagdevi.
-* **IN-SPACe:** Single-window autonomous agency under Department of Space (DOS) for private space facilitation | HQ: Ahmedabad, Gujarat | Chairman: Dr. Pawan Kumar Goenka.
+* **National Payments Corporation of India (NPCI)**: Founded 19 Dec 2008 (Section 8 Company, Mumbai) | Non-Exec Chairman: Ajay Kumar Choudhary | MD & CEO: Dilip Asbe.
+* **Life Insurance Corporation of India (LIC)**: Founded 1 Sept 1956 | Govt holds 96.5% stake | CEO & MD: R. Doraiswamy.
+* **FATF Leadership**: Headquartered in Paris (Est. 1989) | President: Giles Thomson (UK) | Vice-President: Vivek Aggarwal.
+* **Tarapur Atomic Power Station (TAPS Units 1&2)**: Commissioned in 1969 in Maharashtra; oldest operating commercial nuclear power reactors in the world.
+* **Loktak Lake**: Located in Moirang, Manipur; largest freshwater lake in Northeast India; famous for *phumdis* (floating circular wetlands) and Keibul Lamjao National Park; Ramsar Site (1990), Montreux Record (1993).
+* **Jnanpith Award**: Instituted in 1961 by Bharatiya Jnanpith; highest literary award in India; prize: ₹11 Lakh + bronze statue of Goddess Vagdevi.
+* **IN-SPACe**: Single-window autonomous agency under Department of Space (DOS) for private space facilitation | HQ: Ahmedabad, Gujarat | Chairman: Dr. Pawan Kumar Goenka.

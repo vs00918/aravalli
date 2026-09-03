@@ -17,30 +17,27 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Parliament passed the landmark **Insolvency and Bankruptcy Code (Amendment) Bill, 2025**, introducing 12 comprehensive structural amendments (11 recommended by the Select Committee and 1 by the Government) to eliminate procedural bottlenecks, improve creditor recovery, and streamline corporate resolution.
-* Introduces a completely new resolution framework titled **Creditor-Initiated Insolvency Resolution Process (CIIRP)** under **Chapter IV-A** of the Code.
+* **Insolvency Resolution Modernisation → Creditor-Initiated Insolvency (CIIRP):**
+  * Parliament passed the **IBC (Amendment) Bill, 2025**, introducing 12 structural amendments.
+  * Introduces **Creditor-Initiated Insolvency Resolution Process (CIIRP)** under **Chapter IV-A** of the Code.
 
 #### Must Memorize
-* **Creditor-Initiated Insolvency Resolution Process (CIIRP — Chapter IV-A):**
-  * Financial creditors holding **at least 51% of voting share** can directly initiate insolvency.
-  * Compressed resolution timeline: **150 days** (with a single maximum extension of **45 days**).
-  * Debtor-in-Possession Model: Management remains with existing promoters but is continuously supervised by the Resolution Professional (RP).
-* **Strict Admission & Approval Timelines:**
-  * Application admission or rejection by NCLT (under Sections 7, 9, and 10): strictly within **14 days** (mandatory recording of reasons for delay).
-  * Resolution plan approval by NCLT: strictly within **30 days**.
-* **Revival of Failed CIRP:**
-  * CIRP can be revived **once before liquidation** within **120 days** of failure.
-* **Supervision of Liquidation:**
-  * Liquidation process must be completed within **180 days** (maximum extension of **90 days**).
-  * Committee of Creditors (CoC) retains supervisory powers during liquidation and can replace the liquidator with a **66% voting majority**. Secured creditors must exercise rights within **14 days** or lose priority.
-* **Withdrawal of Insolvency Applications:**
-  * Permitted **only after CoC constitution** and **before the invitation of resolution plans**, requiring **90% approval of the CoC**.
-* **Dissenting Financial Creditor Rights:**
-  * Dissenting financial creditors must receive at least the **minimum liquidation value** or proportionate distribution.
-* **Penalties:** Frivolous filings attract penalties of **₹1 lakh to ₹2 crore**; non-compliance penalties up to **₹5 crore** or **3× the gains/losses**.
+* **CIIRP Parameters & Voting Thresholds Ladder:**
+  * **Initiation Voting Share:** Financial creditors holding **$ge 51%$ of voting share** can initiate CIIRP.
+  * **Resolution Timeline:** Compressed to **150 days** (maximum single extension of **45 days**).
+  * **Debtor-in-Possession Model:** Promoters retain management under continuous Resolution Professional (RP) supervision.
+* **Admission & Liquidation Timelines Ladder:**
+  * **NCLT Admission/Rejection:** Strictly within **14 days** (mandatory recording of delay reasons).
+  * **Resolution Plan Approval by NCLT:** Strictly within **30 days**.
+  * **CIRP Revival:** Allowed **once before liquidation** within **120 days** of failure.
+  * **Liquidation Completion:** Within **180 days** (max extension **90 days**).
+  * **Liquidator Replacement:** Requires **66% CoC voting majority**.
+  * **Application Withdrawal:** Requires **90% CoC approval** (only after CoC formation, before plans invited).
+  * **Penalties:** Frivolous filings: **₹1 Lakh to ₹2 Crore** $mid$ Non-compliance: Up to **₹5 Crore or 3x gains/losses**.
+  * 🎯 **Recap:** *CIIRP (51% vote, 150+45 days) $mid$ NCLT admission: 14 days $mid$ Plan approval: 30 days $mid$ Liquidation: 180+90 days (66% CoC vote) $mid$ Withdrawal: 90% CoC vote.*
 
 #### Know / Understand
-* CIIRP provides an out-of-court, debtor-in-possession alternative to CIRP, preventing business disruption while giving financial creditors direct resolution powers without waiting for management default paralysis.
+* CIIRP provides an out-of-court, debtor-in-possession alternative to CIRP, preventing enterprise destruction while empowering lenders to resolve distress rapidly.
 
 #### Exam Focus
 * Voting threshold to initiate CIIRP (51%) and replace liquidator (66%).
@@ -59,26 +56,25 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Ministry of Finance notified the **Income Tax Rules, 2026**, operationalizing the new **Income-tax Act, 2025** (which supersedes the six-decade-old Income-tax Act, 1961) with effect from **April 1, 2026**.
-* Substantially condenses and simplifies direct tax architecture: Sections reduced from **819 to 536**, Chapters from **47 to 23**, and total word count cut from 5.12 lakh words to 2.6 lakh words.
+* **Direct Tax Simplification → Income Tax Rules 2026:**
+  * MoF notified *Income Tax Rules, 2026* operationalizing the new **Income-tax Act, 2025** from **April 1, 2026**.
+  * Sections condensed from **819 $	o$ 536**, Chapters from **47 $	o$ 23**, and word count halved.
 
 #### Must Memorize
-* **Expansion of 50% HRA Metro Exemption:**
-  * Expanded from 4 metro cities to **8 major urban centres**: **Mumbai, Kolkata, Delhi, Chennai, Hyderabad, Pune, Ahmedabad, and Bengaluru** receive 50% of basic salary HRA exemption. All other cities receive 40%.
-* **Mandatory PAN Quoting Thresholds:**
-  * **Cash Deposits & Withdrawals:** Mandatory for aggregate cash transactions of **₹10 lakh or more in a financial year** (replacing the old single-day ₹50,000 threshold).
-  * **Motor Vehicles / Two-Wheelers:** Mandatory for purchase exceeding **₹5 lakh**.
-  * **Hotel / Restaurant / Event Banquets:** Mandatory for payments exceeding **₹1 lakh** (earlier ₹50,000).
-  * **Immovable Property (Purchase/Sale/Gift/JDA):** Mandatory for property value exceeding **₹20 lakh** (earlier ₹10 lakh).
-* **Credit Card & Cross-Border Surveillance:**
-  * Mandatory linking of PAN with credit cards (no credit card can be issued without PAN). Annual spending above **₹10 lakh** reported to tax authorities.
-* **Corporate & Market Compliance:**
-  * Stock exchanges must maintain electronic audit trails for **7 years**.
-  * Zero-Coupon Bond Framework: Requires application 3 months prior to issuance and investment-grade ratings from at least **two credit rating agencies**.
-  * Significant Economic Presence (SEP) for digital/remote businesses: Threshold set at **₹2 crore transaction value or 3 lakh users**.
+* **HRA Metro Exemption & PAN Thresholds Ladder:**
+  * **50% HRA Metro Cities (8 Urban Hubs):** **Mumbai, Kolkata, Delhi, Chennai, Hyderabad, Pune, Ahmedabad, Bengaluru** (all other cities 40%).
+  * **Cash Transactions:** Mandatory PAN for aggregate cash deposits/withdrawals $ge mathbf{₹10	ext{ Lakh / FY}}$ *(replaces old single-day ₹50,000 rule)*.
+  * **Motor Vehicles:** Mandatory PAN for purchase $> mathbf{₹5	ext{ Lakh}}$.
+  * **Banquets / Restaurants / Hotels:** Mandatory PAN for payments $> mathbf{₹1	ext{ Lakh}}$.
+  * **Immovable Property:** Mandatory PAN for property value $> mathbf{₹20	ext{ Lakh}}$ (earlier ₹10L).
+* **Credit Card & Corporate Surveillance:**
+  * Mandatory PAN linking with credit cards; annual spends $> mathbf{₹10	ext{ Lakh}}$ reported to IT authorities.
+  * Stock exchanges must retain electronic audit trails for **7 years**.
+  * Significant Economic Presence (SEP) threshold: **₹2 Crore revenue or 3 Lakh users**.
+  * 🎯 **Recap:** *50% HRA in 8 metros $mid$ PAN cash rule: ₹10L/year $mid$ Property: ₹20L $mid$ Vehicle: ₹5L $mid$ Hotel: ₹1L $mid$ Credit card spend report: >₹10L.*
 
 #### Know / Understand
-* Moves India's direct tax framework into the digital era by aligning HRA exemptions with modern economic hubs and replacing easily circumvented daily cash limits with annual PAN-linked reporting.
+* Replaces easily circumvented daily cash rules with annual PAN-linked aggregate tracking while aligning HRA relief with high-cost tech and financial metros.
 
 #### Exam Focus
 * 8 cities eligible for 50% HRA exemption.
@@ -97,23 +93,22 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India issued the **Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Third Amendment Directions, 2026**, coming into effect from **July 1, 2026**.
-* Overhauls customer protection, limits customer liability in unauthorized digital transactions, and mandates dynamic Two-Factor Authentication (2FA).
+* **Consumer Protection Overhaul → Fraud Relief & Dynamic 2FA:**
+  * RBI issued *Responsible Business Conduct (Third Amendment) Directions, 2026*, effective **July 1, 2026**.
+  * Establishes customer fraud compensation and mandates dynamic Two-Factor Authentication.
 
 #### Must Memorize
-* **Compensation for Small-Value Online Frauds:**
-  * Customers reporting a gross loss of up to **₹50,000** due to fraudulent electronic banking transactions receive **85% of the net loss amount or ₹25,000, whichever is less**, once during their lifetime.
-  * Eligibility: Loss must be proven genuine under bank policy and reported within **5 days** to both the bank and the National Cyber Crime Reporting Portal / Cyber Helpline (**1930**).
-* **Zero Liability Criteria:**
-  * Customer receives full zero liability and immediate reversal if fraud occurs due to bank deficiency/negligence, or in third-party breaches reported to the bank within **5 calendar days** of occurrence.
-* **Mandatory Two-Factor Authentication (2FA):**
-  * Mandatory 2FA for all domestic digital transactions (UPI, cards, wallets) from **April 1, 2026**, requiring at least one **dynamic factor** (e.g. OTP, biometric).
-  * Deadline for cross-border card-not-present transactions: **October 1, 2026**.
-* **Mandatory Instant SMS Alerts:**
-  * Banks must mandatorily send instant SMS alerts for all electronic banking transactions **exceeding ₹500** (optional for $\le ₹500$ as per bank policy).
+* **Fraud Compensation & Security Mandates Ladder:**
+  * **Small-Value Online Fraud Relief:**
+    * Gross losses up to **₹50,000** eligible for **85% of net loss or ₹25,000, whichever is less** *(once in lifetime)*.
+    * Must be reported within **5 days** to bank and National Cyber Crime Portal / Helpline (**1930**).
+  * **Zero Customer Liability:** 100% reversal if fraud arises from bank deficiency, or third-party breach reported within **5 calendar days**.
+  * **Dynamic 2FA Mandate:** Mandatory 2FA with at least one dynamic factor (OTP, biometric) for domestic digital transactions from **April 1, 2026** (cross-border CNP: **October 1, 2026**).
+  * **Mandatory Instant SMS:** Required for all transactions $> mathbf{₹500}$.
+  * 🎯 **Recap:** *Small fraud relief: 85% loss or ₹25,000 (losses up to ₹50k, 5-day report to 1930) $mid$ Dynamic 2FA from April 1, 2026 $mid$ SMS alerts $>₹500$.*
 
 #### Know / Understand
-* Provides an institutional safety net for retail depositors against small cyber thefts while obligating banks to invest in real-time fraud monitoring systems like MuleHunter.AI.
+* Establishes a retail safety net for depositors against phishing and SIM-swap attacks while compelling banks to deploy real-time ML fraud interdiction tools.
 
 #### Exam Focus
 * Small-value fraud compensation cap (85% of net loss or ₹25,000, whichever is lower; once in lifetime).
@@ -132,20 +127,21 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India finalized and notified its amended *Directions on Declaration of Dividends by Banks*, establishing a capital-linked distribution regime taking effect from **FY 2026-27 (FY27)**.
-* Replaced the erstwhile static 40% dividend cap with a risk-sensitive payout ratio of up to **75% of Profit After Tax (PAT)**.
+* **Prudential Dividend Policy → Capital-Linked Distribution:**
+  * RBI finalized amended *Directions on Declaration of Dividends by Banks*, effective from **FY 2026-27 (FY27)**.
+  * Replaces static 40% cap with risk-sensitive payout ratio of up to **75% of Profit After Tax (PAT)**.
 
 #### Must Memorize
-* **Maximum Dividend Cap:** Commercial banks incorporated in India can declare dividends up to **75% of Profit After Tax (PAT)** for the relevant financial year.
-* **Capital Buffer Matrix:** Payout capacity is determined by a bank's Common Equity Tier 1 (CET1) capital position:
-  * Banks with CET1 ratios only marginally above regulatory minimums are **prohibited from declaring any dividend**.
-  * Banks with significantly higher capital positions may distribute up to **100% of Adjusted PAT**, subject to the overall statutory ceiling of **75% of actual PAT**.
-* **Adjusted PAT Formula:**
-  $$\text{Adjusted PAT} = \text{PAT of Financial Year} - 50\% \text{ of Net Non-Performing Assets (Net NPAs as of March 31)}$$
-* **Effective Date:** Applies to all dividend declarations starting from **FY 2026-27 (FY27)**.
+* **Dividend Cap & Adjusted PAT Calculation Ladder:**
+  * **Maximum Dividend Ceiling:** Up to **75% of actual PAT**.
+  * **Capital Buffer Matrix:** High CET1 capital allows distributing up to 100% of Adjusted PAT (capped by 75% actual PAT). Marginal CET1 banks barred from dividends.
+  * **Adjusted PAT Formula:**
+    $$\text{Adjusted PAT} = \text{PAT of Financial Year} - 50\% \text{ of Net NPAs (as of March 31)}$$
+  * **Effective Period:** Applies to all dividend declarations starting **FY 2026-27 (FY27)**.
+  * 🎯 **Recap:** *Bank dividend cap: 75% of PAT $mid$ Formula: PAT - 50% Net NPAs $mid$ Effective FY27.*
 
 #### Know / Understand
-* Prevents under-capitalized banks from eroding their solvency through aggressive dividend payouts, while allowing well-capitalized, low-NPA lenders greater freedom to reward shareholders.
+* Prevents undercapitalized lenders from diluting solvency through dividends while allowing healthy, low-NPA banks to reward shareholders.
 
 #### Exam Focus
 * Maximum statutory dividend payout cap (75% of PAT).
@@ -156,264 +152,323 @@
 
 # PART 2: P2 — HIGH-YIELD TOPICS
 
-### 1. **RBI Prudential Norms on Capital Adequacy: Counterparty Credit Risk (CCR) Amendments** (~4 min)
+### 1. RBI Prudential Norms on Capital Adequacy: Counterparty Credit Risk (CCR) Amendments
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-04
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * RBI amended the capital adequacy framework for commercial banks to introduce standardized supervisory add-on factors for Counterparty Credit Risk (CCR).
-  * Equity Contracts Add-On Factors: **6%** ($<1$ yr), **8%** (1–5 yrs), and **10%** ($>5$ yrs).
-  * Precious Metals (excl. gold): **7%** ($<1$ yr), **7%** (1–5 yrs), and **8%** ($>5$ yrs); Other Commodities: **10%**, **12%**, and **15%**.
-  * Qualifying Central Counterparties (QCCPs): Standard **2% risk weight** applies to a bank's trade exposures.
-  * Interest rate contracts with residual maturity $>1$ year carry a **minimum add-on floor of 0.50%**.
+  * **Supervisory Add-On Factor Ladder:**
+    * Equity Contracts: **6%** ($<1$ yr), **8%** (1–5 yrs), **10%** ($>5$ yrs).
+    * Precious Metals: **7%** ($<1$ yr), **7%** (1–5 yrs), **8%** ($>5$ yrs).
+    * Other Commodities: **10%**, **12%**, **15%**.
+    * QCCPs: Standard **2% risk weight** applies to trade exposures.
+  * 🎯 **Recap:** *CCR add-on factors: Equity (6-10%), Commodities (10-15%) $mid$ 2% risk weight for QCCPs.*
 
-### 2. **RBI 622nd Central Board Meeting in Patna & Utkarsh 3.0 (2026–29)** (~3 min)
+### 2. RBI 622nd Central Board Meeting in Patna & Utkarsh 3.0 (2026–29)
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-07
 * **Must Memorize Facts:**
-  * Central Board approved the bank's budget for FY 2026-27 and approved **Utkarsh 3.0** (RBI's Medium-Term Strategy Framework for **2026–2029** to improve regulation and supervision).
-  * State government borrowing via State Government Securities (SGS) auctions reached ₹45,960 crore; top borrowers: **1. Karnataka (₹10,000 cr), 2. Tamil Nadu (₹8,000 cr), 3. Madhya Pradesh (₹5,800 cr)**.
+  * **Medium-Term Strategy Framework:**
+    * Approved **Utkarsh 3.0 (2026–2029)** for supervisory and regulatory strengthening.
+    * State borrowings (SGS): Karnataka (₹10,000 Cr), Tamil Nadu (₹8,000 Cr), MP (₹5,800 Cr).
+  * 🎯 **Recap:** *Utkarsh 3.0 strategy framework (2026–2029) approved at Patna board meeting.*
 
-### 3. **RBI Payments Vision 2028: 'Shaping India’s Payment Frontier'** (~3 min)
+### 3. RBI Payments Vision 2028: 'Shaping India’s Payment Frontier'
 * **Priority:** P2 — High
 * **Category:** DIGITAL_PAYMENTS
 * **Institution:** RBI
 * **Event Date:** 2026-03-09
 * **Must Memorize Facts:**
-  * Vision document spans up to **December 2028** across **15 specific initiatives**.
-  * Key Initiatives: (1) **PaSS (Payments Switching Service)** to manage recurring mandates during bank mergers or account switching; (2) **Shared Responsibility Framework** where issuer bank and beneficiary bank jointly bear liability for unauthorized digital frauds; (3) **TReDS** expansion for MSME invoice discounting.
+  * **Payments Roadmap Initiatives:**
+    * Spans through **December 2028** across **15 core initiatives**.
+    * **PaSS (Payments Switching Service):** Manages recurring mandates during bank mergers/account switches.
+    * **Shared Responsibility Framework:** Issuer and beneficiary banks jointly bear liability for unauthorized digital fraud.
+  * 🎯 **Recap:** *Payments Vision 2028: 15 initiatives including PaSS mandate switching and Shared Fraud Liability.*
 
-### 4. **Government & RBI Retain 4% Inflation Target Band till March 31, 2031** (~3 min)
+### 4. Government & RBI Retain 4% Inflation Target Band till March 31, 2031
 * **Priority:** P2 — High
 * **Category:** MONETARY_POLICY
 * **Institution:** RBI
 * **Event Date:** 2026-03-20
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Central Government, in consultation with RBI, notified the retail inflation target of **4% with a tolerance band of ±2% (2% to 6%)** for another five-year period from **April 1, 2026 to March 31, 2031**. (Target was first established under RBI Act in 2016).
+  * **Inflation Targeting Framework:**
+    * Retained **4% target with $pm 2%$ band (2% to 6%)** for 5-year period from **April 1, 2026 to March 31, 2031**.
+  * 🎯 **Recap:** *4% $pm 2%$ inflation band retained for FY27–FY31.*
 
-### 5. **WMA Limit for Government of India (H1 FY27): ₹2,50,000 Crore** (~3 min)
+### 5. WMA Limit for Government of India (H1 FY27): ₹2,50,000 Crore
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-28
 * **Must Memorize Facts:**
-  * Ways and Means Advances (WMA) limit for Government of India for April–September 2026 fixed at **₹2,50,000 crore**.
-  * RBI triggers fresh flotation of market loans when the Centre utilizes **75% of the WMA limit**. Interest Rates: WMA at **Repo Rate**; Overdraft at **Repo + 2%**.
+  * **Central WMA Borrowing Limits:**
+    * H1 FY27 limit fixed at **₹2,50,000 Crore**. Market loans triggered at **75% utilization**.
+    * Interest: WMA at **Repo Rate** $mid$ Overdraft at **Repo + 2%**.
+  * 🎯 **Recap:** *H1 FY27 Central WMA: ₹2,50,000 Cr $mid$ Fresh bond issuance triggered at 75% utilization.*
 
-### 6. **RBI Caps Net Rupee FX Positions (NOP-INR) at $100 Million for AD Banks** (~3 min)
+### 6. RBI Caps Net Rupee FX Positions (NOP-INR) at $100 Million for AD Banks
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-25
 * **Must Memorize Facts:**
-  * Mandated Authorized Dealers to maintain Net Open Position in Indian Rupee (NOP-INR) within **$100 million** at the end of each business day to curb speculation amid global oil volatility and FPI equity outflows (compliance deadline: **April 10, 2026**).
+  * **Forex Speculation Curb:**
+    * NOP-INR capped within **$100 Million** at close of each business day (compliance: **April 10, 2026**).
+  * 🎯 **Recap:** *Net open rupee position capped at $100M for AD banks.*
 
-### 7. **RBI Extends Capital Market Exposure Directions Implementation to July 1, 2026** (~3 min)
+### 7. RBI Extends Capital Market Exposure Directions Implementation to July 1, 2026
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-24
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Deferred implementation of revised Commercial Banks Credit Facilities (capital market exposure & broker lending) guidelines by 3 months from April 1 to **July 1, 2026**.
+  * **Implementation Deferral:**
+    * Revised broker lending guidelines deferred by 3 months to **July 1, 2026**.
+  * 🎯 **Recap:** *Broker credit & CME directions deferred to July 1, 2026.*
 
-### 8. **RBI Mandates 7-Day Certified Filing for ECB Returns** (~3 min)
+### 8. RBI Mandates 7-Day Certified Filing for ECB Returns
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-26
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * AD Category-I banks mandated to submit certified ECB returns to RBI within **7 calendar days** of receiving them from borrowers, effective **April 1, 2026**. Delays in Form ECB-2 attract Late Submission Fee (LSF) computed per loan registration number.
+  * **ECB Return Compliance:**
+    * AD-I banks must submit certified ECB returns to RBI within **7 calendar days** of receipt from borrowers (effective **April 1, 2026**).
+  * 🎯 **Recap:** *7-day certified ECB return filing mandate for AD-I banks.*
 
-### 9. **DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)** (~3 min)
+### 9. DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-15
 * **Must Memorize Facts:**
-  * Public Sector Banks transferred **₹60,518 crore** in unclaimed deposits (inoperative $>10\text{ years}$) to RBI's Depositor Education and Awareness (DEA) Fund under Section 26A of Banking Regulation Act, 1949.
-  * Portals: **UDGAM** (RBI for bank deposits), **Bima Bharosa** (IRDAI for insurance), **MITRA** (SEBI for mutual funds). Banking Laws Amendment Act 2025 enabled up to 4 simultaneous/successive nominations.
+  * **Unclaimed Depositor Funds:**
+    * PSBs transferred **₹60,518 Crore** to DEA Fund under Section 26A of BR Act (inoperative $>10	ext{ yrs}$).
+    * Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).
+  * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*
 
-### 10. **RBI & IDPIC Deploy 'MuleHunter.AI' across 26 Banks** (~3 min)
+### 10. RBI & IDPIC Deploy 'MuleHunter.AI' across 26 Banks
 * **Priority:** P2 — High
 * **Category:** DIGITAL_PAYMENTS
 * **Institution:** RBI
 * **Event Date:** 2026-03-16
 * **Must Memorize Facts:**
-  * Indian Digital Payment Intelligence Corporation (IDPIC, incorporated Oct 16, 2025 as Section 8 entity) rolled out **MuleHunter.AI** across 26 banks for real-time AI/ML detection of mule accounts used in cyber financial layering.
+  * **Cyber Mule Interdiction:**
+    * Indian Digital Payment Intelligence Corp (IDPIC) rolled out **MuleHunter.AI** across 26 banks for real-time mule account detection.
+  * 🎯 **Recap:** *MuleHunter.AI deployed across 26 banks by IDPIC.*
 
-### 11. **RBI Mandates DigiLocker Verification for High-Risk Digital Payments** (~3 min)
+### 11. RBI Mandates DigiLocker Verification for High-Risk Digital Payments
 * **Priority:** P2 — High
 * **Category:** DIGITAL_PAYMENTS
 * **Institution:** RBI
 * **Event Date:** 2026-03-18
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Effective **April 1, 2026**, banks must trigger DigiLocker-based secondary identity verification for suspicious transactions (large transfers to new beneficiaries, sudden high-value payments) to prevent SIM-swap frauds.
+  * **Secondary Verification:**
+    * Mandatory DigiLocker secondary identity check for suspicious high-value digital payments from **April 1, 2026**.
+  * 🎯 **Recap:** *DigiLocker verification for suspicious high-value payments.*
 
-### 12. **SEBI Reforms: Social Impact Funds Minimum Investment Lowered to ₹1,000** (~3 min)
+### 12. SEBI Reforms: Social Impact Funds Minimum Investment Lowered to ₹1,000
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-20
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Lowered minimum investment threshold for Social Impact Funds under AIFs from ₹2 lakh to **₹1,000**.
-  * Accepted Pratyush Sinha Committee norms: SEBI Chairman and Whole-Time Members classified as "insiders" and must freeze or liquidate commercial equity holdings upon taking office.
+  * **Retail Social Investment Access:**
+    * SIF minimum investment lowered from ₹2 lakh $	o$ **₹1,000**.
+    * Pratyush Sinha panel: SEBI leadership classified as insiders (must freeze commercial equities).
+  * 🎯 **Recap:** *Social Impact Fund min ticket cut to ₹1,000 $mid$ SEBI insider code adopted.*
 
-### 13. **SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions** (~3 min)
+### 13. SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-19
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Permitted mutual funds to undertake intra-day borrowing to manage redemption cash mismatches, exempt from the 20% 6-month borrowing cap, provided borrowings do not exceed guaranteed same-day receivables from GoI, RBI, or CCIL. Effective **April 1, 2026**.
+  * **MF Liquidity Facility:**
+    * Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/CCIL), exempt from 20% 6-month cap (effective **April 1, 2026**).
+  * 🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/CCIL receivables.*
 
-### 14. **PFRDA Revises NPS Point of Presence (PoP) Distributor Charges** (~3 min)
+### 14. PFRDA Revises NPS Point of Presence (PoP) Distributor Charges
 * **Priority:** P2 — High
 * **Category:** PENSION_SYSTEMS
 * **Institution:** PFRDA
 * **Event Date:** 2026-03-12
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * PoPs receive one-time onboarding charge of **₹200** per new NPS subscriber (paid in ₹50 quarterly installments via unit cancellation); discounted to **₹100** for digital non-face-to-face onboarding. Annual fee: **0.20% of AUM** paid quarterly.
+  * **PoP Distributor Fees:**
+    * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of AUM**.
+  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual AUM fee.*
 
-### 15. **SEBI Proposes Mutual Fund Prepaid Gift Instruments (₹10,000 Cap)** (~3 min)
+### 15. SEBI Proposes Mutual Fund Prepaid Gift Instruments (₹10,000 Cap)
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-14
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
-  * Proposed transferable prepaid mutual fund gift cards capped at **₹10,000 per instrument** with 1-year validity; total annual investment via prepaid instruments/cash capped at **₹50,000 per mutual fund per FY**.
+  * **Prepaid Gift Units:**
+    * Transferable MF gift cards capped at **₹10,000 per card** (annual investment cap ₹50,000/FY).
+  * 🎯 **Recap:** *MF prepaid gift cards capped at ₹10,000 (₹50k annual limit).*
 
-### 16. **SEBI IT Resilience Index Framework for Market Infrastructure Institutions** (~3 min)
+### 16. SEBI IT Resilience Index Framework for Market Infrastructure Institutions
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-15
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
-  * 9-parameter index evaluating exchanges, depositories, and clearing corporations. System availability and security carry highest weight (**20% each**); remaining 7 parameters carry 10% each. Computed half-yearly within 60 days.
+  * **MII Cyber Resilience:**
+    * 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).
+  * 🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*
 
-### 17. **SEBI Life Cycle Mutual Funds Framework & Product Tenures** (~3 min)
+### 17. SEBI Life Cycle Mutual Funds Framework & Product Tenures
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-16
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Life cycle funds defined with fixed maturity tenures of 5, 10, 15, 20, 25, and 30 years investing in equity, debt (AA+ minimum), gold/silver ETFs, and InvITs. AMCs continuing children's schemes barred from 20-yr variant; retirement schemes barred from 30-yr variant. Exit loads: 3% (Yr 1), 2% (Yr 2), 1% (Yr 3).
+  * **Target Date Lifecycle Funds:**
+    * Defined tenures of 5, 10, 15, 20, 25, 30 years. Exit loads: 3% (Yr 1), 2% (Yr 2), 1% (Yr 3).
+  * 🎯 **Recap:** *Lifecycle mutual funds with 5 to 30-year tenures $mid$ Glide-path asset reallocation.*
 
-### 18. **SEBI Simplifies Securities Transmission: ₹30,000 STP Limit & ₹30 Lakh Documentation Threshold** (~3 min)
+### 18. SEBI Simplifies Securities Transmission: ₹30,000 STP Limit & ₹30 Lakh Documentation Threshold
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-14
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
-  * Straight-Through Processing (STP) limit for securities transmission: **₹30,000 for demat** and **₹10,000 for physical**. Simplified documentation threshold raised to **₹30 lakh for demat** and **₹10 lakh for physical** holdings. Mandatory processing within 21 calendar days.
+  * **Transmission Processing Thresholds:**
+    * STP transmission limit: **₹30,000 for demat** $mid$ **₹10,000 for physical**.
+    * Simplified documentation: **₹30 Lakh for demat** $mid$ **₹10 Lakh for physical** (21-day timeline).
+  * 🎯 **Recap:** *Demat transmission simplified documentation up to ₹30 Lakh $mid$ 21-day completion.*
 
-### 19. **SEBI Norms for Non-Bank Custodians: SBU Ring-Fencing & ₹75 Crore Net Worth** (~3 min)
+### 19. SEBI Norms for Non-Bank Custodians: SBU Ring-Fencing & ₹75 Crore Net Worth
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-24
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Non-bank custodians permitted to offer non-SEBI financial services exclusively through a separate Strategic Business Unit (SBU) on an arm's-length basis, with statutory net worth of **₹75 crore** maintained excluding the SBU.
+  * **Custodian SBU Ring-Fencing:**
+    * Non-bank custodians must operate non-SEBI financial services via arm's-length SBU; net worth of **₹75 Crore** maintained separately.
+  * 🎯 **Recap:** *Non-bank custodians: SBU ring-fencing with standalone ₹75 Cr net worth.*
 
-### 20. **SEBI Deploys AI 'Sudarshan' & Removes 1.2 Lakh Unregistered Finfluencer Posts** (~3 min)
+### 20. SEBI Deploys AI 'Sudarshan' & Removes 1.2 Lakh Unregistered Finfluencer Posts
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** SEBI
 * **Event Date:** 2026-03-11
 * **Must Memorize Facts:**
-  * Deployed in-house multilingual AI surveillance tool **Sudarshan** to track illegal investment advice across social media; removed 1.2 lakh non-compliant posts and launched Verified App Labels on Google Play Store.
+  * **AI Surveillance Tool:**
+    * Deployed **Sudarshan** AI tool; removed 1.2 lakh unregistered finfluencer posts.
+  * 🎯 **Recap:** *SEBI deployed 'Sudarshan' AI for unregistered financial advisor surveillance.*
 
-### 21. **IRDAI Approves Allianz Jio Reinsurance & Kiwi General Insurance** (~3 min)
+### 21. IRDAI Approves Allianz Jio Reinsurance & Kiwi General Insurance
 * **Priority:** P2 — High
 * **Category:** INSURANCE_SECTOR
 * **Institution:** IRDAI
 * **Event Date:** 2026-03-15
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Approved **Allianz Jio Reinsurance** (50:50 JV of Allianz Group and Jio Financial Services) and **Kiwi General Insurance** (backed by WestBridge Capital & Neelesh Garg). Expands domestic reinsurance alongside GIC Re and Valueattics Re.
+  * **New Insurance Licenses:**
+    * Approved **Allianz Jio Reinsurance** (50:50 JV) and **Kiwi General Insurance**.
+  * 🎯 **Recap:** *Allianz Jio Reinsurance & Kiwi General Insurance licensed by IRDAI.*
 
-### 22. **IRDAI Mandates Ind AS and Ind AS 117 for All Insurers from April 1, 2026** (~3 min)
-* **Priority:** P2 — High
+### 22. IRDAI Mandates Ind AS and Ind AS 117 for All Insurers from April 1, 2026
+* **Priority:** P1_CRITICAL_DEEP
 * **Category:** INSURANCE_SECTOR
 * **Institution:** IRDAI
 * **Event Date:** 2026-03-18
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * All life, general, health insurers and reinsurers mandated to adopt Indian Accounting Standards, specifically **Ind AS 117** (insurance contracts accounting), effective **April 1, 2026** for transparent financial reporting.
+  * **Insurance Accounting Standard:**
+    * Mandatory adoption of **Ind AS 117** (insurance contracts) from **April 1, 2026**.
+  * 🎯 **Recap:** *Mandatory Ind AS 117 for all insurers from April 1, 2026.*
 
-### 23. **239th CBT Meeting: EPF Interest Rate Maintained at 8.25% for FY26** (~3 min)
+### 23. 239th CBT Meeting: EPF Interest Rate Maintained at 8.25% for FY26
 * **Priority:** P2 — High
 * **Category:** PENSION_SYSTEMS
 * **Institution:** OTHER
 * **Event Date:** 2026-03-02
 * **Must Memorize Facts:**
-  * Central Board of Trustees (CBT) chaired by Dr. Mansukh Mandaviya recommended **8.25% annual interest** on EPF accumulations for FY 2025-26. Approved EPF Scheme 2026, EPS 2026, EDLI Scheme 2026, and pilot auto-settlement for inoperative accounts with balances $\le ₹1,000$.
+  * **EPFO Rate Recommendation:**
+    * Retained **8.25% interest rate** on EPF accumulations for FY 2025-26.
+  * 🎯 **Recap:** *EPF interest rate fixed at 8.25% for FY26.*
 
-### 24. **Ministry of Finance Restructures Minimum Public Shareholding (MPS) Slabs** (~3 min)
+### 24. Ministry of Finance Restructures Minimum Public Shareholding (MPS) Slabs
 * **Priority:** P2 — High
 * **Category:** CAPITAL_MARKETS
 * **Institution:** MINISTRY_OF_FINANCE
 * **Event Date:** 2026-03-06
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Amended Securities Contracts (Regulation) Rules, 1957 to expand post-issue capital categories from 3 to **6 categories** (from ₹1,600 cr to $>₹5\text{ lakh cr}$); compliance window between **3 and 10 years**; minimum public offer threshold lowered from 5% to **2.5%**.
+  * **MPS Slabs Overhaul:**
+    * Post-issue capital categories expanded from 3 $	o$ **6 categories** (compliance window **3 to 10 years**; min offer lowered to **2.5%**).
+  * 🎯 **Recap:** *6 MPS post-issue tiers with 3–10 year compliance windows.*
 
-### 25. **Government Restores RoDTEP Rates and Value Caps (Effective March 23, 2026)** (~3 min)
+### 25. Government Restores RoDTEP Rates and Value Caps (Effective March 23, 2026)
 * **Priority:** P2 — High
 * **Category:** MACRO_ECONOMY
 * **Institution:** MINISTRY_OF_FINANCE
 * **Event Date:** 2026-03-23
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Restored full Remission of Duties and Taxes on Exported Products (RoDTEP) rates and caps in force as of Feb 22, 2026, withdrawing the 50% restriction to support exporters during Red Sea and West Asia maritime disruptions.
+  * **Export Incentive Restoration:**
+    * Restored full RoDTEP rates, removing the 50% cap during Red Sea maritime disruptions.
+  * 🎯 **Recap:** *Full RoDTEP export duty remission rates restored from March 23, 2026.*
 
-### 26. **Government Modifies PM Fasal Bima Yojana: 12% Penalty Interest for Delayed Claims** (~3 min)
+### 26. Government Modifies PM Fasal Bima Yojana: 12% Penalty Interest for Delayed Claims
 * **Priority:** P2 — High
 * **Category:** GOVERNMENT_SCHEMES
 * **Institution:** OTHER
 * **Event Date:** 2026-03-12
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * Insurance companies and State Governments mandated to pay **12% annual interest to farmers** if crop insurance claim settlements are delayed beyond **21 days**.
+  * **Crop Insurance Penalties:**
+    * Insurers and States must pay **12% annual interest** to farmers for claim settlements delayed beyond **21 days**.
+  * 🎯 **Recap:** *12% penalty interest for PMFBY claims delayed >21 days.*
 
-### 27. **India Renews $75 Billion Bilateral Swap Arrangement (BSA) with Japan** (~3 min)
+### 27. India Renews $75 Billion Bilateral Swap Arrangement (BSA) with Japan
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
 * **Event Date:** 2026-03-01
 * **Must Memorize Facts:**
-  * RBI renewed the two-way Bilateral Swap Arrangement with Bank of Japan for **$75 billion**, allowing exchange of local currencies against US Dollar for balance of payments support.
+  * **Central Bank Swap Line:**
+    * Renewed **$75 Billion** bilateral currency swap with Bank of Japan.
+  * 🎯 **Recap:** *India-Japan $75 Billion Bilateral Swap Arrangement renewed.*
 
-### 28. **India-EU Reciprocal Most Favoured Nation (MFN) Agreement for 5 Years** (~3 min)
+### 28. India-EU Reciprocal Most Favoured Nation (MFN) Agreement for 5 Years
 * **Priority:** P2 — High
 * **Category:** MACRO_ECONOMY
 * **Institution:** OTHER
 * **Event Date:** 2026-03-14
 * **Must Memorize Facts:**
-  * India and European Union agreed to grant each other MFN status for **5 years** from the date the India-EU FTA enters into force (subject to 4th-year joint committee review).
+  * **Trade Status Agreement:**
+    * Reciprocal MFN status granted for **5 years** under India-EU FTA.
+  * 🎯 **Recap:** *5-year reciprocal MFN status agreed between India and EU.*
 
-### 29. **Finance Ministry Announces ₹1 Lakh Crore Economic Stabilisation Fund** (~3 min)
+### 29. Finance Ministry Announces ₹1 Lakh Crore Economic Stabilisation Fund
 * **Priority:** P2 — High
 * **Category:** MACRO_ECONOMY
 * **Institution:** MINISTRY_OF_FINANCE
 * **Event Date:** 2026-03-11
 * **Must Memorize Facts:**
-  * Proposed **₹1 lakh crore Economic Stabilization Fund** in Lok Sabha as a fiscal buffer against West Asia geopolitical and oil price shocks (₹57,000 cr fresh cash approval + ₹43,000 cr internal savings).
+  * **Geopolitical Shock Buffer:**
+    * Proposed **₹1 Lakh Crore Economic Stabilization Fund** for oil and maritime supply shocks.
+  * 🎯 **Recap:** *₹1 Lakh Cr Economic Stabilization Fund proposed against global supply shocks.*
 
 ---
 

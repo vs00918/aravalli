@@ -3,118 +3,1309 @@ import ReaderLayout from '../layouts/ReaderLayout.astro';
 import { getCollection } from 'astro:content';
 import { getVolumeGroups } from '../utils/navigation';
 
+// Fetch all topics dynamically from Astro Content Collection
 const allTopics = await getCollection('topics');
-const volumeGroups = getVolumeGroups(allTopics);
-const totalChapters = allTopics.length;
-const totalVolumes = volumeGroups.length;
+const rawVolumeGroups = getVolumeGroups(allTopics);
+
+// Compute global corpus metrics dynamically
+const totalTopics = allTopics.length;
+const totalVolumes = rawVolumeGroups.length;
+const totalWordCount = allTopics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
+const totalReadingHours = (totalWordCount / 225 / 60).toFixed(1);
+
+// Helper for Roman Numerals
+function toRoman(num: number): string {
+  const lookup: Record<string, number> = {
+    M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90,
+    L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1
+  };
+  let roman = '';
+  for (const i in lookup) {
+    while (num >= lookup[i]) {
+      roman += i;
+      num -= lookup[i];
+    }
+  }
+  return roman || 'I';
+}
+
+// Dynamic Domain Identity, Colors & Illustrations
+function getVolumeVisualTheme(title: string, volumeNumber: number) {
+  const t = title.toLowerCase();
+  if (t.includes('biology') || t.includes('energy') || t.includes('brain') || t.includes('mind')) {
+    return {
+      key: 'biology',
+      domainLabel: 'COGNITIVE NEUROBIOLOGY & SOMATIC SYSTEMS',
+      accentColor: '#2d6a4f',
+      accentSoft: '#e8f4ec',
+      illustration: '/ytdecoded/assets/volumes/vol1-neurobiology.svg'
+    };
+  }
+  if (t.includes('wealth') || t.includes('capital') || t.includes('allocation') || t.includes('money')) {
+    return {
+      key: 'wealth',
+      domainLabel: 'CAPITAL DYNAMICS & ASYMMETRIC LEVERAGE',
+      accentColor: '#936639',
+      accentSoft: '#f7ede2',
+      illustration: '/ytdecoded/assets/volumes/vol2-wealth.svg'
+    };
+  }
+  if (t.includes('philosophy') || t.includes('action') || t.includes('metacognition')) {
+    return {
+      key: 'metacognition',
+      domainLabel: 'PHILOSOPHY OF ACTION & METACOGNITIVE MASTERY',
+      accentColor: '#8a2839',
+      accentSoft: '#fcedef',
+      illustration: '/ytdecoded/assets/volumes/vol3-metacognition.svg'
+    };
+  }
+  if (t.includes('execution') || t.includes('velocity') || t.includes('leverage')) {
+    return {
+      key: 'execution',
+      domainLabel: 'EXECUTION PHYSICS & KINETIC SYSTEMS',
+      accentColor: '#a24857',
+      accentSoft: '#fbe9eb',
+      illustration: '/ytdecoded/assets/volumes/vol4-execution.svg'
+    };
+  }
+  if (t.includes('social') || t.includes('sovereignty') || t.includes('communication')) {
+    return {
+      key: 'social',
+      domainLabel: 'SOCIAL SOVEREIGNTY & HUMAN DYNAMICS',
+      accentColor: '#3b4d6b',
+      accentSoft: '#e9eef5',
+      illustration: '/ytdecoded/assets/volumes/vol5-social.svg'
+    };
+  }
+  if (t.includes('existential') || t.includes('purpose') || t.includes('summit')) {
+    return {
+      key: 'existential',
+      domainLabel: 'EXISTENTIAL PHILOSOPHY & THE SUMMIT',
+      accentColor: '#2c3e6b',
+      accentSoft: '#e8ecf8',
+      illustration: '/ytdecoded/assets/volumes/vol6-summit.svg'
+    };
+  }
+  
+  // Fallback for new future volumes
+  const fallbacks = [
+    { key: 'alpha', domainLabel: 'THEORETICAL FOUNDATIONS', accentColor: '#7a5901', accentSoft: '#fcf6e8', illustration: '/ytdecoded/assets/volumes/vol2-wealth.svg' },
+    { key: 'beta', domainLabel: 'APPLIED SYSTEMS', accentColor: '#3d6375', accentSoft: '#eaf2f5', illustration: '/ytdecoded/assets/volumes/vol4-execution.svg' },
+    { key: 'gamma', domainLabel: 'ADVANCED SYNTHESIS', accentColor: '#5c4d7d', accentSoft: '#f1eef8', illustration: '/ytdecoded/assets/volumes/vol6-summit.svg' }
+  ];
+  return fallbacks[volumeNumber % fallbacks.length];
+}
+
+// Dynamic Domain Thesis / Description Synthesizer
+function getVolumeThesis(group: { volume: number; volumeTitle: string; topics: any[] }): string {
+  const knownTheses: Record<string, string> = {
+    'The Biology of Mind & Energy': 'Physical and neurological foundations of peak cognition: dopamine regulation, circadian rhythm, sleep architecture, and the gut-mind axis.',
+    'The Architecture of Wealth & Capital Allocation': 'Structural mechanisms of capital compounding, asymmetric leverage, the three currencies of wealth, and long-term asset allocation.',
+    'Philosophy of Action & Metacognition': 'The psychology of internal sovereignty: cognitive bias dismantling, emotional granularity, deliberate practice, and the craft-first paradigm.',
+    'High-Velocity Execution & Asymmetric Leverage': 'The operational mechanics of deliberate action: conquering activation energy, eliminating procrastination, and high-agency execution.',
+    'The Architecture of Social Sovereignty': 'Structural analysis of modern human dynamics, difficult conversations, deception detection, the dramaturgical front stage, and relational empathy.',
+    'Existential Sovereignty, Purpose & The Summit': 'Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene.'
+  };
+
+  if (knownTheses[group.volumeTitle]) {
+    return knownTheses[group.volumeTitle];
+  }
+
+  // Synthesize dynamically from constituent topic metadata
+  const tags = Array.from(new Set(group.topics.flatMap((t: any) => t.data.tags || []))).slice(0, 4);
+  if (tags.length > 0) {
+    return `Comprehensive treatises and first-principles mental models exploring ${tags.join(', ')}.`;
+  }
+  return 'Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.';
+}
+
+// Process all volumes dynamically
+const volumeCards = rawVolumeGroups.map((group) => {
+  const volumeNumber = group.volume;
+  const romanVol = toRoman(volumeNumber);
+  const visualTheme = getVolumeVisualTheme(group.volumeTitle, volumeNumber);
+  const thesis = getVolumeThesis(group);
+
+  const volWordCount = group.topics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
+  const volReadingTime = Math.max(1, Math.ceil(volWordCount / 225));
+
+  // Determine grid row position based on volume characteristics (Vol 3 is Full-Width Hero)
+  const isHeroRow = group.volume === 3 || group.topics.length >= 16;
+  const isHalfRow = !isHeroRow && (group.volume === 1 || group.volume === 2);
+  const isThirdRow = !isHeroRow && (group.volume >= 4);
+
+  // Extract unique thinkers/creators
+  const uniqueCreators = Array.from(
+    new Set(group.topics.flatMap((t: any) => t.data.sources?.map((s: any) => s.creator) || []).filter(Boolean) as string[])
+  );
+
+  // Calculate topic list
+  const processedTopics = group.topics.map((t: any) => {
+    const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
+    const readingTime = Math.max(1, Math.ceil(wordCount / 225));
+    const creator = t.data.sources && t.data.sources.length > 0 ? t.data.sources[0].creator : null;
+    return {
+      topic: t,
+      readingTime,
+      creator
+    };
+  });
+
+  // Display top 1-2 featured topics to ensure uniform height across sibling cards in the same line
+  const previewCount = isHeroRow ? 2 : Math.min(group.topics.length, 2);
+  const previewTopics = processedTopics.slice(0, previewCount);
+  const remainingCount = group.topics.length - previewCount;
+
+  return {
+    ...group,
+    volumeNumber,
+    romanVol,
+    visualTheme,
+    thesis,
+    volReadingTime,
+    isHeroRow,
+    isHalfRow,
+    isThirdRow,
+    uniqueCreators,
+    processedTopics,
+    previewTopics,
+    remainingCount
+  };
+});
 ---
 
-<ReaderLayout title="Knowledge Library" description="The Living Codex — Master Personal Knowledge Base">
-  <div class="library-container">
+<ReaderLayout title="Library Catalog" description="The Living Codex — Master Personal Knowledge Library" isWideLayout={true} hideNavSearch={true}>
+  <div class="library-app-canvas">
     
     <!-- ====================================================================
-         SECTION 1: HERO & EXPLORATION ORIENTATION
+         HERO SECTION: EDITORIAL BANNER & SEARCH
          ==================================================================== -->
-    <header class="library-hero">
-      <div class="library-badge">Personal Knowledge Library</div>
-      <h1 class="library-title">The Living Codex</h1>
-      <p class="library-subtitle">
-        A sovereign repository of first-principles mental models, cognitive mechanisms, and lifelong execution frameworks distilled from world-class masterclasses.
+    <header class="codex-hero-section">
+      <div class="hero-badge-pill">
+        <span class="hero-badge-bold">LIVING CODEX</span>
+        <span class="hero-badge-dot">•</span>
+        <span class="hero-badge-light">PERSONAL KNOWLEDGE LIBRARY</span>
+      </div>
+
+      <h1 class="codex-hero-title">The Living Codex</h1>
+      
+      <p class="codex-hero-subtitle">
+        Sovereign first-principles frameworks, cognitive mechanisms & mental models distilled from rigorous masterclasses into permanent, interconnected knowledge.
       </p>
 
-      <!-- Prominent Library Search Trigger (Triggers Pagefind Search Modal) -->
-      <div class="library-search-wrap">
+      <!-- Prominent Library Search Trigger Field -->
+      <div class="codex-search-wrap">
         <button 
           id="library-search-btn" 
-          class="library-search-btn" 
+          class="codex-search-input-btn" 
           aria-label="Open Search across the Living Codex"
           title="Search the Living Codex (Press /)"
         >
-          <span class="search-btn-icon" aria-hidden="true">🔍</span>
-          <span class="search-btn-text">Search topics, mental models, mechanisms, or authors...</span>
-          <kbd class="nav-kbd">/</kbd>
+          <span class="search-icon-svg" aria-hidden="true">🔍</span>
+          <span class="search-placeholder-text">Search knowledge, mental models, mechanisms, or authors...</span>
+          <kbd class="search-shortcut-key">/</kbd>
         </button>
-      </div>
-
-      <!-- Live Corpus Stat Strip -->
-      <div class="library-stats-strip">
-        <span>📚 <strong>{totalVolumes}</strong> Knowledge Volumes</span>
-        <span class="stat-dot" aria-hidden="true">•</span>
-        <span>📖 <strong>{totalChapters}</strong> Syntopical Chapters</span>
-        <span class="stat-dot" aria-hidden="true">•</span>
-        <span>⚡ Offline Full-Text Index</span>
       </div>
     </header>
 
     <!-- ====================================================================
-         SECTION 2: CONTINUE READING (Dynamic via localStorage)
+         SECTION 2: CONTINUE STUDYING (Dynamic from localStorage)
          ==================================================================== -->
-    <section id="continue-reading-section" class="continue-reading-section" style="display: none;" aria-label="Continue Reading">
-      <div class="continue-reading-card">
-        <div class="continue-reading-header">
-          <span class="continue-reading-tag">⚡ CONTINUE STUDYING</span>
-          <button id="dismiss-continue-btn" class="dismiss-continue-btn" aria-label="Dismiss Continue Reading Card">✕</button>
+    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Continue Studying">
+      <div class="continue-study-banner">
+        <div class="continue-study-left">
+          <div class="continue-book-icon-box">
+            <span aria-hidden="true">📖</span>
+          </div>
+          <div class="continue-meta-content">
+            <div class="continue-label-tag">CONTINUE STUDYING</div>
+            <h2 id="continue-reading-title" class="continue-topic-title">The Architecture of Memory and Active Recall</h2>
+            <div class="continue-progress-row">
+              <div class="continue-progress-bar-track">
+                <div class="continue-progress-bar-fill" style="width: 72%;"></div>
+              </div>
+              <span class="continue-progress-percent">72%</span>
+            </div>
+          </div>
         </div>
-        <div class="continue-reading-content">
-          <h2 id="continue-reading-title" class="continue-reading-title">Topic Title</h2>
-          <p id="continue-reading-summary" class="continue-reading-summary">Topic summary...</p>
+
+        <div class="continue-study-right">
+          <a id="continue-reading-link" href="#" class="continue-resume-btn">
+            Resume Reading →
+          </a>
+          <button id="dismiss-continue-btn" class="continue-dismiss-link">
+            ✕ Dismiss
+          </button>
         </div>
-        <a id="continue-reading-link" href="#" class="continue-reading-btn">
-          Resume Reading →
-        </a>
       </div>
     </section>
 
     <!-- ====================================================================
-         SECTION 3: KNOWLEDGE SHELVES (The 6 Canonical Volumes)
+         SECTION 3: KNOWLEDGE VOLUMES CATALOG (DIRECTLY BELOW SEARCH BAR)
          ==================================================================== -->
-    <main class="library-shelves-section" aria-label="Knowledge Volumes">
-      <div class="shelves-header">
-        <h2 class="shelves-title">Knowledge Volumes</h2>
-        <span class="shelves-subtitle">Explore the curriculum across all 6 foundational shelves</span>
+    <main class="codex-catalog-section" aria-label="Knowledge Volumes Catalog">
+      <!-- Compact Top Control Bar Directly Above Cards -->
+      <div class="catalog-header-row">
+        <div class="catalog-title-group">
+          <h2 class="catalog-heading">Knowledge Volumes</h2>
+          <span class="catalog-caption-inline">Explore the foundational bodies of thought</span>
+        </div>
+        <div class="catalog-control-buttons">
+          <button id="expand-all-btn" class="catalog-action-btn" title="Expand all volume drawers">
+            <span class="action-icon">⛶</span> Expand All Shelves
+          </button>
+          <button id="collapse-all-btn" class="catalog-action-btn" title="Collapse all volume drawers">
+            <span class="action-icon">−</span> Collapse Shelves
+          </button>
+        </div>
       </div>
 
-      <div class="shelves-list">
-        {volumeGroups.map((group) => (
-          <section class="shelf-card" aria-labelledby={`vol-heading-${group.volume}`}>
-            <header class="shelf-header">
-              <div class="shelf-vol-info">
-                <span class="shelf-vol-badge">Volume {group.volume}</span>
-                <h3 id={`vol-heading-${group.volume}`} class="shelf-vol-title">{group.volumeTitle}</h3>
+      <!-- Symmetric Shelves Grid Directly Positioned -->
+      <div class="editorial-shelves-grid">
+        {volumeCards.map((vol) => (
+          <article 
+            class={`editorial-volume-card ${vol.isHeroRow ? 'card-hero-span' : vol.isHalfRow ? 'card-half-span' : 'card-third-span'}`}
+            id={`volume-card-${vol.volumeNumber}`}
+            style={`--vol-color: ${vol.visualTheme.accentColor}; --vol-soft: ${vol.visualTheme.accentSoft};`}
+            aria-labelledby={`vol-title-${vol.volumeNumber}`}
+          >
+            <!-- Card Frame -->
+            <div class="editorial-card-frame">
+              
+              <!-- Top Domain Header Banner -->
+              <div class="card-domain-header">
+                <div class="domain-vol-badge">
+                  <span class="vol-label-text">VOL.</span>
+                  <span class="vol-num-text">{vol.romanVol}</span>
+                </div>
+                <div class="domain-title-text">{vol.visualTheme.domainLabel}</div>
               </div>
-              <span class="shelf-count-badge">{group.topics.length} {group.topics.length === 1 ? 'Chapter' : 'Chapters'}</span>
-            </header>
 
-            <div class="shelf-topics-grid">
-              {group.topics.map((t) => {
-                const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
-                const readingTime = Math.max(1, Math.ceil(wordCount / 225));
-                const creator = t.data.sources && t.data.sources.length > 0 ? t.data.sources[0].creator : null;
+              <!-- Card Body: Split Artwork Panel & Content Panel -->
+              <div class={`card-split-body ${vol.isHeroRow ? 'body-hero-split' : ''}`}>
+                
+                <!-- Left Thematic Artwork Panel -->
+                <div class="card-artwork-panel">
+                  <img 
+                    src={vol.visualTheme.illustration} 
+                    alt={`${vol.volumeTitle} Thematic Illustration`}
+                    class="artwork-img"
+                    loading="lazy"
+                  />
+                </div>
 
-                return (
-                  <a href={`/ytdecoded/topics/${t.slug}/`} class="shelf-topic-card">
-                    <div class="shelf-topic-header">
-                      <span class="shelf-topic-order">#{t.data.order_in_volume}</span>
-                      <span class="shelf-topic-time">⏱️ {readingTime}m</span>
+                <!-- Right Content Panel -->
+                <div class="card-content-panel">
+                  <div class="content-panel-top">
+                    <h3 id={`vol-title-${vol.volumeNumber}`} class="card-volume-title" title={vol.volumeTitle}>
+                      <a href={`/ytdecoded/volumes/${vol.volumeNumber}/`} class="card-title-link">
+                        {vol.volumeTitle}
+                      </a>
+                    </h3>
+
+                    <p class="card-volume-thesis">{vol.thesis}</p>
+                  </div>
+
+                  <div class="content-panel-bottom">
+                    <div class="card-meta-indicators">
+                      <span class="meta-item"><strong>{vol.topics.length}</strong> {vol.topics.length === 1 ? 'Topic' : 'Topics'}</span>
+                      <span class="meta-item-sep">⏱️</span>
+                      <span class="meta-item"><strong>{vol.volReadingTime}m</strong></span>
                     </div>
-                    <div class="shelf-topic-title">{t.data.title}</div>
-                    {t.data.summary_15s && (
-                      <div class="shelf-topic-summary">{t.data.summary_15s}</div>
-                    )}
-                    {creator && (
-                      <div class="shelf-topic-source">By <strong>{creator}</strong></div>
-                    )}
-                  </a>
-                );
-              })}
+
+                    <!-- Compact Featured Topic Shelf (Uniform Size) -->
+                    <div class="card-featured-shelf">
+                      <div class="featured-shelf-title">
+                        {vol.topics.length === 1 ? 'FEATURED TOPIC' : 'FEATURED TOPICS'}
+                      </div>
+                      <ul class="featured-topics-list">
+                        {vol.previewTopics.map(({ topic: t }) => (
+                          <li class="featured-topic-item">
+                            <a href={`/ytdecoded/topics/${t.slug}/`} class="featured-topic-link">
+                              <span class="topic-hash">#{t.data.order_in_volume}</span>
+                              <span class="topic-name">{t.data.title}</span>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                      {vol.remainingCount > 0 && (
+                        <div class="featured-remaining-text">
+                          + {vol.remainingCount} {vol.remainingCount === 1 ? 'more' : 'more in volume'}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card Bottom Action Bar -->
+              <footer class="card-action-footer">
+                <a 
+                  href={`/ytdecoded/volumes/${vol.volumeNumber}/`} 
+                  class="btn-enter-volume"
+                  title={`Enter Volume ${vol.romanVol}`}
+                >
+                  Enter ({vol.topics.length}) →
+                </a>
+
+                <button 
+                  type="button"
+                  class="btn-shelf-drawer" 
+                  id={`toggle-btn-${vol.volumeNumber}`}
+                  data-count={vol.topics.length}
+                  aria-expanded="false"
+                  aria-controls={`drawer-${vol.volumeNumber}`}
+                  onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
+                >
+                  <span class="drawer-btn-label">All {vol.topics.length} {vol.topics.length === 1 ? 'Topic' : 'Topics'}</span>
+                </button>
+              </footer>
+
+              <!-- Collapsible Full Topic Drawer -->
+              <div 
+                id={`drawer-${vol.volumeNumber}`} 
+                class="volume-full-drawer"
+                aria-hidden="true"
+              >
+                <div class="volume-drawer-inner">
+                  <div class="drawer-topics-grid">
+                    {vol.processedTopics.map(({ topic: t, readingTime, creator }) => (
+                      <a href={`/ytdecoded/topics/${t.slug}/`} class="drawer-topic-card">
+                        <div class="drawer-topic-header">
+                          <span class="drawer-topic-order">#{t.data.order_in_volume}</span>
+                          <span class="drawer-topic-time">⏱️ {readingTime}m</span>
+                        </div>
+                        <div class="drawer-topic-title">{t.data.title}</div>
+                        {t.data.summary_15s && (
+                          <div class="drawer-topic-summary">{t.data.summary_15s}</div>
+                        )}
+                        {creator && (
+                          <div class="drawer-topic-creator">Mind: <strong>{creator}</strong></div>
+                        )}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </section>
+          </article>
         ))}
       </div>
     </main>
 
+    <!-- ====================================================================
+         SECTION 4: BOTTOM CORPUS METRIC STRIP (MOVED TO BOTTOM)
+         ==================================================================== -->
+    <section class="bottom-corpus-stat-section" aria-label="Codex Overview Statistics">
+      <div class="codex-stat-strip">
+        <div class="stat-unit">
+          <span class="stat-icon" aria-hidden="true">📖</span>
+          <div class="stat-info">
+            <span class="stat-num">{totalVolumes}</span>
+            <span class="stat-name">Volumes</span>
+          </div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-unit">
+          <span class="stat-icon" aria-hidden="true">🗂️</span>
+          <div class="stat-info">
+            <span class="stat-num">{totalTopics}</span>
+            <span class="stat-name">Topics</span>
+          </div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-unit">
+          <span class="stat-icon" aria-hidden="true">⏱️</span>
+          <div class="stat-info">
+            <span class="stat-num">~{totalReadingHours}</span>
+            <span class="stat-name">Hours of Study</span>
+          </div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-unit">
+          <span class="stat-icon stat-accent-icon" aria-hidden="true">⚡</span>
+          <div class="stat-info">
+            <span class="stat-badge-text">Offline Semantic Index</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: QUOTE FOOTER
+         ==================================================================== -->
+    <footer class="codex-quote-banner">
+      <div class="quote-content-wrap">
+        <span class="quote-symbol" aria-hidden="true">❝</span>
+        <span class="quote-text">Knowledge is power only when it is understood, internalized, and applied.</span>
+        <span class="quote-author">— The Living Codex</span>
+      </div>
+    </footer>
+
   </div>
 </ReaderLayout>
+
+<style>
+  /* ==========================================================================
+     LIVING CODEX: STREAMLINED EDITORIAL KNOWLEDGE CATALOG
+     ========================================================================== */
+
+  .library-app-canvas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6px 14px 40px 14px;
+    font-family: var(--font-body);
+  }
+
+  /* --------------------------------------------------------------------------
+     HERO SECTION (COMPACT TIGHT FLOW)
+     -------------------------------------------------------------------------- */
+  .codex-hero-section {
+    text-align: center;
+    padding: 12px 12px 14px 12px;
+    margin-bottom: 8px;
+  }
+
+  .hero-badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2px 10px;
+    margin-bottom: 8px;
+  }
+
+  .hero-badge-bold {
+    font-family: var(--font-ui);
+    font-size: 0.64rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .hero-badge-dot {
+    color: var(--text-muted);
+    font-size: 0.64rem;
+  }
+
+  .hero-badge-light {
+    font-family: var(--font-ui);
+    font-size: 0.64rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .codex-hero-title {
+    font-family: var(--font-serif);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 768px) {
+    .codex-hero-title {
+      font-size: 2rem;
+    }
+  }
+
+  .codex-hero-subtitle {
+    max-width: 600px;
+    margin: 0 auto 14px auto;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--text-secondary);
+  }
+
+  /* Search Input Field */
+  .codex-search-wrap {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .codex-search-input-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px var(--shadow);
+    transition: all 0.15s ease;
+    text-align: left;
+  }
+
+  .codex-search-input-btn:hover, .codex-search-input-btn:focus-visible {
+    border-color: var(--accent);
+    background: var(--bg-surface);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--shadow);
+  }
+
+  .search-icon-svg {
+    font-size: 1rem;
+    opacity: 0.75;
+  }
+
+  .search-placeholder-text {
+    flex: 1;
+    font-family: var(--font-ui);
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+
+  .search-shortcut-key {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: var(--text-muted);
+  }
+
+  /* --------------------------------------------------------------------------
+     CONTINUE STUDYING SECTION
+     -------------------------------------------------------------------------- */
+  .continue-study-section {
+    margin-top: 14px;
+    margin-bottom: 16px;
+  }
+
+  .continue-study-banner {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 16px;
+    box-shadow: 0 2px 6px var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .continue-study-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    min-width: 240px;
+  }
+
+  .continue-book-icon-box {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: var(--accent);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .continue-meta-content {
+    flex: 1;
+  }
+
+  .continue-label-tag {
+    font-family: var(--font-ui);
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+
+  .continue-topic-title {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.25;
+    margin-bottom: 3px;
+  }
+
+  .continue-progress-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .continue-progress-bar-track {
+    flex: 1;
+    max-width: 180px;
+    height: 5px;
+    background: var(--border-subtle);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .continue-progress-bar-fill {
+    height: 100%;
+    background: #2d6a4f;
+    border-radius: 3px;
+  }
+
+  .continue-progress-percent {
+    font-family: var(--font-ui);
+    font-size: 0.66rem;
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+
+  .continue-study-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .continue-resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--accent);
+    color: #ffffff !important;
+    text-decoration: none;
+    font-family: var(--font-ui);
+    font-size: 0.76rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+  }
+
+  .continue-resume-btn:hover {
+    opacity: 0.9;
+    transform: translateX(1px);
+  }
+
+  .continue-dismiss-link {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    cursor: pointer;
+    padding: 2px 4px;
+  }
+
+  /* --------------------------------------------------------------------------
+     CATALOG SECTION HEADER (COMPACT CONTROL ROW)
+     -------------------------------------------------------------------------- */
+  .codex-catalog-section {
+    margin-top: 16px;
+  }
+
+  .catalog-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-subtle);
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .catalog-title-group {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .catalog-heading {
+    font-family: var(--font-serif);
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .catalog-caption-inline {
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 640px) {
+    .catalog-caption-inline {
+      display: none;
+    }
+  }
+
+  .catalog-control-buttons {
+    display: flex;
+    gap: 6px;
+  }
+
+  .catalog-action-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: all 0.15s ease;
+  }
+
+  .catalog-action-btn:hover {
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    border-color: var(--accent);
+  }
+
+  /* --------------------------------------------------------------------------
+     EDITORIAL SHELVES GRID (SYMMETRIC & COMPACT)
+     -------------------------------------------------------------------------- */
+  .editorial-shelves-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  /* Grid Spans */
+  .editorial-volume-card.card-half-span {
+    grid-column: span 6;
+  }
+
+  .editorial-volume-card.card-hero-span {
+    grid-column: span 12;
+  }
+
+  .editorial-volume-card.card-third-span {
+    grid-column: span 4;
+  }
+
+  @media (max-width: 960px) {
+    .editorial-volume-card.card-third-span {
+      grid-column: span 6;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .editorial-volume-card.card-half-span,
+    .editorial-volume-card.card-hero-span,
+    .editorial-volume-card.card-third-span {
+      grid-column: span 12;
+    }
+  }
+
+  /* Card Container */
+  .editorial-volume-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px var(--shadow);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .editorial-volume-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px var(--shadow);
+    border-color: var(--vol-color, var(--accent));
+  }
+
+  .editorial-card-frame {
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  /* Top Domain Header */
+  .card-domain-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+
+  .domain-vol-badge {
+    background: var(--vol-soft, var(--accent-soft));
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    padding: 2px 6px;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 2px;
+  }
+
+  .vol-label-text {
+    font-family: var(--font-ui);
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: var(--vol-color, var(--accent));
+  }
+
+  .vol-num-text {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: var(--vol-color, var(--accent));
+  }
+
+  .domain-title-text {
+    font-family: var(--font-ui);
+    font-size: 0.64rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+
+  /* Split Body */
+  .card-split-body {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    flex: 1;
+  }
+
+  .card-hero-span .body-hero-split {
+    gap: 18px;
+  }
+
+  @media (max-width: 480px) {
+    .card-split-body {
+      flex-direction: column;
+    }
+  }
+
+  /* Artwork Panel (Standardized Compact Dimensions) */
+  .card-artwork-panel {
+    width: 85px;
+    height: 105px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+    flex-shrink: 0;
+  }
+
+  .card-hero-span .card-artwork-panel {
+    width: 140px;
+    height: 105px;
+  }
+
+  .artwork-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Content Panel */
+  .card-content-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .content-panel-top {
+    margin-bottom: 4px;
+  }
+
+  .card-volume-title {
+    font-family: var(--font-serif);
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.24;
+    color: var(--text-primary);
+    margin-bottom: 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-hero-span .card-volume-title {
+    font-size: 1.3rem;
+    -webkit-line-clamp: 1;
+  }
+
+  .card-title-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .card-title-link:hover {
+    color: var(--vol-color, var(--accent));
+    text-decoration: underline;
+  }
+
+  .card-volume-thesis {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .content-panel-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .card-meta-indicators {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-ui);
+    font-size: 0.68rem;
+    color: var(--text-muted);
+  }
+
+  .meta-item-sep {
+    font-size: 0.65rem;
+    opacity: 0.8;
+  }
+
+  /* Uniform Featured Topics Shelf */
+  .card-featured-shelf {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    padding: 5px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 40px;
+    justify-content: center;
+  }
+
+  .featured-shelf-title {
+    font-family: var(--font-ui);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  .featured-topics-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .featured-topic-item {
+    display: flex;
+  }
+
+  .featured-topic-link {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    line-height: 1.28;
+    transition: color 0.15s ease;
+    width: 100%;
+  }
+
+  .featured-topic-link:hover {
+    color: var(--vol-color, var(--accent));
+  }
+
+  .topic-hash {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: var(--vol-color, var(--accent));
+  }
+
+  .topic-name {
+    flex: 1;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .featured-remaining-text {
+    font-family: var(--font-ui);
+    font-size: 0.64rem;
+    font-style: italic;
+    color: var(--text-muted);
+  }
+
+  /* Action Footer */
+  .card-action-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .btn-enter-volume {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background: var(--vol-color, var(--accent));
+    color: #ffffff !important;
+    text-decoration: none;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+  }
+
+  .btn-enter-volume:hover {
+    opacity: 0.9;
+    transform: translateX(1px);
+  }
+
+  .btn-shelf-drawer {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: var(--font-ui);
+    font-size: 0.68rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .btn-shelf-drawer:hover {
+    background: var(--bg-card);
+    border-color: var(--vol-color, var(--accent));
+    color: var(--vol-color, var(--accent));
+  }
+
+  /* Full Drawer */
+  .volume-full-drawer {
+    display: none;
+    border-top: 1px dashed var(--border);
+    background: var(--bg-surface);
+    padding: 12px;
+    margin: 8px -14px -12px -14px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .volume-full-drawer.open {
+    display: block;
+  }
+
+  .drawer-topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 8px;
+  }
+
+  .drawer-topic-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 5px;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    transition: all 0.15s ease;
+  }
+
+  .drawer-topic-card:hover {
+    border-color: var(--vol-color, var(--accent));
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+
+  .drawer-topic-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    color: var(--vol-color, var(--accent));
+    font-weight: 700;
+  }
+
+  .drawer-topic-title {
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.25;
+  }
+
+  .drawer-topic-summary {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .drawer-topic-creator {
+    font-family: var(--font-ui);
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: auto;
+  }
+
+  /* --------------------------------------------------------------------------
+     BOTTOM CORPUS STAT SECTION (MOVED TO BOTTOM)
+     -------------------------------------------------------------------------- */
+  .bottom-corpus-stat-section {
+    margin-top: 36px;
+    padding: 16px 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+
+  .codex-stat-strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: var(--font-ui);
+  }
+
+  .stat-unit {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stat-icon {
+    font-size: 1.05rem;
+  }
+
+  .stat-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .stat-num {
+    font-weight: 800;
+    font-size: 0.92rem;
+    color: var(--text-primary);
+    line-height: 1.1;
+  }
+
+  .stat-name {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--border);
+  }
+
+  @media (max-width: 640px) {
+    .stat-divider {
+      display: none;
+    }
+  }
+
+  .stat-badge-text {
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  /* --------------------------------------------------------------------------
+     QUOTE BANNER FOOTER
+     -------------------------------------------------------------------------- */
+  .codex-quote-banner {
+    margin-top: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 18px;
+    text-align: center;
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+
+  .quote-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .quote-symbol {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .quote-text {
+    font-family: var(--font-serif);
+    font-size: 0.88rem;
+    font-style: italic;
+    color: var(--text-secondary);
+  }
+
+  .quote-author {
+    font-family: var(--font-ui);
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+</style>
 
 <script is:inline>
   // Setup Search Button click to open Search Modal
@@ -122,41 +1313,96 @@ const totalVolumes = volumeGroups.length;
     const searchBtn = document.getElementById('library-search-btn');
     if (searchBtn) {
       searchBtn.addEventListener('click', () => {
-        const globalSearchTrigger = document.getElementById('search-trigger-btn');
-        if (globalSearchTrigger) {
-          globalSearchTrigger.click();
+        if (window.openCodexSearch) {
+          window.openCodexSearch();
+        } else {
+          const globalSearchTrigger = document.getElementById('search-trigger-btn');
+          if (globalSearchTrigger) globalSearchTrigger.click();
         }
       });
     }
 
     // Client-side Continue Reading restoration from localStorage
     try {
-      const lastReadRaw = localStorage.getItem('codex-last-read');
-      if (lastReadRaw) {
-        const lastRead = JSON.parse(lastReadRaw);
-        if (lastRead && lastRead.slug && lastRead.title) {
-          const container = document.getElementById('continue-reading-section');
-          const titleEl = document.getElementById('continue-reading-title');
-          const summaryEl = document.getElementById('continue-reading-summary');
-          const linkEl = document.getElementById('continue-reading-link');
-          const dismissBtn = document.getElementById('dismiss-continue-btn');
+      const saved = localStorage.getItem('codex-last-read');
+      if (saved) {
+        const item = JSON.parse(saved);
+        const section = document.getElementById('continue-reading-section');
+        const titleEl = document.getElementById('continue-reading-title');
+        const linkEl = document.getElementById('continue-reading-link');
 
-          if (container && titleEl && linkEl) {
-            titleEl.textContent = lastRead.title.replace(/ — The Living Codex$/, '');
-            if (summaryEl) {
-              summaryEl.textContent = lastRead.summary || 'Click to continue where you left off.';
-            }
-            linkEl.setAttribute('href', `/ytdecoded/topics/${lastRead.slug}/`);
-            container.style.display = 'block';
-
-            if (dismissBtn) {
-              dismissBtn.addEventListener('click', () => {
-                container.style.display = 'none';
-              });
-            }
-          }
+        if (section && titleEl && linkEl && item.slug) {
+          titleEl.innerText = item.title || 'The Architecture of Memory and Active Recall';
+          linkEl.href = `/ytdecoded/topics/${item.slug}/`;
+          section.style.display = 'block';
         }
       }
     } catch (_) {}
+
+    const dismissBtn = document.getElementById('dismiss-continue-btn');
+    if (dismissBtn) {
+      dismissBtn.addEventListener('click', () => {
+        const section = document.getElementById('continue-reading-section');
+        if (section) section.style.display = 'none';
+      });
+    }
+
+    // Global Expand All / Collapse All handlers
+    const expandAllBtn = document.getElementById('expand-all-btn');
+    const collapseAllBtn = document.getElementById('collapse-all-btn');
+
+    if (expandAllBtn) {
+      expandAllBtn.addEventListener('click', () => {
+        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
+          drawer.classList.add('open');
+          drawer.setAttribute('aria-hidden', 'false');
+        });
+        document.querySelectorAll('.btn-shelf-drawer').forEach((btn) => {
+          btn.setAttribute('aria-expanded', 'true');
+          const label = btn.querySelector('.drawer-btn-label');
+          if (label) label.innerText = 'Hide Topics';
+        });
+      });
+    }
+
+    if (collapseAllBtn) {
+      collapseAllBtn.addEventListener('click', () => {
+        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
+          drawer.classList.remove('open');
+          drawer.setAttribute('aria-hidden', 'true');
+        });
+        document.querySelectorAll('.btn-shelf-drawer').forEach((btn) => {
+          btn.setAttribute('aria-expanded', 'false');
+          const count = btn.getAttribute('data-count') || '';
+          const label = btn.querySelector('.drawer-btn-label');
+          if (label) {
+            label.innerText = count ? `All ${count} Topics` : 'All Topics';
+          }
+        });
+      });
+    }
   });
+
+  // Individual Drawer Toggle Function
+  window.toggleShelfDrawer = function(volNum) {
+    const drawer = document.getElementById(`drawer-${volNum}`);
+    const btn = document.getElementById(`toggle-btn-${volNum}`);
+    if (!drawer || !btn) return;
+
+    const isOpen = drawer.classList.contains('open');
+    if (isOpen) {
+      drawer.classList.remove('open');
+      drawer.setAttribute('aria-hidden', 'true');
+      btn.setAttribute('aria-expanded', 'false');
+      const count = btn.getAttribute('data-count') || '';
+      const label = btn.querySelector('.drawer-btn-label');
+      if (label) label.innerText = count ? `All ${count} Topics` : 'All Topics';
+    } else {
+      drawer.classList.add('open');
+      drawer.setAttribute('aria-hidden', 'false');
+      btn.setAttribute('aria-expanded', 'true');
+      const label = btn.querySelector('.drawer-btn-label');
+      if (label) label.innerText = 'Hide Topics';
+    }
+  };
 </script>

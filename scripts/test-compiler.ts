@@ -9,6 +9,7 @@ import {
   VerificationStatusSchema
 } from '../lib/banking-ca/schema';
 import { generateStableSlug } from '../lib/banking-ca/markdown-parser';
+import { resolveCanonicalSlug, CANONICAL_PRIORITY_OVERRIDES } from '../lib/banking-ca/canonical-deduplication';
 
 function runTests() {
   console.log('────────────────────────────────────────────────────────');
@@ -109,6 +110,7 @@ function runTests() {
     const files = fs.readdirSync(caDir).filter(f => f.endsWith('.md'));
 
     const expectedP1Slugs = new Set<string>();
+    const expectedP1TopicMinutes = new Map<string, number>();
     let expectedP1Minutes = 0;
 
     for (const file of files) {
@@ -129,21 +131,37 @@ function runTests() {
           const h3Match = line.match(/^###\s+(?!#)(?:(\d+)[\.\)]\s+)?(.+)/);
           if (h3Match && !line.includes('Exam Angles') && !line.includes('Why It Matters') && !line.includes('Key Highlights') && !line.includes('Revision Protocol')) {
             const rawTitle = h3Match[2].trim();
-            const slug = generateStableSlug(rawTitle);
-            expectedP1Slugs.add(slug);
+            const slug = resolveCanonicalSlug(generateStableSlug(rawTitle));
+            if (!expectedP1Slugs.has(slug)) {
+              expectedP1Slugs.add(slug);
 
-            // Look ahead for revision minutes
-            let minutes = 8;
-            for (let j = i + 1; j < Math.min(i + 8, lines.length); j++) {
-              const revMatch = lines[j].match(/Revision Effort:\*\*\s*~?(\d+)\s*min/i);
-              if (revMatch) {
-                minutes = parseInt(revMatch[1], 10);
-                break;
+              // Look ahead for revision minutes
+              let minutes = 8;
+              for (let j = i + 1; j < Math.min(i + 8, lines.length); j++) {
+                const revMatch = lines[j].match(/Revision Effort:\*\*\s*~?(\d+)\s*min/i);
+                if (revMatch) {
+                  minutes = parseInt(revMatch[1], 10);
+                  break;
+                }
               }
+              expectedP1TopicMinutes.set(slug, minutes);
+              expectedP1Minutes += minutes;
             }
-            expectedP1Minutes += minutes;
           }
         }
+      }
+    }
+
+    // Account for explicit canonical priority overrides
+    for (const [slug, override] of Object.entries(CANONICAL_PRIORITY_OVERRIDES)) {
+      if (override.priority === 'P1_CRITICAL_DEEP' || override.priority === 'P1_CRITICAL_MEMORIZE') {
+        if (!expectedP1Slugs.has(slug)) {
+          expectedP1Slugs.add(slug);
+          expectedP1Minutes += override.revisionMinutes;
+        }
+      } else if (expectedP1Slugs.has(slug)) {
+        expectedP1Slugs.delete(slug);
+        expectedP1Minutes -= (expectedP1TopicMinutes.get(slug) || override.revisionMinutes);
       }
     }
 
@@ -151,7 +169,7 @@ function runTests() {
     const compiledP1Slugs = new Set([
       ...registry.indexes.byPriority.P1_CRITICAL_DEEP,
       ...registry.indexes.byPriority.P1_CRITICAL_MEMORIZE
-    ]);
+    ].map(id => registry.topics[id]?.slug || id));
 
     // Informational logging (not hardcoded assertions)
     console.log(`     [Info] Dynamic Source Scan  : ${expectedP1Slugs.size} P1 Topics, ${expectedP1Minutes} Total Minutes`);

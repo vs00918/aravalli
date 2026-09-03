@@ -1,0 +1,370 @@
+{
+  "phase": "PHASE_6A_PRIORITY_FORENSIC_AUDIT",
+  "audit_date": "2026-09-03",
+  "error_classification": "ACTUAL_CORPUS_EXECUTION_ERROR",
+  "executive_summary": "Phase 6A suffered an identity-level priority execution error: instead of the authorized Phase-5B downgrade set, it executed priority overrides on 4 unapproved topics (GeM, IFSCA, IIP, FAR) originating from the superseded Phase 5 initial heuristic run. Furthermore, the 4 authorized Phase-5B downgrade candidates were already classified as P2 in the pre-remediation registry.",
+  "identity_failure_details": {
+    "unauthorized_downgrades_applied": [
+      {
+        "id": "ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
+        "title": "Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone",
+        "phase5b_authorized_action": "KEEP_P1",
+        "phase6a_actual_action": "DOWNGRADE_TO_P2",
+        "pre_priority": "P1_CRITICAL_MEMORIZE",
+        "post_priority": "P2_HIGH",
+        "verdict": "INCORRECT_UNAUTHORIZED_DOWNGRADE"
+      },
+      {
+        "id": "ca-ifsca-notifies-unified-one-kyc-framework-for-gift-ifsc-regulated-entities",
+        "title": "IFSCA Notifies Unified \"One KYC\" Framework for GIFT-IFSC Regulated Entities",
+        "phase5b_authorized_action": "KEEP_P1",
+        "phase6a_actual_action": "DOWNGRADE_TO_P2",
+        "pre_priority": "P1_CRITICAL_DEEP",
+        "post_priority": "P2_HIGH",
+        "verdict": "INCORRECT_UNAUTHORIZED_DOWNGRADE"
+      },
+      {
+        "id": "ca-mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
+        "title": "MoSPI Releases Revised Index of Industrial Production (IIP) Series with Base Year 2022–23 (4 Sectors)",
+        "phase5b_authorized_action": "KEEP_P1",
+        "phase6a_actual_action": "DOWNGRADE_TO_P2",
+        "pre_priority": "P1_CRITICAL_DEEP",
+        "post_priority": "P2_HIGH",
+        "verdict": "INCORRECT_UNAUTHORIZED_DOWNGRADE"
+      },
+      {
+        "id": "ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion",
+        "title": "Central Government Unveils FPI G-Sec Tax Exemptions & Fully Accessible Route (FAR) Expansion",
+        "phase5b_authorized_action": "KEEP_P1",
+        "phase6a_actual_action": "DOWNGRADE_TO_P2",
+        "pre_priority": "P1_CRITICAL_DEEP",
+        "post_priority": "P2_HIGH",
+        "verdict": "INCORRECT_UNAUTHORIZED_DOWNGRADE"
+      }
+    ],
+    "authorized_downgrades_status": [
+      {
+        "id": "ca-presidential-assent-to-prevention-of-insults-to-national-honour-amendment-act-2026",
+        "title": "Presidential Assent to Prevention of Insults to National Honour (Amendment) Act 2026",
+        "phase5b_authorized_action": "P1_TO_P2_DOWNGRADE",
+        "pre_priority": "P2",
+        "post_priority": "P2_HIGH"
+      },
+      {
+        "id": "ca-birth-and-death-registration-amendment-rules-2026-mandatory-digital-reporting",
+        "title": "Birth and Death Registration (Amendment) Rules 2026: Mandatory Digital Reporting",
+        "phase5b_authorized_action": "P1_TO_P2_DOWNGRADE",
+        "pre_priority": "P3",
+        "post_priority": "NOT_FOUND"
+      },
+      {
+        "id": "ca-v2v-communication-safety-standard-ais-230-mandated-for-all-commercial-vehicles-by-2027",
+        "title": "V2V Communication Safety Standard (AIS-230) Mandated for All Commercial Vehicles by 2027",
+        "phase5b_authorized_action": "P1_TO_P2_DOWNGRADE",
+        "pre_priority": "P3",
+        "post_priority": "NOT_FOUND"
+      },
+      {
+        "id": "ca-drdo-successfully-flight-tests-long-range-glide-bomb-gaurav-from-su-30-mki",
+        "title": "DRDO Successfully Flight-Tests Long-Range Glide Bomb (GAURAV) from Su-30 MKI",
+        "phase5b_authorized_action": "P1_TO_P2_DOWNGRADE",
+        "pre_priority": "P3",
+        "post_priority": "NOT_FOUND"
+      }
+    ],
+    "authorized_upgrades_status": [
+      {
+        "id": "ca-d-sib-framework-rbi-leverage-ratio-buffer",
+        "title": "D-SIB Framework & RBI Leverage Ratio Buffer",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-credit-valuation-adjustment-cva-risk-capital-framework",
+        "title": "RBI Credit Valuation Adjustment (CVA) Risk Capital Framework",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+        "title": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-principle-based-resolution-framework-for-natural-calamity-hit-loans",
+        "title": "RBI Principle-Based Resolution Framework for Natural Calamity-Hit Loans",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims",
+        "title": "RBI Monetary Policy Relief: Up to ₹25,000 Compensation for Small Digital Fraud Victims",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+        "title": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+        "title": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029",
+        "title": "RBI Utkarsh 2029: Medium-Term Strategic Framework for 2026–2029",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-irdai-revises-information-security-cybersecurity-governance-guidelines",
+        "title": "IRDAI Revises Information Security & Cybersecurity Governance Guidelines",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+        "title": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+        "title": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+        "title": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-bank-locker-guidelines-negligence-liability-cap",
+        "title": "RBI Bank Locker Guidelines: Negligence Liability Cap",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      },
+      {
+        "id": "ca-rbi-expands-credit-derivatives-framework-credit-default-swaps-cds-total-return-swaps",
+        "title": "RBI Expands Credit Derivatives Framework: Credit Default Swaps (CDS) & Total Return Swaps",
+        "pre_priority": "P2",
+        "post_priority": "P1_CRITICAL_DEEP",
+        "authorized_action": "RAISE_TO_P1",
+        "actual_action": "RAISE_TO_P1",
+        "correct": true
+      }
+    ]
+  },
+  "duplicate_merge_priority_effects": {
+    "total_duplicates_merged": 12,
+    "retired_by_priority": {
+      "p1": 0,
+      "p2": 6,
+      "p3": 6
+    },
+    "merge_pairs_audit": [
+      {
+        "retired_id": "ca-fast-ds-scheme-foreign-assets-of-small-taxpayers-disclosure-scheme-2026",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme",
+        "survivor_pre_priority": "P1",
+        "survivor_post_priority": "P1",
+        "priority_shift_effect": "Retired 1 P2, merged into P1",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-henley-passport-index-february-2026",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-henley-passport-index-2026",
+        "survivor_pre_priority": "P3",
+        "survivor_post_priority": "P3",
+        "priority_shift_effect": "Retired 1 P3",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-bharat-taxi-cooperative-ride-hailing",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-bharat-taxi-cooperative-ride-hailing-platform-launched",
+        "survivor_pre_priority": "P3",
+        "survivor_post_priority": "P3",
+        "priority_shift_effect": "Retired 1 P3",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-rbi-imposes-monetary-penalties-on-multiple-financial-institutions",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-rbi-imposes-monetary-penalties-on-multiple-financial-entities",
+        "survivor_pre_priority": "P3",
+        "survivor_post_priority": "P3",
+        "priority_shift_effect": "Retired 1 P3",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-solid-waste-management-rules-2026-notified",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-moefcc-notifies-solid-waste-management-swm-rules-2026-mandatory-4-stream-segregation",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P3, merged into P2",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-131-padma-awards-2026-announced",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-president-droupadi-murmu-confers-131-padma-awards-2026",
+        "survivor_pre_priority": "P3",
+        "survivor_post_priority": "P3",
+        "priority_shift_effect": "Retired 1 P3",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-government-approves-1-billion-polymer-banknotes-of-10-20",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-government-approves-rbi-field-trials-for-1-billion-polymer-banknotes-10-20",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P2",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-100-fdi-in-insurance-sector-operationalized-under-automatic-route",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P2",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-rbi-sets-3-year-cooling-off-for-co-operative-bank-directors-after-10-year-tenure",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-rbi-draft-governance-directions-for-co-operative-banks-3-year-cooling-off",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P2",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-sebi-it-resilience-index-framework-for-market-infrastructure-institutions",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri",
+        "survivor_pre_priority": "P1",
+        "survivor_post_priority": "P1",
+        "priority_shift_effect": "Retired 1 P2, merged into P1",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-irdai-regulations-on-ind-as-ind-as-117-implementation-by-insurers",
+        "retired_pre_priority": "P2",
+        "survivor_id": "ca-irdai-mandates-ind-as-and-ind-as-117-for-all-insurers-from-april-1-2026",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P2",
+        "is_safe": true
+      },
+      {
+        "retired_id": "ca-sebi-minimum-public-shareholding-mps-timeline",
+        "retired_pre_priority": "P3",
+        "survivor_id": "ca-ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs",
+        "survivor_pre_priority": "P2",
+        "survivor_post_priority": "P2",
+        "priority_shift_effect": "Retired 1 P3, merged into P2",
+        "is_safe": true
+      }
+    ],
+    "verdict": "The 12 duplicate merges are 100% structurally sound, verified, and independently safe. Zero duplicate merges modified unauthorized topics or caused unexpected priority mutations."
+  },
+  "priority_accounting": {
+    "pre_remediation_corpus": {
+      "total": 1462,
+      "p1": 85,
+      "p2": 495,
+      "p3": 882
+    },
+    "deduplication_subtractions": {
+      "total_retired": 12,
+      "p1_retired": 0,
+      "p2_retired": 6,
+      "p3_retired": 6
+    },
+    "post_dedup_pre_priority_base": {
+      "total": 1450,
+      "p1": 85,
+      "p2": 489,
+      "p3": 876
+    },
+    "actual_phase6a_overrides_applied": {
+      "downgraded_from_p1_to_p2": 4,
+      "upgraded_from_p2_to_p1": 14,
+      "resulting_registry_counts": {
+        "total": 1450,
+        "p1": 95,
+        "p2": 479,
+        "p3": 876
+      }
+    },
+    "corrected_target_state": {
+      "explanation": "Since the 4 authorized downgrade candidates were already P2 in the raw source, restoring the 4 erroneously downgraded topics (GeM, IFSCA, IIP, FAR) back to P1 brings the true base P1 to 85. Then applying the 14 authorized P2->P1 upgrades raises P1 to 99, reduces P2 to 475, and leaves P3 at 876 (Total: 1,450).",
+      "target_active_counts": {
+        "total": 1450,
+        "p1": 99,
+        "p2": 475,
+        "p3": 876,
+        "mathematical_sum": 1450
+      }
+    }
+  },
+  "correction_plan": {
+    "step_1": "Remove the 4 unauthorized downgrade overrides from CANONICAL_PRIORITY_OVERRIDES in lib/banking-ca/canonical-deduplication.ts (restoring GeM, IFSCA, IIP, FAR to their rightful P1 status).",
+    "step_2": "Verify that the 14 authorized P2->P1 upgrades in CANONICAL_PRIORITY_OVERRIDES remain active.",
+    "step_3": "Confirm that the 12 duplicate aliases remain intact in CANONICAL_SLUG_ALIASES.",
+    "step_4": "Recompile registry and verify target active distribution: 99 P1, 475 P2, 876 P3 (Sum: 1,450).",
+    "step_5": "Run full regression test suite (11/11 compiler, 13/13 search, 8/8 revision, 38/38 QA)."
+  }
+}

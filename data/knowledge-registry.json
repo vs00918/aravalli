@@ -56,7 +56,7 @@
           "slug": "08-august-2026-smartkeeda-w2",
           "number": 8,
           "title": "Banking & Economy CA: 2026-08 (week-1-4)",
-          "subtitle": "Successfully processed 106 canonical topics for 2026-08 week-1-4."
+          "subtitle": "Successfully processed 67 canonical topics for 2026-08 week-1-4."
         },
         {
           "slug": "09-august-2026-cgb-pib",
@@ -74,31 +74,31 @@
           "slug": "11-july-2026-cgb",
           "number": 11,
           "title": "Banking & Economy CA: 2026-07 (week-1-4)",
-          "subtitle": "Successfully processed 17 canonical topics for 2026-07 week-1-4."
+          "subtitle": "Successfully processed 28 canonical topics for 2026-07 week-1-4."
         },
         {
           "slug": "12-june-2026-cgb",
           "number": 12,
           "title": "Banking & Economy CA: 2026-06 (week-1-4)",
-          "subtitle": "Successfully processed 17 canonical topics for 2026-06 week-1-4."
+          "subtitle": "Successfully processed 28 canonical topics for 2026-06 week-1-4."
         },
         {
           "slug": "13-august-2026-cgb-mcq-top50",
           "number": 13,
           "title": "Banking & Economy CA: 2026-08 (week-1-4)",
-          "subtitle": "Successfully processed 10 canonical topics for 2026-08 week-1-4."
+          "subtitle": "Successfully processed 30 canonical topics for 2026-08 week-1-4."
         },
         {
           "slug": "14-july-2026-cgb-static-gk",
           "number": 14,
           "title": "Banking & Economy CA: 2026-07 (week-1-4)",
-          "subtitle": "Successfully processed 6 canonical topics for 2026-07 week-1-4."
+          "subtitle": "Successfully processed 13 canonical topics for 2026-07 week-1-4."
         },
         {
           "slug": "15-july-2026-cgb-top50-mcqs",
           "number": 15,
           "title": "Banking & Economy CA: 2026-07 (week-1-4)",
-          "subtitle": "Successfully processed 10 canonical topics for 2026-07 week-1-4."
+          "subtitle": "Successfully processed 31 canonical topics for 2026-07 week-1-4."
         },
         {
           "slug": "16-august-2026-cgb-cwg-glasgow",
@@ -110,7 +110,7 @@
           "slug": "17-june-2026-cgb-top100-mcqs",
           "number": 17,
           "title": "Banking & Economy CA: 2026-06 (week-1-4)",
-          "subtitle": "Successfully processed 12 canonical topics for 2026-06 week-1-4."
+          "subtitle": "Successfully processed 38 canonical topics for 2026-06 week-1-4."
         },
         {
           "slug": "18-july-2026-smartkeeda-monthly",
@@ -135,6 +135,12 @@
           "number": 21,
           "title": "Banking & Economy CA: 2026-04 (week-1-4)",
           "subtitle": "Successfully processed 73 canonical topics for 2026-04 week-1-4."
+        },
+        {
+          "slug": "22-august-2026-cgb-part-3",
+          "number": 22,
+          "title": "Banking & Economy CA: 2026-08 (week-1-4)",
+          "subtitle": "Successfully processed 128 canonical topics for 2026-08 week-1-4."
         }
       ]
     }

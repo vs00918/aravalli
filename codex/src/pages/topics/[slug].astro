@@ -47,7 +47,9 @@ const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topi
           </li>
           <li class="breadcrumb-separator" aria-hidden="true">/</li>
           <li class="breadcrumb-item">
-            <span class="breadcrumb-volume">Vol {topic.data.volume}: {topic.data.volume_title}</span>
+            <a href={`/ytdecoded/volumes/${topic.data.volume}/`} class="breadcrumb-link breadcrumb-volume" title="Read full volume continuously">
+              Vol {topic.data.volume}: {topic.data.volume_title}
+            </a>
           </li>
         </ol>
       </nav>
@@ -73,7 +75,15 @@ const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topi
             <span class="meta-dot" aria-hidden="true">•</span>
             <div class="tag-group">
               {topic.data.tags.slice(0, 3).map((tag: string) => (
-                <span class="tag-badge" data-pagefind-filter="tag">#{tag}</span>
+                <button 
+                  type="button" 
+                  class="tag-badge interactive-tag" 
+                  data-pagefind-filter="tag"
+                  onclick={`window.openCodexSearch && window.openCodexSearch('${tag}')`}
+                  title={`Search for #${tag}`}
+                >
+                  #{tag}
+                </button>
               ))}
             </div>
           </>

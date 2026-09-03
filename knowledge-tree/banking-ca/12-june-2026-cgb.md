@@ -17,28 +17,27 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Monetary Policy Committee (MPC) held its 61st meeting from June 3 to 5, 2026, under the chairmanship of **Governor Sanjay Malhotra**.
-* Unanimously decided to keep the policy Repo Rate unchanged at **5.25%** with a **Neutral** monetary policy stance.
-* Concurrently announced landmark foreign exchange and debt market reforms: completely withdrew short-term, security-wise, and concentration limits on FPI investments in G-Secs under the General Route, and expanded the Fully Accessible Route (FAR).
+* **Monetary Policy Review → Rates Unchanged & FPI Debt Market Overhaul:**
+  * 61st MPC meeting held under Governor **Sanjay Malhotra**; kept policy Repo Rate unchanged at **5.25%** with a **Neutral** stance.
+  * Withdrew short-term, security-wise, and concentration limits on FPI investments in G-Secs under General Route; expanded Fully Accessible Route (FAR).
 
 #### Must Memorize
-* **Policy Rates & Ratios:**
-  * **Policy Repo Rate:** **5.25%** (Unchanged).
-  * **Standing Deposit Facility (SDF):** **5.00%** (25 bps below repo rate).
-  * **Marginal Standing Facility (MSF) & Bank Rate:** **5.50%** (25 bps above repo rate).
-  * **Monetary Policy Stance:** **Neutral**.
-* **Macroeconomic Growth & Inflation Projections (FY 2026-27):**
-  * **Real GDP Growth (FY27):** Projected at **6.6%** (Q1: 6.6%, Q2: 6.3%, Q3: 6.5%, Q4: 6.8%).
-  * **CPI Inflation (FY27):** Projected at **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%).
-  * **Core Inflation (FY27):** Projected at **4.7%**.
-* **Major External Sector & G-Sec Policy Measures:**
-  * **Withdrawal of FPI G-Sec Limits:** Abolished the short-term limit, security-wise limit, and concentration limit for FPI investments in Government Securities under the General Route. Merged 'general' and 'long-term' sub-categories into a single limit for Central and State Government Securities (SGSs).
-  * **FAR Expansion:** Designated all new issuances in **15-year, 30-year, and 40-year** G-Secs and Sovereign Green Bonds (in 5, 7, 10, 15, 30, and 40-year tenors) as 'specified securities' under the Fully Accessible Route (FAR).
-  * **PROI/NRI/OCI Equity Ceiling:** Increased the single overseas individual investor limit in listed equities without SEBI registration to **10% of paid-up capital** (from 5%), and raised the aggregate ceiling to **24%** (from 10%).
-  * **Export Proceeds Realisation:** Restored the timeline for full realisation and repatriation of export proceeds to **nine months** from the date of export.
+* **Policy Rates & Macroeconomic Projections Ladder:**
+  * **Policy Repo Rate:** **5.25%** *(Unchanged)*
+  * **Standing Deposit Facility (SDF):** **5.00%** *(25 bps below repo)*
+  * **MSF & Bank Rate:** **5.50%** *(25 bps above repo)*
+  * **Stance:** **Neutral**
+  * **FY27 Real GDP Growth:** **6.6%** (Q1: 6.6%, Q2: 6.3%, Q3: 6.5%, Q4: 6.8%)
+  * **FY27 CPI Inflation:** **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%) $mid$ Core: **4.7%**
+* **External Sector & Debt Reforms Ladder:**
+  * **FPI G-Sec Limits Withdrawn:** Abolished short-term, security-wise, and concentration caps; merged general and long-term sub-limits into single limit.
+  * **FAR Tenor Expansion:** Included new issuances of **15, 30, and 40-year G-Secs** and **Sovereign Green Bonds (5, 7, 10, 15, 30, 40-year tenors)**.
+  * **Individual NRI/OCI Equity Cap:** Raised to **10%** (from 5%); aggregate ceiling raised to **24%** (from 10%).
+  * **Export Realisation Window:** Restored to **9 months** from date of export.
+  * 🎯 **Recap:** *Repo: 5.25% (Neutral) $mid$ FY27 GDP: 6.6%, CPI: 5.1% $mid$ FPI G-Sec limits removed $mid$ NRI equity caps: 10% single / 24% aggregate.*
 
 #### Know / Understand
-* Stable headline inflation projections (5.1%) and robust domestic momentum (6.6% GDP) allowed the MPC to maintain interest rate stability. Simultaneously, removing legacy FPI restrictions deepens foreign capital flows into Indian sovereign debt ahead of global bond index inclusion milestones.
+* Stable inflation (5.1%) and growth (6.6%) supported neutral stance while removing legacy FPI caps deepens foreign capital flows into Indian sovereign debt ahead of global index inclusion.
 
 #### Exam Focus
 * Exact Policy Repo Rate (5.25%), SDF (5.00%), MSF/Bank Rate (5.50%).
@@ -58,25 +57,24 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India issued the **Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026**, permitting domestic commercial banks and overseas branches of Indian banks to extend credit facilities to SEBI-registered Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs).
-* Establishes strict prudential safeguards, exposure ceilings, cash flow covenants, and risk-weighted capital charges.
+* **Infrastructure & Commercial Real Estate Credit Access → REIT & InvIT Lending:**
+  * RBI issued *Commercial Banks – Credit Facilities Third Amendment Directions, 2026*, effective **October 1, 2026**.
+  * Permitted commercial banks to lend to SEBI-registered REITs and InvITs with strict prudential caps.
 
 #### Must Memorize
-* **Effective Date:** Comes into effect from **October 1, 2026** (or earlier if adopted by a bank in entirety).
-* **Core Lending Conditions & Exposure Caps:**
-  * **Overall Bank Exposure Cap:** Capped at a maximum of **49% of the asset value** of the borrowing REIT/InvIT (including underlying SPVs and holding companies).
-  * **Operational Track Record & Cash Flow Rule:** At least **80% of the underlying assets** of the borrowing REIT/InvIT must generate positive cash flows from operations for a minimum of **one full year** prior to loan sanction.
-  * **Repayment Structure Ban:** **Prohibited bullet and balloon repayment structures**; repayment schedules must be amortising and must not concentrate principal repayments towards the end of the loan tenure.
-  * **Security & Collateral:** Loans must be fully secured via charges on underlying assets, assignment of cash flows, and escrow of receivables.
-* **Concentration Norms & Capital Base Sub-Limits:**
-  * **Bank Aggregate Sub-Limit:** A bank's aggregate exposure to REITs is subject to a strict prudential ceiling of **10% of the bank's eligible capital base**.
-* **Risk Weights on REIT Exposures:**
-  * **Commercial Real Estate (CRE) Treatment:** Domestic bank exposure to REITs is treated as CRE and attracts a risk weight of **100%**.
-  * **Capital Market Exposure:** If the exposure qualifies as a capital market exposure under concentration risk norms, it attracts a risk weight of **125%**.
-  * **Overseas Branch Lending:** Lending to REITs undertaken by overseas branches of Indian banks attracts a risk weight of **150%** (and is permitted only via syndication where the bank's total overseas contribution does not exceed **20% of the deal's total funding**).
+* **Lending Safeguards & Exposure Ceilings Ladder:**
+  * **Overall Asset Exposure Cap:** Maximum **49% of asset value** of borrowing REIT/InvIT.
+  * **Operational Track Record:** At least **80% of underlying assets** must generate positive operational cash flows for $ge mathbf{1	ext{ year}}$.
+  * **Repayment Prohibition:** **Bullet and balloon repayment structures prohibited** (must be amortising).
+  * **Bank Aggregate Sub-Limit:** Maximum **10% of bank's eligible capital base**.
+* **Risk Weights on REIT Exposures Ladder:**
+  * **Commercial Real Estate (CRE) Treatment:** **100% Risk Weight**.
+  * **Capital Market Exposure:** **125% Risk Weight**.
+  * **Overseas Branches of Indian Banks:** **150% Risk Weight** (syndication cap $le 20%$ of deal).
+  * 🎯 **Recap:** *REIT/InvIT lending cap: 49% asset value $mid$ 80% operational cash flow rule $mid$ Max 10% capital base $mid$ Risk weights: CRE 100%, CME 125%, Overseas 150%.*
 
 #### Know / Understand
-* Unlocks domestic banking liquidity for high-quality, yielding commercial real estate and infrastructure assets while avoiding speculative construction risk through the 80% operational cash-flow rule and the prohibition of high-risk balloon repayment structures.
+* Unlocks bank credit for cash-generating real estate/infra assets while eliminating speculative construction risk through the 80% cash flow rule and banning balloon loans.
 
 #### Exam Focus
 * Exposure cap relative to asset value: 49%.
@@ -97,25 +95,19 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India rolled out a comprehensive foreign exchange liquidity package to incentivize overseas foreign currency mobilizations and shield domestic lenders from currency volatility.
-* Introduced dedicated **US Dollar-Rupee Forex Swap Facilities** for PSU External Commercial Borrowings (ECBs), bank Overseas Foreign Currency Borrowings (OFCBs), and fresh Foreign Currency Non-Resident [FCNR(B)] deposits.
-* Concurrently exempted fresh 3–5 year FCNR(B) deposits from **Cash Reserve Ratio (CRR)** and **Statutory Liquidity Ratio (SLR)** requirements.
+* **Forex Inflow Mobilization & Reserve Buffer Shielding:**
+  * Rolled out dedicated **USD-INR Swap Facilities** for PSU ECBs, bank OFCBs, and fresh FCNR(B) deposits.
+  * Exempted fresh 3–5 year FCNR(B) deposits from **CRR and SLR** mandates.
 
 #### Must Memorize
-* **CRR & SLR Exemption on FCNR(B) Deposits:**
-  * Fresh FCNR(B) deposits with a tenor of **3 to 5 years** mobilised between **June 8, 2026, and September 30, 2026** (including renewals) are **100% exempted from CRR and SLR maintenance** for the original deposit amount for their entire tenure on bank books.
-  * Temporary removal of interest rate ceilings on fresh NRE ($\ge 3$ years) and FCNR(B) (3–5 years) deposits until **September 30, 2026**.
-* **US Dollar-Rupee Forex Swap Facility for ECBs & OFCBs:**
-  * **Eligible Borrowers:** PSU ECBs and AD Category-I bank OFCBs with average maturity of **3 years and above** drawn up to **December 31, 2026** (window open till January 15, 2027).
-  * **Fixed Swap Cost:** Fixed swap rate of **1.5% per annum compounded semi-annually**.
-  * **Transaction Mechanics:** Multiples of **USD 1 million**; initial leg at FBIL Reference Rate on spot basis; maximum swap tenor coterminous with repayment up to **5 years**; no ISDA agreement required.
-* **Forex Swap Facility for FCNR(B) Deposits:**
-  * Minimum tenor of **3 years and maximum of 5 years**; swap conducted at par at FBIL Reference Rate; **covers principal amount only (excludes interest)**.
-  * Underlying deposits carry a mandatory **1-year lock-in period**; window open till October 16, 2026 (for deposits mobilised till Sept 30, 2026).
-  * AD-I banks permitted to lend to non-residents against foreign currency deposits via offshore/GIFT City branches.
+* **FCNR(B) Reserve Exemptions & Swap Terms Ladder:**
+  * **CRR & SLR Exemption:** Fresh 3–5 year FCNR(B) deposits mobilised between **June 8 and September 30, 2026** are **100% exempt from CRR & SLR** for entire tenure.
+  * **ECB/OFCB Swap Facility:** Minimum 3-year average maturity $mid$ Fixed swap cost of **1.5% per annum semi-annually** $mid$ Multiples of **USD 1 Million** (max 5-year swap).
+  * **FCNR(B) Swap Facility:** 3 to 5-year tenor $mid$ Conducted at par (FBIL Reference Rate) $mid$ **Covers principal only (excludes interest)** $mid$ 1-year deposit lock-in.
+  * 🎯 **Recap:** *100% CRR/SLR exemption on 3–5 yr FCNR(B) $mid$ 1.5% fixed swap cost on PSU ECBs/OFCBs $mid$ Swap covers principal only $mid$ 1-yr lock-in.*
 
 #### Know / Understand
-* Eliminates hedging cost uncertainties for public sector enterprises and commercial banks while incentivizing high-value non-resident capital inflows to build resilient foreign exchange reserves without placing regulatory reserve drag (CRR/SLR) on banks.
+* Eliminates hedging cost uncertainty for PSUs and banks while mobilizing non-resident foreign capital without imposing regulatory reserve drag (CRR/SLR).
 
 #### Exam Focus
 * FCNR(B) CRR/SLR exemption tenor: 3 to 5 years (mobilised June 8 to Sept 30, 2026).
@@ -135,24 +127,20 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India issued updated Amendment Directions on the **Review of Framework of Limiting Customer Liability in Digital Transactions**, expanding protection beyond unauthorized transactions to cover all **Fraudulent Electronic Banking Transactions (EBTs)** across card-present and card-not-present channels.
-* Introduced a statutory compensation mechanism for small-value digital fraud victims and established strict timelines for banks to resolve fraud complaints.
+* **Digital Fraud Customer Protection → Algorithmic Compensation:**
+  * Issued updated directions on customer liability in fraudulent Electronic Banking Transactions (EBTs), effective **January 1, 2027**.
+  * Introduced statutory small-value fraud relief and shadow reversals for credit cards.
 
 #### Must Memorize
-* **Effective Date:** The revised customer protection framework comes into effect from **January 1, 2027**.
-* **Statutory Compensation Formula for Small-Value Frauds:**
-  * For individual customers and sole proprietorships suffering net losses up to **₹50,000** in fraudulent digital transactions:
-    $$\text{Compensation} = \min(85\% \times \text{Net Loss},\ ₹25,000)$$
-  * **Mandatory Reporting Window:** Customer must report the fraud to both the bank and the **National Cyber Crime Reporting Portal / Cyber Crime Helpline 1930 within 5 calendar days** of the incident.
-* **Mandatory Transaction Alerts & Shadow Reversal:**
-  * **Mandatory Instant SMS Alerts:** Banks must send instant SMS alerts for all electronic banking transactions **above ₹500**.
-  * **Credit Card Shadow Reversal:** In fraudulent credit-card transactions, banks must provide a **"shadow reversal"** (temporary credit) of the disputed amount within **5 working days** of receiving the complaint.
-* **Investigation Resolution Timelines:**
-  * **Domestic Fraud Complaints:** Banks must complete investigations and communicate final outcomes within **45 calendar days**.
-  * **Cross-Border Fraud Complaints:** Investigations must be concluded within **60 calendar days**.
+* **Compensation & Timelines Ladder:**
+  * **Statutory Fraud Compensation:** For gross losses up to **₹50,000**, compensation is $min(85% 	imes 	ext{Net Loss}, ₹25,000)$.
+  * **Reporting Window:** Must report to bank and **Cyber Crime Helpline 1930 within 5 calendar days**.
+  * **SMS Alerts & Shadow Reversal:** Mandatory instant SMS for transactions $> mathbf{₹500}$ $mid$ Credit card **shadow reversal within 5 working days**.
+  * **Investigation Timelines:** **45 calendar days** (Domestic) $mid$ **60 calendar days** (Cross-Border).
+  * 🎯 **Recap:** *Small fraud compensation: 85% loss or ₹25k (reported $le 5$ days to 1930) $mid$ Shadow reversal: 5 days $mid$ Resolution: 45 days domestic / 60 days cross-border.*
 
 #### Know / Understand
-* Replaces the rigid zero-liability/limited-liability rules with an algorithmic risk-sharing mechanism that incentivizes early reporting (within 5 days) and ensures victims of phishing or social-engineering scams receive immediate relief up to ₹25,000.
+* Replaces rigid liability rules with an algorithmic safety net that incentivizes immediate reporting within 5 days and provides immediate temporary credit.
 
 #### Exam Focus
 * Compensation cap formula: 85% of net loss or ₹25,000 (for frauds up to ₹50,000).
@@ -173,24 +161,20 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India consolidated and upgraded regulatory instructions governing control and assurance functions across commercial banks, establishing dedicated independent hierarchies for risk management, compliance, and internal audit.
-* Mandated statutory protections, minimum tenures, and direct reporting lines for the Chief Risk Officer (CRO), Chief Compliance Officer (CCO), and Head of Internal Audit (HIA).
+* **Bank Governance & Assurance Functions → Independent Executive Oversight:**
+  * Consolidated directions for CRO, CCO, and Head of Internal Audit (HIA), effective **January 1, 2027**.
+  * Mandated statutory fixed tenures, removal safeguards, and Model Risk Management Frameworks.
 
 #### Must Memorize
-* **Effective Date:** Takes effect from **January 1, 2027**.
-* **Tenure & Governance Mandates:**
-  * **Fixed Statutory Tenure:** The CRO, CCO, and HIA must be appointed for a minimum fixed tenure of **at least 3 years**.
-  * **Board Approval for Removal:** Any premature transfer, removal, or resignation of the CRO, CCO, or HIA requires prior explicit approval of the **Board of Directors**.
-  * **RBI Notification Timeline:** Any appointment, re-appointment, removal, or exit of a Chief Risk Officer (CRO) must be reported to the Reserve Bank of India within **5 working days**.
-* **Supervisory Principles for Credit Model Risk (MRMF):**
-  * Mandated a board-approved **Model Risk Management Framework (MRMF)** for all AI/ML, statistical, and third-party credit scoring models.
-  * Requires embedded **kill-switch mechanisms**, independent periodic validation, and mandatory human oversight in automated credit underwriting.
-* **Financial Products Marketing & Incentive Code:**
-  * **Prohibition of Third-Party Incentives:** Strictly prohibited payment of incentives, commissions, or gifts by third-party manufacturers (insurance/mutual fund AMCs) directly to bank/NBFC employees. (Banks/NBFCs may reward employees internally).
-  * **Mis-Selling Assessment Benchmark:** Customer mis-selling complaints will be evaluated strictly based on the **customer's profile at the time of sale**, not at the time of complaint.
+* **Governance Safeguards & Model Risk Ladder:**
+  * **Fixed Statutory Tenure:** CRO, CCO, and HIA must have minimum tenure of **at least 3 years**.
+  * **Removal Approval:** Premature exit requires explicit **Board of Directors approval** $mid$ Reported to RBI within **5 working days**.
+  * **Model Risk Management Framework (MRMF):** Mandatory board-approved MRMF for AI/ML credit scoring with **kill-switch controls** and human validation.
+  * **Incentive Bans:** Direct manufacturer incentives/gifts to bank staff strictly prohibited; mis-selling assessed based on customer profile at time of sale.
+  * 🎯 **Recap:** *CRO/CCO/HIA: 3-year min tenure $mid$ Board approval for removal (5 days to RBI) $mid$ MRMF kill-switch mandatory $mid$ Direct 3rd-party incentives banned.*
 
 #### Know / Understand
-* Eliminates structural conflicts of interest where compliance and risk officers could be prematurely dismissed by executive management for flagging bad loans or regulatory breaches.
+* Prevents executive management from dismissing risk or compliance officers for flagging NPA irregularities or regulatory breaches.
 
 #### Exam Focus
 * Minimum fixed tenure for CRO, CCO, and HIA: 3 years.
@@ -210,26 +194,19 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India issued final operational directions on the **Trade Receivables Discounting System (TReDS)**, expanding the participation of insurance companies and credit guarantee funds, mandating platform validation controls, and upgrading platform net worth criteria.
+* **MSME Invoice Discounting Modernisation → TReDS Regulations:**
+  * Issued final directions expanding credit insurance and guarantee integration on TReDS platforms.
+  * Upgraded platform net worth requirements.
 
 #### Must Memorize
-* **Net Worth Requirement for TReDS Platforms:**
-  * Entities seeking authorisation to set up and operate a TReDS platform must maintain a minimum net worth of **₹25 crore**.
-  * **Transition Compliance Window:** Existing operating TReDS platforms are given time until **March 31, 2028**, to meet the ₹25 crore net worth threshold.
-* **Insurance & Guarantee Integration:**
-  * Financiers on TReDS are permitted to purchase credit insurance cover for discounted receivables.
-  * **Strict Cost Prohibition:** The cost of the insurance premium **shall NOT be passed on to or borne by the MSME seller**.
-* **Onboarding & Authentication Safeguards:**
-  * Platforms must deploy automated validation mechanisms to verify genuine MSME registration and ensure invoice discounting proceeds are credited directly into the verified bank account of the MSME seller.
-* **Operational Landscape:** Currently, **5 authorized TReDS platforms** operate in India:
-  1. **RXIL** (Receivables Exchange of India Ltd — promoted by NSE & SIDBI)
-  2. **A.TReDS / Invoicemart** (Axis Bank & mjunction)
-  3. **M1xchange** (Mynd Solutions)
-  4. **C2FO Factoring Solutions (C2treds)**
-  5. **KredX Platform (DTX)**
+* **TReDS Architecture & Parameters Ladder:**
+  * **Platform Net Worth:** Minimum **₹25 Crore** net worth (transition deadline: **March 31, 2028**).
+  * **Insurance Premium Mandate:** Financiers can purchase credit insurance on receivables; **premium shall NOT be passed on to MSME sellers**.
+  * **Authorised Platforms (5 Operating Entities):** RXIL, Invoicemart (A.TReDS), M1xchange, C2FO (C2treds), and KredX (DTX).
+  * 🎯 **Recap:** *TReDS platform net worth: ₹25 Cr (deadline March 31, 2028) $mid$ Insurance premium barred from MSMEs $mid$ 5 authorised platforms.*
 
 #### Know / Understand
-* Credit insurance on TReDS encourages banks and NBFCs to bid aggressively on lower-rated corporate buyers' invoices without taking default risk, unlocking liquidity for suppliers without imposing financial costs on small enterprises.
+* Credit insurance lets financiers bid aggressively on lower-rated corporate buyer invoices without default risk, unlocking liquidity for small suppliers without cost deductions.
 
 #### Exam Focus
 * Minimum net worth for TReDS operators: ₹25 crore (compliance deadline: March 31, 2028).
@@ -247,21 +224,22 @@
 * **Status:** NOTIFIED
 
 #### What Happened
-* The Reserve Bank of India released the biannual **Financial Stability Report (FSR) June 2026**, assessing the resilience of the Indian financial system, systemic vulnerabilities, and emerging structural credit risks.
-* Flagged the exponential rise in **AI-driven cyberattacks** as a premier operational risk for banks and analysed the rapid expansion of non-housing retail loans.
+* **Biannual Financial Stability Assessment → FSR June 2026:**
+  * Evaluated resilience of Indian financial system and emerging retail credit risks.
+  * Highlighted AI-driven cyber threats, household debt expansion, and non-housing retail loans.
 
 #### Must Memorize
-* **Household Debt & Retail Credit Dynamics:**
-  * **Household Debt to GDP:** India's household sector debt reached **45.5% of GDP** in March 2026, driven primarily by non-housing retail and unsecured consumption borrowings.
-  * **Emerging Market Ranking:** India stands **4th** in household debt among major emerging market economies (behind Thailand at 87.3%, Malaysia at 69.9%, and China at 59.0%).
-  * **Consumption vs Asset Creation:** Consumption-related loans accounted for **nearly 50%** of total household borrowings.
-  * **Ticket-Size Distribution:** Loans with credit limits of **₹50 lakh and above** accounted for **44.7%** of outstanding retail credit.
-* **Gold Loan Surge:** Gold-backed loans emerged as the **single largest segment** within non-housing retail credit, driven by elevated gold prices and quick turnaround times.
-* **Capital Markets Prudential Measure:** Effective **July 1, 2026**, RBI mandated that bank guarantees issued to proprietary trading firms and brokers in capital markets must be **100% backed by collateral, with at least 50% in cash**, curtailing unchecked leverage in derivatives trading.
-* **NBFC Upper Layer Classification Benchmark:** Finalised **₹1 lakh crore asset size** as the explicit quantitative threshold for classifying NBFCs in the Upper Layer (UL) under Scale-Based Regulation. Withdrew concentration norm exemptions for Government-owned NBFCs (offset exposures attract a **20% risk weight** with State Government guarantees).
+* **FSR Macro-Financial Metrics Ladder:**
+  * **Household Debt to GDP:** Reached **45.5% of GDP** *(4th in emerging markets behind Thailand 87.3%, Malaysia 69.9%, China 59.0%)*.
+  * **Consumption Credit:** Consumption loans accounted for **nearly 50%** of total household borrowings.
+  * **Ticket-Size:** Loans $ge mathbf{₹50	ext{ Lakh}}$ accounted for **44.7%** of outstanding retail credit.
+  * **Top Non-Housing Segment:** **Gold loans** emerged as largest non-housing retail credit segment.
+  * **Broker Guarantees:** Bank guarantees for proprietary trading/brokers require **100% collateral (min 50% cash)** from July 1, 2026.
+  * **NBFC Upper Layer Benchmark:** **₹1 Lakh Crore asset size** explicit quantitative threshold.
+  * 🎯 **Recap:** *Household debt: 45.5% of GDP (4th in EMs) $mid$ Gold loans lead non-housing retail $mid$ 100% collateral (50% cash) for broker guarantees $mid$ ₹1L Cr NBFC-UL cutoff.*
 
 #### Know / Understand
-* While banking balance sheets are well-capitalised, the rapid growth in consumption debt and derivative speculation prompted targeted macroprudential tightening (guarantee cash margins and NBFC Upper Layer concentration rules).
+* Healthy bank capital levels contrast with rapid consumption borrowing and speculative derivatives, prompting targeted macroprudential margins and NBFC Upper Layer rules.
 
 #### Exam Focus
 * India household debt-to-GDP ratio: 45.5% (4th in emerging markets).
@@ -273,137 +251,154 @@
 
 # PART 2: P2 — HIGH (HIGH-YIELD MEMORIZATION)
 
-*Estimated Quick Study Time: ~25 Minutes*
-
 ### 1. PFRDA Launches StAR NPS Digital Onboarding Framework
 * **Priority:** P2 — High
-* **Category:** PENSION_SYSTEMS | **Institution:** PFRDA | **Event Date:** 2026-06-04
+* **Category:** PENSION_SYSTEMS
+* **Institution:** PFRDA
+* **Event Date:** 2026-06-04
 * **Must Memorize Facts:**
-  * Developed by **BSE Technologies Private Limited (BTPL)** to allow seamless digital onboarding via Points of Presence (PoPs), Central Recordkeeping Agencies (CRAs), and the Trustee Bank.
-  * **Registration Fee:** Fixed at **₹200 plus applicable GST**.
-  * **Eligibility:** Available to resident Indian individuals aged **18 to 85 years**.
-  * **Regulatory Sandbox Criterion:** Independent fintech applicants must have a minimum net worth of **₹10 lakh** (must not handle subscriber funds directly).
+  * **StAR NPS Parameters:**
+    * Developed by **BSE Technologies (BTPL)** $mid$ Registration fee: **₹200 + GST** $mid$ Eligibility: **18 to 85 years** $mid$ Sandbox fintech min net worth: **₹10 Lakh**.
+  * 🎯 **Recap:** *StAR NPS onboarding by BSE Tech $mid$ ₹200 fee $mid$ Ages 18–85.*
 
 ### 2. India's Balance of Payments (BoP) FY 2025-26: Q4 Surplus of $7.1 Billion
 * **Priority:** P2 — High
-* **Category:** MACRO_ECONOMY | **Institution:** RBI | **Event Date:** 2026-06-28
+* **Category:** MACRO_ECONOMY
+* **Institution:** RBI
+* **Event Date:** 2026-06-28
 * **Must Memorize Facts:**
-  * **Q4 FY26 Current Account Surplus:** **$7.1 billion** or **0.7% of GDP** (driven by record services exports of $60.4 billion).
-  * **Full-Year CAD (FY26):** Narrowed to **$25.2 billion** or **0.6% of GDP** (compared to 1.2% in FY25).
-  * **Net FDI Inflows:** Rose to **$6.9 billion** in FY26 (up from $1.0 billion in FY25); Q4 FDI net inflow stood at $4.2 billion.
-  * **Net External Liabilities:** Declined by $52.4 billion to **$209.9 billion** at end-March 2026, improving India's international assets-to-liabilities ratio to **85.2%** (from 82.0%).
+  * **BoP Highlights:**
+    * Q4 Current Account Surplus: **$7.1 Billion (0.7% of GDP)** $mid$ Full-Year CAD: **$25.2 Billion (0.6% of GDP)** $mid$ Net FDI: **$6.9 Billion**.
+  * 🎯 **Recap:** *Q4 CAD surplus: $7.1B (0.7% GDP) $mid$ Full FY26 CAD: 0.6% GDP $mid$ Net FDI: $6.9B.*
 
 ### 3. SEBI Board 214th Meeting Landmark Market Reforms
 * **Priority:** P2 — High
-* **Category:** CAPITAL_MARKETS | **Institution:** SEBI | **Event Date:** 2026-06-24
+* **Category:** CAPITAL_MARKETS
+* **Institution:** SEBI
+* **Event Date:** 2026-06-24
 * **Must Memorize Facts:**
-  * **Stock Exchange Buybacks Reintroduced:** Open-market buybacks through stock exchanges permitted from **August 1, 2026**; must be completed within **66 working days** (at least 40% funds deployed in the first 33 days).
-  * **GARUDA Green-Channel for AIFs:** *AIF Rollout Upon Document Acknowledgement* reduces new scheme launch timelines to **10 working days** for regular AIFs, and allows immediate launch for accredited-investor-only funds.
-  * **Dynamic Price Bands for ETFs:** Effective **September 1, 2026**, equity/debt ETFs get initial $\pm 10\%$ dynamic price bands (expandable to $\pm 20\%$ after 15 min cooling-off). Gold and Silver ETFs get initial $\pm 6\%$ bands (expandable in 3% increments without ceiling) with pre-open call auctions.
+  * **Market Reforms Ladder:**
+    * Stock Exchange Buybacks: **66-day completion** (40% in first 33 days) from Aug 1, 2026.
+    * **GARUDA:** 10-day AIF scheme rollout.
+    * Dynamic ETF Bands: Equity $pm 10% 	o pm 20%$; Gold/Silver $pm 6%$ initial.
+  * 🎯 **Recap:** *SEBI 214th: 66-day buyback window $mid$ 10-day GARUDA AIF approval $mid$ Dynamic ETF bands.*
 
 ### 4. RBI Revamps Lead Bank Scheme & Formalises BLBC Structure
 * **Priority:** P2 — High
-* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-06-15
+* **Category:** BANKING_REGULATION
+* **Institution:** RBI
+* **Event Date:** 2026-06-15
 * **Must Memorize Facts:**
-  * **Exclusive Lead District Manager (LDM):** Mandated every lead bank appoint an exclusive LDM for each district with dedicated staff, vehicles, and separate operating budgets.
-  * **BLBC Formalisation:** Formalised the **Block Level Bankers' Committee (BLBC)** as the operational foundation for grassroots credit planning.
-  * **Timelines:** Enforced standardized meeting calendars for BLBC, District Consultative Committee (DCC), District Level Review Committee (DLRC), and State Level Bankers' Committee (SLBC).
+  * **Lead Bank Framework:**
+    * Mandated exclusive **Lead District Manager (LDM)** with separate budget $mid$ Formalised **Block Level Bankers' Committee (BLBC)**.
+  * 🎯 **Recap:** *Exclusive LDM appointed for each district $mid$ BLBC formalised as grassroots planning tier.*
 
 ### 5. RBI Defers Revised Kisan Credit Card (KCC) Directions to January 1, 2027
 * **Priority:** P2 — High
-* **Category:** BANKING_REGULATION | **Institution:** RBI | **Event Date:** 2026-06-14
+* **Category:** BANKING_REGULATION
+* **Institution:** RBI
+* **Event Date:** 2026-06-14
 * **Must Memorize Facts:**
-  * Implementation of revised KCC master directions deferred from July 1, 2026, to **January 1, 2027**.
-  * **Collateral & Margin Waiver:** Collateral and margin waived for agricultural loans up to **₹2 lakh per borrower** (and up to **₹3 lakh** for hypothecated crops with recovery tie-ups).
-  * Scale of Finance (SoF) determined by District Level Technical Committees (DLTCs); credit limits rounded off to the nearest **₹1,000**.
+  * **KCC Rules:**
+    * Deferred to **January 1, 2027** $mid$ Collateral waived up to **₹2 Lakh** (₹3 Lakh with crop hypothecation tie-ups).
+  * 🎯 **Recap:** *KCC directions deferred to Jan 1, 2027 $mid$ Collateral waived up to ₹2 Lakh.*
 
 ### 6. PFRDA Mandates Annual External Audit for Points of Presence (PoPs)
 * **Priority:** P2 — High
-* **Category:** PENSION_SYSTEMS | **Institution:** PFRDA | **Event Date:** 2026-06-16
+* **Category:** PENSION_SYSTEMS
+* **Institution:** PFRDA
+* **Event Date:** 2026-06-16
 * **Must Memorize Facts:**
-  * Mandated external CA audit of all NPS and NPS Vatsalya operations for registered PoPs (effective FY 2026-27).
-  * **Category I (<10,000 subscribers):** Audited **once in three financial years** (First report due: **June 30, 2029**).
-  * **Category II ($\ge 10,000$ subscribers):** Audited **every financial year** (First report due: **June 30, 2027**).
+  * **PoP Audit Intervals:**
+    * Cat-I ($<10	ext{k}$ subscribers): Audited **once in 3 years** (1st due June 30, 2029).
+    * Cat-II ($ge 10	ext{k}$ subscribers): Audited **every year** (1st due June 30, 2027).
+  * 🎯 **Recap:** *PoP audit: Annual for $ge 10	ext{k}$ subscribers $mid$ Every 3 yrs for $<10	ext{k}$ subscribers.*
 
 ### 7. SEBI Margin Trading Facility (MTF) Overhaul Consultation
 * **Priority:** P2 — High
-* **Category:** CAPITAL_MARKETS | **Institution:** SEBI | **Event Date:** 2026-06-22
+* **Category:** CAPITAL_MARKETS
+* **Institution:** SEBI
+* **Event Date:** 2026-06-22
 * **Must Memorize Facts:**
-  * Minimum broker net worth to offer MTF raised from ₹3 crore to **₹5 crore** (LLPs permitted alongside corporate brokers).
-  * **Locked Net Worth:** Brokers must ringfence the lower of twice their regular broking net worth or **50% of total net worth**.
-  * **Exposure Multiplier:** Remaining net worth can be leveraged up to **5.5 times net worth**. Single client exposure capped at **10%** of brokerage's maximum allowable exposure.
+  * **MTF Broker Limits:**
+    * Broker min net worth raised to **₹5 Crore** $mid$ Leverage up to **5.5 times net worth** (single client cap 10%).
+  * 🎯 **Recap:** *MTF broker net worth: ₹5 Cr $mid$ 5.5x leverage multiplier.*
 
 ### 8. Global GDP Outlooks: World Bank & OECD (June 2026 Releases)
 * **Priority:** P2 — High
-* **Category:** MACRO_ECONOMY | **Institution:** World Bank / OECD | **Event Date:** 2026-06-10
+* **Category:** MACRO_ECONOMY
+* **Institution:** World Bank / OECD
+* **Event Date:** 2026-06-10
 * **Must Memorize Facts:**
-  * **World Bank Global Economic Prospects:** Global growth projected at **2.5% in 2026** (2.8% in 2027/28). India GDP: **6.6% in 2026**, **7.2% in 2027**, **7.0% in 2028**.
-  * **OECD Economic Outlook:** Global growth at **2.8% in 2026** and **3.1% in 2027**. India GDP: **6.3% in 2026** and **6.4% in 2027**.
+  * **Growth Projections:**
+    * **World Bank:** Global 2.5%; India: **6.6% in 2026**, **7.2% in 2027**.
+    * **OECD:** Global 2.8%; India: **6.3% in 2026**, **6.4% in 2027**.
+  * 🎯 **Recap:** *World Bank: India 6.6% (2026) / 7.2% (2027) $mid$ OECD: India 6.3% (2026).*
 
 ### 9. IRDAI Overhauls Insurer Processing Fees, Governance & AI Working Group
 * **Priority:** P2 — High
-* **Category:** INSURANCE_SECTOR | **Institution:** IRDAI | **Event Date:** 2026-06-25
+* **Category:** INSURANCE_SECTOR
+* **Institution:** IRDAI
+* **Event Date:** 2026-06-25
 * **Must Memorize Facts:**
-  * **Processing Fee Slashes:** Amalgamation application fees slashed to **₹10 lakh** (from ₹50 lakh–₹5 crore); Share transfer fees slashed to **₹10 lakh** (from ₹50 lakh).
-  * **Private Equity Surplus Investment:** Allowed insurers to invest up to **5% of surplus shareholders' funds** (above 150% solvency ratio) in private limited companies with min ₹25 cr net worth.
-  * **Foreign Reinsurance Branches (FRBs):** Minimum net-owned funds of parent reinsurer lowered from ₹5,000 crore to **₹1,000 crore**.
-  * **AI Working Group:** Formed working group on insurance AI adoption chaired by **Sandeep Shukla** (Director, IIIT Hyderabad).
+  * **Regulatory Fee & Capital Changes:**
+    * Amalgamation fee slashed to **₹10 Lakh** $mid$ Foreign reinsurer parent NOF cut to **₹1,000 Crore** $mid$ AI panel chaired by **Sandeep Shukla**.
+  * 🎯 **Recap:** *Amalgamation fee cut to ₹10L $mid$ Foreign reinsurer NOF: ₹1,000 Cr $mid$ Sandeep Shukla chairs AI panel.*
 
 ### 10. Apex Regulatory & Executive Appointments (June 2026)
 * **Priority:** P2 — High
-* **Category:** APPOINTMENTS | **Institution:** Various | **Event Date:** 2026-06-30
+* **Category:** APPOINTMENTS
+* **Institution:** Various
+* **Event Date:** 2026-06-30
 * **Must Memorize Facts:**
-  * **Swaminathan Janakiraman:** Re-appointed **RBI Deputy Governor** for a 2-year term (effective June 26, 2026).
-  * **Sanjay Lohiya (DFS Secretary):** Nominated as Government Director on the Central Boards of both **RBI and State Bank of India (SBI)**.
-  * **Brajesh Kumar Singh:** Appointed MD & CEO, **Canara Bank**.
-  * **Rajiv Kumar (Former CEC):** Approved as Part-Time Chairman, **HDFC Bank**.
-  * **Ravi Agrawal:** Chairman, **Central Board of Direct Taxes (CBDT)**.
-  * **Vivek Aggarwal:** Elected **Vice-President of Financial Action Task Force (FATF)** (Giles Thomson UK elected FATF President).
-  * **Saibal Chattopadhyay:** Chairperson, **National Statistical Commission (NSC)**.
-  * **Hitesh Joshi:** CMD, **General Insurance Corporation of India (GIC Re)**.
-  * **Ajay Rajan:** MD & CEO, **Protean eGov Technologies**.
+  * **Key Appointments:**
+    * **Swaminathan Janakiraman:** Re-appointed **RBI Deputy Governor** (2-year term).
+    * **Sanjay Lohiya:** Nominated Govt Director on **RBI and SBI Boards**.
+    * **Brajesh Kumar Singh:** MD & CEO, **Canara Bank**.
+    * **Rajiv Kumar (Former CEC):** Part-Time Chairman, **HDFC Bank**.
+    * **Vivek Aggarwal:** Elected **Vice-President of FATF**.
+    * **Saibal Chattopadhyay:** Chairperson, **NSC**.
+  * 🎯 **Recap:** *Swaminathan Janakiraman (RBI DG), Brajesh Kumar Singh (Canara Bank), Vivek Aggarwal (FATF VP).*
 
 ---
 
 # PART 3: P3 — MODERATE (ONE-LINERS & COMPACT FACTOIDS)
 
-*Estimated Quick Scan Time: ~15 Minutes*
-
-* **Surha Tal 100th Ramsar Site:** Jai Prakash Narayan Bird Sanctuary (Surha Tal) in Ballia, Uttar Pradesh, declared India's **100th Ramsar Site** (UP total: 13 sites; World total: 2,595).
-* **Navratna CPSE Upgrades:** **Chennai Petroleum Corporation Ltd (CPCL)** recognised as the **28th Navratna**, and **Garden Reach Shipbuilders & Engineers (GRSE)** recognised as the **29th Navratna CPSE**. (India has 14 Maharatnas).
-* **First Made-in-India Airbus C-295:** Completed maiden flight from Tata Advanced Systems Ltd (TASL) facility in Vadodara, Gujarat (Contract: 56 aircraft worth ₹21,935 crore).
-* **DRDO Strategic Flight Tests:** Successfully test-fired **RudraM-II** air-to-surface missile and **Long Range Land Attack Cruise Missile (LRLACM)** from Dr APJ Abdul Kalam Island, Odisha.
-* **Global Peace Index 2026 (IEP Sydney):** Iceland ranked 1st (19th year); India ranked **127th** (Score: 2.409); Bhutan most peaceful in South Asia (16th); Afghanistan lowest (157th).
-* **World Bank CPPI Port Rankings 2025:** **Jawaharlal Nehru Port Authority (JNPA Mumbai)** ranked **22nd globally** (India's #1 container port), Pipavav 28th, Mundra 30th.
-* **UN Sustainable Development Report 2026 (SDSN):** Finland ranked 1st; India ranked **94th** (Score: 68.33; improved 18 ranks since 2015).
-* **Hurun India 500 (2025):** Reliance Industries #1 (₹1.8T value add), HDFC Bank #2, Bharti Airtel #3, ICICI Bank #4, TCS #5. NSE is most valuable unlisted firm (₹4.86 lakh cr).
-* **SIPRI Military Expenditure 2026:** World spend $2.9T; US #1 ($954B), China #2 ($336B), Russia #3 ($190B), Germany #4, India #5 ($92.1B); India holds 190 nuclear warheads (Pakistan 170).
-* **FDI Cumulative Milestone:** India attracted **$843 Billion** cumulative FDI between 2014-15 and 2025-26 (>90% via automatic route; FY26 inflow >$94B).
-* **GIFT City Banking Expansions:**
+* **Surha Tal 100th Ramsar Site**: Jai Prakash Narayan Bird Sanctuary (Surha Tal) in Ballia, Uttar Pradesh, declared India's **100th Ramsar Site** (UP total: 13 sites; World total: 2,595).
+* **Navratna CPSE Upgrades**: **Chennai Petroleum Corporation Ltd (CPCL)** recognised as the **28th Navratna**, and **Garden Reach Shipbuilders & Engineers (GRSE)** recognised as the **29th Navratna CPSE**. (India has 14 Maharatnas).
+* **First Made-in-India Airbus C-295**: Completed maiden flight from Tata Advanced Systems Ltd (TASL) facility in Vadodara, Gujarat (Contract: 56 aircraft worth ₹21,935 crore).
+* **DRDO Strategic Flight Tests**: Successfully test-fired **RudraM-II** air-to-surface missile and **Long Range Land Attack Cruise Missile (LRLACM)** from Dr APJ Abdul Kalam Island, Odisha.
+* **Global Peace Index 2026 (IEP Sydney)**: Iceland ranked 1st (19th year); India ranked **127th** (Score: 2.409); Bhutan most peaceful in South Asia (16th); Afghanistan lowest (157th).
+* **World Bank CPPI Port Rankings 2025**: **Jawaharlal Nehru Port Authority (JNPA Mumbai)** ranked **22nd globally** (India's #1 container port), Pipavav 28th, Mundra 30th.
+* **UN Sustainable Development Report 2026 (SDSN)**: Finland ranked 1st; India ranked **94th** (Score: 68.33; improved 18 ranks since 2015).
+* **Hurun India 500 (2025)**: Reliance Industries #1 (₹1.8T value add), HDFC Bank #2, Bharti Airtel #3, ICICI Bank #4, TCS #5. NSE is most valuable unlisted firm (₹4.86 lakh cr).
+* **SIPRI Military Expenditure 2026**: World spend $2.9T; US #1 ($954B), China #2 ($336B), Russia #3 ($190B), Germany #4, India #5 ($92.1B); India holds 190 nuclear warheads (Pakistan 170).
+* **FDI Cumulative Milestone**: India attracted **$843 Billion** cumulative FDI between 2014-15 and 2025-26 (>90% via automatic route; FY26 inflow >$94B).
+* **GIFT City Banking Expansions**:
   * **Indian Overseas Bank (IOB):** Perpetual IFSCA licence for GIFT City branch.
   * **Central Bank of India:** Opened IFSC Banking Unit (IBU) at GIFT City.
   * **HDFC Bank:** Raised **$750 Million** via 5-year senior unsecured bonds from GIFT unit (5.067% coupon).
   * **Dhan (Raise IFSC):** Launched US stock/ETF trading for Indians via GIFT City.
   * **LEXI Money IFSC:** In-principle approval as Payment Service Provider (PSP).
-* **Digital Payments & UPI Expansions:**
+* **Digital Payments & UPI Expansions**:
   * **Cambodia KHQR Linkage:** UPI accepted in Cambodia via ACLEDA Bank (9th country).
   * **Greece Remittance:** Eurobank partnered with NIPL for Greece-to-India UPI remittances (10th country).
   * **France UPI:** Operationalised at Galeries Lafayette and French airports via Lyra.
   * **NPCI Drunix:** Open-source blockchain platform for enterprise tokenisation.
   * **BharatPe Flex:** Launched Credit-on-UPI with YES Bank (up to 45 days credit).
   * **Viyona Fintech:** Certified as Biller Operating Unit (BOU) on BBPS.
-* **Corporate & Banking Dividend Cheques:**
+* **Corporate & Banking Dividend Cheques**:
   * **State Bank of India (SBI):** Paid record dividend of **₹8,813 crore** for FY26 to Finance Minister.
   * **Canara Bank:** Paid dividend of **₹2,397 crore** for FY26.
-* **PSU Bank Green Deposits:** 8 state-owned banks raised **₹3,733.11 crore** in FY26 (SBI raised ₹317.39 cr).
-* **International Awards & Honours:**
+* **PSU Bank Green Deposits**: 8 state-owned banks raised **₹3,733.11 crore** in FY26 (SBI raised ₹317.39 cr).
+* **International Awards & Honours**:
   * **Food Planet Prize 2026 ($1.5M):** Andhra Pradesh Community-Managed Natural Farming (Rythu Sadhikara Samstha).
   * **Order of the White Double Cross (1st Class):** Slovakia's highest state honour conferred on PM Narendra Modi (33rd international honour).
   * **Wolf Prize in Physics 2025:** Prof. Jainendra K. Jain (1st Indian-origin recipient).
   * **Princess of Asturias Award for Sports 2026:** Lionel Messi (1st footballer).
   * **SJFI Gold Medal:** Viswanathan Anand.
   * **Green Oscars (Whitley Awards 2026):** Parveen Shaikh and Dr. Barkha Subba (£50,000 each).
-* **Sports Milestones:**
+* **Sports Milestones**:
   * **French Open 2026:** Alexander Zverev (Germany) and Mirra Andreeva (Russia).
   * **Norway Chess 2026:** R. Praggnanandhaa won title (defeated Magnus Carlsen twice).
   * **FIH Women's Nations Cup 2026:** India beat New Zealand 2-0 (Captained by Salima Tete).

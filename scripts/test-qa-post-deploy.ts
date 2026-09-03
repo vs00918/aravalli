@@ -12,6 +12,7 @@ import {
   getCategoryExamRank,
   getPriorityTierRank
 } from '../lib/banking-ca/category-order';
+import { resolveCanonicalSlug } from '../lib/banking-ca/canonical-deduplication';
 
 function runPostDeployQaTests() {
   console.log('────────────────────────────────────────────────────────');
@@ -420,7 +421,7 @@ function runPostDeployQaTests() {
     // TEST H: All canonical topics remain accounted for exactly once (at least 581 topics)
     let totalStreamTopics = 0;
     const seenTopicIds = new Set<string>();
-    for (const [month, topicIds] of Object.entries(registry.indexes.byYearMonth)) {
+    for (const [month, topicIds] of Object.entries(registry.indexes.byMonth)) {
       for (const id of topicIds) {
         assert.ok(!seenTopicIds.has(id), `Test H: Topic ${id} must not appear more than once`);
         seenTopicIds.add(id);
@@ -1046,7 +1047,8 @@ function runPostDeployQaTests() {
     // Invariant 2: Survivor slugs exist in registry, retired slugs are cleanly removed
     for (const audit of w105Data.migrationAudit) {
       const cleanSlug = audit.survivorSlug.replace(/-3-min$/, '');
-      const survivor = reg.topics[audit.survivorSlug] || reg.topics[cleanSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.survivorSlug || t.slug === cleanSlug || t.id === audit.survivorSlug || t.id === cleanSlug);
+      const canonicalSlug = resolveCanonicalSlug(cleanSlug);
+      const survivor = reg.topics[audit.survivorSlug] || reg.topics[cleanSlug] || reg.topics[canonicalSlug] || reg.topics[`ca-${canonicalSlug}`] || Object.values(reg.topics).find((t: any) => t.slug === audit.survivorSlug || t.slug === cleanSlug || t.slug === canonicalSlug || t.id === audit.survivorSlug || t.id === cleanSlug || t.id === `ca-${canonicalSlug}`);
       const retired = reg.topics[audit.retiredSlug] || Object.values(reg.topics).find((t: any) => t.slug === audit.retiredSlug || t.id === audit.retiredSlug);
 
       assert.ok(survivor, `Survivor topic '${audit.survivorSlug}' must exist in registry`);

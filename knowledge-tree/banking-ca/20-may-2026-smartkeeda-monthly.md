@@ -22,26 +22,34 @@
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India unveiled the draft "Reserve Bank of India (Capital Adequacy) Amendment Directions, 2026" and standardized reporting templates to align domestic banking disclosures with the revised **Basel Pillar 3 Market Discipline framework** issued by the Basel Committee on Banking Supervision (BCBS).
+* **Pillar 3 Disclosure Modernisation → Alignment with BCBS:**
+  * RBI unveiled the draft "Reserve Bank of India (Capital Adequacy) Amendment Directions, 2026".
+  * Introduces standardized reporting templates aligning domestic banking disclosures with the revised **Basel Pillar 3 Market Discipline framework**.
 
 #### Know / Understand
-- **Objective of Pillar 3 Upgrades**: To enhance transparency, prevent regulatory arbitrage, and provide standardized, comparable data to depositors, market participants, and rating agencies regarding bank capital buffers, credit risk models, counterparty credit risk, and liquidity ratios.
-- **Key Regulatory Thresholds**:
-  - **Minimum Capital to Risk-Weighted Assets Ratio (CRAR)**: Maintained at **9.0%** for commercial banks (11.5% including Capital Conservation Buffer).
-  - **Common Equity Tier 1 (CET-1) Ratio**: Minimum **5.5%**.
-  - **Tier-1 Capital Ratio**: Minimum **7.0%**.
-  - **Capital Conservation Buffer (CCB)**: **2.50%** comprised entirely of CET-1.
-  - **Countercyclical Capital Buffer (CCyB)**: Maintained at **0%** for May 2026.
+* **Pillar 3 Purpose & Baseline Capital Ratios:**
+  * **Objective:** Enhances market transparency, prevents regulatory arbitrage, and standardizes capital buffer data for rating agencies and depositors.
+  * **Capital Requirements Ladder:**
+    * **Minimum CRAR:** Maintained at **9.0%** (11.5% with Capital Conservation Buffer).
+    * **Common Equity Tier 1 (CET-1):** Minimum **5.5%**.
+    * **Tier-1 Capital Ratio:** Minimum **7.0%**.
+    * **Capital Conservation Buffer (CCB):** **2.50%** (comprising CET-1).
+    * **Countercyclical Capital Buffer (CCyB):** Maintained at **0%** for May 2026.
 
 #### Must Memorize
-- **Pillar 3 Scope**: Mandatory quarterly/half-yearly qualitative and quantitative disclosure templates for all scheduled commercial banks (excluding RRBs and Small Finance Banks).
-- **Key Ratios Under Pillar 3**: Liquidity Coverage Ratio (LCR >= 100%), Net Stable Funding Ratio (NSFR >= 100%), Leverage Ratio (minimum 4.0% for D-SIBs, 3.5% for other banks).
+* **Reporting Architecture → Ratios & Disclosure Schedules:**
+  * **Scope:** Mandatory quarterly/half-yearly qualitative and quantitative disclosure templates for all SCBs (excluding RRBs and SFBs).
+  * **Key Regulatory Ratios Ladder:**
+    * **Liquidity Coverage Ratio (LCR):** $ge mathbf{100%}$
+    * **Net Stable Funding Ratio (NSFR):** $ge mathbf{100%}$
+    * **Leverage Ratio:** Minimum **4.0% for D-SIBs** $mid$ **3.5% for other banks**.
+  * 🎯 **Recap:** *CRAR: 9.0% (11.5% with CCB) $mid$ CET-1: 5.5% $mid$ Leverage: 3.5% (D-SIBs 4.0%) $mid$ LCR/NSFR $ge 100%$.*
 
 #### Exam Focus
-- Minimum CRAR requirement: 9.0% (11.5% with CCB).
-- CET-1 minimum: 5.5%.
-- Current CCyB rate: 0%.
-- Minimum Leverage Ratio: 3.5% (4.0% for Domestic Systemically Important Banks - D-SIBs).
+* Minimum CRAR requirement: **9.0%** (11.5% with CCB).
+* CET-1 minimum: **5.5%**.
+* Current CCyB rate: **0%**.
+* Minimum Leverage Ratio: **3.5%** (4.0% for Domestic Systemically Important Banks - D-SIBs).
 
 ---
 
@@ -55,31 +63,31 @@ The Reserve Bank of India unveiled the draft "Reserve Bank of India (Capital Ade
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-The Union Cabinet, chaired by Prime Minister Narendra Modi, approved the rollout of **Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0)** with dedicated allocations for green MSME transitions, export-oriented units, and critical manufacturing clusters, while the Ministry of Finance marked the **11th Anniversary** of the three flagship **Jan Suraksha Schemes** (PMSBY, PMJJBY, and APY).
+* **Credit Guarantee & Social Security Milestones → 11th Anniversary:**
+  * Cabinet approved rollout of **ECLGS 5.0** for green MSME transitions and export clusters.
+  * Ministry of Finance commemorated the **11th Anniversary** of three flagship Jan Suraksha Schemes (PMJJBY, PMSBY, APY).
 
 #### Know / Understand
-- **ECLGS 5.0 Architecture**: Administered through National Credit Guarantee Trustee Company (NCGTC), providing **100% guarantee coverage** to Member Lending Institutions (MLIs) including Scheduled Commercial Banks, NBFCs, and Financial Institutions.
-- **Jan Suraksha Schemes Summary**:
-  - **Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)**: Life insurance cover of **₹2 lakh** for natural/accidental death for age group **18–50 years** at an annual premium of **₹436**.
-  - **Pradhan Mantri Suraksha Bima Yojana (PMSBY)**: Accidental death/disability cover of **₹2 lakh** (₹1 lakh for partial disability) for age group **18–70 years** at an annual premium of **₹20**.
-  - **Atal Pension Yojana (APY)**: Guaranteed monthly pension of **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** from age 60 for subscribers joining between **18–40 years**, administered by PFRDA.
+* **ECLGS 5.0 Architecture & Delivery Mechanism:**
+  * Administered via National Credit Guarantee Trustee Company (**NCGTC**).
+  * Provides **100% guarantee coverage** to Member Lending Institutions (MLIs: SCBs, NBFCs, FIs).
 
 #### Must Memorize
-- **Jan Suraksha Scheme Parameters**:
-  - **PMJJBY Premium**: **₹436/year** | Age: **18–50 yrs** | Cover: **₹2 Lakh**.
-  - **PMSBY Premium**: **₹20/year** | Age: **18–70 yrs** | Cover: **₹2 Lakh** (Accidental).
-  - **APY Entry Age**: **18–40 yrs** | Pension: **₹1,000 to ₹5,000/month** at age 60.
-  - **APY Tax Payer Rule**: Income tax payers barred from joining APY since October 1, 2022.
-- **Cumulative Enrolment Figures (as of May 2026)**:
-  - **PMSBY**: Over **45.8 crore** enrolments.
-  - **PMJJBY**: Over **20.4 crore** enrolments.
-  - **APY**: Over **6.75 crore** subscribers.
+* **Jan Suraksha Schemes Parameter Ladder:**
+  * **PMJJBY (Life Insurance):** **₹436 / year** premium $mid$ Age: **18–50 years** $mid$ Cover: **₹2 Lakh** (natural/accidental death).
+  * **PMSBY (Accident Insurance):** **₹20 / year** premium $mid$ Age: **18–70 years** $mid$ Cover: **₹2 Lakh** (₹1L partial disability).
+  * **APY (Guaranteed Pension):** Entry Age: **18–40 years** $mid$ Pension: **₹1,000 to ₹5,000 / month** at age 60 $mid$ Taxpayers barred since Oct 2022.
+* **Cumulative Enrolments (May 2026):**
+  * **PMSBY:** Over **45.8 Crore** enrolments
+  * **PMJJBY:** Over **20.4 Crore** enrolments
+  * **APY:** Over **6.75 Crore** subscribers
+  * 🎯 **Recap:** *PMJJBY: ₹436 (18-50 yrs, ₹2L) $mid$ PMSBY: ₹20 (18-70 yrs, ₹2L) $mid$ APY: 18-40 yrs (₹1k-5k/mo) $mid$ Administered by NCGTC/PFRDA.*
 
 #### Exam Focus
-- PMJJBY: ₹436/year, 18-50 age limit, ₹2 lakh life cover.
-- PMSBY: ₹20/year, 18-70 age limit, ₹2 lakh accidental cover.
-- APY: 18-40 entry age, 60 maturity age, ₹1,000-₹5,000 slab.
-- Administering agency for ECLGS: NCGTC.
+* PMJJBY: ₹436/year, 18-50 age limit, ₹2 lakh life cover.
+* PMSBY: ₹20/year, 18-70 age limit, ₹2 lakh accidental cover.
+* APY: 18-40 entry age, 60 maturity age, ₹1,000-₹5,000 slab.
+* Administering agency for ECLGS: NCGTC.
 
 ---
 
@@ -93,25 +101,28 @@ The Union Cabinet, chaired by Prime Minister Narendra Modi, approved the rollout
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-The Union Ministry of Health & Family Welfare (MoHFW) released the National Health Accounts (NHA) Estimates for India, showing a historic reduction in **Out-of-Pocket Expenditure (OOPE)** as a share of Total Health Expenditure (THE) down to **39.4%**, alongside a steady rise in **Government Health Expenditure (GHE)** to **48.0%** of THE.
+* **Healthcare Financing Transformation → Structural Shift in Spending:**
+  * MoHFW released National Health Accounts (NHA) Estimates for India.
+  * **Out-of-Pocket Expenditure (OOPE)** as share of Total Health Expenditure (THE) declined to **39.4%**, while **Government Health Expenditure (GHE)** expanded to **48.0%**.
 
 #### Know / Understand
-- **Transformational Healthcare Financing**: In 2013–14, OOPE accounted for **64.2%** of total health spending, pushing millions of households into medical poverty. The decline to 39.4% reflects the massive footprint of Ayushman Bharat (PM-JAY), PM Ayushman Bharat Health Infrastructure Mission (PM-ABHIM), free essential diagnostics/medicines, and Jan Aushadhi Kendras.
+* In 2013–14, OOPE accounted for **64.2%** of total health expenditure. The drop to 39.4% reflects the footprint of Ayushman Bharat PM-JAY, PM-ABHIM, free diagnostics, and Jan Aushadhi Kendras.
 
 #### Must Memorize
-- **Key Health Financing Indicators**:
-  - **Out-of-Pocket Expenditure (OOPE)**: **39.4%** of THE (down from 64.2% in 2013-14).
-  - **Government Health Expenditure (GHE)**: **48.0%** of THE (up from 28.6% in 2013-14).
-  - **GHE as % of GDP**: **1.84%** (up from 1.15% in 2013-14).
-  - **Total Health Expenditure (THE) as % of GDP**: **3.83%**.
-  - **Social Security Expenditure on Health**: Increased to **9.3%** of THE.
-  - **Per Capita Government Health Expenditure**: Rose to **₹3,167** per year.
+* **NHA Health Financing Indicators Ladder:**
+  * **Out-of-Pocket Expenditure (OOPE):** **39.4% of THE** *(down from 64.2% in 2013-14)*
+  * **Government Health Expenditure (GHE):** **48.0% of THE** *(up from 28.6% in 2013-14)*
+  * **GHE as % of GDP:** **1.84%** *(up from 1.15% in 2013-14)*
+  * **Total Health Expenditure (THE) as % of GDP:** **3.83%**
+  * **Social Security Expenditure on Health:** Rose to **9.3% of THE**
+  * **Per Capita Government Health Spending:** **₹3,167 per year**
+  * 🎯 **Recap:** *OOPE: 39.4% (down from 64.2%) $mid$ GHE: 48.0% of THE $mid$ GHE/GDP: 1.84% $mid$ Per capita govt spend: ₹3,167.*
 
 #### Exam Focus
-- Current OOPE share in Total Health Expenditure: 39.4%.
-- Current Government Health Expenditure share: 48.0%.
-- GHE as percentage of GDP: 1.84%.
-- Primary institutional driver: National Health Systems Resource Centre (NHSRC) / MoHFW.
+* Current OOPE share in Total Health Expenditure: **39.4%**.
+* Current Government Health Expenditure share: **48.0%**.
+* GHE as percentage of GDP: **1.84%**.
+* Primary institutional driver: NHSRC / MoHFW.
 
 ---
 
@@ -125,24 +136,27 @@ The Union Ministry of Health & Family Welfare (MoHFW) released the National Heal
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India issued final comprehensive governance directions for **Urban Co-operative Banks (UCBs)** in Tier 3 & Tier 4 and **State/District Central Co-operative Banks (StCBs/DCCBs)**, establishing strict professional qualification criteria for board members, capping MD & CEO tenures at 15 years, and mandating dedicated board committees.
+* **Co-operative Banking Governance Overhaul → Commercial Banking Standards:**
+  * RBI issued final governance directions for **Tier 3 & Tier 4 UCBs** and **State/District Central Co-operative Banks (StCBs/DCCBs)**.
+  * Enforces professional board qualifications, tenure caps, and mandatory independent board committees.
 
 #### Know / Understand
-- **Objective of Co-operative Governance Overhaul**: Co-operative banks have historically faced systemic vulnerabilities due to localized political interference and lack of risk oversight. Following the Banking Regulation (Amendment) Act 2020, RBI is standardizing co-operative governance with commercial banking rigor.
+* Eliminates political interference and risk deficiencies in cooperative banking following the Banking Regulation (Amendment) Act 2020.
 
 #### Must Memorize
-- **Key Governance Mandates**:
-  - **MD & CEO Tenure Cap**: Maximum **15 consecutive or aggregate years** in the same co-operative bank.
-  - **Cooling-Off Period**: Minimum **3 years** before reappointment after completing 15 years.
-  - **Upper Age Limit**: **70 years** for MD, CEO, and Whole-Time Directors.
-  - **Board Qualifications**: Minimum **50% of Board members** must possess specialized professional knowledge in banking, finance, accountancy, law, or IT.
-  - **Mandatory Committees**: Audit Committee of the Board (ACB) and Risk Management Committee of the Board (RMCB) must be headed by independent professionals.
+* **Governance Mandates Ladder:**
+  * **MD & CEO Tenure Cap:** Maximum **15 consecutive or aggregate years** in the same bank.
+  * **Cooling-Off Period:** Minimum **3 years** before reappointment after 15 years.
+  * **Upper Age Limit:** **70 years** for MD, CEO, and Whole-Time Directors.
+  * **Board Qualifications:** At least **50% of Board members** must have professional expertise in banking, finance, law, or IT.
+  * **Board Committees:** Audit Committee (ACB) and Risk Management Committee (RMCB) must be led by independent professionals.
+  * 🎯 **Recap:** *MD/CEO tenure: Max 15 yrs $mid$ Cooling-off: 3 yrs $mid$ Age cap: 70 yrs $mid$ 50% professional board.*
 
 #### Exam Focus
-- Maximum tenure of MD/CEO in UCBs: 15 years.
-- Mandatory cooling-off period: 3 years.
-- Upper age limit for Whole-Time Directors: 70 years.
-- Minimum specialized Board members requirement: 50%.
+* Maximum tenure of MD/CEO in UCBs: **15 years**.
+* Mandatory cooling-off period: **3 years**.
+* Upper age limit for Whole-Time Directors: **70 years**.
+* Minimum specialized Board members requirement: **50%**.
 
 ---
 
@@ -156,30 +170,27 @@ The Reserve Bank of India issued final comprehensive governance directions for *
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-Parliament passed the **Supreme Court (Number of Judges) Amendment Bill, 2026**, increasing the maximum sanctioned judge strength of the Supreme Court of India from **34 (33 judges + CJI) to 39 (38 judges + CJI)** to clear the backlog of constitutional and appellate cases.
+* **Judicial Capacity Expansion → Sanctioned Strength Increased:**
+  * Parliament passed the Supreme Court (Number of Judges) Amendment Bill, 2026.
+  * Sanctioned strength increased from **34 (33 judges + CJI) to 39 (38 judges + CJI)** to address case backlogs.
 
 #### Know / Understand
-- **Constitutional Basis**: Under **Article 124(1)** of the Constitution of India, the power to increase the number of Supreme Court judges vests exclusively with Parliament through legislative enactment.
-- **Historical Evolution of Supreme Court Strength**:
-  - 1950 (Original Constitution): **8 Judges** (7 Judges + CJI).
-  - 1956: Raised to **11 Judges**.
-  - 1960: Raised to **14 Judges**.
-  - 1977: Raised to **18 Judges**.
-  - 1986: Raised to **26 Judges**.
-  - 2009: Raised to **31 Judges**.
-  - 2019: Raised to **34 Judges**.
-  - **2026 (Current Amendment)**: Raised to **39 Judges** (38 Judges + 1 CJI).
+* Under **Article 124(1)** of the Constitution of India, parliamentary legislation is required to alter Supreme Court judge strength.
 
 #### Must Memorize
-- **Sanctioned Strength**: **39 Judges** (38 Puisne Judges + 1 Chief Justice of India).
-- **Previous Strength**: **34 Judges** (established under the 2019 Amendment).
-- **Relevant Constitutional Article**: **Article 124(1)**.
-- **Retirement Age**: Supreme Court Judges retire at age **65 years** (High Court judges retire at 62 years).
+* **Supreme Court Strength Evolution Ladder:**
+  * **1950 (Original Constitution):** **8 Judges** (7 + CJI)
+  * **1956:** 11 Judges $	o$ **1960:** 14 Judges $	o$ **1977:** 18 Judges $	o$ **1986:** 26 Judges
+  * **2009:** 31 Judges $	o$ **2019:** 34 Judges $	o$ **2026 (Current):** **39 Judges (38 + CJI)**
+* **Constitutional & Service Rules:**
+  * **Article:** **Article 124(1)**
+  * **Retirement Age:** **65 years** for Supreme Court Judges *(vs 62 years for High Court Judges)*.
+  * 🎯 **Recap:** *Sanctioned strength: 39 judges (38 + CJI) $mid$ Article 124(1) $mid$ Retirement age: 65 years.*
 
 #### Exam Focus
-- New sanctioned strength of Supreme Court: 39 judges.
-- Constitutional authority: Parliament under Article 124(1).
-- Retirement age: 65 years.
+* New sanctioned strength of Supreme Court: **39 judges**.
+* Constitutional authority: Parliament under **Article 124(1)**.
+* Retirement age: **65 years**.
 
 ---
 
@@ -193,24 +204,25 @@ Parliament passed the **Supreme Court (Number of Judges) Amendment Bill, 2026**,
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 
 #### What Happened
-The Union Cabinet approved the **"Mission for Cotton Productivity"** with a total financial outlay of **₹3,500 crore** over five years (FY 2026–27 to FY 2030–31) to promote High-Density Planting Systems (HDPS), expand Extra Long Staple (ELS) cotton acreage, and double domestic lint yields.
+* **Agricultural Yield Transformation → High-Density Planting System:**
+  * Union Cabinet approved the **"Mission for Cotton Productivity"** with **₹3,500 Crore outlay** over 5 years (FY27 to FY31).
+  * Aims to promote High-Density Planting Systems (HDPS), Extra Long Staple (ELS) cotton, and elevate national yields.
 
 #### Know / Understand
-- **Strategic Agricultural Priority**: India has the largest cotton cultivation area globally (~125 lakh hectares) but ranks low in productivity (~450 kg lint/ha vs world average of 780 kg/ha). The mission aims to elevate national yield to **750 kg/ha** through mechanized harvesting, micro-irrigation, and bollworm-resistant seed varieties.
+* India has the world's largest cotton acreage (~125 lakh ha) but low yields (~450 kg lint/ha vs 780 kg/ha global avg). Mission targets **750 kg/ha**.
 
 #### Must Memorize
-- **Mission for Cotton Productivity Parameters**:
-  - **Total Financial Outlay**: **₹3,500 crore**.
-  - **Implementation Period**: **5 Years** (FY 2026–27 to FY 2030–31).
-  - **Yield Target**: **750 kg lint/hectare** by 2030–31.
-  - **HDPS Coverage Target**: **15 lakh hectares**.
-- **Surface Coal Gasification (SCG) Scheme**:
-  - Approved financial incentive of **₹8,500 crore** for coal gasification projects by Coal India Limited (CIL) and private entities to achieve 100 MT coal gasification by 2030.
+* **Cotton Mission & Coal Gasification Parameters Ladder:**
+  * **Cotton Mission Outlay:** **₹3,500 Crore** over **5 Years** (FY27 to FY31).
+  * **Yield Target:** **750 kg lint / hectare** by 2030–31.
+  * **HDPS Coverage Target:** **15 Lakh hectares**.
+  * **Surface Coal Gasification (SCG) Scheme:** Approved **₹8,500 Crore** financial incentive for CIL and private entities to reach **100 MT gasification by 2030**.
+  * 🎯 **Recap:** *Cotton Mission: ₹3,500 Cr (750 kg/ha target, 15L ha HDPS) $mid$ Coal Gasification: ₹8,500 Cr (100 MT by 2030).*
 
 #### Exam Focus
-- Cotton Mission Outlay: ₹3,500 crore.
-- Target Cotton Yield: 750 kg lint/hectare.
-- Coal Gasification target: 100 MT by 2030.
+* Cotton Mission Outlay: **₹3,500 crore**.
+* Target Cotton Yield: **750 kg lint/hectare**.
+* Coal Gasification target: **100 MT by 2030** (₹8,500 Cr incentive).
 
 ---
 
@@ -222,10 +234,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-18`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: RBI appointed Gunveer Singh as Executive Director (ED) with effect from May 18, 2026.
+- **What Happened**: Appointed Gunveer Singh as Executive Director (ED) w.e.f. May 18, 2026.
 - **Key Facts**:
-  - He will oversee the Department of Supervision (Risk, Analytics and Supervisory Strategy) and Financial Stability Unit.
-  - Prior to promotion, he served as Chief General Manager in the Department of Banking Supervision.
+  * Oversees Department of Supervision (Risk, Analytics and Supervisory Strategy) and Financial Stability Unit.
+  * Prior role: Chief General Manager in Department of Banking Supervision.
+  * 🎯 **Recap:** *Gunveer Singh appointed RBI Executive Director (Supervision & Financial Stability).*
 
 ### 8. Index of Eight Core Industries (ICI) Grows 1.7% in April 2026
 - **Category**: `MACRO_ECONOMY`
@@ -233,11 +246,12 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The Office of the Economic Adviser, DPIIT, reported that the combined Index of Eight Core Industries (ICI) increased by **1.7%** in April 2026 compared to April 2025.
+- **What Happened**: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY.
 - **Key Facts**:
-  - **Weight of 8 Core Industries in IIP**: **40.27%**.
-  - **Sectoral Weights**: Petroleum Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).
-  - Fastest growing sector: Coal (+7.8%) and Electricity (+6.4%).
+  * **Weight of 8 Core Industries in IIP:** **40.27%**.
+  * **Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).
+  * Top growth: Coal (+7.8%) and Electricity (+6.4%).
+  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ IIP weight: 40.27% $mid$ Top weight: Refinery (28.04%).*
 
 ### 9. Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City
 - **Category**: `BANKING_REGULATION`
@@ -245,10 +259,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-20`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Public sector lender Central Bank of India operationalised its dedicated IFSC Banking Unit (IBU) at GIFT SEZ in Gandhinagar, Gujarat.
+- **What Happened**: Operationalised dedicated IFSC Banking Unit (IBU) at GIFT SEZ in Gandhinagar, Gujarat.
 - **Key Facts**:
-  - Regulated by International Financial Services Centres Authority (IFSCA).
-  - The IBU enables Central Bank of India to provide external commercial borrowings (ECBs), trade finance, foreign currency deposits, and cross-border syndication loans.
+  * Regulated by International Financial Services Centres Authority (IFSCA).
+  * Provides ECBs, trade finance, foreign currency deposits, and cross-border syndications.
+  * 🎯 **Recap:** *Central Bank of India opened IBU at GIFT City under IFSCA.*
 
 ### 10. Greece's Eurobank Opens Mumbai Representative Office (1st Greek Bank in India)
 - **Category**: `BANKING_REGULATION`
@@ -256,10 +271,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-21`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Eurobank, one of Greece's four systemic banking groups, inaugurated its representative office in Mumbai, becoming the **first Greek bank** to establish a formal operational presence in India.
+- **What Happened**: Eurobank opened Mumbai representative office, becoming **1st Greek bank in India**.
 - **Key Facts**:
-  - Focuses on the India-Middle East-Europe Economic Corridor (IMEC) trade flows, maritime finance, and bilateral cross-border remittances.
-  - Headquartered in Athens, Greece; CEO: Fokion Karavias.
+  * Focuses on IMEC trade corridor, maritime finance, and bilateral remittances.
+  * HQ: Athens, Greece; CEO: Fokion Karavias.
+  * 🎯 **Recap:** *Eurobank: 1st Greek bank in India (Mumbai office) $mid$ IMEC & maritime focus.*
 
 ### 11. Karnataka Grameena Bank Wins National Award from PFRDA for APY Excellence
 - **Category**: `PENSION_SYSTEMS`
@@ -267,10 +283,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-25`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Karnataka Grameena Bank (KGB), sponsored by Canara Bank, was conferred the "National Award of Excellence" by the Pension Fund Regulatory and Development Authority (PFRDA) for outstanding enrolment and operational performance under Atal Pension Yojana (APY).
+- **What Happened**: KGB (sponsored by Canara Bank) received PFRDA "National Award of Excellence" for APY enrolment.
 - **Key Facts**:
-  - KGB achieved the highest per-branch average enrolment among all Regional Rural Banks (RRBs) in the southern region.
-  - KGB HQ: Ballari, Karnataka; Chairman: Shreekant M. Bhandiwad.
+  * Achieved highest per-branch average enrolment among southern RRBs.
+  * HQ: Ballari, Karnataka; Chairman: Shreekant M. Bhandiwad.
+  * 🎯 **Recap:** *Karnataka Grameena Bank won PFRDA National Award for APY excellence.*
 
 ### 12. Cross-Border Fintech Skydo Receives RBI In-Principle Approval for PA-CB License
 - **Category**: `DIGITAL_PAYMENTS`
@@ -278,10 +295,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-23`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Bengaluru-based cross-border payments platform Skydo received in-principle approval from the Reserve Bank of India to operate as a Payment Aggregator - Cross Border (PA-CB) for export and import trade transactions.
+- **What Happened**: Skydo received RBI in-principle approval for Payment Aggregator - Cross Border (PA-CB) license.
 - **Key Facts**:
-  - PA-CB regulations introduced in October 2023 require net worth of ₹15 crore at application and ₹25 crore within 3 years.
-  - Facilitates seamless B2B export remittances for Indian SME exporters and IT service providers.
+  * Net worth rules: ₹15 Crore at application $	o$ ₹25 Crore within 3 years.
+  * Facilitates B2B export remittances for Indian SME exporters and IT firms.
+  * 🎯 **Recap:** *Skydo received RBI PA-CB in-principle license for cross-border B2B payments.*
 
 ### 13. Elias George Appointed Chairperson of Federal Bank Board
 - **Category**: `APPOINTMENTS`
@@ -289,10 +307,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-26`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Federal Bank Ltd appointed retired IAS officer Elias George as the Chairperson of the Board of Directors, approved by RBI for a period of 3 years.
+- **What Happened**: Appointed retired IAS Elias George as Chairperson for 3-year term.
 - **Key Facts**:
-  - Former Managing Director of Kochi Metro Rail Limited (KMRL).
-  - Federal Bank HQ: Aluva, Kochi, Kerala; Tagline: "Your Perfect Banking Partner".
+  * Former MD of Kochi Metro Rail Limited (KMRL).
+  * Federal Bank HQ: Aluva, Kochi, Kerala; Tagline: "Your Perfect Banking Partner".
+  * 🎯 **Recap:** *Elias George appointed Chairperson of Federal Bank (3-year term).*
 
 ### 14. LIC Introduces 2 New Term Insurance Products: 'New Jeevan Amar' & 'Digi Term'
 - **Category**: `INSURANCE_SECTOR`
@@ -300,11 +319,12 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-28`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Life Insurance Corporation of India (LIC) launched two non-linked, non-participating pure risk term insurance plans: "New Jeevan Amar" (offline distribution) and "Digi Term" (exclusive online portal).
+- **What Happened**: LIC launched two non-linked pure risk term plans: "New Jeevan Amar" (offline) and "Digi Term" (online).
 - **Key Facts**:
-  - Entry Age: Minimum 18 years, Maximum 65 years; Maturity Age: Up to 80 years.
-  - Minimum Sum Assured: ₹25 lakh for New Jeevan Amar, ₹50 lakh for Digi Term.
-  - Special lower premium rates for non-smokers and women policyholders.
+  * Entry Age: 18–65 years $mid$ Maturity Age: Up to 80 years.
+  * Min Sum Assured: ₹25L (New Jeevan Amar) $mid$ ₹50L (Digi Term).
+  * Lower premium rates for non-smokers and women.
+  * 🎯 **Recap:** *LIC term plans: New Jeevan Amar (₹25L min) & Digi Term (₹50L min online).*
 
 ### 15. Development Bank of Japan (DBJ) Makes Maiden ₹1,250 Crore Real Estate Investment in India
 - **Category**: `MACRO_ECONOMY`
@@ -312,10 +332,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-29`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Japan's state-owned Development Bank of Japan Inc. (DBJ) made its first-ever direct real estate investment in India, committing ₹1,250 crore ($150 million) to Grade-A warehousing and industrial logistics parks.
+- **What Happened**: Japan's state-owned DBJ committed ₹1,250 Crore ($150M) to Indian Grade-A logistics parks.
 - **Key Facts**:
-  - Partnered with IndoSpace logistics platform.
-  - Reflects accelerating Japanese institutional investment under the India-Japan Special Strategic and Global Partnership.
+  * Partnered with IndoSpace logistics platform under India-Japan Strategic Partnership.
+  * 🎯 **Recap:** *Development Bank of Japan invested ₹1,250 Cr ($150M) in IndoSpace logistics.*
 
 ### 16. Government Formally Notifies Viksit Bharat Rozgar & Ajeevika (VB-GRA) Rules 2026
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -323,10 +343,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-09`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Ministry of Rural Development and Ministry of Labour formally notified the implementation rules for the "Viksit Bharat - Guarantee for Rozgar and Ajeevika (VB-GRA) Framework 2026".
+- **What Happened**: Notified implementation rules for VB-GRA Framework 2026.
 - **Key Facts**:
-  - Enhances rural wage employment framework with mandatory biometric ABPS (Aadhaar-Based Payment System) wage disbursement within 7 days.
-  - Integrates drone-based spatial asset mapping and climate-resilient water conservation works.
+  * Mandates biometric ABPS wage disbursement within 7 days.
+  * Integrates drone-based spatial asset mapping for rural works.
+  * 🎯 **Recap:** *VB-GRA rules: 7-day ABPS wage payment + drone asset mapping.*
 
 ### 17. MoSPI Releases 27th Issue of 'Women and Men in India 2025' Report
 - **Category**: `REPORTS_AND_INDICES`
@@ -334,11 +355,12 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-04`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: MoSPI released the 27th issue of its annual publication "Women and Men in India 2025", capturing gender statistics across education, health, workforce participation, and decision-making.
+- **What Happened**: Released 27th issue of "Women and Men in India 2025".
 - **Key Facts**:
-  - **Female Labour Force Participation Rate (FLFPR)**: Rose to **41.7%** in 2023–24 (usual status) up from 23.3% in 2017–18.
-  - **Sex Ratio at Birth (SRB)**: Improved to **910** females per 1,000 males (SRS).
-  - **Maternal Mortality Ratio (MMR)**: Declined to **97** per 100,000 live births (surpassing SDG target of 70 in multiple states).
+  * **Female LFPR:** Rose to **41.7%** in 2023–24 (up from 23.3% in 2017–18).
+  * **Sex Ratio at Birth (SRB):** **910** females per 1,000 males.
+  * **MMR:** Declined to **97** per 100,000 live births.
+  * 🎯 **Recap:** *Female LFPR: 41.7% $mid$ Sex ratio at birth: 910 $mid$ MMR: 97 per 1L.*
 
 ### 18. ASUSE 2023–24 Survey Highlights: Informal Sector Employs 11.2 Crore Workers
 - **Category**: `REPORTS_AND_INDICES`
@@ -346,11 +368,12 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-11`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The National Sample Survey Office (NSSO), MoSPI, published key findings from the Annual Survey of Unincorporated Sector Enterprises (ASUSE) for 2023–24.
+- **What Happened**: NSSO published ASUSE 2023–24 key findings.
 - **Key Facts**:
-  - Total unincorporated non-agricultural enterprises: **6.50 crore**.
-  - Total workers employed: **11.2 crore** (Trade sector 35%, Services 35%, Manufacturing 30%).
-  - Gross Value Added (GVA) by unincorporated sector: Grew **9.8%** YoY to ₹15.4 lakh crore.
+  * Total unincorporated non-agri enterprises: **6.50 Crore**.
+  * Total workers employed: **11.2 Crore** (Trade 35%, Services 35%, Mfg 30%).
+  * Unincorporated GVA grew **+9.8% YoY** to ₹15.4 Lakh Crore.
+  * 🎯 **Recap:** *ASUSE 2023-24: 6.50 Cr informal enterprises $mid$ 11.2 Cr workers $mid$ ₹15.4L Cr GVA.*
 
 ### 19. US USTR Releases Special 301 Report: India Retained on 'Priority Watch List'
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -358,10 +381,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-05`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The United States Trade Representative (USTR) released its annual "Special 301 Report" on Intellectual Property (IP) protection, placing India on the "Priority Watch List" alongside 5 other countries (China, Russia, Indonesia, Chile, Argentina).
+- **What Happened**: USTR retained India on "Priority Watch List" alongside 5 nations (China, Russia, Indonesia, Chile, Argentina).
 - **Key Facts**:
-  - USTR cited concerns over patent opposition hurdles, copyright enforcement, and trade secret protections.
-  - India rejected the unilateral report, affirming its full compliance with WTO TRIPS agreement.
+  * Cited patent opposition and trade secret concerns; India affirmed full WTO TRIPS compliance.
+  * 🎯 **Recap:** *USTR Special 301: India on Priority Watch List $mid$ India reaffirmed WTO compliance.*
 
 ### 20. Sunday Times Rich List 2026: Hinduja Group Retains Top Spot for 6th Consecutive Year
 - **Category**: `REPORTS_AND_INDICES`
@@ -369,10 +392,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-17`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The 38th edition of the "Sunday Times Rich List 2026" ranked the Anglo-Indian Hinduja family as the wealthiest in the United Kingdom with an estimated net worth of **£37.2 billion** (approx. ₹3.95 lakh crore).
+- **What Happened**: Hinduja family ranked UK's wealthiest with net worth of **£37.2 Billion** (~₹3.95 Lakh Crore).
 - **Key Facts**:
-  - Gopi Hinduja and family retained the #1 ranking for the 6th consecutive year.
-  - The Hinduja Group operates across banking (IndusInd Bank), automotive (Ashok Leyland), lubricants (Gulf Oil), and energy.
+  * Gopi Hinduja and family #1 for 6th consecutive year.
+  * 🎯 **Recap:** *Hinduja family #1 in UK Rich List (£37.2B) for 6th consecutive year.*
 
 ### 21. UN Global Forest Goals Report 2026: India Ranks 3rd Globally in Net Forest Area Gain
 - **Category**: `REPORTS_AND_INDICES`
@@ -380,10 +403,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-13`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The United Nations Forum on Forests (UNFF) published the "Global Forest Goals Report 2026", highlighting that India ranked **3rd globally** in average annual net gain in forest area over the past decade (behind China and Australia).
+- **What Happened**: UNFF report ranked India **3rd globally** in annual net forest gain (behind China and Australia).
 - **Key Facts**:
-  - India expanded forest cover by an average of **2.66 lakh hectares per year**.
-  - Forest and tree cover constitutes **24.62%** of India's total geographical area (ISFR).
+  * Average net gain: **2.66 Lakh hectares per year**.
+  * Total forest/tree cover: **24.62%** of geographical area.
+  * 🎯 **Recap:** *India #3 globally in forest gain (2.66L ha/yr) $mid$ Forest cover: 24.62%.*
 
 ### 22. DGCA Releases Flying Training Organisations (FTOs) Phase 2 Rankings: Avyanna Aviation Ranked Category A
 - **Category**: `NATIONAL_AND_STATES`
@@ -391,10 +415,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-02`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Directorate General of Civil Aviation (DGCA), Ministry of Civil Aviation, released the 2nd phase rankings for Flying Training Organisations (FTOs), with Avyanna Aviation Pvt Ltd emerging as the sole flying institute in India to achieve the elite **Category 'A'** rating.
+- **What Happened**: Avyanna Aviation emerged as sole flying institute achieving **Category 'A'** rating.
 - **Key Facts**:
-  - Rankings assess safety, instructional standards, aircraft fleet serviceability, and simulator hours.
-  - Indira Gandhi Rashtriya Udan Akademi (IGRUA) at Amethi, UP, ranked in Category B+.
+  * IGRUA (Amethi, UP) ranked Category B+.
+  * 🎯 **Recap:** *Avyanna Aviation: Only Category 'A' institute in DGCA FTO rankings.*
 
 ### 23. IIT Roorkee Publishes SVAMITVA Scheme Impact Assessment: 1.45 Crore Property Cards Distributed
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -402,11 +426,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-07`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: The Ministry of Panchayati Raj released an independent impact assessment of the SVAMITVA scheme conducted by IIT Roorkee on National Panchayati Raj Day.
+- **What Happened**: Ministry of Panchayati Raj released IIT Roorkee's SVAMITVA assessment.
 - **Key Facts**:
-  - SVAMITVA (Survey of Villages and Mapping with Improvised Technology in Village Areas) uses drone mapping.
-  - Over **1.45 crore property cards (SVAMITVA cards)** distributed across 1.15 lakh villages.
-  - Property card holders leveraged rural land collateral to secure **₹2,800 crore in bank credit**.
+  * **1.45 Crore property cards** distributed across 1.15 lakh villages.
+  * Cardholders unlocked **₹2,800 Crore in bank credit**.
+  * 🎯 **Recap:** *SVAMITVA assessment: 1.45 Cr cards distributed $mid$ ₹2,800 Cr bank credit mobilized.*
 
 ### 24. Ministry of Mines Completes ₹1,500 Crore Critical Mineral Processing Incentive Assessment
 - **Category**: `MACRO_ECONOMY`
@@ -414,10 +438,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-08`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Ministry of Mines approved the first batch of beneficiaries under the ₹1,500 crore "Incentive Scheme for Promotion of Critical and Strategic Mineral Processing".
+- **What Happened**: Approved 1st batch of beneficiaries under ₹1,500 Crore Critical Mineral Processing Scheme.
 - **Key Facts**:
-  - Supports domestic processing of Lithium, Cobalt, Nickel, Rare Earth Elements (REEs), and Titanium.
-  - Financial assistance of up to **20% of capital expenditure (CapEx)** for setting up advanced refining plants.
+  * Supports Lithium, Cobalt, Nickel, REEs, Titanium.
+  * CapEx subsidy of **up to 20%** for advanced refining plants.
+  * 🎯 **Recap:** *Critical minerals: ₹1,500 Cr scheme with up to 20% CapEx subsidy.*
 
 ### 25. Punjab Government Launches 'CM Meri Rasoi Yojna' (₹10 Subsidized Meals)
 - **Category**: `NATIONAL_AND_STATES`
@@ -425,9 +450,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-14`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Punjab Chief Minister Bhagwant Mann inaugurated the "CM Meri Rasoi Yojna" from Bhalwan village in Sangrur district, providing nutritious cooked meals at a subsidized rate of **₹10 per thali** to industrial workers and vulnerable citizens.
+- **What Happened**: CM Bhagwant Mann inaugurated scheme providing **₹10 subsidized thalis**.
 - **Key Facts**:
-  - Target: 100 subsidized kitchens established across all municipal corporations in Punjab.
+  * Target: 100 subsidized kitchens across all Punjab municipal corporations.
+  * 🎯 **Recap:** *Punjab CM Meri Rasoi: ₹10 subsidized meal across 100 municipal kitchens.*
 
 ### 26. Taiwan Briefly Overtakes India as 5th Largest Stock Market by Market Capitalization
 - **Category**: `CAPITAL_MARKETS`
@@ -435,10 +461,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-05-27`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
-- **What Happened**: Driven by a global surge in semiconductor and AI hardware stocks (led by TSMC and Hon Hai Precision/Foxconn), Taiwan's stock market capitalization reached **$5.12 trillion**, briefly overtaking India ($5.08 trillion) as the **5th largest equity market** globally before market parity was restored.
+- **What Happened**: Driven by AI/semiconductor surge, Taiwan ($5.12T) briefly overtook India ($5.08T) as #5 market.
 - **Key Facts**:
-  - Top 4 Stock Markets: US ($58T), China ($9.5T), Japan ($6.8T), Hong Kong ($5.4T).
-  - India's market cap on BSE crossed the $5 Trillion milestone in May 2026.
+  * Top 4: US ($58T), China ($9.5T), Japan ($6.8T), Hong Kong ($5.4T).
+  * 🎯 **Recap:** *Taiwan briefly #5 stock market ($5.12T) $mid$ Top 4: US, China, Japan, HK.*
 
 ---
 
@@ -450,19 +476,20 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **Justice Surya Kant**: Took oath as the **53rd Chief Justice of India (CJI)** succeeding Justice Sanjiv Khanna.
-  - **Sandeep Bakhshi**: Reappointed as MD & CEO of **ICICI Bank** for a 3-year term (up to October 2029) approved by RBI.
-  - **Ketan Merchant**: Tenure extended as interim CEO of **Kotak Mahindra Bank**.
-  - **Rakesh Sharma**: Appointed Managing Director & CEO of **IDBI Bank**.
-  - **Praveen Mal Khanooja**: Appointed Additional Secretary in the Ministry of Petroleum and Natural Gas.
-  - **Subhashree Ananthan**: Appointed Director (Finance) of **Hindustan Petroleum Corporation Ltd (HPCL)**.
-  - **Arunish Chawla**: Appointed Chairperson of the National Authority for Chemical Weapons Convention (NACWC).
-  - **R. K. Tyagi**: Appointed Chairman and Managing Director (CMD) of **Power Grid Corporation of India Ltd (POWERGRID)**.
-  - **Lawrence Wong**: Sworn in as the **4th Prime Minister of Singapore**, succeeding Lee Hsien Loong.
-  - **Peter Pellegrini**: Sworn in as the **President of Slovakia**.
-  - **Gitanas Nauseda**: Re-elected as the **President of Lithuania** for a second 5-year term.
-  - **Mahamat Idriss Deby**: Elected President of the **Republic of Chad**.
+  - **Justice Surya Kant**: Took oath as **53rd Chief Justice of India (CJI)** succeeding Justice Sanjiv Khanna.
+  - **Sandeep Bakhshi**: Reappointed MD & CEO of **ICICI Bank** for 3-year term (up to Oct 2029).
+  - **Ketan Merchant**: Extended as interim CEO of **Kotak Mahindra Bank**.
+  - **Rakesh Sharma**: Appointed MD & CEO of **IDBI Bank**.
+  - **Praveen Mal Khanooja**: Appointed Additional Secretary in MoPNG.
+  - **Subhashree Ananthan**: Appointed Director (Finance) of **HPCL**.
+  - **Arunish Chawla**: Appointed Chairperson of **NACWC**.
+  - **R. K. Tyagi**: Appointed CMD of **POWERGRID**.
+  - **Lawrence Wong**: Sworn in as **4th Prime Minister of Singapore** (succeeding Lee Hsien Loong).
+  - **Peter Pellegrini**: Sworn in as **President of Slovakia**.
+  - **Gitanas Nauseda**: Re-elected **President of Lithuania** (2nd 5-year term).
+  - **Mahamat Idriss Deby**: Elected President of **Republic of Chad**.
   - **Tamás Sulyok**: Elected President of **Hungary**.
+  - 🎯 **Recap:** *Key appointments: Justice Surya Kant (53rd CJI), Sandeep Bakhshi (ICICI Bank), Lawrence Wong (Singapore PM).*
 
 ### 28. National & International Awards & Honours (May 2026)
 - **Category**: `SPORTS_AND_AWARDS`
@@ -470,10 +497,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **Whitley Gold Award 2026 (Green Oscar)**: Conferred on Indian wildlife biologist **Dr. Purnima Devi Barman** for conservation of the Greater Adjutant Stork (*Hargila Army*).
-  - **World Press Freedom Prize (UNESCO/Guillermo Cano) 2026**: Awarded to Palestinian journalists covering the Gaza conflict.
-  - **Oxford Bookstore Book Cover Prize 2026**: Won by designer **Bhavneet Kaur** for the book cover of *The Book of Everlasting Things*.
-  - **Sangeet Natak Akademi Fellowships (Akademi Ratna)**: President Droupadi Murmu conferred Akademi Ratna on 6 eminent masters (including Bharatnatyam exponent Saroja Vaidyanathan and folk singer Teejan Bai).
+  - **Whitley Gold Award 2026 (Green Oscar)**: Conferred on **Dr. Purnima Devi Barman** for Greater Adjutant Stork (*Hargila Army*) conservation.
+  - **World Press Freedom Prize (UNESCO) 2026**: Awarded to Palestinian journalists covering Gaza.
+  - **Oxford Bookstore Book Cover Prize 2026**: Won by **Bhavneet Kaur** (*The Book of Everlasting Things*).
+  - **Sangeet Natak Akademi Fellowships (Akademi Ratna)**: Conferred on 6 masters (including Saroja Vaidyanathan & Teejan Bai).
+  - 🎯 **Recap:** *Whitley Gold Award: Dr. Purnima Devi Barman $mid$ UNESCO Press Freedom Prize.*
 
 ### 29. Defence & Strategic Security Operations (May 2026)
 - **Category**: `DEFENCE_AND_SCIENCE`
@@ -481,8 +509,9 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **Joint Military Exercise 'Maitree 2026'**: Conducted between Indian Army and Royal Thai Army in Umroi, Meghalaya.
-  - **Exercise 'Desert Knight 2026'**: Multi-nation air exercise between Indian Air Force (IAF), French Air and Space Force, and UAE Air Force over the Arabian Sea.
+  - **Exercise 'Maitree 2026'**: Indian Army & Royal Thai Army at Umroi, Meghalaya.
+  - **Exercise 'Desert Knight 2026'**: IAF, French Air Force & UAE Air Force over Arabian Sea.
+  - 🎯 **Recap:** *Ex Maitree (India-Thailand at Umroi) $mid$ Ex Desert Knight (India-France-UAE).*
 
 ### 30. Science, Space & Technology Milestones (May 2026)
 - **Category**: `DEFENCE_AND_SCIENCE`
@@ -490,9 +519,10 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **ISRO Semi-Cryogenic Pre-Burner Test**: ISRO successfully completed the hot test of the intermediate configuration semi-cryogenic engine (SE-2000) using Isrosene (refined kerosene) and Liquid Oxygen (LOX) at Mahendragiri, Tamil Nadu.
-  - **IBM & IIT Madras Quantum Hub**: IBM operationalised a 127-qubit Quantum System One processor node at IIT Madras Research Park.
-  - **C-DOT & CSIR AI Cyber Shield**: Centre for Development of Telematics launched 'Trishul-AI' automated telecom threat intelligence platform.
+  - **ISRO Semi-Cryogenic Pre-Burner Test**: Hot test of intermediate semi-cryogenic engine (SE-2000) using Isrosene + LOX at Mahendragiri, TN.
+  - **IBM & IIT Madras Quantum Hub**: 127-qubit Quantum System One node operationalised at IIT-M Research Park.
+  - **C-DOT 'Trishul-AI'**: Automated telecom cyber threat intelligence platform launched.
+  - 🎯 **Recap:** *ISRO SE-2000 semi-cryo test $mid$ 127-qubit Quantum Hub at IIT Madras.*
 
 ### 31. Sports & Athletic Championships (May 2026)
 - **Category**: `SPORTS_AND_AWARDS`
@@ -500,12 +530,13 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **F1 Canadian Grand Prix 2026**: Won by Mercedes driver **Kimi Antonelli** (Italy), becoming the 3rd youngest driver in F1 history to win a Grand Prix.
-  - **F1 Monaco Grand Prix 2026**: Won by Ferrari driver **Charles Leclerc** (Monaco).
-  - **FIDE Candidates 2026**: D. Gukesh became the youngest challenger in history to qualify for the World Chess Championship title match.
-  - **BWF Thailand Open 2026**: Satwiksairaj Rankireddy and Chirag Shetty won the Men's Doubles title.
-  - **Madrid Open Tennis 2026**: Andrey Rublev won the Men's Singles; Iga Swiatek won the Women's Singles title.
-  - **ISSF World Cup 2026 (Baku, Azerbaijan)**: India finished 2nd on the medal table with 4 Gold, 3 Silver, and 2 Bronze medals.
+  - **F1 Canadian GP 2026**: Won by Mercedes driver **Kimi Antonelli** (3rd youngest F1 winner in history).
+  - **F1 Monaco GP 2026**: Won by Ferrari driver **Charles Leclerc**.
+  - **FIDE Candidates 2026**: D. Gukesh qualified as youngest challenger for World Championship.
+  - **BWF Thailand Open 2026**: Satwiksairaj Rankireddy & Chirag Shetty won Men's Doubles.
+  - **Madrid Open Tennis 2026**: Andrey Rublev (Men's) and Iga Swiatek (Women's) won titles.
+  - **ISSF World Cup (Baku)**: India finished 2nd with 9 medals (4 Gold, 3 Silver, 2 Bronze).
+  - 🎯 **Recap:** *Kimi Antonelli (Canadian GP) $mid$ Leclerc (Monaco GP) $mid$ Satwik-Chirag (Thailand Open).*
 
 ### 32. Key Global Summits & Environmental News (May 2026)
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -513,12 +544,11 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **UN High-Level Meeting on Global Road Safety**: Held in New York; Theme: "Scaling Up and Accelerating Commitments to Halving Road Traffic Deaths by 2030".
-  - **68th Session of Asian Productivity Organization (APO)**: Governing Body Meeting hosted in New Delhi, India.
-  - **1st International Big Cat Alliance (IBCA) Summit**: Hosted in New Delhi in conjunction with the India-Africa Forum Summit.
-  - **New Species Discovered**:
-    - *Kali Night Frog* (*Nyctibatrachus kali*): Discovered in Kali river basin, Uttara Kannada, Karnataka.
-    - *Trachischium lalremsangai* (new non-venomous snake species): Discovered in Champhai, Mizoram.
+  - **UN Road Safety Meeting**: In New York; halving road traffic deaths by 2030.
+  - **68th APO Session**: Governing Body Meeting in New Delhi.
+  - **1st International Big Cat Alliance (IBCA) Summit**: Hosted in New Delhi.
+  - **New Species**: *Kali Night Frog* (Karnataka) $mid$ *Trachischium lalremsangai* snake (Mizoram).
+  - 🎯 **Recap:** *1st IBCA Summit in New Delhi $mid$ Kali Night Frog (Karnataka) & new snake (Mizoram).*
 
 ### 33. Key Institutional Strategic MoUs (May 2026)
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -526,6 +556,7 @@ The Union Cabinet approved the **"Mission for Cotton Productivity"** with a tota
 - **Date**: `2026-05-31`
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **Master Roster**:
-  - **India & State Bank of Vietnam**: Signed MoU on cross-border payments linking UPI with Vietnam's National Payment Corporation (NAPAS) switch.
-  - **India & European Central Bank (ECB)**: Signed upgraded central banking supervision cooperation pact.
-  - **RBI Innovation Hub (RBIH) & Indian Cyber Crime Coordination Centre (I4C)**: Signed strategic MoU to develop real-time AI mule account prevention network.
+  - **India & State Bank of Vietnam**: Cross-border payments linking UPI with Vietnam's NAPAS switch.
+  - **India & European Central Bank (ECB)**: Banking supervision cooperation agreement.
+  - **RBIH & I4C**: Strategic pact for real-time AI mule account prevention network.
+  - 🎯 **Recap:** *UPI-NAPAS (Vietnam) linkage $mid$ RBIH + I4C AI mule account prevention.*

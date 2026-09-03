@@ -22,28 +22,28 @@
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-The 6-member Monetary Policy Committee (MPC) of the Reserve Bank of India, chaired by Governor Sanjay Malhotra, unanimously decided to keep the policy repo rate unchanged at **5.25%** for the 3rd consecutive bi-monthly review while retaining its monetary policy stance at **'neutral'**.
+* **Monetary Policy Review → Repo Maintained with Neutral Stance:**
+  * 6-member MPC chaired by Governor **Sanjay Malhotra** kept Repo Rate at **5.25%** for the 3rd consecutive review with a **'neutral'** stance.
 
 #### Know / Understand
-- **Inflation Risks vs Growth Balance**: The MPC raised its CPI inflation forecast for FY 2026–27 to **5.1%** (up from 4.6% projected earlier), citing crude oil price volatility and supply disruptions from the prolonged West Asia conflict.
-- **Key Rates Architecture**:
-  - **Policy Repo Rate**: **5.25%**
-  - **Standing Deposit Facility (SDF) Rate**: **5.00%** (25 bps below Repo)
-  - **Marginal Standing Facility (MSF) & Bank Rate**: **5.50%** (25 bps above Repo)
-  - **Fixed Reverse Repo Rate**: **3.35%**
-  - **Cash Reserve Ratio (CRR)**: **3.00%** | **Statutory Liquidity Ratio (SLR)**: **18.00%**
+* Stable headline inflation projections (5.1%) and robust domestic momentum (6.6% GDP) allowed the MPC to maintain interest rate stability while raising inflation forecasts slightly due to West Asia oil volatility.
 
 #### Must Memorize
-- **Macro Projections for FY 2026–27**:
-  - **Real GDP Growth**: **6.6%** for FY 2026–27.
-  - **CPI Inflation**: **5.1%** for FY 2026–27.
-  - **Quarterly Inflation Path**: Q1 at **4.2%**, Q2 at **5.1%**, Q3 at **5.9%**, and Q4 at **5.4%**.
-- **Historical Policy Trajectory**: The MPC had cumulatively slashed the repo rate by 125 bps during 2025 (from 6.50% down to 5.25%) before pausing.
+* **Policy Rates Architecture Ladder:**
+  * **Policy Repo Rate:** **5.25%**
+  * **Standing Deposit Facility (SDF):** **5.00%** (25 bps below Repo)
+  * **Marginal Standing Facility (MSF) & Bank Rate:** **5.50%** (25 bps above Repo)
+  * **Fixed Reverse Repo Rate:** **3.35%**
+  * **CRR:** **3.00%** $mid$ **SLR:** **18.00%**
+* **Macro Projections (FY 2026–27):**
+  * **Real GDP Growth:** **6.6%**
+  * **CPI Inflation:** **5.1%** (Quarterly Path: Q1 **4.2%**, Q2 **5.1%**, Q3 **5.9%**, Q4 **5.4%**)
+  * 🎯 **Recap:** *Repo: 5.25% (Neutral) $mid$ SDF: 5.00% $mid$ MSF: 5.50% $mid$ CRR: 3.00%, SLR: 18.00% $mid$ FY27 GDP: 6.6%, CPI: 5.1%.*
 
 #### Exam Focus
-- Current Policy Rates: Repo 5.25%, SDF 5.00%, MSF 5.50%, CRR 3.00%, SLR 18.00%.
-- FY27 Growth & Inflation Targets: GDP 6.6%, CPI 5.1% (Peak in Q3 at 5.9%).
-- Monetary Policy Stance: Neutral.
+* Current Policy Rates: Repo 5.25%, SDF 5.00%, MSF 5.50%, CRR 3.00%, SLR 18.00%.
+* FY27 Growth & Inflation Targets: GDP 6.6%, CPI 5.1% (Peak in Q3 at 5.9%).
+* Monetary Policy Stance: Neutral.
 
 ---
 
@@ -57,28 +57,25 @@ The 6-member Monetary Policy Committee (MPC) of the Reserve Bank of India, chair
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-The National Statistics Office (NSO), Ministry of Statistics and Programme Implementation (MoSPI), released the Provisional Estimates (PE) of Annual GDP for FY 2025–26 and Q4 FY26, showing the Indian economy grew **7.7% in FY26** (60 bps higher than 7.1% in FY25) under the revised **2022–23 base year series**.
+* **Provisional Annual GDP Estimates → Base Year 2022-23 Series:**
+  * NSO (MoSPI) released Provisional Estimates showing Indian economy grew **7.7% in FY26** (vs 7.1% in FY25).
 
 #### Know / Understand
-- **Base Year Transition Impact**: The new GDP series introduced in February 2026 updated the base year from 2011–12 to **2022–23**, capturing updated structural weights of services, digital transactions, and manufacturing value-add.
+* The updated 2022-23 base year captures modern structural weights of digital commerce, GCCs, renewable energy, and advanced manufacturing value-add.
 
 #### Must Memorize
-- **Annual Macro Aggregates (FY 2025–26)**:
-  - **Real GDP (Constant 2022–23 Prices)**: **₹323.12 lakh crore** (Growth: **7.7%**, vs ₹299.89 lakh cr in FY25).
-  - **Nominal GDP (Current Prices)**: **₹346.36 lakh crore** (Growth: **8.9%**, vs ₹318.07 lakh cr in FY25).
-  - **Real Gross Value Added (GVA)**: **₹294.91 lakh crore** (Growth: **7.9%**, vs ₹273.36 lakh cr in FY25).
-  - **Nominal GVA**: **₹314.87 lakh crore** (Growth: **9.1%**).
-- **Quarterly Estimates (Q4 FY 2025–26)**:
-  - **Q4 Real GDP**: **₹87.77 lakh crore** (Growth: **7.8%** YoY).
-  - **Q4 Nominal GDP**: **₹94.65 lakh crore** (Growth: **9.1%** YoY).
-  - **Q4 Real GVA**: **₹80.18 lakh crore** (Growth: **7.9%** YoY).
-  - **Q4 Nominal GVA**: **₹86.46 lakh crore** (Growth: **9.9%** YoY).
+* **Annual Macro Aggregates (FY 2025–26) Ladder:**
+  * **Real GDP (Constant 2022–23 Prices):** **₹323.12 Lakh Crore** *(Growth: **7.7%**)*
+  * **Nominal GDP (Current Prices):** **₹346.36 Lakh Crore** *(Growth: **8.9%**)*
+  * **Real GVA:** **₹294.91 Lakh Crore** *(Growth: **7.9%**)*
+  * **Q4 FY26 Real GDP Growth:** **7.8% YoY** (Nominal: 9.1%)
+  * 🎯 **Recap:** *FY26 Real GDP: 7.7% (₹323.12L Cr) $mid$ Nominal GDP: ₹346.36L Cr (8.9%) $mid$ Base Year: 2022-23.*
 
 #### Exam Focus
-- FY26 Annual Real GDP Growth: 7.7% (Constant 2022-23 prices).
-- FY26 Nominal GDP Size: ₹346.36 lakh crore ($3.85+ trillion equivalent).
-- New GDP Base Year: 2022–23.
-- Q4 FY26 Real GDP Growth: 7.8%.
+* FY26 Annual Real GDP Growth: 7.7% (Constant 2022-23 prices).
+* FY26 Nominal GDP Size: ₹346.36 lakh crore ($3.85+ trillion equivalent).
+* New GDP Base Year: 2022–23.
+* Q4 FY26 Real GDP Growth: 7.8%.
 
 ---
 
@@ -92,26 +89,26 @@ The National Statistics Office (NSO), Ministry of Statistics and Programme Imple
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-MoSPI published the first press release of the revised All India Index of Industrial Production (IIP) with the new **base year 2022–23=100** (replacing 2011–12), showing Quick Estimates of IIP growing **4.9% in April 2026** (Index at 118.9).
+* **Industrial Production Index Modernisation → 4-Sector Architecture:**
+  * MoSPI published revised IIP series with **Base Year 2022–23=100**; April 2026 IIP grew **4.9%**.
 
 #### Know / Understand
-- **Structural Expansion to 4 Sectors**: The revised series, formulated by the Technical Advisory Committee for Base Year Revision of IIP (TAC-IIP), expanded coverage from 3 to **4 broad sectors** by establishing a dedicated 4th sector: *Water Supply, Sewerage & Waste Management*.
+* Expanded from 3 to **4 broad sectors** by establishing a dedicated 4th sector: *Water Supply, Sewerage & Waste Management*.
 
 #### Must Memorize
-- **New 4-Sector Weighting Structure (Base 2022–23=100)**:
-  1. **Manufacturing**: **76.062% weight** (April growth: 6.2%).
-  2. **Mining & Quarrying**: **11.053% weight** (April growth: -5.1%).
-  3. **Electricity & Gas Supply**: **10.865% weight** (April growth: 4.9%; renamed from 'Electricity').
-  4. **Water Supply, Sewerage & Waste Management**: **2.020% weight** (April growth: 6.6%; newly added sector).
-- **Use-Based Classification Highlights**:
-  - **Capital Goods**: Highest growth at **16.0%**.
-  - Top contributors: Intermediate Goods, Capital Goods, and Infrastructure/Construction Goods.
+* **New 4-Sector IIP Weighting Ladder (Base 2022–23=100):**
+  1. **Manufacturing:** **76.062% weight** *(April: +6.2%)*
+  2. **Mining & Quarrying:** **11.053% weight** *(April: -5.1%)*
+  3. **Electricity & Gas Supply:** **10.865% weight** *(April: +4.9%)*
+  4. **Water Supply, Sewerage & Waste Management:** **2.020% weight** *(April: +6.6%; newly added)*
+* **Top Growing Use-Based Segment:** **Capital Goods** at **+16.0%**.
+  * 🎯 **Recap:** *IIP Base 2022-23=100 $mid$ 4 Sectors: Mfg (76.06%), Mining (11.05%), Power/Gas (10.86%), Water/Waste (2.02%) $mid$ Capital Goods +16%.*
 
 #### Exam Focus
-- New IIP Base Year: 2022–23=100.
-- Total Broad Sectors: 4 Sectors (Newly added: Water Supply, Sewerage & Waste Management - 2.020%).
-- Manufacturing Weight: 76.062%.
-- Highest Growing Use-Based Segment: Capital Goods (16.0%).
+* New IIP Base Year: 2022–23=100.
+* Total Broad Sectors: 4 Sectors (Newly added: Water Supply, Sewerage & Waste Management - 2.020%).
+* Manufacturing Weight: 76.062%.
+* Highest Growing Use-Based Segment: Capital Goods (16.0%).
 
 ---
 
@@ -125,23 +122,24 @@ MoSPI published the first press release of the revised All India Index of Indust
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-The Reserve Bank of India issued final revised directions under its Scale-Based Regulation (SBR) framework for Non-Banking Financial Companies (NBFCs), replacing the earlier complex scoring model with a single, absolute criterion: **only NBFCs with an asset size of ₹1,00,000 crore (₹1 trillion) and above** will be classified as **Upper Layer NBFCs (NBFC-UL)**.
+* **Scale-Based NBFC Regulation → Single Quantitative Benchmark:**
+  * RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size $ge mathbf{₹1,00,000	ext{ Crore}}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**.
 
 #### Know / Understand
-- **Ownership-Neutral Regulatory Equality**: Eligible government-owned NBFCs (including REC, Power Finance Corporation, HUDCO) are now formally included in the NBFC-UL list.
-- **Listing Exemptions**: Government-owned NBFC-UL entities and all bank-owned NBFCs are exempt from the mandatory 3-year public stock exchange listing requirement that applies to privately-owned NBFC-UL entities.
+* Eliminates ownership bias by including eligible government-owned NBFCs (REC, PFC, HUDCO) while granting them listing exemptions.
 
 #### Must Memorize
-- **Classification Threshold**: Standalone asset size **≥₹1,00,000 crore** (reviewed every 3 years; identification conducted annually).
-- **Connected Borrower Exposure Norms**: Large exposure limit for a single group of connected borrowers for Infrastructure Finance Companies (NBFC-IFCs) in the Upper Layer increased from **35% to 45% of Tier-1 capital** (with an additional 20% Tier-1 headroom for qualifying infrastructure projects).
-- **State Guarantee Treatment**: Exposures backed by state government guarantees are treated as sovereign exposures and exempted from single/group limits, attracting a **20% risk weight**.
-- **SBR Architecture**: 4 Layers — Base, Middle, Upper, and Top Layer (15 NBFCs were Upper Layer as of March 2025).
+* **NBFC-UL Prudential Framework Ladder:**
+  * **Classification Cutoff:** Standalone assets $ge mathbf{₹1,00,000	ext{ Crore}}$ (reviewed every 3 years).
+  * **Large Exposure Limit (NBFC-IFCs):** Connected borrower group limit raised to **45% of Tier-1 capital** (+20% infra headroom).
+  * **State Guarantees:** Exposures backed by State Govt guarantees attract a **20% risk weight**.
+  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Crore assets $mid$ 3-year review $mid$ Connected borrower cap: 45% Tier-1 $mid$ State guarantee RW: 20%.*
 
 #### Exam Focus
-- NBFC-UL Asset Size Threshold: ₹1,00,000 crore (₹1 trillion).
-- Asset Size Review Periodicity: Every 3 years.
-- NBFC-IFC Connected Counterparty Exposure Limit: 45% of Tier-1 capital.
-- State-Guaranteed Exposure Risk Weight: 20%.
+* NBFC-UL Asset Size Threshold: ₹1,00,000 crore (₹1 trillion).
+* Asset Size Review Periodicity: Every 3 years.
+* NBFC-IFC Connected Counterparty Exposure Limit: 45% of Tier-1 capital.
+* State-Guaranteed Exposure Risk Weight: 20%.
 
 ---
 
@@ -155,26 +153,24 @@ The Reserve Bank of India issued final revised directions under its Scale-Based 
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-On the occasion of International MSME Day 2026, the RBI issued the master **"Reserve Bank of India (Trade Receivables Discounting System) Directions, 2026"**, enacting the most comprehensive regulatory overhaul of TReDS since its inception in 2014 under the Payment and Settlement Systems Act, 2007.
-
-#### Know / Understand
-- **Frictionless MSME Access**: Eliminates the mandatory seller due diligence requirement for MSME suppliers, while expanding eligible platform participants to include insurance companies and government credit guarantee funds.
+* **TReDS Ecosystem Modernisation → Master Directions 2026:**
+  * Master directions enacted comprehensive reforms for MSME invoice discounting under PSSA 2007.
 
 #### Must Memorize
-- **5 Core Regulatory Shifts**:
-  1. **Seller Due Diligence Abolished**: Removed mandatory due diligence for MSME sellers to speed up onboarding.
-  2. **Participant Expansion**: Allowed insurance companies and government-notified credit guarantee funds (e.g., NCGTC) to participate.
-  3. **Credit Guarantee Protection**: Financiers permitted to obtain credit guarantee cover for factoring units without passing insurance costs to MSME sellers.
-  4. **Operator Net Worth Standard**: Minimum net worth for TReDS platform operators fixed at **₹25 crore** (existing operators given compliance window till **March 31, 2028**).
-  5. **Without-Recourse Protection**: All TReDS transactions continue strictly without recourse to MSME sellers.
-- **Mandatory Onboarding Threshold**: All companies with turnover **>₹250 crore** and all Central Public Sector Enterprises (CPSEs) are mandatorily required to register on TReDS.
-- **Active TReDS Platforms (5 Platforms)**: RXIL, M1xchange, Invoicemart, C2treds, and DTX (KredX).
+* **5 Core Regulatory Shifts Ladder:**
+  1. **Seller Due Diligence Abolished:** Removed mandatory due diligence for MSME sellers.
+  2. **Participant Expansion:** Insurance companies and credit guarantee funds (NCGTC) permitted.
+  3. **Credit Guarantee Cost:** Premium **shall NOT be passed to MSME sellers**.
+  4. **Platform Operator Net Worth:** Minimum **₹25 Crore** (compliance window till **March 31, 2028**).
+  5. **Without-Recourse Protection:** All transactions strictly without recourse to MSME sellers.
+* **Mandatory Onboarding:** All corporates with turnover $> mathbf{₹250	ext{ Crore}}$ and CPSEs must register.
+  * 🎯 **Recap:** *TReDS operator net worth: ₹25 Cr (deadline March 31, 2028) $mid$ Seller due diligence abolished $mid$ Mandatory for >₹250 Cr firms.*
 
 #### Exam Focus
-- TReDS Operator Minimum Net Worth: ₹25 crore (Compliance deadline: March 31, 2028).
-- Mandatory Onboarding Turnover: >₹250 crore.
-- Recourse Rule: Without recourse to MSME sellers.
-- Total Active Platforms: 5 authorized platforms.
+* TReDS Operator Minimum Net Worth: ₹25 crore (Compliance deadline: March 31, 2028).
+* Mandatory Onboarding Turnover: >₹250 crore.
+* Recourse Rule: Without recourse to MSME sellers.
+* Total Active Platforms: 5 authorized platforms.
 
 ---
 
@@ -188,22 +184,16 @@ On the occasion of International MSME Day 2026, the RBI issued the master **"Res
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-The RBI consolidated regulatory instructions on risk management, compliance, and internal audit for commercial banks through Master Directions coming into effect from **January 1, 2027**, mandating three dedicated and independent control pillars.
-
-#### Know / Understand
-- **Supervisory Independence Standard**: To prevent operational interference by business heads, the heads of Risk, Compliance, and Audit are granted direct, unhindered functional reporting lines to the Board with protected tenure.
+* **Commercial Bank Governance Architecture → Independent Control Heads:**
+  * Master directions effective **January 1, 2027** establish protected hierarchies for Risk, Compliance, and Audit.
 
 #### Must Memorize
-- **3 Mandatory Independent Control Heads**:
-  1. **Chief Risk Officer (CRO)**
-  2. **Chief Compliance Officer (CCO)**
-  3. **Head of Internal Audit (HIA)**
-- **Seniority & Hierarchy Norm**: Must be senior officials **not more than two levels below the MD & CEO**.
-- **Tenure & Removal Safeguards**:
-  - Mandatory fixed tenure of **at least 3 years**.
-  - Premature transfer or removal requires prior **Board approval**.
-- **Direct Board Interaction**: The CRO, CCO, and HIA must meet the Board or Audit/Risk Committee **at least once every quarter without the presence of senior management**.
-- **Dual Reporting**: Report **functionally to the Board / Board Committees** and **administratively to the MD & CEO**.
+* **Mandatory Control Heads & Governance Rules Ladder:**
+  * **3 Mandatory Control Heads:** (1) CRO, (2) CCO, (3) Head of Internal Audit (HIA).
+  * **Hierarchy:** Senior officials **not more than 2 levels below MD & CEO**.
+  * **Tenure:** Minimum fixed tenure of **at least 3 years** (Board approval required for removal).
+  * **Direct Board Interaction:** Must meet Board/Audit Committee **at least once a quarter without senior management**.
+  * 🎯 **Recap:** *CRO/CCO/HIA: 3-year min tenure $mid$ $le 2$ levels below MD $mid$ Quarterly private board session.*
 
 #### Exam Focus
 - Mandatory Control Positions: CRO, CCO, HIA.
@@ -223,21 +213,15 @@ The RBI consolidated regulatory instructions on risk management, compliance, and
 - **Source**: `Smartkeeda (June 2026 Monthly)`
 
 #### What Happened
-The Government of India promulgated the **Income-tax (Amendment) Ordinance, 2026** (effective April 1, 2026), granting full tax exemptions to Foreign Portfolio Investors (FPIs) on Government Securities (G-Secs) while expanding the **Fully Accessible Route (FAR)**.
-
-#### Know / Understand
-- **Global Index Inflow Catalysts**: Eliminates withholding taxes and capital gains tax frictions on sovereign bonds to attract an estimated $40–50 billion in institutional capital into Indian debt markets.
+* **Sovereign Debt Capital Inflows → FPI Tax Exemptions & FAR:**
+  * Promulgated *Income-tax (Amendment) Ordinance, 2026*, granting full tax exemptions to FPIs on G-Secs from April 1, 2026.
 
 #### Must Memorize
-- **Tax Exemptions (w.e.f. April 1, 2026)**:
-  - **Interest Income on G-Secs**: **100% Tax-Exempt** (previously taxed at 20%).
-  - **Capital Gains on G-Secs**: **100% Tax-Exempt** on sale, transfer, or redemption (previously 30% STCG and 12.5% LTCG).
-- **FAR Scope Expansion**:
-  - Expanded to include new issuances of **15-year, 30-year, and 40-year G-Secs** and **Sovereign Green Bonds (SGrBs)** in FAR-eligible tenors.
-- **General Route Streamlining**:
-  - Short-term investment limits, concentration limits, and security-wise caps removed.
-  - Overall investment ceilings preserved: **6% of outstanding Central G-Secs** and **2% of State Government Securities (SGSs)**.
-  - 'General' and 'Long-Term' FPI sub-categories merged into a single limit.
+* **Tax Exemptions & Debt Limits Ladder:**
+  * **Tax Exemptions:** **100% Tax-Exempt** on G-Sec interest and capital gains for FPIs.
+  * **FAR Expansion:** Includes new **15-year, 30-year, 40-year G-Secs** and **Sovereign Green Bonds**.
+  * **Macro Caps:** Overall ceilings: **6% of Central G-Secs** and **2% of State G-Secs** (short-term/security caps abolished).
+  * 🎯 **Recap:** *100% tax exemption on FPI G-Sec gains/interest $mid$ 15, 30, 40-yr FAR inclusion $mid$ 6% Central / 2% State G-Sec macro cap.*
 
 #### Exam Focus
 - FPI G-Sec Tax Status: 100% exempt from interest tax and capital gains tax.
@@ -253,313 +237,248 @@ The Government of India promulgated the **Income-tax (Amendment) Ordinance, 2026
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-25`
-- **Revision Effort**: `~4 min`
-- **Overview**: RBI issued final directions expanding India's credit derivatives market (applicable June 25, 2026). Resident non-retail users can deploy CDS and total return swaps without purpose restrictions; retail users (excluding individuals) can buy protection only for hedging.
-- **Protection Sellers**: Insurance companies, pension funds, mutual funds, AIFs, and FPIs are eligible protection sellers. FPIs permitted to trade credit index futures with safeguards.
-
----
+- **Key Facts**: Non-retail users can deploy CDS and total return swaps without restriction; retail users can buy protection for hedging only. Protection sellers include insurers, pension funds, MFs, AIFs, and FPIs.
+- 🎯 **Recap:** *Credit derivatives expanded $mid$ Insurers, MFs, pension funds eligible as CDS protection sellers.*
 
 ### 9. RBI Permits Commercial Bank Lending to REITs and InvITs
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Revision Effort**: `~4 min`
-- **Overview**: RBI issued final amendment directions allowing commercial banks to finance REITs and InvITs. Overseas bank branches permitted to join syndications (20% contribution cap, 150% risk weight).
-- **Prudential Limits**: Aggregate bank exposure to REITs/InvITs capped at **49% of asset value**; at least **80% of underlying assets** must generate positive cash flows for at least 1 year.
-
----
+- **Key Facts**: Bank exposure capped at **49% of asset value**; at least **80% of assets** must generate positive cash flows for $ge 1$ year (Risk weights: CRE 100%, CME 125%, Overseas 150%).
+- 🎯 **Recap:** *REIT/InvIT loan cap: 49% asset value $mid$ 80% operational cash flow rule.*
 
 ### 10. RBI Announces Special US Dollar-Rupee Forex Swap Windows for FCNR(B) & ECBs
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-08`
-- **Revision Effort**: `~4 min`
-- **Overview**: RBI introduced two concessional forex swap windows to attract $40–50 billion in inflows.
-  - **Window 1 (FCNR(B))**: 3–5 year deposits mobilised by AD-I banks (June 8 to Sept 30, 2026) receive full hedging cost absorption by RBI; exempt from CRR and SLR.
-  - **Window 2 (ECBs/OFCBs)**: Swapped with RBI at concessional fixed rate of **1.5% p.a.** until Dec 31, 2026. Both facilities excluded from Net Overnight Open Position (NOP-INR).
-
----
+- **Key Facts**: 3–5 year FCNR(B) deposits exempt from CRR and SLR; PSU ECBs/OFCBs swapped at concessional **1.5% p.a. fixed rate**.
+- 🎯 **Recap:** *100% CRR/SLR waiver for 3–5 yr FCNR(B) $mid$ 1.5% fixed swap rate on PSU ECBs.*
 
 ### 11. India's Balance of Payments (BoP) Q4 FY 2025–26: Current Account Surplus of $7.1 Billion
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-26`
-- **Revision Effort**: `~4 min`
-- **Overview**: RBI reported Q4 FY26 current account surplus of **$7.1 billion (0.7% of GDP)** supported by net services receipts of $60.4 billion (merchandise deficit $83.4B).
-- **Full Year FY26 Highlights**: Full-year Current Account Deficit (CAD) stood at **$25.2 billion (0.6% of GDP)**; net FDI inflows rose to $6.9 billion; net FPI inflows rose to $16.4 billion; foreign exchange reserves depleted by $23.6 billion on a BoP basis.
-
----
+- **Key Facts**: Q4 CAD surplus of **$7.1 Billion (0.7% GDP)**; full-year FY26 CAD at **$25.2 Billion (0.6% GDP)**; net FDI: $6.9 Billion.
+- 🎯 **Recap:** *Q4 CAD surplus: $7.1B $mid$ FY26 full year CAD: 0.6% GDP.*
 
 ### 12. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auctions
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `SEBI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-18`
-- **Revision Effort**: `~4 min`
-- **Overview**: Replaced fixed 20% price band with dynamic bands effective Sept 1, 2026. Equity/Debt ETFs trade within 10% band (expandable to 20%); Gold/Silver ETFs start at 6% (expandable by 3% stages). Pre-open call auction introduced for gold/silver ETFs.
-
----
+- **Key Facts**: Initial $pm 10%$ dynamic band for equity/debt ETFs (expands to $pm 20%$ after cooling-off); $pm 6%$ initial for gold/silver ETFs.
+- 🎯 **Recap:** *Dynamic ETF bands from Sept 1, 2026 $mid$ $pm 10%$ initial band.*
 
 ### 13. SEBI Approves "GARUDA" Fast-Track Green-Channel for Alternative Investment Funds
 - **Category**: `CAPITAL_MARKETS`
 - **Institution**: `SEBI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-22`
-- **Revision Effort**: `~3 min`
-- **Overview**: Angel Funds and Accredited Investor-only (AI-only) schemes can launch immediately upon filing Private Placement Memorandum (PPM) based on CEO/Compliance Officer self-certification; regular schemes approval compressed to 10 working days.
-
----
+- **Key Facts**: Angel Funds and Accredited-only funds launch immediately on self-certification; regular schemes approved in **10 working days**.
+- 🎯 **Recap:** *GARUDA: 10-day AIF launch window (immediate for accredited-only funds).*
 
 ### 14. MCA Amends Schedule VII: Zero Coupon Zero Principal (ZCZP) on SSE Eligible for CSR
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `MINISTRY_OF_CORPORATE_AFFAIRS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-15`
-- **Revision Effort**: `~3 min`
-- **Overview**: Companies allowed to allocate up to **10% of their annual CSR budget** towards subscribing to ZCZP instruments issued by non-profit organisations on Social Stock Exchanges.
-
----
+- **Key Facts**: Corporates can deploy up to **10% of annual CSR budget** into ZCZP instruments on Social Stock Exchanges.
+- 🎯 **Recap:** *Up to 10% CSR budget eligible for SSE ZCZP instruments.*
 
 ### 15. Customs Duty Exemption on Nuclear Power Generation Imports (Section 28A Customs Act)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-14`
-- **Revision Effort**: `~3 min`
-- **Overview**: Retrospective customs duty exemption under Section 28A for nuclear power imports (Tariff 8401 30 00) from April 1, 2019 to January 31, 2026, lowering capital costs for NPCIL; extended to 2035 in Union Budget.
-
----
+- **Key Facts**: Retrospective customs duty exemption under Section 28A for nuclear power equipment (Tariff 8401 30 00) lowering NPCIL capital costs.
+- 🎯 **Recap:** *Customs duty exemption on nuclear power capital imports under Section 28A.*
 
 ### 16. PM Surya Ghar Muft Bijli Yojana: 75 Lakh Interim Rooftop Target by Dec 2026
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_NEW_AND_RENEWABLE_ENERGY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-04`
-- **Revision Effort**: `~4 min`
-- **Overview**: 2-year review announced new interim target of 75 lakh installations by Dec 2026 (ultimate target 1 crore by March 2027); Utility-Linked Aggregation (ULA) model launched for 30 lakh underserved households; 33 lakh+ installed (>12 GW capacity).
-
----
+- **Key Facts**: Interim target of **75 lakh rooftop solar installations by Dec 2026** (1 crore target by March 2027); Utility-Linked Aggregation model launched.
+- 🎯 **Recap:** *PM Surya Ghar: 75 lakh installations target by Dec 2026 $mid$ ULA model.*
 
 ### 17. BHAVYA Industrial Parks Scheme & Portal Launched (₹33,660 Crore Outlay)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_COMMERCE_AND_INDUSTRY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: Operationalised BHAVYA portal to develop 100 investment-ready industrial parks across India over 6 years via NICDC (51:49 partnership model with states); initial phase targets 20 parks.
-
----
+- **Key Facts**: Developing 100 investment-ready industrial parks over 6 years via NICDC (51:49 partnership model with states; initial phase 20 parks).
+- 🎯 **Recap:** *BHAVYA: ₹33,660 Cr outlay for 100 industrial parks.*
 
 ### 18. Modified UDAN (RCS) Scheme Approved with Outlay of ₹28,840 Crore (10 Years)
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_CIVIL_AVIATION`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Revision Effort**: `~4 min`
-- **Overview**: 10-year scheme (FY27 to FY36) with ₹28,840 crore outlay; earmarks ₹12,159 crore to develop 100 unserved airstrips under Challenge Mode; O&M support capped at ₹3.06 cr/yr per airport.
-
----
+- **Key Facts**: 10-year scheme (FY27 to FY36) with **₹28,840 Crore outlay**; ₹12,159 Cr to develop 100 unserved airstrips under Challenge Mode.
+- 🎯 **Recap:** *Modified UDAN: ₹28,840 Cr outlay for 100 airstrips over 10 years.*
 
 ### 19. Credit Guarantee Scheme for Microfinance Institutions (CGSMFI-2.0) Extended
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `NCGTC`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-12`
-- **Revision Effort**: `~3 min`
-- **Overview**: Extended to August 31, 2026 (up to ₹20,000 crore guarantee issuance); loan limit for Large NBFC-MFIs raised from ₹300 cr to ₹1,000 cr (max 20% of AUM); guarantee coverage: 80% (Small), 75% (Medium), 70% (Large).
-
----
+- **Key Facts**: Extended to August 31, 2026 (₹20,000 Cr pool); Large NBFC-MFI loan cap raised to **₹1,000 Crore** (coverage: 80% Small, 75% Med, 70% Large).
+- 🎯 **Recap:** *CGSMFI-2.0 extended $mid$ ₹1,000 Cr loan cap for large MFIs.*
 
 ### 20. PM SVANidhi Scheme Completes 6 Years: ₹17,800 Crore Disbursed Across 1.12 Crore Loans
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_HOUSING_AND_URBAN_AFFAIRS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-01`
-- **Revision Effort**: `~4 min`
-- **Overview**: 6-year milestone with 1.12 crore loans disbursed to 75.5 lakh street vendors (₹15k, ₹25k, ₹50k tranches); UPI-linked RuPay Credit Cards up to ₹30,000 for 2nd tranche repayers; scheme extended to March 31, 2030.
-
----
+- **Key Facts**: 1.12 crore loans disbursed to 75.5 lakh street vendors (₹15k, ₹25k, ₹50k tranches); UPI RuPay Credit Cards up to ₹30,000; extended to March 31, 2030.
+- 🎯 **Recap:** *PM SVANidhi: ₹17,800 Cr disbursed across 1.12 Cr loans $mid$ Extended to 2030.*
 
 ### 21. PM-KISAN 23rd Instalment: ₹18,880 Crore Disbursed to 9.44 Crore Farmers
 - **Category**: `GOVERNMENT_SCHEMES`
 - **Institution**: `MINISTRY_OF_AGRICULTURE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Revision Effort**: `~3 min`
-- **Overview**: ₹18,880 crore transferred via DBT (2.18 crore women farmers); cumulative disbursements cross ₹4.46 lakh crore since Feb 2019; PMFBY/RWBCIS launched in West Bengal (₹28,140 cr insured value).
-
----
+- **Key Facts**: ₹18,880 crore transferred via DBT (2.18 crore women farmers); cumulative transfers exceed ₹4.46 lakh crore since Feb 2019.
+- 🎯 **Recap:** *PM-KISAN 23rd tranche: ₹18,880 Cr to 9.44 Cr farmers.*
 
 ### 22. Jai Prakash Narayan Bird Sanctuary (Surha Tal, UP) Designated India's 100th Ramsar Site
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MOEFCC`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-05`
-- **Revision Effort**: `~4 min`
-- **Overview**: Surha Tal in Ballia district, UP, designated 100th Ramsar site on World Environment Day (UP's 13th site); India ranks 1st in Asia and 3rd globally in Ramsar sites (behind UK 176, Mexico 144).
-
----
+- **Key Facts**: Surha Tal (Ballia, UP) designated 100th Ramsar site (UP's 13th site); India ranks 1st in Asia and 3rd globally.
+- 🎯 **Recap:** *Surha Tal (Ballia, UP) is India's 100th Ramsar Site.*
 
 ### 23. CPCL (28th) and GRSE (29th) Accorded Navratna CPSE Status
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_FINANCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-19`
-- **Revision Effort**: `~3 min`
-- **Overview**: Chennai Petroleum Corporation Ltd (CPCL, MoPNG) became 28th Navratna; Garden Reach Shipbuilders & Engineers (GRSE, MoD) became 29th Navratna CPSE, granting autonomy to invest up to ₹1,000 crore without prior central approval.
-
----
+- **Key Facts**: CPCL (28th) and GRSE (29th) upgraded to Navratna CPSEs, permitting CapEx up to ₹1,000 Crore without central cabinet approval.
+- 🎯 **Recap:** *CPCL (28th) and GRSE (29th) accorded Navratna CPSE status.*
 
 ### 24. National Family Health Survey-6 (NFHS-6) Data Release (2023–24)
 - **Category**: `NATIONAL_AND_STATES`
 - **Institution**: `MINISTRY_OF_HEALTH`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-11`
-- **Revision Effort**: `~4 min`
-- **Overview**: Key demographic indicators: Institutional deliveries 90.6% (from 88.6%); TFR at 2.0 (below replacement 2.1); Women having bank/savings account 89.0% (from 78.6%); Household health insurance coverage 60.2%.
-
----
+- **Key Facts**: Institutional deliveries: **90.6%** $mid$ TFR: **2.0** $mid$ Women bank account ownership: **89.0%** $mid$ Health insurance: **60.2%**.
+- 🎯 **Recap:** *NFHS-6: Institutional deliveries 90.6% $mid$ TFR 2.0 $mid$ Women bank accounts 89.0%.*
 
 ### 25. ILO ILOSTAT: India's Social Security Coverage Reaches 64.3% (94.3 Crore Beneficiaries)
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `ILO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-14`
-- **Revision Effort**: `~4 min`
-- **Overview**: India became 1st country globally to update 2025 data on ILOSTAT; social security coverage expanded to 64.3% (94.3 crore people, 2nd globally after China), driven by PMGKAY (80.67 cr), PMSBY (58.09 cr), and e-Shram (31 cr).
-
----
+- **Key Facts**: Social security coverage expanded to **64.3% (94.3 Crore people)**, 2nd globally behind China, driven by PMGKAY and PMSBY.
+- 🎯 **Recap:** *ILOSTAT: India social security coverage at 64.3% (94.3 Cr people).*
 
 ### 26. India–Oman Comprehensive Economic Partnership Agreement (CEPA) Enters into Force
 - **Category**: `ESI_FINANCE_BUSINESS`
 - **Institution**: `MINISTRY_OF_COMMERCE_AND_INDUSTRY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-01`
-- **Revision Effort**: `~4 min`
-- **Overview**: Operationalised June 1, 2026. Zero-duty access on 98.08% of Oman tariff lines (covering 99.38% of Indian exports); 100% FDI for Indian services; 1st-ever comprehensive chapter on Traditional Medicine/AYUSH.
-
----
+- **Key Facts**: Operationalised June 1, 2026. Zero-duty access on 98.08% of Oman tariff lines (covering 99.38% of Indian exports).
+- 🎯 **Recap:** *India-Oman CEPA operational from June 1, 2026 (98% zero-duty tariff lines).*
 
 ### 27. India Assumes Vice-Presidency of Financial Action Task Force (FATF)
 - **Category**: `INTERNATIONAL`
 - **Institution**: `FATF`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-24`
-- **Revision Effort**: `~3 min`
-- **Overview**: Shri Vivek Aggarwal elected Vice-President of FATF for 2-year term (July 2026 to June 2027) at FATF Plenary in Paris; 1st time India elected to FATF Vice-Presidency.
-
----
+- **Key Facts**: Vivek Aggarwal elected Vice-President of FATF for 2-year term (July 2026 to June 2027) at Paris Plenary.
+- 🎯 **Recap:** *Vivek Aggarwal elected Vice-President of FATF (2-year term).*
 
 ### 28. Uzbekistan Joins New Development Bank (NDB) as 10th Member
 - **Category**: `INTERNATIONAL`
 - **Institution**: `NEW_DEVELOPMENT_BANK`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-05`
-- **Revision Effort**: `~3 min`
-- **Overview**: Ratified Articles of Agreement on June 5, 2026, becoming NDB's 10th member and 1st from Central Asia (NDB approved 139 projects worth $43 billion).
-
----
+- **Key Facts**: Ratified Articles of Agreement on June 5, 2026, becoming NDB's 10th member and 1st from Central Asia.
+- 🎯 **Recap:** *Uzbekistan joined New Development Bank as 10th member.*
 
 ### 29. UN Security Council Elects 5 New Non-Permanent Members for 2027–28 Term
 - **Category**: `INTERNATIONAL`
 - **Institution**: `UNITED_NATIONS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-08`
-- **Revision Effort**: `~3 min`
-- **Overview**: UNGA elected Austria, Kyrgyzstan (1st time), Portugal, Trinidad & Tobago, and Zimbabwe for 2-year terms (Jan 1, 2027 to Dec 31, 2028), replacing Greece, Pakistan, Denmark, Panama, and Somalia.
-
----
+- **Key Facts**: Elected Austria, Kyrgyzstan (1st time), Portugal, Trinidad & Tobago, and Zimbabwe for 2027–28 terms.
+- 🎯 **Recap:** *5 new UNSC non-permanent members: Austria, Kyrgyzstan, Portugal, Trinidad & Tobago, Zimbabwe.*
 
 ### 30. 52nd G7 Summit at Évian-les-Bains (France): Critical Minerals & Digital Safety
 - **Category**: `INTERNATIONAL`
 - **Institution**: `G7`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-17`
-- **Revision Effort**: `~4 min`
-- **Overview**: PM Modi attended as partner country (7th consecutive participation); key outcomes: Critical Minerals Supply Chain Declaration, Digital Space Safety for Minors, and Japanese POWERR Asia framework.
-
----
+- **Key Facts**: Adopted Critical Minerals Supply Chain Declaration and Digital Space Safety for Minors framework.
+- 🎯 **Recap:** *52nd G7 Summit at Évian-les-Bains focused on critical mineral security.*
 
 ### 31. Air India Issues Letter of Request (LoR) for 114 Rafale Aircraft (MRFA Project, ₹3.25 Lakh Cr)
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `MINISTRY_OF_DEFENCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-12`
-- **Revision Effort**: `~4 min`
-- **Overview**: Formal LoR issued to France for 114 Rafale multi-role fighters (18 fly-away, 96 built in India by Dassault-HAL); takes total Indian Rafale fleet to 176 aircraft (including 26 naval Rafale Marine).
-
----
+- **Key Facts**: Formal LoR issued for 114 Rafale fighters (18 fly-away, 96 built in India by Dassault-HAL).
+- 🎯 **Recap:** *LoR issued for 114 Rafale MRFA fighters (96 built in India).*
 
 ### 32. India Receives 4th Squadron of S-400 Triumf ('Sudarshan') from Russia
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `INDIAN_AIR_FORCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-03`
-- **Revision Effort**: `~3 min`
-- **Overview**: 4th of 5 contracted S-400 air defence squadrons delivered by ship from Russia ($5.43B deal); deployed on western front (engages 80 targets concurrently up to 400 km range).
-
----
+- **Key Facts**: 4th of 5 contracted S-400 air defence squadrons delivered by ship from Russia ($5.43B deal).
+- 🎯 **Recap:** *4th S-400 Triumf missile squadron inducted into IAF.*
 
 ### 33. 1st Made-in-India Airbus C295 Completes Maiden Test Flight at Vadodara (TASL)
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `MINISTRY_OF_DEFENCE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-10`
-- **Revision Effort**: `~4 min`
-- **Overview**: First military transport aircraft manufactured by Indian private sector at Tata Advanced Systems Final Assembly Line; 1st of 40 aircraft to be built in India under ₹21,935 crore contract.
-
----
+- **Key Facts**: First military transport aircraft manufactured by private sector in India (Tata Advanced Systems Vadodara facility).
+- 🎯 **Recap:** *1st made-in-India Airbus C295 completed maiden flight at TASL Vadodara.*
 
 ### 34. DRDO Tests Long Range Land Attack Cruise Missile (LRLACM) from ITR Chandipur
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-15`
-- **Revision Effort**: `~3 min`
-- **Overview**: 2nd successful flight test of indigenous 1,000-km range cruise missile (Nirbhay successor) developed by ADE Bengaluru with BDL and BEL; dual ground and warship UVLM launch capability.
-
----
+- **Key Facts**: 2nd successful flight test of indigenous 1,000-km range cruise missile developed by ADE Bengaluru.
+- 🎯 **Recap:** *DRDO test-fired 1,000-km Long Range Land Attack Cruise Missile (LRLACM).*
 
 ### 35. DRDO Advanced Weapon Integration Complex for Project Kusha (LR-SAM) at Hyderabad
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `DRDO`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-18`
-- **Revision Effort**: `~4 min`
-- **Overview**: Dedicated integration facility for India's ₹21,700 crore 3-tier air defence system (M1 150 km, M2 250 km, M3 350–400 km interceptors with 500 km Uttam AESA radar) under Mission Sudarshan Chakra.
-
----
+- **Key Facts**: Dedicated facility for India's ₹21,700 crore 3-tier air defence system (150 km, 250 km, 350–400 km interceptors).
+- 🎯 **Recap:** *Project Kusha LR-SAM integration facility inaugurated at Hyderabad.*
 
 ### 36. Indian Navy Retires Sea King Bravo Helicopters After 5 Decades (INAS 330)
 - **Category**: `DEFENCE_AND_SECURITY`
 - **Institution**: `INDIAN_NAVY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-15`
-- **Revision Effort**: `~3 min`
-- **Overview**: Historic Sea King Mk 42B 'Flying Frigates' of INAS 330 Harpoons retired at INS Shikra (Mumbai); airframes repurposed as test beds for Naval Anti-Ship Missile (NASM).
-
----
+- **Key Facts**: Retired Sea King Mk 42B 'Flying Frigates' at INS Shikra; airframes repurposed for Naval Anti-Ship Missile (NASM) testing.
+- 🎯 **Recap:** *Indian Navy retired Sea King Mk 42B helicopters after 50 years.*
 
 ### 37. DAE Inaugurates World's 1st Copper-Chlorine (Cu-Cl) Hydrogen Facility at FBTR Kalpakkam
 - **Category**: `SCIENCE_AND_TECH`
 - **Institution**: `DEPARTMENT_OF_ATOMIC_ENERGY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-16`
-- **Revision Effort**: `~4 min`
-- **Overview**: World's first integration of fast breeder nuclear reactor process heat (FBTR) with thermochemical water-splitting cycle for zero-emission green hydrogen, developed by BARC and IGCAR.
-
----
+- **Key Facts**: World's first integration of fast breeder nuclear reactor heat (FBTR) with thermochemical water-splitting for green hydrogen.
+- 🎯 **Recap:** *World's 1st nuclear Cu-Cl thermochemical hydrogen facility at FBTR Kalpakkam.*
 
 ### 38. NITI Aayog Roadmap: Future of India's Semiconductor Industry Till 2035
 - **Category**: `MACRO_ECONOMY`
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-12`
-- **Revision Effort**: `~4 min`
-- **Overview**: Projects semiconductor demand to exceed $200B by 2035 (19% CAGR); roadmap targets $120–$150B domestic value chain (10–13% global share) and 35–50% self-sufficiency via 5 pillars.
+- **Key Facts**: Targets $120–$150B domestic semiconductor value chain (10–13% global share) and 35–50% self-sufficiency by 2035.
+- 🎯 **Recap:** *NITI Aayog semiconductor roadmap targets $150B domestic ecosystem by 2035.*
 
 ---
 

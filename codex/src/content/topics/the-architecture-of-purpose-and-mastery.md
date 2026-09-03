@@ -12,15 +12,45 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "mastery"
+mental_models:
+  - "The Passion Trap vs The Craftsman Mindset (Builder Engine)"
+  - "Motivation 3.0 Triad (Autonomy, Mastery, Purpose) — Dan Pink"
+  - "The Candle Problem & Functional Fixedness (Karl Duncker)"
+  - "Primal Inclinations & The Apprenticeship Arc (Robert Greene)"
+  - "Multiple Cognitive Modalities (Howard Gardner)"
+  - "Pro-Social Transcendence & The Contribution Test"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-architecture-of-self-knowledge"
+  builds_on:
+    - "the-physics-of-outworking-and-first-principles"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-high-agency-reset-breaking-autopilot"
+sources:
+  - source_id: "YT-rrkrvAUbU9Y"
+    title: "The Puzzle of Motivation"
+    creator: "Dan Pink (TED)"
+    url: "https://www.youtube.com/watch?v=rrkrvAUbU9Y"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Extrinsic Motivation Trap (The Candle Problem): 'If-Then' extrinsic rewards (Motivation 2.0) narrow cognitive focus, accelerating routine algorithmic tasks while crushing conceptual, creative problem-solving (Karl Duncker / Sam Glucksberg)"
+        timestamp: "03:45"
+      - claim: "Autonomy as the Primary Driver: Self-direction across Task, Time, Technique, and Team unlocks unprecedented creative velocity compared to rigid managerial surveillance"
+        timestamp: "08:15"
+      - claim: "Mastery as the Urge to Improve: Humans possess an innate drive to master complex crafts for intrinsic satisfaction rather than transactional financial gain (e.g. Open-Source Linux & Wikipedia)"
+        timestamp: "11:30"
+      - claim: "The Purpose Motive (Motivation 3.0): Sustainable peak performance requires transcending self-interest, anchoring mastery to a transcendent mission larger than the self"
+        timestamp: "14:10"
+active_recall:
+  - question: "How does Dan Pink's analysis of 'The Candle Problem' explain why monetary bonuses often degrade high-level cognitive performance?"
+    concept: "Extrinsic Incentives vs Heuristic Thinking"
+    answer: "Extrinsic 'If-Then' rewards narrow mental focus, which works well for mechanical, algorithmic tasks where the path is obvious. However, for 21st-century creative, heuristic problem-solving requiring broad peripheral vision and overcoming functional fixedness, extrinsic carrots induce cognitive tunnel vision and performance anxiety, deteriorating results."
+  - question: "What are the three core pillars of 'Motivation 3.0', and why must they operate in harmony?"
+    concept: "Autonomy, Mastery, and Purpose Triad"
+    answer: "Autonomy gives sovereignty over time and technique; Mastery satisfies the deep psychological desire to build rare, world-class competence; Purpose anchors that competence to a mission greater than personal vanity. Together, they generate durable intrinsic drive that outlasts superficial external rewards."
+last_updated: "2026-09-02"
 ---
 
 The dominant cultural myth regarding human potential is the **"Passion Myth"**: the romantic idea that purpose is a fully formed, pre-packaged treasure waiting to be discovered in an instant flash of divine inspiration.
@@ -35,19 +65,20 @@ When you wait around to "find your passion" before you commit to hard work, you 
 
 ```mermaid
 graph TD
-    subgraph The Passion Trap (Consumer Mindset)
+    subgraph SG_1_The_Passion_Tra ["The Passion Trap (Consumer Mindset)"]
         P1[Waiting to 'Find' Perfect Passion] 
         --> P2[Avoids High Friction & Demanding Apprenticeship]
         --> P3[Chronic Career Anxiety & Frequent Quitting]
         --> P4[Zero Durable Skill Built]
     end
 
-    subgraph The Craftsman Engine (Builder Mindset)
+    subgraph SG_2_The_Craftsman_E ["The Craftsman Engine (Builder Mindset)"]
         C1[Identify Unique Cognitive Profile & Strengths]
         --> C2[Endure the 10,000-Hour Apprenticeship & Deep Practice]
         --> C3[Rare Competence & Autonomy Unlocked]
         --> C4[Deep Purpose, Flow & Meaning Emerge Naturally]
     end
+
 ```
 
 * **The Fallacy of Premature Passion**: Passion does not precede competence. When you are a complete beginner at a difficult craft, everything feels clumsy and frustrating. If you rely on passion to sustain you, you will quit the moment friction arises.
@@ -77,16 +108,17 @@ Formulated by developmental psychologist Dr. Howard Gardner in *Frames of Mind*,
 
 ```mermaid
 graph TD
-    subgraph The Cognitive Modalities
-        I1[1. Logical-Mathematical: Systems, numbers & algorithmic logic]
-        I2[2. Spatial-Visual: Mental architecture, diagrams & spatial modeling]
-        I3[3. Linguistic: Language, rhetoric, precision writing & synthesis]
-        I4[4. Bodily-Kinesthetic: Physical movement, craftsmanship & mechanics]
-        I5[5. Interpersonal: Human dynamics, leadership, empathy & negotiation]
-        I6[6. Intrapersonal: Metacognition, self-mastery & deep reflection]
+    subgraph SG_1_The_Cognitive_M ["The Cognitive Modalities"]
+        I1["1. Logical-Mathematical: Systems, numbers & algorithmic logic"]
+        I2["2. Spatial-Visual: Mental architecture, diagrams & spatial modeling"]
+        I3["3. Linguistic: Language, rhetoric, precision writing & synthesis"]
+        I4["4. Bodily-Kinesthetic: Physical movement, craftsmanship & mechanics"]
+        I5["5. Interpersonal: Human dynamics, leadership, empathy & negotiation"]
+        I6["6. Intrapersonal: Metacognition, self-mastery & deep reflection"]
     end
 
     I1 & I2 & I3 & I4 & I5 & I6 --> M[Asymmetric Cognitive Fingerprint]
+
 ```
 
 1. **Logical-Mathematical**: Mastery of abstract reasoning, quantitative relations, and complex systematic problem-solving.
@@ -102,7 +134,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph The Triad of Purpose
+    subgraph SG_1_The_Triad_of_Pu ["The Triad of Purpose"]
         T1[1. Innate Cognitive Asymmetry<br>Where your Gardner intelligence profile excels]
         T2[2. The Rigor of Mastery<br>Deliberate practice & building rare skill capital]
         T3[3. Pro-Social Transcendence<br>Directing competence to solve real human suffering]
@@ -111,6 +143,7 @@ graph TD
     T1 --> P[True Life Purpose & Unshakeable Meaning]
     T2 --> P
     T3 --> P
+
 ```
 
 1. **Cognitive Alignment**: Aligning your daily work with your natural intelligence profile so that learning feels frictionless and intuitive.
@@ -123,9 +156,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Step 1: The Intrinsic Strength Audit<br>Map your top 2 intelligence profiles and childhood inclinations]
-    --> P2[Step 2: The Apprenticeship Commitment<br>Choose 1 domain and commit to 1,000 hours of deep execution]
-    --> P3[Step 3: The Contribution Test<br>Channel your output to serve a concrete community or problem]
+    P1["Step 1: The Intrinsic Strength Audit<br>Map your top 2 intelligence profiles and childhood inclinations"]
+    --> P2["Step 2: The Apprenticeship Commitment<br>Choose 1 domain and commit to 1,000 hours of deep execution"]
+    --> P3["Step 3: The Contribution Test<br>Channel your output to serve a concrete community or problem"]
+
 ```
 
 1. **The Intrinsic Strength Audit**: Review Gardner's modalities and identify the two where your learning speed is 3x faster than average.
