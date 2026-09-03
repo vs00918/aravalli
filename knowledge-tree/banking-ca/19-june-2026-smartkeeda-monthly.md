@@ -113,6 +113,10 @@
 ---
 
 ### 4. RBI Scale-Based Regulation (SBR): ₹1 Lakh Crore Absolute Threshold for NBFC-Upper Layer (NBFC-UL)
+
+**Know & Understand (Context)**:
+- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.
+
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P1_CRITICAL_DEEP`

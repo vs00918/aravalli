@@ -188,8 +188,8 @@
 
 ### 15. MoRTH Proposes Phased Mandate for Vehicle-to-Vehicle (V2V) Communication Systems (AIS-230)
 - **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-09`
-- **Key Facts**: Mandates AIS-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.
-- 🎯 **Recap:** *V2V communication (AIS-230) mandatory from Oct 1, 2028.*
+- **Key Facts**: Mandates Automotive Industry Standard (AIS)-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.
+- 🎯 **Recap:** *V2V communication (Automotive Industry Standard (AIS)-230) mandatory from Oct 1, 2028.*
 
 ### 16. Palna Scheme Operational Status: 3,130 Anganwadi cum Crèches (AWCCs) Active
 - **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-07`

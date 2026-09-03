@@ -63,6 +63,10 @@
 ---
 
 ### 3. SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code
+
+**Know & Understand (Context)**:
+- **Bond Market Distribution**: Creates regulated Fixed Income Channel Partners (FICPs) to expand retail participation in corporate bonds and online bond platforms.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Capital Markets & Debt Distribution
 * **Source:** CGB Mentors (p. 6–7) | **Institution:** SEBI | **Date:** 2026-08-24
 
@@ -83,6 +87,10 @@
 ---
 
 ### 4. PFRDA National Pension System (NPS) Uniform Charge Structure 2026
+
+**Know & Understand (Context)**:
+- **Pension Intermediary Transparency**: Standardizes Points of Presence (PoP) commission structures to protect subscriber returns while ensuring sustainable distributor remuneration.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Pension Systems & Financial Regulation
 * **Source:** CGB Mentors (p. 9–10) | **Institution:** PFRDA | **Effective Date:** 2026-10-01
 
@@ -92,15 +100,19 @@
 
 **Must Memorize (Charge Slabs & Dormancy Rules)**
 * **NPS Charge Architecture Ladder:**
-  * **Annual Fee:** **0.20% per annum of AUM**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.
+  * **Annual Fee:** **0.20% per annum of Assets Under Management (AUM)**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.
   * **Dormant Account Exemption:** Zero fees charged on dormant accounts.
   * **Dormant Account Definition:** An account with **no contributions for 4 consecutive quarters** following a contribution quarter.
   * **Implementation:** Central Recordkeeping Agencies (CRAs) begin automated deductions from **Q3 FY 2026–27**.
-  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of AUM paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*
+  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of Assets Under Management (AUM) paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*
 
 ---
 
 ### 5. Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)
+
+**Know & Understand (Context)**:
+- **Institutional Dispute Resolution**: MCI establishes statutory standards for accredited commercial mediators, reducing caseload backlogs in civil courts.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Legal & Commercial Dispute Resolution
 * **Source:** CGB Mentors (p. 16) | **Statutory Authority:** Mediation Act, 2023 | **Date:** 2026-08-25
 
@@ -123,6 +135,10 @@
 ---
 
 ### 6. MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy
+
+**Know & Understand (Context)**:
+- **National Security Architecture**: PRAHAAR integrates multi-agency intelligence and financial tracking against terror financing networks.
+
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** National Security & Governance
 * **Source:** CGB Mentors (p. 22–23) | **Ministry:** Ministry of Home Affairs | **Date:** 2026-08-26
 

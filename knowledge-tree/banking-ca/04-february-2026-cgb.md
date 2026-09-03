@@ -199,7 +199,7 @@
 * **Event Date:** 2026-02-12
 * **Status:** DRAFT
 * **Must Memorize Facts:**
-  * **UCB Lending Flexibility:**
+  * **Urban Co-operative Bank (UCB) Lending Flexibility:**
     * Unsecured ceiling revised to **20% of total advances** (from 10% total assets); consumer durable loan limit raised to **₹2.5 Lakh**.
   * 🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances $mid$ ₹2.5L consumer durable limit.*
 

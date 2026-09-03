@@ -203,9 +203,9 @@
 * **Must Memorize Facts:**
   * **Bank Dividend Ceiling Ladder:**
     * Proposed maximum dividend payout ratio raised to **75% of Profit After Tax (PAT)** (earlier 40%).
-    * Structured across a **10-bucket matrix** linked to previous fiscal CET1 ratio.
+    * Structured across a **10-bucket matrix** linked to previous fiscal Common Equity Tier 1 (CET1) ratio.
     * Calculated on Adjusted PAT (after deducting Net NPAs as of March 31).
-  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket CET1 matrix $mid$ Adjusted for Net NPAs.*
+  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket Common Equity Tier 1 (CET1) matrix $mid$ Adjusted for Net NPAs.*
 
 ### 5. DICGC Deposit Insurance Coverage Report: 97.6% Bank Accounts Insured
 * **Priority:** P2 — High
@@ -225,7 +225,11 @@
 * **Institution:** SEBI
 * **Event Date:** 2026-01-14
 * **Status:** NOTIFIED
-* **Must Memorize Facts:**
+* **Must Memori
+
+**Know & Understand (Context)**:
+- **Regulatory Architecture**: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds.
+ze Facts:**
   * **Single Window Access for Trusted Investors:**
     * Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).
     * Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.
@@ -317,10 +321,14 @@
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
   * **Significant Index Benchmark Thresholds:**
-    * Any benchmark tracking combined MF scheme AUM exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).
-  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF AUM $mid$ Bi-annual review.*
+    * Any benchmark tracking combined MF scheme Assets Under Management (AUM) exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).
+  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF Assets Under Management (AUM) $mid$ Bi-annual review.*
 
 ### 15. RBI Tightens Priority Sector Lending (PSL) on-Lending Auditor Certification
+
+**Know & Understand (Context)**:
+- **Forex & PSL Liquidity Mechanism**: Provides regulatory incentives for banks mobilizing foreign currency NRI deposits to support domestic credit growth without squeezing PSL targets.
+
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI

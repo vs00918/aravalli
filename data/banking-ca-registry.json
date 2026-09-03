@@ -131,6 +131,8 @@
         "RBI released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Licensing Architecture: On-tap licensing allows qualified entities meeting capital and governance criteria to apply for UCB licenses continuously rather than waiting for ad-hoc regulatory windows.",
         "**Conversion Thresholds Ladder:**",
         "**Track Record:** Minimum **10 years** continuous operations.",
         "**Deposit Base:** Minimum **₹10,000 Crore** (audited as of March 31).",
@@ -160,7 +162,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**What Happened**\n* **Cooperative Banking Transition → Commercial Bank Conversion:**\n  * RBI released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks.\n\n**Must Memorize (Eligibility Thresholds)**\n* **Conversion Thresholds Ladder:**\n  * **Track Record:** Minimum **10 years** continuous operations.\n  * **Deposit Base:** Minimum **₹10,000 Crore** (audited as of March 31).\n  * **Net Worth:** Minimum **₹300 Crore**.\n  * **CRAR & Asset Quality:** Minimum **12% CRAR** $mid$ Maximum **3% Net NPA**.\n  * **Financial Trend:** Positive over previous **5 years**.\n  * **Scope & Shareholding:** Multi-State Cooperative Societies Act 2002 units $mid$ Individual shareholding capped at **5%**.\n  * 🎯 **Recap:** *UCB conversion: 10-yr track record $mid$ ₹10k Cr deposits $mid$ ₹300 Cr net worth $mid$ CRAR $ge 12%$, Net NPA $le 3%$.*\n\n---"
+      "contentMarkdown": "### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)\n\n**Know & Understand (Context)**:\n- **Licensing Architecture**: On-tap licensing allows qualified entities meeting capital and governance criteria to apply for UCB licenses continuously rather than waiting for ad-hoc regulatory windows.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives\n* **Source:** CGB Mentors\n\n**What Happened**\n* **Cooperative Banking Transition → Commercial Bank Conversion:**\n  * RBI released 'On Tap' licensing guidelines allowing eligible primary Urban Cooperative Banks (UCBs) with multi-state operations to convert into commercial banks.\n\n**Must Memorize (Eligibility Thresholds)**\n* **Conversion Thresholds Ladder:**\n  * **Track Record:** Minimum **10 years** continuous operations.\n  * **Deposit Base:** Minimum **₹10,000 Crore** (audited as of March 31).\n  * **Net Worth:** Minimum **₹300 Crore**.\n  * **CRAR & Asset Quality:** Minimum **12% CRAR** $mid$ Maximum **3% Net NPA**.\n  * **Financial Trend:** Positive over previous **5 years**.\n  * **Scope & Shareholding:** Multi-State Cooperative Societies Act 2002 units $mid$ Individual shareholding capped at **5%**.\n  * 🎯 **Recap:** *UCB conversion: 10-yr track record $mid$ ₹10k Cr deposits $mid$ ₹300 Cr net worth $mid$ CRAR $ge 12%$, Net NPA $le 3%$.*\n\n---"
     },
     "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627": {
       "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
@@ -184,9 +186,23 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [
         "**Scale-Based NBFC Identification → Upper Layer 2026-27:**",
-        "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework."
+        "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.",
+        "*Must Memori",
+        "*Know & Understand (Context)**:",
+        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.",
+        "**NBFC-UL Entities & Rules Ladder:**",
+        "**Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2\text{ Trillion}$).",
+        "**Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).",
+        "**5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.",
+        "**Mandatory Listing:** Must list on recognized exchanges within **3 years**.",
+        "🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included) $mid$ 5-year lock-in $mid$ 3-year mandatory listing.*"
       ],
       "mustMemorizeFacts": [
+        "**Scale-Based NBFC Identification → Upper Layer 2026-27:**",
+        "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.",
+        "*Must Memori",
+        "*Know & Understand (Context)**:",
+        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.",
         "**NBFC-UL Entities & Rules Ladder:**",
         "**Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2\text{ Trillion}$).",
         "**Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).",
@@ -214,7 +230,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 3. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**What Happened**\n* **Scale-Based NBFC Identification → Upper Layer 2026-27:**\n  * Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.\n\n**Must Memorize**\n* **NBFC-UL Entities & Rules Ladder:**\n  * **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2\text{ Trillion}$).\n  * **Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).\n  * **5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n  * **Mandatory Listing:** Must list on recognized exchanges within **3 years**.\n  * 🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included) $mid$ 5-year lock-in $mid$ 3-year mandatory listing.*\n\n---"
+      "contentMarkdown": "### 3. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** NBFC Regulation\n* **Source:** CGB Mentors\n\n**What Happened**\n* **Scale-Based NBFC Identification → Upper Layer 2026-27:**\n  * Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.\n\n**Must Memori\n\n**Know & Understand (Context)**:\n- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.\nze**\n* **NBFC-UL Entities & Rules Ladder:**\n  * **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2\text{ Trillion}$).\n  * **Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).\n  * **5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.\n  * **Mandatory Listing:** Must list on recognized exchanges within **3 years**.\n  * 🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included) $mid$ 5-year lock-in $mid$ 3-year mandatory listing.*\n\n---"
     },
     "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms": {
       "id": "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
@@ -241,6 +257,8 @@
         "Notified directions governing recovery agents and prohibiting predatory device lockouts."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Fair Practices Code: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.",
         "**Effective Date:** **1 January 2027** | **Source:** CGB Mentors",
         "**Calling Norms & Smartphone Locks Ladder:**",
         "**Calling Hours:** Strictly **8:00 AM to 7:00 PM** (No calls during bereavement/emergencies).",
@@ -277,7 +295,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**What Happened**\n* **Borrower Protection & Debt Recovery Safeguards:**\n  * Notified directions governing recovery agents and prohibiting predatory device lockouts.\n\n**Must Memorize**\n* **Calling Norms & Smartphone Locks Ladder:**\n  * **Calling Hours:** Strictly **8:00 AM to 7:00 PM** (No calls during bereavement/emergencies).\n  * **Agent Certification:** Mandatory **IIBF Certification**.\n  * **Device Lockout Stages:** No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n  * **Emergency Safeguard:** Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n  * **Restoration:** Unlock within **1 hour** of payment (Delay penalty: **₹250/hour** on bank).\n  * 🎯 **Recap:** *Calling: 8 AM–7 PM $mid$ Smartphone lockout only after 60 DPD (SOS never disabled) $mid$ ₹250/hr unlock delay fine.*\n\n---"
+      "contentMarkdown": "### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms\n\n**Know & Understand (Context)**:\n- **Fair Practices Code**: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.\n\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending\n* **Effective Date:** **1 January 2027** | **Source:** CGB Mentors\n\n**What Happened**\n* **Borrower Protection & Debt Recovery Safeguards:**\n  * Notified directions governing recovery agents and prohibiting predatory device lockouts.\n\n**Must Memorize**\n* **Calling Norms & Smartphone Locks Ladder:**\n  * **Calling Hours:** Strictly **8:00 AM to 7:00 PM** (No calls during bereavement/emergencies).\n  * **Agent Certification:** Mandatory **IIBF Certification**.\n  * **Device Lockout Stages:** No restriction before **30 DPD**; complete restrictions permitted only after **60 DPD**.\n  * **Emergency Safeguard:** Incoming calls, SMS, and emergency SOS **can NEVER be disabled**.\n  * **Restoration:** Unlock within **1 hour** of payment (Delay penalty: **₹250/hour** on bank).\n  * 🎯 **Recap:** *Calling: 8 AM–7 PM $mid$ Smartphone lockout only after 60 DPD (SOS never disabled) $mid$ ₹250/hr unlock delay fine.*\n\n---"
     },
     "ca-rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment": {
       "id": "ca-rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
@@ -304,6 +322,8 @@
         "Deferred revised Basel III Pillar 3 disclosure requirements to April 1, 2027."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Prudential Alignment: Defers Pillar 3 market disclosures to synchronize disclosure timelines with the implementation of Expected Credit Loss (ECL) provisioning framework.",
         "**Pillar 3 Timeline & Framework Ladder:**",
         "**Effective Date:** **April 1, 2027** (First revised quarterly disclosure for quarter ending **June 30, 2027**).",
         "**Core Alignment:** Synchronized directly with **Expected Credit Loss (ECL)** provisioning framework.",
@@ -330,7 +350,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**What Happened**\n* **Prudential Market Disclosures → Expected Credit Loss Synchronisation:**\n  * Deferred revised Basel III Pillar 3 disclosure requirements to April 1, 2027.\n\n**Must Memorize**\n* **Pillar 3 Timeline & Framework Ladder:**\n  * **Effective Date:** **April 1, 2027** (First revised quarterly disclosure for quarter ending **June 30, 2027**).\n  * **Core Alignment:** Synchronized directly with **Expected Credit Loss (ECL)** provisioning framework.\n  * **Consolidation:** Applies at **top consolidated level** of banking groups (Board-approved disclosure policy mandatory).\n  * 🎯 **Recap:** *Pillar 3 disclosures deferred to April 1, 2027 to align with ECL provisioning.*\n\n---"
+      "contentMarkdown": "### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)\n\n**Know & Understand (Context)**:\n- **Prudential Alignment**: Defers Pillar 3 market disclosures to synchronize disclosure timelines with the implementation of Expected Credit Loss (ECL) provisioning framework.\n\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III\n* **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification\n\n**What Happened**\n* **Prudential Market Disclosures → Expected Credit Loss Synchronisation:**\n  * Deferred revised Basel III Pillar 3 disclosure requirements to April 1, 2027.\n\n**Must Memorize**\n* **Pillar 3 Timeline & Framework Ladder:**\n  * **Effective Date:** **April 1, 2027** (First revised quarterly disclosure for quarter ending **June 30, 2027**).\n  * **Core Alignment:** Synchronized directly with **Expected Credit Loss (ECL)** provisioning framework.\n  * **Consolidation:** Applies at **top consolidated level** of banking groups (Board-approved disclosure policy mandatory).\n  * 🎯 **Recap:** *Pillar 3 disclosures deferred to April 1, 2027 to align with ECL provisioning.*\n\n---"
     },
     "ca-priority-sector-lending-psl-nri-deposit-forex-swap-relief": {
       "id": "ca-priority-sector-lending-psl-nri-deposit-forex-swap-relief",
@@ -1830,6 +1850,8 @@
         "RBI issued draft directions on benchmark pricing, reset frequency, and interest rate transparency."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Transparent Pricing Norms: Standardizes loan pricing by mandating external benchmark linkage and prohibiting arbitrary penal interest charges.",
         "**Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)",
         "**Pricing & Reset Architecture Ladder:**",
         "**Floor Pricing:** Loans **cannot be priced below the applicable benchmark**.",
@@ -1860,7 +1882,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 1. RBI Draft Master Directions: Interest Rates on Loans and Advances 2026\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Lending\n* **Status:** **DRAFT / CONSULTATION** | **Proposed Effective Date:** **1 April 2027**\n* **Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)\n\n**What Happened**\n* **Lending Rate Harmonisation → Draft Master Directions 2026:**\n  * RBI issued draft directions on benchmark pricing, reset frequency, and interest rate transparency.\n\n**Must Memorize (Draft Proposals)**\n* **Pricing & Reset Architecture Ladder:**\n  * **Floor Pricing:** Loans **cannot be priced below the applicable benchmark**.\n  * **Reset Frequency:** Chosen by lender, but **cannot be more than once every 3 months** (remains fixed through tenor).\n  * **Agri Loans:** Reset linked to crop season, capped at **maximum 12 months**.\n  * **Internal Benchmark (MCLR):** Continued for commercial banks, RRBs, Tier 3-4 UCBs with deposits $>₹1,000\text{ Crore}$.\n  * **External Benchmark (EBLR):** Mandatory for floating personal & MSME loans by commercial banks.\n  * **Interest Application:** Charged at **monthly rests**.\n  * 🎯 **Recap:** *Draft loan rules: No pricing below benchmark $mid$ Reset frequency $le 3$ months (12m for agri) $mid$ MCLR for $>₹1,000$ Cr deposits $mid$ Monthly rests.*\n\n---"
+      "contentMarkdown": "### 1. RBI Draft Master Directions: Interest Rates on Loans and Advances 2026\n\n**Know & Understand (Context)**:\n- **Transparent Pricing Norms**: Standardizes loan pricing by mandating external benchmark linkage and prohibiting arbitrary penal interest charges.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Lending\n* **Status:** **DRAFT / CONSULTATION** | **Proposed Effective Date:** **1 April 2027**\n* **Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)\n\n**What Happened**\n* **Lending Rate Harmonisation → Draft Master Directions 2026:**\n  * RBI issued draft directions on benchmark pricing, reset frequency, and interest rate transparency.\n\n**Must Memorize (Draft Proposals)**\n* **Pricing & Reset Architecture Ladder:**\n  * **Floor Pricing:** Loans **cannot be priced below the applicable benchmark**.\n  * **Reset Frequency:** Chosen by lender, but **cannot be more than once every 3 months** (remains fixed through tenor).\n  * **Agri Loans:** Reset linked to crop season, capped at **maximum 12 months**.\n  * **Internal Benchmark (MCLR):** Continued for commercial banks, RRBs, Tier 3-4 UCBs with deposits $>₹1,000\text{ Crore}$.\n  * **External Benchmark (EBLR):** Mandatory for floating personal & MSME loans by commercial banks.\n  * **Interest Application:** Charged at **monthly rests**.\n  * 🎯 **Recap:** *Draft loan rules: No pricing below benchmark $mid$ Reset frequency $le 3$ months (12m for agri) $mid$ MCLR for $>₹1,000$ Cr deposits $mid$ Monthly rests.*\n\n---"
     },
     "ca-public-sector-banks-asset-quality-fy26": {
       "id": "ca-public-sector-banks-asset-quality-fy26",
@@ -2187,6 +2209,8 @@
         "**Category A (untaxed $le ₹1\text{ Cr}$):** **60% effective tax** (30% tax + 30% penalty).",
         "**Category B (taxed/omitted $le ₹5\text{ Cr}$):** **₹1 Lakh flat fee**.",
         "🎯 **Recap:** *FAST-DS: Aug 16–Dec 31, 2026 $mid$ Cat A (60% tax $le ₹1$Cr), Cat B (₹1L fee $le ₹5$Cr).*",
+        "*Know & Understand (Context)**:",
+        "Tax Compliance Mechanism: The Foreign Assets of Small Taxpayers Disclosure Scheme (FAST-DS) provides a one-time relief window under the Black Money Act for small taxpayers with inadvertent minor foreign asset disclosures.",
         "**Foreign Asset Voluntary Disclosure Window:**",
         "CBDT operationalised FAST-DS 2026 under **Chapter IV (Sections 130–144) of Finance Act 2026** (Aug 16 to Dec 31, 2026).",
         "**FAST-DS Valuation & Procedure Ladder:**",
@@ -3733,9 +3757,9 @@
         "**Must Memorize Facts:**",
         "**Bank Dividend Ceiling Ladder:**",
         "Proposed maximum dividend payout ratio raised to **75% of Profit After Tax (PAT)** (earlier 40%).",
-        "Structured across a **10-bucket matrix** linked to previous fiscal CET1 ratio.",
+        "Structured across a **10-bucket matrix** linked to previous fiscal Common Equity Tier 1 (CET1) ratio.",
         "Calculated on Adjusted PAT (after deducting Net NPAs as of March 31).",
-        "🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket CET1 matrix $mid$ Adjusted for Net NPAs.*"
+        "🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket Common Equity Tier 1 (CET1) matrix $mid$ Adjusted for Net NPAs.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -3757,7 +3781,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 4. RBI Proposes Capping Bank Dividend Payouts at 75% of Net Profit\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-16\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **Bank Dividend Ceiling Ladder:**\n    * Proposed maximum dividend payout ratio raised to **75% of Profit After Tax (PAT)** (earlier 40%).\n    * Structured across a **10-bucket matrix** linked to previous fiscal CET1 ratio.\n    * Calculated on Adjusted PAT (after deducting Net NPAs as of March 31).\n  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket CET1 matrix $mid$ Adjusted for Net NPAs.*"
+      "contentMarkdown": "### 4. RBI Proposes Capping Bank Dividend Payouts at 75% of Net Profit\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-16\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **Bank Dividend Ceiling Ladder:**\n    * Proposed maximum dividend payout ratio raised to **75% of Profit After Tax (PAT)** (earlier 40%).\n    * Structured across a **10-bucket matrix** linked to previous fiscal Common Equity Tier 1 (CET1) ratio.\n    * Calculated on Adjusted PAT (after deducting Net NPAs as of March 31).\n  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket Common Equity Tier 1 (CET1) matrix $mid$ Adjusted for Net NPAs.*"
     },
     "ca-dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured": {
       "id": "ca-dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured",
@@ -3832,7 +3856,9 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Regulatory Architecture: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds.",
         "**Single Window Access for Trusted Investors:**",
         "Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).",
         "Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.",
@@ -3858,7 +3884,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 6. SEBI SWAGAT-FI Framework for Trusted Foreign Investors\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-01-14\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Single Window Access for Trusted Investors:**\n    * Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).\n    * Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.\n  * 🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors $mid$ Effective June 1, 2026.*"
+      "contentMarkdown": "### 6. SEBI SWAGAT-FI Framework for Trusted Foreign Investors\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-01-14\n* **Status:** NOTIFIED\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Regulatory Architecture**: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds.\nze Facts:**\n  * **Single Window Access for Trusted Investors:**\n    * Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).\n    * Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.\n  * 🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors $mid$ Effective June 1, 2026.*"
     },
     "ca-rbi-foreign-exchange-management-guarantees-regulations-2026": {
       "id": "ca-rbi-foreign-exchange-management-guarantees-regulations-2026",
@@ -4233,8 +4259,8 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**Significant Index Benchmark Thresholds:**",
-        "Any benchmark tracking combined MF scheme AUM exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).",
-        "🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF AUM $mid$ Bi-annual review.*"
+        "Any benchmark tracking combined MF scheme Assets Under Management (AUM) exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).",
+        "🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF Assets Under Management (AUM) $mid$ Bi-annual review.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -4256,7 +4282,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 14. SEBI Proposed Regulatory Framework for 'Significant Indices' Used by Mutual Funds\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-01-21\n* **Status:** PROPOSAL\n* **Must Memorize Facts:**\n  * **Significant Index Benchmark Thresholds:**\n    * Any benchmark tracking combined MF scheme AUM exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).\n  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF AUM $mid$ Bi-annual review.*"
+      "contentMarkdown": "### 14. SEBI Proposed Regulatory Framework for 'Significant Indices' Used by Mutual Funds\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-01-21\n* **Status:** PROPOSAL\n* **Must Memorize Facts:**\n  * **Significant Index Benchmark Thresholds:**\n    * Any benchmark tracking combined MF scheme Assets Under Management (AUM) exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).\n  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF Assets Under Management (AUM) $mid$ Bi-annual review.*"
     },
     "ca-rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification": {
       "id": "ca-rbi-tightens-priority-sector-lending-psl-on-lending-auditor-certification",
@@ -4280,6 +4306,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Forex & PSL Liquidity Mechanism: Provides regulatory incentives for banks mobilizing foreign currency NRI deposits to support domestic credit growth without squeezing PSL targets.",
         "**Must Memorize Facts:**",
         "**PSL On-Lending Limits & Verification:**",
         "Mandatory external auditor certificate confirming no duplicate PSL claims.",
@@ -4306,7 +4334,7 @@
           "publishedDate": "2026-01-15"
         }
       ],
-      "contentMarkdown": "### 15. RBI Tightens Priority Sector Lending (PSL) on-Lending Auditor Certification\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-22\n* **Must Memorize Facts:**\n  * **PSL On-Lending Limits & Verification:**\n    * Mandatory external auditor certificate confirming no duplicate PSL claims.\n    * On-lending caps: **5% of bank PSL** to NBFCs $mid$ **10% of bank PSL** to NBFC-MFIs.\n  * 🎯 **Recap:** *PSL on-lending caps: 5% to NBFCs, 10% to NBFC-MFIs $mid$ Mandatory auditor certification.*"
+      "contentMarkdown": "### 15. RBI Tightens Priority Sector Lending (PSL) on-Lending Auditor Certification\n\n**Know & Understand (Context)**:\n- **Forex & PSL Liquidity Mechanism**: Provides regulatory incentives for banks mobilizing foreign currency NRI deposits to support domestic credit growth without squeezing PSL targets.\n\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-01-22\n* **Must Memorize Facts:**\n  * **PSL On-Lending Limits & Verification:**\n    * Mandatory external auditor certificate confirming no duplicate PSL claims.\n    * On-lending caps: **5% of bank PSL** to NBFCs $mid$ **10% of bank PSL** to NBFC-MFIs.\n  * 🎯 **Recap:** *PSL on-lending caps: 5% to NBFCs, 10% to NBFC-MFIs $mid$ Mandatory auditor certification.*"
     },
     "ca-cabinet-approves-5000-crore-equity-infusion-for-sidbi": {
       "id": "ca-cabinet-approves-5000-crore-equity-infusion-for-sidbi",
@@ -7378,7 +7406,7 @@
       "whatHappened": [],
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
-        "**UCB Lending Flexibility:**",
+        "**Urban Co-operative Bank (UCB) Lending Flexibility:**",
         "Unsecured ceiling revised to **20% of total advances** (from 10% total assets); consumer durable loan limit raised to **₹2.5 Lakh**.",
         "🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances $mid$ ₹2.5L consumer durable limit.*"
       ],
@@ -7402,7 +7430,7 @@
           "publishedDate": "2026-02-15"
         }
       ],
-      "contentMarkdown": "### 5. RBI Draft UCB Lending Norms: Unsecured Advances Ceiling Revised to 20%\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-02-12\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **UCB Lending Flexibility:**\n    * Unsecured ceiling revised to **20% of total advances** (from 10% total assets); consumer durable loan limit raised to **₹2.5 Lakh**.\n  * 🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances $mid$ ₹2.5L consumer durable limit.*"
+      "contentMarkdown": "### 5. RBI Draft UCB Lending Norms: Unsecured Advances Ceiling Revised to 20%\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-02-12\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **Urban Co-operative Bank (UCB) Lending Flexibility:**\n    * Unsecured ceiling revised to **20% of total advances** (from 10% total assets); consumer durable loan limit raised to **₹2.5 Lakh**.\n  * 🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances $mid$ ₹2.5L consumer durable limit.*"
     },
     "ca-rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims": {
       "id": "ca-rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims",
@@ -11210,7 +11238,7 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**Unclaimed Depositor Funds:**",
-        "PSBs transferred **₹60,518 Crore** to DEA Fund under Section 26A of BR Act (inoperative $>10\text{ yrs}$).",
+        "PSBs transferred **₹60,518 Crore** to Depositor Education and Awareness (DEA) Fund under Section 26A of BR Act (inoperative $>10\text{ yrs}$).",
         "Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).",
         "🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*"
       ],
@@ -11234,7 +11262,7 @@
           "publishedDate": "2026-03-15"
         }
       ],
-      "contentMarkdown": "### 9. DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-03-15\n* **Must Memorize Facts:**\n  * **Unclaimed Depositor Funds:**\n    * PSBs transferred **₹60,518 Crore** to DEA Fund under Section 26A of BR Act (inoperative $>10\text{ yrs}$).\n    * Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).\n  * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*"
+      "contentMarkdown": "### 9. DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-03-15\n* **Must Memorize Facts:**\n  * **Unclaimed Depositor Funds:**\n    * PSBs transferred **₹60,518 Crore** to Depositor Education and Awareness (DEA) Fund under Section 26A of BR Act (inoperative $>10\text{ yrs}$).\n    * Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).\n  * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*"
     },
     "ca-rbi-idpic-deploy-mulehunterai-across-26-banks": {
       "id": "ca-rbi-idpic-deploy-mulehunterai-across-26-banks",
@@ -11408,8 +11436,8 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**MF Liquidity Facility:**",
-        "Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/CCIL), exempt from 20% 6-month cap (effective **April 1, 2026**).",
-        "🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/CCIL receivables.*"
+        "Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/Clearing Corporation of India Limited (CCIL)), exempt from 20% 6-month cap (effective **April 1, 2026**).",
+        "🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/Clearing Corporation of India Limited (CCIL) receivables.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -11431,7 +11459,7 @@
           "publishedDate": "2026-03-15"
         }
       ],
-      "contentMarkdown": "### 13. SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-03-19\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **MF Liquidity Facility:**\n    * Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/CCIL), exempt from 20% 6-month cap (effective **April 1, 2026**).\n  * 🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/CCIL receivables.*"
+      "contentMarkdown": "### 13. SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-03-19\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **MF Liquidity Facility:**\n    * Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/Clearing Corporation of India Limited (CCIL)), exempt from 20% 6-month cap (effective **April 1, 2026**).\n  * 🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/Clearing Corporation of India Limited (CCIL) receivables.*"
     },
     "ca-pfrda-revises-nps-point-of-presence-pop-distributor-charges": {
       "id": "ca-pfrda-revises-nps-point-of-presence-pop-distributor-charges",
@@ -11457,8 +11485,8 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**PoP Distributor Fees:**",
-        "Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of AUM**.",
-        "🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual AUM fee.*"
+        "Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of Assets Under Management (AUM)**.",
+        "🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual Assets Under Management (AUM) fee.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -11480,7 +11508,7 @@
           "publishedDate": "2026-03-15"
         }
       ],
-      "contentMarkdown": "### 14. PFRDA Revises NPS Point of Presence (PoP) Distributor Charges\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS\n* **Institution:** PFRDA\n* **Event Date:** 2026-03-12\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **PoP Distributor Fees:**\n    * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of AUM**.\n  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual AUM fee.*"
+      "contentMarkdown": "### 14. PFRDA Revises NPS Point of Presence (PoP) Distributor Charges\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS\n* **Institution:** PFRDA\n* **Event Date:** 2026-03-12\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **PoP Distributor Fees:**\n    * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of Assets Under Management (AUM)**.\n  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual Assets Under Management (AUM) fee.*"
     },
     "ca-sebi-proposes-mutual-fund-prepaid-gift-instruments-10000-cap": {
       "id": "ca-sebi-proposes-mutual-fund-prepaid-gift-instruments-10000-cap",
@@ -11557,7 +11585,9 @@
         "Measures operational robustness, system uptime, and cybersecurity resilience."
       ],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "MII Resilience Index: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.",
         "**MII Cyber Resilience:**",
         "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).",
         "🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*",
@@ -11598,7 +11628,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 16. SEBI IT Resilience Index Framework for Market Infrastructure Institutions\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-03-15\n* **Status:** PROPOSAL\n* **Must Memorize Facts:**\n  * **MII Cyber Resilience:**\n    * 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).\n  * 🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*"
+      "contentMarkdown": "### 16. SEBI IT Resilience Index Framework for Market Infrastructure Institutions\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-03-15\n* **Status:** PROPOSAL\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **MII Resilience Index**: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.\nze Facts:**\n  * **MII Cyber Resilience:**\n    * 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).\n  * 🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*"
     },
     "ca-sebi-life-cycle-mutual-funds-framework-product-tenures": {
       "id": "ca-sebi-life-cycle-mutual-funds-framework-product-tenures",
@@ -14724,6 +14754,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.",
         "**Must Memorize Facts:**",
         "**NBFC Upper Layer Classification → Threshold Revision:**",
         "Proposes a simple asset size threshold of **₹1 lakh crore or more** for NBFC-UL classification (replacing the scoring matrix; reviewed every 5 years).",
@@ -14751,7 +14783,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 1. RBI Draft Norms on NBFC Upper Layer (NBFC-UL) & Inclusion of Govt NBFCs\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-18\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **NBFC Upper Layer Classification → Threshold Revision:**\n    * Proposes a simple asset size threshold of **₹1 lakh crore or more** for NBFC-UL classification (replacing the scoring matrix; reviewed every 5 years).\n    * Removes regulatory exemptions for state-owned financial institutions: **NABARD, EXIM Bank, and SIDBI** brought under same capital/governance norms as private NBFC-ULs.\n    * Allows NBFC-UL entities to use State Government guarantees as credit risk transfer instruments without caps.\n  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Cr asset size $mid$ NABARD, EXIM, SIDBI included $mid$ 5-yr review.*"
+      "contentMarkdown": "### 1. RBI Draft Norms on NBFC Upper Layer (NBFC-UL) & Inclusion of Govt NBFCs\n\n**Know & Understand (Context)**:\n- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.\n\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-18\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **NBFC Upper Layer Classification → Threshold Revision:**\n    * Proposes a simple asset size threshold of **₹1 lakh crore or more** for NBFC-UL classification (replacing the scoring matrix; reviewed every 5 years).\n    * Removes regulatory exemptions for state-owned financial institutions: **NABARD, EXIM Bank, and SIDBI** brought under same capital/governance norms as private NBFC-ULs.\n    * Allows NBFC-UL entities to use State Government guarantees as credit risk transfer instruments without caps.\n  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Cr asset size $mid$ NABARD, EXIM, SIDBI included $mid$ 5-yr review.*"
     },
     "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance": {
       "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
@@ -14775,7 +14807,9 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Transaction Security Balance: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits.",
         "**Recurring Digital Payments → E-Mandate Thresholds:**",
         "Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.",
         "**Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.",
@@ -14802,7 +14836,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 2. RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance\n* **Priority:** P2 — High\n* **Category:** DIGITAL_PAYMENTS\n* **Institution:** RBI\n* **Event Date:** 2026-04-16\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Recurring Digital Payments → E-Mandate Thresholds:**\n    * Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.\n    * **Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.\n    * Mandates pre-debit notifications at least **24 hours in advance**.\n  * 🎯 **Recap:** *E-Mandate limit: ₹15,000 standard $mid$ ₹1 Lakh for SIPs/Insurance/Cards $mid$ 24-hr pre-debit alert.*"
+      "contentMarkdown": "### 2. RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance\n* **Priority:** P2 — High\n* **Category:** DIGITAL_PAYMENTS\n* **Institution:** RBI\n* **Event Date:** 2026-04-16\n* **Status:** NOTIFIED\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Transaction Security Balance**: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits.\nze Facts:**\n  * **Recurring Digital Payments → E-Mandate Thresholds:**\n    * Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.\n    * **Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.\n    * Mandates pre-debit notifications at least **24 hours in advance**.\n  * 🎯 **Recap:** *E-Mandate limit: ₹15,000 standard $mid$ ₹1 Lakh for SIPs/Insurance/Cards $mid$ 24-hr pre-debit alert.*"
     },
     "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation": {
       "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
@@ -14826,7 +14860,9 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Forex Liquidity Mechanism: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement.",
         "**Inward Remittance Acceleration → Hourly Nostro Reconciliation:**",
         "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).",
         "Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.",
@@ -14853,7 +14889,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 3. RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-15\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**\n    * Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).\n    * Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.\n    * Beneficiary accounts must be credited within the **same business day** during forex market hours.\n  * 🎯 **Recap:** *Nostro reconciliation within 1 hour $mid$ Same-day credit to beneficiaries $mid$ PSSA 2007.*"
+      "contentMarkdown": "### 3. RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-15\n* **Status:** NOTIFIED\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Forex Liquidity Mechanism**: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement.\nze Facts:**\n  * **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**\n    * Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).\n    * Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.\n    * Beneficiary accounts must be credited within the **same business day** during forex market hours.\n  * 🎯 **Recap:** *Nostro reconciliation within 1 hour $mid$ Same-day credit to beneficiaries $mid$ PSSA 2007.*"
     },
     "ca-rbi-proposal-on-high-value-digital-transfer-friction-1-hour-delay-on-transfers-10000": {
       "id": "ca-rbi-proposal-on-high-value-digital-transfer-friction-1-hour-delay-on-transfers-10000",
@@ -15080,8 +15116,8 @@
       "whatHappened": [],
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
-        "**Forex Market Transparency → CCIL Repository Reporting:**",
-        "Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to CCIL Trade Repository.",
+        "**Forex Market Transparency → Clearing Corporation of India Limited (CCIL) Repository Reporting:**",
+        "Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to Clearing Corporation of India Limited (CCIL) Trade Repository.",
         "Phased coverage thresholds: **70%, 80%, and 90%** of notional value across staggered tranches.",
         "🎯 **Recap:** *CCIL Trade Repository reporting for OTC rupee forex derivatives $mid$ Phased 70%/80%/90% $mid$ Effective July 1, 2027.*"
       ],
@@ -15105,7 +15141,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 8. RBI Phased OTC Forex Derivatives Reporting to CCIL Trade Repository\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-22\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Forex Market Transparency → CCIL Repository Reporting:**\n    * Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to CCIL Trade Repository.\n    * Phased coverage thresholds: **70%, 80%, and 90%** of notional value across staggered tranches.\n  * 🎯 **Recap:** *CCIL Trade Repository reporting for OTC rupee forex derivatives $mid$ Phased 70%/80%/90% $mid$ Effective July 1, 2027.*"
+      "contentMarkdown": "### 8. RBI Phased OTC Forex Derivatives Reporting to CCIL Trade Repository\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-04-22\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Forex Market Transparency → Clearing Corporation of India Limited (CCIL) Repository Reporting:**\n    * Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to Clearing Corporation of India Limited (CCIL) Trade Repository.\n    * Phased coverage thresholds: **70%, 80%, and 90%** of notional value across staggered tranches.\n  * 🎯 **Recap:** *CCIL Trade Repository reporting for OTC rupee forex derivatives $mid$ Phased 70%/80%/90% $mid$ Effective July 1, 2027.*"
     },
     "ca-rbi-suo-motu-loan-restructuring-framework-in-areas-hit-by-natural-calamities": {
       "id": "ca-rbi-suo-motu-loan-restructuring-framework-in-areas-hit-by-natural-calamities",
@@ -15974,7 +16010,9 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Social Security Reform: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers.",
         "**EPF Digital Overhaul → Immediate 75% Withdrawal:**",
         "Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.",
         "Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.",
@@ -16000,7 +16038,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 27. EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS\n* **Institution:** OTHER\n* **Event Date:** 2026-04-05\n* **Must Memorize Facts:**\n  * **EPF Digital Overhaul → Immediate 75% Withdrawal:**\n    * Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.\n    * Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.\n  * 🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months $mid$ E-PRAAPTI portal $mid$ 8.31 Cr claims settled.*"
+      "contentMarkdown": "### 27. EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal\n* **Priority:** P2 — High\n* **Category:** PENSION_SYSTEMS\n* **Institution:** OTHER\n* **Event Date:** 2026-04-05\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Social Security Reform**: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers.\nze Facts:**\n  * **EPF Digital Overhaul → Immediate 75% Withdrawal:**\n    * Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.\n    * Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.\n  * 🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months $mid$ E-PRAAPTI portal $mid$ 8.31 Cr claims settled.*"
     },
     "ca-income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard": {
       "id": "ca-income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard",
@@ -16027,7 +16065,7 @@
         "**Must Memorize Facts:**",
         "**Tax Compliance Overhaul → Form 130 & TRACES 2.0:**",
         "Employer Form 16 replaced by **Form 130** (disclosing exact tax deduction rate; shifts from AY to Tax Year under TIN 2.0).",
-        "Launched **TRACES 2.0** unifying 26AS, AIS, and TDS credits into a single real-time dashboard.",
+        "Launched **TRACES 2.0** unifying 26AS, Automotive Industry Standard (AIS), and TDS credits into a single real-time dashboard.",
         "🎯 **Recap:** *Form 130 replaces Form 16 $mid$ TRACES 2.0 unifies 26AS, AIS, and TDS.*"
       ],
       "knowUnderstandContext": [],
@@ -16050,7 +16088,7 @@
           "publishedDate": "2026-04-15"
         }
       ],
-      "contentMarkdown": "### 28. Income Tax Rules 2026: Form 130 Replaces Form 16 & TRACES 2.0 Dashboard\n* **Priority:** P2 — High\n* **Category:** MACRO_ECONOMY\n* **Institution:** MINISTRY_OF_FINANCE\n* **Event Date:** 2026-04-01\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Tax Compliance Overhaul → Form 130 & TRACES 2.0:**\n    * Employer Form 16 replaced by **Form 130** (disclosing exact tax deduction rate; shifts from AY to Tax Year under TIN 2.0).\n    * Launched **TRACES 2.0** unifying 26AS, AIS, and TDS credits into a single real-time dashboard.\n  * 🎯 **Recap:** *Form 130 replaces Form 16 $mid$ TRACES 2.0 unifies 26AS, AIS, and TDS.*"
+      "contentMarkdown": "### 28. Income Tax Rules 2026: Form 130 Replaces Form 16 & TRACES 2.0 Dashboard\n* **Priority:** P2 — High\n* **Category:** MACRO_ECONOMY\n* **Institution:** MINISTRY_OF_FINANCE\n* **Event Date:** 2026-04-01\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Tax Compliance Overhaul → Form 130 & TRACES 2.0:**\n    * Employer Form 16 replaced by **Form 130** (disclosing exact tax deduction rate; shifts from AY to Tax Year under TIN 2.0).\n    * Launched **TRACES 2.0** unifying 26AS, Automotive Industry Standard (AIS), and TDS credits into a single real-time dashboard.\n  * 🎯 **Recap:** *Form 130 replaces Form 16 $mid$ TRACES 2.0 unifies 26AS, AIS, and TDS.*"
     },
     "ca-india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility": {
       "id": "ca-india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility",
@@ -18450,10 +18488,12 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Basel III Capital Computation: Allows commercial banks to count unaudited interim quarterly profits toward Common Equity Tier 1 (CET1) capital only after deducting proportionate accrued dividends and tax liabilities.",
         "**Bank Capital Computation → Quarterly Profit Inclusion:**",
         "Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.",
-        "Banks can include quarterly profits in CET1 capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.",
+        "Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.",
         "🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review $mid$ 25% NPA provisioning variance rule removed.*"
       ],
       "knowUnderstandContext": [],
@@ -18476,7 +18516,7 @@
           "publishedDate": "2026-05-15"
         }
       ],
-      "contentMarkdown": "### 1. RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-05-16\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **Bank Capital Computation → Quarterly Profit Inclusion:**\n    * Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.\n    * Banks can include quarterly profits in CET1 capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.\n  * 🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review $mid$ 25% NPA provisioning variance rule removed.*"
+      "contentMarkdown": "### 1. RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-05-16\n* **Status:** DRAFT\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Basel III Capital Computation**: Allows commercial banks to count unaudited interim quarterly profits toward Common Equity Tier 1 (CET1) capital only after deducting proportionate accrued dividends and tax liabilities.\nze Facts:**\n  * **Bank Capital Computation → Quarterly Profit Inclusion:**\n    * Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.\n    * Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.\n  * 🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review $mid$ 25% NPA provisioning variance rule removed.*"
     },
     "ca-rbi-draft-norms-on-specified-non-financial-assets-snfas-lender-ownership-of-collateral": {
       "id": "ca-rbi-draft-norms-on-specified-non-financial-assets-snfas-lender-ownership-of-collateral",
@@ -18553,7 +18593,9 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "**Must Memorize Facts:**",
+        "**Must Memori",
+        "*Know & Understand (Context)**:",
+        "Fair Practices Code: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.",
         "**Device Financing Enforcement & Recovery Code:**",
         "Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.",
         "**Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM** $mid$ Mandatory IIBF certification $mid$ 6-month call recording retention.",
@@ -18579,7 +18621,7 @@
           "publishedDate": "2026-05-15"
         }
       ],
-      "contentMarkdown": "### 3. RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-05-20\n* **Status:** DRAFT\n* **Must Memorize Facts:**\n  * **Device Financing Enforcement & Recovery Code:**\n    * Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.\n    * **Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM** $mid$ Mandatory IIBF certification $mid$ 6-month call recording retention.\n  * 🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error) $mid$ Recovery calling hours: 8 AM to 7 PM.*"
+      "contentMarkdown": "### 3. RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** RBI\n* **Event Date:** 2026-05-20\n* **Status:** DRAFT\n* **Must Memori\n\n**Know & Understand (Context)**:\n- **Fair Practices Code**: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.\nze Facts:**\n  * **Device Financing Enforcement & Recovery Code:**\n    * Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.\n    * **Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM** $mid$ Mandatory IIBF certification $mid$ 6-month call recording retention.\n  * 🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error) $mid$ Recovery calling hours: 8 AM to 7 PM.*"
     },
     "ca-rbi-decides-against-activating-countercyclical-capital-buffer-ccyb": {
       "id": "ca-rbi-decides-against-activating-countercyclical-capital-buffer-ccyb",
@@ -19146,12 +19188,15 @@
       "atomicRecall": "SEBI Proposes Open Market Stock Exchange Buyback Framework (66-Day Window)",
       "examAngle": {
         "likelyAsks": [
-          "Regulatory effective date / compliance timeline"
+          "Regulatory effective date / compliance timeline",
+          "Global rank of India / benchmark publishing institution"
         ]
       },
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "MII Resilience Index: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.",
         "**Must Memorize Facts:**",
         "**Share Buyback Timeline Reform:**",
         "Maximum open-market buyback timeline compressed to **66 working days**; at least **40% of buyback size** must be utilized in first half of offer; promoter shares frozen at ISIN level.",
@@ -19177,7 +19222,7 @@
           "publishedDate": "2026-05-15"
         }
       ],
-      "contentMarkdown": "### 16. SEBI Proposes Open Market Stock Exchange Buyback Framework (66-Day Window)\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-05-18\n* **Status:** PROPOSAL\n* **Must Memorize Facts:**\n  * **Share Buyback Timeline Reform:**\n    * Maximum open-market buyback timeline compressed to **66 working days**; at least **40% of buyback size** must be utilized in first half of offer; promoter shares frozen at ISIN level.\n  * 🎯 **Recap:** *66-day open market buyback window $mid$ 40% utilization in first half.*"
+      "contentMarkdown": "### 16. SEBI Proposes Open Market Stock Exchange Buyback Framework (66-Day Window)\n\n**Know & Understand (Context)**:\n- **MII Resilience Index**: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.\n\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-05-18\n* **Status:** PROPOSAL\n* **Must Memorize Facts:**\n  * **Share Buyback Timeline Reform:**\n    * Maximum open-market buyback timeline compressed to **66 working days**; at least **40% of buyback size** must be utilized in first half of offer; promoter shares frozen at ISIN level.\n  * 🎯 **Recap:** *66-day open market buyback window $mid$ 40% utilization in first half.*"
     },
     "ca-sebi-proposes-doubling-client-position-limits-for-agri-commodity-derivatives": {
       "id": "ca-sebi-proposes-doubling-client-position-limits-for-agri-commodity-derivatives",
@@ -19450,7 +19495,7 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**Benchmark Index Regulation:**",
-        "Index providers with tracked mutual fund AUM exceeding **₹20,000 Crore** must register with SEBI within 6 months (RBI-notified benchmarks exempt).",
+        "Index providers with tracked mutual fund Assets Under Management (AUM) exceeding **₹20,000 Crore** must register with SEBI within 6 months (RBI-notified benchmarks exempt).",
         "🎯 **Recap:** *Index providers tracking >₹20,000 Cr MF AUM must register with SEBI.*"
       ],
       "knowUnderstandContext": [],
@@ -19473,7 +19518,7 @@
           "publishedDate": "2026-05-15"
         }
       ],
-      "contentMarkdown": "### 22. SEBI Directs Significant Indices Providers to Register within 6 Months\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-05-14\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Benchmark Index Regulation:**\n    * Index providers with tracked mutual fund AUM exceeding **₹20,000 Crore** must register with SEBI within 6 months (RBI-notified benchmarks exempt).\n  * 🎯 **Recap:** *Index providers tracking >₹20,000 Cr MF AUM must register with SEBI.*"
+      "contentMarkdown": "### 22. SEBI Directs Significant Indices Providers to Register within 6 Months\n* **Priority:** P2 — High\n* **Category:** CAPITAL_MARKETS\n* **Institution:** SEBI\n* **Event Date:** 2026-05-14\n* **Status:** NOTIFIED\n* **Must Memorize Facts:**\n  * **Benchmark Index Regulation:**\n    * Index providers with tracked mutual fund Assets Under Management (AUM) exceeding **₹20,000 Crore** must register with SEBI within 6 months (RBI-notified benchmarks exempt).\n  * 🎯 **Recap:** *Index providers tracking >₹20,000 Cr MF AUM must register with SEBI.*"
     },
     "ca-pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds": {
       "id": "ca-pfrda-expands-nps-investment-universe-to-include-new-development-bank-ndb-rupee-bonds",
@@ -22126,8 +22171,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Key Facts: Mandates AIS-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.",
-        "🎯 **Recap:** *V2V communication (AIS-230) mandatory from Oct 1, 2028.*"
+        "Key Facts: Mandates Automotive Industry Standard (AIS)-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.",
+        "🎯 **Recap:** *V2V communication (Automotive Industry Standard (AIS)-230) mandatory from Oct 1, 2028.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -22149,7 +22194,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 15. MoRTH Proposes Phased Mandate for Vehicle-to-Vehicle (V2V) Communication Systems (AIS-230)\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-09`\n- **Key Facts**: Mandates AIS-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.\n- 🎯 **Recap:** *V2V communication (AIS-230) mandatory from Oct 1, 2028.*"
+      "contentMarkdown": "### 15. MoRTH Proposes Phased Mandate for Vehicle-to-Vehicle (V2V) Communication Systems (AIS-230)\n- **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-09`\n- **Key Facts**: Mandates Automotive Industry Standard (AIS)-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicles from **October 1, 2028**.\n- 🎯 **Recap:** *V2V communication (Automotive Industry Standard (AIS)-230) mandatory from Oct 1, 2028.*"
     },
     "ca-palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active": {
       "id": "ca-palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
@@ -24719,6 +24764,8 @@
         "Approved **₹1.90 Lakh Crore combined push** across mobile phone manufacturing (₹62,500 Cr) and semiconductors (₹1,27,500 Cr)."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Strategic Industrial Push: Combines electronics hardware and semiconductor fabrication incentives to enhance domestic value addition and export competitiveness.",
         "**MPMS & Semicon 2.0 Architecture Ladder:**",
         "**MPMS (Mobile Phone Manufacturing Scheme):**",
         "**₹62,500 Crore** outlay over 5 years (**FY27 to FY31**).",
@@ -24748,7 +24795,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 5. Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Electronics Manufacturing & Industrial Policy\n* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** APPROVED BY UNION CABINET\n\n**What Happened**\n* **National Electronics Manufacturing Push → MPMS & Semicon 2.0:**\n  * Approved **₹1.90 Lakh Crore combined push** across mobile phone manufacturing (₹62,500 Cr) and semiconductors (₹1,27,500 Cr).\n\n**Must Memorize (MPMS & Semicon 2.0 Specifications)**\n* **MPMS & Semicon 2.0 Architecture Ladder:**\n  * **MPMS (Mobile Phone Manufacturing Scheme):**\n    * **₹62,500 Crore** outlay over 5 years (**FY27 to FY31**).\n    * **2.25% to 5%** incremental sales incentive + **up to 1.5%** domestic sourcing bonus + **3%** Indian brand design bonus.\n    * Context: Smartphones became India's **#1 exported product category in 2025**; India is **#2 mobile manufacturer globally (99.2% domestic)**.\n  * **Semicon 2.0:**\n    * **₹1,27,500 Crore** outlay across 6 pillars (Design, Materials, Fabs, ATMP/OSAT, R&D Nodes, Talent).\n  * 🎯 **Recap:** *MPMS: ₹62,500 Cr (2.25%–5% sales incentive + 3% IP bonus) $mid$ Semicon 2.0: ₹1,27,500 Cr across 6 pillars.*\n\n---"
+      "contentMarkdown": "### 5. Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)\n\n**Know & Understand (Context)**:\n- **Strategic Industrial Push**: Combines electronics hardware and semiconductor fabrication incentives to enhance domestic value addition and export competitiveness.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Electronics Manufacturing & Industrial Policy\n* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** APPROVED BY UNION CABINET\n\n**What Happened**\n* **National Electronics Manufacturing Push → MPMS & Semicon 2.0:**\n  * Approved **₹1.90 Lakh Crore combined push** across mobile phone manufacturing (₹62,500 Cr) and semiconductors (₹1,27,500 Cr).\n\n**Must Memorize (MPMS & Semicon 2.0 Specifications)**\n* **MPMS & Semicon 2.0 Architecture Ladder:**\n  * **MPMS (Mobile Phone Manufacturing Scheme):**\n    * **₹62,500 Crore** outlay over 5 years (**FY27 to FY31**).\n    * **2.25% to 5%** incremental sales incentive + **up to 1.5%** domestic sourcing bonus + **3%** Indian brand design bonus.\n    * Context: Smartphones became India's **#1 exported product category in 2025**; India is **#2 mobile manufacturer globally (99.2% domestic)**.\n  * **Semicon 2.0:**\n    * **₹1,27,500 Crore** outlay across 6 pillars (Design, Materials, Fabs, ATMP/OSAT, R&D Nodes, Talent).\n  * 🎯 **Recap:** *MPMS: ₹62,500 Cr (2.25%–5% sales incentive + 3% IP bonus) $mid$ Semicon 2.0: ₹1,27,500 Cr across 6 pillars.*\n\n---"
     },
     "ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone": {
       "id": "ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
@@ -24775,6 +24822,8 @@
         "Celebrated 10th Foundation Day on **9 August 2026**; cumulative GMV crossed **₹20 Lakh Crore+**."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Public Procurement Efficiency: GeM provides a transparent digital marketplace for public procurement, reducing intermediation costs for government buyers and MSMEs.",
         "**GeM Procurement Metrics Ladder:**",
         "**Cumulative Procurement:** **₹20 Lakh Crore+** across **3.78 Crore+ orders**.",
         "**MSE Procurement:** 12.28 lakh MSEs secured **₹9 Lakh Crore+ (45.6% of GMV)**.",
@@ -24803,7 +24852,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 6. Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Public Procurement & FinTech\n* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** 10TH ANNIVERSARY MILESTONE\n\n**What Happened**\n* **Public Procurement Digitalisation → GeM 10th Anniversary:**\n  * Celebrated 10th Foundation Day on **9 August 2026**; cumulative GMV crossed **₹20 Lakh Crore+**.\n\n**Must Memorize (Cumulative Procurement & Inclusivity Numbers)**\n* **GeM Procurement Metrics Ladder:**\n  * **Cumulative Procurement:** **₹20 Lakh Crore+** across **3.78 Crore+ orders**.\n  * **MSE Procurement:** 12.28 lakh MSEs secured **₹9 Lakh Crore+ (45.6% of GMV)**.\n  * **Women-Led MSEs:** 2.24 lakh+ registered, securing **>₹1 Lakh Crore** in orders.\n  * **Defence Procurement (DMA):** **₹1.35 Lakh Crore (14.93% of GMV)**.\n  * **Digital Channels:** Short Code **14550** $mid$ 50 **GeM Suvidha Kendras** $mid$ **GeM Sahay** loan integration with Union Bank of India.\n  * 🎯 **Recap:** *GeM: ₹20L Cr+ GMV in 10 years $mid$ MSEs 45.6% $mid$ Short Code 14550 $mid$ GeM Sahay.*\n\n---"
+      "contentMarkdown": "### 6. Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone\n\n**Know & Understand (Context)**:\n- **Public Procurement Efficiency**: GeM provides a transparent digital marketplace for public procurement, reducing intermediation costs for government buyers and MSMEs.\n\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Public Procurement & FinTech\n* **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** 10TH ANNIVERSARY MILESTONE\n\n**What Happened**\n* **Public Procurement Digitalisation → GeM 10th Anniversary:**\n  * Celebrated 10th Foundation Day on **9 August 2026**; cumulative GMV crossed **₹20 Lakh Crore+**.\n\n**Must Memorize (Cumulative Procurement & Inclusivity Numbers)**\n* **GeM Procurement Metrics Ladder:**\n  * **Cumulative Procurement:** **₹20 Lakh Crore+** across **3.78 Crore+ orders**.\n  * **MSE Procurement:** 12.28 lakh MSEs secured **₹9 Lakh Crore+ (45.6% of GMV)**.\n  * **Women-Led MSEs:** 2.24 lakh+ registered, securing **>₹1 Lakh Crore** in orders.\n  * **Defence Procurement (DMA):** **₹1.35 Lakh Crore (14.93% of GMV)**.\n  * **Digital Channels:** Short Code **14550** $mid$ 50 **GeM Suvidha Kendras** $mid$ **GeM Sahay** loan integration with Union Bank of India.\n  * 🎯 **Recap:** *GeM: ₹20L Cr+ GMV in 10 years $mid$ MSEs 45.6% $mid$ Short Code 14550 $mid$ GeM Sahay.*\n\n---"
     },
     "ca-paimana-infrastructure-governance-165-indicator-dashboard": {
       "id": "ca-paimana-infrastructure-governance-165-indicator-dashboard",
@@ -31863,10 +31912,10 @@
       "mustMemorizeFacts": [
         "**Must Memorize Facts:**",
         "**SBI Corporate Actions:**",
-        "AT-1 Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.",
+        "Additional Tier 1 (AT-1) Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.",
         "RDCL Stake: Acquired **10% stake** from NHB (NHB holding reduced to 29%).",
         "SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore** $mid$ Launched **\"YONO Ji\"** AI assistant.",
-        "🎯 **Recap:** *SBI raised ₹4,691 Cr AT-1 bonds (7.75%) $mid$ Acquired 10% RDCL stake.*"
+        "🎯 **Recap:** *SBI raised ₹4,691 Cr Additional Tier 1 (AT-1) bonds (7.75%) $mid$ Acquired 10% RDCL stake.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -31888,7 +31937,7 @@
           "publishedDate": "2026-07-15"
         }
       ],
-      "contentMarkdown": "### 8. State Bank of India Key Financial Milestones: AT-1 Bonds & RDCL Stake Acquisition\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** SBI\n* **Event Date:** 2026-07-24\n* **Must Memorize Facts:**\n  * **SBI Corporate Actions:**\n    * AT-1 Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.\n    * RDCL Stake: Acquired **10% stake** from NHB (NHB holding reduced to 29%).\n    * SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore** $mid$ Launched **\"YONO Ji\"** AI assistant.\n  * 🎯 **Recap:** *SBI raised ₹4,691 Cr AT-1 bonds (7.75%) $mid$ Acquired 10% RDCL stake.*"
+      "contentMarkdown": "### 8. State Bank of India Key Financial Milestones: AT-1 Bonds & RDCL Stake Acquisition\n* **Priority:** P2 — High\n* **Category:** BANKING_REGULATION\n* **Institution:** SBI\n* **Event Date:** 2026-07-24\n* **Must Memorize Facts:**\n  * **SBI Corporate Actions:**\n    * Additional Tier 1 (AT-1) Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.\n    * RDCL Stake: Acquired **10% stake** from NHB (NHB holding reduced to 29%).\n    * SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore** $mid$ Launched **\"YONO Ji\"** AI assistant.\n  * 🎯 **Recap:** *SBI raised ₹4,691 Cr Additional Tier 1 (AT-1) bonds (7.75%) $mid$ Acquired 10% RDCL stake.*"
     },
     "ca-irdai-137th-meeting-insurance-sector-overhauls": {
       "id": "ca-irdai-137th-meeting-insurance-sector-overhauls",
@@ -32115,7 +32164,7 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Mandates TReDS invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months."
+        "Mandates Trade Receivables Discounting System (TReDS) invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -32137,7 +32186,7 @@
           "publishedDate": "2026-07-15"
         }
       ],
-      "contentMarkdown": "* **MSMED (Amendment) Bill 2026**: Mandates TReDS invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months."
+      "contentMarkdown": "* **MSMED (Amendment) Bill 2026**: Mandates Trade Receivables Discounting System (TReDS) invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months."
     },
     "ca-sovereign-green-bonds-foreign-loans": {
       "id": "ca-sovereign-green-bonds-foreign-loans",
@@ -32451,7 +32500,7 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Kakinada Cooperative Town Bank attained **Tier-III UCB status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr)."
+        "Kakinada Cooperative Town Bank attained **Tier-III Urban Co-operative Bank (UCB) status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -32473,7 +32522,7 @@
           "publishedDate": "2026-07-15"
         }
       ],
-      "contentMarkdown": "* **Urban Cooperative Bank Tiers**: Kakinada Cooperative Town Bank attained **Tier-III UCB status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr)."
+      "contentMarkdown": "* **Urban Cooperative Bank Tiers**: Kakinada Cooperative Town Bank attained **Tier-III Urban Co-operative Bank (UCB) status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr)."
     },
     "ca-61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul": {
       "id": "ca-61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul",
@@ -34169,8 +34218,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Key Facts: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of AUM (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).",
-        "🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% AUM cap.*"
+        "Key Facts: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of Assets Under Management (AUM) (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).",
+        "🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% Assets Under Management (AUM) cap.*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -34192,7 +34241,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 1. NCGTC Revised Norms for Microfinance Institutions (MFIs)\n* **Priority:** P2 — High | **Category:** BANKING_REGULATION | **Institution:** NCGTC / DFS | **Event Date:** 2026-08-02\n* **Key Facts**: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of AUM (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).\n* 🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% AUM cap.*"
+      "contentMarkdown": "### 1. NCGTC Revised Norms for Microfinance Institutions (MFIs)\n* **Priority:** P2 — High | **Category:** BANKING_REGULATION | **Institution:** NCGTC / DFS | **Event Date:** 2026-08-02\n* **Key Facts**: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of Assets Under Management (AUM) (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).\n* 🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% Assets Under Management (AUM) cap.*"
     },
     "ca-ethanol-interest-subvention-schemes-nabard-nodal-role": {
       "id": "ca-ethanol-interest-subvention-schemes-nabard-nodal-role",
@@ -37480,7 +37529,7 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Upgraded to **Tier-III UCB** status (deposits $>₹2,000$ crore with zero net NPAs)."
+        "Upgraded to **Tier-III Urban Co-operative Bank (UCB)** status (deposits $>₹2,000$ crore with zero net NPAs)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -37502,7 +37551,7 @@
           "publishedDate": "2026-07-15"
         }
       ],
-      "contentMarkdown": "* **Kakinada Cooperative Town Bank**: Upgraded to **Tier-III UCB** status (deposits $>₹2,000$ crore with zero net NPAs)."
+      "contentMarkdown": "* **Kakinada Cooperative Town Bank**: Upgraded to **Tier-III Urban Co-operative Bank (UCB)** status (deposits $>₹2,000$ crore with zero net NPAs)."
     },
     "ca-2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally": {
       "id": "ca-2026-glasgow-commonwealth-games-23rd-edition-indias-performance-medal-tally",
@@ -38269,7 +38318,7 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a TReDS platform*)."
+        "RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a Trade Receivables Discounting System (TReDS) platform*)."
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -38291,7 +38340,7 @@
           "publishedDate": "2026-06-15"
         }
       ],
-      "contentMarkdown": "* **TReDS Platforms (5 Authorised)**: RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a TReDS platform*)."
+      "contentMarkdown": "* **TReDS Platforms (5 Authorised)**: RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a Trade Receivables Discounting System (TReDS) platform*)."
     },
     "ca-ncdex-har-ghar-investor": {
       "id": "ca-ncdex-har-ghar-investor",
@@ -40420,8 +40469,8 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "Key Facts: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% IIP weight).",
-        "🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% IIP weight).*"
+        "Key Facts: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% Index of Industrial Production (IIP) weight).",
+        "🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% Index of Industrial Production (IIP) weight).*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -40443,7 +40492,7 @@
           "publishedDate": "2026-07-15"
         }
       ],
-      "contentMarkdown": "### 25. MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `MOSPI`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-07-12`\n- **Key Facts**: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% IIP weight).\n- 🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% IIP weight).*"
+      "contentMarkdown": "### 25. MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `MOSPI`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-07-12`\n- **Key Facts**: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% Index of Industrial Production (IIP) weight).\n- 🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% Index of Industrial Production (IIP) weight).*"
     },
     "ca-niti-aayog-investment-friendliness-index-ifi-2026-gujarat-ranks-1-among-large-states": {
       "id": "ca-niti-aayog-investment-friendliness-index-ifi-2026-gujarat-ranks-1-among-large-states",
@@ -48152,6 +48201,8 @@
         "RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size $ge mathbf{₹1,00,000\text{ Crore}}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.",
         "**NBFC-UL Prudential Framework Ladder:**",
         "**Classification Cutoff:** Standalone assets $ge mathbf{₹1,00,000\text{ Crore}}$ (reviewed every 3 years).",
         "**Large Exposure Limit (NBFC-IFCs):** Connected borrower group limit raised to **45% of Tier-1 capital** (+20% infra headroom).",
@@ -48185,7 +48236,7 @@
           "publishedDate": "2026-06-15"
         }
       ],
-      "contentMarkdown": "### 4. RBI Scale-Based Regulation (SBR): ₹1 Lakh Crore Absolute Threshold for NBFC-Upper Layer (NBFC-UL)\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-06-08`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~9 min`\n- **Source**: `Smartkeeda (June 2026 Monthly)`\n\n#### What Happened\n* **Scale-Based NBFC Regulation → Single Quantitative Benchmark:**\n  * RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size $ge mathbf{₹1,00,000\text{ Crore}}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**.\n\n#### Know / Understand\n* Eliminates ownership bias by including eligible government-owned NBFCs (REC, PFC, HUDCO) while granting them listing exemptions.\n\n#### Must Memorize\n* **NBFC-UL Prudential Framework Ladder:**\n  * **Classification Cutoff:** Standalone assets $ge mathbf{₹1,00,000\text{ Crore}}$ (reviewed every 3 years).\n  * **Large Exposure Limit (NBFC-IFCs):** Connected borrower group limit raised to **45% of Tier-1 capital** (+20% infra headroom).\n  * **State Guarantees:** Exposures backed by State Govt guarantees attract a **20% risk weight**.\n  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Crore assets $mid$ 3-year review $mid$ Connected borrower cap: 45% Tier-1 $mid$ State guarantee RW: 20%.*\n\n#### Exam Focus\n* NBFC-UL Asset Size Threshold: ₹1,00,000 crore (₹1 trillion).\n* Asset Size Review Periodicity: Every 3 years.\n* NBFC-IFC Connected Counterparty Exposure Limit: 45% of Tier-1 capital.\n* State-Guaranteed Exposure Risk Weight: 20%.\n\n---"
+      "contentMarkdown": "### 4. RBI Scale-Based Regulation (SBR): ₹1 Lakh Crore Absolute Threshold for NBFC-Upper Layer (NBFC-UL)\n\n**Know & Understand (Context)**:\n- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.\n\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RESERVE_BANK_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-06-08`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~9 min`\n- **Source**: `Smartkeeda (June 2026 Monthly)`\n\n#### What Happened\n* **Scale-Based NBFC Regulation → Single Quantitative Benchmark:**\n  * RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size $ge mathbf{₹1,00,000\text{ Crore}}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**.\n\n#### Know / Understand\n* Eliminates ownership bias by including eligible government-owned NBFCs (REC, PFC, HUDCO) while granting them listing exemptions.\n\n#### Must Memorize\n* **NBFC-UL Prudential Framework Ladder:**\n  * **Classification Cutoff:** Standalone assets $ge mathbf{₹1,00,000\text{ Crore}}$ (reviewed every 3 years).\n  * **Large Exposure Limit (NBFC-IFCs):** Connected borrower group limit raised to **45% of Tier-1 capital** (+20% infra headroom).\n  * **State Guarantees:** Exposures backed by State Govt guarantees attract a **20% risk weight**.\n  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Crore assets $mid$ 3-year review $mid$ Connected borrower cap: 45% Tier-1 $mid$ State guarantee RW: 20%.*\n\n#### Exam Focus\n* NBFC-UL Asset Size Threshold: ₹1,00,000 crore (₹1 trillion).\n* Asset Size Review Periodicity: Every 3 years.\n* NBFC-IFC Connected Counterparty Exposure Limit: 45% of Tier-1 capital.\n* State-Guaranteed Exposure Risk Weight: 20%.\n\n---"
     },
     "ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion": {
       "id": "ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion",
@@ -59131,10 +59182,10 @@
       "mustMemorizeFacts": [
         "What Happened: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY.",
         "Key Facts:",
-        "**Weight of 8 Core Industries in IIP:** **40.27%**.",
+        "**Weight of 8 Core Industries in Index of Industrial Production (IIP):** **40.27%**.",
         "**Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).",
         "Top growth: Coal (+7.8%) and Electricity (+6.4%).",
-        "🎯 **Recap:** *Core Industries: +1.7% growth $mid$ IIP weight: 40.27% $mid$ Top weight: Refinery (28.04%).*"
+        "🎯 **Recap:** *Core Industries: +1.7% growth $mid$ Index of Industrial Production (IIP) weight: 40.27% $mid$ Top weight: Refinery (28.04%).*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -59156,7 +59207,7 @@
           "publishedDate": "2026-05-15"
         }
       ],
-      "contentMarkdown": "### 8. Index of Eight Core Industries (ICI) Grows 1.7% in April 2026\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY.\n- **Key Facts**:\n  * **Weight of 8 Core Industries in IIP:** **40.27%**.\n  * **Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).\n  * Top growth: Coal (+7.8%) and Electricity (+6.4%).\n  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ IIP weight: 40.27% $mid$ Top weight: Refinery (28.04%).*"
+      "contentMarkdown": "### 8. Index of Eight Core Industries (ICI) Grows 1.7% in April 2026\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `OTHER`\n- **Priority**: `P2_HIGH`\n- **Date**: `2026-05-31`\n- **Source**: `Smartkeeda (May 2026 Monthly)`\n- **What Happened**: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY.\n- **Key Facts**:\n  * **Weight of 8 Core Industries in Index of Industrial Production (IIP):** **40.27%**.\n  * **Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).\n  * Top growth: Coal (+7.8%) and Electricity (+6.4%).\n  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ Index of Industrial Production (IIP) weight: 40.27% $mid$ Top weight: Refinery (28.04%).*"
     },
     "ca-central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city": {
       "id": "ca-central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
@@ -64607,6 +64658,8 @@
         "Tightened OBPP advertising codes against misleading return guarantees."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Bond Market Distribution: Creates regulated Fixed Income Channel Partners (FICPs) to expand retail participation in corporate bonds and online bond platforms.",
         "**FICP Qualification & OBPP Norms Ladder:**",
         "**Individual Eligibility:** Indian citizen, **18+ years**, **Class 12 pass**, and valid **NISM Fixed Income Certification**.",
         "**Entities & AMFI Distributors:** Partnership firms, corporates, and AMFI mutual fund distributors can register (AMFI distributors exempt from enlistment fees, subject to NISM certification).",
@@ -64635,7 +64688,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 3. SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Capital Markets & Debt Distribution\n* **Source:** CGB Mentors (p. 6–7) | **Institution:** SEBI | **Date:** 2026-08-24\n\n**What Happened**\n* **Retail Corporate Bond Penetration → FICP Framework & Stricter OBPP Advertising:**\n  * SEBI proposed introducing a nationwide network of **Fixed Income Channel Partners (FICPs)** to distribute corporate bonds in Tier 2/3 cities via Online Bond Platform Providers (OBPPs).\n  * Tightened OBPP advertising codes against misleading return guarantees.\n\n**Must Memorize (Eligibility & Disclosures)**\n* **FICP Qualification & OBPP Norms Ladder:**\n  * **Individual Eligibility:** Indian citizen, **18+ years**, **Class 12 pass**, and valid **NISM Fixed Income Certification**.\n  * **Entities & AMFI Distributors:** Partnership firms, corporates, and AMFI mutual fund distributors can register (AMFI distributors exempt from enlistment fees, subject to NISM certification).\n  * **Enlistment Timeline:** Stock exchanges must decide on applications within **21 days** $mid$ Validity: **3 years (renewable)**.\n  * **OBPP Mandatory Disclosures:** Must disclose issuer, tenor, credit rating, security nature, clean/dirty prices, Yield to Maturity (YTM), and **Credit Risk-o-Meter**.\n  * **Ad Restrictions:** Prohibits deceptive phrases like *\"fixed returns\"*, *\"predictable returns\"*, and *\"passive income\"*.\n  * 🎯 **Recap:** *FICPs: Class 12 + NISM certification $mid$ 21-day exchange approval $mid$ 3-year validity $mid$ OBPPs barred from \"fixed returns\" claims.*\n\n---"
+      "contentMarkdown": "### 3. SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code\n\n**Know & Understand (Context)**:\n- **Bond Market Distribution**: Creates regulated Fixed Income Channel Partners (FICPs) to expand retail participation in corporate bonds and online bond platforms.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Capital Markets & Debt Distribution\n* **Source:** CGB Mentors (p. 6–7) | **Institution:** SEBI | **Date:** 2026-08-24\n\n**What Happened**\n* **Retail Corporate Bond Penetration → FICP Framework & Stricter OBPP Advertising:**\n  * SEBI proposed introducing a nationwide network of **Fixed Income Channel Partners (FICPs)** to distribute corporate bonds in Tier 2/3 cities via Online Bond Platform Providers (OBPPs).\n  * Tightened OBPP advertising codes against misleading return guarantees.\n\n**Must Memorize (Eligibility & Disclosures)**\n* **FICP Qualification & OBPP Norms Ladder:**\n  * **Individual Eligibility:** Indian citizen, **18+ years**, **Class 12 pass**, and valid **NISM Fixed Income Certification**.\n  * **Entities & AMFI Distributors:** Partnership firms, corporates, and AMFI mutual fund distributors can register (AMFI distributors exempt from enlistment fees, subject to NISM certification).\n  * **Enlistment Timeline:** Stock exchanges must decide on applications within **21 days** $mid$ Validity: **3 years (renewable)**.\n  * **OBPP Mandatory Disclosures:** Must disclose issuer, tenor, credit rating, security nature, clean/dirty prices, Yield to Maturity (YTM), and **Credit Risk-o-Meter**.\n  * **Ad Restrictions:** Prohibits deceptive phrases like *\"fixed returns\"*, *\"predictable returns\"*, and *\"passive income\"*.\n  * 🎯 **Recap:** *FICPs: Class 12 + NISM certification $mid$ 21-day exchange approval $mid$ 3-year validity $mid$ OBPPs barred from \"fixed returns\" claims.*\n\n---"
     },
     "ca-pfrda-national-pension-system-nps-uniform-charge-structure-2026": {
       "id": "ca-pfrda-national-pension-system-nps-uniform-charge-structure-2026",
@@ -64662,12 +64715,14 @@
         "PFRDA revised NPS fee architecture effective **1 October 2026**, abolishing the regulatory pricing differential between common schemes and Multiple Scheme Framework (MSF) schemes."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Pension Intermediary Transparency: Standardizes Points of Presence (PoP) commission structures to protect subscriber returns while ensuring sustainable distributor remuneration.",
         "**NPS Charge Architecture Ladder:**",
-        "**Annual Fee:** **0.20% per annum of AUM**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.",
+        "**Annual Fee:** **0.20% per annum of Assets Under Management (AUM)**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.",
         "**Dormant Account Exemption:** Zero fees charged on dormant accounts.",
         "**Dormant Account Definition:** An account with **no contributions for 4 consecutive quarters** following a contribution quarter.",
         "**Implementation:** Central Recordkeeping Agencies (CRAs) begin automated deductions from **Q3 FY 2026–27**.",
-        "🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of AUM paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*"
+        "🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of Assets Under Management (AUM) paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*"
       ],
       "knowUnderstandContext": [],
       "examFocus": [],
@@ -64689,7 +64744,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 4. PFRDA National Pension System (NPS) Uniform Charge Structure 2026\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Pension Systems & Financial Regulation\n* **Source:** CGB Mentors (p. 9–10) | **Institution:** PFRDA | **Effective Date:** 2026-10-01\n\n**What Happened**\n* **NPS Fee Rationalisation → Uniform Charge Framework:**\n  * PFRDA revised NPS fee architecture effective **1 October 2026**, abolishing the regulatory pricing differential between common schemes and Multiple Scheme Framework (MSF) schemes.\n\n**Must Memorize (Charge Slabs & Dormancy Rules)**\n* **NPS Charge Architecture Ladder:**\n  * **Annual Fee:** **0.20% per annum of AUM**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.\n  * **Dormant Account Exemption:** Zero fees charged on dormant accounts.\n  * **Dormant Account Definition:** An account with **no contributions for 4 consecutive quarters** following a contribution quarter.\n  * **Implementation:** Central Recordkeeping Agencies (CRAs) begin automated deductions from **Q3 FY 2026–27**.\n  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of AUM paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*\n\n---"
+      "contentMarkdown": "### 4. PFRDA National Pension System (NPS) Uniform Charge Structure 2026\n\n**Know & Understand (Context)**:\n- **Pension Intermediary Transparency**: Standardizes Points of Presence (PoP) commission structures to protect subscriber returns while ensuring sustainable distributor remuneration.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Pension Systems & Financial Regulation\n* **Source:** CGB Mentors (p. 9–10) | **Institution:** PFRDA | **Effective Date:** 2026-10-01\n\n**What Happened**\n* **NPS Fee Rationalisation → Uniform Charge Framework:**\n  * PFRDA revised NPS fee architecture effective **1 October 2026**, abolishing the regulatory pricing differential between common schemes and Multiple Scheme Framework (MSF) schemes.\n\n**Must Memorize (Charge Slabs & Dormancy Rules)**\n* **NPS Charge Architecture Ladder:**\n  * **Annual Fee:** **0.20% per annum of Assets Under Management (AUM)**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.\n  * **Dormant Account Exemption:** Zero fees charged on dormant accounts.\n  * **Dormant Account Definition:** An account with **no contributions for 4 consecutive quarters** following a contribution quarter.\n  * **Implementation:** Central Recordkeeping Agencies (CRAs) begin automated deductions from **Q3 FY 2026–27**.\n  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of Assets Under Management (AUM) paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*\n\n---"
     },
     "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci": {
       "id": "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
@@ -64716,6 +64771,8 @@
         "Department of Legal Affairs (DoLA) notified the establishment of the **Mediation Council of India (MCI)** under **Section 31(1) of the Mediation Act, 2023** with Head Office in **New Delhi**."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "Institutional Dispute Resolution: MCI establishes statutory standards for accredited commercial mediators, reducing caseload backlogs in civil courts.",
         "**MCI Governance & Mediation Timelines Ladder:**",
         "**MCI Composition:**",
         "**1 Chairperson** + **2 Full-Time Members** + **3 Ex-Officio Members** + **1 Part-Time Member** (representing recognized commerce/industry bodies).",
@@ -64747,7 +64804,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 5. Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Legal & Commercial Dispute Resolution\n* **Source:** CGB Mentors (p. 16) | **Statutory Authority:** Mediation Act, 2023 | **Date:** 2026-08-25\n\n**What Happened**\n* **Alternative Dispute Resolution Governance → MCI Setup:**\n  * Department of Legal Affairs (DoLA) notified the establishment of the **Mediation Council of India (MCI)** under **Section 31(1) of the Mediation Act, 2023** with Head Office in **New Delhi**.\n\n**Must Memorize (Composition & Statutory Limits)**\n* **MCI Governance & Mediation Timelines Ladder:**\n  * **MCI Composition:**\n    * **1 Chairperson** + **2 Full-Time Members** + **3 Ex-Officio Members** + **1 Part-Time Member** (representing recognized commerce/industry bodies).\n  * **Tenure & Age Caps:**\n    * Non-ex-officio members serve for **4 years** (eligible for reappointment).\n    * **Age Limit:** Up to **70 years** for Chairperson $mid$ Up to **67 years** for Members.\n  * **Mediation Act 2023 Statutory Timelines:**\n    * Pre-litigation mediation must be completed within **180 days (6 months)** from first appearance.\n    * Extendable by a further **180 days** with mutual consent of parties.\n  * 🎯 **Recap:** *Mediation Council of India: Sec 31(1) Mediation Act 2023 $mid$ 1 Chair + 2 Members (4-yr term; age 70/67) $mid$ 180+180 days mediation window.*\n\n---"
+      "contentMarkdown": "### 5. Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)\n\n**Know & Understand (Context)**:\n- **Institutional Dispute Resolution**: MCI establishes statutory standards for accredited commercial mediators, reducing caseload backlogs in civil courts.\n\n* **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Legal & Commercial Dispute Resolution\n* **Source:** CGB Mentors (p. 16) | **Statutory Authority:** Mediation Act, 2023 | **Date:** 2026-08-25\n\n**What Happened**\n* **Alternative Dispute Resolution Governance → MCI Setup:**\n  * Department of Legal Affairs (DoLA) notified the establishment of the **Mediation Council of India (MCI)** under **Section 31(1) of the Mediation Act, 2023** with Head Office in **New Delhi**.\n\n**Must Memorize (Composition & Statutory Limits)**\n* **MCI Governance & Mediation Timelines Ladder:**\n  * **MCI Composition:**\n    * **1 Chairperson** + **2 Full-Time Members** + **3 Ex-Officio Members** + **1 Part-Time Member** (representing recognized commerce/industry bodies).\n  * **Tenure & Age Caps:**\n    * Non-ex-officio members serve for **4 years** (eligible for reappointment).\n    * **Age Limit:** Up to **70 years** for Chairperson $mid$ Up to **67 years** for Members.\n  * **Mediation Act 2023 Statutory Timelines:**\n    * Pre-litigation mediation must be completed within **180 days (6 months)** from first appearance.\n    * Extendable by a further **180 days** with mutual consent of parties.\n  * 🎯 **Recap:** *Mediation Council of India: Sec 31(1) Mediation Act 2023 $mid$ 1 Chair + 2 Members (4-yr term; age 70/67) $mid$ 180+180 days mediation window.*\n\n---"
     },
     "ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy": {
       "id": "ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy",
@@ -64774,6 +64831,8 @@
         "Ministry of Home Affairs unveiled **PRAHAAR**, India's first unified National Counter Terrorism Policy and Strategy adopting a \"whole-of-government\" and \"whole-of-society\" approach."
       ],
       "mustMemorizeFacts": [
+        "*Know & Understand (Context)**:",
+        "National Security Architecture: PRAHAAR integrates multi-agency intelligence and financial tracking against terror financing networks.",
         "**PRAHAAR 7-Pillar Architecture Ladder:**",
         "**Pillar 1:** **Prevention** (Threat intelligence and early warning).",
         "**Pillar 2:** **Response** (Rapid operational tactical deployment).",
@@ -64804,7 +64863,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 6. MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** National Security & Governance\n* **Source:** CGB Mentors (p. 22–23) | **Ministry:** Ministry of Home Affairs | **Date:** 2026-08-26\n\n**What Happened**\n* **National Anti-Terrorism Doctrine → PRAHAAR Framework:**\n  * Ministry of Home Affairs unveiled **PRAHAAR**, India's first unified National Counter Terrorism Policy and Strategy adopting a \"whole-of-government\" and \"whole-of-society\" approach.\n\n**Must Memorize (7 Pillars of PRAHAAR)**\n* **PRAHAAR 7-Pillar Architecture Ladder:**\n  * **Pillar 1:** **Prevention** (Threat intelligence and early warning).\n  * **Pillar 2:** **Response** (Rapid operational tactical deployment).\n  * **Pillar 3:** **Whole-of-Government** (Inter-agency synergy between central and state forces).\n  * **Pillar 4:** **Rule of Law & Human Rights** (Statutory legal backing and fair process).\n  * **Pillar 5:** **Counter-Radicalization** (Community outreach and digital de-radicalisation).\n  * **Pillar 6:** **International Cooperation** (Cross-border intelligence and FATF alignment).\n  * **Pillar 7:** **Recovery & Resilience** (Post-incident societal rehabilitation and infrastructure hardening).\n  * 🎯 **Recap:** *PRAHAAR: India's 1st National Counter Terrorism Strategy $mid$ 7 pillars spanning Prevention, Response, Whole-of-Govt, to Resilience.*\n\n---"
+      "contentMarkdown": "### 6. MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy\n\n**Know & Understand (Context)**:\n- **National Security Architecture**: PRAHAAR integrates multi-agency intelligence and financial tracking against terror financing networks.\n\n* **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** National Security & Governance\n* **Source:** CGB Mentors (p. 22–23) | **Ministry:** Ministry of Home Affairs | **Date:** 2026-08-26\n\n**What Happened**\n* **National Anti-Terrorism Doctrine → PRAHAAR Framework:**\n  * Ministry of Home Affairs unveiled **PRAHAAR**, India's first unified National Counter Terrorism Policy and Strategy adopting a \"whole-of-government\" and \"whole-of-society\" approach.\n\n**Must Memorize (7 Pillars of PRAHAAR)**\n* **PRAHAAR 7-Pillar Architecture Ladder:**\n  * **Pillar 1:** **Prevention** (Threat intelligence and early warning).\n  * **Pillar 2:** **Response** (Rapid operational tactical deployment).\n  * **Pillar 3:** **Whole-of-Government** (Inter-agency synergy between central and state forces).\n  * **Pillar 4:** **Rule of Law & Human Rights** (Statutory legal backing and fair process).\n  * **Pillar 5:** **Counter-Radicalization** (Community outreach and digital de-radicalisation).\n  * **Pillar 6:** **International Cooperation** (Cross-border intelligence and FATF alignment).\n  * **Pillar 7:** **Recovery & Resilience** (Post-incident societal rehabilitation and infrastructure hardening).\n  * 🎯 **Recap:** *PRAHAAR: India's 1st National Counter Terrorism Strategy $mid$ 7 pillars spanning Prevention, Response, Whole-of-Govt, to Resilience.*\n\n---"
     },
     "ca-revised-fdi-screening-framework-29-proposals-worth-4800-crore-processed": {
       "id": "ca-revised-fdi-screening-framework-29-proposals-worth-4800-crore-processed",

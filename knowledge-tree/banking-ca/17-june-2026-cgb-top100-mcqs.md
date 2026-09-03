@@ -185,7 +185,7 @@
 
 * **SEBI VRR Norms**: FPIs under Voluntary Retention Route must maintain investments for **minimum 3 years** (holding $ge 75%$ of allocated funds in India); limits: ₹40,000 cr VRR-Govt, ₹35,000 cr VRR-Corp.
 * **BharatPe Flex**: Credit-on-UPI service launched in partnership with **YES Bank** offering up to 45 days interest-free credit.
-* **TReDS Platforms (5 Authorised)**: RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a TReDS platform*).
+* **TReDS Platforms (5 Authorised)**: RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a Trade Receivables Discounting System (TReDS) platform*).
 * **NCDEX 'Har Ghar Investor'**: Nation-wide investor access campaign launched in Guwahati with vision *"Equity for Bharat"*; MD & CEO: Dr. Arun Raste.
 * **FSSAI Vegan Logo**: Mandatory green leaf 'Vegan' logo notified for approved vegan foods effective **July 1, 2027**.
 * **MAHA Water Mission**: Ministry of Jal Shakti + ANRF technology initiative with **₹200 crore outlay** over 5 years.

@@ -42,6 +42,10 @@
 ---
 
 ### 2. CBDT FAST-DS 2026: Foreign Assets of Small Taxpayers-Disclosure Scheme
+
+**Know & Understand (Context)**:
+- **Tax Compliance Mechanism**: The Foreign Assets of Small Taxpayers Disclosure Scheme (FAST-DS) provides a one-time relief window under the Black Money Act for small taxpayers with inadvertent minor foreign asset disclosures.
+
 - **Category**: `BANKING_REGULATION`
 - **Institution**: `CBDT`
 - **Priority**: `P1_CRITICAL_MEMORIZE`

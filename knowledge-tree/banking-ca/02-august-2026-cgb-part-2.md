@@ -13,6 +13,10 @@
 ---
 
 ### 1. RBI Draft Master Directions: Interest Rates on Loans and Advances 2026
+
+**Know & Understand (Context)**:
+- **Transparent Pricing Norms**: Standardizes loan pricing by mandating external benchmark linkage and prohibiting arbitrary penal interest charges.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Lending
 * **Status:** **DRAFT / CONSULTATION** | **Proposed Effective Date:** **1 April 2027**
 * **Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending)
@@ -133,7 +137,7 @@
    * *Status: DRAFT (Proposed 1 April 2027)*. Lenders cannot price below benchmark; floating loan reset capped at **not more than once every 3 months**; agri reset linked to crop season ($le 12$ months); commercial banks/RRBs/Tier 3-4 UCBs with deposits $>₹1,000	ext{ cr}$ continue **MCLR**; mandatory **EBLR** retained for personal/MSME floating loans.
 
 #### 🟠 SHOULD REVISE (12 P2 Topics) — Estimated Time: ~36 Minutes
-* **Banking & Fiscal:** PSBs GNPA down to **1.93%** (₹2.45L cr), DEA Fund unclaimed deposits (₹86,917 cr total, SBI ₹20,040 cr, 10-yr rule), 1 Billion Polymer Notes (₹10 & ₹20, Sec 25 RBI Act), PSBs 2% PSL Climate proposal (₹75 cr wind/hydro cap), FAST-DS Scheme (Aug 16–Dec 31, 2026; Cat A 60%, Cat B ₹1L fee), SEBI municipal bonds (₹10k face value, 60/90 day results), SEBI retail F&O loss reduction to ₹91,685 cr.
+* **Banking & Fiscal:** PSBs GNPA down to **1.93%** (₹2.45L cr), Department of Economic Affairs (DEA) Fund unclaimed deposits (₹86,917 cr total, SBI ₹20,040 cr, 10-yr rule), 1 Billion Polymer Notes (₹10 & ₹20, Sec 25 RBI Act), PSBs 2% PSL Climate proposal (₹75 cr wind/hydro cap), FAST-DS Scheme (Aug 16–Dec 31, 2026; Cat A 60%, Cat B ₹1L fee), SEBI municipal bonds (₹10k face value, 60/90 day results), SEBI retail F&O loss reduction to ₹91,685 cr.
 * **SEBI & Pension Reforms:** SEBI Single Form A MF registration (Route 2 ₹150 cr net worth, 5-yr lock-in), SEBI 6-tier Credit Risk-o-Meter proposal, PFRDA NPS e-Shramik model for gig workers, LIC 9.99% HDFC Bank stake approval.
 * **Apex Appointments:** Anurag Jain (CEO, NITI Aayog), Shabnam Sinha (Chair, Airtel Payments Bank).
 

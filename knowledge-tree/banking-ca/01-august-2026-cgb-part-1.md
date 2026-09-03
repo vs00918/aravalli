@@ -38,6 +38,10 @@
 ---
 
 ### 2. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)
+
+**Know & Understand (Context)**:
+- **Licensing Architecture**: On-tap licensing allows qualified entities meeting capital and governance criteria to apply for UCB licenses continuously rather than waiting for ad-hoc regulatory windows.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~8 min | **Category:** Banking Regulation & Co-operatives
 * **Source:** CGB Mentors
 
@@ -65,7 +69,11 @@
 * **Scale-Based NBFC Identification → Upper Layer 2026-27:**
   * Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.
 
-**Must Memorize**
+**Must Memori
+
+**Know & Understand (Context)**:
+- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.
+ze**
 * **NBFC-UL Entities & Rules Ladder:**
   * **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2	ext{ Trillion}$).
   * **Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).
@@ -76,6 +84,10 @@
 ---
 
 ### 4. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms
+
+**Know & Understand (Context)**:
+- **Fair Practices Code**: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.
+
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Consumer Protection & Digital Lending
 * **Effective Date:** **1 January 2027** | **Source:** CGB Mentors
 
@@ -95,6 +107,10 @@
 ---
 
 ### 5. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)
+
+**Know & Understand (Context)**:
+- **Prudential Alignment**: Defers Pillar 3 market disclosures to synchronize disclosure timelines with the implementation of Expected Credit Loss (ECL) provisioning framework.
+
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Banking Regulation & Basel III
 * **Source:** Smartkeeda (Aug 2026) | **Origin:** RBI Notification
 

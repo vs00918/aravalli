@@ -164,6 +164,10 @@
 # PART 2: P2 — HIGH-YIELD TOPICS
 
 ### 1. RBI Draft Norms on NBFC Upper Layer (NBFC-UL) & Inclusion of Govt NBFCs
+
+**Know & Understand (Context)**:
+- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.
+
 * **Priority:** P2 — High
 * **Category:** BANKING_REGULATION
 * **Institution:** RBI
@@ -182,7 +186,11 @@
 * **Institution:** RBI
 * **Event Date:** 2026-04-16
 * **Status:** NOTIFIED
-* **Must Memorize Facts:**
+* **Must Memori
+
+**Know & Understand (Context)**:
+- **Transaction Security Balance**: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits.
+ze Facts:**
   * **Recurring Digital Payments → E-Mandate Thresholds:**
     * Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.
     * **Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.
@@ -195,7 +203,11 @@
 * **Institution:** RBI
 * **Event Date:** 2026-04-15
 * **Status:** NOTIFIED
-* **Must Memorize Facts:**
+* **Must Memori
+
+**Know & Understand (Context)**:
+- **Forex Liquidity Mechanism**: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement.
+ze Facts:**
   * **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**
     * Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).
     * Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.
@@ -258,8 +270,8 @@
 * **Event Date:** 2026-04-22
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
-  * **Forex Market Transparency → CCIL Repository Reporting:**
-    * Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to CCIL Trade Repository.
+  * **Forex Market Transparency → Clearing Corporation of India Limited (CCIL) Repository Reporting:**
+    * Effective **July 1, 2027**, AD Cat-I banks must report OTC forex derivative contracts involving the rupee to Clearing Corporation of India Limited (CCIL) Trade Repository.
     * Phased coverage thresholds: **70%, 80%, and 90%** of notional value across staggered tranches.
   * 🎯 **Recap:** *CCIL Trade Repository reporting for OTC rupee forex derivatives $mid$ Phased 70%/80%/90% $mid$ Effective July 1, 2027.*
 
@@ -471,7 +483,11 @@
 * **Category:** PENSION_SYSTEMS
 * **Institution:** OTHER
 * **Event Date:** 2026-04-05
-* **Must Memorize Facts:**
+* **Must Memori
+
+**Know & Understand (Context)**:
+- **Social Security Reform**: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers.
+ze Facts:**
   * **EPF Digital Overhaul → Immediate 75% Withdrawal:**
     * Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.
     * Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.
@@ -486,7 +502,7 @@
 * **Must Memorize Facts:**
   * **Tax Compliance Overhaul → Form 130 & TRACES 2.0:**
     * Employer Form 16 replaced by **Form 130** (disclosing exact tax deduction rate; shifts from AY to Tax Year under TIN 2.0).
-    * Launched **TRACES 2.0** unifying 26AS, AIS, and TDS credits into a single real-time dashboard.
+    * Launched **TRACES 2.0** unifying 26AS, Automotive Industry Standard (AIS), and TDS credits into a single real-time dashboard.
   * 🎯 **Recap:** *Form 130 replaces Form 16 $mid$ TRACES 2.0 unifies 26AS, AIS, and TDS.*
 
 ### 29. India Approves ₹30 Billion Currency Swap Drawdown for Maldives under SAARC Facility

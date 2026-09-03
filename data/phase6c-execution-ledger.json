@@ -1,0 +1,432 @@
+{
+  "phase": "PHASE_6C_EXECUTION",
+  "date": "2026-09-03",
+  "total_candidates": 47,
+  "implemented_count": 24,
+  "deferred_count": 23,
+  "audit": [
+    {
+      "topic_id": "ca-rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
+      "topic_title": "RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Conversion Thresholds Ladder:**; **Track Record:** Minimum **10 years** continuous operations.",
+      "after": "Inserted mechanism bullet: \"- **Licensing Architecture**: On-tap licensing allows qualified entities meeting capital and governance criteria to apply for UCB licenses continuously rather than waiting for ad-hoc regulatory windows.\""
+    },
+    {
+      "topic_id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+      "topic_title": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**NBFC-UL Entities & Rules Ladder:**; **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2\text{ Trillion}$).",
+      "after": "Inserted mechanism bullet: \"- **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, CET1 capital minimums, and mandatory listing requirements due to systemic footprint.\""
+    },
+    {
+      "topic_id": "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
+      "topic_title": "RBI Loan Recovery Directions & Financed Smartphone Lockout Norms",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Effective Date:** **1 January 2027** | **Source:** CGB Mentors; **Calling Norms & Smartphone Locks Ladder:**",
+      "after": "Inserted mechanism bullet: \"- **Fair Practices Code**: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.\""
+    },
+    {
+      "topic_id": "ca-rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment",
+      "topic_title": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Pillar 3 Timeline & Framework Ladder:**; **Effective Date:** **April 1, 2027** (First revised quarterly disclosure for quarter ending **June 30, 2027**).",
+      "after": "Inserted mechanism bullet: \"- **Prudential Alignment**: Defers Pillar 3 market disclosures to synchronize disclosure timelines with the implementation of Expected Credit Loss (ECL) provisioning framework.\""
+    },
+    {
+      "topic_id": "ca-priority-sector-lending-psl-nri-deposit-forex-swap-relief",
+      "topic_title": "Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Incentives & ANBC Deductions Ladder:**; **Forex Swap:** USD-INR swap for fresh 3–5 year FCNR(B) deposits.",
+      "after": "Inserted mechanism bullet: \"- **Forex & PSL Liquidity Mechanism**: Provides regulatory incentives for banks mobilizing foreign currency NRI deposits to support domestic credit growth without squeezing PSL targets.\""
+    },
+    {
+      "topic_id": "ca-d-sib-framework-rbi-leverage-ratio-buffer",
+      "topic_title": "D-SIB Framework & RBI Leverage Ratio Buffer",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "D-SIB Framework & RBI Leverage Ratio Buffer  Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for o...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-d-sib-framework-rbi-leverage-ratio-buffer",
+      "topic_title": "D-SIB Framework & RBI Leverage Ratio Buffer",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "D-SIB Framework & RBI Leverage Ratio Buffer  Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for o...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-credit-guarantee-scheme-for-mfis-cgsmfi-20",
+      "topic_title": "Credit Guarantee Scheme for MFIs (CGSMFI 2.0)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "Credit Guarantee Scheme for MFIs (CGSMFI 2.0)  Mandatory $\\ge 15\\%$ lending to small/mid MFIs; bank loan capped at 20% of MFI's AUM. 🎯 **Recap:** *CGSMFI 2.0: 15% quota for small/...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026",
+      "topic_title": "RBI Draft Master Directions: Interest Rates on Loans and Advances 2026",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Verification Status:** Source-only (CGB Mentors p.6–7; primary-source verification pending); **Pricing & Reset Architecture Ladder:**",
+      "after": "Inserted mechanism bullet: \"- **Transparent Pricing Norms**: Standardizes loan pricing by mandating external benchmark linkage and prohibiting arbitrary penal interest charges.\""
+    },
+    {
+      "topic_id": "ca-cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme",
+      "topic_title": "FAST-DS Scheme (Foreign Assets of Small Taxpayers Disclosure Scheme 2026)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "Window: **August 16 to December 31, 2026** (Benchmark: March 31, 2026).; **Category A (untaxed $le ₹1\text{ Cr}$):** **60% effective tax** (30% tax + 30% penalty).",
+      "after": "Inserted mechanism bullet: \"- **Tax Compliance Mechanism**: The Foreign Assets of Small Taxpayers Disclosure Scheme (FAST-DS) provides a one-time relief window under the Black Money Act for small taxpayers with inadvertent minor foreign asset disclosures.\""
+    },
+    {
+      "topic_id": "ca-mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24",
+      "topic_title": "MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24  **Macroeconomic Base Year Modernisation → CPI, GDP & IIP:** MoSPI modernized India's statistical series, rep...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-proposes-capping-bank-dividend-payouts-at-75-of-net-profit",
+      "topic_title": "RBI Proposes Capping Bank Dividend Payouts at 75% of Net Profit",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "RBI Proposes Capping Bank Dividend Payouts at 75% of Net Profit  **Must Memorize Facts:** **Bank Dividend Ceiling Ladder:** Proposed maximum dividend payout ratio raised to **75% o...",
+      "after": "Expanded body occurrence of 'CET1' to 'Common Equity Tier 1 (CET1)'"
+    },
+    {
+      "topic_id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+      "topic_title": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **Single Window Access for Trusted Investors:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-sebi-proposed-regulatory-framework-for-significant-indices-used-by-mutual-funds",
+      "topic_title": "SEBI Proposed Regulatory Framework for 'Significant Indices' Used by Mutual Funds",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "SEBI Proposed Regulatory Framework for 'Significant Indices' Used by Mutual Funds  **Must Memorize Facts:** **Significant Index Benchmark Thresholds:** Any benchmark tracking combi...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-dea-creates-17-lakh-crore-3-year-ppp-infrastructure-pipeline",
+      "topic_title": "DEA Creates ₹17 Lakh Crore 3-Year PPP Infrastructure Pipeline",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "DEA Creates ₹17 Lakh Crore 3-Year PPP Infrastructure Pipeline  **Must Memorize Facts:** **PPP Pipeline Outlay:** **852 projects** worth **₹17 Lakh Crore** across 3 years. 🎯 **Reca...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-draft-ucb-lending-norms-unsecured-advances-ceiling-revised-to-20",
+      "topic_title": "RBI Draft UCB Lending Norms: Unsecured Advances Ceiling Revised to 20%",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "RBI Draft UCB Lending Norms: Unsecured Advances Ceiling Revised to 20%  **Must Memorize Facts:** **UCB Lending Flexibility:** Unsecured ceiling revised to **20% of total advances**...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula",
+      "topic_title": "RBI Master Guidelines on Bank Dividend Declaration & Adjusted PAT Formula",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "RBI Master Guidelines on Bank Dividend Declaration & Adjusted PAT Formula  **Prudential Dividend Policy → Capital-Linked Distribution:** RBI finalized amended *Directions on Declar...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026",
+      "topic_title": "DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "DEAF Unclaimed Deposits Update: PSBs Transfer ₹60,518 Crore (as of Jan 2026)  **Must Memorize Facts:** **Unclaimed Depositor Funds:** PSBs transferred **₹60,518 Crore** to DEA Fund...",
+      "after": "Expanded P3 bullet body occurrence of 'DEA' to 'Department of Economic Affairs (DEA)'"
+    },
+    {
+      "topic_id": "ca-sebi-allows-mutual-funds-intra-day-borrowing-for-redemptions",
+      "topic_title": "SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions  **Must Memorize Facts:** **MF Liquidity Facility:** Intra-day borrowing allowed against guaranteed same-day receivable...",
+      "after": "Expanded body occurrence of 'CCIL' to 'Clearing Corporation of India Limited (CCIL)'"
+    },
+    {
+      "topic_id": "ca-pfrda-revises-nps-point-of-presence-pop-distributor-charges",
+      "topic_title": "PFRDA Revises NPS Point of Presence (PoP) Distributor Charges",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "PFRDA Revises NPS Point of Presence (PoP) Distributor Charges  **Must Memorize Facts:** **PoP Distributor Fees:** Onboarding charge: **₹200** per subscriber (discounted to **₹100**...",
+      "after": "Expanded body occurrence of 'AUM' to 'Assets Under Management (AUM)'"
+    },
+    {
+      "topic_id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri",
+      "topic_title": "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**Must Memorize Facts:**; **MII Cyber Resilience:**",
+      "after": "Inserted mechanism bullet: \"- **MII Resilience Index**: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.\""
+    },
+    {
+      "topic_id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+      "topic_title": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **Recurring Digital Payments → E-Mandate Thresholds:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+      "topic_title": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-phased-otc-forex-derivatives-reporting-to-ccil-trade-repository",
+      "topic_title": "RBI Phased OTC Forex Derivatives Reporting to CCIL Trade Repository",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "RBI Phased OTC Forex Derivatives Reporting to CCIL Trade Repository  **Must Memorize Facts:** **Forex Market Transparency → CCIL Repository Reporting:** Effective **July 1, 2027**,...",
+      "after": "Expanded body occurrence of 'CCIL' to 'Clearing Corporation of India Limited (CCIL)'"
+    },
+    {
+      "topic_id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+      "topic_title": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **EPF Digital Overhaul → Immediate 75% Withdrawal:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard",
+      "topic_title": "Income Tax Rules 2026: Form 130 Replaces Form 16 & TRACES 2.0 Dashboard",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "Income Tax Rules 2026: Form 130 Replaces Form 16 & TRACES 2.0 Dashboard  **Must Memorize Facts:** **Tax Compliance Overhaul → Form 130 & TRACES 2.0:** Employer Form 16 replaced by ...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+      "topic_title": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "IMPLEMENTED",
+      "before": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital  **Must Memorize Facts:** **Bank Capital Computation → Quarterly Profit Inclusion:** Removed condition req...",
+      "after": "Expanded P3 bullet body occurrence of 'CET1' to 'Common Equity Tier 1 (CET1)'"
+    },
+    {
+      "topic_id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+      "topic_title": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **Bank Capital Computation → Quarterly Profit Inclusion:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+      "topic_title": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "**Must Memorize Facts:**; **Device Financing Enforcement & Recovery Code:**",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-sebi-directs-significant-indices-providers-to-register-within-6-months",
+      "topic_title": "SEBI Directs Significant Indices Providers to Register within 6 Months",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "SEBI Directs Significant Indices Providers to Register within 6 Months  **Must Memorize Facts:** **Benchmark Index Regulation:** Index providers with tracked mutual fund AUM exceed...",
+      "after": "Expanded body occurrence of 'AUM' to 'Assets Under Management (AUM)'"
+    },
+    {
+      "topic_id": "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+      "topic_title": "Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS  **MSME Delayed Payment & Dispute Overhaul → MSMED Amendment 2026:** Passed MSME...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
+      "topic_title": "MoRTH Proposes Phased Mandate for Vehicle-to-Vehicle (V2V) Communication Systems (AIS-230)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "MoRTH Proposes Phased Mandate for Vehicle-to-Vehicle (V2V) Communication Systems (AIS-230)  Key Facts: Mandates AIS-230 V2V C-V2X communication (5.875–5.925 GHz) in all new vehicle...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push",
+      "topic_title": "Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**MPMS & Semicon 2.0 Architecture Ladder:**; **MPMS (Mobile Phone Manufacturing Scheme):**",
+      "after": "Inserted mechanism bullet: \"- **Strategic Industrial Push**: Combines electronics hardware and semiconductor fabrication incentives to enhance domestic value addition and export competitiveness.\""
+    },
+    {
+      "topic_id": "ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone",
+      "topic_title": "Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**GeM Procurement Metrics Ladder:**; **Cumulative Procurement:** **₹20 Lakh Crore+** across **3.78 Crore+ orders**.",
+      "after": "Inserted mechanism bullet: \"- **Public Procurement Efficiency**: GeM provides a transparent digital marketplace for public procurement, reducing intermediation costs for government buyers and MSMEs.\""
+    },
+    {
+      "topic_id": "ca-sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing",
+      "topic_title": "SEBI Revamps FPI Regulations: Rupee-Denominated Fees & Intraday Mutual Fund Borrowing",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "SEBI Revamps FPI Regulations: Rupee-Denominated Fees & Intraday Mutual Fund Borrowing  **Capital Market Modernisation → Rupee Fees & Intraday MF Liquidity:** Replaced USD-denominat...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
+      "topic_title": "State Bank of India Key Financial Milestones: AT-1 Bonds & RDCL Stake Acquisition",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "State Bank of India Key Financial Milestones: AT-1 Bonds & RDCL Stake Acquisition  **Must Memorize Facts:** **SBI Corporate Actions:** AT-1 Issuance: Raised **₹4,691 Crore** via pe...",
+      "after": "Expanded body occurrence of 'AT-1' to 'Additional Tier 1 (AT-1)'"
+    },
+    {
+      "topic_id": "ca-msmed-amendment-bill-2026",
+      "topic_title": "MSMED (Amendment) Bill 2026",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P3",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "MSMED (Amendment) Bill 2026  Mandates TReDS invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbi...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-ncgtc-revised-norms-for-microfinance-institutions-mfis",
+      "topic_title": "NCGTC Revised Norms for Microfinance Institutions (MFIs)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "NCGTC Revised Norms for Microfinance Institutions (MFIs)  Key Facts: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of ...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-kakinada-cooperative-town-bank",
+      "topic_title": "Kakinada Cooperative Town Bank",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P3",
+      "status": "IMPLEMENTED",
+      "before": "Kakinada Cooperative Town Bank  Upgraded to **Tier-III UCB** status (deposits $>₹2,000$ crore with zero net NPAs)....",
+      "after": "Expanded P3 bullet body occurrence of 'UCB' to 'Urban Co-operative Bank (UCB)'"
+    },
+    {
+      "topic_id": "ca-treds-platforms-5-authorised",
+      "topic_title": "TReDS Platforms (5 Authorised)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P3",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "TReDS Platforms (5 Authorised)  RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a TReDS platform*)....",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-mospi-updates-base-year-of-index-of-core-industries-ici-to-202223-iron-ore-added-as-9th-core",
+      "topic_title": "MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "MoSPI Updates Base Year of Index of Core Industries (ICI) to 2022–23 (Iron Ore Added as 9th Core)  Key Facts: ICI base updated to 2022-23; expanded to **9 core industries** by addi...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-index-of-eight-core-industries-ici-grows-17-in-april-2026",
+      "topic_title": "Index of Eight Core Industries (ICI) Grows 1.7% in April 2026",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P2",
+      "status": "DEFERRED — NEEDS REVIEW",
+      "before": "Index of Eight Core Industries (ICI) Grows 1.7% in April 2026  What Happened: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY. Key Facts: **Weight ...",
+      "after": "Preserved without mutation (already clear in body context or requires manual editorial review)"
+    },
+    {
+      "topic_id": "ca-sebi-proposed-distribution-network-fixed-income-channel-partners-ficps-obpp-ad-code",
+      "topic_title": "SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**FICP Qualification & OBPP Norms Ladder:**; **Individual Eligibility:** Indian citizen, **18+ years**, **Class 12 pass**, and valid **NISM Fixed Income Certification**.",
+      "after": "Inserted mechanism bullet: \"- **Bond Market Distribution**: Creates regulated Fixed Income Channel Partners (FICPs) to expand retail participation in corporate bonds and online bond platforms.\""
+    },
+    {
+      "topic_id": "ca-pfrda-national-pension-system-nps-uniform-charge-structure-2026",
+      "topic_title": "PFRDA National Pension System (NPS) Uniform Charge Structure 2026",
+      "issue_type": "UNEXPANDED_ACRONYM",
+      "severity": "P1",
+      "status": "IMPLEMENTED",
+      "before": "PFRDA National Pension System (NPS) Uniform Charge Structure 2026  **NPS Fee Rationalisation → Uniform Charge Framework:** PFRDA revised NPS fee architecture effective **1 October ...",
+      "after": "Expanded body occurrence of 'AUM' to 'Assets Under Management (AUM)'"
+    },
+    {
+      "topic_id": "ca-pfrda-national-pension-system-nps-uniform-charge-structure-2026",
+      "topic_title": "PFRDA National Pension System (NPS) Uniform Charge Structure 2026",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**NPS Charge Architecture Ladder:**; **Annual Fee:** **0.20% per annum of AUM**, adjusted directly through daily NAV and paid to Points of Presence (PoPs) on a quarterly basis.",
+      "after": "Inserted mechanism bullet: \"- **Pension Intermediary Transparency**: Standardizes Points of Presence (PoP) commission structures to protect subscriber returns while ensuring sustainable distributor remuneration.\""
+    },
+    {
+      "topic_id": "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
+      "topic_title": "Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**MCI Governance & Mediation Timelines Ladder:**; **MCI Composition:**",
+      "after": "Inserted mechanism bullet: \"- **Institutional Dispute Resolution**: MCI establishes statutory standards for accredited commercial mediators, reducing caseload backlogs in civil courts.\""
+    },
+    {
+      "topic_id": "ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy",
+      "topic_title": "MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy",
+      "issue_type": "PEDAGOGICAL_DENSITY",
+      "severity": "P2",
+      "status": "IMPLEMENTED",
+      "before": "**PRAHAAR 7-Pillar Architecture Ladder:**; **Pillar 1:** **Prevention** (Threat intelligence and early warning).",
+      "after": "Inserted mechanism bullet: \"- **National Security Architecture**: PRAHAAR integrates multi-agency intelligence and financial tracking against terror financing networks.\""
+    }
+  ]
+}

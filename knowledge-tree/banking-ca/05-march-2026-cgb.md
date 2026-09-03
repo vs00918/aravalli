@@ -250,7 +250,7 @@
 * **Event Date:** 2026-03-15
 * **Must Memorize Facts:**
   * **Unclaimed Depositor Funds:**
-    * PSBs transferred **₹60,518 Crore** to DEA Fund under Section 26A of BR Act (inoperative $>10	ext{ yrs}$).
+    * PSBs transferred **₹60,518 Crore** to Depositor Education and Awareness (DEA) Fund under Section 26A of BR Act (inoperative $>10	ext{ yrs}$).
     * Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).
   * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*
 
@@ -295,8 +295,8 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **MF Liquidity Facility:**
-    * Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/CCIL), exempt from 20% 6-month cap (effective **April 1, 2026**).
-  * 🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/CCIL receivables.*
+    * Intra-day borrowing allowed against guaranteed same-day receivables (GoI/RBI/Clearing Corporation of India Limited (CCIL)), exempt from 20% 6-month cap (effective **April 1, 2026**).
+  * 🎯 **Recap:** *Mutual funds permitted intra-day borrowing against sovereign/Clearing Corporation of India Limited (CCIL) receivables.*
 
 ### 14. PFRDA Revises NPS Point of Presence (PoP) Distributor Charges
 * **Priority:** P2 — High
@@ -306,8 +306,8 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **PoP Distributor Fees:**
-    * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of AUM**.
-  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual AUM fee.*
+    * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of Assets Under Management (AUM)**.
+  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual Assets Under Management (AUM) fee.*
 
 ### 15. SEBI Proposes Mutual Fund Prepaid Gift Instruments (₹10,000 Cap)
 * **Priority:** P2 — High
@@ -326,7 +326,11 @@
 * **Institution:** SEBI
 * **Event Date:** 2026-03-15
 * **Status:** PROPOSAL
-* **Must Memorize Facts:**
+* **Must Memori
+
+**Know & Understand (Context)**:
+- **MII Resilience Index**: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.
+ze Facts:**
   * **MII Cyber Resilience:**
     * 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).
   * 🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*

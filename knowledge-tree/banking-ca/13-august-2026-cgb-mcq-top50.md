@@ -78,8 +78,8 @@
 
 ### 1. NCGTC Revised Norms for Microfinance Institutions (MFIs)
 * **Priority:** P2 — High | **Category:** BANKING_REGULATION | **Institution:** NCGTC / DFS | **Event Date:** 2026-08-02
-* **Key Facts**: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of AUM (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).
-* 🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% AUM cap.*
+* **Key Facts**: Banks must allocate at least **15% of ₹20,000 Crore corpus** to small/mid MFIs; max bank loan capped at 20% of Assets Under Management (AUM) (Small: ₹100 Cr, Medium: ₹200 Cr, Large: ₹1,000 Cr).
+* 🎯 **Recap:** *NCGTC MFI scheme: 15% quota for small/mid MFIs $mid$ 20% Assets Under Management (AUM) cap.*
 
 ### 2. Ethanol Interest Subvention Schemes & NABARD Nodal Role
 * **Priority:** P2 — High | **Category:** GOVERNMENT_SCHEMES | **Institution:** MoPNG / NABARD | **Event Date:** 2026-08-03

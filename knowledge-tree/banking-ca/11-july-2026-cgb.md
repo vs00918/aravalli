@@ -334,10 +334,10 @@
 * **Event Date:** 2026-07-24
 * **Must Memorize Facts:**
   * **SBI Corporate Actions:**
-    * AT-1 Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.
+    * Additional Tier 1 (AT-1) Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.
     * RDCL Stake: Acquired **10% stake** from NHB (NHB holding reduced to 29%).
     * SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore** $mid$ Launched **"YONO Ji"** AI assistant.
-  * 🎯 **Recap:** *SBI raised ₹4,691 Cr AT-1 bonds (7.75%) $mid$ Acquired 10% RDCL stake.*
+  * 🎯 **Recap:** *SBI raised ₹4,691 Cr Additional Tier 1 (AT-1) bonds (7.75%) $mid$ Acquired 10% RDCL stake.*
 
 ### 9. IRDAI 137th Meeting Insurance Sector Overhauls
 * **Priority:** P2 — High
@@ -373,14 +373,14 @@
 * **Sarnath UNESCO World Heritage Site**: Sarnath (Uttar Pradesh) inscribed as India's **45th UNESCO World Heritage Site** at the 48th WHC Session in Busan, South Korea. Includes Dhamekh Stupa, Chaukhandi Stupa, and Ashokan Lion Capital (National Emblem). India ranks 6th globally (45 sites: 37 Cultural, 7 Natural, 1 Mixed).
 * **PM Surya Ghar Solar Financing**: World Bank approved **$890 million financing** ($820M IBRD + $60M Clean Tech Fund + $10M Livable Planet Fund) for PM Surya Ghar (Outlay: ₹75,021 cr for 10M households). Gujarat ranks 1st (749,839 units), UP 2nd.
 * **ADB Infrastructure Loans**: Approved **$1 Billion** for India's Urban Challenge Fund (UCF) under the Urban Transformation Program; **$230 Million** for Chennai water supply/sanitation (first Indian city ring-main); **$182.89 Million** for Karnataka public schools.
-* **MSMED (Amendment) Bill 2026**: Mandates TReDS invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months.
+* **MSMED (Amendment) Bill 2026**: Mandates Trade Receivables Discounting System (TReDS) invoice discounting for CPSU purchases from MSMEs; 3–5 member MSEFCs with legal experts; 50% deposit required by buyers challenging arbitration awards pending >6 months.
 * **Sovereign Green Bonds & Foreign Loans**: POWERGRID secured **JPY 80 billion green loan** from Japan Bank for International Cooperation (JBIC) for Khavda-Nagpur HVDC transmission.
 * **Kamarajar Port (Chennai)**: Became India's 2nd major port after Visakhapatnam to offer an **18-metre draft**, enabling Capesize vessel berthing.
 * **India's First Hydrogen Train**: Launched on the **Jind–Sonipat section** (Northern Railway, Haryana); designed under RDSO guidance with a **1,200 kW fuel cell** and 75 kmph operating speed.
 * **Skyroot Aerospace Vikram-1 (Mission Aagaman)**: India's first privately developed orbital launch vehicle (350 kg to LEO) from Sriharikota; carried TakeMe2Space's PowerBank-50 satellite battery pack.
 * **FDI & Trade Metrics**: India's total exports in FY26 reached record **$863.1 Billion** (Merchandise: $441.8B, Services: $421.3B); Net FDI moderated to **$6.95 Billion** in FY26 due to overseas repatriation and ODI outflows.
 * **CBDT SFT Compliance Watch**: Mandatory annual SFT reporting for savings cash deposits $ge ₹10	ext{ lakh}$, current account transactions $ge ₹50	ext{ lakh}$, credit card payments $ge ₹10	ext{ lakh}$ (or cash $> ₹1	ext{ lakh}$), and forex spending $> ₹10	ext{ lakh}$.
-* **Urban Cooperative Bank Tiers**: Kakinada Cooperative Town Bank attained **Tier-III UCB status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr).
+* **Urban Cooperative Bank Tiers**: Kakinada Cooperative Town Bank attained **Tier-III Urban Co-operative Bank (UCB) status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr).
 * **GIFT City Innovations**:
   * **Artha Bharat IFSC:** Launched Gift City's first physical gold fund.
   * **CAMS Investor Services:** Approved as KYC Registration Agency (KRA) at GIFT City.

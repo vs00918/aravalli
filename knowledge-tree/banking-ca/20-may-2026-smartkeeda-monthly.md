@@ -248,10 +248,10 @@
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **What Happened**: Office of Economic Adviser reported combined ICI rose **1.7%** in April 2026 YoY.
 - **Key Facts**:
-  * **Weight of 8 Core Industries in IIP:** **40.27%**.
+  * **Weight of 8 Core Industries in Index of Industrial Production (IIP):** **40.27%**.
   * **Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).
   * Top growth: Coal (+7.8%) and Electricity (+6.4%).
-  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ IIP weight: 40.27% $mid$ Top weight: Refinery (28.04%).*
+  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ Index of Industrial Production (IIP) weight: 40.27% $mid$ Top weight: Refinery (28.04%).*
 
 ### 9. Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City
 - **Category**: `BANKING_REGULATION`

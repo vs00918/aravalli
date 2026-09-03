@@ -175,4 +175,4 @@
 * **Aero India 2027 (16th Edition)**: Scheduled at **Yelahanka Air Force Station, Bengaluru** (HAL nodal agency).
 * **India's UNSC 2028-29 Campaign**: Launched with guiding vision **'SHANTI'** (Securing, Holistic, Advancement, through Norms, Trust, Integrity).
 * **NSE Energy Derivative**: Launched India's first domestic energy futures on **Natural Gas (`NATGASIND`)** benchmarked to IGX Dahej hub price.
-* **Kakinada Cooperative Town Bank**: Upgraded to **Tier-III UCB** status (deposits $>₹2,000$ crore with zero net NPAs).
+* **Kakinada Cooperative Town Bank**: Upgraded to **Tier-III Urban Co-operative Bank (UCB)** status (deposits $>₹2,000$ crore with zero net NPAs).

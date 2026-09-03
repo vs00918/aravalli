@@ -367,8 +367,8 @@
 - **Institution**: `MOSPI`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-12`
-- **Key Facts**: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% IIP weight).
-- 🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% IIP weight).*
+- **Key Facts**: ICI base updated to 2022-23; expanded to **9 core industries** by adding **Iron Ore** (32.88% Index of Industrial Production (IIP) weight).
+- 🎯 **Recap:** *ICI base 2022-23: Iron Ore added as 9th core sector (32.88% Index of Industrial Production (IIP) weight).*
 
 ### 26. MoSPI Launches Trial Index of Services Production (ISP) with Base Year 2024–25
 - **Category**: `MACRO_ECONOMY`

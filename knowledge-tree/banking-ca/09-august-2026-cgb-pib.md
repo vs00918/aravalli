@@ -81,6 +81,10 @@
 ---
 
 ### 5. Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)
+
+**Know & Understand (Context)**:
+- **Strategic Industrial Push**: Combines electronics hardware and semiconductor fabrication incentives to enhance domestic value addition and export competitiveness.
+
 * **Priority:** P1 — Critical / Deep | **Revision Effort:** ~7 min | **Category:** Electronics Manufacturing & Industrial Policy
 * **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** APPROVED BY UNION CABINET
 
@@ -101,6 +105,10 @@
 ---
 
 ### 6. Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone
+
+**Know & Understand (Context)**:
+- **Public Procurement Efficiency**: GeM provides a transparent digital marketplace for public procurement, reducing intermediation costs for government buyers and MSMEs.
+
 * **Priority:** P1 — Critical / Memorize | **Revision Effort:** ~6 min | **Category:** Public Procurement & FinTech
 * **Source:** CGB Mentors (PIB 1st–10th August 2026) | **Status:** 10TH ANNIVERSARY MILESTONE
 
