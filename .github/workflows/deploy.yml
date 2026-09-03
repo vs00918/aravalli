@@ -61,7 +61,7 @@ jobs:
       - name: Build & Test Living Codex
         run: |
           cd codex
-          npm ci
+          npm install
           npm test
           npm run build
           cd ..
