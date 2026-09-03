@@ -8,7 +8,14 @@ import {
   ExamTargetProfile
 } from '../lib/banking-ca/schema';
 import { parseCanonicalMarkdownFile } from '../lib/banking-ca/markdown-parser';
-import { resolveCanonicalSlug, mergeCanonicalTopics, CANONICAL_PRIORITY_OVERRIDES, CANONICAL_TAXONOMY_OVERRIDES } from '../lib/banking-ca/canonical-deduplication';
+import {
+  resolveCanonicalSlug,
+  mergeCanonicalTopics,
+  CANONICAL_PRIORITY_OVERRIDES,
+  CANONICAL_TAXONOMY_OVERRIDES,
+  CANONICAL_CHRONOLOGICAL_UPDATES,
+  CANONICAL_RELATED_TOPIC_PAIRS
+} from '../lib/banking-ca/canonical-deduplication';
 
 export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry; validationErrors: string[] } {
   const rootDir = path.join(__dirname, '..');
@@ -82,6 +89,44 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     const id = `ca-${slug}`;
     if (allTopicsMap[id]) {
       allTopicsMap[id].primaryCategory = newCategory;
+    }
+  }
+
+  // Apply explicit Phase 6E Chronological Updates
+  for (const update of CANONICAL_CHRONOLOGICAL_UPDATES) {
+    if (allTopicsMap[update.baseTopicId] && allTopicsMap[update.updateTopicId]) {
+      const updateEntry = {
+        updateId: `upd-${update.updateTopicId.replace(/^ca-/, '')}`,
+        date: update.date,
+        batchId: 'phase-6e-reconciliation',
+        summary: update.summary,
+        changeReason: update.changeType || 'AMENDMENT'
+      };
+      // Check for duplicate update
+      if (!allTopicsMap[update.baseTopicId].updatesHistory.some(u => u.updateId === updateEntry.updateId)) {
+        allTopicsMap[update.baseTopicId].updatesHistory.push(updateEntry);
+      }
+    }
+  }
+
+  // Apply explicit Phase 6E Related Topics & Sequential Milestones (Bidirectional)
+  for (const [idA, idB] of CANONICAL_RELATED_TOPIC_PAIRS) {
+    if (allTopicsMap[idA] && allTopicsMap[idB]) {
+      if (!allTopicsMap[idA].relatedTopics) {
+        allTopicsMap[idA].relatedTopics = [];
+      }
+      if (!allTopicsMap[idB].relatedTopics) {
+        allTopicsMap[idB].relatedTopics = [];
+      }
+
+      if (!allTopicsMap[idA].relatedTopics.includes(idB)) {
+        allTopicsMap[idA].relatedTopics.push(idB);
+        allTopicsMap[idA].relatedTopics.sort();
+      }
+      if (!allTopicsMap[idB].relatedTopics.includes(idA)) {
+        allTopicsMap[idB].relatedTopics.push(idA);
+        allTopicsMap[idB].relatedTopics.sort();
+      }
     }
   }
 

@@ -195,6 +195,7 @@ export const CanonicalTopicSchema = z.object({
   }).optional(),
   changeAlert: ChangeAlertSchema.optional(),
   updatesHistory: z.array(TopicUpdateSchema).default([]),
+  relatedTopics: z.array(z.string()).default([]),
   sourceReferences: z.array(SourceReferenceSchema).default([]),
 
   contentMarkdown: z.string().min(1)

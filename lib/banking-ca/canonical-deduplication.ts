@@ -309,4 +309,74 @@ export const CANONICAL_TAXONOMY_OVERRIDES: Record<string, CategoryId> = {
   'wheat-flour-export-ban-lifted': 'MACRO_ECONOMY'
 };
 
+/**
+ * Explicit Phase 6E Validated Chronological Policy/Scheme Updates
+ * Maps earlier base policy/scheme to subsequent amendment/extension in updatesHistory.
+ */
+export const CANONICAL_CHRONOLOGICAL_UPDATES: Array<{
+  baseTopicId: string;
+  updateTopicId: string;
+  summary: string;
+  date: string;
+  changeType?: string;
+}> = [
+  {
+    baseTopicId: 'ca-credit-guarantee-scheme-for-mfis-cgsmfi-20',
+    updateTopicId: 'ca-credit-guarantee-scheme-for-microfinance-institutions-cgsmfi-20-extended',
+    summary: 'CGSMFI 2.0 framework extended with expanded lending limits and guarantee cover for eligible MFIs.',
+    date: '2026-08-15',
+    changeType: 'EXTENSION'
+  },
+  {
+    baseTopicId: 'ca-jal-jeevan-mission-jjm',
+    updateTopicId: 'ca-jal-jeevan-mission-jjm-7-year-review-82-rural-tap-coverage-jjm-20-869-lakh-crore',
+    summary: 'Jal Jeevan Mission 7-Year Review: 82% rural tap coverage reached and JJM 2.0 announced with ₹8.69 Lakh Crore outlay.',
+    date: '2026-08-15',
+    changeType: 'AMENDMENT'
+  }
+];
+
+/**
+ * Explicit Phase 6E Validated Related Topics & Sequential Milestones
+ * Bidirectional conceptual and milestone edges.
+ */
+export const CANONICAL_RELATED_TOPIC_PAIRS: Array<[string, string]> = [
+  // Sequential Quantitative Milestones
+  ['ca-pradhan-mantri-matru-vandana-yojana-pmmvy-completes-9-years', 'ca-pradhan-mantri-mudra-yojana-pmmy-completes-11-years-40-lakh-crore-sanctioned'],
+  ['ca-upi-records-2170-billion-transactions-in-january-2026', 'ca-upi-processes-record-2366-billion-transactions-worth-2988-lakh-crore-in-july-2026'],
+
+  // Related-but-Distinct Cross-Domain & Institutional Clusters
+  ['ca-62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026', 'ca-60th-rbi-monetary-policy-committee-mpc-statement-april-2026'],
+  ['ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627', 'ca-rbi-scale-based-regulation-sbr-1-lakh-crore-absolute-threshold-for-nbfc-upper-layer-nbfc-ul'],
+  ['ca-bharat-maritime-insurance-pool-bmip', 'ca-cabinet-approves-12980-crore-bharat-maritime-insurance-pool-bmi-pool'],
+  ['ca-maldives-favara-leftrightarrow-india-upi-corridor', 'ca-maldives-favara-upi-linkage'],
+  ['ca-public-examinations-prevention-of-unfair-means-amendment-bill-2026-assent', 'ca-public-examinations-prevention-of-unfair-means-amendment-bill-2026'],
+  ['ca-apex-financial-regulatory-appointments', 'ca-apex-appointments'],
+  ['ca-apex-financial-regulatory-appointments', 'ca-key-financial-regulatory-appointments-may-2026'],
+  ['ca-apex-financial-regulatory-appointments', 'ca-major-regulatory-executive-apex-appointments'],
+  ['ca-apex-financial-regulatory-appointments', 'ca-apex-regulatory-executive-appointments-june-2026'],
+  ['ca-pmksy-10-year-review', 'ca-pm-vbry-1-year-review'],
+  ['ca-apex-appointments', 'ca-major-regulatory-executive-apex-appointments'],
+  ['ca-pfrda-launches-nps-swasthya-pension-scheme-under-regulatory-sandbox', 'ca-icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox'],
+  ['ca-conclusion-of-landmark-india-eu-free-trade-agreement-22nd-fta', 'ca-india-and-gcc-sign-terms-of-reference-for-free-trade-agreement-fta'],
+  ['ca-henley-passport-index-2026', 'ca-henley-passport-index-may-2026-update'],
+  ['ca-henley-passport-index-2026', 'ca-global-passport-index-2026-global-citizen-solutions'],
+  ['ca-key-banking-financial-appointments-january-2026', 'ca-key-banking-corporate-appointments-february-2026'],
+  ['ca-key-banking-financial-appointments-january-2026', 'ca-key-financial-institutional-appointments-march-2026'],
+  ['ca-key-banking-financial-appointments-january-2026', 'ca-key-banking-financial-leadership-appointments-april-2026'],
+  ['ca-key-banking-financial-appointments-january-2026', 'ca-key-financial-regulatory-appointments-may-2026'],
+  ['ca-india-and-gcc-sign-terms-of-reference-for-free-trade-agreement-fta', 'ca-india-sacu-sign-terms-of-reference-for-preferential-trade-agreement-pta'],
+  ['ca-key-banking-corporate-appointments-february-2026', 'ca-key-banking-financial-leadership-appointments-april-2026'],
+  ['ca-crafoord-prize-2026-in-geosciences', 'ca-wsis-prize-2026'],
+  ['ca-68th-annual-grammy-awards-bafta-awards-2026', 'ca-bcci-annual-awards-2026'],
+  ['ca-drdo-flight-tests-vshorads-at-itr-chandipur', 'ca-drdo-strategic-flight-tests'],
+  ['ca-khelo-india-winter-games-2026', 'ca-8th-khelo-india-youth-games-kiyg-2026'],
+  ['ca-australian-open-2026-champions', 'ca-taipei-open-2026'],
+  ['ca-forbes-worlds-billionaires-2026', 'ca-forbes-worlds-best-banks-2026-india'],
+  ['ca-global-terrorism-index-2026-iep', 'ca-global-peace-index-2026-iep-sydney'],
+  ['ca-global-terrorism-index-2026-iep', 'ca-global-liveability-index-2026-eiu'],
+  ['ca-skytrax-world-airport-awards-2026', 'ca-high-impact-awards-recognitions-environmental-honors-roster']
+];
+
+
 
