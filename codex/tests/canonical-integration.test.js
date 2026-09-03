@@ -51,8 +51,8 @@ describe('Phase 9: Controlled Canonical Integration & Rehearsal Suite', () => {
       }
     };
 
-    // Save test proposal to ledger
-    const ledger = loadProposalsLedger();
+    // Save test proposal to ledger (filter out previous test proposals)
+    const ledger = loadProposalsLedger().filter(p => !p.proposal_id.startsWith('PROP-TEST-'));
     ledger.push(testProposal);
     saveProposalsLedger(ledger);
 
@@ -102,7 +102,7 @@ describe('Phase 9: Controlled Canonical Integration & Rehearsal Suite', () => {
       }
     };
 
-    const ledger = loadProposalsLedger();
+    const ledger = loadProposalsLedger().filter(p => !p.proposal_id.startsWith('PROP-TEST-'));
     ledger.push(testProposal);
     saveProposalsLedger(ledger);
 
@@ -145,7 +145,7 @@ describe('Phase 9: Controlled Canonical Integration & Rehearsal Suite', () => {
       }
     };
 
-    const ledger = loadProposalsLedger();
+    const ledger = loadProposalsLedger().filter(p => !p.proposal_id.startsWith('PROP-TEST-'));
     ledger.push(staleProposal);
     saveProposalsLedger(ledger);
 
