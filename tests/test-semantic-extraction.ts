@@ -145,8 +145,8 @@ async function runTests() {
   // Test 9: Complete Knowledge IR Provenance Validation & Anti-Hallucination Firewall
   {
     const segmentMap: Record<string, string> = {
-      'seg-001': 'The Reserve Bank of India Monetary Policy Committee maintained the policy Repo Rate at 6.50% by unanimous decision.',
-      'seg-002': 'Standing Deposit Facility rate remains at 6.25% and Marginal Standing Facility rate remains at 6.75%.'
+      'seg-0001': 'The Reserve Bank of India Monetary Policy Committee maintained the policy Repo Rate at 6.50% by unanimous decision.',
+      'seg-0002': 'Standing Deposit Facility rate remains at 6.25% and Marginal Standing Facility rate remains at 6.75%.'
     };
 
     const validation = validateKnowledgeIRProvenance(DEFAULT_MOCK_KNOWLEDGE_IR, segmentMap);
@@ -165,8 +165,8 @@ async function runTests() {
       stance: 'ASSERTED',
       numericalAnchors: ['3.50%'],
       provenance: {
-        segmentIds: ['seg-001'],
-        quotedText: 'Cash Reserve Ratio was reduced to 3.50%' // Not in segment 001!
+        segmentIds: ['seg-0001'],
+        quotedText: 'Cash Reserve Ratio was reduced to 3.50%' // Not in segment 0001!
       }
     });
 

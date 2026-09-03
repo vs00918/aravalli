@@ -24,7 +24,7 @@ export const DEFAULT_MOCK_KNOWLEDGE_IR: KnowledgeIR = {
       provenance: {
         startOffset: 0,
         endOffset: 120,
-        segmentIds: ['seg-001'],
+        segmentIds: ['seg-0001'],
         quotedText: 'The Reserve Bank of India Monetary Policy Committee maintained the policy Repo Rate at 6.50% by unanimous decision.'
       }
     },
@@ -39,7 +39,7 @@ export const DEFAULT_MOCK_KNOWLEDGE_IR: KnowledgeIR = {
       provenance: {
         startOffset: 121,
         endOffset: 240,
-        segmentIds: ['seg-001', 'seg-002'],
+        segmentIds: ['seg-0001', 'seg-0002'],
         quotedText: 'Standing Deposit Facility rate remains at 6.25% and Marginal Standing Facility rate remains at 6.75%.'
       }
     }
@@ -55,7 +55,7 @@ export const DEFAULT_MOCK_KNOWLEDGE_IR: KnowledgeIR = {
           action: 'Repo rate anchored at 6.50%',
           result: 'Sets center of policy corridor',
           provenance: {
-            segmentIds: ['seg-001'],
+            segmentIds: ['seg-0001'],
             quotedText: 'maintained the policy Repo Rate at 6.50%'
           }
         },
@@ -64,7 +64,7 @@ export const DEFAULT_MOCK_KNOWLEDGE_IR: KnowledgeIR = {
           action: 'SDF placed at 25 bps below repo',
           result: 'Absorbs surplus liquidity at 6.25%',
           provenance: {
-            segmentIds: ['seg-002'],
+            segmentIds: ['seg-0002'],
             quotedText: 'Standing Deposit Facility rate remains at 6.25%'
           }
         }
