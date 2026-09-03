@@ -326,11 +326,10 @@
 * **Institution:** SEBI
 * **Event Date:** 2026-03-15
 * **Status:** PROPOSAL
-* **Must Memori
-
-**Know & Understand (Context)**:
+* **Know & Understand (Context)**:
 - **MII Resilience Index**: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.
-ze Facts:**
+
+**Must-Memorize Facts**:
   * **MII Cyber Resilience:**
     * 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).
   * 🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*

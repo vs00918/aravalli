@@ -69,11 +69,10 @@
 * **Scale-Based NBFC Identification → Upper Layer 2026-27:**
   * Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.
 
-**Must Memori
-
 **Know & Understand (Context)**:
 - **Scale-Based Supervision**: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.
-ze**
+
+**Must-Memorize Facts**:
 * **NBFC-UL Entities & Rules Ladder:**
   * **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2	ext{ Trillion}$).
   * **Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).

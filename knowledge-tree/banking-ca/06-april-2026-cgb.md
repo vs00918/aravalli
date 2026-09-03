@@ -186,11 +186,10 @@
 * **Institution:** RBI
 * **Event Date:** 2026-04-16
 * **Status:** NOTIFIED
-* **Must Memori
-
-**Know & Understand (Context)**:
+* **Know & Understand (Context)**:
 - **Transaction Security Balance**: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits.
-ze Facts:**
+
+**Must-Memorize Facts**:
   * **Recurring Digital Payments → E-Mandate Thresholds:**
     * Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.
     * **Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.
@@ -203,11 +202,10 @@ ze Facts:**
 * **Institution:** RBI
 * **Event Date:** 2026-04-15
 * **Status:** NOTIFIED
-* **Must Memori
-
-**Know & Understand (Context)**:
+* **Know & Understand (Context)**:
 - **Forex Liquidity Mechanism**: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement.
-ze Facts:**
+
+**Must-Memorize Facts**:
   * **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**
     * Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).
     * Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.
@@ -483,11 +481,10 @@ ze Facts:**
 * **Category:** PENSION_SYSTEMS
 * **Institution:** OTHER
 * **Event Date:** 2026-04-05
-* **Must Memori
-
-**Know & Understand (Context)**:
+* **Know & Understand (Context)**:
 - **Social Security Reform**: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers.
-ze Facts:**
+
+**Must-Memorize Facts**:
   * **EPF Digital Overhaul → Immediate 75% Withdrawal:**
     * Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.
     * Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.

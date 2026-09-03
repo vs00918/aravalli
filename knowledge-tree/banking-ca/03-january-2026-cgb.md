@@ -225,11 +225,10 @@
 * **Institution:** SEBI
 * **Event Date:** 2026-01-14
 * **Status:** NOTIFIED
-* **Must Memori
-
-**Know & Understand (Context)**:
+* **Know & Understand (Context)**:
 - **Regulatory Architecture**: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds.
-ze Facts:**
+
+**Must-Memorize Facts**:
   * **Single Window Access for Trusted Investors:**
     * Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).
     * Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.

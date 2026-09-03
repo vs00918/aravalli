@@ -249,7 +249,8 @@
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Key Facts**: Bank exposure capped at **49% of asset value**; at least **80% of assets** must generate positive cash flows for $ge 1$ year (Risk weights: CRE 100%, CME 125%, Overseas 150%).
+- **Key Facts**: Bank exposure capped at **49% of asset value**.
+- at least **80% of assets** must generate positive cash flows for $ge 1$ year (Risk weights: CRE 100%, CME 125%, Overseas 150%)..
 - 🎯 **Recap:** *REIT/InvIT loan cap: 49% asset value $mid$ 80% operational cash flow rule.*
 
 ### 10. RBI Announces Special US Dollar-Rupee Forex Swap Windows for FCNR(B) & ECBs
@@ -265,7 +266,9 @@
 - **Institution**: `RESERVE_BANK_OF_INDIA`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-26`
-- **Key Facts**: Q4 CAD surplus of **$7.1 Billion (0.7% GDP)**; full-year FY26 CAD at **$25.2 Billion (0.6% GDP)**; net FDI: $6.9 Billion.
+- **Key Facts**: Q4 CAD surplus of **$7.1 Billion (0.7% GDP)**.
+- full-year FY26 CAD at **$25.2 Billion (0.6% GDP)**.
+- net FDI: $6.9 Billion..
 - 🎯 **Recap:** *Q4 CAD surplus: $7.1B $mid$ FY26 full year CAD: 0.6% GDP.*
 
 ### 12. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auctions
@@ -305,7 +308,8 @@
 - **Institution**: `MINISTRY_OF_NEW_AND_RENEWABLE_ENERGY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-04`
-- **Key Facts**: Interim target of **75 lakh rooftop solar installations by Dec 2026** (1 crore target by March 2027); Utility-Linked Aggregation model launched.
+- **Key Facts**: Interim target of **75 lakh rooftop solar installations by Dec 2026** (1 crore target by March 2027).
+- Utility-Linked Aggregation model launched..
 - 🎯 **Recap:** *PM Surya Ghar: 75 lakh installations target by Dec 2026 $mid$ ULA model.*
 
 ### 17. BHAVYA Industrial Parks Scheme & Portal Launched (₹33,660 Crore Outlay)
@@ -313,7 +317,8 @@
 - **Institution**: `MINISTRY_OF_COMMERCE_AND_INDUSTRY`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-10`
-- **Key Facts**: Developing 100 investment-ready industrial parks over 6 years via NICDC (51:49 partnership model with states; initial phase 20 parks).
+- **Key Facts**: Developing 100 investment-ready industrial parks over 6 years via NICDC (51:49 partnership model with states.
+- initial phase 20 parks)..
 - 🎯 **Recap:** *BHAVYA: ₹33,660 Cr outlay for 100 industrial parks.*
 
 ### 18. Modified UDAN (RCS) Scheme Approved with Outlay of ₹28,840 Crore (10 Years)
@@ -321,7 +326,8 @@
 - **Institution**: `MINISTRY_OF_CIVIL_AVIATION`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Key Facts**: 10-year scheme (FY27 to FY36) with **₹28,840 Crore outlay**; ₹12,159 Cr to develop 100 unserved airstrips under Challenge Mode.
+- **Key Facts**: 10-year scheme (FY27 to FY36) with **₹28,840 Crore outlay**.
+- ₹12,159 Cr to develop 100 unserved airstrips under Challenge Mode..
 - 🎯 **Recap:** *Modified UDAN: ₹28,840 Cr outlay for 100 airstrips over 10 years.*
 
 ### 19. Credit Guarantee Scheme for Microfinance Institutions (CGSMFI-2.0) Extended
@@ -329,7 +335,8 @@
 - **Institution**: `NCGTC`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-12`
-- **Key Facts**: Extended to August 31, 2026 (₹20,000 Cr pool); Large NBFC-MFI loan cap raised to **₹1,000 Crore** (coverage: 80% Small, 75% Med, 70% Large).
+- **Key Facts**: Extended to August 31, 2026 (₹20,000 Cr pool).
+- Large NBFC-MFI loan cap raised to **₹1,000 Crore** (coverage: 80% Small, 75% Med, 70% Large)..
 - 🎯 **Recap:** *CGSMFI-2.0 extended $mid$ ₹1,000 Cr loan cap for large MFIs.*
 
 ### 20. PM SVANidhi Scheme Completes 6 Years: ₹17,800 Crore Disbursed Across 1.12 Crore Loans
@@ -337,7 +344,9 @@
 - **Institution**: `MINISTRY_OF_HOUSING_AND_URBAN_AFFAIRS`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-01`
-- **Key Facts**: 1.12 crore loans disbursed to 75.5 lakh street vendors (₹15k, ₹25k, ₹50k tranches); UPI RuPay Credit Cards up to ₹30,000; extended to March 31, 2030.
+- **Key Facts**: 1.12 crore loans disbursed to 75.5 lakh street vendors (₹15k, ₹25k, ₹50k tranches).
+- UPI RuPay Credit Cards up to ₹30,000.
+- extended to March 31, 2030..
 - 🎯 **Recap:** *PM SVANidhi: ₹17,800 Cr disbursed across 1.12 Cr loans $mid$ Extended to 2030.*
 
 ### 21. PM-KISAN 23rd Instalment: ₹18,880 Crore Disbursed to 9.44 Crore Farmers
@@ -345,7 +354,8 @@
 - **Institution**: `MINISTRY_OF_AGRICULTURE`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
-- **Key Facts**: ₹18,880 crore transferred via DBT (2.18 crore women farmers); cumulative transfers exceed ₹4.46 lakh crore since Feb 2019.
+- **Key Facts**: ₹18,880 crore transferred via DBT (2.18 crore women farmers).
+- cumulative transfers exceed ₹4.46 lakh crore since Feb 2019..
 - 🎯 **Recap:** *PM-KISAN 23rd tranche: ₹18,880 Cr to 9.44 Cr farmers.*
 
 ### 22. Jai Prakash Narayan Bird Sanctuary (Surha Tal, UP) Designated India's 100th Ramsar Site
@@ -353,7 +363,8 @@
 - **Institution**: `MOEFCC`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-05`
-- **Key Facts**: Surha Tal (Ballia, UP) designated 100th Ramsar site (UP's 13th site); India ranks 1st in Asia and 3rd globally.
+- **Key Facts**: Surha Tal (Ballia, UP) designated 100th Ramsar site (UP's 13th site).
+- India ranks 1st in Asia and 3rd globally..
 - 🎯 **Recap:** *Surha Tal (Ballia, UP) is India's 100th Ramsar Site.*
 
 ### 23. CPCL (28th) and GRSE (29th) Accorded Navratna CPSE Status
@@ -514,7 +525,8 @@
 - **Pradeep Singh Kharola**: Appointed Executive Advisor to Chairman of Air India.
 
 ### Awards, Honours & Fellowships (June 2026)
-- **51 Gallantry Awards (Defence Investiture Phase-I)**: Conferred by President Murmu (7 Kirti Chakras, 15 Vir Chakras, 29 Shaurya Chakras); Kirti Chakra to Gaganyatri Gp Capt Prasanth Balakrishnan Nair.
+- **51 Gallantry Awards (Defence Investiture Phase-I)**: Conferred by President Murmu (7 Kirti Chakras, 15 Vir Chakras, 29 Shaurya Chakras).
+- Kirti Chakra to Gaganyatri Gp Capt Prasanth Balakrishnan Nair..
 - **29th National Awards for e-Governance (NAeG 2026)**: 17 projects selected (AgriStack Gold, e-Jagriti Silver, TRINETRA Gold).
 - **Sangeet Natak Akademi Fellowships 2026**: 7 eminent personalities elected (Ramlal Bareth, A.V. Anand, Rita Ganguly, Puru Dadheech, Chittaranjan Jyotishi, Pasumarthi Rattaiah Sarma, Sudharani Raghupathy).
 - **2025 Wolf Prize in Physics**: Conferred on Prof. Jainendra K. Jain (1st Indian-origin physicist) for composite fermions.
@@ -530,11 +542,13 @@
 - **World Soil Day 2024 Farmer Contest (FAO)**: Valluvan Vadavalli Thangavel (Pollachi, Tamil Nadu) won 3rd prize for multi-storey food forest.
 
 ### Sports Milestones (June 2026)
-- **TATA IPL 2026**: Royal Challengers Bengaluru (RCB) defeated Gujarat Titans by 5 wickets (2nd consecutive title); Vaibhav Sooryavanshi youngest Orange Cap & MVP with 72 sixes.
+- **TATA IPL 2026**: Royal Challengers Bengaluru (RCB) defeated Gujarat Titans by 5 wickets (2nd consecutive title).
+- Vaibhav Sooryavanshi youngest Orange Cap & MVP with 72 sixes..
 - **French Open 2026 (Roland Garros)**: Alexander Zverev (Germany) won maiden men's singles; Mirra Andreeva (Russia, 19y) youngest women's singles winner since 1992.
 - **Norway Chess 2026**: R. Praggnanandhaa won title with 18 points (1st Indian champion); Bibisara Assaubayeva won women's title.
 - **Princess of Asturias Award for Sports 2026**: Lionel Messi became 1st individual footballer to receive honour in Spain.
-- **22nd Asian U20 Athletics Championships (Hong Kong)**: India finished 2nd with 19 medals (10 gold, 5 silver, 4 bronze); Pooja Singh high jump record 1.93m.
+- **22nd Asian U20 Athletics Championships (Hong Kong)**: India finished 2nd with 19 medals (10 gold, 5 silver, 4 bronze).
+- Pooja Singh high jump record 1.93m..
 - **Men's Hockey U18 Asia Cup (Japan)**: India won gold defeating Japan 4-1 (Ashish Tani Purti hat-trick).
 - **SAFF Women's Championship 2026**: India 'Blue Tigresses' won 6th title defeating Bangladesh 3-1 in Goa.
 - **World Yogasana Championship (Ahmedabad)**: India topped medal tally with 114 medals (102 gold).
@@ -625,7 +639,8 @@
 - **Himachal Pradesh Drone Mail Delivery**: Mandi HPO to Rehardhar (reduced transit from 2 hrs to 7 mins).
 - **WT-MARUT Wind Turbine Supply Chain Portal**: Launched by MNRE at Global Wind Day (100 GW roadmap).
 - **Tripura Sarinda Bowed String Instrument**: Granted GI tag (Tripura's 4th GI).
-- **NCRPB Draft Regional Plan 2041**: 4 greenfield 'Namo Cities' (₹5,000 cr assistance); '30-Minute NCR' transit.
+- **NCRPB Draft Regional Plan 2041**: 4 greenfield 'Namo Cities' (₹5,000 cr assistance).
+- '30-Minute NCR' transit..
 - **Green Hydrogen Certification Portal (GHCI)**: Launched by MNRE for 5 MMT target.
 - **SHAN Conservation Society in Ladakh**: Established for snow leopard conservation (718 individuals in India).
 - **I4C GRM and MRM Cyber Fraud Portals**: Launched under CFCFRMS for wrongful account freeze relief and money recovery.
@@ -646,7 +661,8 @@
 - **PM Family Care Tracker (Gujarat)**: Digital lifecycle health tracking from prenatal to age 16 across 16 schemes.
 - **Bharat Taxi Cooperative Ride-Hailing**: Expanded to 14 Gujarat cities ('Saarthi Hi Maalik', zero commission).
 - **CCUS ₹20,000 Crore Framework**: Cabinet review for 5 heavy industrial sectors (2070 net zero).
-- **Neemuch (500 MW) & Shajapur (450 MW) Solar Parks**: Tariff ₹2.14/unit; Morena 440 MW Solar-plus-Storage (₹2.70/unit).
+- **Neemuch (500 MW) & Shajapur (450 MW) Solar Parks**: Tariff ₹2.14/unit.
+- Morena 440 MW Solar-plus-Storage (₹2.70/unit)..
 - **MoRD Rural Internal Audit Portal**: Unified digital risk and compliance audit platform by CCA and NIC.
 - **Anemia Mukt Bharat (AMB) 7x7x7 Framework**: Added LBW babies (0-6m), 'Eating Right', and M&E; T4 approach (Test, Treat, Talk, Track).
 - **AUKUS Pillar Two UUV Partnership**: US, UK, Australia developing uncrewed undersea vehicles by 2027.
@@ -686,7 +702,9 @@
 - **PNB-Zaggle Biodegradable Twin Credit Cards**: Twin Visa & RuPay proposition.
 - **PFRDA Pension Sahayak**: AI voice-enabled grievance redressal in 22 Indian languages.
 - **RBI Clarification on Pre-Sanctioned UPI Credit Lines**: Governed by underlying loan prudential norms.
-- **RBI KCC Master Directions 2026 Deferred to Jan 1, 2027**: Standardised crop seasons (12m/18m); ₹2L collateral-free limit (₹3L with tie-up); Flexi KCC ₹10k–₹50k for marginal farmers (<1 ha).
+- **RBI KCC Master Directions 2026 Deferred to Jan 1, 2027**: Standardised crop seasons (12m/18m).
+- ₹2L collateral-free limit (₹3L with tie-up).
+- Flexi KCC ₹10k–₹50k for marginal farmers (<1 ha)..
 - **RBI Lead Bank Scheme (LBS) Overhaul**: Mandatory Lead District Manager (LDM) per district; BLBC bottom-up credit planning; mandatory 60% CD ratio in rural/semi-urban branches.
 - **Zerodha Fund House 1st Lifecycle Mutual Funds**: Target-date funds (Zerodha Life Cycle Fund 2036 & 2041).
 - **RBI Draft Model Risk Management Framework (MRMF)**: Mandatory board risk appetite and human oversight for AI/ML models.

@@ -159,14 +159,22 @@
 * **2030 FIFA World Cup Hosts**: Main tournament jointly hosted by **Morocco, Portugal, and Spain**; three centenary opening matches hosted in **Argentina, Paraguay, and Uruguay**.
 * **ICC Women's T20 World Cup 2026**: Won by **Australia (7th title)** defeating England by 7 wickets; Player of the Tournament: Beth Mooney.
 * **World Junior Squash Championship**: **Anahat Singh** became the first Indian squash player to win the Junior World title (Niagara-on-the-Lake, Canada).
-* **60th Jnanpith Award (2025)**: Conferred on Tamil poet and lyricist **R. Vairamuthu** (3rd Tamil recipient after Akilan and Jayakanthan); 59th winner: Vinod Kumar Shukla; 58th: Gulzar and Rambhadracharya.
+* **60th Jnanpith Award (2025)**: Conferred on Tamil poet and lyricist **R. Vairamuthu** (3rd Tamil recipient after Akilan and Jayakanthan).
+* 59th winner: Vinod Kumar Shukla.
+* 58th: Gulzar and Rambhadracharya..
 * **Lokmanya Tilak National Award 2026**: Awarded to National Security Advisor **Ajit Doval** on August 1 for lifetime contribution to national security.
-* **72nd National Film Awards (2024)**: Best Feature Film: *Article 370*; Best Actors: Mammootty (*Bramayugam*) & Kartik Aaryan (*Chandu Champion*); Best Actress: Yami Gautam (*Article 370*); Cash prize: ₹3,00,000.
-* **Global Liveability Index 2026 (EIU)**: Top globally: Copenhagen & Vienna; Highest ranked Indian city: **New Delhi (120th)**, followed by Mumbai (121st), Chennai (123rd), Bengaluru (127th).
-* **Global Passport Index 2026 (Global Citizen Solutions)**: Sweden #1; **India ranks 125th** out of 197 nations (composite score: 45.1).
+* **72nd National Film Awards (2024)**: Best Feature Film: *Article 370*.
+* Best Actors: Mammootty (*Bramayugam*) & Kartik Aaryan (*Chandu Champion*).
+* Best Actress: Yami Gautam (*Article 370*).
+* Cash prize: ₹3,00,000..
+* **Global Liveability Index 2026 (EIU)**: Top globally: Copenhagen & Vienna.
+* Highest ranked Indian city: **New Delhi (120th)**, followed by Mumbai (121st), Chennai (123rd), Bengaluru (127th)..
+* **Global Passport Index 2026 (Global Citizen Solutions)**: Sweden #1.
+* **India ranks 125th** out of 197 nations (composite score: 45.1)..
 * **WDMMA Global Air Power Rankings 2026**: **Indian Air Force (IAF) ranked 3rd globally** (behind USAF and Russian Air Force, ahead of China's PLAAF).
 * **FATF June 2026 Plenary**: Removed **Algeria and Namibia** from the grey list; added Bosnia & Herzegovina and Iraq.
-* **Brand Finance India 100**: **Tata Group ($33.6 billion)** ranked India's most valuable brand for the 10th consecutive year; Infosys ($16.4 billion) #2.
+* **Brand Finance India 100**: **Tata Group ($33.6 billion)** ranked India's most valuable brand for the 10th consecutive year.
+* Infosys ($16.4 billion) #2..
 * **IRENA Renewable Statistics 2026**: India's renewable energy capacity expanded **22.5% in 2025 to 250.498 GW** (second only to China's 24.2% growth).
 * **Pithora Painting GI Tag**: Traditional wall art of the **Rathwa tribal community of Gujarat** received Geographical Indication (GI) tag.
 * **Hydrogen Train Pilot**: India's first daily hydrogen-powered passenger train service approved on the **Jind to Sonipat route (Haryana)**.

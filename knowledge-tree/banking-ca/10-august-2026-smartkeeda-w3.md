@@ -173,7 +173,9 @@
 
 ### 7. RBI Fortnightly Banking Data: Bank Deposits Accelerate to 15.4% (Highest Since 2016)
 - **Category**: `BANKING_REGULATION` | **Institution**: `RESERVE_BANK_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-15`
-- **Key Facts**: Deposits grew **15.4% YoY to ₹269.41 Trillion** (highest since Dec 2016); driven by **$36.7 Billion FCNR(B) swaps**; credit grew 19.3% YoY to ₹220.78 Trillion.
+- **Key Facts**: Deposits grew **15.4% YoY to ₹269.41 Trillion** (highest since Dec 2016).
+- driven by **$36.7 Billion FCNR(B) swaps**.
+- credit grew 19.3% YoY to ₹220.78 Trillion..
 - 🎯 **Recap:** *Bank deposits grew 15.4% YoY to ₹269.41 Trillion (FCNR swaps $36.7B).*
 
 ### 8. RBI Imposes ₹59.20 Lakh Penalty on IndusInd Bank for Current Account & Securitisation Violations
@@ -183,7 +185,8 @@
 
 ### 9. FSSAI Draft Regulations: Benchmark Nutrient Thresholds for HFSS Foods in Schools
 - **Category**: `NATIONAL_AND_STATES` | **Institution**: `FSSAI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-19`
-- **Key Facts**: HFSS limits: Solid per 100g (fat $>4.2	ext{g}$, sugar $>3	ext{g}$, salt $>0.625	ext{g}$); Liquid per 100ml (fat $>1.5	ext{g}$, sugar $>2	ext{g}$, salt $>0.175	ext{g}$).
+- **Key Facts**: HFSS limits: Solid per 100g (fat $>4.2	ext{g}$, sugar $>3	ext{g}$, salt $>0.625	ext{g}$).
+- Liquid per 100ml (fat $>1.5	ext{g}$, sugar $>2	ext{g}$, salt $>0.175	ext{g}$)..
 - 🎯 **Recap:** *FSSAI notified HFSS nutrient thresholds for schools.*
 
 ### 10. Parliament Passes Tribunals Reforms Bill, 2026: National Tribunals Commission Formed
@@ -203,12 +206,14 @@
 
 ### 13. Jal Jeevan Mission (JJM) 7-Year Review: 82% Rural Tap Coverage & JJM 2.0 (₹8.69 Lakh Crore)
 - **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `MINISTRY_OF_JAL_SHAKTI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-15`
-- **Key Facts**: 82% coverage (15.91 Cr households) with 55 lpcd BIS 10500 water; JJM 2.0 extended to Dec 2028 with **₹8.69 Lakh Crore outlay**.
+- **Key Facts**: 82% coverage (15.91 Cr households) with 55 lpcd BIS 10500 water.
+- JJM 2.0 extended to Dec 2028 with **₹8.69 Lakh Crore outlay**..
 - 🎯 **Recap:** *JJM reached 82% rural coverage $mid$ JJM 2.0 outlay ₹8.69 Lakh Crore.*
 
 ### 14. MoSPI PLFS Quarterly Bulletin (April–June 2026): Headline UR at 5.4%, Youth UR at 15.9%
 - **Category**: `MACRO_ECONOMY` | **Institution**: `MOSPI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-10`
-- **Key Facts**: Overall UR (15+) at 5.4% (LFPR 54.6%, WPR 51.7%); Youth UR (15–29) rose to **15.9%**.
+- **Key Facts**: Overall UR (15+) at 5.4% (LFPR 54.6%, WPR 51.7%).
+- Youth UR (15–29) rose to **15.9%**..
 - 🎯 **Recap:** *PLFS Q1 FY27: Overall UR 5.4%, Youth UR 15.9%.*
 
 ### 15. NITI Aayog Report: Key Sectors to Position India as a Global Manufacturing Hub
@@ -218,12 +223,15 @@
 
 ### 16. NITI Aayog Report: Regulatory Regime in Professional Services
 - **Category**: `MACRO_ECONOMY` | **Institution**: `NITI_AAYOG` | **Priority**: `P2_HIGH` | **Date**: `2026-08-19`
-- **Key Facts**: Professional services account for ~25% services exports; India was #7 services exporter in 2024 (4.3% share; RCA 3.0).
+- **Key Facts**: Professional services account for ~25% services exports.
+- India was #7 services exporter in 2024 (4.3% share.
+- RCA 3.0)..
 - 🎯 **Recap:** *India #7 global services exporter with RCA 3.0 in professional services.*
 
 ### 17. India SEZ Exports FY 2025–26: ₹16.36 Lakh Crore ($185.28 Billion)
 - **Category**: `ESI_FINANCE_BUSINESS` | **Institution**: `MINISTRY_OF_COMMERCE_AND_INDUSTRY` | **Priority**: `P2_HIGH` | **Date**: `2026-08-18`
-- **Key Facts**: SEZ exports grew 11.8% YoY to ₹16.36 Lakh Crore ($185.28B); **#1 Gujarat (₹4.05L Cr)**, #2 Karnataka, #3 Maharashtra.
+- **Key Facts**: SEZ exports grew 11.8% YoY to ₹16.36 Lakh Crore ($185.28B).
+- **#1 Gujarat (₹4.05L Cr)**, #2 Karnataka, #3 Maharashtra..
 - 🎯 **Recap:** *SEZ exports reached ₹16.36 Lakh Crore (Gujarat #1).*
 
 ### 18. Supreme Court Directs 10-km Mining Buffer for Notified Wetlands & Glaw Lake 101st Ramsar Site
@@ -233,7 +241,8 @@
 
 ### 19. IMF World Economic Outlook: Government Debt-to-GDP Projections 2026
 - **Category**: `ESI_FINANCE_BUSINESS` | **Institution**: `IMF` | **Priority**: `P2_HIGH` | **Date**: `2026-08-18`
-- **Key Facts**: Debt-to-GDP: #1 Japan (204.4%), #2 Singapore (171.9%), #9 USA (125.8%); India debt at **$3.46 Trillion (8th largest)**.
+- **Key Facts**: Debt-to-GDP: #1 Japan (204.4%), #2 Singapore (171.9%), #9 USA (125.8%).
+- India debt at **$3.46 Trillion (8th largest)**..
 - 🎯 **Recap:** *Japan #1 debt-to-GDP (204.4%) $mid$ India debt $3.46 Trillion.*
 
 ### 20. SEBI Incident Reporting Portal (FSB FIRE) & Cyber Suraksha Portal

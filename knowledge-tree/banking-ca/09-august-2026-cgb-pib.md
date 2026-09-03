@@ -182,12 +182,18 @@
 * **Rainbow Trout RAS Facility**: India's first advanced Recirculatory Aquaculture System facility established in Telangana by SC entrepreneur Aditya Rithvik Narra with **₹15 crore** from Venture Capital Fund for Scheduled Castes (VCF-SC).
 * **16th Indian Organ Donation Day**: Launched **Jug Jug Jiyo Abhiyaan** (year-long awareness) and **e-Pratyaropan** national digital organ allocation portal.
 * **Clouded Leopard Conservation Action Plan (CAP)**: Launched on 4 August (International Clouded Leopard Day) under GoI-GEF-UNDP covering **14 priority landscapes** in Northeast India and M-STrIPES monitoring under IDWH Scheme.
-* **India's 1st Telecom Manufacturing Zone (TMZ)**: Being established in **Gwalior, Madhya Pradesh** (170-acre cluster; ₹5,500 crore investment commitments; SPV: 51% MP Govt, 49% DoT).
+* **India's 1st Telecom Manufacturing Zone (TMZ)**: Being established in **Gwalior, Madhya Pradesh** (170-acre cluster.
+* ₹5,500 crore investment commitments.
+* SPV: 51% MP Govt, 49% DoT)..
 * **Indian Pharmacopoeia Commission (IPC)**: Recognized by WHO-SEARN (South-East Asia Regulatory Network) as Regional Centre of Excellence in Pharmacovigilance and Technical Centre in Quality of Medicines.
-* **National Gopal Ratna Award 2026**: Ministry of Fisheries & Dairying (under Rashtriya Gokul Mission); 1st prize ₹5 lakh, 2nd ₹3 lakh, 3rd ₹2 lakh (Special NER prize ₹2 lakh); Award ceremony on **National Milk Day (26 November 2026)**.
+* **National Gopal Ratna Award 2026**: Ministry of Fisheries & Dairying (under Rashtriya Gokul Mission).
+* 1st prize ₹5 lakh, 2nd ₹3 lakh, 3rd ₹2 lakh (Special NER prize ₹2 lakh).
+* Award ceremony on **National Milk Day (26 November 2026)**..
 * **NABL Mobile Food Testing Accreditation**: Launched India's first accreditation scheme for mobile food testing laboratories under Integrated Assessment Programme (IAP) at *Gunvatta Samanvaya*.
 * **Women Schemes (Swavalambini & NAVYA)**: *Swavalambini* (MSDE + WEP NITI Aayog) active across Assam, Meghalaya, Mizoram, UP, Telangana. *NAVYA* (vocational training for girls 16–18 under PMKVY 4.0) expanded from 27 to **100 aspirational districts** from 27 May 2026.
-* **Manual Scavenging Survey 2024–25**: No manual scavengers identified across districts; all 58,098 identified in 2013/2018 received One-Time Cash Assistance of ₹40,000 each; 182 sewer worker deaths recorded Jan 2023–June 2026 per NCSK.
+* **Manual Scavenging Survey 2024–25**: No manual scavengers identified across districts.
+* all 58,098 identified in 2013/2018 received One-Time Cash Assistance of ₹40,000 each.
+* 182 sewer worker deaths recorded Jan 2023–June 2026 per NCSK..
 
 ---
 

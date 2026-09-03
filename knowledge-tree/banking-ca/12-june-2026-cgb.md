@@ -368,12 +368,20 @@
 * **Navratna CPSE Upgrades**: **Chennai Petroleum Corporation Ltd (CPCL)** recognised as the **28th Navratna**, and **Garden Reach Shipbuilders & Engineers (GRSE)** recognised as the **29th Navratna CPSE**. (India has 14 Maharatnas).
 * **First Made-in-India Airbus C-295**: Completed maiden flight from Tata Advanced Systems Ltd (TASL) facility in Vadodara, Gujarat (Contract: 56 aircraft worth ₹21,935 crore).
 * **DRDO Strategic Flight Tests**: Successfully test-fired **RudraM-II** air-to-surface missile and **Long Range Land Attack Cruise Missile (LRLACM)** from Dr APJ Abdul Kalam Island, Odisha.
-* **Global Peace Index 2026 (IEP Sydney)**: Iceland ranked 1st (19th year); India ranked **127th** (Score: 2.409); Bhutan most peaceful in South Asia (16th); Afghanistan lowest (157th).
+* **Global Peace Index 2026 (IEP Sydney)**: Iceland ranked 1st (19th year).
+* India ranked **127th** (Score: 2.409).
+* Bhutan most peaceful in South Asia (16th).
+* Afghanistan lowest (157th)..
 * **World Bank CPPI Port Rankings 2025**: **Jawaharlal Nehru Port Authority (JNPA Mumbai)** ranked **22nd globally** (India's #1 container port), Pipavav 28th, Mundra 30th.
-* **UN Sustainable Development Report 2026 (SDSN)**: Finland ranked 1st; India ranked **94th** (Score: 68.33; improved 18 ranks since 2015).
+* **UN Sustainable Development Report 2026 (SDSN)**: Finland ranked 1st.
+* India ranked **94th** (Score: 68.33.
+* improved 18 ranks since 2015)..
 * **Hurun India 500 (2025)**: Reliance Industries #1 (₹1.8T value add), HDFC Bank #2, Bharti Airtel #3, ICICI Bank #4, TCS #5. NSE is most valuable unlisted firm (₹4.86 lakh cr).
-* **SIPRI Military Expenditure 2026**: World spend $2.9T; US #1 ($954B), China #2 ($336B), Russia #3 ($190B), Germany #4, India #5 ($92.1B); India holds 190 nuclear warheads (Pakistan 170).
-* **FDI Cumulative Milestone**: India attracted **$843 Billion** cumulative FDI between 2014-15 and 2025-26 (>90% via automatic route; FY26 inflow >$94B).
+* **SIPRI Military Expenditure 2026**: World spend $2.9T.
+* US #1 ($954B), China #2 ($336B), Russia #3 ($190B), Germany #4, India #5 ($92.1B).
+* India holds 190 nuclear warheads (Pakistan 170)..
+* **FDI Cumulative Milestone**: India attracted **$843 Billion** cumulative FDI between 2014-15 and 2025-26 (>90% via automatic route.
+* FY26 inflow >$94B)..
 * **GIFT City Banking Expansions**:
   * **Indian Overseas Bank (IOB):** Perpetual IFSCA licence for GIFT City branch.
   * **Central Bank of India:** Opened IFSC Banking Unit (IBU) at GIFT City.
@@ -410,7 +418,8 @@
 # PART 4: P4 — LOW YIELD (READ ONCE — DO NOT SPEND MAJOR REVISION TIME)
 
 * **Mission Senehjori:** Muga silk development in Assam by DONER Ministry by 2028.
-* **Global Market Cap Rank:** India 7th ($4.9T) behind South Korea ($5T+) and Taiwan; US #1 ($79.1T).
+* **Global Market Cap Rank:** India 7th ($4.9T) behind South Korea ($5T+) and Taiwan.
+* US #1 ($79.1T)..
 * **Bank Leverage Ratios (S&P):** Kotak Mahindra Bank highest in Asia-Pacific at 16.56%; HDFC Bank 11.14%.
 * **Digital Commerce Coalition:** Formed by Zomato, Swiggy, Amazon, Meesho, Zepto (Flipkart excluded).
 * **MAHA Water Mission:** ₹200 crore outlay over 5 years by Jal Shakti Ministry and ANRF.

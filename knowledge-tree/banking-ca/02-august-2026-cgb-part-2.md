@@ -92,12 +92,16 @@
 * **Prudential–Bharti Life**: Prudential plc acquiring 75% stake in Bharti Life Insurance for ₹3,500 crore.
 * **PosTransfer Remittances**: PosTransfer powered by UPI launched for Qatar–India remittances (Qatar Post + India Post + UPU-IP + NIPL).
 * **MCA Accounting Rules**: Notified amendments to Ind AS 101, 107, 109, 110, 7 aligned with OECD Pillar Two tax reforms.
-* **80th Independence Day Announcements**: Target 100 GW nuclear power capacity by 2047 and 5 new reactors by 2033; 1 crore youth AI skilling; **Sapt Dhara** (7 pillars: Manufacturing, Agriculture & Food Processing, Technology & Innovation, Gati Shakti, Defence Shakti, Green & Blue Economy, Soft Power).
+* **80th Independence Day Announcements**: Target 100 GW nuclear power capacity by 2047 and 5 new reactors by 2033.
+* 1 crore youth AI skilling.
+* **Sapt Dhara** (7 pillars: Manufacturing, Agriculture & Food Processing, Technology & Innovation, Gati Shakti, Defence Shakti, Green & Blue Economy, Soft Power)..
 * **EU CBAM**: Came into force from January 2026 covering 6 sectors (iron & steel, aluminium, fertilizers, cement, electricity, hydrogen); importers purchase CBAM certificates linked to EU ETS carbon price.
 * **Defence SRIJAN Portal**: Ministry of Defence notified 6th Positive Indigenisation List comprising 405 items (potential ₹3,070 crore).
-* **National Sports Awards 2025**: 17 Arjuna Awards + 1 Lifetime Arjuna to **I. Arumainayagam** (Footballer, 1962 Asian Games gold); Major Dhyan Chand Khel Ratna: **No recipient**.
+* **National Sports Awards 2025**: 17 Arjuna Awards + 1 Lifetime Arjuna to **I. Arumainayagam** (Footballer, 1962 Asian Games gold).
+* Major Dhyan Chand Khel Ratna: **No recipient**..
 * **Parichha Dam (Jhansi, Betwa River)**: 140-year-old dam recognized as World Heritage Irrigation Structure (WHIS) by ICID.
-* **WIPO GenAI Patent Report**: India ranks **5th globally** in generative AI patent filings (64% CAGR 2024–25; China #1).
+* **WIPO GenAI Patent Report**: India ranks **5th globally** in generative AI patent filings (64% CAGR 2024–25.
+* China #1)..
 * **DoT SIM Card Rule**: Operators directed to deny new SIM cards to subscribers who already have 9 SIM cards registered.
 * **Jal Jeevan Mission (JJM)**: Completed 7 years; rural tap-water coverage reached over **15.91 crore households**.
 * **Fitch Sovereign Rating**: Affirmed India’s Long-Term Foreign-Currency Issuer Default Rating (IDR) at **'BBB-' with Stable outlook**, driven by strong medium-term growth potential and solid external finances balancing high general government debt.
@@ -137,7 +141,8 @@
    * *Status: DRAFT (Proposed 1 April 2027)*. Lenders cannot price below benchmark; floating loan reset capped at **not more than once every 3 months**; agri reset linked to crop season ($le 12$ months); commercial banks/RRBs/Tier 3-4 UCBs with deposits $>₹1,000	ext{ cr}$ continue **MCLR**; mandatory **EBLR** retained for personal/MSME floating loans.
 
 #### 🟠 SHOULD REVISE (12 P2 Topics) — Estimated Time: ~36 Minutes
-* **Banking & Fiscal:** PSBs GNPA down to **1.93%** (₹2.45L cr), Department of Economic Affairs (DEA) Fund unclaimed deposits (₹86,917 cr total, SBI ₹20,040 cr, 10-yr rule), 1 Billion Polymer Notes (₹10 & ₹20, Sec 25 RBI Act), PSBs 2% PSL Climate proposal (₹75 cr wind/hydro cap), FAST-DS Scheme (Aug 16–Dec 31, 2026; Cat A 60%, Cat B ₹1L fee), SEBI municipal bonds (₹10k face value, 60/90 day results), SEBI retail F&O loss reduction to ₹91,685 cr.
+* **Banking & Fiscal:** PSBs GNPA down to **1.93%** (₹2.45L cr), Department of Economic Affairs (DEA) Fund unclaimed deposits (₹86,917 cr total, SBI ₹20,040 cr, 10-yr rule), 1 Billion Polymer Notes (₹10 & ₹20, Sec 25 RBI Act), PSBs 2% PSL Climate proposal (₹75 cr wind/hydro cap), FAST-DS Scheme (Aug 16–Dec 31, 2026.
+* Cat A 60%, Cat B ₹1L fee), SEBI municipal bonds (₹10k face value, 60/90 day results), SEBI retail F&O loss reduction to ₹91,685 cr..
 * **SEBI & Pension Reforms:** SEBI Single Form A MF registration (Route 2 ₹150 cr net worth, 5-yr lock-in), SEBI 6-tier Credit Risk-o-Meter proposal, PFRDA NPS e-Shramik model for gig workers, LIC 9.99% HDFC Bank stake approval.
 * **Apex Appointments:** Anurag Jain (CEO, NITI Aayog), Shabnam Sinha (Chair, Airtel Payments Bank).
 
