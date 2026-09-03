@@ -75,6 +75,7 @@ async function runLayerBTests() {
       statement: 'SEBI mandated enhanced disclosure norms for index providers.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['seg-01'], quotedText: 'SEBI mandated enhanced disclosure norms' }
     };
     const sebiEvidence: PrimaryEvidence = {
@@ -256,6 +257,7 @@ async function runLayerBTests() {
       statement: 'Secondary blog reports interest subvention revised.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['seg-1'], quotedText: 'Secondary blog reports' }
     };
 

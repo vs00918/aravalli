@@ -242,6 +242,7 @@ export class IngestionPipeline {
           activeInMonths: [extracted.eventDate.slice(0, 7)],
           chronologicalWeek: `Week-${Math.ceil(parseInt(extracted.eventDate.slice(8, 10)) / 7)}`,
           updatesHistory: [],
+          relatedTopics: [],
           sourceReferences: [extracted.sourceReference],
           informationType: 'OTHER',
           compressionLevel: extracted.priority.startsWith('P1') ? 'C4' : extracted.priority === 'P2_HIGH' ? 'C3' : 'C1',

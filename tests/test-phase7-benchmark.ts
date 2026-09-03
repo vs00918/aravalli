@@ -124,11 +124,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
     // 2. Semantic Extraction with Deterministic Mock Provider
     const provider = new SemanticMockProvider();
     const batchResult = await extractFromDocumentChunks(chunks, segmentMap, provider, {
-      irVersion: '1.0.0',
-      documentId: 'doc-e2e-001',
-      batchId: 'batch-aug-2026',
-      extractedAt: '2026-09-03T12:00:00Z',
-      model: 'mock-deterministic-v1'
+      batchId: 'batch-aug-2026'
     });
     assert.strictEqual(batchResult.successfulChunks, chunks.length);
     assert.strictEqual(batchResult.failedChunks, 0);
@@ -207,7 +203,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
     const badProvider = new SemanticMockProvider({ forceFailure: true });
     const { chunks, segmentMap } = chunkNormalizedText('Sample source text.', 'doc-err', 1, 300);
     const failedExtraction = await extractFromDocumentChunks(chunks, segmentMap, badProvider, {
-      irVersion: '1.0.0', documentId: 'doc-err', batchId: 'b-err', extractedAt: '2026-09-03T12:00:00Z', model: 'mock'
+      batchId: 'b-err'
     });
     assert.strictEqual(failedExtraction.failedChunks, 1);
 
@@ -217,6 +213,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
       statement: 'Unbacked statement',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['seg-1'], quotedText: 'non-existent substring' }
     };
     const badIR: KnowledgeIR = {
@@ -234,6 +231,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
       statement: 'Unbacked fact',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: [], quotedText: '' }
     };
     const stagedUnbacked = createStagedItem(unbackedFact, {
@@ -254,6 +252,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
       factId: 'f-upd',
       statement: 'Credit Guarantee Scheme for MFIs extended through FY 2026-27 with revised lending limits and new allocation.',
       epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED', temporalAnchor: '2026-08',
+      numericalAnchors: ['2026-27'],
       provenance: { segmentIds: ['s1'], quotedText: 'Credit Guarantee Scheme for MFIs extended through FY 2026-27' }
     }, canonicalTopics);
     assert.strictEqual(updateRes.classification, 'UPDATE');
@@ -262,6 +261,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
       factId: 'f-nov',
       statement: 'NASA and ISRO launched the NISAR-2 Earth observation synthetic aperture radar satellite.',
       epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['s1'], quotedText: 'NASA and ISRO launched the NISAR-2' }
     }, canonicalTopics);
     assert.strictEqual(novelRes.classification, 'NOVEL');
@@ -270,6 +270,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
       factId: 'f-rev',
       statement: 'Bharat Maritime Insurance Pool framework and underwriting guidelines launched for coastal shipping vessels.',
       epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['s1'], quotedText: 'Bharat Maritime Insurance Pool framework' }
     }, canonicalTopics);
     assert.strictEqual(revReqRes.classification, 'REVIEW_REQUIRED');
@@ -296,6 +297,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
     // K, L, M: Promotion guards (unapproved, rejected, quarantined cannot promote)
     const validFact: ExtractedFact = {
       factId: 'f-v', statement: 'Valid statement', epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['s1'], quotedText: 'Valid statement' }
     };
     const stagedUnapp = createStagedItem(validFact, novelRes, { documentId: 'd1', batchId: 'b1', chunkId: 'c1' });
@@ -326,21 +328,25 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
     // Case 1: Valid exact quote
     const f1: ExtractedFact = {
       factId: 'p-1', statement: 'SBI launched Project Kuber in Bengaluru.', epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['s1'], quotedText: 'inaugurated Project Kuber in Bengaluru' }
     };
     // Case 2: Valid with normalized whitespace
     const f2: ExtractedFact = {
       factId: 'p-2', statement: '4 Transaction Banking Hubs established.', epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: ['4'],
       provenance: { segmentIds: ['s2'], quotedText: '4  Transaction   Banking Hubs' }
     };
     // Case 3: Invalid fabricated quote
     const f3: ExtractedFact = {
       factId: 'p-3', statement: 'SBI opened 50 branches.', epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: ['50'],
       provenance: { segmentIds: ['s3'], quotedText: 'opened 50 branches' }
     };
     // Case 4: Empty quote
     const f4: ExtractedFact = {
       factId: 'p-4', statement: 'Unprovenanced statement.', epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: [], quotedText: '' }
     };
 
@@ -389,6 +395,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
           factId: 'c-upd-1',
           statement: 'Credit Guarantee Scheme for MFIs extended through FY 2026-27 with revised lending limits and new allocation.',
           epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED', temporalAnchor: '2026-08',
+          numericalAnchors: ['2026-27'],
           provenance: { segmentIds: ['s1'], quotedText: 'Credit Guarantee Scheme for MFIs extended through FY 2026-27' }
         },
         expected: 'UPDATE'
@@ -398,6 +405,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
           factId: 'c-nov-1',
           statement: 'ISRO launched lunar communication relay satellite Chandrayaan-4 relay.',
           epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+          numericalAnchors: ['Chandrayaan-4'],
           provenance: { segmentIds: ['s1'], quotedText: 'launched lunar communication relay satellite' }
         },
         expected: 'NOVEL'
@@ -407,6 +415,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
           factId: 'c-rev-1',
           statement: 'Bharat Maritime Insurance Pool framework and underwriting guidelines launched for coastal shipping vessels.',
           epistemicStatus: 'SOURCE_EXTRACTED', stance: 'ASSERTED',
+          numericalAnchors: [],
           provenance: { segmentIds: ['s1'], quotedText: 'Bharat Maritime Insurance Pool framework' }
         },
         expected: 'REVIEW_REQUIRED'

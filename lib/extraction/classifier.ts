@@ -56,11 +56,14 @@ function computeTokenSimilarity(tokensA: Set<string>, tokensB: Set<string>): num
   if (tokensA.size === 0 || tokensB.size === 0) return 0;
 
   let intersectionCount = 0;
-  for (const t of tokensA) {
+  tokensA.forEach(t => {
     if (tokensB.has(t)) intersectionCount++;
-  }
+  });
 
-  const unionCount = new Set([...tokensA, ...tokensB]).size;
+  const unionSet = new Set<string>();
+  tokensA.forEach(t => unionSet.add(t));
+  tokensB.forEach(t => unionSet.add(t));
+  const unionCount = unionSet.size;
   const jaccard = unionCount === 0 ? 0 : intersectionCount / unionCount;
   const minSize = Math.min(tokensA.size, tokensB.size);
   const overlap = minSize === 0 ? 0 : intersectionCount / minSize;

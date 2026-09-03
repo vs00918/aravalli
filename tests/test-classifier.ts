@@ -17,9 +17,9 @@ async function runClassifierTests() {
   const registryRaw = fs.readFileSync(registryPath, 'utf-8');
   const registry: BankingCaMasterRegistry = JSON.parse(registryRaw);
   const initialTopicCount = Object.keys(registry.topics).length;
-  const initialP1Count = registry.summary.p1Count;
-  const initialP2Count = registry.summary.p2Count;
-  const initialP3Count = registry.summary.p3Count;
+  const initialP1Count = registry.summary.activeP1Count;
+  const initialP2Count = registry.summary.totalP2Count;
+  const initialP3Count = registry.summary.totalP3Count;
   const canonicalTopics = Object.values(registry.topics);
 
   // Test 1: Exact Duplicate -> DUPLICATE
@@ -117,6 +117,7 @@ async function runClassifierTests() {
       statement: 'Bharat Maritime Insurance Pool framework and underwriting guidelines launched for coastal shipping vessels.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: {
         segmentIds: ['seg-0001'],
         quotedText: 'Bharat Maritime Insurance Pool framework and underwriting guidelines'
@@ -137,6 +138,7 @@ async function runClassifierTests() {
       statement: 'Unbacked fabricated statement without provenance.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: {
         segmentIds: [],
         quotedText: '' // Empty quote
@@ -158,6 +160,7 @@ async function runClassifierTests() {
       statement: 'India signs terms of reference for new bilateral trade agreement negotiations.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: {
         segmentIds: ['seg-0001'],
         quotedText: 'India signs terms of reference for new bilateral trade agreement'
@@ -207,9 +210,9 @@ async function runClassifierTests() {
   // Test 9: Active Canonical Topic Count and Priority Invariants Intact
   {
     assert.strictEqual(Object.keys(registry.topics).length, initialTopicCount);
-    assert.strictEqual(registry.summary.p1Count, initialP1Count);
-    assert.strictEqual(registry.summary.p2Count, initialP2Count);
-    assert.strictEqual(registry.summary.p3Count, initialP3Count);
+    assert.strictEqual(registry.summary.activeP1Count, initialP1Count);
+    assert.strictEqual(registry.summary.totalP2Count, initialP2Count);
+    assert.strictEqual(registry.summary.totalP3Count, initialP3Count);
     console.log('  ✅ Test 9: Topic Counts and Priority Distribution Invariants Intact');
     passedTests++;
   }
@@ -235,6 +238,7 @@ async function runClassifierTests() {
       statement: 'SEBI mandates enhanced cybersecurity controls and IT resilience index for stock exchanges.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: { segmentIds: ['seg-0001'], quotedText: 'enhanced cybersecurity controls' }
     };
 

@@ -104,21 +104,26 @@ export class SemanticMockProvider implements LLMProvider {
     systemPrompt?: string
   ): Promise<LLMResponse<T>> {
     // Check if prompt matches a registered custom fixture key
-    for (const [key, fixture] of this.customFixtures.entries()) {
-      if (prompt.includes(key)) {
-        return {
-          data: fixture as T,
-          rawText: JSON.stringify(fixture),
-          usage: {
-            promptTokens: 100,
-            completionTokens: 50,
-            totalTokens: 150
-          },
-          latencyMs: 5,
-          model: this.modelName,
-          provider: this.providerName
-        };
+    let matchedFixture: any = null;
+    this.customFixtures.forEach((fixture, key) => {
+      if (!matchedFixture && prompt.includes(key)) {
+        matchedFixture = fixture;
       }
+    });
+
+    if (matchedFixture) {
+      return {
+        data: matchedFixture as T,
+        rawText: JSON.stringify(matchedFixture),
+        usage: {
+          promptTokens: 100,
+          completionTokens: 50,
+          totalTokens: 150
+        },
+        latencyMs: 10,
+        model: 'mock-custom',
+        provider: this.providerName
+      };
     }
 
     // Default to golden mock Knowledge IR

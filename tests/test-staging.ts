@@ -66,6 +66,7 @@ async function runStagingTests() {
       statement: 'Unbacked fact without quote.',
       epistemicStatus: 'SOURCE_EXTRACTED',
       stance: 'ASSERTED',
+      numericalAnchors: [],
       provenance: {
         segmentIds: [],
         quotedText: '' // Empty quote

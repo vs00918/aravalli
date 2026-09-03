@@ -28,6 +28,7 @@ function createMockTopic(partial: Partial<CanonicalTopic>): CanonicalTopic {
     compressionLevel: partial.compressionLevel || 'C2',
     lifecycleStatus: 'ACTIVE',
     updatesHistory: [],
+    relatedTopics: [],
     sourceReferences: partial.sourceReferences || [{
       sourceName: 'CGB_MENTORS',
       batchName: '09-august-2026-cgb-pib',

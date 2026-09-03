@@ -189,6 +189,7 @@ export function parseCanonicalMarkdownFile(
         chronologicalWeek,
         changeAlert: currentTopic.changeAlert,
         updatesHistory: [],
+        relatedTopics: [],
         sourceReferences: [
           {
             sourceName: sourceDefault,
