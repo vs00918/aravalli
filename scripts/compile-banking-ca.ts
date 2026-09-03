@@ -8,7 +8,7 @@ import {
   ExamTargetProfile
 } from '../lib/banking-ca/schema';
 import { parseCanonicalMarkdownFile } from '../lib/banking-ca/markdown-parser';
-import { resolveCanonicalSlug, mergeCanonicalTopics, CANONICAL_PRIORITY_OVERRIDES } from '../lib/banking-ca/canonical-deduplication';
+import { resolveCanonicalSlug, mergeCanonicalTopics, CANONICAL_PRIORITY_OVERRIDES, CANONICAL_TAXONOMY_OVERRIDES } from '../lib/banking-ca/canonical-deduplication';
 
 export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry; validationErrors: string[] } {
   const rootDir = path.join(__dirname, '..');
@@ -74,6 +74,14 @@ export function compileBankingCaRegistry(): { registry: BankingCaMasterRegistry;
     if (allTopicsMap[id]) {
       allTopicsMap[id].priority = override.priority;
       allTopicsMap[id].revisionMinutes = override.revisionMinutes;
+    }
+  }
+
+  // Apply explicit Phase 6B taxonomy remediations
+  for (const [slug, newCategory] of Object.entries(CANONICAL_TAXONOMY_OVERRIDES)) {
+    const id = `ca-${slug}`;
+    if (allTopicsMap[id]) {
+      allTopicsMap[id].primaryCategory = newCategory;
     }
   }
 

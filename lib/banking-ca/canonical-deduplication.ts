@@ -1,4 +1,4 @@
-import { CanonicalTopic, PriorityLevel } from './schema';
+import { CanonicalTopic, PriorityLevel, CategoryId } from './schema';
 
 /**
  * Mapping of variant topic slugs / titles to the authoritative Canonical Slug.
@@ -273,4 +273,40 @@ export const CANONICAL_PRIORITY_OVERRIDES: Record<string, { priority: PriorityLe
   'rbi-bank-locker-guidelines-negligence-liability-cap': { priority: 'P1_CRITICAL_DEEP', revisionMinutes: 8 },
   'rbi-expands-credit-derivatives-framework-credit-default-swaps-cds-total-return-swaps': { priority: 'P1_CRITICAL_DEEP', revisionMinutes: 8 }
 };
+
+/**
+  * Explicit Phase 6B Validated Taxonomy Remediations
+  * 28 Validated Genuine Domain Classification Errors
+  */
+export const CANONICAL_TAXONOMY_OVERRIDES: Record<string, CategoryId> = {
+  'rbi-depositor-education-and-awareness-dea-fund-unclaimed-deposits': 'BANKING_REGULATION',
+  'rbi-recognises-fedai-as-a-self-regulatory-organization-sro': 'BANKING_REGULATION',
+  'india-eu-mou-between-rbi-and-esma-for-ccil-recognition': 'BANKING_REGULATION',
+  'rbi-subsumes-voluntary-retention-route-vrr-under-fpi-general-route': 'BANKING_REGULATION',
+  'rbi-sets-up-committee-to-review-business-correspondent-guidelines': 'BANKING_REGULATION',
+  'rbi-payments-vision-2028-shaping-indias-payment-frontier': 'BANKING_REGULATION',
+  'rbi-imposes-monetary-penalties-on-multiple-financial-entities': 'BANKING_REGULATION',
+  'rbi-proposal-on-high-value-digital-transfer-friction-1-hour-delay-on-transfers-10000': 'BANKING_REGULATION',
+  'rbi-retains-fpi-investment-caps-in-debt-instruments-for-fy-2026-27': 'BANKING_REGULATION',
+  'pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps': 'BANKING_REGULATION',
+  'shriram-finance-arm-receives-rbi-in-principle-nod-for-primary-dealer-business': 'BANKING_REGULATION',
+  'rbih-i4c-sign-strategic-mou-on-anti-mule-account-detection': 'BANKING_REGULATION',
+  'rbi-imposes-monetary-penalties-on-multiple-financial-institutions': 'BANKING_REGULATION',
+  'government-imposes-immediate-ban-on-sugar-exports-until-september-30-2026': 'MACRO_ECONOMY',
+  'nsp-dbt-for-agriculture-students': 'GOVERNMENT_SCHEMES',
+  'mithila-makhana-export': 'MACRO_ECONOMY',
+  'asian-development-bank-adb-shareholding-voting-matrix': 'BANKING_REGULATION',
+  'world-bank-15-billion-development-policy-financing-dpf-for-india': 'BANKING_REGULATION',
+  'treds-platforms-5-authorised': 'CAPITAL_MARKETS',
+  'pragati-agriculture-initiative': 'GOVERNMENT_SCHEMES',
+  'central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion': 'CAPITAL_MARKETS',
+  'dgft-silver-import-restrictions': 'MACRO_ECONOMY',
+  'apeda-bharati-1st-export-acceleration-cohort': 'MACRO_ECONOMY',
+  'rbi-reelathon-2026-kerala': 'BANKING_REGULATION',
+  'rbi-draft-model-risk-management-framework-mrmf': 'BANKING_REGULATION',
+  'rbi-draft-master-directions-on-secondary-market-g-secs': 'BANKING_REGULATION',
+  'cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license': 'BANKING_REGULATION',
+  'wheat-flour-export-ban-lifted': 'MACRO_ECONOMY'
+};
+
 
