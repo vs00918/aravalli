@@ -25,6 +25,8 @@
     "test:extractor": "tsx tests/test-semantic-extractor.ts",
     "test:classifier": "tsx tests/test-classifier.ts",
     "test:staging": "tsx tests/test-staging.ts",
+    "test:capsule": "tsx tests/test-capsule-engine.ts",
+    "compile:capsules": "tsx scripts/compile-cram-capsules.ts",
     "stage:review": "tsx scripts/staging-cli.ts",
     "ingest": "tsx scripts/ingest-feed.ts",
     "db:push": "prisma db push",
