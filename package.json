@@ -21,6 +21,7 @@
     "test:presentation": "tsx scripts/test-presentation-classifier.ts",
     "test:qa": "tsx scripts/test-qa-post-deploy.ts",
     "test:extraction": "tsx tests/test-semantic-extraction.ts",
+    "test:normalizer": "tsx tests/test-normalizer.ts",
     "ingest": "tsx scripts/ingest-feed.ts",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
