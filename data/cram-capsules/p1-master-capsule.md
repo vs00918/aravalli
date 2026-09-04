@@ -1,6 +1,6 @@
 # Mind of Aravalli — Master P1 High-Yield Examination Capsule
 
-**Capsule Type:** `P1_MASTER` | **Total Topics:** `99` | **Revision Load:** `763 min` | **Active Prompts:** `818`
+**Capsule Type:** `P1_MASTER` | **Total Topics:** `105` | **Revision Load:** `811 min` | **Active Prompts:** `879`
 **Generated:** `2026-09-03T12:00:00.000Z` | **Schema:** `1.0.0`
 
 ---
@@ -210,7 +210,43 @@
 
 ---
 
-## 6. D-SIB Framework & RBI Leverage Ratio Buffer
+## 6. Central Government Reconstitutes RBI Central Board: Strength Expanded to 14 Members
+- **ID:** `ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **Section 8(1)(c) Non-Official Directorship Appointments:**
+- The Central Government appointed three new part-time Non-Official Directors on the Central Board of the Reserve Bank of India under **Section 8(1)(c)** of the *Reserve Bank of India Act, 1934*, expanding the total board strength from **11 to 14 members**.
+- **Appointments & Membership Roster:**
+- **New Part-Time Non-Official Directors (4-Year Term w.e.f. Aug 24, 2026):**
+- **Reappointment:** Industrialist **Anand Mahindra** reappointed for a 2nd 4-year term w.e.f. August 20, 2026 (sole member retained from 2022 cohort).
+- **Specialist Induction:** **S. Somanath Sreedhara Panicker** (former ISRO Chairman) appointed for a 4-year term.
+- **Tenures Concluded:** Venu Srinivasan, Pankaj Ramanbhai Patel, and Dr. Ravindra H. Dholakia.
+- **Statutory Framework:** Governed under Section 8(1)(a) (Governor & up to 4 DGs), Section 8(1)(c) (up to 10 non-official directors nominated by GoI), and Section 8(1)(d) (2 Government officials).
+- 🎯 **Recap:** *RBI Central Board: 14 members $mid$ Sec 8(1)(c) $mid$ Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*
+
+### Active Recall Cards:
+- **Q1:** What is the *Section 8(1)(c) Non-Official Directorship Appointments?
+  - **A:** **
+- **Q2:** Key factual rule for: Central Government Reconstitutes RBI Central Board: Strength Expanded to 14 Members
+  - **A:** The Central Government appointed three new part-time Non-Official Directors on the Central Board of the Reserve Bank of India under **Section 8(1)(c)** of the *Reserve Bank of India Act, 1934*, expanding the total board strength from **11 to 14 members**.
+- **Q3:** What is the *Appointments & Membership Roster?
+  - **A:** **
+- **Q4:** What is the *New Part-Time Non-Official Directors (4-Year Term w.e.f. Aug 24, 2026)?
+  - **A:** **
+- **Q5:** What is the *Reappointment?
+  - **A:** ** Industrialist **Anand Mahindra** reappointed for a 2nd 4-year term w.e.f. August 20, 2026 (sole member retained from 2022 cohort).
+- **Q6:** What is the *Specialist Induction?
+  - **A:** ** **S. Somanath Sreedhara Panicker** (former ISRO Chairman) appointed for a 4-year term.
+- **Q7:** What is the *Tenures Concluded?
+  - **A:** ** Venu Srinivasan, Pankaj Ramanbhai Patel, and Dr. Ravindra H. Dholakia.
+- **Q8:** What is the *Statutory Framework?
+  - **A:** ** Governed under Section 8(1)(a) (Governor & up to 4 DGs), Section 8(1)(c) (up to 10 non-official directors nominated by GoI), and Section 8(1)(d) (2 Government officials).
+- **Q9:** What is the 🎯 **Recap?
+  - **A:** ** *RBI Central Board: 14 members $mid$ Sec 8(1)(c) $mid$ Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*
+
+---
+
+## 7. D-SIB Framework & RBI Leverage Ratio Buffer
 - **ID:** `ca-d-sib-framework-rbi-leverage-ratio-buffer` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -225,7 +261,7 @@
 
 ---
 
-## 7. DGFT Amends Foreign Trade Policy (FTP) 2023: Global Rupee Invoicing & ACU Settlement Overhaul
+## 8. DGFT Amends Foreign Trade Policy (FTP) 2023: Global Rupee Invoicing & ACU Settlement Overhaul
 - **ID:** `ca-dgft-amends-foreign-trade-policy-ftp-2023-global-rupee-invoicing-acu-settlement-overhaul` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `9 min`
 
 ### Must Memorize Facts:
@@ -267,7 +303,7 @@
 
 ---
 
-## 8. Digital Personal Data Protection (DPDP) Act, 2023: Statutory Penalties & Regulatory Framework
+## 9. Digital Personal Data Protection (DPDP) Act, 2023: Statutory Penalties & Regulatory Framework
 - **ID:** `ca-digital-personal-data-protection-dpdp-act-2023-statutory-penalties-regulatory-framework` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -294,7 +330,7 @@
 
 ---
 
-## 9. Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone
+## 10. Government e-Marketplace (GeM) 10th Foundation Anniversary: ₹20 Lakh Crore Milestone
 - **ID:** `ca-government-e-marketplace-gem-10th-foundation-anniversary-20-lakh-crore-milestone` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `DEFENCE_AND_SCIENCE` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -330,7 +366,7 @@
 
 ---
 
-## 10. IRDAI Master Framework: Insurance Intermediaries Governance & Investment Limits
+## 11. IRDAI Master Framework: Insurance Intermediaries Governance & Investment Limits
 - **ID:** `ca-irdai-master-framework-insurance-intermediaries-governance-investment-limits` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `INSURANCE_SECTOR` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -369,7 +405,82 @@
 
 ---
 
-## 11. MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning
+## 12. MeitY Electronics Components Manufacturing Scheme (ECMS) Expansion
+- **ID:** `ca-meity-electronics-components-manufacturing-scheme-ecms-expansion` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **31 Additional Projects Approved:**
+- MeitY approved 31 additional projects under the **Electronics Components Manufacturing Scheme (ECMS)** involving fresh investments of **₹7,877 crore**, in collaboration with the Electronic Industries Association of India (ELCINA).
+- **Cumulative ECMS Performance Ladder:**
+- **Applications Cleared:** **106 projects** covering ~30 product categories across 15 states.
+- **Cumulative Investment:** Rose to **₹69,548 crore** (exceeding original target of ₹59,350 crore).
+- **Expected Output/Production:** Surged to **₹5,34,101 crore** (original target: ₹4,56,500 crore).
+- **Employment Impact:** **74,628 direct jobs** and 2.5 lakh indirect jobs.
+- **Outlay Escalation:** Initial outlay of ₹22,919 Cr in April 2025 raised to **₹40,000 crore** in Union Budget 2026-27.
+- **National Goal:** Building a **$500 billion domestic electronics ecosystem by 2030-31**.
+- 🎯 **Recap:** *ECMS: 106 projects cleared $mid$ ₹69,548 Cr investments $mid$ ₹5.34 Lakh Cr production $mid$ Outlay ₹40,000 Cr $mid$ $500B target by 2030-31.*
+
+### Active Recall Cards:
+- **Q1:** What is the *31 Additional Projects Approved?
+  - **A:** **
+- **Q2:** Key factual rule for: MeitY Electronics Components Manufacturing Scheme (ECMS) Expansion
+  - **A:** MeitY approved 31 additional projects under the **Electronics Components Manufacturing Scheme (ECMS)** involving fresh investments of **₹7,877 crore**, in collaboration with the Electronic Industries Association of India (ELCINA).
+- **Q3:** What is the *Cumulative ECMS Performance Ladder?
+  - **A:** **
+- **Q4:** What is the *Applications Cleared?
+  - **A:** ** **106 projects** covering ~30 product categories across 15 states.
+- **Q5:** What is the *Cumulative Investment?
+  - **A:** ** Rose to **₹69,548 crore** (exceeding original target of ₹59,350 crore).
+- **Q6:** What is the *Expected Output/Production?
+  - **A:** ** Surged to **₹5,34,101 crore** (original target: ₹4,56,500 crore).
+- **Q7:** What is the *Employment Impact?
+  - **A:** ** **74,628 direct jobs** and 2.5 lakh indirect jobs.
+- **Q8:** What is the *Outlay Escalation?
+  - **A:** ** Initial outlay of ₹22,919 Cr in April 2025 raised to **₹40,000 crore** in Union Budget 2026-27.
+- **Q9:** What is the *National Goal?
+  - **A:** ** Building a **$500 billion domestic electronics ecosystem by 2030-31**.
+- **Q10:** What is the 🎯 **Recap?
+  - **A:** ** *ECMS: 106 projects cleared $mid$ ₹69,548 Cr investments $mid$ ₹5.34 Lakh Cr production $mid$ Outlay ₹40,000 Cr $mid$ $500B target by 2030-31.*
+
+---
+
+## 13. MeitY Mobile Phone Manufacturing Scheme (MPMS) 2026–2031: ₹62,500 Crore Outlay
+- **ID:** `ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **Successor to PLI-LSEM:**
+- The Ministry of Electronics and Information Technology (MeitY) notified the 5-year **Mobile Phone Manufacturing Scheme (MPMS)** with an outlay of **₹62,500 crore** (FY 2026-27 to FY 2030-31), succeeding the *PLI for Large Scale Electronics Manufacturing (PLI-LSEM)* which ended on March 31, 2026.
+- **Two Target Segments (TS1 & TS2) Ladder:**
+- **Target Segment 1 (TS1 - Global/EMS Manufacturers):** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $\ge ₹5,000\text{ crore}$ above base.
+- **Target Segment 2 (TS2 - Domestic Indian Brands):** Reserved for Indian brands with minimum FY26 turnover of **₹1,000 crore**. **5% base incentive** + **additional 3% incentive** for domestic design and R&D (up to 1-year gestation).
+- **Indian Brand Definition:** Trademark & IP held in India, **$>51\%$ Indian citizen control**, domestic design/R&D.
+- **Component Sourcing Booster:** Up to **1.5% additional incentive** for domestic procurement of camera/display modules, enclosures, batteries, and USB cables.
+- **Macro Targets:** Projected cumulative production of **~₹39 lakh crore** and **60,000 direct jobs**.
+- 🎯 **Recap:** *MPMS Outlay: ₹62,500 Cr (FY27–31) $mid$ TS1 (Global): ₹10k Cr turnover, 2.25%-5% $mid$ TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D $mid$ ~₹39 Lakh Cr output.*
+
+### Active Recall Cards:
+- **Q1:** What is the *Successor to PLI-LSEM?
+  - **A:** **
+- **Q2:** Key factual rule for: MeitY Mobile Phone Manufacturing Scheme (MPMS) 2026–2031: ₹62,500 Crore Outlay
+  - **A:** The Ministry of Electronics and Information Technology (MeitY) notified the 5-year **Mobile Phone Manufacturing Scheme (MPMS)** with an outlay of **₹62,500 crore** (FY 2026-27 to FY 2030-31), succeeding the *PLI for Large Scale Electronics Manufacturing (PLI-LSEM)* which ended on March 31, 2026.
+- **Q3:** What is the *Two Target Segments (TS1 & TS2) Ladder?
+  - **A:** **
+- **Q4:** What is the *Target Segment 1 (TS1 - Global/EMS Manufacturers)?
+  - **A:** ** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $\ge ₹5,000\text{ crore}$ above base.
+- **Q5:** What is the *Target Segment 2 (TS2 - Domestic Indian Brands)?
+  - **A:** ** Reserved for Indian brands with minimum FY26 turnover of **₹1,000 crore**. **5% base incentive** + **additional 3% incentive** for domestic design and R&D (up to 1-year gestation).
+- **Q6:** What is the *Indian Brand Definition?
+  - **A:** ** Trademark & IP held in India, **$>51\%$ Indian citizen control**, domestic design/R&D.
+- **Q7:** What is the *Component Sourcing Booster?
+  - **A:** ** Up to **1.5% additional incentive** for domestic procurement of camera/display modules, enclosures, batteries, and USB cables.
+- **Q8:** What is the *Macro Targets?
+  - **A:** ** Projected cumulative production of **~₹39 lakh crore** and **60,000 direct jobs**.
+- **Q9:** What is the 🎯 **Recap?
+  - **A:** ** *MPMS Outlay: ₹62,500 Cr (FY27–31) $mid$ TS1 (Global): ₹10k Cr turnover, 2.25%-5% $mid$ TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D $mid$ ~₹39 Lakh Cr output.*
+
+---
+
+## 14. MHA Expands SDRF/NDRF Notified Calamities from 12 to 14: Inclusion of Heatwaves & Lightning
 - **ID:** `ca-mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MACRO_ECONOMY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -402,7 +513,7 @@
 
 ---
 
-## 12. MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy
+## 15. MHA Launches 'PRAHAAR': India's 1st Comprehensive National Counter Terrorism Policy & Strategy
 - **ID:** `ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `NATIONAL_AND_STATES` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -444,7 +555,7 @@
 
 ---
 
-## 13. Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)
+## 16. Ministry of Law & Justice: Establishment of Mediation Council of India (MCI)
 - **ID:** `ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `NATIONAL_AND_STATES` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -489,7 +600,7 @@
 
 ---
 
-## 14. Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)
+## 17. Mobile Phone Manufacturing Scheme (MPMS) & Semicon 2.0 (₹1.90 Lakh Crore Combined Push)
 - **ID:** `ca-mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -528,7 +639,7 @@
 
 ---
 
-## 15. Modified Interest Subvention Scheme (MISS) through KCC: Interest Support Framework
+## 18. Modified Interest Subvention Scheme (MISS) through KCC: Interest Support Framework
 - **ID:** `ca-modified-interest-subvention-scheme-miss-through-kcc-interest-support-framework` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -579,7 +690,52 @@
 
 ---
 
-## 16. Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS
+## 19. NSO Periodic Labour Force Survey (PLFS) Monthly Bulletin July 2026 (16th Edition)
+- **ID:** `ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `REPORTS_AND_INDICES` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **Headline Unemployment Declines to 4-Month Low:**
+- The National Statistical Office (NSO), MoSPI, released the 16th Monthly Bulletin of the Periodic Labour Force Survey (PLFS) for July 2026, recording an improvement in India's headline Unemployment Rate (UR) to **5.1%** (down from 5.5% in June 2026) among persons aged 15 years and above.
+- **Core Labour Indicators Ladder (Ages 15+):**
+- **Headline Unemployment Rate (UR):** **5.1%** (4-month low, down from 5.5% in June).
+- **Rural Unemployment Rate:** Fell to **4.5%** (from 5.0% in June 2026).
+- **Urban Unemployment Rate:** Broadly steady at **6.7%** (vs 6.6% in June; improved from 7.2% in July 2025).
+- **Gender-wise UR:** Male UR fell to **5.0%** (from 5.3%); Female UR fell to **5.4%** (from 5.9%).
+- **Labour Force Participation Rate (LFPR):** Rose to a 4-month high of **55.4%** (from 54.4% in June).
+- **Rural LFPR:** Rose significantly to **58.0%** (from 56.6% in June).
+- **Methodology Invariant (CWS):** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $\ge 1\text{ hour}$.
+- **Sample Size:** 3,71,021 persons surveyed across India under the January 2025 revamped methodology.
+- 🎯 **Recap:** *PLFS July 2026 $mid$ Headline UR: 5.1% (Rural 4.5%, Urban 6.7%) $mid$ LFPR: 55.4% (Rural 58.0%) $mid$ CWS: 1 hr rule.*
+
+### Active Recall Cards:
+- **Q1:** What is the *Headline Unemployment Declines to 4-Month Low?
+  - **A:** **
+- **Q2:** What is the key number / threshold regarding: "The National Statistical Office (NSO), MoSPI, released th..."?
+  - **A:** The National Statistical Office (NSO), MoSPI, released the 16th Monthly Bulletin of the Periodic Labour Force Survey (PLFS) for July 2026, recording an improvement in India's headline Unemployment Rate (UR) to **5.1%** (down from 5.5% in June 2026) among persons aged 15 years and above.
+- **Q3:** What is the *Core Labour Indicators Ladder (Ages 15+)?
+  - **A:** **
+- **Q4:** What is the *Headline Unemployment Rate (UR)?
+  - **A:** ** **5.1%** (4-month low, down from 5.5% in June).
+- **Q5:** What is the *Rural Unemployment Rate?
+  - **A:** ** Fell to **4.5%** (from 5.0% in June 2026).
+- **Q6:** What is the *Urban Unemployment Rate?
+  - **A:** ** Broadly steady at **6.7%** (vs 6.6% in June; improved from 7.2% in July 2025).
+- **Q7:** What is the *Gender-wise UR?
+  - **A:** ** Male UR fell to **5.0%** (from 5.3%); Female UR fell to **5.4%** (from 5.9%).
+- **Q8:** What is the *Labour Force Participation Rate (LFPR)?
+  - **A:** ** Rose to a 4-month high of **55.4%** (from 54.4% in June).
+- **Q9:** What is the *Rural LFPR?
+  - **A:** ** Rose significantly to **58.0%** (from 56.6% in June).
+- **Q10:** What is the *Methodology Invariant (CWS)?
+  - **A:** ** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $\ge 1\text{ hour}$.
+- **Q11:** What is the *Sample Size?
+  - **A:** ** 3,71,021 persons surveyed across India under the January 2025 revamped methodology.
+- **Q12:** What is the 🎯 **Recap?
+  - **A:** ** *PLFS July 2026 $mid$ Headline UR: 5.1% (Rural 4.5%, Urban 6.7%) $mid$ LFPR: 55.4% (Rural 58.0%) $mid$ CWS: 1 hr rule.*
+
+---
+
+## 20. Parliament Passes MSMED (Amendment) Bill 2026: Statutory Udyam Status, 90-Day ODR & Mandatory TReDS
 - **ID:** `ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -618,7 +774,7 @@
 
 ---
 
-## 17. PFRDA National Pension System (NPS) Uniform Charge Structure 2026
+## 21. PFRDA National Pension System (NPS) Uniform Charge Structure 2026
 - **ID:** `ca-pfrda-national-pension-system-nps-uniform-charge-structure-2026` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `PENSION_SYSTEMS` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -651,7 +807,7 @@
 
 ---
 
-## 18. PM E-DRIVE Scheme Extended to March 2028: Outlay Raised to ₹11,900 Crore
+## 22. PM E-DRIVE Scheme Extended to March 2028: Outlay Raised to ₹11,900 Crore
 - **ID:** `ca-pm-e-drive-scheme-extended-to-march-2028-outlay-raised-to-11900-crore` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -690,7 +846,7 @@
 
 ---
 
-## 19. Pradhan Mantri Viksit Bharat Rozgar Yojana (PM-VBRY): Employment-Linked Incentive Scheme
+## 23. Pradhan Mantri Viksit Bharat Rozgar Yojana (PM-VBRY): Employment-Linked Incentive Scheme
 - **ID:** `ca-pradhan-mantri-viksit-bharat-rozgar-yojana-pm-vbry-employment-linked-incentive-scheme` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -729,7 +885,7 @@
 
 ---
 
-## 20. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief
+## 24. Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief
 - **ID:** `ca-priority-sector-lending-psl-nri-deposit-forex-swap-relief` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -753,7 +909,7 @@
 
 ---
 
-## 21. RBI Bank Locker Guidelines: Negligence Liability Cap
+## 25. RBI Bank Locker Guidelines: Negligence Liability Cap
 - **ID:** `ca-rbi-bank-locker-guidelines-negligence-liability-cap` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -768,7 +924,7 @@
 
 ---
 
-## 22. RBI Credit Valuation Adjustment (CVA) Risk Capital Framework
+## 26. RBI Credit Valuation Adjustment (CVA) Risk Capital Framework
 - **ID:** `ca-rbi-credit-valuation-adjustment-cva-risk-capital-framework` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -783,7 +939,7 @@
 
 ---
 
-## 23. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)
+## 27. RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)
 - **ID:** `ca-rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -813,7 +969,7 @@
 
 ---
 
-## 24. RBI Draft Master Directions: Interest Rates on Loans and Advances 2026
+## 28. RBI Draft Master Directions: Interest Rates on Loans and Advances 2026
 - **ID:** `ca-rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -855,7 +1011,7 @@
 
 ---
 
-## 25. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms
+## 29. RBI Loan Recovery Directions & Financed Smartphone Lockout Norms
 - **ID:** `ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -900,7 +1056,7 @@
 
 ---
 
-## 26. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)
+## 30. RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)
 - **ID:** `ca-rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -939,7 +1095,7 @@
 
 ---
 
-## 27. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27
+## 31. RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27
 - **ID:** `ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -981,7 +1137,46 @@
 
 ---
 
-## 28. SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code
+## 32. RBI Special USD-INR Forex Swap Facility: $72.85 Billion Mobilised
+- **ID:** `ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **Forex Inflow Mobilisation & Window Timelines:**
+- The Reserve Bank of India’s dedicated USD-INR Forex Swap Facility, introduced on June 8, 2026, mobilised **$72.85 billion ($72.848B)** in cumulative foreign exchange inflows as of August 21, 2026, propelling India’s headline foreign exchange reserves to **$716.90 billion**.
+- **Capital Inflow Ladder:**
+- **FCNR(B) Deposits:** Accounted for the vast majority at **$65.397 billion** (~90% of total inflows).
+- **Overseas Foreign Currency Borrowings (OFCBs):** **$4.860 billion**.
+- **External Commercial Borrowings (ECBs):** **$2.591 billion**.
+- **Operational Incentive:** Offered banks a zero-cost principal hedge, regulatory CRR/SLR exemptions, and permitted issuing Standby Letters of Credit (SBLCs) against FCNR(B) deposits (leveraged by Citigroup & Axis Bank partnership).
+- **Window Adjustments:** Due to rapid target overachievement, the **FCNR(B) deposit window closed on August 31, 2026** (advanced by 1 month), while the ECB/OFCB window remains open until **December 31, 2026**.
+- **Foreign Exchange Reserves:** Surged by **$9.905 billion** in mid-August to reach **$716.90 billion**.
+- 🎯 **Recap:** *Forex Swap: $72.85B total $mid$ FCNR(B) $65.4B (~90%) $mid$ OFCB $4.86B $mid$ ECB $2.59B $mid$ FCNR window shut Aug 31 $mid$ Forex reserves $716.9B.*
+
+### Active Recall Cards:
+- **Q1:** What is the *Forex Inflow Mobilisation & Window Timelines?
+  - **A:** **
+- **Q2:** Key factual rule for: RBI Special USD-INR Forex Swap Facility: $72.85 Billion Mobilised
+  - **A:** The Reserve Bank of India’s dedicated USD-INR Forex Swap Facility, introduced on June 8, 2026, mobilised **$72.85 billion ($72.848B)** in cumulative foreign exchange inflows as of August 21, 2026, propelling India’s headline foreign exchange reserves to **$716.90 billion**.
+- **Q3:** What is the *Capital Inflow Ladder?
+  - **A:** **
+- **Q4:** What is the *FCNR(B) Deposits?
+  - **A:** ** Accounted for the vast majority at **$65.397 billion** (~90% of total inflows).
+- **Q5:** What is the *Overseas Foreign Currency Borrowings (OFCBs)?
+  - **A:** ** **$4.860 billion**.
+- **Q6:** What is the *External Commercial Borrowings (ECBs)?
+  - **A:** ** **$2.591 billion**.
+- **Q7:** What is the *Operational Incentive?
+  - **A:** ** Offered banks a zero-cost principal hedge, regulatory CRR/SLR exemptions, and permitted issuing Standby Letters of Credit (SBLCs) against FCNR(B) deposits (leveraged by Citigroup & Axis Bank partnership).
+- **Q8:** What is the *Window Adjustments?
+  - **A:** ** Due to rapid target overachievement, the **FCNR(B) deposit window closed on August 31, 2026** (advanced by 1 month), while the ECB/OFCB window remains open until **December 31, 2026**.
+- **Q9:** What is the *Foreign Exchange Reserves?
+  - **A:** ** Surged by **$9.905 billion** in mid-August to reach **$716.90 billion**.
+- **Q10:** What is the 🎯 **Recap?
+  - **A:** ** *Forex Swap: $72.85B total $mid$ FCNR(B) $65.4B (~90%) $mid$ OFCB $4.86B $mid$ ECB $2.59B $mid$ FCNR window shut Aug 31 $mid$ Forex reserves $716.9B.*
+
+---
+
+## 33. SEBI Proposed Distribution Network: Fixed Income Channel Partners (FICPs) & OBPP Ad Code
 - **ID:** `ca-sebi-proposed-distribution-network-fixed-income-channel-partners-ficps-obpp-ad-code` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1017,7 +1212,7 @@
 
 ---
 
-## 29. Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period
+## 34. Supreme Court Directs Mandatory 4-Year Car & 6-Year Two-Wheeler Third-Party Insurance Period
 - **ID:** `ca-supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `INSURANCE_SECTOR` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1053,7 +1248,7 @@
 
 ---
 
-## 30. Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges
+## 35. Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges
 - **ID:** `ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `DIGITAL_PAYMENTS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1068,7 +1263,49 @@
 
 ---
 
-## 31. Central Government Notifies Employees’ Provident Fund Scheme 2026 & 3-Day Settlement Rule
+## 36. Unified Payments Interface (UPI) 10-Year Decadal Assessment: 66 Cr Daily Txns & ₹314 Lakh Crore Volume
+- **ID:** `ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `DIGITAL_PAYMENTS` | **Time:** `8 min`
+
+### Must Memorize Facts:
+- **Decadal Digital Payment Expansion Milestone:**
+- India’s Unified Payments Interface (UPI), launched on August 25, 2016 by the National Payments Corporation of India (NPCI) under RBI regulatory oversight, completed **10 years of operation**, processing over **66 crore transactions daily** and commanding an **84% share** of India’s overall digital retail payments volume.
+- **Transaction Velocity & Volume/Value Matrix:**
+- **Annual Volume Surge:** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)** $\to$ Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).
+- **Annual Value Surge:** Increased from **₹0.07 lakh crore (FY17)** to **~₹314 lakh crore (FY26)** (>4,000-fold surge).
+- **Bank Network Adoption:** Grew from **21 live banks at launch** (44 at end-FY17) to **703 live member banks in FY26** (spanning PSBs, private, SFBs, payment, and cooperative banks).
+- **Person-to-Merchant (P2M) Split:** Accounts for **63% of overall volume**, but only **29% of overall value** (routine retail utility).
+- **Micro-Payment Concentration:** Sub-₹500 transactions represent **86% of total P2M volume**.
+- **Person-to-Person (P2P) Split:** Accounts for **37% of volume** and **71% of total transaction value**.
+- **Institutional Leadership:** NPCI MD & CEO — Dilip Asbe | Chairman — Ajay Kumar Choudhary | Headquarters — Mumbai.
+- 🎯 **Recap:** *UPI 10 yrs $mid$ 66 Cr daily txns $mid$ FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val $mid$ 703 banks $mid$ 84% digital share.*
+
+### Active Recall Cards:
+- **Q1:** What is the *Decadal Digital Payment Expansion Milestone?
+  - **A:** **
+- **Q2:** What is the key number / threshold regarding: "India’s Unified Payments Interface (UPI), launched on Aug..."?
+  - **A:** India’s Unified Payments Interface (UPI), launched on August 25, 2016 by the National Payments Corporation of India (NPCI) under RBI regulatory oversight, completed **10 years of operation**, processing over **66 crore transactions daily** and commanding an **84% share** of India’s overall digital retail payments volume.
+- **Q3:** What is the *Transaction Velocity & Volume/Value Matrix?
+  - **A:** **
+- **Q4:** What is the *Annual Volume Surge?
+  - **A:** ** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)** $\to$ Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).
+- **Q5:** What is the *Annual Value Surge?
+  - **A:** ** Increased from **₹0.07 lakh crore (FY17)** to **~₹314 lakh crore (FY26)** (>4,000-fold surge).
+- **Q6:** What is the *Bank Network Adoption?
+  - **A:** ** Grew from **21 live banks at launch** (44 at end-FY17) to **703 live member banks in FY26** (spanning PSBs, private, SFBs, payment, and cooperative banks).
+- **Q7:** What is the *Person-to-Merchant (P2M) Split?
+  - **A:** ** Accounts for **63% of overall volume**, but only **29% of overall value** (routine retail utility).
+- **Q8:** What is the *Micro-Payment Concentration?
+  - **A:** ** Sub-₹500 transactions represent **86% of total P2M volume**.
+- **Q9:** What is the *Person-to-Person (P2P) Split?
+  - **A:** ** Accounts for **37% of volume** and **71% of total transaction value**.
+- **Q10:** What is the *Institutional Leadership?
+  - **A:** ** NPCI MD & CEO — Dilip Asbe | Chairman — Ajay Kumar Choudhary | Headquarters — Mumbai.
+- **Q11:** What is the 🎯 **Recap?
+  - **A:** ** *UPI 10 yrs $mid$ 66 Cr daily txns $mid$ FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val $mid$ 703 banks $mid$ 84% digital share.*
+
+---
+
+## 37. Central Government Notifies Employees’ Provident Fund Scheme 2026 & 3-Day Settlement Rule
 - **ID:** `ca-central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1107,7 +1344,7 @@
 
 ---
 
-## 32. Central Government Notifies EPF Scheme 2026, EPS 2026 & EDLI Scheme 2026 Under Social Security Code
+## 38. Central Government Notifies EPF Scheme 2026, EPS 2026 & EDLI Scheme 2026 Under Social Security Code
 - **ID:** `ca-central-government-notifies-epf-scheme-2026-eps-2026-edli-scheme-2026-under-social-security-code` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1143,7 +1380,7 @@
 
 ---
 
-## 33. IFSCA Notifies Unified "One KYC" Framework for GIFT-IFSC Regulated Entities
+## 39. IFSCA Notifies Unified "One KYC" Framework for GIFT-IFSC Regulated Entities
 - **ID:** `ca-ifsca-notifies-unified-one-kyc-framework-for-gift-ifsc-regulated-entities` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1167,7 +1404,7 @@
 
 ---
 
-## 34. India's External Debt Reaches $762.8 Billion at End-March 2026 (20.8% of GDP)
+## 40. India's External Debt Reaches $762.8 Billion at End-March 2026 (20.8% of GDP)
 - **ID:** `ca-indias-external-debt-reaches-7628-billion-at-end-march-2026-208-of-gdp` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MACRO_ECONOMY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1203,7 +1440,7 @@
 
 ---
 
-## 35. PFRDA Digital Architecture: NPS PRIDE-Disha & Pension Sahayak Redressal
+## 41. PFRDA Digital Architecture: NPS PRIDE-Disha & Pension Sahayak Redressal
 - **ID:** `ca-pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `PENSION_SYSTEMS` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -1233,7 +1470,7 @@
 
 ---
 
-## 36. PFRDA Opens 'On-Tap' Registration Window for Pension Fund Managers (PFMs) under NPS
+## 42. PFRDA Opens 'On-Tap' Registration Window for Pension Fund Managers (PFMs) under NPS
 - **ID:** `ca-pfrda-opens-on-tap-registration-window-for-pension-fund-managers-pfms-under-nps` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `PENSION_SYSTEMS` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -1272,7 +1509,7 @@
 
 ---
 
-## 37. PM-SETU Scheme Pan-India Rollout Approved with Outlay of ₹60,000 Crore
+## 43. PM-SETU Scheme Pan-India Rollout Approved with Outlay of ₹60,000 Crore
 - **ID:** `ca-pm-setu-scheme-pan-india-rollout-approved-with-outlay-of-60000-crore` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1293,7 +1530,7 @@
 
 ---
 
-## 38. RBI Expands Benchmark Issuance Strategy (BIS) for State Development Loans (SDLs) to 18 States + Delhi
+## 44. RBI Expands Benchmark Issuance Strategy (BIS) for State Development Loans (SDLs) to 18 States + Delhi
 - **ID:** `ca-rbi-expands-benchmark-issuance-strategy-bis-for-state-development-loans-sdls-to-18-states-delhi` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1320,7 +1557,7 @@
 
 ---
 
-## 39. RBI Final Directions: Non-Recognition of Unrealised Interest on Specified Non-Financial Assets (SNFAs)
+## 45. RBI Final Directions: Non-Recognition of Unrealised Interest on Specified Non-Financial Assets (SNFAs)
 - **ID:** `ca-rbi-final-directions-non-recognition-of-unrealised-interest-on-specified-non-financial-assets-snfas` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1350,7 +1587,7 @@
 
 ---
 
-## 40. RBI Financial Inclusion Index (FI-Index) March 2026: Rises to 70.0
+## 46. RBI Financial Inclusion Index (FI-Index) March 2026: Rises to 70.0
 - **ID:** `ca-rbi-financial-inclusion-index-fi-index-march-2026-rises-to-700` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `6 min`
 
 ### Must Memorize Facts:
@@ -1377,7 +1614,7 @@
 
 ---
 
-## 41. RBI Financial Inclusion Index (FI-Index) Rises to 70.0 for Year Ended March 2026
+## 47. RBI Financial Inclusion Index (FI-Index) Rises to 70.0 for Year Ended March 2026
 - **ID:** `ca-rbi-financial-inclusion-index-fi-index-rises-to-700-for-year-ended-march-2026` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `REPORTS_AND_INDICES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1401,7 +1638,7 @@
 
 ---
 
-## 42. RBI Master Circular on Special Rupee Vostro Accounts (SRVAs) & Cross-Border INR Trade
+## 48. RBI Master Circular on Special Rupee Vostro Accounts (SRVAs) & Cross-Border INR Trade
 - **ID:** `ca-rbi-master-circular-on-special-rupee-vostro-accounts-srvas-cross-border-inr-trade` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1431,7 +1668,7 @@
 
 ---
 
-## 43. RBI Revamps Integrated Ombudsman Scheme: Mandatory 30-Day Turnaround & ₹30 Lakh Compensation Cap
+## 49. RBI Revamps Integrated Ombudsman Scheme: Mandatory 30-Day Turnaround & ₹30 Lakh Compensation Cap
 - **ID:** `ca-rbi-revamps-integrated-ombudsman-scheme-mandatory-30-day-turnaround-30-lakh-compensation-cap` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1458,7 +1695,7 @@
 
 ---
 
-## 44. SEBI Capital Market Investor Protection: Quick Transmission Processing (QTP) & Buyback ISIN Freeze
+## 50. SEBI Capital Market Investor Protection: Quick Transmission Processing (QTP) & Buyback ISIN Freeze
 - **ID:** `ca-sebi-capital-market-investor-protection-quick-transmission-processing-qtp-buyback-isin-freeze` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `CAPITAL_MARKETS` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -1488,7 +1725,7 @@
 
 ---
 
-## 45. SEBI Revamps FPI Regulations: Rupee-Denominated Fees & Intraday Mutual Fund Borrowing
+## 51. SEBI Revamps FPI Regulations: Rupee-Denominated Fees & Intraday Mutual Fund Borrowing
 - **ID:** `ca-sebi-revamps-fpi-regulations-rupee-denominated-fees-intraday-mutual-fund-borrowing` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1518,7 +1755,7 @@
 
 ---
 
-## 46. Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission (VB-G RAM G) Act Replaces MGNREGA
+## 52. Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission (VB-G RAM G) Act Replaces MGNREGA
 - **ID:** `ca-viksit-bharat-guarantee-for-rozgar-and-aajeevika-mission-vb-g-ram-g-act-replaces-mgnrega` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1545,7 +1782,7 @@
 
 ---
 
-## 47. 61st RBI Monetary Policy Committee (MPC) Meeting: Repo Rate Held at 5.25% & FPI G-Sec Limit Overhaul
+## 53. 61st RBI Monetary Policy Committee (MPC) Meeting: Repo Rate Held at 5.25% & FPI G-Sec Limit Overhaul
 - **ID:** `ca-61st-rbi-monetary-policy-committee-mpc-meeting-repo-rate-held-at-525-fpi-g-sec-limit-overhaul` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MONETARY_POLICY` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1620,7 +1857,7 @@
 
 ---
 
-## 48. Central Government Unveils FPI G-Sec Tax Exemptions & Fully Accessible Route (FAR) Expansion
+## 54. Central Government Unveils FPI G-Sec Tax Exemptions & Fully Accessible Route (FAR) Expansion
 - **ID:** `ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1644,7 +1881,7 @@
 
 ---
 
-## 49. MoSPI Releases Provisional GDP Estimates FY 2025–26: Indian Economy Grew 7.7% (Base Year 2022–23)
+## 55. MoSPI Releases Provisional GDP Estimates FY 2025–26: Indian Economy Grew 7.7% (Base Year 2022–23)
 - **ID:** `ca-mospi-releases-provisional-gdp-estimates-fy-202526-indian-economy-grew-77-base-year-202223` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MACRO_ECONOMY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1671,7 +1908,7 @@
 
 ---
 
-## 50. MoSPI Releases Revised Index of Industrial Production (IIP) Series with Base Year 2022–23 (4 Sectors)
+## 56. MoSPI Releases Revised Index of Industrial Production (IIP) Series with Base Year 2022–23 (4 Sectors)
 - **ID:** `ca-mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `REPORTS_AND_INDICES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1689,7 +1926,7 @@
 
 ---
 
-## 51. RBI Expands Credit Derivatives Framework: Credit Default Swaps (CDS) & Total Return Swaps
+## 57. RBI Expands Credit Derivatives Framework: Credit Default Swaps (CDS) & Total Return Swaps
 - **ID:** `ca-rbi-expands-credit-derivatives-framework-credit-default-swaps-cds-total-return-swaps` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1704,7 +1941,7 @@
 
 ---
 
-## 52. RBI Final Directions: Commercial Bank Lending to Real Estate Investment Trusts (REITs) & InvITs
+## 58. RBI Final Directions: Commercial Bank Lending to Real Estate Investment Trusts (REITs) & InvITs
 - **ID:** `ca-rbi-final-directions-commercial-bank-lending-to-real-estate-investment-trusts-reits-invits` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1752,7 +1989,7 @@
 
 ---
 
-## 53. RBI Final Directions on Trade Receivables Discounting System (TReDS) & Platform Net Worth
+## 59. RBI Final Directions on Trade Receivables Discounting System (TReDS) & Platform Net Worth
 - **ID:** `ca-rbi-final-directions-on-trade-receivables-discounting-system-treds-platform-net-worth` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1785,7 +2022,7 @@
 
 ---
 
-## 54. RBI Financial Stability Report (June 2026): Macro-Financial Health & Household Debt Dynamics
+## 60. RBI Financial Stability Report (June 2026): Macro-Financial Health & Household Debt Dynamics
 - **ID:** `ca-rbi-financial-stability-report-june-2026-macro-financial-health-household-debt-dynamics` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `REPORTS_AND_INDICES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1818,7 +2055,7 @@
 
 ---
 
-## 55. RBI Master Directions on Control, Assurance & Corporate Governance in Commercial Banks
+## 61. RBI Master Directions on Control, Assurance & Corporate Governance in Commercial Banks
 - **ID:** `ca-rbi-master-directions-on-control-assurance-corporate-governance-in-commercial-banks` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1863,7 +2100,7 @@
 
 ---
 
-## 56. RBI Master Directions: Payment System Operators (PSO) Perpetual Licensing & Governance
+## 62. RBI Master Directions: Payment System Operators (PSO) Perpetual Licensing & Governance
 - **ID:** `ca-rbi-master-directions-payment-system-operators-pso-perpetual-licensing-governance` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -1890,7 +2127,7 @@
 
 ---
 
-## 57. RBI Overhauls Forex Inflow Architecture: US Dollar-Rupee Swap Facilities & CRR/SLR Exemptions
+## 63. RBI Overhauls Forex Inflow Architecture: US Dollar-Rupee Swap Facilities & CRR/SLR Exemptions
 - **ID:** `ca-rbi-overhauls-forex-inflow-architecture-us-dollar-rupee-swap-facilities-crrslr-exemptions` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `10 min`
 
 ### Must Memorize Facts:
@@ -1914,7 +2151,7 @@
 
 ---
 
-## 58. RBI Revised Framework on Limiting Customer Liability in Digital Banking Transactions
+## 64. RBI Revised Framework on Limiting Customer Liability in Digital Banking Transactions
 - **ID:** `ca-rbi-revised-framework-on-limiting-customer-liability-in-digital-banking-transactions` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1941,7 +2178,7 @@
 
 ---
 
-## 59. RBI Scale-Based Regulation (SBR): ₹1 Lakh Crore Absolute Threshold for NBFC-Upper Layer (NBFC-UL)
+## 65. RBI Scale-Based Regulation (SBR): ₹1 Lakh Crore Absolute Threshold for NBFC-Upper Layer (NBFC-UL)
 - **ID:** `ca-rbi-scale-based-regulation-sbr-1-lakh-crore-absolute-threshold-for-nbfc-upper-layer-nbfc-ul` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -1971,7 +2208,7 @@
 
 ---
 
-## 60. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auction
+## 66. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auction
 - **ID:** `ca-sebi-revised-commodity-etf-framework-dynamic-price-bands-pre-open-auctions` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2010,7 +2247,7 @@
 
 ---
 
-## 61. 623rd RBI Central Board Meeting: Record ₹2.86 Lakh Crore Dividend & CRB at 6.5%
+## 67. 623rd RBI Central Board Meeting: Record ₹2.86 Lakh Crore Dividend & CRB at 6.5%
 - **ID:** `ca-623rd-rbi-central-board-meeting-record-286-lakh-crore-dividend-crb-at-65` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2040,7 +2277,7 @@
 
 ---
 
-## 62. MoHFW Releases National Health Accounts (NHA) Estimates: Out-of-Pocket Expenditure Drops to 39.4%
+## 68. MoHFW Releases National Health Accounts (NHA) Estimates: Out-of-Pocket Expenditure Drops to 39.4%
 - **ID:** `ca-mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `REPORTS_AND_INDICES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2073,7 +2310,7 @@
 
 ---
 
-## 63. Parliament Passes Supreme Court (Number of Judges) Amendment Bill 2026: Sanctioned Strength Raised to 39 Judges
+## 69. Parliament Passes Supreme Court (Number of Judges) Amendment Bill 2026: Sanctioned Strength Raised to 39 Judges
 - **ID:** `ca-parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `NATIONAL_AND_STATES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2106,7 +2343,7 @@
 
 ---
 
-## 64. RBI Discontinues Mandatory Investment Fluctuation Reserve (IFR) for Banks
+## 70. RBI Discontinues Mandatory Investment Fluctuation Reserve (IFR) for Banks
 - **ID:** `ca-rbi-discontinues-mandatory-investment-fluctuation-reserve-ifr-for-banks` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `5 min`
 
 ### Must Memorize Facts:
@@ -2130,7 +2367,7 @@
 
 ---
 
-## 65. RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct
+## 71. RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct
 - **ID:** `ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2160,7 +2397,7 @@
 
 ---
 
-## 66. RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital
+## 72. RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital
 - **ID:** `ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2190,7 +2427,7 @@
 
 ---
 
-## 67. RBI Finalizes Revised Lending & Housing Loan Norms for Urban Co-operative Banks (UCBs)
+## 73. RBI Finalizes Revised Lending & Housing Loan Norms for Urban Co-operative Banks (UCBs)
 - **ID:** `ca-rbi-finalizes-revised-lending-housing-loan-norms-for-urban-co-operative-banks-ucbs` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2232,7 +2469,7 @@
 
 ---
 
-## 68. RBI Overhauls Foreign Exchange Authorization & Forex Correspondent (FxC) Model
+## 74. RBI Overhauls Foreign Exchange Authorization & Forex Correspondent (FxC) Model
 - **ID:** `ca-rbi-overhauls-foreign-exchange-authorization-forex-correspondent-fxc-model` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2262,7 +2499,7 @@
 
 ---
 
-## 69. RBI Releases Draft Capital Adequacy Amendment Directions & Basel Pillar 3 Market Disclosures
+## 75. RBI Releases Draft Capital Adequacy Amendment Directions & Basel Pillar 3 Market Disclosures
 - **ID:** `ca-rbi-releases-draft-capital-adequacy-amendment-directions-basel-pillar-3-market-disclosures` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2292,7 +2529,7 @@
 
 ---
 
-## 70. RBI Tightens Governance, Board Composition & MD/CEO Tenure Norms for Urban & Rural Co-operative Banks
+## 76. RBI Tightens Governance, Board Composition & MD/CEO Tenure Norms for Urban & Rural Co-operative Banks
 - **ID:** `ca-rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2322,7 +2559,7 @@
 
 ---
 
-## 71. Union Cabinet Approves Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0) & Jan Suraksha Milestones
+## 77. Union Cabinet Approves Emergency Credit Line Guarantee Scheme 5.0 (ECLGS 5.0) & Jan Suraksha Milestones
 - **ID:** `ca-union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2358,7 +2595,7 @@
 
 ---
 
-## 72. Union Cabinet Approves 'Mission for Cotton Productivity' (₹3,500 Crore Outlay) & Surface Coal Gasification Scheme
+## 78. Union Cabinet Approves 'Mission for Cotton Productivity' (₹3,500 Crore Outlay) & Surface Coal Gasification Scheme
 - **ID:** `ca-union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `GOVERNMENT_SCHEMES` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2385,7 +2622,7 @@
 
 ---
 
-## 73. 60th RBI Monetary Policy Committee (MPC) Statement (April 2026)
+## 79. 60th RBI Monetary Policy Committee (MPC) Statement (April 2026)
 - **ID:** `ca-60th-rbi-monetary-policy-committee-mpc-statement-april-2026` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MONETARY_POLICY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2430,7 +2667,7 @@
 
 ---
 
-## 74. EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal
+## 80. EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal
 - **ID:** `ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `PENSION_SYSTEMS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2460,7 +2697,7 @@
 
 ---
 
-## 75. IRDAI Revises Information Security & Cybersecurity Governance Guidelines
+## 81. IRDAI Revises Information Security & Cybersecurity Governance Guidelines
 - **ID:** `ca-irdai-revises-information-security-cybersecurity-governance-guidelines` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `INSURANCE_SECTOR` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2481,7 +2718,7 @@
 
 ---
 
-## 76. NSO MoSPI: Periodic Labour Force Survey (PLFS) Annual Report (Jan–Dec 2025)
+## 82. NSO MoSPI: Periodic Labour Force Survey (PLFS) Annual Report (Jan–Dec 2025)
 - **ID:** `ca-nso-mospi-periodic-labour-force-survey-plfs-annual-report-jandec-2025` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MONETARY_POLICY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2538,7 +2775,7 @@
 
 ---
 
-## 77. RBI Cancels Banking License of Paytm Payments Bank Limited under Section 22(4)
+## 83. RBI Cancels Banking License of Paytm Payments Bank Limited under Section 22(4)
 - **ID:** `ca-rbi-cancels-banking-license-of-paytm-payments-bank-limited-under-section-224` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `5 min`
 
 ### Must Memorize Facts:
@@ -2574,7 +2811,7 @@
 
 ---
 
-## 78. RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
+## 84. RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
 - **ID:** `ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `INSURANCE_SECTOR` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2607,7 +2844,7 @@
 
 ---
 
-## 79. RBI Finalizes Basel III Standardised Credit Risk Capital Directions
+## 85. RBI Finalizes Basel III Standardised Credit Risk Capital Directions
 - **ID:** `ca-rbi-finalizes-basel-iii-standardised-credit-risk-capital-directions` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2652,7 +2889,7 @@
 
 ---
 
-## 80. RBI Finalizes Expected Credit Loss (ECL) Provisioning Norms (Effective April 1, 2027)
+## 86. RBI Finalizes Expected Credit Loss (ECL) Provisioning Norms (Effective April 1, 2027)
 - **ID:** `ca-rbi-finalizes-expected-credit-loss-ecl-provisioning-norms-effective-april-1-2027` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2700,7 +2937,7 @@
 
 ---
 
-## 81. RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
+## 87. RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
 - **ID:** `ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2733,7 +2970,7 @@
 
 ---
 
-## 82. RBI Increases Borrowing Limits Against Securities: ₹1 Crore for Shares & ₹25 Lakh for IPOs
+## 88. RBI Increases Borrowing Limits Against Securities: ₹1 Crore for Shares & ₹25 Lakh for IPOs
 - **ID:** `ca-rbi-increases-borrowing-limits-against-securities-1-crore-for-shares-25-lakh-for-ipos` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2766,7 +3003,7 @@
 
 ---
 
-## 83. RBI Utkarsh 2029: Medium-Term Strategic Framework for 2026–2029
+## 89. RBI Utkarsh 2029: Medium-Term Strategic Framework for 2026–2029
 - **ID:** `ca-rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2787,7 +3024,7 @@
 
 ---
 
-## 84. Government Notifies Income Tax Rules, 2026 (Under Income-tax Act, 2025)
+## 90. Government Notifies Income Tax Rules, 2026 (Under Income-tax Act, 2025)
 - **ID:** `ca-government-notifies-income-tax-rules-2026-under-income-tax-act-2025` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MACRO_ECONOMY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2829,7 +3066,7 @@
 
 ---
 
-## 85. Insolvency & Bankruptcy Code (Amendment) Bill, 2025: Introduction of CIIRP & Structural Timelines
+## 91. Insolvency & Bankruptcy Code (Amendment) Bill, 2025: Introduction of CIIRP & Structural Timelines
 - **ID:** `ca-insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2877,7 +3114,7 @@
 
 ---
 
-## 86. RBI Master Guidelines on Bank Dividend Declaration & Adjusted PAT Formula
+## 92. RBI Master Guidelines on Bank Dividend Declaration & Adjusted PAT Formula
 - **ID:** `ca-rbi-master-guidelines-on-bank-dividend-declaration-adjusted-pat-formula` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `5 min`
 
 ### Must Memorize Facts:
@@ -2904,7 +3141,7 @@
 
 ---
 
-## 87. RBI Responsible Business Conduct Directions 2026: Online Fraud Compensation & 2FA Mandate
+## 93. RBI Responsible Business Conduct Directions 2026: Online Fraud Compensation & 2FA Mandate
 - **ID:** `ca-rbi-responsible-business-conduct-directions-2026-online-fraud-compensation-2fa-mandate` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2937,7 +3174,7 @@
 
 ---
 
-## 88. SEBI IT Resilience Index Framework for Market Infrastructure Institutions
+## 94. SEBI IT Resilience Index Framework for Market Infrastructure Institutions
 - **ID:** `ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -2994,7 +3231,7 @@
 
 ---
 
-## 89. 16th Finance Commission Submits Devolution Report for 2026–2031 (41% Retained)
+## 95. 16th Finance Commission Submits Devolution Report for 2026–2031 (41% Retained)
 - **ID:** `ca-16th-finance-commission-submits-devolution-report-for-20262031-41-retained` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `MACRO_ECONOMY` | **Time:** `4 min`
 
 ### Must Memorize Facts:
@@ -3018,7 +3255,7 @@
 
 ---
 
-## 90. DICGC Notifies Risk-Based Premium (RBP) Framework for Deposit Insurance
+## 96. DICGC Notifies Risk-Based Premium (RBP) Framework for Deposit Insurance
 - **ID:** `ca-dicgc-notifies-risk-based-premium-rbp-framework-for-deposit-insurance` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -3060,7 +3297,7 @@
 
 ---
 
-## 91. RBI Monetary Policy Relief: Up to ₹25,000 Compensation for Small Digital Fraud Victims
+## 97. RBI Monetary Policy Relief: Up to ₹25,000 Compensation for Small Digital Fraud Victims
 - **ID:** `ca-rbi-monetary-policy-relief-up-to-25000-compensation-for-small-digital-fraud-victims` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MONETARY_POLICY` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -3081,7 +3318,7 @@
 
 ---
 
-## 92. RBI Notifies Amended ECB Framework: Borrowing Limit Raised to $1 Billion
+## 98. RBI Notifies Amended ECB Framework: Borrowing Limit Raised to $1 Billion
 - **ID:** `ca-rbi-notifies-amended-ecb-framework-borrowing-limit-raised-to-1-billion` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -3108,7 +3345,7 @@
 
 ---
 
-## 93. RBI Revises MSME Lending Norms: Collateral-Free Limit Raised to ₹20 Lakh
+## 99. RBI Revises MSME Lending Norms: Collateral-Free Limit Raised to ₹20 Lakh
 - **ID:** `ca-rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -3135,7 +3372,7 @@
 
 ---
 
-## 94. MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24
+## 100. MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24
 - **ID:** `ca-mospi-overhauls-macroeconomic-series-cpi-base-year-revised-to-2023-24` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `MACRO_ECONOMY` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -3171,7 +3408,7 @@
 
 ---
 
-## 95. RBI Eases Risk Weights on NBFC Infrastructure Project Lending
+## 101. RBI Eases Risk Weights on NBFC Infrastructure Project Lending
 - **ID:** `ca-rbi-eases-risk-weights-on-nbfc-infrastructure-project-lending` | **Priority:** `P1_CRITICAL_MEMORIZE` | **Category:** `BANKING_REGULATION` | **Time:** `4 min`
 
 ### Must Memorize Facts:
@@ -3195,7 +3432,7 @@
 
 ---
 
-## 96. RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026
+## 102. RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026
 - **ID:** `ca-rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -3255,7 +3492,7 @@
 
 ---
 
-## 97. RBI Principle-Based Resolution Framework for Natural Calamity-Hit Loans
+## 103. RBI Principle-Based Resolution Framework for Natural Calamity-Hit Loans
 - **ID:** `ca-rbi-principle-based-resolution-framework-for-natural-calamity-hit-loans` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
@@ -3276,7 +3513,7 @@
 
 ---
 
-## 98. RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs
+## 104. RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs
 - **ID:** `ca-rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
@@ -3321,7 +3558,7 @@
 
 ---
 
-## 99. SEBI SWAGAT-FI Framework for Trusted Foreign Investors
+## 105. SEBI SWAGAT-FI Framework for Trusted Foreign Investors
 - **ID:** `ca-sebi-swagat-fi-framework-for-trusted-foreign-investors` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:

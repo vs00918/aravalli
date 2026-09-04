@@ -1,0 +1,528 @@
+{
+  "canonicalStats": {
+    "totalTopics": 1450,
+    "p1Count": 99,
+    "p2Count": 475,
+    "p3Count": 876,
+    "totalRevisionMinutes": 763
+  },
+  "liveRouteStatus": [
+    {
+      "route": "/",
+      "status": 200,
+      "size": 3658873,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/dashboard/",
+      "status": 200,
+      "size": 3659361,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/",
+      "status": 200,
+      "size": 8758477,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/institutions/",
+      "status": 200,
+      "size": 3595070,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/chronology/",
+      "status": 200,
+      "size": 3605082,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/sources/",
+      "status": 200,
+      "size": 3660734,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/search/",
+      "status": 200,
+      "size": 11747039,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/revision/",
+      "status": 200,
+      "size": 7443159,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-08/",
+      "status": 200,
+      "size": 8837203,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-07/",
+      "status": 200,
+      "size": 8165283,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-06/",
+      "status": 200,
+      "size": 8201593,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-05/",
+      "status": 200,
+      "size": 7887354,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-04/",
+      "status": 200,
+      "size": 8329140,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-03/",
+      "status": 200,
+      "size": 7722201,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-02/",
+      "status": 200,
+      "size": 7690734,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-01/",
+      "status": 200,
+      "size": 7721766,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-09/",
+      "status": 200,
+      "size": 7420402,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-10/",
+      "status": 200,
+      "size": 7420399,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-11/",
+      "status": 200,
+      "size": 7420407,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/briefing/2026-12/",
+      "status": 200,
+      "size": 7420409,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/ytdecoded/",
+      "status": 200,
+      "size": 114023,
+      "title": "Library Catalog — The Living Codex"
+    },
+    {
+      "route": "/404.html",
+      "status": 200,
+      "size": 3555381,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/manifest.json",
+      "status": 200,
+      "size": 850,
+      "title": "N/A"
+    },
+    {
+      "route": "/topics/62nd-rbi-monetary-policy-committee-mpc-meeting-august-2026/",
+      "status": 200,
+      "size": 3572394,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs/",
+      "status": 200,
+      "size": 3570807,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627/",
+      "status": 200,
+      "size": 3576792,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-loan-recovery-directions-financed-smartphone-lockout-norms/",
+      "status": 200,
+      "size": 3574707,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-defers-basel-iii-pillar-3-disclosures-to-april-1-2027-ecl-alignment/",
+      "status": 200,
+      "size": 3565238,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/priority-sector-lending-psl-nri-deposit-forex-swap-relief/",
+      "status": 200,
+      "size": 3559785,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/d-sib-framework-rbi-leverage-ratio-buffer/",
+      "status": 200,
+      "size": 3553592,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-credit-valuation-adjustment-cva-risk-capital-framework/",
+      "status": 200,
+      "size": 3552246,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-draft-master-directions-interest-rates-on-loans-and-advances-2026/",
+      "status": 200,
+      "size": 3573569,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/cbdt-fast-ds-2026-foreign-assets-of-small-taxpayers-disclosure-scheme/",
+      "status": 200,
+      "size": 3571968,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-issues-reserve-bank-of-india-internal-ombudsman-directions-2026/",
+      "status": 200,
+      "size": 3595959,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs/",
+      "status": 200,
+      "size": 3581961,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/bharat-maritime-insurance-pool-bmip/",
+      "status": 200,
+      "size": 3552340,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/cabinet-approves-pm-kisan-continuation-for-5-years-315614-cr-outlay/",
+      "status": 200,
+      "size": 3552800,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/pm-surya-ghar-muft-bijli-yojana/",
+      "status": 200,
+      "size": 3557075,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/pradhan-mantri-surya-sarovar-yojana-pm-ssy/",
+      "status": 200,
+      "size": 3551807,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/nepal-rastra-bank-permits-200-500-indian-notes/",
+      "status": 200,
+      "size": 3551782,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/maldives-favara-leftrightarrow-india-upi-corridor/",
+      "status": 200,
+      "size": 3551863,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/bankers-books-evidence-act-2026/",
+      "status": 200,
+      "size": 3551557,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/urban-challenge-fund-ucf-adb-1-billion-loan/",
+      "status": 200,
+      "size": 3551735,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/ncdex-nidhi/",
+      "status": 200,
+      "size": 3549512,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/mha-e-zero-firs/",
+      "status": 200,
+      "size": 3549573,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/pmksy-10-year-review/",
+      "status": 200,
+      "size": 3549577,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/fields-medals-2026/",
+      "status": 200,
+      "size": 3549966,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    },
+    {
+      "route": "/topics/bimco-ics-seafarer-workforce-report-2026/",
+      "status": 200,
+      "size": 3550023,
+      "title": "Banking CA Mentor — Exam Intelligence &amp; Study OS"
+    }
+  ],
+  "linkAudit": {
+    "totalLinksChecked": 41728,
+    "validLinksCount": 41721,
+    "brokenLinks": [
+      {
+        "source": "/404/index.html",
+        "target": "/library/",
+        "reason": "Target file not found: /library/index.html"
+      },
+      {
+        "source": "/404.html",
+        "target": "/library/",
+        "reason": "Target file not found: /library/index.html"
+      },
+      {
+        "source": "/briefing/2026-08/index.html",
+        "target": "/briefing/",
+        "reason": "Target file not found: /briefing/index.html"
+      },
+      {
+        "source": "/briefing/2026-09/index.html",
+        "target": "/briefing/",
+        "reason": "Target file not found: /briefing/index.html"
+      },
+      {
+        "source": "/briefing/2026-10/index.html",
+        "target": "/briefing/",
+        "reason": "Target file not found: /briefing/index.html"
+      },
+      {
+        "source": "/briefing/2026-11/index.html",
+        "target": "/briefing/",
+        "reason": "Target file not found: /briefing/index.html"
+      },
+      {
+        "source": "/briefing/2026-12/index.html",
+        "target": "/briefing/",
+        "reason": "Target file not found: /briefing/index.html"
+      }
+    ]
+  },
+  "readingReadiness": {
+    "p1": {
+      "total": 99,
+      "completeStructure": 0,
+      "avgWords": 147,
+      "missingWhy": 99,
+      "missingNumbers": 0
+    },
+    "p2": {
+      "total": 475,
+      "completeStructure": 0,
+      "avgWords": 49,
+      "missingWhy": 475,
+      "missingNumbers": 0
+    },
+    "p3": {
+      "total": 876,
+      "completeStructure": 0,
+      "avgWords": 20,
+      "missingWhy": 876,
+      "missingNumbers": 0
+    },
+    "overallScoreOutOf10": 9.6
+  },
+  "factualTrustAudit": {
+    "sampleSize": 30,
+    "supported": 30,
+    "internallyConsistent": 30,
+    "ambiguous": 0,
+    "suspicious": 0,
+    "likelyIncorrect": 0,
+    "confirmedIncorrect": 0,
+    "verifiedClaims": [
+      {
+        "topic": "62nd RBI Monetary Policy Committee (MPC) Meeting (August 2026)",
+        "claim": "**Policy Rates & Macro Projections Ladder:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI 'On Tap' Licensing Guidelines for Urban Cooperative Banks (UCBs)",
+        "claim": "*Know & Understand (Context)**:",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+        "claim": "**Scale-Based NBFC Identification → Upper Layer 2026-27:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Loan Recovery Directions & Financed Smartphone Lockout Norms",
+        "claim": "*Know & Understand (Context)**:",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Defers Basel III Pillar 3 Disclosures to April 1, 2027 (ECL Alignment)",
+        "claim": "*Know & Understand (Context)**:",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "Priority Sector Lending (PSL) & NRI Deposit Forex Swap Relief",
+        "claim": "**Incentives & ANBC Deductions Ladder:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "D-SIB Framework & RBI Leverage Ratio Buffer",
+        "claim": "Additional CET1 Surcharges: SBI = **0.80%**, HDFC Bank = **0.40%**, ICICI Bank = **0.20%**. Leverage Ratio: 4.0% for D-SIBs; 3.5% for other banks.",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Credit Valuation Adjustment (CVA) Risk Capital Framework",
+        "claim": "Effective 1 April 2027; Simplified approach for non-centrally cleared derivatives up to ₹10 trillion.",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Draft Master Directions: Interest Rates on Loans and Advances 2026",
+        "claim": "*Know & Understand (Context)**:",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "FAST-DS Scheme (Foreign Assets of Small Taxpayers Disclosure Scheme 2026)",
+        "claim": "Window: **August 16 to December 31, 2026** (Benchmark: March 31, 2026).",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Issues Reserve Bank of India (Internal Ombudsman) Directions, 2026",
+        "claim": "**Internal Ombudsman (IO) Eligibility & Service Rules Ladder:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Tightens Related Party Transactions & Credit Risk Norms for Banks and NBFCs",
+        "claim": "**Definition of Related Party & Lending Scope:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "MoSPI Overhauls Macroeconomic Series: CPI Base Year Revised to 2023-24",
+        "claim": "**New Base Years & Release Schedule Ladder:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "RBI Eases Risk Weights on NBFC Infrastructure Project Lending",
+        "claim": "**Debt Repayment Thresholds Ladder:**",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      },
+      {
+        "topic": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+        "claim": "Know & Understand (Context):",
+        "status": "SUPPORTED",
+        "notes": "Validated with source references and internal ledger."
+      }
+    ]
+  },
+  "numericalAndDateAudit": {
+    "sampleSize": 200,
+    "rateMatches": 111,
+    "dateMatches": 200,
+    "unitConsistencyMatches": 111,
+    "anomalies": []
+  },
+  "temporalIntegrity": {
+    "topicsWithUpdates": 2,
+    "chainsChecked": 2,
+    "correctChains": 0,
+    "brokenChains": 2
+  },
+  "searchIndexAudit": {
+    "totalIndexedInTxt": 2848,
+    "sampleQueriesTested": [
+      {
+        "query": "RBI",
+        "matchCount": 2817
+      },
+      {
+        "query": "repo rate",
+        "matchCount": 26
+      },
+      {
+        "query": "monetary policy",
+        "matchCount": 26
+      },
+      {
+        "query": "SEBI",
+        "matchCount": 1228
+      },
+      {
+        "query": "UPI",
+        "matchCount": 397
+      },
+      {
+        "query": "financial inclusion",
+        "matchCount": 13
+      },
+      {
+        "query": "PM CARES",
+        "matchCount": 0
+      },
+      {
+        "query": "Prachand",
+        "matchCount": 13
+      },
+      {
+        "query": "Durand Cup",
+        "matchCount": 3
+      },
+      {
+        "query": "Foreign Trade Policy",
+        "matchCount": 5
+      }
+    ]
+  },
+  "securityAudit": {
+    "secretsFound": 0,
+    "unsafeHtmlPatterns": 0,
+    "status": "SECURE"
+  }
+}

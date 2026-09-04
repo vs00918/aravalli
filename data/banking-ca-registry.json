@@ -3,12 +3,12 @@
   "generatedAt": "2026-08-25T18:00:00Z",
   "activeWindowStart": "2026-04-01",
   "summary": {
-    "totalCanonicalTopics": 1450,
-    "activeP1Count": 99,
-    "activeP1RevisionMinutes": 763,
-    "totalP2Count": 475,
+    "totalCanonicalTopics": 1468,
+    "activeP1Count": 105,
+    "activeP1RevisionMinutes": 811,
+    "totalP2Count": 487,
     "totalP3Count": 876,
-    "totalBatchesIngested": 22
+    "totalBatchesIngested": 23
   },
   "examProfiles": [
     {
@@ -71940,6 +71940,927 @@
         }
       ],
       "contentMarkdown": "* **August 30**: National Small Industry Day."
+    },
+    "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume": {
+      "id": "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
+      "slug": "unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
+      "title": "Unified Payments Interface (UPI) 10-Year Decadal Assessment: 66 Cr Daily Txns & ₹314 Lakh Crore Volume",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "DIGITAL_PAYMENTS",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "BANKING_DEVELOPMENT",
+      "compressionLevel": "C4",
+      "memoryAnchor": "UNIFIED → PAYMENTS → INTERFACE → UPI → 10-YEAR",
+      "atomicRecall": "Unified Payments Interface (UPI) 10-Year Decadal Assessment: 66 Cr Daily Txns & ₹314 Lakh Crore Volume",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Decadal Digital Payment Expansion Milestone:**",
+        "India’s Unified Payments Interface (UPI), launched on August 25, 2016 by the National Payments Corporation of India (NPCI) under RBI regulatory oversight, completed **10 years of operation**, processing over **66 crore transactions daily** and commanding an **84% share** of India’s overall digital retail payments volume.",
+        "**Transaction Velocity & Volume/Value Matrix:**",
+        "**Annual Volume Surge:** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)** $\\to$ Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).",
+        "**Annual Value Surge:** Increased from **₹0.07 lakh crore (FY17)** to **~₹314 lakh crore (FY26)** (>4,000-fold surge).",
+        "**Bank Network Adoption:** Grew from **21 live banks at launch** (44 at end-FY17) to **703 live member banks in FY26** (spanning PSBs, private, SFBs, payment, and cooperative banks).",
+        "**Person-to-Merchant (P2M) Split:** Accounts for **63% of overall volume**, but only **29% of overall value** (routine retail utility).",
+        "**Micro-Payment Concentration:** Sub-₹500 transactions represent **86% of total P2M volume**.",
+        "**Person-to-Person (P2P) Split:** Accounts for **37% of volume** and **71% of total transaction value**.",
+        "**Institutional Leadership:** NPCI MD & CEO — Dilip Asbe | Chairman — Ajay Kumar Choudhary | Headquarters — Mumbai.",
+        "🎯 **Recap:** *UPI 10 yrs $mid$ 66 Cr daily txns $mid$ FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val $mid$ 703 banks $mid$ 84% digital share.*"
+      ],
+      "knowUnderstandContext": [
+        "**High-Velocity Micro-Payments vs. High-Value Settlement:**",
+        "UPI's primary role has evolved into cash replacement for daily micro-commerce ($86\\%$ under ₹500), while high-value commercial transfers drive P2P value ($71\\%$). This volume asymmetry is why NPCI emphasizes lightweight architectures (UPI Lite, UPI 123Pay) to prevent core banking core system overloads."
+      ],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 1. Unified Payments Interface (UPI) 10-Year Decadal Assessment: 66 Cr Daily Txns & ₹314 Lakh Crore Volume\n- **Category**: `DIGITAL_PAYMENTS`\n- **Institution**: `NPCI`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-25`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~10 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### Performance & Decadal Architecture\n* **Decadal Digital Payment Expansion Milestone:**\n  * India’s Unified Payments Interface (UPI), launched on August 25, 2016 by the National Payments Corporation of India (NPCI) under RBI regulatory oversight, completed **10 years of operation**, processing over **66 crore transactions daily** and commanding an **84% share** of India’s overall digital retail payments volume.\n\n#### Must Memorize (Statistical Growth & P2M/P2P Split)\n* **Transaction Velocity & Volume/Value Matrix:**\n  * **Annual Volume Surge:** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)** $\\to$ Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).\n  * **Annual Value Surge:** Increased from **₹0.07 lakh crore (FY17)** to **~₹314 lakh crore (FY26)** (>4,000-fold surge).\n  * **Bank Network Adoption:** Grew from **21 live banks at launch** (44 at end-FY17) to **703 live member banks in FY26** (spanning PSBs, private, SFBs, payment, and cooperative banks).\n  * **Person-to-Merchant (P2M) Split:** Accounts for **63% of overall volume**, but only **29% of overall value** (routine retail utility).\n  * **Micro-Payment Concentration:** Sub-₹500 transactions represent **86% of total P2M volume**.\n  * **Person-to-Person (P2P) Split:** Accounts for **37% of volume** and **71% of total transaction value**.\n  * **Institutional Leadership:** NPCI MD & CEO — Dilip Asbe | Chairman — Ajay Kumar Choudhary | Headquarters — Mumbai.\n  * 🎯 **Recap:** *UPI 10 yrs $mid$ 66 Cr daily txns $mid$ FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val $mid$ 703 banks $mid$ 84% digital share.*\n\n#### Know / Understand (Core Mechanism)\n* **High-Velocity Micro-Payments vs. High-Value Settlement:**\n  * UPI's primary role has evolved into cash replacement for daily micro-commerce ($86\\%$ under ₹500), while high-value commercial transfers drive P2P value ($71\\%$). This volume asymmetry is why NPCI emphasizes lightweight architectures (UPI Lite, UPI 123Pay) to prevent core banking core system overloads.\n\n---"
+    },
+    "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members": {
+      "id": "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
+      "slug": "central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
+      "title": "Central Government Reconstitutes RBI Central Board: Strength Expanded to 14 Members",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C4",
+      "memoryAnchor": "CENTRAL → GOVERNMENT → RECONSTITUTES → RBI → CENTRAL",
+      "atomicRecall": "Central Government Reconstitutes RBI Central Board: Strength Expanded to 14 Members",
+      "examAngle": {
+        "likelyAsks": [
+          "Regulatory effective date / compliance timeline"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [
+        "1. **Annie George Mathew:** Former Special Secretary (Expenditure), Ministry of Finance; currently full-time member of the **16th Finance Commission**.",
+        "2. **Janmejaya Kumar Sinha:** Economist and management consultant; former Chairman of Boston Consulting Group (BCG) Asia-Pacific.",
+        "3. **Syed Akbaruddin:** Former veteran diplomat; India's former Permanent Representative to the United Nations."
+      ],
+      "mustMemorizeFacts": [
+        "**Section 8(1)(c) Non-Official Directorship Appointments:**",
+        "The Central Government appointed three new part-time Non-Official Directors on the Central Board of the Reserve Bank of India under **Section 8(1)(c)** of the *Reserve Bank of India Act, 1934*, expanding the total board strength from **11 to 14 members**.",
+        "**Appointments & Membership Roster:**",
+        "**New Part-Time Non-Official Directors (4-Year Term w.e.f. Aug 24, 2026):**",
+        "**Reappointment:** Industrialist **Anand Mahindra** reappointed for a 2nd 4-year term w.e.f. August 20, 2026 (sole member retained from 2022 cohort).",
+        "**Specialist Induction:** **S. Somanath Sreedhara Panicker** (former ISRO Chairman) appointed for a 4-year term.",
+        "**Tenures Concluded:** Venu Srinivasan, Pankaj Ramanbhai Patel, and Dr. Ravindra H. Dholakia.",
+        "**Statutory Framework:** Governed under Section 8(1)(a) (Governor & up to 4 DGs), Section 8(1)(c) (up to 10 non-official directors nominated by GoI), and Section 8(1)(d) (2 Government officials).",
+        "🎯 **Recap:** *RBI Central Board: 14 members $mid$ Sec 8(1)(c) $mid$ Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 2. Central Government Reconstitutes RBI Central Board: Strength Expanded to 14 Members\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RBI`\n- **Priority**: `P1_CRITICAL_MEMORIZE`\n- **Date**: `2026-08-24`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### Governance & Statutory Reconstitution\n* **Section 8(1)(c) Non-Official Directorship Appointments:**\n  * The Central Government appointed three new part-time Non-Official Directors on the Central Board of the Reserve Bank of India under **Section 8(1)(c)** of the *Reserve Bank of India Act, 1934*, expanding the total board strength from **11 to 14 members**.\n\n#### Must Memorize (Appointments & Tenure Ladder)\n* **Appointments & Membership Roster:**\n  * **New Part-Time Non-Official Directors (4-Year Term w.e.f. Aug 24, 2026):**\n    1. **Annie George Mathew:** Former Special Secretary (Expenditure), Ministry of Finance; currently full-time member of the **16th Finance Commission**.\n    2. **Janmejaya Kumar Sinha:** Economist and management consultant; former Chairman of Boston Consulting Group (BCG) Asia-Pacific.\n    3. **Syed Akbaruddin:** Former veteran diplomat; India's former Permanent Representative to the United Nations.\n  * **Reappointment:** Industrialist **Anand Mahindra** reappointed for a 2nd 4-year term w.e.f. August 20, 2026 (sole member retained from 2022 cohort).\n  * **Specialist Induction:** **S. Somanath Sreedhara Panicker** (former ISRO Chairman) appointed for a 4-year term.\n  * **Tenures Concluded:** Venu Srinivasan, Pankaj Ramanbhai Patel, and Dr. Ravindra H. Dholakia.\n  * **Statutory Framework:** Governed under Section 8(1)(a) (Governor & up to 4 DGs), Section 8(1)(c) (up to 10 non-official directors nominated by GoI), and Section 8(1)(d) (2 Government officials).\n  * 🎯 **Recap:** *RBI Central Board: 14 members $mid$ Sec 8(1)(c) $mid$ Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*\n\n---"
+    },
+    "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition": {
+      "id": "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
+      "slug": "nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
+      "title": "NSO Periodic Labour Force Survey (PLFS) Monthly Bulletin July 2026 (16th Edition)",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "REPORTS_AND_INDICES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REPORT",
+      "compressionLevel": "C4",
+      "memoryAnchor": "NSO → PERIODIC → LABOUR → FORCE → SURVEY",
+      "atomicRecall": "NSO Periodic Labour Force Survey (PLFS) Monthly Bulletin July 2026 (16th Edition)",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Headline Unemployment Declines to 4-Month Low:**",
+        "The National Statistical Office (NSO), MoSPI, released the 16th Monthly Bulletin of the Periodic Labour Force Survey (PLFS) for July 2026, recording an improvement in India's headline Unemployment Rate (UR) to **5.1%** (down from 5.5% in June 2026) among persons aged 15 years and above.",
+        "**Core Labour Indicators Ladder (Ages 15+):**",
+        "**Headline Unemployment Rate (UR):** **5.1%** (4-month low, down from 5.5% in June).",
+        "**Rural Unemployment Rate:** Fell to **4.5%** (from 5.0% in June 2026).",
+        "**Urban Unemployment Rate:** Broadly steady at **6.7%** (vs 6.6% in June; improved from 7.2% in July 2025).",
+        "**Gender-wise UR:** Male UR fell to **5.0%** (from 5.3%); Female UR fell to **5.4%** (from 5.9%).",
+        "**Labour Force Participation Rate (LFPR):** Rose to a 4-month high of **55.4%** (from 54.4% in June).",
+        "**Rural LFPR:** Rose significantly to **58.0%** (from 56.6% in June).",
+        "**Methodology Invariant (CWS):** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $\\ge 1\\text{ hour}$.",
+        "**Sample Size:** 3,71,021 persons surveyed across India under the January 2025 revamped methodology.",
+        "🎯 **Recap:** *PLFS July 2026 $mid$ Headline UR: 5.1% (Rural 4.5%, Urban 6.7%) $mid$ LFPR: 55.4% (Rural 58.0%) $mid$ CWS: 1 hr rule.*"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 3. NSO Periodic Labour Force Survey (PLFS) Monthly Bulletin July 2026 (16th Edition)\n- **Category**: `MACRO_ECONOMY`\n- **Institution**: `MOSPI`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-25`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### Employment & Labour Indicators\n* **Headline Unemployment Declines to 4-Month Low:**\n  * The National Statistical Office (NSO), MoSPI, released the 16th Monthly Bulletin of the Periodic Labour Force Survey (PLFS) for July 2026, recording an improvement in India's headline Unemployment Rate (UR) to **5.1%** (down from 5.5% in June 2026) among persons aged 15 years and above.\n\n#### Must Memorize (Statistical Matrix & Definitions)\n* **Core Labour Indicators Ladder (Ages 15+):**\n  * **Headline Unemployment Rate (UR):** **5.1%** (4-month low, down from 5.5% in June).\n  * **Rural Unemployment Rate:** Fell to **4.5%** (from 5.0% in June 2026).\n  * **Urban Unemployment Rate:** Broadly steady at **6.7%** (vs 6.6% in June; improved from 7.2% in July 2025).\n  * **Gender-wise UR:** Male UR fell to **5.0%** (from 5.3%); Female UR fell to **5.4%** (from 5.9%).\n  * **Labour Force Participation Rate (LFPR):** Rose to a 4-month high of **55.4%** (from 54.4% in June).\n  * **Rural LFPR:** Rose significantly to **58.0%** (from 56.6% in June).\n  * **Methodology Invariant (CWS):** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $\\ge 1\\text{ hour}$.\n  * **Sample Size:** 3,71,021 persons surveyed across India under the January 2025 revamped methodology.\n  * 🎯 **Recap:** *PLFS July 2026 $mid$ Headline UR: 5.1% (Rural 4.5%, Urban 6.7%) $mid$ LFPR: 55.4% (Rural 58.0%) $mid$ CWS: 1 hr rule.*\n\n---"
+    },
+    "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised": {
+      "id": "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
+      "slug": "rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
+      "title": "RBI Special USD-INR Forex Swap Facility: $72.85 Billion Mobilised",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C4",
+      "memoryAnchor": "RBI → SPECIAL → USD-INR → FOREX → SWAP",
+      "atomicRecall": "RBI Special USD-INR Forex Swap Facility: $72.85 Billion Mobilised",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Forex Inflow Mobilisation & Window Timelines:**",
+        "The Reserve Bank of India’s dedicated USD-INR Forex Swap Facility, introduced on June 8, 2026, mobilised **$72.85 billion ($72.848B)** in cumulative foreign exchange inflows as of August 21, 2026, propelling India’s headline foreign exchange reserves to **$716.90 billion**.",
+        "**Capital Inflow Ladder:**",
+        "**FCNR(B) Deposits:** Accounted for the vast majority at **$65.397 billion** (~90% of total inflows).",
+        "**Overseas Foreign Currency Borrowings (OFCBs):** **$4.860 billion**.",
+        "**External Commercial Borrowings (ECBs):** **$2.591 billion**.",
+        "**Operational Incentive:** Offered banks a zero-cost principal hedge, regulatory CRR/SLR exemptions, and permitted issuing Standby Letters of Credit (SBLCs) against FCNR(B) deposits (leveraged by Citigroup & Axis Bank partnership).",
+        "**Window Adjustments:** Due to rapid target overachievement, the **FCNR(B) deposit window closed on August 31, 2026** (advanced by 1 month), while the ECB/OFCB window remains open until **December 31, 2026**.",
+        "**Foreign Exchange Reserves:** Surged by **$9.905 billion** in mid-August to reach **$716.90 billion**.",
+        "🎯 **Recap:** *Forex Swap: $72.85B total $mid$ FCNR(B) $65.4B (~90%) $mid$ OFCB $4.86B $mid$ ECB $2.59B $mid$ FCNR window shut Aug 31 $mid$ Forex reserves $716.9B.*"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 4. RBI Special USD-INR Forex Swap Facility: $72.85 Billion Mobilised\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `RBI`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-21`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### External Sector & Capital Inflows\n* **Forex Inflow Mobilisation & Window Timelines:**\n  * The Reserve Bank of India’s dedicated USD-INR Forex Swap Facility, introduced on June 8, 2026, mobilised **$72.85 billion ($72.848B)** in cumulative foreign exchange inflows as of August 21, 2026, propelling India’s headline foreign exchange reserves to **$716.90 billion**.\n\n#### Must Memorize (Instrument Breakdown & Policy Norms)\n* **Capital Inflow Ladder:**\n  * **FCNR(B) Deposits:** Accounted for the vast majority at **$65.397 billion** (~90% of total inflows).\n  * **Overseas Foreign Currency Borrowings (OFCBs):** **$4.860 billion**.\n  * **External Commercial Borrowings (ECBs):** **$2.591 billion**.\n  * **Operational Incentive:** Offered banks a zero-cost principal hedge, regulatory CRR/SLR exemptions, and permitted issuing Standby Letters of Credit (SBLCs) against FCNR(B) deposits (leveraged by Citigroup & Axis Bank partnership).\n  * **Window Adjustments:** Due to rapid target overachievement, the **FCNR(B) deposit window closed on August 31, 2026** (advanced by 1 month), while the ECB/OFCB window remains open until **December 31, 2026**.\n  * **Foreign Exchange Reserves:** Surged by **$9.905 billion** in mid-August to reach **$716.90 billion**.\n  * 🎯 **Recap:** *Forex Swap: $72.85B total $mid$ FCNR(B) $65.4B (~90%) $mid$ OFCB $4.86B $mid$ ECB $2.59B $mid$ FCNR window shut Aug 31 $mid$ Forex reserves $716.9B.*\n\n---"
+    },
+    "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay": {
+      "id": "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
+      "slug": "meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
+      "title": "MeitY Mobile Phone Manufacturing Scheme (MPMS) 2026–2031: ₹62,500 Crore Outlay",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C4",
+      "memoryAnchor": "MEITY → MOBILE → PHONE → MANUFACTURING → SCHEME",
+      "atomicRecall": "MeitY Mobile Phone Manufacturing Scheme (MPMS) 2026–2031: ₹62,500 Crore Outlay",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures",
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**Successor to PLI-LSEM:**",
+        "The Ministry of Electronics and Information Technology (MeitY) notified the 5-year **Mobile Phone Manufacturing Scheme (MPMS)** with an outlay of **₹62,500 crore** (FY 2026-27 to FY 2030-31), succeeding the *PLI for Large Scale Electronics Manufacturing (PLI-LSEM)* which ended on March 31, 2026.",
+        "**Two Target Segments (TS1 & TS2) Ladder:**",
+        "**Target Segment 1 (TS1 - Global/EMS Manufacturers):** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $\\ge ₹5,000\\text{ crore}$ above base.",
+        "**Target Segment 2 (TS2 - Domestic Indian Brands):** Reserved for Indian brands with minimum FY26 turnover of **₹1,000 crore**. **5% base incentive** + **additional 3% incentive** for domestic design and R&D (up to 1-year gestation).",
+        "**Indian Brand Definition:** Trademark & IP held in India, **$>51\\%$ Indian citizen control**, domestic design/R&D.",
+        "**Component Sourcing Booster:** Up to **1.5% additional incentive** for domestic procurement of camera/display modules, enclosures, batteries, and USB cables.",
+        "**Macro Targets:** Projected cumulative production of **~₹39 lakh crore** and **60,000 direct jobs**.",
+        "🎯 **Recap:** *MPMS Outlay: ₹62,500 Cr (FY27–31) $mid$ TS1 (Global): ₹10k Cr turnover, 2.25%-5% $mid$ TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D $mid$ ~₹39 Lakh Cr output.*"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 5. MeitY Mobile Phone Manufacturing Scheme (MPMS) 2026–2031: ₹62,500 Crore Outlay\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `MEITY`\n- **Priority**: `P1_CRITICAL_MEMORIZE`\n- **Date**: `2026-08-25`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### Scheme Architecture & Incentive Segments\n* **Successor to PLI-LSEM:**\n  * The Ministry of Electronics and Information Technology (MeitY) notified the 5-year **Mobile Phone Manufacturing Scheme (MPMS)** with an outlay of **₹62,500 crore** (FY 2026-27 to FY 2030-31), succeeding the *PLI for Large Scale Electronics Manufacturing (PLI-LSEM)* which ended on March 31, 2026.\n\n#### Must Memorize (Eligibility Tiers & Targets)\n* **Two Target Segments (TS1 & TS2) Ladder:**\n  * **Target Segment 1 (TS1 - Global/EMS Manufacturers):** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $\\ge ₹5,000\\text{ crore}$ above base.\n  * **Target Segment 2 (TS2 - Domestic Indian Brands):** Reserved for Indian brands with minimum FY26 turnover of **₹1,000 crore**. **5% base incentive** + **additional 3% incentive** for domestic design and R&D (up to 1-year gestation).\n  * **Indian Brand Definition:** Trademark & IP held in India, **$>51\\%$ Indian citizen control**, domestic design/R&D.\n  * **Component Sourcing Booster:** Up to **1.5% additional incentive** for domestic procurement of camera/display modules, enclosures, batteries, and USB cables.\n  * **Macro Targets:** Projected cumulative production of **~₹39 lakh crore** and **60,000 direct jobs**.\n  * 🎯 **Recap:** *MPMS Outlay: ₹62,500 Cr (FY27–31) $mid$ TS1 (Global): ₹10k Cr turnover, 2.25%-5% $mid$ TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D $mid$ ~₹39 Lakh Cr output.*\n\n---"
+    },
+    "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion": {
+      "id": "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+      "slug": "meity-electronics-components-manufacturing-scheme-ecms-expansion",
+      "title": "MeitY Electronics Components Manufacturing Scheme (ECMS) Expansion",
+      "priority": "P1_CRITICAL_DEEP",
+      "revisionMinutes": 8,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C4",
+      "memoryAnchor": "MEITY → ELECTRONICS → COMPONENTS → MANUFACTURING → SCHEME",
+      "atomicRecall": "MeitY Electronics Components Manufacturing Scheme (ECMS) Expansion",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "**31 Additional Projects Approved:**",
+        "MeitY approved 31 additional projects under the **Electronics Components Manufacturing Scheme (ECMS)** involving fresh investments of **₹7,877 crore**, in collaboration with the Electronic Industries Association of India (ELCINA).",
+        "**Cumulative ECMS Performance Ladder:**",
+        "**Applications Cleared:** **106 projects** covering ~30 product categories across 15 states.",
+        "**Cumulative Investment:** Rose to **₹69,548 crore** (exceeding original target of ₹59,350 crore).",
+        "**Expected Output/Production:** Surged to **₹5,34,101 crore** (original target: ₹4,56,500 crore).",
+        "**Employment Impact:** **74,628 direct jobs** and 2.5 lakh indirect jobs.",
+        "**Outlay Escalation:** Initial outlay of ₹22,919 Cr in April 2025 raised to **₹40,000 crore** in Union Budget 2026-27.",
+        "**National Goal:** Building a **$500 billion domestic electronics ecosystem by 2030-31**.",
+        "🎯 **Recap:** *ECMS: 106 projects cleared $mid$ ₹69,548 Cr investments $mid$ ₹5.34 Lakh Cr production $mid$ Outlay ₹40,000 Cr $mid$ $500B target by 2030-31.*"
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 6. MeitY Electronics Components Manufacturing Scheme (ECMS) Expansion\n- **Category**: `GOVERNMENT_SCHEMES`\n- **Institution**: `MEITY`\n- **Priority**: `P1_CRITICAL_MEMORIZE`\n- **Date**: `2026-08-25`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~7 min`\n- **Source**: `Smartkeeda (Aug W4 2026)`\n\n#### Manufacturing Approvals & Cumulative Investment\n* **31 Additional Projects Approved:**\n  * MeitY approved 31 additional projects under the **Electronics Components Manufacturing Scheme (ECMS)** involving fresh investments of **₹7,877 crore**, in collaboration with the Electronic Industries Association of India (ELCINA).\n\n#### Must Memorize (Target vs. Actual Clearances)\n* **Cumulative ECMS Performance Ladder:**\n  * **Applications Cleared:** **106 projects** covering ~30 product categories across 15 states.\n  * **Cumulative Investment:** Rose to **₹69,548 crore** (exceeding original target of ₹59,350 crore).\n  * **Expected Output/Production:** Surged to **₹5,34,101 crore** (original target: ₹4,56,500 crore).\n  * **Employment Impact:** **74,628 direct jobs** and 2.5 lakh indirect jobs.\n  * **Outlay Escalation:** Initial outlay of ₹22,919 Cr in April 2025 raised to **₹40,000 crore** in Union Budget 2026-27.\n  * **National Goal:** Building a **$500 billion domestic electronics ecosystem by 2030-31**.\n  * 🎯 **Recap:** *ECMS: 106 projects cleared $mid$ ₹69,548 Cr investments $mid$ ₹5.34 Lakh Cr production $mid$ Outlay ₹40,000 Cr $mid$ $500B target by 2030-31.*\n\n---"
+    },
+    "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches": {
+      "id": "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
+      "slug": "paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
+      "title": "Paul Merchants Finance Launches India's First Dedicated Silver Loan NBFC Branches",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "RBI",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "FIRST_IN_INDIA",
+      "compressionLevel": "C2",
+      "memoryAnchor": "PAUL → MERCHANTS → FINANCE → LAUNCHES → INDIAS",
+      "atomicRecall": "Paul Merchants Finance Launches India's First Dedicated Silver Loan NBFC Branches",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Paul Merchants Finance Private Limited (PMFPL), a diversified NBFC, launched exclusive Silver Loan branches in Chandigarh under the *RBI (Lending Against Gold and Silver Collateral) Directions, 2025*.",
+        "Loan Range: **₹2,000 to ₹15 lakh** against eligible silver jewellery, ornaments, and approved silver coins.",
+        "Exam Angle: Formalizes silver lending under RBI's 2025 secured collateral framework."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 7. Paul Merchants Finance Launches India's First Dedicated Silver Loan NBFC Branches\n- **Category**: `BANKING_REGULATION` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Core Fact**: Paul Merchants Finance Private Limited (PMFPL), a diversified NBFC, launched exclusive Silver Loan branches in Chandigarh under the *RBI (Lending Against Gold and Silver Collateral) Directions, 2025*.\n* **Loan Range**: **₹2,000 to ₹15 lakh** against eligible silver jewellery, ornaments, and approved silver coins.\n* **Exam Angle**: Formalizes silver lending under RBI's 2025 secured collateral framework."
+    },
+    "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts": {
+      "id": "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
+      "slug": "razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
+      "title": "Razorpay Launches \"Vulcan\" AI Foundation Model & Multi-Currency EEFC Accounts",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C2",
+      "memoryAnchor": "RAZORPAY → LAUNCHES → VULCAN → FOUNDATION → MODEL",
+      "atomicRecall": "Razorpay Launches \"Vulcan\" AI Foundation Model & Multi-Currency EEFC Accounts → 1st",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Vulcan Model: India’s 1st transformer-based AI foundation model built specifically for payments; trained across **3 trillion data points and 4 billion payments** (NVIDIA computing + AWS SageMaker).",
+        "Multi-Currency EEFC Account: Partnered with **RBL Bank** to allow Indian exporters to receive settlements directly in original currencies (**USD, EUR, GBP, AED, SGD**) into EEFC accounts without mandatory INR conversion."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 8. Razorpay Launches \"Vulcan\" AI Foundation Model & Multi-Currency EEFC Accounts\n- **Category**: `DIGITAL_PAYMENTS` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Vulcan Model**: India’s 1st transformer-based AI foundation model built specifically for payments; trained across **3 trillion data points and 4 billion payments** (NVIDIA computing + AWS SageMaker).\n* **Multi-Currency EEFC Account**: Partnered with **RBL Bank** to allow Indian exporters to receive settlements directly in original currencies (**USD, EUR, GBP, AED, SGD**) into EEFC accounts without mandatory INR conversion."
+    },
+    "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting": {
+      "id": "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
+      "slug": "state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
+      "title": "State Bank of India AI-Led Cheque Processing (₹1 Lakh Threshold) & MSME Underwriting",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C2",
+      "memoryAnchor": "STATE → BANK → INDIA → AI-LED → CHEQUE",
+      "atomicRecall": "State Bank of India AI-Led Cheque Processing (₹1 Lakh Threshold) & MSME Underwriting → ₹10,000 ",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Cheque Truncation: SBI raising AI-based Straight-Through Processing (STP) threshold from ₹10,000 to **₹1 lakh**, automating **50–55%** of cheque clearance volume.",
+        "MSME Underwriting: Evaluated **~₹1 lakh crore** in MSME loans up to ₹5 crore ticket sizes using AI algorithms in FY26."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 9. State Bank of India AI-Led Cheque Processing (₹1 Lakh Threshold) & MSME Underwriting\n- **Category**: `BANKING_REGULATION` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Cheque Truncation**: SBI raising AI-based Straight-Through Processing (STP) threshold from ₹10,000 to **₹1 lakh**, automating **50–55%** of cheque clearance volume.\n* **MSME Underwriting**: Evaluated **~₹1 lakh crore** in MSME loans up to ₹5 crore ticket sizes using AI algorithms in FY26."
+    },
+    "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc": {
+      "id": "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
+      "slug": "idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
+      "title": "IDFC FIRST Bank Prices Inaugural $500 Million 3-Year Senior Notes via GIFT City IFSC",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "IFSCA",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C2",
+      "memoryAnchor": "IDFC → FIRST → BANK → PRICES → INAUGURAL",
+      "atomicRecall": "IDFC FIRST Bank Prices Inaugural $500 Million 3-Year Senior Notes via GIFT City IFSC → $500 million → 2029",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Issuance: $500 million 3-year fixed-rate senior notes due **August 25, 2029**; issued through GIFT City IFSC Banking Unit.",
+        "Pricing & Rating: Coupon of **5.625%**; Reg S format; rated **'BBB-' (Investment Grade, Stable)** by S&P Global Ratings."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 10. IDFC FIRST Bank Prices Inaugural $500 Million 3-Year Senior Notes via GIFT City IFSC\n- **Category**: `CAPITAL_MARKETS` | **Priority**: `P2_HIGH` | **Date**: `2026-08-18`\n* **Issuance**: $500 million 3-year fixed-rate senior notes due **August 25, 2029**; issued through GIFT City IFSC Banking Unit.\n* **Pricing & Rating**: Coupon of **5.625%**; Reg S format; rated **'BBB-' (Investment Grade, Stable)** by S&P Global Ratings."
+    },
+    "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore": {
+      "id": "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
+      "slug": "dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
+      "title": "DPIIT Press Note 2 of 2026: 29 FDI Proposals Worth ₹4,895.65 Crore",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "MACRO_ECONOMY",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "regulatoryStatus": "DRAFT",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "ECONOMIC_DEVELOPMENT",
+      "compressionLevel": "C2",
+      "memoryAnchor": "DPIIT → PRESS → NOTE → 2026 → FDI",
+      "atomicRecall": "DPIIT Press Note 2 of 2026: 29 FDI Proposals Worth ₹4,895.65 Crore",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Norms: Permits automatic route FDI for foreign entities with **$<10\\%$ non-controlling ownership** from Land Border Countries (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan).",
+        "Tracked Inflows: 29 FDI proposals worth **₹4,895.65 crore** ($> \\$500\\text{M}$) reported across IT, AI, electronics, and pharmaceuticals."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 11. DPIIT Press Note 2 of 2026: 29 FDI Proposals Worth ₹4,895.65 Crore\n- **Category**: `MACRO_ECONOMY` | **Priority**: `P2_HIGH` | **Date**: `2026-08-20`\n* **Norms**: Permits automatic route FDI for foreign entities with **$<10\\%$ non-controlling ownership** from Land Border Countries (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan).\n* **Tracked Inflows**: 29 FDI proposals worth **₹4,895.65 crore** ($> \\$500\\text{M}$) reported across IT, AI, electronics, and pharmaceuticals."
+    },
+    "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing": {
+      "id": "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
+      "slug": "dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
+      "title": "DGFT Amends Foreign Trade Policy 2023 for Indian Rupee (INR) Export Invoicing",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "MACRO_ECONOMY",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "POLICY",
+      "compressionLevel": "C2",
+      "memoryAnchor": "DGFT → AMENDS → FOREIGN → TRADE → POLICY",
+      "atomicRecall": "DGFT Amends Foreign Trade Policy 2023 for Indian Rupee (INR) Export Invoicing",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Amendment: Exporters realizing proceeds in INR through approved banking channels now qualify for full FTP benefits (Advance Authorisation, DFIA, EPCG) on par with freely convertible foreign currencies.",
+        "Exception: Asian Clearing Union (ACU) members must continue using ACU-designated mechanisms."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 12. DGFT Amends Foreign Trade Policy 2023 for Indian Rupee (INR) Export Invoicing\n- **Category**: `NATIONAL_AND_STATES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Amendment**: Exporters realizing proceeds in INR through approved banking channels now qualify for full FTP benefits (Advance Authorisation, DFIA, EPCG) on par with freely convertible foreign currencies.\n* **Exception**: Asian Clearing Union (ACU) members must continue using ACU-designated mechanisms."
+    },
+    "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026": {
+      "id": "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
+      "slug": "ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
+      "title": "Ministry of Corporate Affairs Notifies Companies (Ind AS) Amendment Rules 2026",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "BANKING_REGULATION",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "REGULATION",
+      "compressionLevel": "C2",
+      "memoryAnchor": "MINISTRY → CORPORATE → AFFAIRS → NOTIFIES → COMPANIES",
+      "atomicRecall": "Ministry of Corporate Affairs Notifies Companies (Ind AS) Amendment Rules 2026",
+      "examAngle": {
+        "likelyAsks": [
+          "Implementing nodal ministry or statutory agency"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Standards Updated: Updates 5 Indian Accounting Standards: **Ind AS 101, 107, 109, 110, and Ind AS 7** (in consultation with NFRA).",
+        "Key Provisions: Regulates recognition of nature-dependent renewable electricity contracts and complex derivative portfolios, effective for reporting periods beginning on/after **April 1, 2026**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 13. Ministry of Corporate Affairs Notifies Companies (Ind AS) Amendment Rules 2026\n- **Category**: `BANKING_REGULATION` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Standards Updated**: Updates 5 Indian Accounting Standards: **Ind AS 101, 107, 109, 110, and Ind AS 7** (in consultation with NFRA).\n* **Key Provisions**: Regulates recognition of nature-dependent renewable electricity contracts and complex derivative portfolios, effective for reporting periods beginning on/after **April 1, 2026**."
+    },
+    "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling": {
+      "id": "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
+      "slug": "in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
+      "title": "IN-SPACe Proposes ₹500 Crore Third-Party Space Launch Liability Insurance Ceiling",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "INSURANCE_SECTOR",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SPACE",
+      "compressionLevel": "C2",
+      "memoryAnchor": "IN-SPACE → PROPOSES → 500 → CRORE → THIRD-PARTY",
+      "atomicRecall": "IN-SPACe Proposes ₹500 Crore Third-Party Space Launch Liability Insurance Ceiling → ₹500 crore",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Mandate: Private satellite and rocket launch operators must maintain third-party liability insurance up to **₹500 crore (~$60M)** with the Government of India named as co-insured.",
+        "Context: Governed under UN space liability conventions; private investment in Indian space tech reached **$618.5 million** by March 2026."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 14. IN-SPACe Proposes ₹500 Crore Third-Party Space Launch Liability Insurance Ceiling\n- **Category**: `INSURANCE_SECTOR` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Mandate**: Private satellite and rocket launch operators must maintain third-party liability insurance up to **₹500 crore (~$60M)** with the Government of India named as co-insured.\n* **Context**: Governed under UN space liability conventions; private investment in Indian space tech reached **$618.5 million** by March 2026."
+    },
+    "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections": {
+      "id": "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
+      "slug": "mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
+      "title": "MoPNG Approves Incentive Scheme for Promotion of Domestic PNG Connections",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C2",
+      "memoryAnchor": "MOPNG → APPROVES → INCENTIVE → SCHEME → FOR",
+      "atomicRecall": "MoPNG Approves Incentive Scheme for Promotion of Domestic PNG Connections",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Mechanism: Effective September 1, 2026; provides City Gas Distribution (CGD) entities **200 SCM of lower-priced APM gas** for every incremental billed domestic PNG connection.",
+        "Payback: Shortens CGD infrastructure payback period from 10 years to **~3 years**."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 15. MoPNG Approves Incentive Scheme for Promotion of Domestic PNG Connections\n- **Category**: `GOVERNMENT_SCHEMES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Mechanism**: Effective September 1, 2026; provides City Gas Distribution (CGD) entities **200 SCM of lower-priced APM gas** for every incremental billed domestic PNG connection.\n* **Payback**: Shortens CGD infrastructure payback period from 10 years to **~3 years**."
+    },
+    "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh": {
+      "id": "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
+      "slug": "tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
+      "title": "Tamil Nadu Enhances CMCHIS Annual Health Cover Fivefold to ₹25 Lakh",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C2",
+      "memoryAnchor": "TAMIL → NADU → ENHANCES → CMCHIS → ANNUAL",
+      "atomicRecall": "Tamil Nadu Enhances CMCHIS Annual Health Cover Fivefold to ₹25 Lakh → ₹5 lakh",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Cover Increase: Annual coverage under Chief Minister’s Comprehensive Health Insurance Scheme hiked from ₹5 lakh to **₹25 lakh per family**.",
+        "Additional Measures: Transgender medical procedures at 7 GMCs; 365 days maternity leave for 3rd child; ₹75,000 cooperative farm loan waiver for 1.38 lakh farmers."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 16. Tamil Nadu Enhances CMCHIS Annual Health Cover Fivefold to ₹25 Lakh\n- **Category**: `GOVERNMENT_SCHEMES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Cover Increase**: Annual coverage under Chief Minister’s Comprehensive Health Insurance Scheme hiked from ₹5 lakh to **₹25 lakh per family**.\n* **Additional Measures**: Transgender medical procedures at 7 GMCs; 365 days maternity leave for 3rd child; ₹75,000 cooperative farm loan waiver for 1.38 lakh farmers."
+    },
+    "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme": {
+      "id": "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
+      "slug": "odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
+      "title": "Odisha Launches \"Bidesh Sikhyabruti\" Foreign Scholarship Scheme",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "GOVERNMENT_SCHEMES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "SCHEME",
+      "compressionLevel": "C2",
+      "memoryAnchor": "ODISHA → LAUNCHES → BIDESH → SIKHYABRUTI → FOREIGN",
+      "atomicRecall": "Odisha Launches \"Bidesh Sikhyabruti\" Foreign Scholarship Scheme → ₹25 lakh",
+      "examAngle": {
+        "likelyAsks": [
+          "Financial outlay / budgetary allocation figures"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Outlay & Norms: Up to **₹25 lakh per annum** for 50 meritorious SC and ST students pursuing PG and PhD at **Top 200 QS World Ranked universities** (family income limit: ₹12 lakh/year)."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 17. Odisha Launches \"Bidesh Sikhyabruti\" Foreign Scholarship Scheme\n- **Category**: `GOVERNMENT_SCHEMES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Outlay & Norms**: Up to **₹25 lakh per annum** for 50 meritorious SC and ST students pursuing PG and PhD at **Top 200 QS World Ranked universities** (family income limit: ₹12 lakh/year)."
+    },
+    "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius": {
+      "id": "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
+      "slug": "indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
+      "title": "Indian Oil Corporation Signs 5-Year Master Fuel Supply Agreement with Mauritius",
+      "priority": "P2_HIGH",
+      "revisionMinutes": 3,
+      "primaryCategory": "NATIONAL_AND_STATES",
+      "secondaryCategories": [],
+      "primaryInstitution": "OTHER",
+      "verificationStatus": "SOURCE_ONLY",
+      "informationType": "OTHER",
+      "compressionLevel": "C2",
+      "memoryAnchor": "INDIAN → OIL → CORPORATION → SIGNS → 5-YEAR",
+      "atomicRecall": "Indian Oil Corporation Signs 5-Year Master Fuel Supply Agreement with Mauritius → 100%",
+      "examAngle": {
+        "likelyAsks": [
+          "Key factual numbers, dates, and institutional ownership"
+        ]
+      },
+      "lifecycleStatus": "ACTIVE",
+      "whatHappened": [],
+      "mustMemorizeFacts": [
+        "Pact: 5-year Sales and Purchase Agreement between IOCL and State Trading Corporation (STC) of Mauritius to supply 100% of Mauritius's requirements of petrol, diesel, marine gas oil, and ATF."
+      ],
+      "knowUnderstandContext": [],
+      "examFocus": [],
+      "optionalFacts": [],
+      "initialEventDate": "2026-08-01",
+      "firstPublicationDate": "2026-08-15",
+      "lastUpdatedDate": "2026-08-15",
+      "chronologicalMonth": "2026-08",
+      "eventMonth": "2026-08",
+      "activeInMonths": [
+        "2026-08"
+      ],
+      "chronologicalWeek": "week-1-4",
+      "updatesHistory": [],
+      "relatedTopics": [],
+      "sourceReferences": [
+        {
+          "sourceName": "SMARTKEEDA",
+          "batchName": "23-august-2026-smartkeeda-w4",
+          "publishedDate": "2026-08-15"
+        }
+      ],
+      "contentMarkdown": "### 18. Indian Oil Corporation Signs 5-Year Master Fuel Supply Agreement with Mauritius\n- **Category**: `INTERNATIONAL_AFFAIRS` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`\n* **Pact**: 5-year Sales and Purchase Agreement between IOCL and State Trading Corporation (STC) of Mauritius to supply 100% of Mauritius's requirements of petrol, diesel, marine gas oil, and ATF.\n\n---"
     }
   },
   "topicSlugMap": {
@@ -73392,7 +74313,25 @@
     "august-27": "ca-august-27",
     "august-28": "ca-august-28",
     "august-29": "ca-august-29",
-    "august-30": "ca-august-30"
+    "august-30": "ca-august-30",
+    "unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume": "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
+    "central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members": "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
+    "nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition": "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
+    "rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised": "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
+    "meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay": "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
+    "meity-electronics-components-manufacturing-scheme-ecms-expansion": "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+    "paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches": "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
+    "razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts": "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
+    "state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting": "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
+    "idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc": "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
+    "dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore": "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
+    "dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing": "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
+    "ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026": "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
+    "in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling": "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
+    "mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections": "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
+    "tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh": "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
+    "odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme": "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
+    "indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius": "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius"
   },
   "indexes": {
     "byPriority": {
@@ -73407,6 +74346,7 @@
         "ca-census-2027-40-question-household-schedule-comprehensive-caste-enumeration",
         "ca-central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
         "ca-central-government-notifies-epf-scheme-2026-eps-2026-edli-scheme-2026-under-social-security-code",
+        "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
         "ca-central-government-unveils-fpi-g-sec-tax-exemptions-fully-accessible-route-far-expansion",
         "ca-d-sib-framework-rbi-leverage-ratio-buffer",
         "ca-dgft-amends-foreign-trade-policy-ftp-2023-global-rupee-invoicing-acu-settlement-overhaul",
@@ -73418,6 +74358,8 @@
         "ca-insolvency-bankruptcy-code-amendment-bill-2025-introduction-of-ciirp-structural-timelines",
         "ca-irdai-master-framework-insurance-intermediaries-governance-investment-limits",
         "ca-irdai-revises-information-security-cybersecurity-governance-guidelines",
+        "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+        "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
         "ca-mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
         "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
         "ca-mobile-phone-manufacturing-scheme-mpms-semicon-20-190-lakh-crore-combined-push",
@@ -73427,6 +74369,7 @@
         "ca-mospi-releases-provisional-gdp-estimates-fy-202526-indian-economy-grew-77-base-year-202223",
         "ca-mospi-releases-revised-index-of-industrial-production-iip-series-with-base-year-202223-4-sectors",
         "ca-nso-mospi-periodic-labour-force-survey-plfs-annual-report-jandec-2025",
+        "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
         "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "ca-parliament-passes-supreme-court-number-of-judges-amendment-bill-2026-sanctioned-strength-raised-to-39-judges",
         "ca-pfrda-digital-architecture-nps-pride-disha-pension-sahayak-redressal",
@@ -73468,6 +74411,7 @@
         "ca-rbi-revises-msme-lending-norms-collateral-free-limit-raised-to-20-lakh",
         "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
         "ca-rbi-scale-based-regulation-sbr-1-lakh-crore-absolute-threshold-for-nbfc-upper-layer-nbfc-ul",
+        "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
         "ca-rbi-tightens-governance-board-composition-mdceo-tenure-norms-for-urban-rural-co-operative-banks",
         "ca-rbi-tightens-related-party-transactions-credit-risk-norms-for-banks-and-nbfcs",
         "ca-rbi-utkarsh-2029-medium-term-strategic-framework-for-20262029",
@@ -73478,6 +74422,7 @@
         "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
         "ca-supreme-court-directs-mandatory-4-year-car-6-year-two-wheeler-third-party-insurance-period",
         "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+        "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
         "ca-union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
         "ca-union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
         "ca-viksit-bharat-guarantee-for-rozgar-and-aajeevika-mission-vb-g-ram-g-act-replaces-mgnrega"
@@ -73564,6 +74509,7 @@
         "ca-deaf-unclaimed-deposits-update-psbs-transfer-60518-crore-as-of-jan-2026",
         "ca-development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
         "ca-dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
+        "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
         "ca-dgft-relaxes-one-star-export-house-eligibility-2-of-preceding-3-years",
         "ca-dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
         "ca-dicgc-deposit-insurance-coverage-report-976-bank-accounts-insured",
@@ -73572,6 +74518,7 @@
         "ca-divyastra-mk3-indias-1st-indigenous-jet-powered-loitering-munition",
         "ca-dmrc-receives-iso-550012024-asset-management-certification-for-mumbai-metro-line-3",
         "ca-dot-sebi-partner-to-tackle-securities-frauds-via-digital-intelligence-platform-fri",
+        "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
         "ca-dpiit-revises-startup-definition-20-year-window-for-deep-tech",
         "ca-draft-corporate-average-fuel-efficiency-3-cafe-3-norms-carbon-credit-trading-mechanism",
         "ca-drdo-advanced-weapon-integration-complex-for-project-kusha-lr-sam-at-hyderabad",
@@ -73628,11 +74575,13 @@
         "ca-icar-nihsad-develops-indias-1st-indigenous-african-swine-fever-asf-vaccine",
         "ca-icar-registers-16-new-indigenous-livestock-breeds-total-262-in-india",
         "ca-icici-prudential-swasthya-pension-scheme-under-pfrda-regulatory-sandbox",
+        "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
         "ca-iisc-spire-lab-releases-sravaani-65-language-open-source-speech-ai-model",
         "ca-iit-roorkee-publishes-svamitva-scheme-impact-assessment-145-crore-property-cards-distributed",
         "ca-ilo-ilostat-indias-social-security-coverage-reaches-643-943-crore-beneficiaries",
         "ca-imf-world-economic-outlook-government-debt-to-gdp-projections-2026",
         "ca-in-space-allied-orbits-indias-1st-commercial-earth-observation-satellite-constellation",
+        "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
         "ca-income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard",
         "ca-index-of-eight-core-industries-ici-grows-17-in-april-2026",
         "ca-india-and-gcc-sign-terms-of-reference-for-free-trade-agreement-fta",
@@ -73656,6 +74605,7 @@
         "ca-indian-navy-commissions-diving-support-vessel-ins-nipun-at-naval-dockyard-mumbai",
         "ca-indian-navy-retires-sea-king-bravo-helicopters-after-5-decades-inas-330",
         "ca-indian-navy-takes-delivery-of-1st-multi-purpose-vessel-samarthak-from-lt-kattupalli",
+        "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
         "ca-indiaoman-comprehensive-economic-partnership-agreement-cepa-enters-into-force",
         "ca-indias-1st-geothermal-wells-commissioned-at-puga-valley-ladakh-ongc-energy-centre",
         "ca-indias-balance-of-payments-bop-fy-2025-26-q4-surplus-of-71-billion",
@@ -73705,6 +74655,7 @@
         "ca-mha-gallantry-service-medals-for-80th-independence-day-1057-personnel",
         "ca-minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
         "ca-ministry-of-cafpd-expands-pm-aasha-atmanirbhar-pulses-mission-in-bihar-chhattisgarh",
+        "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
         "ca-ministry-of-education-udise-202526-pgi-s-20-reports",
         "ca-ministry-of-finance-notifies-100-fdi-in-insurance-sector-under-automatic-route",
         "ca-ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs",
@@ -73719,6 +74670,7 @@
         "ca-modified-udan-rcs-scheme-approved-with-outlay-of-28840-crore-10-years",
         "ca-moefcc-notifies-solid-waste-management-swm-rules-2026-mandatory-4-stream-segregation",
         "ca-mohua-parivartan-scheme-approved-for-ncr-commercial-fleet-modernisation-9585-crore",
+        "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
         "ca-morth-launches-pm-rahat-cashless-road-accident-victim-scheme",
         "ca-morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "ca-mospi-acnas-panel-on-2022-23-base-year-national-accounts-series",
@@ -73758,11 +74710,13 @@
         "ca-nse-launches-indias-1st-domestically-benchmarked-energy-derivative-indian-natural-gas-futures",
         "ca-nso-mospi-energy-statistics-india-2026-report",
         "ca-nso-mospi-launches-1st-annual-survey-of-incorporated-services-enterprises-asisse",
+        "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
         "ca-outward-remittances-under-rbi-liberalised-remittance-scheme-lrs-surge-to-25-billion",
         "ca-paimana-infrastructure-governance-165-indicator-dashboard",
         "ca-palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "ca-parliament-passes-andhra-pradesh-reorganisation-amendment-bill-2026-amaravati-sole-capital",
         "ca-parliament-passes-jan-vishwas-amendment-of-provisions-bill-2026-717-provisions-decriminalised",
+        "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
         "ca-paul-merchants-granted-perpetual-ad-ii-forex-license",
         "ca-periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026",
         "ca-pfc-board-approves-merger-with-subsidiary-rec-ltd",
@@ -73803,6 +74757,7 @@
         "ca-qatar-post-india-post-launch-postransfer-powered-by-upi",
         "ca-r-praggnanandhaa-wins-grand-chess-tour-2026-first-indian-to-win-title",
         "ca-rajendra-kumar-saboo-appointed-md-ceo-of-uco-bank",
+        "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
         "ca-rbi-622nd-central-board-meeting-in-patna-utkarsh-30-202629",
         "ca-rbi-agreement-with-gnctd-under-section-21a-revised-state-wma-limits",
         "ca-rbi-all-india-house-price-index-hpi-growth-moderates-to-36-in-q1-fy27",
@@ -73940,6 +74895,7 @@
         "ca-sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
         "ca-special-economic-zones-sezs-fy26-exports-rise-118-to-1636-lakh-crore",
         "ca-standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
+        "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
         "ca-state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
         "ca-state-bank-of-india-unveils-strategic-vision-2030-balance-sheet-to-reach-25-of-indias-gdp",
         "ca-strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
@@ -73947,6 +74903,7 @@
         "ca-sundeep-sikka-appointed-chairman-of-association-of-mutual-funds-in-india-amfi",
         "ca-supreme-court-directs-10-km-mining-buffer-for-notified-wetlands-glaw-lake-101st-ramsar-site",
         "ca-taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
+        "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
         "ca-tracxn-india-tech-annual-funding-report-2026-india-ranks-4th-globally-with-117-billion",
         "ca-transform-rural-india-tri-study-70-of-indias-347-million-elderly-to-live-in-rural-areas-by-2050",
         "ca-tribunals-reforms-bill-2026-mandates-national-tribunals-data-grid-ntdg",
@@ -75090,6 +76047,7 @@
         "ca-indiaisrael-bilateral-investment-agreement-bia-enters-into-force",
         "ca-indian-army-raises-modern-warfare-drone-force-bhairav",
         "ca-indian-deaf-womens-cricket-team",
+        "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
         "ca-indiaoman-comprehensive-economic-partnership-agreement-cepa-enters-into-force",
         "ca-indias-1st-flex-fuel-car",
         "ca-indias-1st-model-border-village-at-chumur-ladakh",
@@ -75243,6 +76201,7 @@
         "ca-rahul-himalian",
         "ca-rainbow-trout-ras-facility",
         "ca-razorpay-eefc-account",
+        "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
         "ca-rec-pfc-26850-crore-loan-for-meja-thermal-power",
         "ca-registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "ca-revamped-india-code-portal",
@@ -75487,10 +76446,12 @@
         "ca-conclusion-of-landmark-india-eu-free-trade-agreement-22nd-fta",
         "ca-customs-duty-on-gold-silver-raised-to-15-and-platinum-to-154",
         "ca-dea-creates-17-lakh-crore-3-year-ppp-infrastructure-pipeline",
+        "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
         "ca-dgft-relaxes-one-star-export-house-eligibility-2-of-preceding-3-years",
         "ca-dgft-silver-import-restrictions",
         "ca-disinvestment-asset-monetization-target-set-at-80000-crore-for-fy27",
         "ca-dpiit-fdi-equity-inflows-aprdec-fy26",
+        "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
         "ca-economic-survey-2025-26-gdp-growth-projection-6872-for-fy27",
         "ca-fdi-cumulative-milestone",
         "ca-fdi-trade-metrics",
@@ -75721,6 +76682,8 @@
         "ca-maha-water-mission",
         "ca-mca-expands-pm-internship-scheme-pmis-to-final-year-graduate-pg-students",
         "ca-meity-approves-29-proposals-7104-cr-under-electronics-components-scheme-ecms",
+        "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+        "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
         "ca-ministry-of-cafpd-expands-pm-aasha-atmanirbhar-pulses-mission-in-bihar-chhattisgarh",
         "ca-ministry-of-housing-urban-affairs-notifies-1-lakh-crore-urban-challenge-fund-ucf",
         "ca-ministry-of-mines-completes-1500-crore-critical-mineral-processing-incentive-assessment",
@@ -75735,6 +76698,7 @@
         "ca-modified-interest-subvention-scheme-miss-through-kcc-interest-support-framework",
         "ca-modified-udan-rcs-scheme-approved-with-outlay-of-28840-crore-10-years",
         "ca-mohua-parivartan-scheme-approved-for-ncr-commercial-fleet-modernisation-9585-crore",
+        "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
         "ca-morth-launches-pm-rahat-cashless-road-accident-victim-scheme",
         "ca-msme-sustainable-zed-certification-100-women-subsidy",
         "ca-nabl-mobile-food-testing-accreditation",
@@ -75746,6 +76710,7 @@
         "ca-national-green-hydrogen-mission-nghm-progress-292-crore-incurred-sight-allocations",
         "ca-national-investment-policy-for-urea-2026-nipu-2026",
         "ca-nsp-dbt-for-agriculture-students",
+        "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
         "ca-outward-remittances-under-rbi-liberalised-remittance-scheme-lrs-surge-to-25-billion",
         "ca-palna-scheme-operational-status-3130-anganwadi-cum-crches-awccs-active",
         "ca-pm-e-drive-guidelines-revised-10900-cr-outlay",
@@ -75781,6 +76746,7 @@
         "ca-small-savings-schemes-interest-rates-unchanged-for-q1-fy-2026-27-8th-consecutive-quarter",
         "ca-smile-beggary-scheme-coverage-216-cities-active-target-295-cities-by-fy31",
         "ca-sukanya-samriddhi-yojana-ssy-interest-rate-at-82",
+        "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
         "ca-tribunals-reforms-bill-2026-mandates-national-tribunals-data-grid-ntdg",
         "ca-union-cabinet-approves-emergency-credit-line-guarantee-scheme-50-eclgs-50-jan-suraksha-milestones",
         "ca-union-cabinet-approves-mission-for-cotton-productivity-3500-crore-outlay-surface-coal-gasification-scheme",
@@ -75825,6 +76791,7 @@
         "ca-cbdt-notifies-nabfid-10-year-zero-coupon-bonds-20000-crore-maturity-value",
         "ca-central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "ca-central-government-notifies-employees-provident-fund-scheme-2026-3-day-settlement-rule",
+        "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
         "ca-central-kyc-registry-ckyc-14-digit-kin-architecture",
         "ca-citigroup-axis-bank",
         "ca-cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
@@ -75859,6 +76826,7 @@
         "ca-hdfc-bank-savings-variants",
         "ca-icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
         "ca-idfc-first-bank-ignite",
+        "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
         "ca-ifsca-notifies-unified-one-kyc-framework-for-gift-ifsc-regulated-entities",
         "ca-india-approves-30-billion-currency-swap-drawdown-for-maldives-under-saarc-facility",
         "ca-india-eu-mou-between-rbi-and-esma-for-ccil-recognition",
@@ -75881,6 +76849,7 @@
         "ca-mca-amends-schedule-vii-zero-coupon-zero-principal-zczp-on-sse-eligible-for-csr",
         "ca-miga-issues-19767-million-guarantee-for-citibank-loan-to-sbi-grpv",
         "ca-minimum-average-balance-mab-penalties-in-fy26-7086-crore-total-collection",
+        "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
         "ca-mobikwik-secures-rbi-in-principle-approval-for-nbfc-license",
         "ca-msmed-amendment-bill-2026",
         "ca-national-housing-bank-launches-gruh-sugam-portal",
@@ -75890,6 +76859,7 @@
         "ca-nse-indices-11-new-sectoral-indices",
         "ca-nse-ix-soft-launches-global-access-platform-under-rbi-lrs",
         "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
         "ca-paul-merchants-granted-perpetual-ad-ii-forex-license",
         "ca-pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
         "ca-pfc-board-approves-merger-with-subsidiary-rec-ltd",
@@ -75997,6 +76967,7 @@
         "ca-rbi-sets-goi-floating-rate-bond-2028-frb-2028-coupon-at-617",
         "ca-rbi-sets-up-committee-to-review-business-correspondent-guidelines",
         "ca-rbi-sets-up-expert-committee-on-quantum-secure-financial-ecosystem-q-safe",
+        "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
         "ca-rbi-spot-forex-interventions-record-net-sale-of-5313-billion-in-fy26",
         "ca-rbi-subsumes-voluntary-retention-route-vrr-under-fpi-general-route",
         "ca-rbi-suo-motu-loan-restructuring-framework-in-areas-hit-by-natural-calamities",
@@ -76013,6 +76984,7 @@
         "ca-shriram-finance-arm-receives-rbi-in-principle-nod-for-primary-dealer-business",
         "ca-small-savings-schemes-interest-rates-julyseptember-2026-quarter",
         "ca-sp-global-bank-leverage-ratio-rankings-kotak-mahindra-bank-leads-asia-pacific",
+        "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
         "ca-state-bank-of-india-becomes-4th-most-valued-indian-firm",
         "ca-state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
         "ca-state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
@@ -76063,6 +77035,7 @@
         "ca-rbi-payment-systems-report-upi-commands-855-volume-share-prb-restructuring",
         "ca-rbi-state-bank-of-vietnam-sign-digital-payments-mou",
         "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+        "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
         "ca-union-budget-fy27-2000-crore-incentive-for-upi-rupay-p2m-transactions",
         "ca-upi-10-year-milestone-24162-crore-annual-transactions-11-global-countries",
         "ca-upi-live-in-cambodia-via-khqr-9th-country",
@@ -76133,6 +77106,7 @@
         "ca-bharat-maritime-insurance-pool-bmip",
         "ca-bimal-n-patel-itlos-appointment",
         "ca-cabinet-approves-12980-crore-bharat-maritime-insurance-pool-bmi-pool",
+        "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
         "ca-irdai-137th-meeting-insurance-sector-overhauls",
         "ca-irdai-2026-claim-settlement-ratios-for-health-and-general-insurers",
         "ca-irdai-annual-report-fy25-highlights-coverage-expands-to-580-million-lives",
@@ -76211,6 +77185,7 @@
         "ca-niti-aayog-report-reimagining-care-strategies-for-empowering-caregivers-in-viksit-bharat2047",
         "ca-niti-aayog-report-reimagining-skilling-for-viksit-bharat2047-87-crore-youth-in-neet",
         "ca-nse-indices-launches-nifty-500-ahimsa-index-326-ethical-stocks",
+        "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
         "ca-paimana-infrastructure-governance-165-indicator-dashboard",
         "ca-periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026",
         "ca-project-dolphin-2nd-range-wide-riverine-estuarine-dolphin-survey",
@@ -76597,6 +77572,7 @@
         "ca-development-bank-of-japan-dbj-makes-maiden-1250-crore-real-estate-investment-in-india",
         "ca-dfs-common-landing-portal-for-unclaimed-financial-assets-unclaimedassetsportalin",
         "ca-dgca-releases-flying-training-organisations-ftos-phase-2-rankings-avyanna-aviation-ranked-category-a",
+        "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
         "ca-dgft-relaxes-one-star-export-house-eligibility-2-of-preceding-3-years",
         "ca-dgft-silver-import-restrictions",
         "ca-dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
@@ -76612,6 +77588,7 @@
         "ca-dot-sim-card-rule",
         "ca-dpiit-6-working-groups",
         "ca-dpiit-fdi-equity-inflows-aprdec-fy26",
+        "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
         "ca-dpiit-revises-startup-definition-20-year-window-for-deep-tech",
         "ca-dr-bhooma-vg",
         "ca-dr-bijay-kumar-mohanty",
@@ -76788,6 +77765,7 @@
         "ca-ilo-ilostat-indias-social-security-coverage-reaches-643-943-crore-beneficiaries",
         "ca-important-days-august-2131",
         "ca-in-space",
+        "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
         "ca-in-space-technology-adoption-fund-500-crore",
         "ca-income-tax-rules-2026-form-130-replaces-form-16-traces-20-dashboard",
         "ca-index-of-eight-core-industries-ici-grows-17-in-april-2026",
@@ -76834,6 +77812,7 @@
         "ca-indian-navy-mangrol",
         "ca-indian-navy-retires-sea-king-bravo-helicopters-after-5-decades-inas-330",
         "ca-indian-navy-takes-delivery-of-1st-multi-purpose-vessel-samarthak-from-lt-kattupalli",
+        "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
         "ca-indian-pharmacopoeia-commission-ipc",
         "ca-indiaoman-comprehensive-economic-partnership-agreement-cepa-enters-into-force",
         "ca-indias-1st-flex-fuel-car",
@@ -76945,6 +77924,8 @@
         "ca-mecon-limited-accorded-miniratna-category-i-cpse-status",
         "ca-meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
         "ca-meity-approves-29-proposals-7104-cr-under-electronics-components-scheme-ecms",
+        "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+        "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
         "ca-mens-hockey-u18-asia-cup-japan",
         "ca-mette-frederiksen",
         "ca-mh-60r-seahawk-delivery",
@@ -76958,6 +77939,7 @@
         "ca-midhani-s400-approval",
         "ca-ministry-of-cafpd-expands-pm-aasha-atmanirbhar-pulses-mission-in-bihar-chhattisgarh",
         "ca-ministry-of-cooperation-5th-foundation-day",
+        "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
         "ca-ministry-of-education-udise-202526-pgi-s-20-reports",
         "ca-ministry-of-housing-urban-affairs-notifies-1-lakh-crore-urban-challenge-fund-ucf",
         "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
@@ -76987,6 +77969,7 @@
         "ca-mohfw-releases-national-health-accounts-nha-estimates-out-of-pocket-expenditure-drops-to-394",
         "ca-mohua-parivartan-scheme-approved-for-ncr-commercial-fleet-modernisation-9585-crore",
         "ca-moib-removes-tv-ad-cap",
+        "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
         "ca-mord-rural-internal-audit-portal",
         "ca-morth-launches-pm-rahat-cashless-road-accident-victim-scheme",
         "ca-morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
@@ -77079,10 +78062,12 @@
         "ca-nso-mospi-energy-statistics-india-2026-report",
         "ca-nso-mospi-launches-1st-annual-survey-of-incorporated-services-enterprises-asisse",
         "ca-nso-mospi-periodic-labour-force-survey-plfs-annual-report-jandec-2025",
+        "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
         "ca-nsp-dbt-for-agriculture-students",
         "ca-nzp-saathi-app-self-ticketing-kiosks",
         "ca-obituary",
         "ca-odisha-free-kg-to-pg-education",
+        "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
         "ca-oilseed-production",
         "ca-operation-amistad",
         "ca-operation-economic-outcast",
@@ -77182,6 +78167,7 @@
         "ca-ranji-trophy-2025-26",
         "ca-ravi-agrawal",
         "ca-razorpay-eefc-account",
+        "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
         "ca-rec-pfc-26850-crore-loan-for-meja-thermal-power",
         "ca-registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "ca-repco-bank",
@@ -77243,6 +78229,7 @@
         "ca-sprite-tejas-express",
         "ca-sqn-ldr-bhawana-kanth",
         "ca-st-louis-rapid-blitz-2026",
+        "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
         "ca-state-bank-of-india-becomes-4th-most-valued-indian-firm",
         "ca-state-bank-of-india-extends-8000-crore-funding-line-to-jsw-motors",
         "ca-state-bank-of-india-key-financial-milestones-at-1-bonds-rdcl-stake-acquisition",
@@ -77269,6 +78256,7 @@
         "ca-taiwan-briefly-overtakes-india-as-5th-largest-stock-market-by-market-capitalization",
         "ca-talisman-sabre-2027",
         "ca-tamil-nadu-curriculum-design-committee",
+        "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
         "ca-tarapur-atomic-power-station-taps-units-12",
         "ca-tarun-kapoor",
         "ca-tata-ipl-2026",
@@ -77446,6 +78434,7 @@
         "ca-bharat-forge-awarded-1662-crore-army-carbine-contract",
         "ca-bhoomi-pujan-for-kaziranga-elevated-corridor-project-nh-715",
         "ca-blackstone-999-stake-in-federal-bank-sbi-mf-999-in-bandhan-bank",
+        "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
         "ca-china-long-march-10b-booster-sea-net-recovery",
         "ca-cross-border-fintech-skydo-receives-rbi-in-principle-approval-for-pa-cb-license",
         "ca-cross-border-upi-expansion-cambodia-khqr-linkage-france-launch",
@@ -77488,6 +78477,7 @@
         "ca-outward-remittances-under-rbi-liberalised-remittance-scheme-lrs-surge-to-25-billion",
         "ca-parliament-passes-jan-vishwas-amendment-of-provisions-bill-2026-717-provisions-decriminalised",
         "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
+        "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
         "ca-paul-merchants-granted-perpetual-ad-ii-forex-license",
         "ca-pay-point-india-becomes-1st-private-fintech-to-join-rbi-centralised-payment-systems-cps",
         "ca-payment-aggregator-authorizations-razorpay-pos-skydo-payg-innoviti",
@@ -77606,6 +78596,7 @@
         "ca-rbi-sets-goi-floating-rate-bond-2028-frb-2028-coupon-at-617",
         "ca-rbi-sets-up-committee-to-review-business-correspondent-guidelines",
         "ca-rbi-sets-up-expert-committee-on-quantum-secure-financial-ecosystem-q-safe",
+        "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
         "ca-rbi-spot-forex-interventions-record-net-sale-of-5313-billion-in-fy26",
         "ca-rbi-state-bank-of-vietnam-sign-digital-payments-mou",
         "ca-rbi-state-finances-study-demographic-shift-pension-burden",
@@ -77632,6 +78623,7 @@
         "ca-swaminathan-janakiraman",
         "ca-t-hub-orbit-spacetech-accelerator-3rd-cohort",
         "ca-transcorp-international-receives-rbi-in-principle-approval-for-cps",
+        "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
         "ca-vinay-muralidhar-tonse-appointed-md-ceo-of-yes-bank",
         "ca-wage-revision-approved-for-psgics-nabard-rbi-retiree-pension-hike",
         "ca-wma-limit-for-government-of-india-h1-fy27-250000-crore",
@@ -77665,6 +78657,7 @@
         "ca-bank-of-baroda-green-infra-bonds-gift-city-syndicated-loan",
         "ca-central-bank-of-india-operationalises-ifsc-banking-unit-ibu-at-gift-city",
         "ca-icici-bank-launches-indias-1st-usd-denominated-nri-debit-card-at-gift-city-ibu",
+        "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
         "ca-ifsca-clears-poornam-asset-management-as-1st-foreign-family-investment-fund-in-gift-city",
         "ca-iob-ifsc-banking-unit-ibu-at-gift-city",
         "ca-irfc-raises-jpy-equivalent-400-million-ecb-benchmarked-to-tonar",
@@ -78448,6 +79441,7 @@
         "ca-ccras-bis-100th-mou",
         "ca-census-2027-40-question-household-schedule-comprehensive-caste-enumeration",
         "ca-census-2027-nomenclature-update",
+        "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
         "ca-central-university-of-south-bihar-cusb",
         "ca-china-change-7",
         "ca-citigroup-axis-bank",
@@ -78467,6 +79461,7 @@
         "ca-defence-space",
         "ca-defence-srijan-portal",
         "ca-defence-vessels",
+        "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
         "ca-dgft-amends-foreign-trade-policy-ftp-2023-global-rupee-invoicing-acu-settlement-overhaul",
         "ca-dgft-relaxes-one-star-export-house-eligibility-2-of-preceding-3-years",
         "ca-dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
@@ -78478,6 +79473,7 @@
         "ca-dmrc-receives-iso-550012024-asset-management-certification-for-mumbai-metro-line-3",
         "ca-dot-c-dot-test-bed",
         "ca-dot-sim-card-rule",
+        "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
         "ca-dr-bhooma-vg",
         "ca-dr-ms-swaminathan-environment-award-2026",
         "ca-dr-ms-swaminathan-environment-protection-award-2026",
@@ -78532,6 +79528,7 @@
         "ca-icar-registers-16-new-indigenous-livestock-breeds-total-262-in-india",
         "ca-icg-decommissioning",
         "ca-idfc-first-bank-ignite",
+        "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
         "ca-ifc-225-crore-investment",
         "ca-iga-swiatek-canadian-open-2026",
         "ca-iisc-spire-lab-releases-sravaani-65-language-open-source-speech-ai-model",
@@ -78540,6 +79537,7 @@
         "ca-imf-world-economic-outlook-government-debt-to-gdp-projections-2026",
         "ca-important-days-august-2131",
         "ca-in-space-allied-orbits-indias-1st-commercial-earth-observation-satellite-constellation",
+        "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
         "ca-india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
         "ca-india-guide-to-grasslands-unccd-cop17",
         "ca-india-joins-global-combat-air-programme-gcap-tempest-as-dialogue-partner",
@@ -78556,6 +79554,7 @@
         "ca-indian-navy-commissions-diving-support-vessel-ins-nipun-at-naval-dockyard-mumbai",
         "ca-indian-navy-mangrol",
         "ca-indian-navy-takes-delivery-of-1st-multi-purpose-vessel-samarthak-from-lt-kattupalli",
+        "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
         "ca-indian-pharmacopoeia-commission-ipc",
         "ca-indias-1st-telecom-manufacturing-zone-tmz",
         "ca-indias-first-dedicated-quantum-ai-university-campus-at-amaravati-andhra-pradesh",
@@ -78596,12 +79595,15 @@
         "ca-mca-accounting-rules",
         "ca-mcx-nism-establish-mcx-nism-centre-for-commodity-markets",
         "ca-meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
+        "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+        "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
         "ca-meity-phonepe-gatishakti-integration",
         "ca-mha-e-zero-firs",
         "ca-mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
         "ca-mha-gallantry-service-medals-for-80th-independence-day-1057-personnel",
         "ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy",
         "ca-midhani-s400-approval",
+        "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
         "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
         "ca-ministry-of-mines-mineral-exchange-rules-2026-electronic-mineral-trading-framework",
         "ca-ministry-of-rural-development-pilots-mission-samriddh-gaon-in-madhya-pradesh",
@@ -78611,6 +79613,7 @@
         "ca-mod-signs-1577-crore-contracts-for-loiter-munitions-with-tasl-nibe",
         "ca-modified-interest-subvention-scheme-miss-through-kcc-interest-support-framework",
         "ca-moib-removes-tv-ad-cap",
+        "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
         "ca-morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "ca-mospi-plfs-quarterly-bulletin-apriljune-2026-headline-ur-at-54-youth-ur-at-159",
         "ca-mospi-signs-mous-with-ideas-isi-kolkata-for-gdp-nowcasting-software",
@@ -78646,8 +79649,10 @@
         "ca-niti-aayog-report-reimagining-skilling-for-viksit-bharat2047-87-crore-youth-in-neet",
         "ca-nsdc-aws-ai-skilling",
         "ca-nsg-all-women-commando-course",
+        "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
         "ca-nsp-dbt-for-agriculture-students",
         "ca-obituary",
+        "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
         "ca-oilseed-production",
         "ca-operation-economic-outcast",
         "ca-outward-remittances-under-rbi-liberalised-remittance-scheme-lrs-surge-to-25-billion",
@@ -78658,6 +79663,7 @@
         "ca-parichha-weir-whis-designation",
         "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "ca-parth-jindal",
+        "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
         "ca-paul-merchants-granted-perpetual-ad-ii-forex-license",
         "ca-pcimh-ipc-one-herb-one-standard",
         "ca-periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026",
@@ -78696,6 +79702,7 @@
         "ca-rajendra-kumar-saboo-appointed-md-ceo-of-uco-bank",
         "ca-randstad-employer-brand-research-2026",
         "ca-razorpay-eefc-account",
+        "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
         "ca-rbi-all-india-house-price-index-hpi-growth-moderates-to-36-in-q1-fy27",
         "ca-rbi-bank-locker-guidelines-negligence-liability-cap",
         "ca-rbi-credit-valuation-adjustment-cva-risk-capital-framework",
@@ -78708,6 +79715,7 @@
         "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "ca-rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+        "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
         "ca-rec-pfc-26850-crore-loan-for-meja-thermal-power",
         "ca-registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "ca-reliance-industries-rolls-royce-strategic-partnership-for-amca-mk2-engine",
@@ -78750,6 +79758,7 @@
         "ca-sqn-ldr-bhawana-kanth",
         "ca-st-louis-rapid-blitz-2026",
         "ca-standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
+        "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
         "ca-static-roundups-important-days",
         "ca-strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "ca-sundeep-sikka-appointed-chairman-of-association-of-mutual-funds-in-india-amfi",
@@ -78759,6 +79768,7 @@
         "ca-suryapath-tiranga-relay",
         "ca-taipei-open-2026",
         "ca-talisman-sabre-2027",
+        "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
         "ca-tata-power-iit-bombay",
         "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
         "ca-trai-1601-series",
@@ -78769,6 +79779,7 @@
         "ca-u20-world-wrestling",
         "ca-unccd-cop17-at-ulaanbaatar-12-billion-rangelands-flagship-initiative-launched",
         "ca-undp-hul-safai-mitra-pact",
+        "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
         "ca-unog-peacock-diplomacy",
         "ca-up-leads-in-gi-products",
         "ca-upi-10-year-milestone-24162-crore-annual-transactions-11-global-countries",
@@ -79920,6 +80931,7 @@
         "ca-ccras-bis-100th-mou",
         "ca-census-2027-40-question-household-schedule-comprehensive-caste-enumeration",
         "ca-census-2027-nomenclature-update",
+        "ca-central-government-reconstitutes-rbi-central-board-strength-expanded-to-14-members",
         "ca-central-university-of-south-bihar-cusb",
         "ca-china-change-7",
         "ca-citigroup-axis-bank",
@@ -79939,6 +80951,7 @@
         "ca-defence-space",
         "ca-defence-srijan-portal",
         "ca-defence-vessels",
+        "ca-dgft-amends-foreign-trade-policy-2023-for-indian-rupee-inr-export-invoicing",
         "ca-dgft-amends-foreign-trade-policy-ftp-2023-global-rupee-invoicing-acu-settlement-overhaul",
         "ca-dgft-relaxes-one-star-export-house-eligibility-2-of-preceding-3-years",
         "ca-dgpc-bhutan-jsw-neo-energy-920-mw-punatsangchhu-iii-hydro-project-sha",
@@ -79950,6 +80963,7 @@
         "ca-dmrc-receives-iso-550012024-asset-management-certification-for-mumbai-metro-line-3",
         "ca-dot-c-dot-test-bed",
         "ca-dot-sim-card-rule",
+        "ca-dpiit-press-note-2-of-2026-29-fdi-proposals-worth-489565-crore",
         "ca-dr-bhooma-vg",
         "ca-dr-ms-swaminathan-environment-award-2026",
         "ca-dr-ms-swaminathan-environment-protection-award-2026",
@@ -80004,6 +81018,7 @@
         "ca-icar-registers-16-new-indigenous-livestock-breeds-total-262-in-india",
         "ca-icg-decommissioning",
         "ca-idfc-first-bank-ignite",
+        "ca-idfc-first-bank-prices-inaugural-500-million-3-year-senior-notes-via-gift-city-ifsc",
         "ca-ifc-225-crore-investment",
         "ca-iga-swiatek-canadian-open-2026",
         "ca-iisc-spire-lab-releases-sravaani-65-language-open-source-speech-ai-model",
@@ -80012,6 +81027,7 @@
         "ca-imf-world-economic-outlook-government-debt-to-gdp-projections-2026",
         "ca-important-days-august-2131",
         "ca-in-space-allied-orbits-indias-1st-commercial-earth-observation-satellite-constellation",
+        "ca-in-space-proposes-500-crore-third-party-space-launch-liability-insurance-ceiling",
         "ca-india-crosses-landmark-300-gw-installed-non-fossil-electricity-generation-capacity",
         "ca-india-guide-to-grasslands-unccd-cop17",
         "ca-india-joins-global-combat-air-programme-gcap-tempest-as-dialogue-partner",
@@ -80028,6 +81044,7 @@
         "ca-indian-navy-commissions-diving-support-vessel-ins-nipun-at-naval-dockyard-mumbai",
         "ca-indian-navy-mangrol",
         "ca-indian-navy-takes-delivery-of-1st-multi-purpose-vessel-samarthak-from-lt-kattupalli",
+        "ca-indian-oil-corporation-signs-5-year-master-fuel-supply-agreement-with-mauritius",
         "ca-indian-pharmacopoeia-commission-ipc",
         "ca-indias-1st-telecom-manufacturing-zone-tmz",
         "ca-indias-first-dedicated-quantum-ai-university-campus-at-amaravati-andhra-pradesh",
@@ -80068,12 +81085,15 @@
         "ca-mca-accounting-rules",
         "ca-mcx-nism-establish-mcx-nism-centre-for-commodity-markets",
         "ca-meity-amends-it-rules-2021-3-hour-takedown-mandate-legal-definition-for-ai-content",
+        "ca-meity-electronics-components-manufacturing-scheme-ecms-expansion",
+        "ca-meity-mobile-phone-manufacturing-scheme-mpms-20262031-62500-crore-outlay",
         "ca-meity-phonepe-gatishakti-integration",
         "ca-mha-e-zero-firs",
         "ca-mha-expands-sdrfndrf-notified-calamities-from-12-to-14-inclusion-of-heatwaves-lightning",
         "ca-mha-gallantry-service-medals-for-80th-independence-day-1057-personnel",
         "ca-mha-launches-prahaar-indias-1st-comprehensive-national-counter-terrorism-policy-strategy",
         "ca-midhani-s400-approval",
+        "ca-ministry-of-corporate-affairs-notifies-companies-ind-as-amendment-rules-2026",
         "ca-ministry-of-finance-restructures-minimum-public-shareholding-mps-slabs",
         "ca-ministry-of-law-justice-establishment-of-mediation-council-of-india-mci",
         "ca-ministry-of-mines-mineral-exchange-rules-2026-electronic-mineral-trading-framework",
@@ -80084,6 +81104,7 @@
         "ca-mod-signs-1577-crore-contracts-for-loiter-munitions-with-tasl-nibe",
         "ca-modified-interest-subvention-scheme-miss-through-kcc-interest-support-framework",
         "ca-moib-removes-tv-ad-cap",
+        "ca-mopng-approves-incentive-scheme-for-promotion-of-domestic-png-connections",
         "ca-morth-proposes-phased-mandate-for-vehicle-to-vehicle-v2v-communication-systems-ais-230",
         "ca-mospi-plfs-quarterly-bulletin-apriljune-2026-headline-ur-at-54-youth-ur-at-159",
         "ca-mospi-signs-mous-with-ideas-isi-kolkata-for-gdp-nowcasting-software",
@@ -80119,8 +81140,10 @@
         "ca-niti-aayog-report-reimagining-skilling-for-viksit-bharat2047-87-crore-youth-in-neet",
         "ca-nsdc-aws-ai-skilling",
         "ca-nsg-all-women-commando-course",
+        "ca-nso-periodic-labour-force-survey-plfs-monthly-bulletin-july-2026-16th-edition",
         "ca-nsp-dbt-for-agriculture-students",
         "ca-obituary",
+        "ca-odisha-launches-bidesh-sikhyabruti-foreign-scholarship-scheme",
         "ca-oilseed-production",
         "ca-operation-economic-outcast",
         "ca-outward-remittances-under-rbi-liberalised-remittance-scheme-lrs-surge-to-25-billion",
@@ -80131,6 +81154,7 @@
         "ca-parichha-weir-whis-designation",
         "ca-parliament-passes-msmed-amendment-bill-2026-statutory-udyam-status-90-day-odr-mandatory-treds",
         "ca-parth-jindal",
+        "ca-paul-merchants-finance-launches-indias-first-dedicated-silver-loan-nbfc-branches",
         "ca-paul-merchants-granted-perpetual-ad-ii-forex-license",
         "ca-pcimh-ipc-one-herb-one-standard",
         "ca-periodic-labour-force-survey-plfs-quarterly-bulletin-apriljune-2026",
@@ -80169,6 +81193,7 @@
         "ca-rajendra-kumar-saboo-appointed-md-ceo-of-uco-bank",
         "ca-randstad-employer-brand-research-2026",
         "ca-razorpay-eefc-account",
+        "ca-razorpay-launches-vulcan-ai-foundation-model-multi-currency-eefc-accounts",
         "ca-rbi-all-india-house-price-index-hpi-growth-moderates-to-36-in-q1-fy27",
         "ca-rbi-bank-locker-guidelines-negligence-liability-cap",
         "ca-rbi-credit-valuation-adjustment-cva-risk-capital-framework",
@@ -80181,6 +81206,7 @@
         "ca-rbi-loan-recovery-directions-financed-smartphone-lockout-norms",
         "ca-rbi-on-tap-licensing-guidelines-for-urban-cooperative-banks-ucbs",
         "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+        "ca-rbi-special-usd-inr-forex-swap-facility-7285-billion-mobilised",
         "ca-rec-pfc-26850-crore-loan-for-meja-thermal-power",
         "ca-registration-of-births-and-deaths-amendment-bill-2026-passed-by-parliament",
         "ca-reliance-industries-rolls-royce-strategic-partnership-for-amca-mk2-engine",
@@ -80224,6 +81250,7 @@
         "ca-sqn-ldr-bhawana-kanth",
         "ca-st-louis-rapid-blitz-2026",
         "ca-standard-chartered-receives-ifsca-approval-for-capital-market-distribution-at-gift-city",
+        "ca-state-bank-of-india-ai-led-cheque-processing-1-lakh-threshold-msme-underwriting",
         "ca-static-roundups-important-days",
         "ca-strategic-forces-command-test-fires-nuclear-capable-ballistic-missile-agni-4",
         "ca-sundeep-sikka-appointed-chairman-of-association-of-mutual-funds-in-india-amfi",
@@ -80233,6 +81260,7 @@
         "ca-suryapath-tiranga-relay",
         "ca-taipei-open-2026",
         "ca-talisman-sabre-2027",
+        "ca-tamil-nadu-enhances-cmchis-annual-health-cover-fivefold-to-25-lakh",
         "ca-tata-power-iit-bombay",
         "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
         "ca-trai-1601-series",
@@ -80243,6 +81271,7 @@
         "ca-u20-world-wrestling",
         "ca-unccd-cop17-at-ulaanbaatar-12-billion-rangelands-flagship-initiative-launched",
         "ca-undp-hul-safai-mitra-pact",
+        "ca-unified-payments-interface-upi-10-year-decadal-assessment-66-cr-daily-txns-314-lakh-crore-volume",
         "ca-unog-peacock-diplomacy",
         "ca-up-leads-in-gi-products",
         "ca-upi-10-year-milestone-24162-crore-annual-transactions-11-global-countries",
@@ -81119,6 +82148,22 @@
       "sourceOnlyCount": 128,
       "verificationPendingCount": 0,
       "mentorVerdict": "Successfully processed 128 canonical topics for 2026-08 week-1-4."
+    },
+    {
+      "batchId": "23-august-2026-smartkeeda-w4",
+      "sourceName": "SMARTKEEDA",
+      "dateRange": "2026-08 (week-1-4)",
+      "ingestedAt": "2026-08-25T18:00:00Z",
+      "rawItemsCount": 18,
+      "duplicatesCount": 0,
+      "enrichmentsCount": 0,
+      "updatesCount": 0,
+      "newTopicsCount": 18,
+      "ignoredCount": 0,
+      "primaryVerifiedCount": 0,
+      "sourceOnlyCount": 18,
+      "verificationPendingCount": 0,
+      "mentorVerdict": "Successfully processed 18 canonical topics for 2026-08 week-1-4."
     }
   ]
 }

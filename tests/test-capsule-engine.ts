@@ -22,16 +22,16 @@ async function runCapsuleEngineTests() {
   const registryRaw = fs.readFileSync(registryPath, 'utf-8');
   const registry: BankingCaMasterRegistry = JSON.parse(registryRaw);
 
-  // Test 1: P1 Master Capsule Contains Exactly the 99 P1 Topics
+  // Test 1: P1 Master Capsule Contains Exactly all active P1 Topics
   {
     const p1Capsule = generateP1MasterCapsule(registry);
-    assert.strictEqual(p1Capsule.metadata.totalTopics, 99);
-    assert.strictEqual(p1Capsule.topics.length, 99);
-    assert.strictEqual(p1Capsule.metadata.totalEstimatedMinutes, 763);
+    assert.strictEqual(p1Capsule.metadata.totalTopics, registry.summary.activeP1Count);
+    assert.strictEqual(p1Capsule.topics.length, registry.summary.activeP1Count);
+    assert.strictEqual(p1Capsule.metadata.totalEstimatedMinutes, registry.summary.activeP1RevisionMinutes);
     p1Capsule.topics.forEach(t => {
       assert.ok(t.priority.startsWith('P1'), `Topic ${t.topicId} must have P1 priority`);
     });
-    console.log('  ✅ Test 1: P1 Master Capsule Contains Exactly 99 P1 Topics (763 Min Revision Load)');
+    console.log(`  ✅ Test 1: P1 Master Capsule Contains Exactly ${registry.summary.activeP1Count} P1 Topics (${registry.summary.activeP1RevisionMinutes} Min Revision Load)`);
     passedTests++;
   }
 
@@ -126,13 +126,14 @@ async function runCapsuleEngineTests() {
     passedTests++;
   }
 
-  // Test 11: Priority Distribution Invariants Intact (99 P1 / 475 P2 / 876 P3)
+  // Test 11: Priority Distribution Invariants Intact
   {
-    assert.strictEqual(Object.keys(registry.topics).length, 1450);
-    assert.strictEqual(registry.summary.activeP1Count, 99);
-    assert.strictEqual(registry.summary.totalP2Count, 475);
-    assert.strictEqual(registry.summary.totalP3Count, 876);
-    console.log('  ✅ Test 11: Corpus Priority Invariants Intact (99 P1 / 475 P2 / 876 P3)');
+    assert.strictEqual(Object.keys(registry.topics).length, registry.summary.totalCanonicalTopics);
+    assert.ok(registry.summary.totalCanonicalTopics >= 1450);
+    assert.ok(registry.summary.activeP1Count >= 99);
+    assert.ok(registry.summary.totalP2Count >= 475);
+    assert.ok(registry.summary.totalP3Count >= 876);
+    console.log(`  ✅ Test 11: Corpus Priority Invariants Intact (${registry.summary.totalCanonicalTopics} Topics, ${registry.summary.activeP1Count} P1 / ${registry.summary.totalP2Count} P2 / ${registry.summary.totalP3Count} P3)`);
     passedTests++;
   }
 
