@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Lora, JetBrains_Mono } from "next/font/google";
-import { CaAppShell } from "@/components/ca-layout/CaAppShell";
-import { PwaRegister } from "@/components/pwa/PwaRegister";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -24,31 +25,16 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#f8f1e3",
+  themeColor: "#090d13",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
 };
 
 export const metadata: Metadata = {
-  title: "Banking CA Mentor — Exam Intelligence & Study OS",
+  title: "Mind of Aravalli — Epistemic Laboratory & Knowledge System",
   description:
-    "A dedicated, exam-filtered Current Affairs Study OS for SBI PO, IBPS PO, and Regulatory Mains examinations.",
-  manifest: "/manifest.json",
-  icons: {
-    icon: [
-      { url: "/icons/icon-192.svg", sizes: "192x192", type: "image/svg+xml" },
-      { url: "/icons/icon-512.svg", sizes: "512x512", type: "image/svg+xml" },
-    ],
-    apple: [
-      { url: "/icons/icon-192.svg" },
-    ],
-  },
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: "default",
-    title: "Banking CA",
-  },
+    "A living personal encyclopedia and epistemic laboratory. Turning scattered ideas into durable understanding.",
 };
 
 export default function RootLayout({
@@ -59,29 +45,17 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`sepia ${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
+      className={`dark ${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var t = localStorage.getItem('banking_ca_theme') || 'sepia';
-                  document.documentElement.classList.remove('dark', 'sepia', 'light');
-                  document.documentElement.classList.add(t);
-                } catch(e) {}
-              })();
-            `,
-          }}
-        />
-      </head>
-      <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased selection:bg-amber-700 selection:text-white">
-        <PwaRegister />
-        <CaAppShell>
-          {children}
-        </CaAppShell>
+      <body className="min-h-screen bg-[#f9f8f5] dark:bg-[#090d13] text-slate-900 dark:text-slate-100 flex flex-col antialiased selection:bg-emerald-600 selection:text-white">
+        <ThemeProvider>
+          <Header />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

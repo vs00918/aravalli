@@ -1,5 +1,4 @@
 import React from "react";
-import { normalizePresentationText } from "@/lib/banking-ca/formatters";
 
 interface FormattedTextProps {
   text: string;
@@ -7,14 +6,13 @@ interface FormattedTextProps {
 }
 
 /**
- * Presentation Normalizer & Inline Markdown / Symbol Renderer.
- * Cleans LaTeX math tokens, duplicate bullets, backticks, bold, and italics.
+ * Inline Markdown / Symbol Renderer.
+ * Cleans duplicate bullets, backticks, bold, and italics.
  */
 export function FormattedText({ text, className = "" }: FormattedTextProps) {
   if (!text) return null;
 
-  // 1. Normalize LaTeX math tokens and leading artifacts
-  const normalized = normalizePresentationText(text);
+  const normalized = text.trim();
 
   // 2. Split by inline markdown tokens: **bold**, `code`, *italic*
   const tokens = normalized.split(/(\*\*.*?\*\*|`.*?`|\*.*?\*)/g);
