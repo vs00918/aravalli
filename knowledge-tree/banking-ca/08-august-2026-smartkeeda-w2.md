@@ -31,7 +31,7 @@
   * **Layer 3 (Optional):** Personal accident (PA) cover for owner-driver.
   * **Layer 4 (Optional):** Own-Damage (OD) cover for vehicle loss.
   * **Enforcement:** ANPR camera e-challans; pilot project to **deny petrol at fuel pumps** to uninsured vehicles (~56% vehicles uninsured).
-  * 🎯 **Recap:** *Mandatory TP motor insurance: 4 years (Cars) / 6 years (Two-wheelers) $mid$ 4-layer structure.*
+  * 🎯 **Recap:** *Mandatory TP motor insurance: 4 years (Cars) / 6 years (Two-wheelers)  •  4-layer structure.*
 
 #### Key Exam Takeaways
 - Mandated Third-Party Durations: 4 years for new cars, 6 years for new two-wheelers.
@@ -64,14 +64,14 @@
   * **Capital Subsidy (CFA):** Up to **₹2 Crore/TPD** installed capacity (or up to ₹4 Crore / 30% capital cost).
   * **Credit Guarantee:** Up to **85% guarantee** for eligible MSME developers under PSL.
   * **Administered CBG Price:** **₹2,110 per MMBtu (~₹105/kg)** with 10-year revenue certainty.
-  * **Mandatory Blending:** **3% (FY27) $	o$ 4% (FY28) $	o$ 5% (FY29+)** in CGD networks.
-  * 🎯 **Recap:** *GOBARdhan: ₹23,731 Cr outlay (10 yrs) $mid$ CBG price ₹2,110/MMBtu $mid$ Blending 3% to 5% $mid$ 85% credit guarantee.*
+  * **Mandatory Blending:** **3% (FY27)  →  4% (FY28)  →  5% (FY29+)** in CGD networks.
+  * 🎯 **Recap:** *GOBARdhan: ₹23,731 Cr outlay (10 yrs)  •  CBG price ₹2,110/MMBtu  •  Blending 3% to 5%  •  85% credit guarantee.*
 
 #### Key Exam Takeaways
 - Total Outlay & Tenure: ₹23,731 crore (10 years: FY27 to FY36).
 - Component Split: ₹11,250 cr (CBG) + ₹7,481 cr (Bio-manure) + ₹994.5 cr (DPI) + ₹564.75 cr (BAM).
 - Administered CBG Price: ₹2,110/MMBtu (~₹105/kg) with 10-year horizon.
-- Mandatory Blending Trajectory: 3% (FY27) $	o$ 4% (FY28) $	o$ 5% (FY29+).
+- Mandatory Blending Trajectory: 3% (FY27)  →  4% (FY28)  →  5% (FY29+).
 
 ---
 
@@ -86,18 +86,18 @@
 
 #### Legislative Overview & Scope
 * **MSME Delayed Payment & Dispute Overhaul → MSMED Amendment 2026:**
-  * Passed MSMED (Amendment) Bill 2026 amending parent 2006 Act to enforce liquidity protection for $>9.16	ext{ Crore}$ registered MSMEs.
+  * Passed MSMED (Amendment) Bill 2026 amending parent 2006 Act to enforce liquidity protection for $>9.16  Crore$ registered MSMEs.
 
 #### Key Structural Provisions & Banking Impact
 * **MSMED Legal & Dispute Architecture Ladder:**
   * **Statutory Udyam Evidentiary Status:** Confers permanent legal evidentiary status upon **Udyam Registration**.
-  * **Mandatory TReDS Settlement:** CPSEs and corporates $>₹250	ext{ Crore}$ turnover must settle invoices via **TReDS**.
+  * **Mandatory TReDS Settlement:** CPSEs and corporates $>₹250  Crore$ turnover must settle invoices via **TReDS**.
   * **Binding Dispute Timelines:**
     * **Mediation:** Conclude within **90 calendar days**.
     * **Arbitration Reference:** Within **30 calendar days**.
     * **Arbitral Award:** Within **90 calendar days** from pleadings.
-  * **Recovery & Appeals:** Recoverable directly as **'arrears of land revenue'** via DMs/Collectors $mid$ Mandatory **50% court pre-deposit** for appeals pending $>6$ months.
-  * 🎯 **Recap:** *MSMED 2026: 90-day mediation / 90-day arbitral award $mid$ 50% court pre-deposit $mid$ Mandatory TReDS for >₹250 Cr firms.*
+  * **Recovery & Appeals:** Recoverable directly as **'arrears of land revenue'** via DMs/Collectors  •  Mandatory **50% court pre-deposit** for appeals pending $>6$ months.
+  * 🎯 **Recap:** *MSMED 2026: 90-day mediation / 90-day arbitral award  •  50% court pre-deposit  •  Mandatory TReDS for >₹250 Cr firms.*
 
 #### Key Exam Takeaways
 - Dispute Timelines: Mediation = 90 days, Arbitration Reference = 30 days, Arbitral Award = 90 days.
@@ -123,9 +123,9 @@
 * **SDRF/NDRF Architecture Ladder:**
   * **2 New Notified Calamities:** **Heatwaves** and **Lightning** (causes 2,000–2,500 deaths/yr).
   * **14 Notified Calamities:** Cyclone, drought, earthquake, flood, tsunami, avalanche, cloudburst, landslide, hailstorm, fire, frost/cold wave, pest attack, **heatwave**, **lightning**.
-  * **Funding Split:** **80% SDRF** (Response/Relief) $mid$ **20% SDMF** (State Disaster Mitigation Fund).
+  * **Funding Split:** **80% SDRF** (Response/Relief)  •  **20% SDMF** (State Disaster Mitigation Fund).
   * **Ceiling Removal:** Removes earlier 10% spending cap on non-listed local disasters for heatwaves/lightning.
-  * 🎯 **Recap:** *SDRF/NDRF expanded to 14 calamities (added Heatwaves & Lightning) $mid$ 16th FC (Arvind Panagariya) $mid$ 80:20 SDRF:SDMF.*
+  * 🎯 **Recap:** *SDRF/NDRF expanded to 14 calamities (added Heatwaves & Lightning)  •  16th FC (Arvind Panagariya)  •  80:20 SDRF:SDMF.*
 
 #### Key Exam Takeaways
 - Award Period: 2026–31 (16th Finance Commission, Dr. Arvind Panagariya).
@@ -143,8 +143,8 @@
 
 ### 6. ISEC Evaluation Report on KCC-Modified Interest Subvention Scheme (KCC-MISS)
 - **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-08`
-- **Key Facts**: Every ₹1 invested generated **₹2.30 agricultural value add**; operative KCCs reached **7.28 Crore holding ₹10.08 Lakh Crore loans** (7% interest with 3% prompt repayment subvention $	o$ 4% net).
-- 🎯 **Recap:** *KCC-MISS generated ₹2.30 per ₹1 invested $mid$ 7.28 Cr operative KCCs.*
+- **Key Facts**: Every ₹1 invested generated **₹2.30 agricultural value add**; operative KCCs reached **7.28 Crore holding ₹10.08 Lakh Crore loans** (7% interest with 3% prompt repayment subvention  →  4% net).
+- 🎯 **Recap:** *KCC-MISS generated ₹2.30 per ₹1 invested  •  7.28 Cr operative KCCs.*
 
 ### 7. PM Surya Ghar Muft Bijli Yojana Crosses 50.06 Lakh Households Milestone
 - **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-06`
@@ -154,7 +154,7 @@
 ### 8. India Achieves 99.92% Banking Coverage: 58.77 Crore PMJDY Accounts with ₹3.12 Lakh Crore Balance
 - **Category**: `MACRO_ECONOMY` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-07`
 - **Key Facts**: 99.92% villages have banking touchpoints within 5 km; PMJDY accounts reached **58.77 Crore with ₹3,12,414 Crore balance** (17.36 lakh BCs, JDD app).
-- 🎯 **Recap:** *99.92% village banking coverage $mid$ 58.77 Cr PMJDY accounts (₹3.12L Cr).*
+- 🎯 **Recap:** *99.92% village banking coverage  •  58.77 Cr PMJDY accounts (₹3.12L Cr).*
 
 ### 9. UPI Processes Record 23.66 Billion Transactions Worth ₹29.88 Lakh Crore in July 2026
 - **Category**: `DIGITAL_PAYMENTS` | **Institution**: `NPCI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-02`
@@ -164,7 +164,7 @@
 ### 10. RBI Defers Revised Loan Recovery & Recovery Agent Directions to January 1, 2027
 - **Category**: `BANKING_REGULATION` | **Institution**: `RBI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-09`
 - **Key Facts**: Deferred to **January 1, 2027**; mandatory IIBF agent certification, calling hours 8 am–7 pm, smartphone locking norms.
-- 🎯 **Recap:** *Recovery agent norms deferred to Jan 1, 2027 $mid$ 8 AM–7 PM calling window.*
+- 🎯 **Recap:** *Recovery agent norms deferred to Jan 1, 2027  •  8 AM–7 PM calling window.*
 
 ### 11. MeitY Amends IT Rules 2021: 3-Hour Takedown Mandate & Legal Definition for AI Content
 - **Category**: `NATIONAL_AND_STATES` | **Institution**: `GOVERNMENT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-08`
@@ -214,7 +214,7 @@
 ### 20. Environmental Performance Index (EPI) 2026: Estonia Ranked 1st, India Ranked 176th
 - **Category**: `REPORTS_AND_INDICES` | **Institution**: `INTERNATIONAL_BODIES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-07`
 - **Key Facts**: Yale/Columbia EPI 2026: Estonia #1 (74.79), Luxembourg #2; India ranked **176th of 177 (score 22.46)** ahead of Laos.
-- 🎯 **Recap:** *EPI 2026: Estonia #1 $mid$ India 176th (score 22.46).*
+- 🎯 **Recap:** *EPI 2026: Estonia #1  •  India 176th (score 22.46).*
 
 ### 21. Standard Chartered Receives IFSCA Approval for Capital Market Distribution at GIFT City
 - **Category**: `CAPITAL_MARKETS` | **Institution**: `IFSCA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-09`

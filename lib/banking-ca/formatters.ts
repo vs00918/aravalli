@@ -14,33 +14,47 @@ export function normalizePresentationText(text: string): string {
   // 1. Strip leading duplicated bullet characters (e.g. "•Policy Repo Rate", "* CRAR", "• CRAR")
   cleaned = cleaned.replace(/^[•\-\*]\s*/, "");
 
-  // 2. Normalize common LaTeX math expressions & stray tabbed tokens to clean Unicode
+  // 2. Normalize tab-corrupted LaTeX tokens and math expressions to clean Unicode
   cleaned = cleaned
-    .replace(/\$Q_1\$/g, "Q₁")
-    .replace(/\$Q_2\$/g, "Q₂")
-    .replace(/\$Q_3\$/g, "Q₃")
-    .replace(/\$Q_4\$/g, "Q₄")
+    // Tabbed / corrupted LaTeX text tokens: \t + ext{...} or ext{...} or \text{...}
+    .replace(/\t\s*ext\{([^}]+)\}/g, " $1")
     .replace(/\\text\{([^}]+)\}/g, "$1")
-    .replace(/\\max\b/g, "max")
-    .replace(/\$\\times\$/g, "×")
-    .replace(/\\times\b/g, "×")
-    .replace(/\$\s*\t\s*imes\s*\$/g, "×")
+    .replace(/(?:^|[^\w])ext\{([^}]+)\}/g, " $1")
+    // Arrows: \t + o, \to, $\to$, $to$
+    .replace(/\$\s*\t\s*o\s*\$/g, " → ")
+    .replace(/\t\s*o\b/g, " → ")
+    .replace(/\$\\to\$/g, " → ")
+    .replace(/\\to\b/g, " → ")
+    // Multiplication: \t + imes, \times, $\times$
+    .replace(/\$\s*\t\s*imes\s*\$/g, " × ")
+    .replace(/\t\s*imes\b/g, " × ")
+    .replace(/\$\\times\$/g, " × ")
+    .replace(/\\times\b/g, " × ")
     .replace(/\bimes\b/g, "×")
-    .replace(/\$\s*\t\s*o\s*\$/g, "→")
-    .replace(/\$\\ge\s*(\d+)\$/g, "≥ $1")
+    // Mid separator token: $mid$, \mid, or isolated " mid "
+    .replace(/\$\s*\\?mid\s*\$/g, " • ")
+    .replace(/\\mid\b/g, " • ")
+    .replace(/\s+mid\s+/g, " • ")
+    // Inequalities: \ge, $ge, \le, $le
+    .replace(/\$\\ge\s*([₹\$\d\w]+)\$/g, "≥ $1")
     .replace(/\$\\ge\$/g, "≥")
     .replace(/\\ge\b/g, "≥")
-    .replace(/\$ge\s*([₹\$\d]+)/g, "≥ $1")
-    .replace(/\$\\le\s*(\d+)\$/g, "≤ $1")
+    .replace(/\$ge\s*([₹\$\d\w]+)/g, "≥ $1")
+    .replace(/\$\\le\s*([₹\$\d\w]+)\$/g, "≤ $1")
     .replace(/\$\\le\$/g, "≤")
     .replace(/\\le\b/g, "≤")
-    .replace(/\$le\s*([₹\$\d]+)/g, "≤ $1")
-    .replace(/\$\\to\$/g, "→")
-    .replace(/\\to\b/g, "→")
+    .replace(/\$le\s*([₹\$\d\w]+)/g, "≤ $1")
+    // Approximations & plus-minus
     .replace(/\$\\pm\$/g, "±")
     .replace(/\\pm\b/g, "±")
     .replace(/\$\\approx\$/g, "≈")
     .replace(/\\approx\b/g, "≈")
+    // Subscripts & percentages
+    .replace(/\$Q_1\$/g, "Q₁")
+    .replace(/\$Q_2\$/g, "Q₂")
+    .replace(/\$Q_3\$/g, "Q₃")
+    .replace(/\$Q_4\$/g, "Q₄")
+    .replace(/\\max\b/g, "max")
     .replace(/\\%/g, "%");
 
   // 3. Remove remaining single-dollar / KaTeX wrappers around simple terms
@@ -50,7 +64,16 @@ export function normalizePresentationText(text: string): string {
   // 4. Clean stray backslashes before common punctuation
   cleaned = cleaned.replace(/\\([#*_`~,\s])/g, "$1");
 
-  // 5. Convert question-shaped study lines into direct declarative statements (W7.8 requirement)
+  // 5. Clean unbalanced markdown and dangling asterisks (e.g. "**:", ":*", "(*)", "*)")
+  cleaned = cleaned
+    .replace(/\*Know & Understand\s*\(Context\)\**:\s*/i, "")
+    .replace(/\*\s*\)/g, ")")
+    .replace(/\(\s*\*/g, "(")
+    .replace(/:\s*\*\s*$/, ":")
+    .replace(/\s+\*\s*$/, "")
+    .replace(/^\s*\*\s+/, "");
+
+  // 6. Convert question-shaped study lines into direct declarative statements (W7.8 requirement)
   // Pattern 5A: Question with answer in parentheses, e.g. "*What is the total outlay...?* (₹23,731 crore)"
   const qParenMatch = cleaned.match(/^[\*\-_]?\s*[\*_]*([^?]+)\?[\*_]*\s*\(([^)]+)\)\.?$/i);
   if (qParenMatch) {
@@ -82,11 +105,11 @@ export function normalizePresentationText(text: string): string {
     }
   }
 
-  // 6. Strip trailing question marks from factual statements
+  // 7. Strip trailing question marks from factual statements
   cleaned = cleaned.replace(/\?$/, "");
 
-  // 7. Strip solitary header/section labels (e.g. "**Must Memorize Facts:**", "**Top Performing States:**")
-  if (/^\*{1,2}(?:Must Memorize Facts|Top Performing States|Key Facts|Highlights|Overview|Annual Fee Calculation):\*{1,2}$/i.test(cleaned.trim())) {
+  // 8. Strip solitary / leaked header labels (e.g. "**Must Memorize Facts:**", "**Foreign Asset Voluntary Disclosure Window:**")
+  if (/^\*{0,2}(?:Must Memorize Facts|Top Performing States|Key Facts|Highlights|Overview|Annual Fee Calculation|Foreign Asset Voluntary Disclosure Window|FAST-DS Valuation & Procedure Ladder|PM E-DRIVE Slabs & Caps Ladder|Pricing & Reset Architecture Ladder|Digital Payment Charges Statutory Enablement|Scheme Overview & Window|Statutory Mechanism & Valuation Rules|Payment Architecture & Legal Provisions Ladder|Legislative Overview & Core Provision|Revised Incentive Architecture & Fiscal Sub-Limits|Know & Understand \(Context\)):\*{0,2}:?$/i.test(cleaned.trim())) {
     return "";
   }
 

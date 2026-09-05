@@ -40,10 +40,10 @@
 * **Reporting Architecture → Ratios & Disclosure Schedules:**
   * **Scope:** Mandatory quarterly/half-yearly qualitative and quantitative disclosure templates for all SCBs (excluding RRBs and SFBs).
   * **Key Regulatory Ratios Ladder:**
-    * **Liquidity Coverage Ratio (LCR):** $ge mathbf{100%}$
-    * **Net Stable Funding Ratio (NSFR):** $ge mathbf{100%}$
-    * **Leverage Ratio:** Minimum **4.0% for D-SIBs** $mid$ **3.5% for other banks**.
-  * 🎯 **Recap:** *CRAR: 9.0% (11.5% with CCB) $mid$ CET-1: 5.5% $mid$ Leverage: 3.5% (D-SIBs 4.0%) $mid$ LCR/NSFR $ge 100%$.*
+    * **Liquidity Coverage Ratio (LCR):** ≥ mathbf{100%}$
+    * **Net Stable Funding Ratio (NSFR):** ≥ mathbf{100%}$
+    * **Leverage Ratio:** Minimum **4.0% for D-SIBs**  •  **3.5% for other banks**.
+  * 🎯 **Recap:** *CRAR: 9.0% (11.5% with CCB)  •  CET-1: 5.5%  •  Leverage: 3.5% (D-SIBs 4.0%)  •  LCR/NSFR ≥ 100%$.*
 
 #### Exam Focus
 * Minimum CRAR requirement: **9.0%** (11.5% with CCB).
@@ -74,14 +74,14 @@
 
 #### Must Memorize
 * **Jan Suraksha Schemes Parameter Ladder:**
-  * **PMJJBY (Life Insurance):** **₹436 / year** premium $mid$ Age: **18–50 years** $mid$ Cover: **₹2 Lakh** (natural/accidental death).
-  * **PMSBY (Accident Insurance):** **₹20 / year** premium $mid$ Age: **18–70 years** $mid$ Cover: **₹2 Lakh** (₹1L partial disability).
-  * **APY (Guaranteed Pension):** Entry Age: **18–40 years** $mid$ Pension: **₹1,000 to ₹5,000 / month** at age 60 $mid$ Taxpayers barred since Oct 2022.
+  * **PMJJBY (Life Insurance):** **₹436 / year** premium  •  Age: **18–50 years**  •  Cover: **₹2 Lakh** (natural/accidental death).
+  * **PMSBY (Accident Insurance):** **₹20 / year** premium  •  Age: **18–70 years**  •  Cover: **₹2 Lakh** (₹1L partial disability).
+  * **APY (Guaranteed Pension):** Entry Age: **18–40 years**  •  Pension: **₹1,000 to ₹5,000 / month** at age 60  •  Taxpayers barred since Oct 2022.
 * **Cumulative Enrolments (May 2026):**
   * **PMSBY:** Over **45.8 Crore** enrolments
   * **PMJJBY:** Over **20.4 Crore** enrolments
   * **APY:** Over **6.75 Crore** subscribers
-  * 🎯 **Recap:** *PMJJBY: ₹436 (18-50 yrs, ₹2L) $mid$ PMSBY: ₹20 (18-70 yrs, ₹2L) $mid$ APY: 18-40 yrs (₹1k-5k/mo) $mid$ Administered by NCGTC/PFRDA.*
+  * 🎯 **Recap:** *PMJJBY: ₹436 (18-50 yrs, ₹2L)  •  PMSBY: ₹20 (18-70 yrs, ₹2L)  •  APY: 18-40 yrs (₹1k-5k/mo)  •  Administered by NCGTC/PFRDA.*
 
 #### Exam Focus
 * PMJJBY: ₹436/year, 18-50 age limit, ₹2 lakh life cover.
@@ -116,7 +116,7 @@
   * **Total Health Expenditure (THE) as % of GDP:** **3.83%**
   * **Social Security Expenditure on Health:** Rose to **9.3% of THE**
   * **Per Capita Government Health Spending:** **₹3,167 per year**
-  * 🎯 **Recap:** *OOPE: 39.4% (down from 64.2%) $mid$ GHE: 48.0% of THE $mid$ GHE/GDP: 1.84% $mid$ Per capita govt spend: ₹3,167.*
+  * 🎯 **Recap:** *OOPE: 39.4% (down from 64.2%)  •  GHE: 48.0% of THE  •  GHE/GDP: 1.84%  •  Per capita govt spend: ₹3,167.*
 
 #### Exam Focus
 * Current OOPE share in Total Health Expenditure: **39.4%**.
@@ -150,7 +150,7 @@
   * **Upper Age Limit:** **70 years** for MD, CEO, and Whole-Time Directors.
   * **Board Qualifications:** At least **50% of Board members** must have professional expertise in banking, finance, law, or IT.
   * **Board Committees:** Audit Committee (ACB) and Risk Management Committee (RMCB) must be led by independent professionals.
-  * 🎯 **Recap:** *MD/CEO tenure: Max 15 yrs $mid$ Cooling-off: 3 yrs $mid$ Age cap: 70 yrs $mid$ 50% professional board.*
+  * 🎯 **Recap:** *MD/CEO tenure: Max 15 yrs  •  Cooling-off: 3 yrs  •  Age cap: 70 yrs  •  50% professional board.*
 
 #### Exam Focus
 * Maximum tenure of MD/CEO in UCBs: **15 years**.
@@ -180,12 +180,12 @@
 #### Must Memorize
 * **Supreme Court Strength Evolution Ladder:**
   * **1950 (Original Constitution):** **8 Judges** (7 + CJI)
-  * **1956:** 11 Judges $	o$ **1960:** 14 Judges $	o$ **1977:** 18 Judges $	o$ **1986:** 26 Judges
-  * **2009:** 31 Judges $	o$ **2019:** 34 Judges $	o$ **2026 (Current):** **39 Judges (38 + CJI)**
+  * **1956:** 11 Judges  →  **1960:** 14 Judges  →  **1977:** 18 Judges  →  **1986:** 26 Judges
+  * **2009:** 31 Judges  →  **2019:** 34 Judges  →  **2026 (Current):** **39 Judges (38 + CJI)**
 * **Constitutional & Service Rules:**
   * **Article:** **Article 124(1)**
   * **Retirement Age:** **65 years** for Supreme Court Judges *(vs 62 years for High Court Judges)*.
-  * 🎯 **Recap:** *Sanctioned strength: 39 judges (38 + CJI) $mid$ Article 124(1) $mid$ Retirement age: 65 years.*
+  * 🎯 **Recap:** *Sanctioned strength: 39 judges (38 + CJI)  •  Article 124(1)  •  Retirement age: 65 years.*
 
 #### Exam Focus
 * New sanctioned strength of Supreme Court: **39 judges**.
@@ -217,7 +217,7 @@
   * **Yield Target:** **750 kg lint / hectare** by 2030–31.
   * **HDPS Coverage Target:** **15 Lakh hectares**.
   * **Surface Coal Gasification (SCG) Scheme:** Approved **₹8,500 Crore** financial incentive for CIL and private entities to reach **100 MT gasification by 2030**.
-  * 🎯 **Recap:** *Cotton Mission: ₹3,500 Cr (750 kg/ha target, 15L ha HDPS) $mid$ Coal Gasification: ₹8,500 Cr (100 MT by 2030).*
+  * 🎯 **Recap:** *Cotton Mission: ₹3,500 Cr (750 kg/ha target, 15L ha HDPS)  •  Coal Gasification: ₹8,500 Cr (100 MT by 2030).*
 
 #### Exam Focus
 * Cotton Mission Outlay: **₹3,500 crore**.
@@ -251,7 +251,7 @@
   * **Weight of 8 Core Industries in Index of Industrial Production (IIP):** **40.27%**.
   * **Sectoral Weights:** Refinery Products (28.04%), Electricity (19.85%), Steel (17.92%), Coal (10.33%), Crude Oil (8.98%), Natural Gas (6.88%), Cement (5.37%), Fertilizers (2.63%).
   * Top growth: Coal (+7.8%) and Electricity (+6.4%).
-  * 🎯 **Recap:** *Core Industries: +1.7% growth $mid$ Index of Industrial Production (IIP) weight: 40.27% $mid$ Top weight: Refinery (28.04%).*
+  * 🎯 **Recap:** *Core Industries: +1.7% growth  •  Index of Industrial Production (IIP) weight: 40.27%  •  Top weight: Refinery (28.04%).*
 
 ### 9. Central Bank of India Operationalises IFSC Banking Unit (IBU) at GIFT City
 - **Category**: `BANKING_REGULATION`
@@ -275,7 +275,7 @@
 - **Key Facts**:
   * Focuses on IMEC trade corridor, maritime finance, and bilateral remittances.
   * HQ: Athens, Greece; CEO: Fokion Karavias.
-  * 🎯 **Recap:** *Eurobank: 1st Greek bank in India (Mumbai office) $mid$ IMEC & maritime focus.*
+  * 🎯 **Recap:** *Eurobank: 1st Greek bank in India (Mumbai office)  •  IMEC & maritime focus.*
 
 ### 11. Karnataka Grameena Bank Wins National Award from PFRDA for APY Excellence
 - **Category**: `PENSION_SYSTEMS`
@@ -297,7 +297,7 @@
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **What Happened**: Skydo received RBI in-principle approval for Payment Aggregator - Cross Border (PA-CB) license.
 - **Key Facts**:
-  * Net worth rules: ₹15 Crore at application $	o$ ₹25 Crore within 3 years.
+  * Net worth rules: ₹15 Crore at application  →  ₹25 Crore within 3 years.
   * Facilitates B2B export remittances for Indian SME exporters and IT firms.
   * 🎯 **Recap:** *Skydo received RBI PA-CB in-principle license for cross-border B2B payments.*
 
@@ -321,8 +321,8 @@
 - **Source**: `Smartkeeda (May 2026 Monthly)`
 - **What Happened**: LIC launched two non-linked pure risk term plans: "New Jeevan Amar" (offline) and "Digi Term" (online).
 - **Key Facts**:
-  * Entry Age: 18–65 years $mid$ Maturity Age: Up to 80 years.
-  * Min Sum Assured: ₹25L (New Jeevan Amar) $mid$ ₹50L (Digi Term).
+  * Entry Age: 18–65 years  •  Maturity Age: Up to 80 years.
+  * Min Sum Assured: ₹25L (New Jeevan Amar)  •  ₹50L (Digi Term).
   * Lower premium rates for non-smokers and women.
   * 🎯 **Recap:** *LIC term plans: New Jeevan Amar (₹25L min) & Digi Term (₹50L min online).*
 
@@ -360,7 +360,7 @@
   * **Female LFPR:** Rose to **41.7%** in 2023–24 (up from 23.3% in 2017–18).
   * **Sex Ratio at Birth (SRB):** **910** females per 1,000 males.
   * **MMR:** Declined to **97** per 100,000 live births.
-  * 🎯 **Recap:** *Female LFPR: 41.7% $mid$ Sex ratio at birth: 910 $mid$ MMR: 97 per 1L.*
+  * 🎯 **Recap:** *Female LFPR: 41.7%  •  Sex ratio at birth: 910  •  MMR: 97 per 1L.*
 
 ### 18. ASUSE 2023–24 Survey Highlights: Informal Sector Employs 11.2 Crore Workers
 - **Category**: `REPORTS_AND_INDICES`
@@ -373,7 +373,7 @@
   * Total unincorporated non-agri enterprises: **6.50 Crore**.
   * Total workers employed: **11.2 Crore** (Trade 35%, Services 35%, Mfg 30%).
   * Unincorporated GVA grew **+9.8% YoY** to ₹15.4 Lakh Crore.
-  * 🎯 **Recap:** *ASUSE 2023-24: 6.50 Cr informal enterprises $mid$ 11.2 Cr workers $mid$ ₹15.4L Cr GVA.*
+  * 🎯 **Recap:** *ASUSE 2023-24: 6.50 Cr informal enterprises  •  11.2 Cr workers  •  ₹15.4L Cr GVA.*
 
 ### 19. US USTR Releases Special 301 Report: India Retained on 'Priority Watch List'
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -384,7 +384,7 @@
 - **What Happened**: USTR retained India on "Priority Watch List" alongside 5 nations (China, Russia, Indonesia, Chile, Argentina).
 - **Key Facts**:
   * Cited patent opposition and trade secret concerns; India affirmed full WTO TRIPS compliance.
-  * 🎯 **Recap:** *USTR Special 301: India on Priority Watch List $mid$ India reaffirmed WTO compliance.*
+  * 🎯 **Recap:** *USTR Special 301: India on Priority Watch List  •  India reaffirmed WTO compliance.*
 
 ### 20. Sunday Times Rich List 2026: Hinduja Group Retains Top Spot for 6th Consecutive Year
 - **Category**: `REPORTS_AND_INDICES`
@@ -407,7 +407,7 @@
 - **Key Facts**:
   * Average net gain: **2.66 Lakh hectares per year**.
   * Total forest/tree cover: **24.62%** of geographical area.
-  * 🎯 **Recap:** *India #3 globally in forest gain (2.66L ha/yr) $mid$ Forest cover: 24.62%.*
+  * 🎯 **Recap:** *India #3 globally in forest gain (2.66L ha/yr)  •  Forest cover: 24.62%.*
 
 ### 22. DGCA Releases Flying Training Organisations (FTOs) Phase 2 Rankings: Avyanna Aviation Ranked Category A
 - **Category**: `NATIONAL_AND_STATES`
@@ -430,7 +430,7 @@
 - **Key Facts**:
   * **1.45 Crore property cards** distributed across 1.15 lakh villages.
   * Cardholders unlocked **₹2,800 Crore in bank credit**.
-  * 🎯 **Recap:** *SVAMITVA assessment: 1.45 Cr cards distributed $mid$ ₹2,800 Cr bank credit mobilized.*
+  * 🎯 **Recap:** *SVAMITVA assessment: 1.45 Cr cards distributed  •  ₹2,800 Cr bank credit mobilized.*
 
 ### 24. Ministry of Mines Completes ₹1,500 Crore Critical Mineral Processing Incentive Assessment
 - **Category**: `MACRO_ECONOMY`
@@ -464,7 +464,7 @@
 - **What Happened**: Driven by AI/semiconductor surge, Taiwan ($5.12T) briefly overtook India ($5.08T) as #5 market.
 - **Key Facts**:
   * Top 4: US ($58T), China ($9.5T), Japan ($6.8T), Hong Kong ($5.4T).
-  * 🎯 **Recap:** *Taiwan briefly #5 stock market ($5.12T) $mid$ Top 4: US, China, Japan, HK.*
+  * 🎯 **Recap:** *Taiwan briefly #5 stock market ($5.12T)  •  Top 4: US, China, Japan, HK.*
 
 ---
 
@@ -501,7 +501,7 @@
   - **World Press Freedom Prize (UNESCO) 2026**: Awarded to Palestinian journalists covering Gaza.
   - **Oxford Bookstore Book Cover Prize 2026**: Won by **Bhavneet Kaur** (*The Book of Everlasting Things*).
   - **Sangeet Natak Akademi Fellowships (Akademi Ratna)**: Conferred on 6 masters (including Saroja Vaidyanathan & Teejan Bai).
-  - 🎯 **Recap:** *Whitley Gold Award: Dr. Purnima Devi Barman $mid$ UNESCO Press Freedom Prize.*
+  - 🎯 **Recap:** *Whitley Gold Award: Dr. Purnima Devi Barman  •  UNESCO Press Freedom Prize.*
 
 ### 29. Defence & Strategic Security Operations (May 2026)
 - **Category**: `DEFENCE_AND_SCIENCE`
@@ -511,7 +511,7 @@
 - **Master Roster**:
   - **Exercise 'Maitree 2026'**: Indian Army & Royal Thai Army at Umroi, Meghalaya.
   - **Exercise 'Desert Knight 2026'**: IAF, French Air Force & UAE Air Force over Arabian Sea.
-  - 🎯 **Recap:** *Ex Maitree (India-Thailand at Umroi) $mid$ Ex Desert Knight (India-France-UAE).*
+  - 🎯 **Recap:** *Ex Maitree (India-Thailand at Umroi)  •  Ex Desert Knight (India-France-UAE).*
 
 ### 30. Science, Space & Technology Milestones (May 2026)
 - **Category**: `DEFENCE_AND_SCIENCE`
@@ -522,7 +522,7 @@
   - **ISRO Semi-Cryogenic Pre-Burner Test**: Hot test of intermediate semi-cryogenic engine (SE-2000) using Isrosene + LOX at Mahendragiri, TN.
   - **IBM & IIT Madras Quantum Hub**: 127-qubit Quantum System One node operationalised at IIT-M Research Park.
   - **C-DOT 'Trishul-AI'**: Automated telecom cyber threat intelligence platform launched.
-  - 🎯 **Recap:** *ISRO SE-2000 semi-cryo test $mid$ 127-qubit Quantum Hub at IIT Madras.*
+  - 🎯 **Recap:** *ISRO SE-2000 semi-cryo test  •  127-qubit Quantum Hub at IIT Madras.*
 
 ### 31. Sports & Athletic Championships (May 2026)
 - **Category**: `SPORTS_AND_AWARDS`
@@ -536,7 +536,7 @@
   - **BWF Thailand Open 2026**: Satwiksairaj Rankireddy & Chirag Shetty won Men's Doubles.
   - **Madrid Open Tennis 2026**: Andrey Rublev (Men's) and Iga Swiatek (Women's) won titles.
   - **ISSF World Cup (Baku)**: India finished 2nd with 9 medals (4 Gold, 3 Silver, 2 Bronze).
-  - 🎯 **Recap:** *Kimi Antonelli (Canadian GP) $mid$ Leclerc (Monaco GP) $mid$ Satwik-Chirag (Thailand Open).*
+  - 🎯 **Recap:** *Kimi Antonelli (Canadian GP)  •  Leclerc (Monaco GP)  •  Satwik-Chirag (Thailand Open).*
 
 ### 32. Key Global Summits & Environmental News (May 2026)
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -547,8 +547,8 @@
   - **UN Road Safety Meeting**: In New York; halving road traffic deaths by 2030.
   - **68th APO Session**: Governing Body Meeting in New Delhi.
   - **1st International Big Cat Alliance (IBCA) Summit**: Hosted in New Delhi.
-  - **New Species**: *Kali Night Frog* (Karnataka) $mid$ *Trachischium lalremsangai* snake (Mizoram).
-  - 🎯 **Recap:** *1st IBCA Summit in New Delhi $mid$ Kali Night Frog (Karnataka) & new snake (Mizoram).*
+  - **New Species**: *Kali Night Frog* (Karnataka)  •  *Trachischium lalremsangai* snake (Mizoram).
+  - 🎯 **Recap:** *1st IBCA Summit in New Delhi  •  Kali Night Frog (Karnataka) & new snake (Mizoram).*
 
 ### 33. Key Institutional Strategic MoUs (May 2026)
 - **Category**: `INTERNATIONAL_AFFAIRS`
@@ -559,4 +559,4 @@
   - **India & State Bank of Vietnam**: Cross-border payments linking UPI with Vietnam's NAPAS switch.
   - **India & European Central Bank (ECB)**: Banking supervision cooperation agreement.
   - **RBIH & I4C**: Strategic pact for real-time AI mule account prevention network.
-  - 🎯 **Recap:** *UPI-NAPAS (Vietnam) linkage $mid$ RBIH + I4C AI mule account prevention.*
+  - 🎯 **Recap:** *UPI-NAPAS (Vietnam) linkage  •  RBIH + I4C AI mule account prevention.*

@@ -24,8 +24,8 @@
 
 #### Must Memorize
 * **Internal Ombudsman (IO) Eligibility & Service Rules Ladder:**
-  * **IO Rank & Experience:** Retired or serving **General Manager (GM)** $mid$ Minimum **7 years relevant experience**.
-  * **Deputy IO Rank & Experience:** Retired or serving **Deputy General Manager (DGM)** $mid$ Minimum **5 years relevant experience**.
+  * **IO Rank & Experience:** Retired or serving **General Manager (GM)**  •  Minimum **7 years relevant experience**.
+  * **Deputy IO Rank & Experience:** Retired or serving **Deputy General Manager (DGM)**  •  Minimum **5 years relevant experience**.
   * **Age Ceiling:** Not over **70 years of age** before completion of tenure.
   * **Tenure Constraints:** Fixed term of **not less than 3 years**, and total tenure **shall not exceed 5 years** (including extensions).
   * **Unexpected Vacancies:** Must notify RBI within **10 working days** and appoint replacement.
@@ -39,7 +39,7 @@
   * **Dispute Value:** No monetary ceiling on dispute amount brought before Ombudsman.
   * **Consequential Loss Compensation:** Up to **₹30 Lakh**.
   * **Harassment & Mental Anguish Compensation:** Up to **₹3 Lakh**.
-  * 🎯 **Recap:** *IO (GM/7 yrs) $mid$ Dy IO (DGM/5 yrs) $mid$ Age $le 70$ yrs $mid$ Tenure 3–5 yrs $mid$ Vacancy: 10 days $mid$ Auto-escalation on rejection $mid$ Reply $le 30$ days $mid$ Compensation: ₹30L loss, ₹3L harassment.*
+  * 🎯 **Recap:** *IO (GM/7 yrs)  •  Dy IO (DGM/5 yrs)  •  Age ≤ 70 yrs  •  Tenure 3–5 yrs  •  Vacancy: 10 days  •  Auto-escalation on rejection  •  Reply ≤ 30 days  •  Compensation: ₹30L loss, ₹3L harassment.*
 
 #### Know / Understand
 * The IO serves as an independent mediator between frontline bank support and the external RBI Ombudsman. Auto-escalation prevents frontline staff from unilaterally closing unresolved grievances.
@@ -71,13 +71,13 @@
   * **Reciprocally Related Persons (Banks):** Directors of other banks/FIs, trustees of AIFs and Mutual Funds.
   * **Lending Scope:** Includes fund-based and non-fund-based credit and debt securities; **explicitly excludes equity investments**.
 * **Transaction Materiality Approval Thresholds Ladder:**
-  * **Banks > ₹10 Lakh Crore Assets:** Loan $> mathbf{₹50	ext{ Crore}}$ requires Board approval.
+  * **Banks > ₹10 Lakh Crore Assets:** Loan $> mathbf{₹50  Crore}$ requires Board approval.
   * **Banks ₹1 Lakh Cr – ₹10 Lakh Cr Assets:** Threshold is **₹10 Crore**.
   * **Banks < ₹1 Lakh Crore Assets:** Threshold is **₹5 Crore**.
   * **Top / Upper Layer NBFCs:** Threshold is **₹10 Crore**.
   * **Middle Layer NBFCs:** Threshold is **₹5 Crore**.
   * **Base Layer NBFCs:** Threshold is **₹1 Crore**.
-* 🎯 **Recap:** *RPT rules effective April 1, 2026 $mid$ 10%+ equity shareholders $mid$ Bank approval caps: ₹50 Cr, ₹10 Cr, ₹5 Cr $mid$ NBFC caps: ₹10 Cr, ₹5 Cr, ₹1 Cr.*
+* 🎯 **Recap:** *RPT rules effective April 1, 2026  •  10%+ equity shareholders  •  Bank approval caps: ₹50 Cr, ₹10 Cr, ₹5 Cr  •  NBFC caps: ₹10 Cr, ₹5 Cr, ₹1 Cr.*
 
 #### Know / Understand
 * Prevents siphoning of depositor funds to promoter-controlled shell companies. Asset tiering ensures proportional burden without creating board-level logjams in mega-banks.
@@ -108,10 +108,10 @@
   * **GDP Series (Base 2022-23=100):** Released **27 February 2026**.
   * **IIP Series (Base 2022-23=100):** Released **28 May 2026**.
 * **CPI Weightage Structural Shift:**
-  * **Food & Beverages Weight:** Reduced sharply from **45.86% $	o$ 36.75%** (-9.11 percentage points).
-  * **Housing Weight (incl. utilities):** Increased from **10.07% $	o$ 17.66%**.
-  * **Item Basket Size:** Expanded from **299 $	o$ 358 items**.
-  * 🎯 **Recap:** *New Base Years: CPI (2023-24), GDP (2022-23), IIP (2022-23) $mid$ Food weight down to 36.75% $mid$ Housing up to 17.66% $mid$ 358 items.*
+  * **Food & Beverages Weight:** Reduced sharply from **45.86%  →  36.75%** (-9.11 percentage points).
+  * **Housing Weight (incl. utilities):** Increased from **10.07%  →  17.66%**.
+  * **Item Basket Size:** Expanded from **299  →  358 items**.
+  * 🎯 **Recap:** *New Base Years: CPI (2023-24), GDP (2022-23), IIP (2022-23)  •  Food weight down to 36.75%  •  Housing up to 17.66%  •  358 items.*
 
 #### Know / Understand
 * Engel's Law: Higher household incomes lowered food expenditure share while increasing spending on housing, mobility, and services. A lower food weight dampens seasonal headline inflation spikes.
@@ -119,8 +119,8 @@
 #### Exam Focus
 * Exact dates for new series releases (CPI: Feb 12, GDP: Feb 27, IIP: May 28, 2026).
 * New base years (CPI 2023-24; GDP & IIP 2022-23).
-* Food weight reduction (45.86% $	o$ 36.75%) and housing weight expansion (10.07% $	o$ 17.66%).
-* Total item basket expansion (299 $	o$ 358 items).
+* Food weight reduction (45.86%  →  36.75%) and housing weight expansion (10.07%  →  17.66%).
+* Total item basket expansion (299  →  358 items).
 
 ---
 
@@ -143,7 +143,7 @@
   * **75% Risk Weight Qualification:** Requires **2% repayment** of sanctioned project debt (cut from proposed 5%).
   * **50% Risk Weight Qualification:** Requires **5% repayment** of sanctioned project debt (cut from proposed 10%).
   * **Eligible Infrastructure:** Projects with revenues from concessions/contracts granted by Central/State Govts, PSEs, or statutory regulators.
-  * 🎯 **Recap:** *NBFC infra risk weights: 75% RW at 2% repayment $mid$ 50% RW at 5% repayment $mid$ Effective April 1, 2026.*
+  * 🎯 **Recap:** *NBFC infra risk weights: 75% RW at 2% repayment  •  50% RW at 5% repayment  •  Effective April 1, 2026.*
 
 #### Know / Understand
 * Infrastructure projects face high default risk during construction. Lowering repayment hurdles (2% and 5%) releases regulatory capital earlier as projects operationalize.
@@ -164,10 +164,10 @@
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
   * **Merchant Banker Net Worth Ladder:**
-    * **Category I:** Net worth ₹25 Cr (by Jan 2027) $	o$ **₹50 Cr (by Jan 2028)** $mid$ Liquid net worth ₹6.25 Cr $	o$ **₹12.5 Cr**.
-    * **Category II:** Net worth ₹7.5 Cr $	o$ **₹10 Cr** $mid$ Liquid net worth ₹1.875 Cr $	o$ **₹2.5 Cr**.
+    * **Category I:** Net worth ₹25 Cr (by Jan 2027)  →  **₹50 Cr (by Jan 2028)**  •  Liquid net worth ₹6.25 Cr  →  **₹12.5 Cr**.
+    * **Category II:** Net worth ₹7.5 Cr  →  **₹10 Cr**  •  Liquid net worth ₹1.875 Cr  →  **₹2.5 Cr**.
     * **Underwriting Cap:** Obligations capped at **20 times liquid net worth** (haircuts: Cash 0%, G-Sec 10%, Nifty 50 30%).
-  * 🎯 **Recap:** *Cat-I net worth: ₹50 Cr $mid$ Cat-II: ₹10 Cr $mid$ Underwriting cap: 20x liquid net worth.*
+  * 🎯 **Recap:** *Cat-I net worth: ₹50 Cr  •  Cat-II: ₹10 Cr  •  Underwriting cap: 20x liquid net worth.*
 
 ### 2. SEBI Introduces Closing Auction Session (CAS) for Equity Cash Segment
 * **Priority:** P2 — High
@@ -180,7 +180,7 @@
     * 20-minute Closing Auction Session (CAS) from **3:15 pm to 3:35 pm** for F&O stocks (effective **August 3, 2026**).
     * Pre-Open auction overhaul effective **September 7, 2026**.
     * Price band capped at **$pm 3%$ of reference price** with random closure in last 2 minutes.
-  * 🎯 **Recap:** *Closing Auction: 3:15–3:35 pm (effective Aug 3, 2026) $mid$ $pm 3%$ price band.*
+  * 🎯 **Recap:** *Closing Auction: 3:15–3:35 pm (effective Aug 3, 2026)  •  $pm 3%$ price band.*
 
 ### 3. PFRDA Constitutes High-Level Panels: Assured Payouts (Dr. M.S. Sahoo) & SAARG
 * **Priority:** P2 — High
@@ -192,7 +192,7 @@
   * **NPS Reform Committees:**
     * **Dr. M.S. Sahoo Committee:** 15-member panel formulating assured/guaranteed NPS payout regulations.
     * **SAARG Panel:** Chaired by **Narayan Ramachandran** to overhaul strategic asset allocation guidelines.
-  * 🎯 **Recap:** *NPS Guaranteed Payout panel: Dr. M.S. Sahoo $mid$ Asset allocation panel (SAARG): Narayan Ramachandran.*
+  * 🎯 **Recap:** *NPS Guaranteed Payout panel: Dr. M.S. Sahoo  •  Asset allocation panel (SAARG): Narayan Ramachandran.*
 
 ### 4. RBI Proposes Capping Bank Dividend Payouts at 75% of Net Profit
 * **Priority:** P2 — High
@@ -205,7 +205,7 @@
     * Proposed maximum dividend payout ratio raised to **75% of Profit After Tax (PAT)** (earlier 40%).
     * Structured across a **10-bucket matrix** linked to previous fiscal Common Equity Tier 1 (CET1) ratio.
     * Calculated on Adjusted PAT (after deducting Net NPAs as of March 31).
-  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT $mid$ 10-bucket Common Equity Tier 1 (CET1) matrix $mid$ Adjusted for Net NPAs.*
+  * 🎯 **Recap:** *Bank dividend cap raised to 75% of PAT  •  10-bucket Common Equity Tier 1 (CET1) matrix  •  Adjusted for Net NPAs.*
 
 ### 5. DICGC Deposit Insurance Coverage Report: 97.6% Bank Accounts Insured
 * **Priority:** P2 — High
@@ -216,8 +216,8 @@
   * **Deposit Insurance Coverage Metrics:**
     * Insured **97.6% of bank accounts** and **41.5% of total deposit value** (₹100.12 Lakh Cr insured).
     * Deposit Insurance Fund balance reached **₹2.29 Lakh Crore**.
-    * Statutory Premium: **12 paise per ₹100** per annum $mid$ Coverage limit: **₹5 Lakh per depositor per bank**.
-  * 🎯 **Recap:** *97.6% accounts & 41.5% value insured $mid$ ₹5L coverage cap $mid$ 12 paise/₹100 premium.*
+    * Statutory Premium: **12 paise per ₹100** per annum  •  Coverage limit: **₹5 Lakh per depositor per bank**.
+  * 🎯 **Recap:** *97.6% accounts & 41.5% value insured  •  ₹5L coverage cap  •  12 paise/₹100 premium.*
 
 ### 6. SEBI SWAGAT-FI Framework for Trusted Foreign Investors
 * **Priority:** P2 — High
@@ -232,7 +232,7 @@
   * **Single Window Access for Trusted Investors:**
     * Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).
     * Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.
-  * 🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors $mid$ Effective June 1, 2026.*
+  * 🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*
 
 ### 7. RBI Foreign Exchange Management (Guarantees) Regulations 2026
 * **Priority:** P2 — High
@@ -244,7 +244,7 @@
   * **Cross-Border Guarantees Framework:**
     * Prohibits residents from issuing credit guarantees for NRIs unless expressly permitted under FEMA rules.
     * Discontinued quarterly Trade Credit guarantee reports from March 2026.
-  * 🎯 **Recap:** *FEMA Guarantees Regulations 2026 $mid$ Prohibits unauthorized resident guarantees for NRIs.*
+  * 🎯 **Recap:** *FEMA Guarantees Regulations 2026  •  Prohibits unauthorized resident guarantees for NRIs.*
 
 ### 8. RBI Supervisory Data Quality Index (sDQI) for Scheduled Commercial Banks
 * **Priority:** P2 — High
@@ -255,7 +255,7 @@
   * **Regulatory Return Reporting Quality:**
     * Overall SCB score stood at **90.7** across 87 banks.
     * **Rankings:** Small Finance Banks (**91.5**), Public Sector Banks (**91.1**), Private Banks (**90.6**), Foreign Banks (**90.4**).
-  * 🎯 **Recap:** *sDQI overall score: 90.7 $mid$ SFBs top rank (91.5) $mid$ PSBs #2 (91.1).*
+  * 🎯 **Recap:** *sDQI overall score: 90.7  •  SFBs top rank (91.5)  •  PSBs #2 (91.1).*
 
 ### 9. PFRDA Launches NPS Swasthya Pension Scheme under Regulatory Sandbox
 * **Priority:** P2 — High
@@ -266,7 +266,7 @@
   * **Healthcare Pension Scheme Features:**
     * Partial withdrawals up to **25% of own contributions** after reaching minimum **₹50,000 corpus**.
     * If single inpatient hospital treatment exceeds **70% of corpus**, subscriber can exit with **100% lump sum**.
-  * 🎯 **Recap:** *NPS Swasthya: 25% partial withdrawal (min ₹50k corpus) $mid$ 100% exit if medical bill >70% corpus.*
+  * 🎯 **Recap:** *NPS Swasthya: 25% partial withdrawal (min ₹50k corpus)  •  100% exit if medical bill >70% corpus.*
 
 ### 10. RBI State Finances Study: Demographic Shift & Pension Burden
 * **Priority:** P2 — High
@@ -277,7 +277,7 @@
   * **Sub-National Fiscal Sustainability:**
     * Ageing states (Kerala, TN, Punjab) spend **>30% of social sector budgets on pensions**.
     * Consolidated state fiscal deficit stood at **3.3% of GDP** in FY25.
-  * 🎯 **Recap:** *Ageing states spend >30% on pensions $mid$ Consolidated state fiscal deficit: 3.3% of GDP.*
+  * 🎯 **Recap:** *Ageing states spend >30% on pensions  •  Consolidated state fiscal deficit: 3.3% of GDP.*
 
 ### 11. RBI Principle-Based Resolution Framework for Natural Calamity-Hit Loans
 * **Priority:** P2 — High
@@ -288,7 +288,7 @@
 * **Must Memorize Facts:**
   * **Calamity Debt Resolution Rules:**
     * Standard exposures not in default for >30 days (**SMA-0**) eligible for restructuring, moratorium, or interest conversion. Effective **April 1, 2026**.
-  * 🎯 **Recap:** *Natural calamity resolution for SMA-0 loans $mid$ Effective April 1, 2026.*
+  * 🎯 **Recap:** *Natural calamity resolution for SMA-0 loans  •  Effective April 1, 2026.*
 
 ### 12. RBI Draft Directions on Foreign Exchange Risk & Net Open Position (NOP)
 * **Priority:** P2 — High
@@ -299,7 +299,7 @@
 * **Must Memorize Facts:**
   * **Forex Capital Charges:**
     * Aligns capital charge on NOP with BCBS standards, effective **April 1, 2027**. Mandates daily calculation of NOP and capital charges.
-  * 🎯 **Recap:** *Daily NOP calculation & capital charges aligned with BCBS $mid$ Effective April 1, 2027.*
+  * 🎯 **Recap:** *Daily NOP calculation & capital charges aligned with BCBS  •  Effective April 1, 2027.*
 
 ### 13. SEBI Consultation on Centralizing Supplementary KYC at KRA Level
 * **Priority:** P2 — High
@@ -321,7 +321,7 @@
 * **Must Memorize Facts:**
   * **Significant Index Benchmark Thresholds:**
     * Any benchmark tracking combined MF scheme Assets Under Management (AUM) exceeding **₹20,000 Crore** designated as 'Significant Index' (reviewed June 30 & Dec 31).
-  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF Assets Under Management (AUM) $mid$ Bi-annual review.*
+  * 🎯 **Recap:** *Significant Index: >₹20,000 Cr tracked MF Assets Under Management (AUM)  •  Bi-annual review.*
 
 ### 15. RBI Tightens Priority Sector Lending (PSL) on-Lending Auditor Certification
 
@@ -335,8 +335,8 @@
 * **Must Memorize Facts:**
   * **PSL On-Lending Limits & Verification:**
     * Mandatory external auditor certificate confirming no duplicate PSL claims.
-    * On-lending caps: **5% of bank PSL** to NBFCs $mid$ **10% of bank PSL** to NBFC-MFIs.
-  * 🎯 **Recap:** *PSL on-lending caps: 5% to NBFCs, 10% to NBFC-MFIs $mid$ Mandatory auditor certification.*
+    * On-lending caps: **5% of bank PSL** to NBFCs  •  **10% of bank PSL** to NBFC-MFIs.
+  * 🎯 **Recap:** *PSL on-lending caps: 5% to NBFCs, 10% to NBFC-MFIs  •  Mandatory auditor certification.*
 
 ### 16. Cabinet Approves ₹5,000 Crore Equity Infusion for SIDBI
 * **Priority:** P2 — High
@@ -355,8 +355,8 @@
 * **Event Date:** 2026-01-09
 * **Must Memorize Facts:**
   * **APY Extension & Guarantees:**
-    * Extended through **FY 2030-31** $mid$ ₹1,000 to ₹5,000 monthly guaranteed pension from age 60.
-  * 🎯 **Recap:** *APY extended to FY 2030-31 $mid$ Guaranteed ₹1,000-₹5,000 monthly pension.*
+    * Extended through **FY 2030-31**  •  ₹1,000 to ₹5,000 monthly guaranteed pension from age 60.
+  * 🎯 **Recap:** *APY extended to FY 2030-31  •  Guaranteed ₹1,000-₹5,000 monthly pension.*
 
 ### 18. Conclusion of Landmark India-EU Free Trade Agreement (22nd FTA)
 * **Priority:** P2 — High
@@ -367,7 +367,7 @@
   * **Trade Pact Parameters:**
     * Concluded Jan 26, 2026; EU is India's **22nd FTA partner**.
     * Financial terms: EU banks permitted **15 branches over 4 years**; bindings on **100% FDI in insurance**.
-  * 🎯 **Recap:** *India-EU 22nd FTA concluded $mid$ 15 EU bank branches over 4 yrs $mid$ 100% insurance FDI bound.*
+  * 🎯 **Recap:** *India-EU 22nd FTA concluded  •  15 EU bank branches over 4 yrs  •  100% insurance FDI bound.*
 
 ### 19. RBI Agreement with GNCTD under Section 21A & Revised State WMA Limits
 * **Priority:** P2 — High
@@ -396,8 +396,8 @@
 * **Event Date:** 2026-01-15
 * **Must Memorize Facts:**
   * **EPFO Digital Settlement Acceleration:**
-    * Direct UPI withdrawals from **April 1, 2026** $mid$ Auto-settlement limit raised to **₹5 Lakh** (within 3 days).
-  * 🎯 **Recap:** *EPFO UPI withdrawals $mid$ Auto-settlement limit raised to ₹5 Lakh.*
+    * Direct UPI withdrawals from **April 1, 2026**  •  Auto-settlement limit raised to **₹5 Lakh** (within 3 days).
+  * 🎯 **Recap:** *EPFO UPI withdrawals  •  Auto-settlement limit raised to ₹5 Lakh.*
 
 ### 22. IRDAI Annual Report FY25 Highlights: Coverage Expands to 580 Million Lives
 * **Priority:** P2 — High
@@ -408,7 +408,7 @@
   * **Insurance Penetration Metrics:**
     * Health insurance covered **580 Million lives** (Premiums ₹1.17 Trillion).
     * Incurred Claims Ratio: **86.98%** (58% cashless, 41% reimbursement). Life PAT: **₹56,006 Crore**.
-  * 🎯 **Recap:** *580M lives covered in health insurance $mid$ ICR: 86.98% $mid$ Life PAT: ₹56,006 Cr.*
+  * 🎯 **Recap:** *580M lives covered in health insurance  •  ICR: 86.98%  •  Life PAT: ₹56,006 Cr.*
 
 ### 23. RBI Draft Governance Directions for Co-operative Banks (3-Year Cooling-Off)
 * **Priority:** P1_CRITICAL_DEEP
@@ -419,7 +419,7 @@
 * **Must Memorize Facts:**
   * **Co-operative Board Governance:**
     * Mandatory **3-year cooling-off period** for directors completing 10 continuous years.
-  * 🎯 **Recap:** *10-year max continuous tenure $	o$ 3-year cooling-off for co-op bank directors.*
+  * 🎯 **Recap:** *10-year max continuous tenure  →  3-year cooling-off for co-op bank directors.*
 
 ### 24. NITI Aayog Export Preparedness Index (EPI) 2024 (4th Edition)
 * **Priority:** P2 — High
@@ -481,7 +481,7 @@
 * **Must Memorize Facts:**
   * **Broker Glitch Thresholds:**
     * Reporting applies only to brokers with **>10,000 active clients**; reporting window extended to **2 hours**.
-  * 🎯 **Recap:** *Glitch reporting for brokers >10k clients $mid$ 2-hour window.*
+  * 🎯 **Recap:** *Glitch reporting for brokers >10k clients  •  2-hour window.*
 
 ### 30. Pradhan Mantri Matru Vandana Yojana (PMMVY) Completes 9 Years
 * **Priority:** P2 — High
@@ -491,7 +491,7 @@
 * **Must Memorize Facts:**
   * **Maternity Benefit Milestones:**
     * **₹5,000 for 1st child** (₹3k + ₹2k) and **₹6,000 for 2nd girl child**; >4.5 Cr beneficiaries.
-  * 🎯 **Recap:** *PMMVY: ₹5,000 for 1st child, ₹6,000 for 2nd girl child $mid$ 9 years completed.*
+  * 🎯 **Recap:** *PMMVY: ₹5,000 for 1st child, ₹6,000 for 2nd girl child  •  9 years completed.*
 
 ### 31. National Startup Day & DPIIT States' Startup Ranking Framework (SRF 5.0)
 * **Priority:** P2 — High
@@ -500,7 +500,7 @@
 * **Event Date:** 2026-01-16
 * **Must Memorize Facts:**
   * **Startup Rankings:**
-    * Best Performers: **Gujarat (Cat A)** $mid$ **Arunachal Pradesh & Goa (Cat B)**.
+    * Best Performers: **Gujarat (Cat A)**  •  **Arunachal Pradesh & Goa (Cat B)**.
   * 🎯 **Recap:** *SRF 5.0 Best Performer: Gujarat (Cat A), Arunachal & Goa (Cat B).*
 
 ### 32. First Advance Estimates of GDP for FY 2025-26 (NSO MoSPI)
@@ -531,9 +531,9 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **Demat Conversion Acceleration:**
-    * Abolished physical LOC; processing time cut from **150 $	o$ 30 days** (effective **April 2, 2026**).
+    * Abolished physical LOC; processing time cut from **150  →  30 days** (effective **April 2, 2026**).
     * Special 1-year window (Feb 2026–Feb 2027) for pre-2019 physical shares.
-  * 🎯 **Recap:** *Physical share demat transfer reduced from 150 to 30 days $mid$ Special 1-year legacy window.*
+  * 🎯 **Recap:** *Physical share demat transfer reduced from 150 to 30 days  •  Special 1-year legacy window.*
 
 ---
 

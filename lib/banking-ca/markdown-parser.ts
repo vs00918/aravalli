@@ -321,11 +321,17 @@ export function parseCanonicalMarkdownFile(
     if (currentTopic) {
       topicMarkdownBuffer.push(line);
 
+      // Explicit Know & Understand line detection (e.g. "**Know & Understand (Context)**:")
+      if (/^\s*\*?\*?\s*Know\s*(?:&|\/|and)\s*Understand\s*(?:\(Context\))?\*?\*?:?\s*$/i.test(line.trim())) {
+        currentSubSection = 'KNOW_UNDERSTAND';
+        continue;
+      }
+
       // Subsection matching (supports both **What Happened** and #### What Happened)
-      if (/^\s*(####|\*?\*?)\s*(What Happened|Legislative Overview|Overview|Background|Core Announcement|Announcement|The Core Mechanism)/i.test(line)) {
+      if (/^\s*(####|\*?\*?)\s*(What Happened|Legislative Overview|Overview|Background|Core Announcement|Announcement|The Core Mechanism|Scheme Overview)/i.test(line)) {
         currentSubSection = 'WHAT_HAPPENED';
         continue;
-      } else if (/^\s*(####|\*?\*?)\s*(Must Memorize|Key Rules|Key Provisions|Rules & Numbers|Structural Provisions|Key Structural Provisions|Insurance Structure|Approved \d+-Layer|Financial Allocation|Mandatory Blending|Regulatory Overrule|Specifications|Incentive Parameters|Specifications & Outlay|Core Findings|Parameters|Expansion & Calamity List)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Must Memorize|Key Rules|Key Provisions|Rules & Numbers|Structural Provisions|Key Structural Provisions|Insurance Structure|Approved \d+-Layer|Financial Allocation|Mandatory Blending|Regulatory Overrule|Specifications|Incentive Parameters|Specifications & Outlay|Core Findings|Parameters|Expansion & Calamity List|Statutory Mechanism|Valuation Rules|Valuation & Procedure|Pricing & Reset|Slabs & Caps)/i.test(line)) {
         currentSubSection = 'MUST_MEMORIZE';
         continue;
       } else if (/^\s*(####|\*?\*?)\s*(Know\s*\/?\s*Understand|Why It Matters|Fiscal Significance|Significance|Conceptual Context|Impact|Rationale|Context & Rationale|Judicial Rationale)/i.test(line)) {
@@ -406,6 +412,22 @@ export function parseCanonicalMarkdownFile(
         continue;
       }
 
+      // Check if this bullet is purely a container header with no factual body (e.g. "* **FAST-DS Valuation & Procedure Ladder:**")
+      const containerHeaderMatch = line.match(/^\s*[\*\-]\s*\*\*([^*]+?)\*\*:\s*$/);
+      if (containerHeaderMatch) {
+        const hTitle = containerHeaderMatch[1].trim();
+        if (/(?:Ladder|Overview|Rules|Architecture|Context|Provisions|Takeaways|Outlay|Mechanism)/i.test(hTitle)) {
+          if (/Context|Rationale|Why It Matters/i.test(hTitle)) {
+            currentSubSection = 'KNOW_UNDERSTAND';
+          } else if (/Overview|Announcement/i.test(hTitle)) {
+            currentSubSection = 'WHAT_HAPPENED';
+          } else {
+            currentSubSection = 'MUST_MEMORIZE';
+          }
+          continue;
+        }
+      }
+
       // Collect section content based on current subSection
       const bulletMatch = line.match(/^\s*[\*\-]\s*(.+)/);
       if (bulletMatch && currentPart !== 'IGNORE' && currentPart !== 'REPORT') {
@@ -419,6 +441,27 @@ export function parseCanonicalMarkdownFile(
         text = text.replace(/^(?:Must-Memorize Fact|Must Memorize Fact|Key Fact|Fact|Core Fact):\s*/i, '');
         // For general bold prefixes (e.g. "**Real GDP Growth**:") format nicely
         text = text.replace(/^\*\*(.+?)\*\*:\s*/, '$1: ').trim();
+
+        // Sanitize LaTeX tokens and tabbed escapes during parsing
+        text = text
+          .replace(/\t\s*ext\{([^}]+)\}/g, ' $1')
+          .replace(/\\text\{([^}]+)\}/g, '$1')
+          .replace(/(?:^|[^\w])ext\{([^}]+)\}/g, ' $1')
+          .replace(/\$\s*\t\s*o\s*\$/g, ' → ')
+          .replace(/\t\s*o\b/g, ' → ')
+          .replace(/\$\\to\$/g, ' → ')
+          .replace(/\\to\b/g, ' → ')
+          .replace(/\$\s*\\?mid\s*\$/g, ' • ')
+          .replace(/\\mid\b/g, ' • ')
+          .replace(/\s+mid\s+/g, ' • ')
+          .replace(/\$\\le\s*([₹\$\d\w]+)\$/g, '≤ $1')
+          .replace(/\$\\le\$/g, '≤')
+          .replace(/\\le\b/g, '≤')
+          .replace(/\$le\s*([₹\$\d\w]+)/g, '≤ $1')
+          .replace(/\$\\ge\s*([₹\$\d\w]+)\$/g, '≥ $1')
+          .replace(/\$\\ge\$/g, '≥')
+          .replace(/\\ge\b/g, '≥')
+          .replace(/\$ge\s*([₹\$\d\w]+)/g, '≥ $1');
 
         // Convert question-shaped bullets into direct declarative statements
         const qParenMatch = text.match(/^[\*\-_]?\s*[\*_]*([^?]+)\?[\*_]*\s*\(([^)]+)\)\.?$/i);
@@ -447,6 +490,11 @@ export function parseCanonicalMarkdownFile(
           }
         }
         text = text.replace(/\?$/, '');
+
+        // Skip if this is a leaked section header
+        if (/^\*{0,2}(?:Foreign Asset Voluntary Disclosure Window|FAST-DS Valuation & Procedure Ladder|PM E-DRIVE Slabs & Caps Ladder|Pricing & Reset Architecture Ladder|Digital Payment Charges Statutory Enablement|Scheme Overview & Window|Statutory Mechanism & Valuation Rules|Payment Architecture & Legal Provisions Ladder|Legislative Overview & Core Provision|Revised Incentive Architecture & Fiscal Sub-Limits|Know & Understand \(Context\)):\*{0,2}:?$/i.test(text.trim())) {
+          continue;
+        }
 
         if (text.length > 3) {
           if (currentSubSection === 'WHAT_HAPPENED') {

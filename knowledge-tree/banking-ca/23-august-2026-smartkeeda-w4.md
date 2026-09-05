@@ -27,14 +27,14 @@
 
 #### Must Memorize (Statistical Growth & P2M/P2P Split)
 * **Transaction Velocity & Volume/Value Matrix:**
-  * **Annual Volume Surge:** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)** $\to$ Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).
+  * **Annual Volume Surge:** Expanded from **1.78 crore transactions (FY17)** to **over 24,162 crore transactions (FY26)**  →  Compound Annual Growth Rate (**CAGR**) of **188%** (~13,000-fold surge).
   * **Annual Value Surge:** Increased from **₹0.07 lakh crore (FY17)** to **~₹314 lakh crore (FY26)** (>4,000-fold surge).
   * **Bank Network Adoption:** Grew from **21 live banks at launch** (44 at end-FY17) to **703 live member banks in FY26** (spanning PSBs, private, SFBs, payment, and cooperative banks).
   * **Person-to-Merchant (P2M) Split:** Accounts for **63% of overall volume**, but only **29% of overall value** (routine retail utility).
   * **Micro-Payment Concentration:** Sub-₹500 transactions represent **86% of total P2M volume**.
   * **Person-to-Person (P2P) Split:** Accounts for **37% of volume** and **71% of total transaction value**.
   * **Institutional Leadership:** NPCI MD & CEO — Dilip Asbe | Chairman — Ajay Kumar Choudhary | Headquarters — Mumbai.
-  * 🎯 **Recap:** *UPI 10 yrs $mid$ 66 Cr daily txns $mid$ FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val $mid$ 703 banks $mid$ 84% digital share.*
+  * 🎯 **Recap:** *UPI 10 yrs  •  66 Cr daily txns  •  FY26: 24,162 Cr vol (CAGR 188%) / ₹314 Lakh Cr val  •  703 banks  •  84% digital share.*
 
 #### Know / Understand (Core Mechanism)
 * **High-Velocity Micro-Payments vs. High-Value Settlement:**
@@ -65,7 +65,7 @@
   * **Specialist Induction:** **S. Somanath Sreedhara Panicker** (former ISRO Chairman) appointed for a 4-year term.
   * **Tenures Concluded:** Venu Srinivasan, Pankaj Ramanbhai Patel, and Dr. Ravindra H. Dholakia.
   * **Statutory Framework:** Governed under Section 8(1)(a) (Governor & up to 4 DGs), Section 8(1)(c) (up to 10 non-official directors nominated by GoI), and Section 8(1)(d) (2 Government officials).
-  * 🎯 **Recap:** *RBI Central Board: 14 members $mid$ Sec 8(1)(c) $mid$ Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*
+  * 🎯 **Recap:** *RBI Central Board: 14 members  •  Sec 8(1)(c)  •  Annie George Mathew (16th FC), Janmejaya Sinha (BCG), Syed Akbaruddin, S. Somanath, Anand Mahindra.*
 
 ---
 
@@ -90,9 +90,9 @@
   * **Gender-wise UR:** Male UR fell to **5.0%** (from 5.3%); Female UR fell to **5.4%** (from 5.9%).
   * **Labour Force Participation Rate (LFPR):** Rose to a 4-month high of **55.4%** (from 54.4% in June).
   * **Rural LFPR:** Rose significantly to **58.0%** (from 56.6% in June).
-  * **Methodology Invariant (CWS):** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $\ge 1\text{ hour}$.
+  * **Methodology Invariant (CWS):** Under Current Weekly Status, an individual is unemployed if they did not work even for 1 hour on any day during the 7-day reference week but sought or were available for work for $≥ 1 hour$.
   * **Sample Size:** 3,71,021 persons surveyed across India under the January 2025 revamped methodology.
-  * 🎯 **Recap:** *PLFS July 2026 $mid$ Headline UR: 5.1% (Rural 4.5%, Urban 6.7%) $mid$ LFPR: 55.4% (Rural 58.0%) $mid$ CWS: 1 hr rule.*
+  * 🎯 **Recap:** *PLFS July 2026  •  Headline UR: 5.1% (Rural 4.5%, Urban 6.7%)  •  LFPR: 55.4% (Rural 58.0%)  •  CWS: 1 hr rule.*
 
 ---
 
@@ -117,7 +117,7 @@
   * **Operational Incentive:** Offered banks a zero-cost principal hedge, regulatory CRR/SLR exemptions, and permitted issuing Standby Letters of Credit (SBLCs) against FCNR(B) deposits (leveraged by Citigroup & Axis Bank partnership).
   * **Window Adjustments:** Due to rapid target overachievement, the **FCNR(B) deposit window closed on August 31, 2026** (advanced by 1 month), while the ECB/OFCB window remains open until **December 31, 2026**.
   * **Foreign Exchange Reserves:** Surged by **$9.905 billion** in mid-August to reach **$716.90 billion**.
-  * 🎯 **Recap:** *Forex Swap: $72.85B total $mid$ FCNR(B) $65.4B (~90%) $mid$ OFCB $4.86B $mid$ ECB $2.59B $mid$ FCNR window shut Aug 31 $mid$ Forex reserves $716.9B.*
+  * 🎯 **Recap:** *Forex Swap: $72.85B total  •  FCNR(B) $65.4B (~90%)  •  OFCB $4.86B  •  ECB $2.59B  •  FCNR window shut Aug 31  •  Forex reserves $716.9B.*
 
 ---
 
@@ -136,12 +136,12 @@
 
 #### Must Memorize (Eligibility Tiers & Targets)
 * **Two Target Segments (TS1 & TS2) Ladder:**
-  * **Target Segment 1 (TS1 - Global/EMS Manufacturers):** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $\ge ₹5,000\text{ crore}$ above base.
+  * **Target Segment 1 (TS1 - Global/EMS Manufacturers):** Open to India-registered firms with minimum FY26 turnover of **₹10,000 crore**. Differentiated incentive of **2.25% to 5.0%** of eligible sales. Existing brands must achieve incremental annual sales $≥ ₹5,000 crore$ above base.
   * **Target Segment 2 (TS2 - Domestic Indian Brands):** Reserved for Indian brands with minimum FY26 turnover of **₹1,000 crore**. **5% base incentive** + **additional 3% incentive** for domestic design and R&D (up to 1-year gestation).
   * **Indian Brand Definition:** Trademark & IP held in India, **$>51\%$ Indian citizen control**, domestic design/R&D.
   * **Component Sourcing Booster:** Up to **1.5% additional incentive** for domestic procurement of camera/display modules, enclosures, batteries, and USB cables.
   * **Macro Targets:** Projected cumulative production of **~₹39 lakh crore** and **60,000 direct jobs**.
-  * 🎯 **Recap:** *MPMS Outlay: ₹62,500 Cr (FY27–31) $mid$ TS1 (Global): ₹10k Cr turnover, 2.25%-5% $mid$ TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D $mid$ ~₹39 Lakh Cr output.*
+  * 🎯 **Recap:** *MPMS Outlay: ₹62,500 Cr (FY27–31)  •  TS1 (Global): ₹10k Cr turnover, 2.25%-5%  •  TS2 (Indian): ₹1k Cr turnover, 5%+3% R&D  •  ~₹39 Lakh Cr output.*
 
 ---
 
@@ -166,7 +166,7 @@
   * **Employment Impact:** **74,628 direct jobs** and 2.5 lakh indirect jobs.
   * **Outlay Escalation:** Initial outlay of ₹22,919 Cr in April 2025 raised to **₹40,000 crore** in Union Budget 2026-27.
   * **National Goal:** Building a **$500 billion domestic electronics ecosystem by 2030-31**.
-  * 🎯 **Recap:** *ECMS: 106 projects cleared $mid$ ₹69,548 Cr investments $mid$ ₹5.34 Lakh Cr production $mid$ Outlay ₹40,000 Cr $mid$ $500B target by 2030-31.*
+  * 🎯 **Recap:** *ECMS: 106 projects cleared  •  ₹69,548 Cr investments  •  ₹5.34 Lakh Cr production  •  Outlay ₹40,000 Cr  •  $500B target by 2030-31.*
 
 ---
 
@@ -196,7 +196,7 @@
 ### 11. DPIIT Press Note 2 of 2026: 29 FDI Proposals Worth ₹4,895.65 Crore
 - **Category**: `MACRO_ECONOMY` | **Priority**: `P2_HIGH` | **Date**: `2026-08-20`
 * **Norms**: Permits automatic route FDI for foreign entities with **$<10\%$ non-controlling ownership** from Land Border Countries (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan).
-* **Tracked Inflows**: 29 FDI proposals worth **₹4,895.65 crore** ($> \$500\text{M}$) reported across IT, AI, electronics, and pharmaceuticals.
+* **Tracked Inflows**: 29 FDI proposals worth **₹4,895.65 crore** ($> \$500M$) reported across IT, AI, electronics, and pharmaceuticals.
 
 ### 12. DGFT Amends Foreign Trade Policy 2023 for Indian Rupee (INR) Export Invoicing
 - **Category**: `NATIONAL_AND_STATES` | **Priority**: `P2_HIGH` | **Date**: `2026-08-25`

@@ -28,10 +28,10 @@
 #### Context & Rationale
 * **Payment Architecture & Legal Provisions Ladder:**
   * **Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).
-  * **Section 269SU IT Act:** Applies to businesses with turnover $>₹50	ext{ Crore}$.
+  * **Section 269SU IT Act:** Applies to businesses with turnover $>₹50  Crore$.
   * **Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.
   * **Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.
-  * 🎯 **Recap:** *Sec 10A PSS Act amended $mid$ Enabling provision for UPI charges (no immediate levy) $mid$ Sec 269SU $>₹50$ Cr turnover.*
+  * 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU $>₹50$ Cr turnover.*
 
 #### Key Exam Takeaways
 - Amended Section: Section 10A of the Payment and Settlement Systems Act, 2007.
@@ -62,15 +62,15 @@
 * **FAST-DS Valuation & Procedure Ladder:**
   * **Operational Window:** **August 16 to December 31, 2026** (Benchmark: **March 31, 2026**).
   * **Asset Scope:** 4 categories (foreign assets, untaxed foreign income, non-resident assets, omitted FA schedules).
-  * **Form Workflow:** **Form 1** (Declaration) $	o$ **Form 2** (Determination Order by DG Income Tax Systems).
-  * **Payment Horizon:** **2 months** without interest $	o$ statutory immunity under Black Money Act 2015.
-  * 🎯 **Recap:** *FAST-DS: Aug 16–Dec 31, 2026 $mid$ March 31, 2026 benchmark $mid$ Form 1 $	o$ Form 2 (2 months to pay).*
+  * **Form Workflow:** **Form 1** (Declaration)  →  **Form 2** (Determination Order by DG Income Tax Systems).
+  * **Payment Horizon:** **2 months** without interest  →  statutory immunity under Black Money Act 2015.
+  * 🎯 **Recap:** *FAST-DS: Aug 16–Dec 31, 2026  •  March 31, 2026 benchmark  •  Form 1  →  Form 2 (2 months to pay).*
 
 #### Key Exam Takeaways
 - Statutory Authority: Chapter IV (Sections 130–144) of the Finance Act, 2026.
 - Operational Window: August 16, 2026 to December 31, 2026.
 - Valuation Date: March 31, 2026.
-- Procedural Forms: Form 1 (Declaration) $	o$ Form 2 (Determination Order).
+- Procedural Forms: Form 1 (Declaration)  →  Form 2 (Determination Order).
 - Payment Horizon: 2 months from Form 2 order without interest.
 
 ---
@@ -96,7 +96,7 @@
   * **Eligible Price:** Ex-showroom price up to **₹1.50 Lakh**.
   * **Claim Deadlines:** Submit by **December 31, 2027** (zero payments after March 31, 2028).
   * **E-Ambulances:** **₹500 Crore** supporting 3,811 electric ambulances.
-  * 🎯 **Recap:** *PM E-DRIVE: ₹11,900 Cr outlay to March 2028 $mid$ e-2W incentive ₹2,500/kWh (cap ₹5k) $mid$ Claim cut-off Dec 31, 2027.*
+  * 🎯 **Recap:** *PM E-DRIVE: ₹11,900 Cr outlay to March 2028  •  e-2W incentive ₹2,500/kWh (cap ₹5k)  •  Claim cut-off Dec 31, 2027.*
 
 #### Key Exam Takeaways
 - Total Scheme Outlay: ₹11,900 crore (extended from April 1, 2024 to March 31, 2028).
@@ -127,7 +127,7 @@
   * **New Data Parameters:** Collects ID numbers and **total number of bank accounts held**.
   * **Governing Provision:** Section 8(2) of the **Census Act, 1948**.
   * **Format:** **100% Digital Census** via mobile app.
-  * 🎯 **Recap:** *Census 2027: Phase 1 (33 questions), Phase 2 (40 questions) $mid$ 1st caste count since 1931 $mid$ Bank accounts recorded.*
+  * 🎯 **Recap:** *Census 2027: Phase 1 (33 questions), Phase 2 (40 questions)  •  1st caste count since 1931  •  Bank accounts recorded.*
 
 #### Key Exam Takeaways
 - Question Counts: Phase 1 = 33 questions (Houselisting) · Phase 2 = 40 questions (Household).
@@ -185,8 +185,8 @@
 
 ### 9. FSSAI Draft Regulations: Benchmark Nutrient Thresholds for HFSS Foods in Schools
 - **Category**: `NATIONAL_AND_STATES` | **Institution**: `FSSAI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-19`
-- **Key Facts**: HFSS limits: Solid per 100g (fat $>4.2	ext{g}$, sugar $>3	ext{g}$, salt $>0.625	ext{g}$).
-- Liquid per 100ml (fat $>1.5	ext{g}$, sugar $>2	ext{g}$, salt $>0.175	ext{g}$)..
+- **Key Facts**: HFSS limits: Solid per 100g (fat $>4.2 g$, sugar $>3 g$, salt $>0.625 g$).
+- Liquid per 100ml (fat $>1.5 g$, sugar $>2 g$, salt $>0.175 g$)..
 - 🎯 **Recap:** *FSSAI notified HFSS nutrient thresholds for schools.*
 
 ### 10. Parliament Passes Tribunals Reforms Bill, 2026: National Tribunals Commission Formed
@@ -208,7 +208,7 @@
 - **Category**: `GOVERNMENT_SCHEMES` | **Institution**: `MINISTRY_OF_JAL_SHAKTI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-15`
 - **Key Facts**: 82% coverage (15.91 Cr households) with 55 lpcd BIS 10500 water.
 - JJM 2.0 extended to Dec 2028 with **₹8.69 Lakh Crore outlay**..
-- 🎯 **Recap:** *JJM reached 82% rural coverage $mid$ JJM 2.0 outlay ₹8.69 Lakh Crore.*
+- 🎯 **Recap:** *JJM reached 82% rural coverage  •  JJM 2.0 outlay ₹8.69 Lakh Crore.*
 
 ### 14. MoSPI PLFS Quarterly Bulletin (April–June 2026): Headline UR at 5.4%, Youth UR at 15.9%
 - **Category**: `MACRO_ECONOMY` | **Institution**: `MOSPI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-10`
@@ -237,13 +237,13 @@
 ### 18. Supreme Court Directs 10-km Mining Buffer for Notified Wetlands & Glaw Lake 101st Ramsar Site
 - **Category**: `NATIONAL_AND_STATES` | **Institution**: `SUPREME_COURT_OF_INDIA` | **Priority**: `P2_HIGH` | **Date**: `2026-08-14`
 - **Key Facts**: Mandatory NBWL approval for mining within 10 km of notified wetlands; Glaw Lake is India's 101st Ramsar site.
-- 🎯 **Recap:** *10-km mining buffer for wetlands $mid$ Glaw Lake 101st Ramsar site.*
+- 🎯 **Recap:** *10-km mining buffer for wetlands  •  Glaw Lake 101st Ramsar site.*
 
 ### 19. IMF World Economic Outlook: Government Debt-to-GDP Projections 2026
 - **Category**: `ESI_FINANCE_BUSINESS` | **Institution**: `IMF` | **Priority**: `P2_HIGH` | **Date**: `2026-08-18`
 - **Key Facts**: Debt-to-GDP: #1 Japan (204.4%), #2 Singapore (171.9%), #9 USA (125.8%).
 - India debt at **$3.46 Trillion (8th largest)**..
-- 🎯 **Recap:** *Japan #1 debt-to-GDP (204.4%) $mid$ India debt $3.46 Trillion.*
+- 🎯 **Recap:** *Japan #1 debt-to-GDP (204.4%)  •  India debt $3.46 Trillion.*
 
 ### 20. SEBI Incident Reporting Portal (FSB FIRE) & Cyber Suraksha Portal
 - **Category**: `CAPITAL_MARKETS` | **Institution**: `SEBI` | **Priority**: `P2_HIGH` | **Date**: `2026-08-20`

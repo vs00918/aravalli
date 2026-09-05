@@ -41,7 +41,7 @@
     * **Jan Samarth Portal:** Credit-linked government subsidy window.
     * **e-KCC:** End-to-end digital processing and sanction.
     * **KRISHIKA:** AI platform for precision agri-underwriting.
-  * 🎯 **Recap:** *KCC-MISS: ₹1.27L Cr total DA&FW budget vs ~₹22.6k Cr MISS sub-allocation $mid$ ₹2.30 return per ₹1 $mid$ 4% net effective rate (7% - 3% PRI).*
+  * 🎯 **Recap:** *KCC-MISS: ₹1.27L Cr total DA&FW budget vs ~₹22.6k Cr MISS sub-allocation  •  ₹2.30 return per ₹1  •  4% net effective rate (7% - 3% PRI).*
 
 **Know / Understand & Provenance History**
 * **Provenance & Audit History (Phase 4 Correction — 3 Sep 2026):**
@@ -65,12 +65,12 @@
   * **Official Sanctioned Outlay:** **₹99,446 Crore** (FY 2025-26 to FY 2031-32).
   * **Employment Target:** Creation of **3.5 Crore formal jobs** (targeting **1.92 Crore first-time entrants**).
   * **Implementation Window:** **1 August 2025 to 31 July 2027** (2-year registration period).
-  * **Part A (First-Time Employees earning $\le ₹1\text{L/month}$):**
+  * **Part A (First-Time Employees earning $≤ ₹1L/month$):**
     * **1 month EPF wage up to ₹15,000**, paid in **2 equal instalments** (at 6 months & 12 months continuous service + financial literacy module).
   * **Part B (Employers):**
     * **Up to ₹3,000/month per additional employee for 2 years** (extended to **3rd and 4th years for manufacturing**).
   * **Digital Verification:** UAN Face Authentication on **UMANG App** and direct DBT.
-  * 🎯 **Recap:** *PM-VBRY: ₹99,446 Cr official outlay $mid$ 3.5 Cr jobs $mid$ ₹15k employee bonus (in 2 instalments at 6m & 12m) $mid$ ₹3k/mo employer incentive.*
+  * 🎯 **Recap:** *PM-VBRY: ₹99,446 Cr official outlay  •  3.5 Cr jobs  •  ₹15k employee bonus (in 2 instalments at 6m & 12m)  •  ₹3k/mo employer incentive.*
 
 **Know / Understand & Provenance History**
 * **Provenance & Audit History (Phase 4 Correction — 3 Sep 2026):**
@@ -100,7 +100,7 @@
     * Context: Smartphones became India's **#1 exported product category in 2025**; India is **#2 mobile manufacturer globally (99.2% domestic)**.
   * **Semicon 2.0:**
     * **₹1,27,500 Crore** outlay across 6 pillars (Design, Materials, Fabs, ATMP/OSAT, R&D Nodes, Talent).
-  * 🎯 **Recap:** *MPMS: ₹62,500 Cr (2.25%–5% sales incentive + 3% IP bonus) $mid$ Semicon 2.0: ₹1,27,500 Cr across 6 pillars.*
+  * 🎯 **Recap:** *MPMS: ₹62,500 Cr (2.25%–5% sales incentive + 3% IP bonus)  •  Semicon 2.0: ₹1,27,500 Cr across 6 pillars.*
 
 ---
 
@@ -122,55 +122,55 @@
   * **MSE Procurement:** 12.28 lakh MSEs secured **₹9 Lakh Crore+ (45.6% of GMV)**.
   * **Women-Led MSEs:** 2.24 lakh+ registered, securing **>₹1 Lakh Crore** in orders.
   * **Defence Procurement (DMA):** **₹1.35 Lakh Crore (14.93% of GMV)**.
-  * **Digital Channels:** Short Code **14550** $mid$ 50 **GeM Suvidha Kendras** $mid$ **GeM Sahay** loan integration with Union Bank of India.
-  * 🎯 **Recap:** *GeM: ₹20L Cr+ GMV in 10 years $mid$ MSEs 45.6% $mid$ Short Code 14550 $mid$ GeM Sahay.*
+  * **Digital Channels:** Short Code **14550**  •  50 **GeM Suvidha Kendras**  •  **GeM Sahay** loan integration with Union Bank of India.
+  * 🎯 **Recap:** *GeM: ₹20L Cr+ GMV in 10 years  •  MSEs 45.6%  •  Short Code 14550  •  GeM Sahay.*
 
 ---
 
 ## 📈 PART 2: P2 — HIGH (MEMORIZE KEY FACTS, SCHEMES & APPOINTMENTS)
 
 1. **PAIMANA Infrastructure Governance & 165-Indicator Dashboard**:
-   * MoSPI launched PAIMANA for projects $ge mathbf{₹150	ext{ Crore}}$ (replaces OCMS); PAIMANA-CRIP repository launched; 165 indicators across 6 sub-sectors with NIPFP.
-   * 🎯 **Recap:** *PAIMANA: Infrastructure monitoring for $ge ₹150$ Cr projects (165 indicators).*
+   * MoSPI launched PAIMANA for projects ≥ mathbf{₹150  Crore}$ (replaces OCMS); PAIMANA-CRIP repository launched; 165 indicators across 6 sub-sectors with NIPFP.
+   * 🎯 **Recap:** *PAIMANA: Infrastructure monitoring for ≥ ₹150 Cr projects (165 indicators).*
 2. **Periodic Labour Force Survey (PLFS) Quarterly Bulletin (April–June 2026)**:
-   * LFPR (15+) at **54.6%** $mid$ Urban LFPR: **50.2%** $mid$ Urban UR: **6.7%** $mid$ Urban WPR: **46.8%**.
-   * 🎯 **Recap:** *PLFS Q1 FY27: Urban UR 6.7% $mid$ Urban LFPR 50.2%.*
+   * LFPR (15+) at **54.6%**  •  Urban LFPR: **50.2%**  •  Urban UR: **6.7%**  •  Urban WPR: **46.8%**.
+   * 🎯 **Recap:** *PLFS Q1 FY27: Urban UR 6.7%  •  Urban LFPR 50.2%.*
 3. **PM SVANidhi: Loan Structure & March 2030 Extension**:
-   * Extended till **March 2030** $mid$ 3 Slabs: ₹15k (12m) $	o$ ₹25k (18m) $	o$ ₹50k (36m) $mid$ 7% interest subsidy $mid$ Top State: **Uttar Pradesh** $mid$ Top Bank: **SBI**.
-   * 🎯 **Recap:** *PM SVANidhi: ₹15k/₹25k/₹50k tranches $mid$ Extended to 2030 $mid$ UP & SBI #1.*
+   * Extended till **March 2030**  •  3 Slabs: ₹15k (12m)  →  ₹25k (18m)  →  ₹50k (36m)  •  7% interest subsidy  •  Top State: **Uttar Pradesh**  •  Top Bank: **SBI**.
+   * 🎯 **Recap:** *PM SVANidhi: ₹15k/₹25k/₹50k tranches  •  Extended to 2030  •  UP & SBI #1.*
 4. **National Investment Policy for Urea-2026 (NIPU-2026)**:
-   * 12%–16% RoE band $mid$ Converts foreign exchange risk on fixed costs to INR after 4 years.
+   * 12%–16% RoE band  •  Converts foreign exchange risk on fixed costs to INR after 4 years.
    * 🎯 **Recap:** *NIPU-2026: 12%–16% RoE band for gas-based urea plants.*
 5. **National Handloom Day (7 August) & 4th Handloom Census**:
-   * 31.45 lakh households (35.22 lakh workers, >72% women) $mid$ Weaver MUDRA at **6% interest** $mid$ Sant Kabir Award carries **₹3.5 Lakh**.
-   * 🎯 **Recap:** *National Handloom Day (Aug 7) $mid$ 6% Weaver MUDRA.*
+   * 31.45 lakh households (35.22 lakh workers, >72% women)  •  Weaver MUDRA at **6% interest**  •  Sant Kabir Award carries **₹3.5 Lakh**.
+   * 🎯 **Recap:** *National Handloom Day (Aug 7)  •  6% Weaver MUDRA.*
 6. **GI Tags 2025 Reforms & National Landscape**:
-   * 800+ registered GIs (Target: 10,000 by 2030) $mid$ Leading: **1st UP (81 GIs)**, 2nd TN (76), 3rd MH (55) $mid$ Renewal fee cut to ₹500.
-   * 🎯 **Recap:** *UP leads India with 81 GI tags $mid$ Target 10k GIs by 2030.*
+   * 800+ registered GIs (Target: 10,000 by 2030)  •  Leading: **1st UP (81 GIs)**, 2nd TN (76), 3rd MH (55)  •  Renewal fee cut to ₹500.
+   * 🎯 **Recap:** *UP leads India with 81 GI tags  •  Target 10k GIs by 2030.*
 7. **Electric Vehicles (EV) Landscape & PM E-DRIVE**:
-   * FY26 EV share 8.26% (2.3M units; UP #1 at 4L+) $mid$ PM E-DRIVE outlay **₹10,900 Crore** (14,028 e-buses) $mid$ CAFE III 91.7 g CO₂/km.
-   * 🎯 **Recap:** *PM E-DRIVE: ₹10,900 Cr outlay for 28L+ EVs $mid$ UP #1 EV market.*
+   * FY26 EV share 8.26% (2.3M units; UP #1 at 4L+)  •  PM E-DRIVE outlay **₹10,900 Crore** (14,028 e-buses)  •  CAFE III 91.7 g CO₂/km.
+   * 🎯 **Recap:** *PM E-DRIVE: ₹10,900 Cr outlay for 28L+ EVs  •  UP #1 EV market.*
 8. **CPGRAMS, 21-Day Resolution Target & Samadhan Didi AI**:
-   * Resolution target: **21 days** (Appellate: 30 days; average 15 days in 2025) $mid$ **Samadhan Didi** AI voice bot in 22 languages.
-   * 🎯 **Recap:** *CPGRAMS: 21-day resolution target $mid$ Samadhan Didi AI in 22 languages.*
+   * Resolution target: **21 days** (Appellate: 30 days; average 15 days in 2025)  •  **Samadhan Didi** AI voice bot in 22 languages.
+   * 🎯 **Recap:** *CPGRAMS: 21-day resolution target  •  Samadhan Didi AI in 22 languages.*
 9. **Pradhan Mantri Shram Yogi Maandhan (PM-SYM)**:
-   * Voluntary pension for unorganised workers (age 18–40, income $le ₹15,000$) $mid$ **₹3,000/month after 60 years** $mid$ ₹55–₹200 monthly contribution (50% matching Govt).
+   * Voluntary pension for unorganised workers (age 18–40, income ≤ ₹15,000)  •  **₹3,000/month after 60 years**  •  ₹55–₹200 monthly contribution (50% matching Govt).
    * 🎯 **Recap:** *PM-SYM: ₹3,000/mo pension after 60 for unorganised workers.*
 10. **e-Shram Portal & One-Stop-Solution**:
-    * **31.82 Crore+ workers registered** with UAN $mid$ 15 Central schemes integrated on One-Stop-Solution.
+    * **31.82 Crore+ workers registered** with UAN  •  15 Central schemes integrated on One-Stop-Solution.
     * 🎯 **Recap:** *e-Shram: 31.82 Cr registered workers across 15 integrated schemes.*
 11. **PMAY-G Progress & Housing Milestones**:
-    * 3.12 Crore completed houses (60% earmarked for SC/ST) $mid$ Maharashtra top sanctions (9.4L); Chhattisgarh top completions (5.9L).
+    * 3.12 Crore completed houses (60% earmarked for SC/ST)  •  Maharashtra top sanctions (9.4L); Chhattisgarh top completions (5.9L).
     * 🎯 **Recap:** *PMAY-G: 3.12 Crore completed houses.*
 12. **MSME Sustainable (ZED) Certification & 100% Women Subsidy**:
-    * Bronze $	o$ Silver $	o$ Gold $mid$ **100% subsidy on certification for women-owned MSMEs**.
+    * Bronze  →  Silver  →  Gold  •  **100% subsidy on certification for women-owned MSMEs**.
     * 🎯 **Recap:** *ZED certification: 100% subsidy for women entrepreneurs.*
 13. **NITI Aayog Report "Reimagining Care"**:
     * Proposes National Caregiver Council & Caregiver Qualification Framework for Viksit Bharat@2047.
     * 🎯 **Recap:** *NITI Aayog recommends National Caregiver Council.*
 14. **India Solar Growth & PM-KUSUM / PM Surya Ghar Trajectory**:
-    * Added 37 GW solar in 2025 $mid$ PM-KUSUM targets 34,800 MW by 2026-27 (₹34,422 Cr) $mid$ PM Surya Ghar (₹75,021 Cr) solarised 43L+ homes.
-    * 🎯 **Recap:** *India added 37 GW solar in 2025 $mid$ PM-KUSUM target 34.8 GW.*
+    * Added 37 GW solar in 2025  •  PM-KUSUM targets 34,800 MW by 2026-27 (₹34,422 Cr)  •  PM Surya Ghar (₹75,021 Cr) solarised 43L+ homes.
+    * 🎯 **Recap:** *India added 37 GW solar in 2025  •  PM-KUSUM target 34.8 GW.*
 
 ---
 

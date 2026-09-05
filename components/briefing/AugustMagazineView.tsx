@@ -158,9 +158,9 @@ export function AugustMagazineView({
         <div className="max-w-6xl mx-auto px-4 py-2 border-t border-gray-100 dark:border-gray-900 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs">
           <button
             onClick={() => setSelectedSection("ALL")}
-            className={`shrink-0 px-2.5 py-1 rounded-lg font-medium transition-all ${
+            className={`shrink-0 px-3 py-1 rounded-lg font-semibold transition-all ${
               selectedSection === "ALL"
-                ? "bg-[var(--text-primary)] text-[var(--background)] shadow-xs"
+                ? "bg-indigo-600 text-white shadow-xs"
                 : "bg-gray-100 dark:bg-gray-900 text-[var(--text-secondary)] hover:bg-gray-200 dark:hover:bg-gray-800"
             }`}
           >
@@ -170,9 +170,9 @@ export function AugustMagazineView({
             <button
               key={sec.id}
               onClick={() => setSelectedSection(sec.id)}
-              className={`shrink-0 flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-medium transition-all ${
+              className={`shrink-0 flex items-center gap-1.5 px-3 py-1 rounded-lg font-medium transition-all ${
                 selectedSection === sec.id
-                  ? "bg-indigo-600 text-white shadow-xs"
+                  ? "bg-indigo-600 text-white shadow-xs font-semibold"
                   : "bg-gray-100 dark:bg-gray-900 text-[var(--text-secondary)] hover:bg-gray-200 dark:hover:bg-gray-800"
               }`}
             >
@@ -275,7 +275,7 @@ export function AugustMagazineView({
               <section
                 key={sec.id}
                 id={sec.id}
-                className="space-y-6 scroll-mt-28"
+                className="space-y-6 scroll-mt-36 pt-4"
               >
                 {/* SECTION HEADER BANNER (Quiet Editorial Style) */}
                 <div className="pt-8 pb-3 border-b-2 border-gray-900/10 dark:border-gray-100/10 flex flex-col md:flex-row md:items-baseline justify-between gap-3">

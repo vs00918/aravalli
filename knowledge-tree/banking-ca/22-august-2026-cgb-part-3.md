@@ -29,10 +29,10 @@
   * **Lines of Credit (LoC) & EXIM Bank Financing:**
     * Exports financed under **Government of India Lines of Credit (LoC)** or **EXIM Bank** can be denominated and settled in INR.
   * **Asian Clearing Union (ACU) Rules:**
-    * **Established:** **1974** $mid$ **Members (9):** Bangladesh, Bhutan, India, Iran, Maldives, Myanmar, Nepal, Pakistan, Sri Lanka.
+    * **Established:** **1974**  •  **Members (9):** Bangladesh, Bhutan, India, Iran, Maldives, Myanmar, Nepal, Pakistan, Sri Lanka.
     * **Settlement Mechanism:** Regional net obligation settlement through central banks.
     * **Rule for ACU:** Invoicing/contracts generally in ACU-determined currencies, but **may also be settled in INR as per specific RBI directions**.
-  * 🎯 **Recap:** *FTP 2023 amended: Global exports can be invoiced in INR $mid$ EXIM/GoI LoC exports eligible $mid$ Aligned with FEMA 2023 $mid$ ACU (9 members, est 1974).*
+  * 🎯 **Recap:** *FTP 2023 amended: Global exports can be invoiced in INR  •  EXIM/GoI LoC exports eligible  •  Aligned with FEMA 2023  •  ACU (9 members, est 1974).*
 
 **Know / Understand**
 * Boosts rupee internationalisation by removing regulatory friction for overseas buyers seeking to settle trades via Special Rupee Vostro Accounts (SRVAs) and bilateral local currency mechanisms.
@@ -56,9 +56,9 @@
     * **Scalability (5%)** & **Incident Handling (5%)**: Balance weights (**10%**).
   * **Early Warning System (EWS):** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**.
   * **First Computation Window:** Half-year ended **31 March 2027**.
-  * **Reporting Cycle:** Computed **half-yearly** $mid$ Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards.
+  * **Reporting Cycle:** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards.
   * **Cyber Incident Reporting:** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**.
-  * 🎯 **Recap:** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%) $mid$ Half-yearly computation in 60 days $mid$ EWS by Feb 28, 2027 $mid$ FSB FIRE alignment.*
+  * 🎯 **Recap:** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*
 
 ---
 
@@ -79,10 +79,10 @@
 * **FICP Qualification & OBPP Norms Ladder:**
   * **Individual Eligibility:** Indian citizen, **18+ years**, **Class 12 pass**, and valid **NISM Fixed Income Certification**.
   * **Entities & AMFI Distributors:** Partnership firms, corporates, and AMFI mutual fund distributors can register (AMFI distributors exempt from enlistment fees, subject to NISM certification).
-  * **Enlistment Timeline:** Stock exchanges must decide on applications within **21 days** $mid$ Validity: **3 years (renewable)**.
+  * **Enlistment Timeline:** Stock exchanges must decide on applications within **21 days**  •  Validity: **3 years (renewable)**.
   * **OBPP Mandatory Disclosures:** Must disclose issuer, tenor, credit rating, security nature, clean/dirty prices, Yield to Maturity (YTM), and **Credit Risk-o-Meter**.
   * **Ad Restrictions:** Prohibits deceptive phrases like *"fixed returns"*, *"predictable returns"*, and *"passive income"*.
-  * 🎯 **Recap:** *FICPs: Class 12 + NISM certification $mid$ 21-day exchange approval $mid$ 3-year validity $mid$ OBPPs barred from "fixed returns" claims.*
+  * 🎯 **Recap:** *FICPs: Class 12 + NISM certification  •  21-day exchange approval  •  3-year validity  •  OBPPs barred from "fixed returns" claims.*
 
 ---
 
@@ -104,7 +104,7 @@
   * **Dormant Account Exemption:** Zero fees charged on dormant accounts.
   * **Dormant Account Definition:** An account with **no contributions for 4 consecutive quarters** following a contribution quarter.
   * **Implementation:** Central Recordkeeping Agencies (CRAs) begin automated deductions from **Q3 FY 2026–27**.
-  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of Assets Under Management (AUM) paid to PoPs quarterly $mid$ 0% fee on dormant accounts (4 quarters no contribution).*
+  * 🎯 **Recap:** *NPS charges (w.e.f. Oct 1, 2026): 0.20% p.a. of Assets Under Management (AUM) paid to PoPs quarterly  •  0% fee on dormant accounts (4 quarters no contribution).*
 
 ---
 
@@ -126,11 +126,11 @@
     * **1 Chairperson** + **2 Full-Time Members** + **3 Ex-Officio Members** + **1 Part-Time Member** (representing recognized commerce/industry bodies).
   * **Tenure & Age Caps:**
     * Non-ex-officio members serve for **4 years** (eligible for reappointment).
-    * **Age Limit:** Up to **70 years** for Chairperson $mid$ Up to **67 years** for Members.
+    * **Age Limit:** Up to **70 years** for Chairperson  •  Up to **67 years** for Members.
   * **Mediation Act 2023 Statutory Timelines:**
     * Pre-litigation mediation must be completed within **180 days (6 months)** from first appearance.
     * Extendable by a further **180 days** with mutual consent of parties.
-  * 🎯 **Recap:** *Mediation Council of India: Sec 31(1) Mediation Act 2023 $mid$ 1 Chair + 2 Members (4-yr term; age 70/67) $mid$ 180+180 days mediation window.*
+  * 🎯 **Recap:** *Mediation Council of India: Sec 31(1) Mediation Act 2023  •  1 Chair + 2 Members (4-yr term; age 70/67)  •  180+180 days mediation window.*
 
 ---
 
@@ -155,7 +155,7 @@
   * **Pillar 5:** **Counter-Radicalization** (Community outreach and digital de-radicalisation).
   * **Pillar 6:** **International Cooperation** (Cross-border intelligence and FATF alignment).
   * **Pillar 7:** **Recovery & Resilience** (Post-incident societal rehabilitation and infrastructure hardening).
-  * 🎯 **Recap:** *PRAHAAR: India's 1st National Counter Terrorism Strategy $mid$ 7 pillars spanning Prevention, Response, Whole-of-Govt, to Resilience.*
+  * 🎯 **Recap:** *PRAHAAR: India's 1st National Counter Terrorism Strategy  •  7 pillars spanning Prevention, Response, Whole-of-Govt, to Resilience.*
 
 ---
 
@@ -167,17 +167,17 @@
 ### 7. Revised FDI Screening Framework: 29 Proposals Worth ₹4,800 Crore Processed
 * **Category:** `MACRO_ECONOMY` | **Institution:** `DPIIT` | **Priority:** `P2_HIGH` | **Date:** `2026-08-20`
 * **Key Facts:** 29 proposals worth **₹4,800 Crore** reported under revised framework; majority Indian ownership/control mandatory; investment $>10%$ from land-bordering nations requires GoI approval; **60-day fast-track timeline** for solar polysilicon, capital goods, and electronics components.
-* 🎯 **Recap:** *Revised FDI: ₹4,800 Cr in 29 proposals $mid$ 60-day approval for solar/electronics capital goods.*
+* 🎯 **Recap:** *Revised FDI: ₹4,800 Cr in 29 proposals  •  60-day approval for solar/electronics capital goods.*
 
 ### 8. Government Permits Duty-Free Raw Sugar Import of 10 Lakh Tonnes Under TRQ
 * **Category:** `MACRO_ECONOMY` | **Institution:** `DGFT` | **Priority:** `P2_HIGH` | **Date:** `2026-08-22`
 * **Key Facts:** Duty-free import of **10 Lakh Metric Tonnes (LMT)** raw sugar allowed under Tariff Rate Quota (TRQ) till **31 October 2026**; Brazil is #1 producer (43.8 MT, 24%), India is #2 (30 MT, 16%); Top Indian states: Maharashtra, UP, Karnataka, TN, Gujarat.
-* 🎯 **Recap:** *10 LMT raw sugar duty-free import under TRQ till Oct 31, 2026 $mid$ India #2 producer (30 MT).*
+* 🎯 **Recap:** *10 LMT raw sugar duty-free import under TRQ till Oct 31, 2026  •  India #2 producer (30 MT).*
 
 ### 9. DAY-NRLM National Campaign on Entrepreneurship-II & Udyam Sakhis
 * **Category:** `GOVERNMENT_SCHEMES` | **Institution:** `MINISTRY_OF_RURAL_DEVELOPMENT` | **Priority:** `P2_HIGH` | **Date:** `2026-08-22`
 * **Key Facts:** 3-month campaign (22 Aug–21 Nov 2026) targeting **6 Crore Lakhpati Didis**; launched *Sankalp Shakti* monthly rural enterprise bulletin; CRP-EPs & BDSPs designated as **'Udyam Sakhis'**.
-* 🎯 **Recap:** *DAY-NRLM Entrepreneurship-II: Target 6 Cr Lakhpati Didis $mid$ Udyam Sakhis & Sankalp Shakti.*
+* 🎯 **Recap:** *DAY-NRLM Entrepreneurship-II: Target 6 Cr Lakhpati Didis  •  Udyam Sakhis & Sankalp Shakti.*
 
 ### 10. DGFT Relaxes One Star Export House Eligibility: 2 of Preceding 3 Years
 * **Category:** `MACRO_ECONOMY` | **Institution:** `DGFT` | **Priority:** `P2_HIGH` | **Date:** `2026-08-24`
@@ -187,12 +187,12 @@
 ### 11. UPI 10-Year Milestone: 24,162+ Crore Annual Transactions & 11 Global Countries
 * **Category:** `DIGITAL_PAYMENTS` | **Institution:** `NPCI` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
 * **Key Facts:** Launched 25 August 2016; annual transactions surged from 1.78 Cr (FY17) to **24,162+ Crore (FY26)**; live banks grew from 44 to **703**; accounts for **~49% of global real-time payments** (IMF); live in **11 countries** (UAE, France, Bhutan, Sri Lanka, Nepal, Singapore, Mauritius, Qatar, Cambodia, Greece, Maldives).
-* 🎯 **Recap:** *UPI 10 years: 24,162 Cr annual txns $mid$ 703 banks $mid$ 49% global real-time share $mid$ 11 countries.*
+* 🎯 **Recap:** *UPI 10 years: 24,162 Cr annual txns  •  703 banks  •  49% global real-time share  •  11 countries.*
 
 ### 12. PM Jan Dhan Yojana (PMJDY) 12-Year Milestones: ₹3.17 Lakh Crore Deposits Across 59 Crore Accounts
 * **Category:** `GOVERNMENT_SCHEMES` | **Institution:** `MINISTRY_OF_FINANCE` | **Priority:** `P2_HIGH` | **Date:** `2026-08-28`
 * **Key Facts:** Launched 28 August 2014; **>59 Crore accounts with ₹3.17 Lakh Crore deposits** (78% rural/semi-urban, 56% women); 41.29 Cr RuPay cards issued; average balance reached **₹5,356** (up 3.4x in 12 years); ₹10,000 OD & ₹2 Lakh accident cover.
-* 🎯 **Recap:** *PMJDY 12 years: 59 Cr accounts (₹3.17L Cr) $mid$ Avg deposit ₹5,356 $mid$ 78% rural.*
+* 🎯 **Recap:** *PMJDY 12 years: 59 Cr accounts (₹3.17L Cr)  •  Avg deposit ₹5,356  •  78% rural.*
 
 ### 13. S&P Global Affirms India Sovereign Rating at 'BBB/A-2' with Stable Outlook
 * **Category:** `MACRO_ECONOMY` | **Institution:** `INTERNATIONAL_BODIES` | **Priority:** `P2_HIGH` | **Date:** `2026-08-26`
@@ -217,7 +217,7 @@
 ### 17. Outward Remittances Under RBI Liberalised Remittance Scheme (LRS) Surge to $2.5 Billion
 * **Category:** `BANKING_REGULATION` | **Institution:** `RESERVE_BANK_OF_INDIA` | **Priority:** `P2_HIGH` | **Date:** `2026-08-24`
 * **Key Facts:** Q1 FY27 outward remittances under LRS rose 19.9% YoY to **$2.5 Billion**; LRS introduced in **2004** ($25,000 initial limit, currently **$250,000 per FY** per resident).
-* 🎯 **Recap:** *Q1 FY27 LRS remittances reached $2.5B $mid$ Annual limit $250,000.*
+* 🎯 **Recap:** *Q1 FY27 LRS remittances reached $2.5B  •  Annual limit $250,000.*
 
 ### 18. RBI First Quarter FY27 NRI Deposit Inflows Decline 23% to $2.78 Billion
 * **Category:** `BANKING_REGULATION` | **Institution:** `RESERVE_BANK_OF_INDIA` | **Priority:** `P2_HIGH` | **Date:** `2026-08-24`
@@ -367,7 +367,7 @@
 ### 47. NITI Aayog Report "Reimagining Skilling for Viksit Bharat@2047": 8.7 Crore Youth in NEET
 * **Category:** `REPORTS_AND_INDICES` | **Institution:** `NITI_AAYOG` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
 * **Key Facts:** 8.7 Crore Indian youth (15–29) categorized as NEET (Not in Education, Employment, or Training); only **8.25% of graduates** employed in roles matching qualifications.
-* 🎯 **Recap:** *NITI Aayog: 8.7 Cr youth in NEET $mid$ Only 8.25% graduates in matched roles.*
+* 🎯 **Recap:** *NITI Aayog: 8.7 Cr youth in NEET  •  Only 8.25% graduates in matched roles.*
 
 ### 48. DMRC Receives ISO 55001:2024 Asset Management Certification for Mumbai Metro Line-3
 * **Category:** `NATIONAL_AND_STATES` | **Institution:** `DMRC` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
@@ -397,7 +397,7 @@
 ### 53. Sundeep Sikka Appointed Chairman of Association of Mutual Funds in India (AMFI)
 * **Category:** `APPOINTMENTS` | **Institution:** `AMFI` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
 * **Key Facts:** Sundeep Sikka (Nippon Life India AMC) elected AMFI Chairman; Vishal Kapoor (Bandhan AMC) elected Vice Chairman.
-* 🎯 **Recap:** *Sundeep Sikka elected AMFI Chairman $mid$ Vishal Kapoor Vice Chairman.*
+* 🎯 **Recap:** *Sundeep Sikka elected AMFI Chairman  •  Vishal Kapoor Vice Chairman.*
 
 ### 54. Rajendra Kumar Saboo Appointed MD & CEO of UCO Bank
 * **Category:** `APPOINTMENTS` | **Institution:** `UCO_BANK` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
@@ -411,8 +411,8 @@
 
 ### 56. 2026 FIH Hockey World Cup (Belgium & Netherlands): Germany & Argentina Champions
 * **Category:** `SPORTS_AND_AWARDS` | **Institution:** `OTHER` | **Priority:** `P2_HIGH` | **Date:** `2026-08-25`
-* **Key Facts:** Men's: Germany won 4th title (1-0 vs Spain); India 8th (capt. Harmanpreet Singh) $mid$ Women's: Argentina won 3rd title; India finished **4th (best World Cup result in 52 years since 1974)** under captain Salima Tete (beat Germany 3-1).
-* 🎯 **Recap:** *FIH World Cup: Germany (Men) & Argentina (Women) champions $mid$ Indian Women 4th (best in 52 yrs).*
+* **Key Facts:** Men's: Germany won 4th title (1-0 vs Spain); India 8th (capt. Harmanpreet Singh)  •  Women's: Argentina won 3rd title; India finished **4th (best World Cup result in 52 years since 1974)** under captain Salima Tete (beat Germany 3-1).
+* 🎯 **Recap:** *FIH World Cup: Germany (Men) & Argentina (Women) champions  •  Indian Women 4th (best in 52 yrs).*
 
 ---
 
@@ -515,7 +515,7 @@
   * `P2 — High`: **50**
   * `P3 — Moderate`: **45+ Factoids in structured clusters**
 * **Low-Yield / Filtered Out**: **22**
-* **Mathematical Reconciliation**: $85	ext{ Candidate items} = 56	ext{ New} + 7	ext{ Enriched} + 22	ext{ Filtered}$.
+* **Mathematical Reconciliation**: $85  Candidate items = 56  New + 7  Enriched + 22  Filtered$.
 
 ---
 

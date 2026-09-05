@@ -26,7 +26,7 @@
 * **Dynamic Price Bands Architecture Ladder:**
   * **Initial Dynamic Band:** $pm mathbf{10%}$ for equity and debt ETFs (excluding overnight/liquid ETFs).
   * **Cooling-Off Expansion:** Can expand up to $pm mathbf{20%}$ after mandatory pause:
-    * **15-Minute Cooling-Off:** Triggered if price moves $ge 9.90%$ during regular hours.
+    * **15-Minute Cooling-Off:** Triggered if price moves ≥ 9.90%$ during regular hours.
     * **5-Minute Cooling-Off:** If extreme movement occurs in **final 30 minutes**.
   * **Fixed Band:** $pm mathbf{5%}$ for overnight and liquid ETFs.
 * **Base Price Hierarchy Ladder:**
@@ -34,7 +34,7 @@
   2. **Secondary:** Last Traded Price (LTP) if no trades in last 30 minutes.
   3. **Tertiary:** Latest closing Net Asset Value (NAV) if zero volume all day.
   4. **Universal Standard:** Transition to **T-1 day closing NAV** from **April 1, 2027**.
-  * 🎯 **Recap:** *Initial ETF band: $pm 10%$ (expands to $pm 20%$) $mid$ Cooling-off: 15 min / 5 min in last 30 min $mid$ Universal T-1 NAV base price by April 2027.*
+  * 🎯 **Recap:** *Initial ETF band: $pm 10%$ (expands to $pm 20%$)  •  Cooling-off: 15 min / 5 min in last 30 min  •  Universal T-1 NAV base price by April 2027.*
 
 #### Know / Understand
 * Protects retail investors from execution slippage in illiquid commodity ETFs by capping intraday swings with cooling-off triggers and anchoring prices to 30-minute VWAP.
@@ -43,7 +43,7 @@
 * Initial dynamic price band for ETFs: $pm 10%$ (expandable to $pm 20%$).
 * Fixed price band for overnight/liquid ETFs: $pm 5%$.
 * Cooling-off duration: 15 minutes (normal) vs 5 minutes (last 30 mins).
-* Base price fallback: 30-min VWAP $	o$ LTP $	o$ Closing NAV $	o$ T-1 NAV (by April 2027).
+* Base price fallback: 30-min VWAP  →  LTP  →  Closing NAV  →  T-1 NAV (by April 2027).
 
 ---
 
@@ -66,7 +66,7 @@
   * **Non-Compliant Operators:** Receive only **1-year temporary renewals**.
   * **FATF Non-Compliant Jurisdictions:** Aggregate voting rights and shareholding **strictly capped below 20%** (barred from acquiring significant influence).
   * **Surrender Norms:** Mandatory consumer escrow settlement and cooling-off frameworks upon voluntary license surrender.
-  * 🎯 **Recap:** *Perpetual PSO license for compliant entities $mid$ FATF non-compliant stake capped $<20%$.*
+  * 🎯 **Recap:** *Perpetual PSO license for compliant entities  •  FATF non-compliant stake capped $<20%$.*
 
 #### Exam Focus
 * License validity: Perpetual for new compliant PSOs (1-year conditional for deficient operators).
@@ -83,7 +83,7 @@
 * **Event Date:** 2026-06-22
 * **Must Memorize Facts:**
   * **AIF Liquidation Retentions:**
-    * AIFs and VCFs permitted to retain liquidation proceeds for tax/litigation liabilities with consent of **$ge 75%$ of investors by value**.
+    * AIFs and VCFs permitted to retain liquidation proceeds for tax/litigation liabilities with consent of **≥ 75%$ of investors by value**.
     * Formalized **'Inoperative Fund'** status for wound-up funds awaiting license surrender.
   * 🎯 **Recap:** *AIF litigation retention allowed with 75% investor consent by value.*
 
@@ -104,7 +104,7 @@
 * **Event Date:** 2026-06-10
 * **Must Memorize Facts:**
   * **Asia-Pacific Leverage Leaderboard:**
-    * **Kotak Mahindra Bank** reported highest leverage ratio (**16.56%**) among APAC banks with assets $ge $100	ext{B}$.
+    * **Kotak Mahindra Bank** reported highest leverage ratio (**16.56%**) among APAC banks with assets ≥100 B$.
     * Other Indian banks: HDFC Bank (**11.14%**), ICICI Bank (**10.84%**), Axis Bank (**9.28%**).
   * 🎯 **Recap:** *Kotak Mahindra Bank #1 in APAC with 16.56% leverage ratio.*
 
@@ -183,7 +183,7 @@
 
 # PART 3: P3 — MODERATE (RAPID-SCAN FACTOIDS & GLOBAL EVENTS)
 
-* **SEBI VRR Norms**: FPIs under Voluntary Retention Route must maintain investments for **minimum 3 years** (holding $ge 75%$ of allocated funds in India); limits: ₹40,000 cr VRR-Govt, ₹35,000 cr VRR-Corp.
+* **SEBI VRR Norms**: FPIs under Voluntary Retention Route must maintain investments for **minimum 3 years** (holding ≥ 75%$ of allocated funds in India); limits: ₹40,000 cr VRR-Govt, ₹35,000 cr VRR-Corp.
 * **BharatPe Flex**: Credit-on-UPI service launched in partnership with **YES Bank** offering up to 45 days interest-free credit.
 * **TReDS Platforms (5 Authorised)**: RXIL (SIDBI+NSE), Invoicemart (Axis+mjunction), M1xchange (Mynd Solutions), C2FO, DTX by KredX (*GeM-Sahay is not a Trade Receivables Discounting System (TReDS) platform*).
 * **NCDEX 'Har Ghar Investor'**: Nation-wide investor access campaign launched in Guwahati with vision *"Equity for Bharat"*; MD & CEO: Dr. Arun Raste.

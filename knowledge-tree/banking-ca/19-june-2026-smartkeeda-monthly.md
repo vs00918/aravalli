@@ -34,11 +34,11 @@
   * **Standing Deposit Facility (SDF):** **5.00%** (25 bps below Repo)
   * **Marginal Standing Facility (MSF) & Bank Rate:** **5.50%** (25 bps above Repo)
   * **Fixed Reverse Repo Rate:** **3.35%**
-  * **CRR:** **3.00%** $mid$ **SLR:** **18.00%**
+  * **CRR:** **3.00%**  •  **SLR:** **18.00%**
 * **Macro Projections (FY 2026–27):**
   * **Real GDP Growth:** **6.6%**
   * **CPI Inflation:** **5.1%** (Quarterly Path: Q1 **4.2%**, Q2 **5.1%**, Q3 **5.9%**, Q4 **5.4%**)
-  * 🎯 **Recap:** *Repo: 5.25% (Neutral) $mid$ SDF: 5.00% $mid$ MSF: 5.50% $mid$ CRR: 3.00%, SLR: 18.00% $mid$ FY27 GDP: 6.6%, CPI: 5.1%.*
+  * 🎯 **Recap:** *Repo: 5.25% (Neutral)  •  SDF: 5.00%  •  MSF: 5.50%  •  CRR: 3.00%, SLR: 18.00%  •  FY27 GDP: 6.6%, CPI: 5.1%.*
 
 #### Exam Focus
 * Current Policy Rates: Repo 5.25%, SDF 5.00%, MSF 5.50%, CRR 3.00%, SLR 18.00%.
@@ -69,7 +69,7 @@
   * **Nominal GDP (Current Prices):** **₹346.36 Lakh Crore** *(Growth: **8.9%**)*
   * **Real GVA:** **₹294.91 Lakh Crore** *(Growth: **7.9%**)*
   * **Q4 FY26 Real GDP Growth:** **7.8% YoY** (Nominal: 9.1%)
-  * 🎯 **Recap:** *FY26 Real GDP: 7.7% (₹323.12L Cr) $mid$ Nominal GDP: ₹346.36L Cr (8.9%) $mid$ Base Year: 2022-23.*
+  * 🎯 **Recap:** *FY26 Real GDP: 7.7% (₹323.12L Cr)  •  Nominal GDP: ₹346.36L Cr (8.9%)  •  Base Year: 2022-23.*
 
 #### Exam Focus
 * FY26 Annual Real GDP Growth: 7.7% (Constant 2022-23 prices).
@@ -102,7 +102,7 @@
   3. **Electricity & Gas Supply:** **10.865% weight** *(April: +4.9%)*
   4. **Water Supply, Sewerage & Waste Management:** **2.020% weight** *(April: +6.6%; newly added)*
 * **Top Growing Use-Based Segment:** **Capital Goods** at **+16.0%**.
-  * 🎯 **Recap:** *IIP Base 2022-23=100 $mid$ 4 Sectors: Mfg (76.06%), Mining (11.05%), Power/Gas (10.86%), Water/Waste (2.02%) $mid$ Capital Goods +16%.*
+  * 🎯 **Recap:** *IIP Base 2022-23=100  •  4 Sectors: Mfg (76.06%), Mining (11.05%), Power/Gas (10.86%), Water/Waste (2.02%)  •  Capital Goods +16%.*
 
 #### Exam Focus
 * New IIP Base Year: 2022–23=100.
@@ -127,17 +127,17 @@
 
 #### What Happened
 * **Scale-Based NBFC Regulation → Single Quantitative Benchmark:**
-  * RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size $ge mathbf{₹1,00,000	ext{ Crore}}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**.
+  * RBI replaced the scoring model with a single absolute criterion: NBFCs with asset size ≥ mathbf{₹1,00,000  Crore}$ (₹1 Trillion) are classified as **Upper Layer (NBFC-UL)**.
 
 #### Know / Understand
 * Eliminates ownership bias by including eligible government-owned NBFCs (REC, PFC, HUDCO) while granting them listing exemptions.
 
 #### Must Memorize
 * **NBFC-UL Prudential Framework Ladder:**
-  * **Classification Cutoff:** Standalone assets $ge mathbf{₹1,00,000	ext{ Crore}}$ (reviewed every 3 years).
+  * **Classification Cutoff:** Standalone assets ≥ mathbf{₹1,00,000  Crore}$ (reviewed every 3 years).
   * **Large Exposure Limit (NBFC-IFCs):** Connected borrower group limit raised to **45% of Tier-1 capital** (+20% infra headroom).
   * **State Guarantees:** Exposures backed by State Govt guarantees attract a **20% risk weight**.
-  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Crore assets $mid$ 3-year review $mid$ Connected borrower cap: 45% Tier-1 $mid$ State guarantee RW: 20%.*
+  * 🎯 **Recap:** *NBFC-UL threshold: ₹1 Lakh Crore assets  •  3-year review  •  Connected borrower cap: 45% Tier-1  •  State guarantee RW: 20%.*
 
 #### Exam Focus
 * NBFC-UL Asset Size Threshold: ₹1,00,000 crore (₹1 trillion).
@@ -167,8 +167,8 @@
   3. **Credit Guarantee Cost:** Premium **shall NOT be passed to MSME sellers**.
   4. **Platform Operator Net Worth:** Minimum **₹25 Crore** (compliance window till **March 31, 2028**).
   5. **Without-Recourse Protection:** All transactions strictly without recourse to MSME sellers.
-* **Mandatory Onboarding:** All corporates with turnover $> mathbf{₹250	ext{ Crore}}$ and CPSEs must register.
-  * 🎯 **Recap:** *TReDS operator net worth: ₹25 Cr (deadline March 31, 2028) $mid$ Seller due diligence abolished $mid$ Mandatory for >₹250 Cr firms.*
+* **Mandatory Onboarding:** All corporates with turnover $> mathbf{₹250  Crore}$ and CPSEs must register.
+  * 🎯 **Recap:** *TReDS operator net worth: ₹25 Cr (deadline March 31, 2028)  •  Seller due diligence abolished  •  Mandatory for >₹250 Cr firms.*
 
 #### Exam Focus
 * TReDS Operator Minimum Net Worth: ₹25 crore (Compliance deadline: March 31, 2028).
@@ -197,7 +197,7 @@
   * **Hierarchy:** Senior officials **not more than 2 levels below MD & CEO**.
   * **Tenure:** Minimum fixed tenure of **at least 3 years** (Board approval required for removal).
   * **Direct Board Interaction:** Must meet Board/Audit Committee **at least once a quarter without senior management**.
-  * 🎯 **Recap:** *CRO/CCO/HIA: 3-year min tenure $mid$ $le 2$ levels below MD $mid$ Quarterly private board session.*
+  * 🎯 **Recap:** *CRO/CCO/HIA: 3-year min tenure  •  ≤ 2 levels below MD  •  Quarterly private board session.*
 
 #### Exam Focus
 - Mandatory Control Positions: CRO, CCO, HIA.
@@ -225,7 +225,7 @@
   * **Tax Exemptions:** **100% Tax-Exempt** on G-Sec interest and capital gains for FPIs.
   * **FAR Expansion:** Includes new **15-year, 30-year, 40-year G-Secs** and **Sovereign Green Bonds**.
   * **Macro Caps:** Overall ceilings: **6% of Central G-Secs** and **2% of State G-Secs** (short-term/security caps abolished).
-  * 🎯 **Recap:** *100% tax exemption on FPI G-Sec gains/interest $mid$ 15, 30, 40-yr FAR inclusion $mid$ 6% Central / 2% State G-Sec macro cap.*
+  * 🎯 **Recap:** *100% tax exemption on FPI G-Sec gains/interest  •  15, 30, 40-yr FAR inclusion  •  6% Central / 2% State G-Sec macro cap.*
 
 #### Exam Focus
 - FPI G-Sec Tax Status: 100% exempt from interest tax and capital gains tax.
@@ -242,7 +242,7 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-25`
 - **Key Facts**: Non-retail users can deploy CDS and total return swaps without restriction; retail users can buy protection for hedging only. Protection sellers include insurers, pension funds, MFs, AIFs, and FPIs.
-- 🎯 **Recap:** *Credit derivatives expanded $mid$ Insurers, MFs, pension funds eligible as CDS protection sellers.*
+- 🎯 **Recap:** *Credit derivatives expanded  •  Insurers, MFs, pension funds eligible as CDS protection sellers.*
 
 ### 9. RBI Permits Commercial Bank Lending to REITs and InvITs
 - **Category**: `BANKING_REGULATION`
@@ -250,8 +250,8 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-20`
 - **Key Facts**: Bank exposure capped at **49% of asset value**.
-- at least **80% of assets** must generate positive cash flows for $ge 1$ year (Risk weights: CRE 100%, CME 125%, Overseas 150%)..
-- 🎯 **Recap:** *REIT/InvIT loan cap: 49% asset value $mid$ 80% operational cash flow rule.*
+- at least **80% of assets** must generate positive cash flows for ≥ 1 year (Risk weights: CRE 100%, CME 125%, Overseas 150%)..
+- 🎯 **Recap:** *REIT/InvIT loan cap: 49% asset value  •  80% operational cash flow rule.*
 
 ### 10. RBI Announces Special US Dollar-Rupee Forex Swap Windows for FCNR(B) & ECBs
 - **Category**: `BANKING_REGULATION`
@@ -259,7 +259,7 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-08`
 - **Key Facts**: 3–5 year FCNR(B) deposits exempt from CRR and SLR; PSU ECBs/OFCBs swapped at concessional **1.5% p.a. fixed rate**.
-- 🎯 **Recap:** *100% CRR/SLR waiver for 3–5 yr FCNR(B) $mid$ 1.5% fixed swap rate on PSU ECBs.*
+- 🎯 **Recap:** *100% CRR/SLR waiver for 3–5 yr FCNR(B)  •  1.5% fixed swap rate on PSU ECBs.*
 
 ### 11. India's Balance of Payments (BoP) Q4 FY 2025–26: Current Account Surplus of $7.1 Billion
 - **Category**: `MACRO_ECONOMY`
@@ -269,7 +269,7 @@
 - **Key Facts**: Q4 CAD surplus of **$7.1 Billion (0.7% GDP)**.
 - full-year FY26 CAD at **$25.2 Billion (0.6% GDP)**.
 - net FDI: $6.9 Billion..
-- 🎯 **Recap:** *Q4 CAD surplus: $7.1B $mid$ FY26 full year CAD: 0.6% GDP.*
+- 🎯 **Recap:** *Q4 CAD surplus: $7.1B  •  FY26 full year CAD: 0.6% GDP.*
 
 ### 12. SEBI Revised Commodity ETF Framework: Dynamic Price Bands & Pre-Open Auctions
 - **Category**: `CAPITAL_MARKETS`
@@ -277,7 +277,7 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-18`
 - **Key Facts**: Initial $pm 10%$ dynamic band for equity/debt ETFs (expands to $pm 20%$ after cooling-off); $pm 6%$ initial for gold/silver ETFs.
-- 🎯 **Recap:** *Dynamic ETF bands from Sept 1, 2026 $mid$ $pm 10%$ initial band.*
+- 🎯 **Recap:** *Dynamic ETF bands from Sept 1, 2026  •  $pm 10%$ initial band.*
 
 ### 13. SEBI Approves "GARUDA" Fast-Track Green-Channel for Alternative Investment Funds
 - **Category**: `CAPITAL_MARKETS`
@@ -310,7 +310,7 @@
 - **Date**: `2026-06-04`
 - **Key Facts**: Interim target of **75 lakh rooftop solar installations by Dec 2026** (1 crore target by March 2027).
 - Utility-Linked Aggregation model launched..
-- 🎯 **Recap:** *PM Surya Ghar: 75 lakh installations target by Dec 2026 $mid$ ULA model.*
+- 🎯 **Recap:** *PM Surya Ghar: 75 lakh installations target by Dec 2026  •  ULA model.*
 
 ### 17. BHAVYA Industrial Parks Scheme & Portal Launched (₹33,660 Crore Outlay)
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -337,7 +337,7 @@
 - **Date**: `2026-06-12`
 - **Key Facts**: Extended to August 31, 2026 (₹20,000 Cr pool).
 - Large NBFC-MFI loan cap raised to **₹1,000 Crore** (coverage: 80% Small, 75% Med, 70% Large)..
-- 🎯 **Recap:** *CGSMFI-2.0 extended $mid$ ₹1,000 Cr loan cap for large MFIs.*
+- 🎯 **Recap:** *CGSMFI-2.0 extended  •  ₹1,000 Cr loan cap for large MFIs.*
 
 ### 20. PM SVANidhi Scheme Completes 6 Years: ₹17,800 Crore Disbursed Across 1.12 Crore Loans
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -347,7 +347,7 @@
 - **Key Facts**: 1.12 crore loans disbursed to 75.5 lakh street vendors (₹15k, ₹25k, ₹50k tranches).
 - UPI RuPay Credit Cards up to ₹30,000.
 - extended to March 31, 2030..
-- 🎯 **Recap:** *PM SVANidhi: ₹17,800 Cr disbursed across 1.12 Cr loans $mid$ Extended to 2030.*
+- 🎯 **Recap:** *PM SVANidhi: ₹17,800 Cr disbursed across 1.12 Cr loans  •  Extended to 2030.*
 
 ### 21. PM-KISAN 23rd Instalment: ₹18,880 Crore Disbursed to 9.44 Crore Farmers
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -380,8 +380,8 @@
 - **Institution**: `MINISTRY_OF_HEALTH`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-06-11`
-- **Key Facts**: Institutional deliveries: **90.6%** $mid$ TFR: **2.0** $mid$ Women bank account ownership: **89.0%** $mid$ Health insurance: **60.2%**.
-- 🎯 **Recap:** *NFHS-6: Institutional deliveries 90.6% $mid$ TFR 2.0 $mid$ Women bank accounts 89.0%.*
+- **Key Facts**: Institutional deliveries: **90.6%**  •  TFR: **2.0**  •  Women bank account ownership: **89.0%**  •  Health insurance: **60.2%**.
+- 🎯 **Recap:** *NFHS-6: Institutional deliveries 90.6%  •  TFR 2.0  •  Women bank accounts 89.0%.*
 
 ### 25. ILO ILOSTAT: India's Social Security Coverage Reaches 64.3% (94.3 Crore Beneficiaries)
 - **Category**: `ESI_FINANCE_BUSINESS`

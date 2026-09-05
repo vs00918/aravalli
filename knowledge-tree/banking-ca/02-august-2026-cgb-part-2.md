@@ -30,41 +30,41 @@
   * **Floor Pricing:** Loans **cannot be priced below the applicable benchmark**.
   * **Reset Frequency:** Chosen by lender, but **cannot be more than once every 3 months** (remains fixed through tenor).
   * **Agri Loans:** Reset linked to crop season, capped at **maximum 12 months**.
-  * **Internal Benchmark (MCLR):** Continued for commercial banks, RRBs, Tier 3-4 UCBs with deposits $>₹1,000	ext{ Crore}$.
+  * **Internal Benchmark (MCLR):** Continued for commercial banks, RRBs, Tier 3-4 UCBs with deposits $>₹1,000  Crore$.
   * **External Benchmark (EBLR):** Mandatory for floating personal & MSME loans by commercial banks.
   * **Interest Application:** Charged at **monthly rests**.
-  * 🎯 **Recap:** *Draft loan rules: No pricing below benchmark $mid$ Reset frequency $le 3$ months (12m for agri) $mid$ MCLR for $>₹1,000$ Cr deposits $mid$ Monthly rests.*
+  * 🎯 **Recap:** *Draft loan rules: No pricing below benchmark  •  Reset frequency ≤ 3 months (12m for agri)  •  MCLR for $>₹1,000$ Cr deposits  •  Monthly rests.*
 
 ---
 
 ## 📈 PART 2: P2 — HIGH (MEMORIZE KEY FACTS, SCHEMES & APPOINTMENTS)
 
 1. **Public Sector Banks' Asset Quality (FY26)**:
-   * Gross NPAs fell to **₹2,45,634 Crore** $mid$ GNPA ratio down to **1.93%** as of March 31, 2026.
+   * Gross NPAs fell to **₹2,45,634 Crore**  •  GNPA ratio down to **1.93%** as of March 31, 2026.
    * 🎯 **Recap:** *PSB GNPA ratio fell to 1.93% (₹2.45L Cr).*
 2. **RBI Depositor Education and Awareness (DEA) Fund Unclaimed Deposits**:
-   * Total unclaimed deposits: **₹86,917.08 Crore** (as of June 30, 2026) $mid$ Top Public: **SBI (₹20,040 Cr)** $mid$ Top Private: **ICICI (₹2,278 Cr)** $mid$ Transferred after **10 years** inoperative.
+   * Total unclaimed deposits: **₹86,917.08 Crore** (as of June 30, 2026)  •  Top Public: **SBI (₹20,040 Cr)**  •  Top Private: **ICICI (₹2,278 Cr)**  •  Transferred after **10 years** inoperative.
    * 🎯 **Recap:** *DEA Fund: ₹86,917 Cr unclaimed deposits (SBI ₹20,040 Cr) after 10 years.*
 3. **Government Approves 1 Billion Polymer Banknotes of ₹10 & ₹20**:
    * Approved under **Section 25 of RBI Act, 1934** for field trials and issuance.
    * 🎯 **Recap:** *1 Billion polymer notes of ₹10 and ₹20 approved under Sec 25 RBI Act.*
 4. **SEBI Mutual Fund Registration: Single Form A & Route 2 Sponsor Norms**:
-   * Single Form A introduced $mid$ **Route 2:** AMC net worth **₹150 Crore** with **5-year lock-in** $mid$ Leadership combined experience $ge 30$ years.
+   * Single Form A introduced  •  **Route 2:** AMC net worth **₹150 Crore** with **5-year lock-in**  •  Leadership combined experience ≥ 30 years.
    * 🎯 **Recap:** *SEBI MF Route 2: ₹150 Cr net worth (5-yr lock-in) + 30-yr leadership experience.*
 5. **SEBI Proposal: Colour-Coded "Credit Risk-o-Meter" for Debt Securities**:
-   * **6 colour tiers (AAA to D):** *Irish Green (AAA), Chartreuse, Neon Yellow, Caramel, Dark Orange, Red (Default risk)* $mid$ Lowest rating reflected $mid$ Unsecured debt in **bold red**.
+   * **6 colour tiers (AAA to D):** *Irish Green (AAA), Chartreuse, Neon Yellow, Caramel, Dark Orange, Red (Default risk)*  •  Lowest rating reflected  •  Unsecured debt in **bold red**.
    * 🎯 **Recap:** *Credit Risk-o-Meter: 6 colour tiers from Irish Green (AAA) to Red (Default).*
 6. **PSBs Proposal: 2% PSL Sub-Target for Climate & Transition Finance**:
-   * Proposes 2% climate sub-target in 40% ANBC $mid$ Renewable limit ₹75 Cr for wind/hydro (₹100 Cr cap).
-   * 🎯 **Recap:** *PSB proposal: 2% climate sub-target in PSL $mid$ ₹75 Cr wind/hydro loan limit.*
+   * Proposes 2% climate sub-target in 40% ANBC  •  Renewable limit ₹75 Cr for wind/hydro (₹100 Cr cap).
+   * 🎯 **Recap:** *PSB proposal: 2% climate sub-target in PSL  •  ₹75 Cr wind/hydro loan limit.*
 7. **FAST-DS Scheme (Foreign Assets of Small Taxpayers Disclosure Scheme 2026)**:
    * Window: **August 16 to December 31, 2026** (Benchmark: March 31, 2026).
-   * **Category A (untaxed $le ₹1	ext{ Cr}$):** **60% effective tax** (30% tax + 30% penalty).
-   * **Category B (taxed/omitted $le ₹5	ext{ Cr}$):** **₹1 Lakh flat fee**.
-   * 🎯 **Recap:** *FAST-DS: Aug 16–Dec 31, 2026 $mid$ Cat A (60% tax $le ₹1$Cr), Cat B (₹1L fee $le ₹5$Cr).*
+   * **Category A (untaxed ≤ ₹1 Cr):** **60% effective tax** (30% tax + 30% penalty).
+   * **Category B (taxed/omitted ≤ ₹5 Cr):** **₹1 Lakh flat fee**.
+   * 🎯 **Recap:** *FAST-DS: Aug 16–Dec 31, 2026  •  Cat A (60% tax ≤ ₹1Cr), Cat B (₹1L fee ≤ ₹5Cr).*
 8. **SEBI Municipal Debt Securities: Face Value & Reporting Timelines**:
-   * Face value: **₹1 Lakh or ₹10,000** $mid$ Results: Half-yearly in **60 days** (from 45); Annual in **90 days** (from 60).
-   * 🎯 **Recap:** *Municipal bonds: ₹10k face value $mid$ Results in 60/90 days.*
+   * Face value: **₹1 Lakh or ₹10,000**  •  Results: Half-yearly in **60 days** (from 45); Annual in **90 days** (from 60).
+   * 🎯 **Recap:** *Municipal bonds: ₹10k face value  •  Results in 60/90 days.*
 9. **SEBI Retail Equity F&O Loss Curtailment Report**:
    * Individual retail F&O net losses fell to **₹91,685 Crore** in FY26 (from ₹1,11,788 Cr).
    * 🎯 **Recap:** *Retail F&O losses curtailed to ₹91,685 Cr.*
@@ -138,7 +138,7 @@
 
 #### 🔴 MUST REVISE (1 P1 Topic) — Estimated Time: ~8 Minutes
 1. **RBI Draft Master Directions: Interest Rates on Advances 2026** (~8 min)  
-   * *Status: DRAFT (Proposed 1 April 2027)*. Lenders cannot price below benchmark; floating loan reset capped at **not more than once every 3 months**; agri reset linked to crop season ($le 12$ months); commercial banks/RRBs/Tier 3-4 UCBs with deposits $>₹1,000	ext{ cr}$ continue **MCLR**; mandatory **EBLR** retained for personal/MSME floating loans.
+   * *Status: DRAFT (Proposed 1 April 2027)*. Lenders cannot price below benchmark; floating loan reset capped at **not more than once every 3 months**; agri reset linked to crop season (≤ 12 months); commercial banks/RRBs/Tier 3-4 UCBs with deposits $>₹1,000  cr$ continue **MCLR**; mandatory **EBLR** retained for personal/MSME floating loans.
 
 #### 🟠 SHOULD REVISE (12 P2 Topics) — Estimated Time: ~36 Minutes
 * **Banking & Fiscal:** PSBs GNPA down to **1.93%** (₹2.45L cr), Department of Economic Affairs (DEA) Fund unclaimed deposits (₹86,917 cr total, SBI ₹20,040 cr, 10-yr rule), 1 Billion Polymer Notes (₹10 & ₹20, Sec 25 RBI Act), PSBs 2% PSL Climate proposal (₹75 cr wind/hydro cap), FAST-DS Scheme (Aug 16–Dec 31, 2026.
@@ -147,7 +147,7 @@
 * **Apex Appointments:** Anurag Jain (CEO, NITI Aayog), Shabnam Sinha (Chair, Airtel Payments Bank).
 
 #### 🟢 QUICK SCAN (30 P3 Factoids) — Estimated Time: ~10 Minutes
-* Blue bonds ₹1,200 cr (Sagarmala & Vadodara), Qatar-India UPI PosTransfer, SEBI Digital KYC proposal, SEBI Fast-track settlement $le ₹10$L, Ind AS tax alignment, Parichha Dam WHIS award, WIPO GenAI patents (India 5th), DoT 9 SIM limit, Jal Jeevan Mission 15.91 cr connections, Fitch BBB- rating, BofA Jio Credit ₹18.2k cr, Prudential Bharti Life ₹3.5k cr, National Sports Awards 2025.
+* Blue bonds ₹1,200 cr (Sagarmala & Vadodara), Qatar-India UPI PosTransfer, SEBI Digital KYC proposal, SEBI Fast-track settlement ≤ ₹10L, Ind AS tax alignment, Parichha Dam WHIS award, WIPO GenAI patents (India 5th), DoT 9 SIM limit, Jal Jeevan Mission 15.91 cr connections, Fitch BBB- rating, BofA Jio Credit ₹18.2k cr, Prudential Bharti Life ₹3.5k cr, National Sports Awards 2025.
 
 #### ⛔ DO NOT SPEND TIME (Ignored)
 * Golconda diamond trivia, FMCG rankings, family wealth lists, local district apps, routine sports scores.

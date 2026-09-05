@@ -1,6 +1,6 @@
 # Mind of Aravalli — 60-Minute High-Yield Revision Sprint
 
-**Capsule Type:** `SPRINT_60MIN` | **Total Topics:** `8` | **Revision Load:** `60 min` | **Active Prompts:** `80`
+**Capsule Type:** `SPRINT_60MIN` | **Total Topics:** `8` | **Revision Load:** `60 min` | **Active Prompts:** `79`
 **Generated:** `2026-09-03T12:00:00.000Z` | **Schema:** `1.0.0`
 
 ---
@@ -12,11 +12,11 @@
 ### Must Memorize Facts:
 - **Policy Rates & Macro Projections Ladder:**
 - **Policy Repo Rate:** **5.25%** *(Unchanged)*
-- **FY27 Real GDP Growth:** **6.7%** ($Q_1$: 7.0%, $Q_2$: 6.4%, $Q_3$: 6.5%, $Q_4$: 6.8%)
-- **FY27 CPI Inflation:** **5.0%** (earlier 5.1%) ($Q_2$: 4.7%, $Q_3$: 5.9%, $Q_4$: 5.5%)
+- **FY27 Real GDP Growth:** **6.7%** (Q₁: 7.0%, Q₂: 6.4%, Q₃: 6.5%, Q₄: 6.8%)
+- **FY27 CPI Inflation:** **5.0%** (earlier 5.1%) (Q₂: 4.7%, Q₃: 5.9%, Q₄: 5.5%)
 - **Core Inflation (FY27):** **4.3%**
 - **External Buffer:** Q1 Gross FDI at **$30.7 Billion**; Forex cover $>10$ months; External debt cover at **90.8%**.
-- 🎯 **Recap:** *Repo: 5.25% $mid$ FY27 GDP: 6.7%, CPI: 5.0%, Core: 4.3% $mid$ Forex cover >10 months.*
+- 🎯 **Recap:** *Repo: 5.25%  •  FY27 GDP: 6.7%, CPI: 5.0%, Core: 4.3%  •  Forex cover >10 months.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Policy Rates & Macro Projections Ladder?
@@ -24,15 +24,15 @@
 - **Q2:** What is the *Policy Repo Rate?
   - **A:** ** **5.25%** *(Unchanged)*
 - **Q3:** What is the *FY27 Real GDP Growth?
-  - **A:** ** **6.7%** ($Q_1$: 7.0%, $Q_2$: 6.4%, $Q_3$: 6.5%, $Q_4$: 6.8%)
+  - **A:** ** **6.7%** (Q₁: 7.0%, Q₂: 6.4%, Q₃: 6.5%, Q₄: 6.8%)
 - **Q4:** What is the *FY27 CPI Inflation?
-  - **A:** ** **5.0%** (earlier 5.1%) ($Q_2$: 4.7%, $Q_3$: 5.9%, $Q_4$: 5.5%)
+  - **A:** ** **5.0%** (earlier 5.1%) (Q₂: 4.7%, Q₃: 5.9%, Q₄: 5.5%)
 - **Q5:** What is the *Core Inflation (FY27)?
   - **A:** ** **4.3%**
 - **Q6:** What is the *External Buffer?
   - **A:** ** Q1 Gross FDI at **$30.7 Billion**; Forex cover $>10$ months; External debt cover at **90.8%**.
 - **Q7:** What is the 🎯 **Recap?
-  - **A:** ** *Repo: 5.25% $mid$ FY27 GDP: 6.7%, CPI: 5.0%, Core: 4.3% $mid$ Forex cover >10 months.*
+  - **A:** ** *Repo: 5.25%  •  FY27 GDP: 6.7%, CPI: 5.0%, Core: 4.3%  •  Forex cover >10 months.*
 
 ---
 
@@ -44,7 +44,7 @@
 - **Vertical Devolution Share:** Maintained at **41%** of central divisible tax pool to States.
 - **Award Duration:** **5 Years** (FY 2026-27 to FY 2030-31).
 - **Constitutional Anchor:** **Article 280** of the Constitution of India.
-- 🎯 **Recap:** *16th FC Chairman: Dr. Arvind Panagariya $mid$ 41% tax devolution to States $mid$ Period: 2026–2031 $mid$ Article 280.*
+- 🎯 **Recap:** *16th FC Chairman: Dr. Arvind Panagariya  •  41% tax devolution to States  •  Period: 2026–2031  •  Article 280.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Finance Commission Allocation Parameters Ladder?
@@ -56,7 +56,7 @@
 - **Q4:** What is the *Constitutional Anchor?
   - **A:** ** **Article 280** of the Constitution of India.
 - **Q5:** What is the 🎯 **Recap?
-  - **A:** ** *16th FC Chairman: Dr. Arvind Panagariya $mid$ 41% tax devolution to States $mid$ Period: 2026–2031 $mid$ Article 280.*
+  - **A:** ** *16th FC Chairman: Dr. Arvind Panagariya  •  41% tax devolution to States  •  Period: 2026–2031  •  Article 280.*
 
 ---
 
@@ -75,7 +75,7 @@
 - **CPI Inflation:** Projected at **4.6%** (Q1: 4.0%, Q2: 4.4%, Q3: 5.2%, Q4: 4.7%).
 - **Core Inflation:** Projected at **4.4%**.
 - **Meeting Schedule:** Next MPC meeting scheduled for **June 3 to 5, 2026**.
-- 🎯 **Recap:** *Repo: 5.25% $mid$ SDF: 5.00% $mid$ MSF/Bank Rate: 5.50% $mid$ FY27 GDP: 6.9% $mid$ FY27 CPI: 4.6% $mid$ Stance: Neutral.*
+- 🎯 **Recap:** *Repo: 5.25%  •  SDF: 5.00%  •  MSF/Bank Rate: 5.50%  •  FY27 GDP: 6.9%  •  FY27 CPI: 4.6%  •  Stance: Neutral.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Policy Rates Matrix → Unchanged Benchmarks?
@@ -101,7 +101,7 @@
 - **Q11:** What is the *Meeting Schedule?
   - **A:** ** Next MPC meeting scheduled for **June 3 to 5, 2026**.
 - **Q12:** What is the 🎯 **Recap?
-  - **A:** ** *Repo: 5.25% $mid$ SDF: 5.00% $mid$ MSF/Bank Rate: 5.50% $mid$ FY27 GDP: 6.9% $mid$ FY27 CPI: 4.6% $mid$ Stance: Neutral.*
+  - **A:** ** *Repo: 5.25%  •  SDF: 5.00%  •  MSF/Bank Rate: 5.50%  •  FY27 GDP: 6.9%  •  FY27 CPI: 4.6%  •  Stance: Neutral.*
 
 ---
 
@@ -115,22 +115,21 @@
 - **MSF & Bank Rate:** **5.50%** *(25 bps above repo)*
 - **Stance:** **Neutral**
 - **FY27 Real GDP Growth:** **6.6%** (Q1: 6.6%, Q2: 6.3%, Q3: 6.5%, Q4: 6.8%)
-- **FY27 CPI Inflation:** **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%) $mid$ Core: **4.7%**
+- **FY27 CPI Inflation:** **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%)  •  Core: **4.7%**
 - **External Sector & Debt Reforms Ladder:**
 - **FPI G-Sec Limits Withdrawn:** Abolished short-term, security-wise, and concentration caps; merged general and long-term sub-limits into single limit.
 - **FAR Tenor Expansion:** Included new issuances of **15, 30, and 40-year G-Secs** and **Sovereign Green Bonds (5, 7, 10, 15, 30, 40-year tenors)**.
 - **Individual NRI/OCI Equity Cap:** Raised to **10%** (from 5%); aggregate ceiling raised to **24%** (from 10%).
 - **Export Realisation Window:** Restored to **9 months** from date of export.
-- 🎯 **Recap:** *Repo: 5.25% (Neutral) $mid$ FY27 GDP: 6.6%, CPI: 5.1% $mid$ FPI G-Sec limits removed $mid$ NRI equity caps: 10% single / 24% aggregate.*
 - **Policy Rates Architecture Ladder:**
 - **Policy Repo Rate:** **5.25%**
 - **Marginal Standing Facility (MSF) & Bank Rate:** **5.50%** (25 bps above Repo)
 - **Fixed Reverse Repo Rate:** **3.35%**
-- **CRR:** **3.00%** $mid$ **SLR:** **18.00%**
+- **CRR:** **3.00%**  •  **SLR:** **18.00%**
 - **Macro Projections (FY 2026–27):**
 - **Real GDP Growth:** **6.6%**
 - **CPI Inflation:** **5.1%** (Quarterly Path: Q1 **4.2%**, Q2 **5.1%**, Q3 **5.9%**, Q4 **5.4%**)
-- 🎯 **Recap:** *Repo: 5.25% (Neutral) $mid$ SDF: 5.00% $mid$ MSF: 5.50% $mid$ CRR: 3.00%, SLR: 18.00% $mid$ FY27 GDP: 6.6%, CPI: 5.1%.*
+- 🎯 **Recap:** *Repo: 5.25% (Neutral)  •  FY27 GDP: 6.6%, CPI: 5.1%  •  FPI G-Sec limits removed  •  NRI equity caps: 10% single / 24% aggregate.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Policy Rates & Macroeconomic Projections Ladder?
@@ -146,7 +145,7 @@
 - **Q6:** What is the *FY27 Real GDP Growth?
   - **A:** ** **6.6%** (Q1: 6.6%, Q2: 6.3%, Q3: 6.5%, Q4: 6.8%)
 - **Q7:** What is the *FY27 CPI Inflation?
-  - **A:** ** **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%) $mid$ Core: **4.7%**
+  - **A:** ** **5.1%** (Q1: 4.2%, Q2: 5.1%, Q3: 5.9%, Q4: 5.4%)  •  Core: **4.7%**
 - **Q8:** What is the *External Sector & Debt Reforms Ladder?
   - **A:** **
 - **Q9:** What is the *FPI G-Sec Limits Withdrawn?
@@ -157,26 +156,24 @@
   - **A:** ** Raised to **10%** (from 5%); aggregate ceiling raised to **24%** (from 10%).
 - **Q12:** What is the *Export Realisation Window?
   - **A:** ** Restored to **9 months** from date of export.
-- **Q13:** What is the 🎯 **Recap?
-  - **A:** ** *Repo: 5.25% (Neutral) $mid$ FY27 GDP: 6.6%, CPI: 5.1% $mid$ FPI G-Sec limits removed $mid$ NRI equity caps: 10% single / 24% aggregate.*
-- **Q14:** What is the *Policy Rates Architecture Ladder?
+- **Q13:** What is the *Policy Rates Architecture Ladder?
   - **A:** **
-- **Q15:** What is the *Policy Repo Rate?
+- **Q14:** What is the *Policy Repo Rate?
   - **A:** ** **5.25%**
-- **Q16:** What is the *Marginal Standing Facility (MSF) & Bank Rate?
+- **Q15:** What is the *Marginal Standing Facility (MSF) & Bank Rate?
   - **A:** ** **5.50%** (25 bps above Repo)
-- **Q17:** What is the *Fixed Reverse Repo Rate?
+- **Q16:** What is the *Fixed Reverse Repo Rate?
   - **A:** ** **3.35%**
-- **Q18:** What is the *CRR?
-  - **A:** ** **3.00%** $mid$ **SLR:** **18.00%**
-- **Q19:** What is the *Macro Projections (FY 2026–27)?
+- **Q17:** What is the *CRR?
+  - **A:** ** **3.00%**  •  **SLR:** **18.00%**
+- **Q18:** What is the *Macro Projections (FY 2026–27)?
   - **A:** **
-- **Q20:** What is the *Real GDP Growth?
+- **Q19:** What is the *Real GDP Growth?
   - **A:** ** **6.6%**
-- **Q21:** What is the *CPI Inflation?
+- **Q20:** What is the *CPI Inflation?
   - **A:** ** **5.1%** (Quarterly Path: Q1 **4.2%**, Q2 **5.1%**, Q3 **5.9%**, Q4 **5.4%**)
-- **Q22:** What is the 🎯 **Recap?
-  - **A:** ** *Repo: 5.25% (Neutral) $mid$ SDF: 5.00% $mid$ MSF: 5.50% $mid$ CRR: 3.00%, SLR: 18.00% $mid$ FY27 GDP: 6.6%, CPI: 5.1%.*
+- **Q21:** What is the 🎯 **Recap?
+  - **A:** ** *Repo: 5.25% (Neutral)  •  FY27 GDP: 6.6%, CPI: 5.1%  •  FPI G-Sec limits removed  •  NRI equity caps: 10% single / 24% aggregate.*
 
 ---
 
@@ -190,7 +187,7 @@
 - **CRB Maintained Ratio:** **6.5%** of balance sheet *(target band: 4.5% to 7.5%)*
 - **Balance Sheet Expansion:** Grew by **+20.61% to ₹91,97,121.08 Crore** (~₹91.97 Lakh Cr as of March 31, 2026)
 - **Net Income:** Reached **₹3,95,972.10 Crore** *(Gross income +26.42%)*
-- 🎯 **Recap:** *RBI Dividend: ₹2,86,588.46 Cr $mid$ CRB Buffer: 6.5% (₹1,09,379.64 Cr) $mid$ Balance Sheet: ₹91.97 Lakh Cr.*
+- 🎯 **Recap:** *RBI Dividend: ₹2,86,588.46 Cr  •  CRB Buffer: 6.5% (₹1,09,379.64 Cr)  •  Balance Sheet: ₹91.97 Lakh Cr.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Surplus & Risk Buffer Allocations Ladder?
@@ -206,7 +203,7 @@
 - **Q6:** What is the *Net Income?
   - **A:** ** Reached **₹3,95,972.10 Crore** *(Gross income +26.42%)*
 - **Q7:** What is the 🎯 **Recap?
-  - **A:** ** *RBI Dividend: ₹2,86,588.46 Cr $mid$ CRB Buffer: 6.5% (₹1,09,379.64 Cr) $mid$ Balance Sheet: ₹91.97 Lakh Cr.*
+  - **A:** ** *RBI Dividend: ₹2,86,588.46 Cr  •  CRB Buffer: 6.5% (₹1,09,379.64 Cr)  •  Balance Sheet: ₹91.97 Lakh Cr.*
 
 ---
 
@@ -227,8 +224,8 @@
 - **Capital Subsidy (CFA):** Up to **₹2 Crore/TPD** installed capacity (or up to ₹4 Crore / 30% capital cost).
 - **Credit Guarantee:** Up to **85% guarantee** for eligible MSME developers under PSL.
 - **Administered CBG Price:** **₹2,110 per MMBtu (~₹105/kg)** with 10-year revenue certainty.
-- **Mandatory Blending:** **3% (FY27) $	o$ 4% (FY28) $	o$ 5% (FY29+)** in CGD networks.
-- 🎯 **Recap:** *GOBARdhan: ₹23,731 Cr outlay (10 yrs) $mid$ CBG price ₹2,110/MMBtu $mid$ Blending 3% to 5% $mid$ 85% credit guarantee.*
+- **Mandatory Blending:** **3% (FY27)  →  4% (FY28)  →  5% (FY29+)** in CGD networks.
+- 🎯 **Recap:** *GOBARdhan: ₹23,731 Cr outlay (10 yrs)  •  CBG price ₹2,110/MMBtu  •  Blending 3% to 5%  •  85% credit guarantee.*
 
 ### Active Recall Cards:
 - **Q1:** What is the Corroborated Sources?
@@ -258,9 +255,9 @@
 - **Q13:** What is the *Administered CBG Price?
   - **A:** ** **₹2,110 per MMBtu (~₹105/kg)** with 10-year revenue certainty.
 - **Q14:** What is the *Mandatory Blending?
-  - **A:** ** **3% (FY27) $	o$ 4% (FY28) $	o$ 5% (FY29+)** in CGD networks.
+  - **A:** ** **3% (FY27)  →  4% (FY28)  →  5% (FY29+)** in CGD networks.
 - **Q15:** What is the 🎯 **Recap?
-  - **A:** ** *GOBARdhan: ₹23,731 Cr outlay (10 yrs) $mid$ CBG price ₹2,110/MMBtu $mid$ Blending 3% to 5% $mid$ 85% credit guarantee.*
+  - **A:** ** *GOBARdhan: ₹23,731 Cr outlay (10 yrs)  •  CBG price ₹2,110/MMBtu  •  Blending 3% to 5%  •  85% credit guarantee.*
 
 ---
 
@@ -302,7 +299,7 @@
 - **75% Risk Weight Qualification:** Requires **2% repayment** of sanctioned project debt (cut from proposed 5%).
 - **50% Risk Weight Qualification:** Requires **5% repayment** of sanctioned project debt (cut from proposed 10%).
 - **Eligible Infrastructure:** Projects with revenues from concessions/contracts granted by Central/State Govts, PSEs, or statutory regulators.
-- 🎯 **Recap:** *NBFC infra risk weights: 75% RW at 2% repayment $mid$ 50% RW at 5% repayment $mid$ Effective April 1, 2026.*
+- 🎯 **Recap:** *NBFC infra risk weights: 75% RW at 2% repayment  •  50% RW at 5% repayment  •  Effective April 1, 2026.*
 
 ### Active Recall Cards:
 - **Q1:** What is the *Debt Repayment Thresholds Ladder?
@@ -314,6 +311,6 @@
 - **Q4:** What is the *Eligible Infrastructure?
   - **A:** ** Projects with revenues from concessions/contracts granted by Central/State Govts, PSEs, or statutory regulators.
 - **Q5:** What is the 🎯 **Recap?
-  - **A:** ** *NBFC infra risk weights: 75% RW at 2% repayment $mid$ 50% RW at 5% repayment $mid$ Effective April 1, 2026.*
+  - **A:** ** *NBFC infra risk weights: 75% RW at 2% repayment  •  50% RW at 5% repayment  •  Effective April 1, 2026.*
 
 ---

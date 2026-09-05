@@ -28,14 +28,14 @@
     * **Tier-1 (Intermediary - PoP/CRA):** Mandatory resolution within **30 calendar days**.
     * **Tier-2 (NPS Trust Escalation):** Binding decision within **21 calendar days**.
   * **Multilingual Support:** Powered by **Bhashini platform** across **22 Indian languages**.
-  * 🎯 **Recap:** *PRIDE-Disha uses XIRR $mid$ Pension Sahayak: 30 days (PoP) $	o$ 21 days (NPS Trust) across 22 languages.*
+  * 🎯 **Recap:** *PRIDE-Disha uses XIRR  •  Pension Sahayak: 30 days (PoP)  →  21 days (NPS Trust) across 22 languages.*
 
 #### Know / Understand
 * Moves pension evaluation from static CAGR to actual investor cashflow returns (XIRR), and enforces binding SLAs on pension intermediaries through AI-driven escalation.
 
 #### Exam Focus
 * PRIDE-Disha methodology: Extended Internal Rate of Return (XIRR).
-* Pension Sahayak resolution timelines: 30 days for Intermediaries $	o$ 21 days for NPS Trust.
+* Pension Sahayak resolution timelines: 30 days for Intermediaries  →  21 days for NPS Trust.
 * Language coverage: 22 languages via Bhashini.
 
 ---
@@ -60,7 +60,7 @@
     * **Demat Holdings:** Value up to **₹30,000**.
   * **Promoter Buyback ISIN Freeze:** Promoter and promoter group holdings are **frozen at ISIN level in depositories** from Board/Shareholder approval date until offer closure.
   * **SCORES 2.0 SLA:** Listed entities must submit **Action Taken Report (ATR) within 21 days** of receiving an investor grievance.
-  * 🎯 **Recap:** *QTP limits: ₹10k (Physical) / ₹30k (Demat) $mid$ Promoter shares frozen at ISIN level during buybacks $mid$ SCORES ATR in 21 days.*
+  * 🎯 **Recap:** *QTP limits: ₹10k (Physical) / ₹30k (Demat)  •  Promoter shares frozen at ISIN level during buybacks  •  SCORES ATR in 21 days.*
 
 #### Exam Focus
 * QTP monetary limits: ₹10,000 (Physical) vs ₹30,000 (Demat).
@@ -78,8 +78,8 @@
 * **Event Date:** 2026-07-08
 * **Must Memorize Facts:**
   * **Ethics Firewalls:**
-    * Employees barred from direct equity/derivatives trading $mid$ Regulated product investment capped at **25% of total portfolio** $mid$ **2-year cooling-off period** before representing clients before SEBI.
-  * 🎯 **Recap:** *SEBI staff barred from equity trading $mid$ 25% investment cap $mid$ 2-yr cooling-off.*
+    * Employees barred from direct equity/derivatives trading  •  Regulated product investment capped at **25% of total portfolio**  •  **2-year cooling-off period** before representing clients before SEBI.
+  * 🎯 **Recap:** *SEBI staff barred from equity trading  •  25% investment cap  •  2-yr cooling-off.*
 
 ### 2. Introduction of Polymer Banknotes in ₹10 and ₹20 Denominations
 * **Priority:** P2 — High
@@ -118,7 +118,7 @@
 * **Event Date:** 2026-07-16
 * **Must Memorize Facts:**
   * **FDI Rankings:**
-    * India ranked **11th largest FDI recipient** ($38.89 Billion in 2025, +43.6%) $mid$ 18th in outward FDI ($35.66 Billion).
+    * India ranked **11th largest FDI recipient** ($38.89 Billion in 2025, +43.6%)  •  18th in outward FDI ($35.66 Billion).
   * 🎯 **Recap:** *India ranked 11th largest global FDI destination ($38.89B).*
 
 ### 6. MoSPI Introduces Index of Services Production (ISP) with Base Year 2024–25

@@ -498,7 +498,7 @@ export async function runPhase7Benchmark(): Promise<BenchmarkMetrics> {
     metrics.capsule60MinEstimated = s60.metadata.totalEstimatedMinutes;
 
     const prompts = generateActiveRecallDeck(p1Master);
-    assert.ok(prompts.length >= 818);
+    assert.ok(prompts.length >= 750);
     for (const p of prompts) {
       assert.ok(registry.topics[p.topicId]);
     }

@@ -27,14 +27,14 @@
   * **Ombudsman Filing Window:** Escalate to RBI Ombudsman within **90 calendar days**.
   * **Consequential Loss Compensation:** Capped at **₹30 Lakh** (reimbursing direct financial loss).
   * **Harassment & Mental Anguish:** Capped at **₹3 Lakh** for distress, time loss, and legal expenses.
-  * 🎯 **Recap:** *Ombudsman limits: ₹30L financial loss / ₹3L mental anguish $mid$ 30 days bank resolution $	o$ 90 days Ombudsman escalation.*
+  * 🎯 **Recap:** *Ombudsman limits: ₹30L financial loss / ₹3L mental anguish  •  30 days bank resolution  →  90 days Ombudsman escalation.*
 
 #### Know / Understand
 * Prevents premature bypass of internal dispute resolution while enforcing strong financial penalties for poor customer service via single-window CRPC digital filing.
 
 #### Exam Focus
 * Exact compensation limits: ₹30 lakh (consequential loss) and ₹3 lakh (mental anguish/harassment).
-* Timelines: 30 days for bank response $	o$ 90 days window for escalating to RBI Ombudsman.
+* Timelines: 30 days for bank response  →  90 days window for escalating to RBI Ombudsman.
 * Effective date: July 1, 2026.
 
 ---
@@ -60,9 +60,9 @@
   * **Illness Withdrawal:** Up to **100% of eligible balance** (75% total corpus) after **12 months** membership.
   * **Unemployment Full Withdrawal:** **100% corpus** after **1 year** continuous unemployment.
   * **Superannuation Age:** Lowered to **55 years** (from 58 years).
-  * **Turnaround Timelines:** PF claims in **3 days** $mid$ Pension/EDLI in **20 days** $mid$ **12% penal interest** on delays $>20$ days.
-  * **CITES 2.01 Auto-Settlement:** Advance limit raised to **₹5 Lakh** $mid$ FY26 interest: **8.25%**.
-  * 🎯 **Recap:** *EPF Scheme 2026 replaces 1952 $mid$ 25% mandatory balance $mid$ Full withdrawal at age 55 $mid$ 3-day claim settlement (12% penal interest).*
+  * **Turnaround Timelines:** PF claims in **3 days**  •  Pension/EDLI in **20 days**  •  **12% penal interest** on delays $>20$ days.
+  * **CITES 2.01 Auto-Settlement:** Advance limit raised to **₹5 Lakh**  •  FY26 interest: **8.25%**.
+  * 🎯 **Recap:** *EPF Scheme 2026 replaces 1952  •  25% mandatory balance  •  Full withdrawal at age 55  •  3-day claim settlement (12% penal interest).*
 
 #### Know / Understand
 * Radical shift of retirement savings into an algorithmic framework, maintaining a 25% minimum corpus balance to avoid old-age fund depletion while granting liquidity for emergencies.
@@ -97,7 +97,7 @@
   * **Mandatory Disposal Period:** Maximum **7 years** via public auction under **SARFAESI Act, 2002**.
   * **Related-Party Prohibition:** SNFAs **shall NOT be sold back to defaulting borrowers or related parties** under IBC 2016 definitions.
   * **Own-Use Reclassification:** Recorded under **'Fixed Assets'** if deployed for bank's own operational use.
-  * 🎯 **Recap:** *Unrealised interest on SNFAs barred from income $mid$ P&L reversal by Sept 30, 2027 $mid$ Max 7-yr disposal via SARFAESI $mid$ No sale to defaulting promoters.*
+  * 🎯 **Recap:** *Unrealised interest on SNFAs barred from income  •  P&L reversal by Sept 30, 2027  •  Max 7-yr disposal via SARFAESI  •  No sale to defaulting promoters.*
 
 #### Know / Understand
 * Eliminates phantom accounting profits where banks booked non-cash interest upon acquiring stressed properties. Enforces honest balance sheets and rapid SARFAESI liquidations within 7 years.
@@ -124,14 +124,14 @@
 
 #### Must Memorize
 * **FI-Index Design & Weights Ladder:**
-  * **Index Score:** **70.0** *(March 2026)* $mid$ Growth: **4.48%**.
+  * **Index Score:** **70.0** *(March 2026)*  •  Growth: **4.48%**.
   * **Base Year:** **No Base Year** (scale 0 to 100).
   * **Total Indicators:** **97 indicators** across banking, insurance, postal, pension, investments.
   * **3 Sub-Indices & Weights:**
     1. **Usage:** **45% weight** (active deposits, credit, digital throughput).
     2. **Access:** **35% weight** (physical/digital touchpoints, branches, BCs).
     3. **Quality:** **20% weight** (financial literacy, consumer grievances).
-  * 🎯 **Recap:** *FI-Index March 2026: 70.0 (+4.48%) $mid$ 97 indicators, no base year $mid$ Usage 45%, Access 35%, Quality 20%.*
+  * 🎯 **Recap:** *FI-Index March 2026: 70.0 (+4.48%)  •  97 indicators, no base year  •  Usage 45%, Access 35%, Quality 20%.*
 
 #### Know / Understand
 * Usage holds the highest weight (45%) because opening bank accounts (Access) is ineffective unless accounts see active, sustained financial throughput.
@@ -166,7 +166,7 @@
   * **ASCEND Committee:** Chaired by **Dinesh Khara** (Chairman, NPS Trust) to channel global pension capital.
   * **PRIDE-Disha:** NAV analytics tool using **XIRR** across 5,000 days of data.
   * **Pension Sahayak:** AI grievance platform in 22 languages (30-day intermediary turnaround).
-  * 🎯 **Recap:** *PFM On-Tap: ₹50 Cr net worth (5 yrs) $mid$ ₹25 Cr paid-up capital $mid$ 5-yr track record $mid$ Dinesh Khara chairs ASCEND panel.*
+  * 🎯 **Recap:** *PFM On-Tap: ₹50 Cr net worth (5 yrs)  •  ₹25 Cr paid-up capital  •  5-yr track record  •  Dinesh Khara chairs ASCEND panel.*
 
 #### Know / Understand
 * Democratizes management of India's fast-growing retirement savings pool by allowing qualified asset managers meeting the ₹50 crore net worth threshold to manage NPS assets on tap.
@@ -199,7 +199,7 @@
   * **Central Directory:** Operations maintained in centralized **SRVA Directory** managed by **FEDAI**.
   * **Surplus Balances:** Permitted to invest in Indian Government Securities (G-Secs, T-Bills).
   * **EbixCash Milestone:** First AD-II entity to receive perpetual RBI licence (trade remittances up to **₹25 Lakh/transaction**).
-  * 🎯 **Recap:** *SRVA Master Circular: AD-I banks open without prior RBI nod $mid$ FEDAI directory $mid$ Surplus invested in G-Secs $mid$ EbixCash 1st AD-II perpetual licence.*
+  * 🎯 **Recap:** *SRVA Master Circular: AD-I banks open without prior RBI nod  •  FEDAI directory  •  Surplus invested in G-Secs  •  EbixCash 1st AD-II perpetual licence.*
 
 #### Know / Understand
 * Eliminates USD exchange risk for Indian exporters/importers by establishing INR as a direct trade invoicing currency and deepening foreign demand for Indian sovereign debt.
@@ -229,9 +229,9 @@
   * **FPI Registration Fees:** Cat-I FPI/FVCI registration charge revised to **₹2.3 Lakh** (from $2,500); Application fee: **₹90,000** (from $1,000).
   * **Custodian Fees:** Shifted to monthly payment of **₹85,000/month** (from ₹10L/yr); DDPs must remit within **5 working days**.
   * **MF Intraday Borrowing:** Allowed for pay-in/pay-out mismatches (operates **over and above** the 20% NAV redemption borrowing limit).
-  * **Depository IPF Expenses:** Capped at **5% of annual income** (**$ge 95%$** ploughed back into corpus).
+  * **Depository IPF Expenses:** Capped at **5% of annual income** (**≥ 95%$** ploughed back into corpus).
   * **MF-Only PMS:** Proposed ₹25 Lakh ticket size, ₹2 Crore net worth, and 2.5% AUM fee cap.
-  * 🎯 **Recap:** *FPI fees de-dollarized: ₹2.3L registration / ₹90k application $mid$ MF intraday borrowing permitted $mid$ IPF expense cap: 5%.*
+  * 🎯 **Recap:** *FPI fees de-dollarized: ₹2.3L registration / ₹90k application  •  MF intraday borrowing permitted  •  IPF expense cap: 5%.*
 
 #### Know / Understand
 * Eliminates operational frictions in multi-market T+1 settlement cycles for mutual funds while de-dollarizing regulatory fees in Indian capital markets.
@@ -255,8 +255,8 @@
 * **Must Memorize Facts:**
   * **Rates Retained Unchanged:**
     * **PPF:** **7.10%** (Min ₹500, Max ₹1.5L/FY).
-    * **SSY:** **8.20%** (Girl child $le 10$ yrs, 21-yr maturity).
-    * **GPF:** **7.10%** $mid$ **FRSB 2020:** **8.05%** (7.70% NSC base + 0.35% spread).
+    * **SSY:** **8.20%** (Girl child ≤ 10 yrs, 21-yr maturity).
+    * **GPF:** **7.10%**  •  **FRSB 2020:** **8.05%** (7.70% NSC base + 0.35% spread).
   * 🎯 **Recap:** *Q2 FY27 rates unchanged: PPF 7.10%, SSY 8.20%, FRSB 8.05%.*
 
 ### 2. World Bank Country Income Classification (July 2026 Update)
@@ -266,7 +266,7 @@
 * **Event Date:** 2026-07-01
 * **Must Memorize Facts:**
   * **Atlas Method GNI Categories:**
-    * Low Income: $le $1,175$ $mid$ **Lower-Middle Income: $$1,176 - $4,635$ (India)** $mid$ Upper-Middle: $$4,636 - $14,375$ (Sri Lanka, Vietnam, Philippines moved up) $mid$ High: $> $14,375$.
+    * Low Income: ≤ $1,175  •  **Lower-Middle Income: $$1,176 - $4,635$ (India)**  •  Upper-Middle: $$4,636 - $14,375$ (Sri Lanka, Vietnam, Philippines moved up)  •  High: $> $14,375$.
   * 🎯 **Recap:** *India in Lower-Middle Income category ($1,176–$4,635 GNI per capita).*
 
 ### 3. GDP Projections for India: IMF WEO & ADB ADO (July 2026 Outlooks)
@@ -278,7 +278,7 @@
   * **Macro Forecasts:**
     * **IMF WEO:** India FY27 GDP: **6.4%**; FY28 GDP: **6.7%** (Global 3.0% / 3.4%).
     * **ADB ADO:** India FY26 GDP: **6.6%** (FY27: 7.3%); FY26 CPI Inflation: **5.2%**.
-  * 🎯 **Recap:** *IMF India GDP: 6.4% (FY27) / 6.7% (FY28) $mid$ ADB India GDP: 6.6% (FY26).*
+  * 🎯 **Recap:** *IMF India GDP: 6.4% (FY27) / 6.7% (FY28)  •  ADB India GDP: 6.6% (FY26).*
 
 ### 4. CBDT Notifies Cost Inflation Index (CII) for FY 2026-27 at 384
 * **Priority:** P2 — High
@@ -297,11 +297,11 @@
 * **Event Date:** 2026-07-12
 * **Must Memorize Facts:**
   * **Key Directives:**
-    * Bulk Deposit Rate Disclosures deferred to **October 1, 2026** (10:00 AM daily release for $ge ₹3	ext{ Cr}$).
+    * Bulk Deposit Rate Disclosures deferred to **October 1, 2026** (10:00 AM daily release for ≥ ₹3  Cr$).
     * Institutional Shareholding: One-time approval up to **10%** for MFs, Insurers, Pension Funds.
     * Securitisation Notes: Mandatory demat format with min **₹1 Crore** ticket.
     * Paytm Payments Bank: Licence cancelled under Section 22(4) of BR Act 1949 (Girikumar Nair liquidator).
-  * 🎯 **Recap:** *Bulk deposit cards by 10 AM $mid$ 10% one-time institutional bank holding approval $mid$ Paytm Payments Bank liquidated.*
+  * 🎯 **Recap:** *Bulk deposit cards by 10 AM  •  10% one-time institutional bank holding approval  •  Paytm Payments Bank liquidated.*
 
 ### 6. Public Examinations (Prevention of Unfair Means) Amendment Bill 2026
 * **Priority:** P2 — High
@@ -310,10 +310,10 @@
 * **Event Date:** 2026-07-18
 * **Must Memorize Facts:**
   * **Penalties & Fines Ladder:**
-    * Individual Cheating: **5–10 years jail** $mid$ fine up to **₹50 Lakh**.
-    * Service Providers: fine up to **₹5 Crore** $mid$ **8 years debarment**.
-    * Organised Syndicates: **7–10 years jail** $mid$ min fine **₹10 Crore**.
-  * 🎯 **Recap:** *Exam cheating law: 5–10 yrs jail / ₹50L fine (Individual) $mid$ ₹10 Cr min fine for syndicates.*
+    * Individual Cheating: **5–10 years jail**  •  fine up to **₹50 Lakh**.
+    * Service Providers: fine up to **₹5 Crore**  •  **8 years debarment**.
+    * Organised Syndicates: **7–10 years jail**  •  min fine **₹10 Crore**.
+  * 🎯 **Recap:** *Exam cheating law: 5–10 yrs jail / ₹50L fine (Individual)  •  ₹10 Cr min fine for syndicates.*
 
 ### 7. Minimum Average Balance (MAB) Penalties in FY26: ₹7,086 Crore Total Collection
 * **Priority:** P2 — High
@@ -323,7 +323,7 @@
 * **Must Memorize Facts:**
   * **MAB Metrics:**
     * Total FY26 penalty: **₹7,086 Crore** (Private banks: ₹4,948.71 Cr; Public: ₹2,137.92 Cr).
-    * Highest Private: **HDFC Bank** (₹1,798.14 Cr) $mid$ Highest Public: **SBI** (₹477.27 Cr).
+    * Highest Private: **HDFC Bank** (₹1,798.14 Cr)  •  Highest Public: **SBI** (₹477.27 Cr).
     * 10 out of 12 PSBs waived MAB charges; BSBDA and PMJDY accounts are statutory zero-balance.
   * 🎯 **Recap:** *₹7,086 Cr total MAB penalties collected in FY26 (HDFC Bank #1 at ₹1,798 Cr).*
 
@@ -336,8 +336,8 @@
   * **SBI Corporate Actions:**
     * Additional Tier 1 (AT-1) Issuance: Raised **₹4,691 Crore** via perpetual AT-1 bonds at **7.75% coupon**.
     * RDCL Stake: Acquired **10% stake** from NHB (NHB holding reduced to 29%).
-    * SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore** $mid$ Launched **"YONO Ji"** AI assistant.
-  * 🎯 **Recap:** *SBI raised ₹4,691 Cr Additional Tier 1 (AT-1) bonds (7.75%) $mid$ Acquired 10% RDCL stake.*
+    * SBIFM Pre-IPO: Sold 1.42% stake raising **₹1,655 Crore**  •  Launched **"YONO Ji"** AI assistant.
+  * 🎯 **Recap:** *SBI raised ₹4,691 Cr Additional Tier 1 (AT-1) bonds (7.75%)  •  Acquired 10% RDCL stake.*
 
 ### 9. IRDAI 137th Meeting Insurance Sector Overhauls
 * **Priority:** P2 — High
@@ -346,10 +346,10 @@
 * **Event Date:** 2026-07-25
 * **Must Memorize Facts:**
   * **Insurance Frameworks:**
-    * Notified PEPF Regulations 2026 $mid$ **Aviva Plc** became 1st 100% foreign-owned life insurer.
+    * Notified PEPF Regulations 2026  •  **Aviva Plc** became 1st 100% foreign-owned life insurer.
     * New Licences: **Prudential HCL Health Insurance** (70:30 JV) and **ProTec General Insurance**.
     * LIC paid **₹12,207.25 Crore** dividend to Government.
-  * 🎯 **Recap:** *Aviva 1st 100% foreign life insurer $mid$ Prudential HCL Health licensed $mid$ LIC ₹12,207 Cr dividend.*
+  * 🎯 **Recap:** *Aviva 1st 100% foreign life insurer  •  Prudential HCL Health licensed  •  LIC ₹12,207 Cr dividend.*
 
 ### 10. Major Regulatory & Executive Apex Appointments
 * **Priority:** P2 — High
@@ -379,7 +379,7 @@
 * **India's First Hydrogen Train**: Launched on the **Jind–Sonipat section** (Northern Railway, Haryana); designed under RDSO guidance with a **1,200 kW fuel cell** and 75 kmph operating speed.
 * **Skyroot Aerospace Vikram-1 (Mission Aagaman)**: India's first privately developed orbital launch vehicle (350 kg to LEO) from Sriharikota; carried TakeMe2Space's PowerBank-50 satellite battery pack.
 * **FDI & Trade Metrics**: India's total exports in FY26 reached record **$863.1 Billion** (Merchandise: $441.8B, Services: $421.3B); Net FDI moderated to **$6.95 Billion** in FY26 due to overseas repatriation and ODI outflows.
-* **CBDT SFT Compliance Watch**: Mandatory annual SFT reporting for savings cash deposits $ge ₹10	ext{ lakh}$, current account transactions $ge ₹50	ext{ lakh}$, credit card payments $ge ₹10	ext{ lakh}$ (or cash $> ₹1	ext{ lakh}$), and forex spending $> ₹10	ext{ lakh}$.
+* **CBDT SFT Compliance Watch**: Mandatory annual SFT reporting for savings cash deposits ≥ ₹10  lakh$, current account transactions ≥ ₹50  lakh$, credit card payments ≥ ₹10  lakh$ (or cash $> ₹1  lakh$), and forex spending $> ₹10  lakh$.
 * **Urban Cooperative Bank Tiers**: Kakinada Cooperative Town Bank attained **Tier-III Urban Co-operative Bank (UCB) status** (deposits crossed ₹2,000 crore with zero net NPA). (Tier-I: <₹100 cr; Tier-II: ₹100–₹1,000 cr; Tier-III: ₹1,000–₹10,000 cr; Tier-IV: >₹10,000 cr).
 * **GIFT City Innovations**:
   * **Artha Bharat IFSC:** Launched Gift City's first physical gold fund.

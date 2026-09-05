@@ -18,10 +18,10 @@
 
 #### Must Memorize
 * **NHB Profile Ladder:**
-  * **Establishment:** 9 July 1988 (National Housing Bank Act, 1987) $mid$ HQ: **New Delhi**.
+  * **Establishment:** 9 July 1988 (National Housing Bank Act, 1987)  •  HQ: **New Delhi**.
   * **Capital & Ownership:** **₹1,450 Crore** authorized/paid-up capital; **100% owned by Government of India** (transferred from RBI in 2019).
-  * **Leadership:** MD: **Sanjay Shukla** $mid$ Chairman: **Prabhanjan Mohapatra**.
-  * 🎯 **Recap:** *NHB: 100% Govt of India owned $mid$ ₹1,450 Cr capital $mid$ MD Sanjay Shukla.*
+  * **Leadership:** MD: **Sanjay Shukla**  •  Chairman: **Prabhanjan Mohapatra**.
+  * 🎯 **Recap:** *NHB: 100% Govt of India owned  •  ₹1,450 Cr capital  •  MD Sanjay Shukla.*
 
 #### Exam Focus
 * Ownership: 100% Government of India (not RBI).
@@ -43,7 +43,7 @@
     * **BRBNMPL (100% RBI Subsidiary, HQ Bengaluru):** **Mysore** (Karnataka) & **Salboni** (West Bengal).
     * **SPMCIL (100% Govt of India, HQ New Delhi):** **Nashik** (Maharashtra) & **Dewas** (Madhya Pradesh).
   * **4 Coin Mints (under SPMCIL):** Mumbai, Kolkata, Hyderabad, and Noida.
-  * 🎯 **Recap:** *RBI Subsidiary (BRBNMPL): Mysore & Salboni $mid$ Govt (SPMCIL): Nashik & Dewas $mid$ 4 Mints.*
+  * 🎯 **Recap:** *RBI Subsidiary (BRBNMPL): Mysore & Salboni  •  Govt (SPMCIL): Nashik & Dewas  •  4 Mints.*
 
 #### Exam Focus
 * Which press belongs to RBI subsidiary (BRBNMPL) vs Govt of India (SPMCIL).
@@ -82,14 +82,14 @@
 
 #### Must Memorize
 * **ADB Ownership Ladder:**
-  * **Establishment:** 19 December 1966 $mid$ HQ: **Metro Manila, Philippines** $mid$ **69 Member Countries**.
+  * **Establishment:** 19 December 1966  •  HQ: **Metro Manila, Philippines**  •  **69 Member Countries**.
   * **Leadership:** President: **Masato Kanda**.
   * **Shareholding Matrix:**
     * **Japan:** **15.6%** (Largest Shareholder)
     * **United States:** **15.6%** (Co-Largest Shareholder)
     * **China:** **6.4%**
     * **India:** **6.3%** *(4th largest shareholder globally, 2nd largest regional borrower)*
-  * 🎯 **Recap:** *ADB: 69 members $mid$ Japan & US (15.6% each) $mid$ India (6.3%, 4th largest).*
+  * 🎯 **Recap:** *ADB: 69 members  •  Japan & US (15.6% each)  •  India (6.3%, 4th largest).*
 
 #### Exam Focus
 * India's shareholding in ADB: 6.3%.
@@ -107,9 +107,9 @@
 
 #### Must Memorize
 * **IFSCA Framework Ladder:**
-  * **Establishment:** 27 April 2020 (IFSCA Act, 2019) $mid$ HQ: **GIFT City, Gandhinagar** $mid$ Chairperson: **K. Rajaraman**.
+  * **Establishment:** 27 April 2020 (IFSCA Act, 2019)  •  HQ: **GIFT City, Gandhinagar**  •  Chairperson: **K. Rajaraman**.
   * **4 Unified Domestic Regulators:** Combines powers of **RBI**, **SEBI**, **IRDAI**, and **PFRDA** within IFSC.
-  * 🎯 **Recap:** *IFSCA: GIFT City HQ $mid$ Unifies powers of RBI, SEBI, IRDAI, and PFRDA.*
+  * 🎯 **Recap:** *IFSCA: GIFT City HQ  •  Unifies powers of RBI, SEBI, IRDAI, and PFRDA.*
 
 #### Exam Focus
 * 4 Regulators unified under IFSCA: RBI, SEBI, IRDAI, PFRDA.

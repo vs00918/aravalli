@@ -23,7 +23,7 @@
 
 #### Must Memorize
 * **CIIRP Parameters & Voting Thresholds Ladder:**
-  * **Initiation Voting Share:** Financial creditors holding **$ge 51%$ of voting share** can initiate CIIRP.
+  * **Initiation Voting Share:** Financial creditors holding **≥ 51%$ of voting share** can initiate CIIRP.
   * **Resolution Timeline:** Compressed to **150 days** (maximum single extension of **45 days**).
   * **Debtor-in-Possession Model:** Promoters retain management under continuous Resolution Professional (RP) supervision.
 * **Admission & Liquidation Timelines Ladder:**
@@ -33,8 +33,8 @@
   * **Liquidation Completion:** Within **180 days** (max extension **90 days**).
   * **Liquidator Replacement:** Requires **66% CoC voting majority**.
   * **Application Withdrawal:** Requires **90% CoC approval** (only after CoC formation, before plans invited).
-  * **Penalties:** Frivolous filings: **₹1 Lakh to ₹2 Crore** $mid$ Non-compliance: Up to **₹5 Crore or 3x gains/losses**.
-  * 🎯 **Recap:** *CIIRP (51% vote, 150+45 days) $mid$ NCLT admission: 14 days $mid$ Plan approval: 30 days $mid$ Liquidation: 180+90 days (66% CoC vote) $mid$ Withdrawal: 90% CoC vote.*
+  * **Penalties:** Frivolous filings: **₹1 Lakh to ₹2 Crore**  •  Non-compliance: Up to **₹5 Crore or 3x gains/losses**.
+  * 🎯 **Recap:** *CIIRP (51% vote, 150+45 days)  •  NCLT admission: 14 days  •  Plan approval: 30 days  •  Liquidation: 180+90 days (66% CoC vote)  •  Withdrawal: 90% CoC vote.*
 
 #### Know / Understand
 * CIIRP provides an out-of-court, debtor-in-possession alternative to CIRP, preventing enterprise destruction while empowering lenders to resolve distress rapidly.
@@ -58,20 +58,20 @@
 #### What Happened
 * **Direct Tax Simplification → Income Tax Rules 2026:**
   * MoF notified *Income Tax Rules, 2026* operationalizing the new **Income-tax Act, 2025** from **April 1, 2026**.
-  * Sections condensed from **819 $	o$ 536**, Chapters from **47 $	o$ 23**, and word count halved.
+  * Sections condensed from **819  →  536**, Chapters from **47  →  23**, and word count halved.
 
 #### Must Memorize
 * **HRA Metro Exemption & PAN Thresholds Ladder:**
   * **50% HRA Metro Cities (8 Urban Hubs):** **Mumbai, Kolkata, Delhi, Chennai, Hyderabad, Pune, Ahmedabad, Bengaluru** (all other cities 40%).
-  * **Cash Transactions:** Mandatory PAN for aggregate cash deposits/withdrawals $ge mathbf{₹10	ext{ Lakh / FY}}$ *(replaces old single-day ₹50,000 rule)*.
-  * **Motor Vehicles:** Mandatory PAN for purchase $> mathbf{₹5	ext{ Lakh}}$.
-  * **Banquets / Restaurants / Hotels:** Mandatory PAN for payments $> mathbf{₹1	ext{ Lakh}}$.
-  * **Immovable Property:** Mandatory PAN for property value $> mathbf{₹20	ext{ Lakh}}$ (earlier ₹10L).
+  * **Cash Transactions:** Mandatory PAN for aggregate cash deposits/withdrawals ≥ mathbf{₹10  Lakh / FY}$ *(replaces old single-day ₹50,000 rule)*.
+  * **Motor Vehicles:** Mandatory PAN for purchase $> mathbf{₹5  Lakh}$.
+  * **Banquets / Restaurants / Hotels:** Mandatory PAN for payments $> mathbf{₹1  Lakh}$.
+  * **Immovable Property:** Mandatory PAN for property value $> mathbf{₹20  Lakh}$ (earlier ₹10L).
 * **Credit Card & Corporate Surveillance:**
-  * Mandatory PAN linking with credit cards; annual spends $> mathbf{₹10	ext{ Lakh}}$ reported to IT authorities.
+  * Mandatory PAN linking with credit cards; annual spends $> mathbf{₹10  Lakh}$ reported to IT authorities.
   * Stock exchanges must retain electronic audit trails for **7 years**.
   * Significant Economic Presence (SEP) threshold: **₹2 Crore revenue or 3 Lakh users**.
-  * 🎯 **Recap:** *50% HRA in 8 metros $mid$ PAN cash rule: ₹10L/year $mid$ Property: ₹20L $mid$ Vehicle: ₹5L $mid$ Hotel: ₹1L $mid$ Credit card spend report: >₹10L.*
+  * 🎯 **Recap:** *50% HRA in 8 metros  •  PAN cash rule: ₹10L/year  •  Property: ₹20L  •  Vehicle: ₹5L  •  Hotel: ₹1L  •  Credit card spend report: >₹10L.*
 
 #### Know / Understand
 * Replaces easily circumvented daily cash rules with annual PAN-linked aggregate tracking while aligning HRA relief with high-cost tech and financial metros.
@@ -105,7 +105,7 @@
   * **Zero Customer Liability:** 100% reversal if fraud arises from bank deficiency, or third-party breach reported within **5 calendar days**.
   * **Dynamic 2FA Mandate:** Mandatory 2FA with at least one dynamic factor (OTP, biometric) for domestic digital transactions from **April 1, 2026** (cross-border CNP: **October 1, 2026**).
   * **Mandatory Instant SMS:** Required for all transactions $> mathbf{₹500}$.
-  * 🎯 **Recap:** *Small fraud relief: 85% loss or ₹25,000 (losses up to ₹50k, 5-day report to 1930) $mid$ Dynamic 2FA from April 1, 2026 $mid$ SMS alerts $>₹500$.*
+  * 🎯 **Recap:** *Small fraud relief: 85% loss or ₹25,000 (losses up to ₹50k, 5-day report to 1930)  •  Dynamic 2FA from April 1, 2026  •  SMS alerts $>₹500$.*
 
 #### Know / Understand
 * Establishes a retail safety net for depositors against phishing and SIM-swap attacks while compelling banks to deploy real-time ML fraud interdiction tools.
@@ -136,9 +136,9 @@
   * **Maximum Dividend Ceiling:** Up to **75% of actual PAT**.
   * **Capital Buffer Matrix:** High CET1 capital allows distributing up to 100% of Adjusted PAT (capped by 75% actual PAT). Marginal CET1 banks barred from dividends.
   * **Adjusted PAT Formula:**
-    $$\text{Adjusted PAT} = \text{PAT of Financial Year} - 50\% \text{ of Net NPAs (as of March 31)}$$
+    $$Adjusted PAT = PAT of Financial Year - 50\%  of Net NPAs (as of March 31)$$
   * **Effective Period:** Applies to all dividend declarations starting **FY 2026-27 (FY27)**.
-  * 🎯 **Recap:** *Bank dividend cap: 75% of PAT $mid$ Formula: PAT - 50% Net NPAs $mid$ Effective FY27.*
+  * 🎯 **Recap:** *Bank dividend cap: 75% of PAT  •  Formula: PAT - 50% Net NPAs  •  Effective FY27.*
 
 #### Know / Understand
 * Prevents undercapitalized lenders from diluting solvency through dividends while allowing healthy, low-NPA banks to reward shareholders.
@@ -164,7 +164,7 @@
     * Precious Metals: **7%** ($<1$ yr), **7%** (1–5 yrs), **8%** ($>5$ yrs).
     * Other Commodities: **10%**, **12%**, **15%**.
     * QCCPs: Standard **2% risk weight** applies to trade exposures.
-  * 🎯 **Recap:** *CCR add-on factors: Equity (6-10%), Commodities (10-15%) $mid$ 2% risk weight for QCCPs.*
+  * 🎯 **Recap:** *CCR add-on factors: Equity (6-10%), Commodities (10-15%)  •  2% risk weight for QCCPs.*
 
 ### 2. RBI 622nd Central Board Meeting in Patna & Utkarsh 3.0 (2026–29)
 * **Priority:** P2 — High
@@ -208,8 +208,8 @@
 * **Must Memorize Facts:**
   * **Central WMA Borrowing Limits:**
     * H1 FY27 limit fixed at **₹2,50,000 Crore**. Market loans triggered at **75% utilization**.
-    * Interest: WMA at **Repo Rate** $mid$ Overdraft at **Repo + 2%**.
-  * 🎯 **Recap:** *H1 FY27 Central WMA: ₹2,50,000 Cr $mid$ Fresh bond issuance triggered at 75% utilization.*
+    * Interest: WMA at **Repo Rate**  •  Overdraft at **Repo + 2%**.
+  * 🎯 **Recap:** *H1 FY27 Central WMA: ₹2,50,000 Cr  •  Fresh bond issuance triggered at 75% utilization.*
 
 ### 6. RBI Caps Net Rupee FX Positions (NOP-INR) at $100 Million for AD Banks
 * **Priority:** P2 — High
@@ -250,9 +250,9 @@
 * **Event Date:** 2026-03-15
 * **Must Memorize Facts:**
   * **Unclaimed Depositor Funds:**
-    * PSBs transferred **₹60,518 Crore** to Depositor Education and Awareness (DEA) Fund under Section 26A of BR Act (inoperative $>10	ext{ yrs}$).
+    * PSBs transferred **₹60,518 Crore** to Depositor Education and Awareness (DEA) Fund under Section 26A of BR Act (inoperative $>10  yrs$).
     * Portals: UDGAM (deposits), Bima Bharosa (insurance), MITRA (mutual funds).
-  * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund $mid$ UDGAM portal.*
+  * 🎯 **Recap:** *₹60,518 Cr unclaimed deposits in DEA Fund  •  UDGAM portal.*
 
 ### 10. RBI & IDPIC Deploy 'MuleHunter.AI' across 26 Banks
 * **Priority:** P2 — High
@@ -283,9 +283,9 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **Retail Social Investment Access:**
-    * SIF minimum investment lowered from ₹2 lakh $	o$ **₹1,000**.
+    * SIF minimum investment lowered from ₹2 lakh  →  **₹1,000**.
     * Pratyush Sinha panel: SEBI leadership classified as insiders (must freeze commercial equities).
-  * 🎯 **Recap:** *Social Impact Fund min ticket cut to ₹1,000 $mid$ SEBI insider code adopted.*
+  * 🎯 **Recap:** *Social Impact Fund min ticket cut to ₹1,000  •  SEBI insider code adopted.*
 
 ### 13. SEBI Allows Mutual Funds Intra-Day Borrowing for Redemptions
 * **Priority:** P2 — High
@@ -307,7 +307,7 @@
 * **Must Memorize Facts:**
   * **PoP Distributor Fees:**
     * Onboarding charge: **₹200** per subscriber (discounted to **₹100** for digital e-KYC). Annual fee: **0.20% of Assets Under Management (AUM)**.
-  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding $mid$ 0.20% annual Assets Under Management (AUM) fee.*
+  * 🎯 **Recap:** *NPS PoP fees: ₹200 physical / ₹100 digital onboarding  •  0.20% annual Assets Under Management (AUM) fee.*
 
 ### 15. SEBI Proposes Mutual Fund Prepaid Gift Instruments (₹10,000 Cap)
 * **Priority:** P2 — High
@@ -343,7 +343,7 @@
 * **Must Memorize Facts:**
   * **Target Date Lifecycle Funds:**
     * Defined tenures of 5, 10, 15, 20, 25, 30 years. Exit loads: 3% (Yr 1), 2% (Yr 2), 1% (Yr 3).
-  * 🎯 **Recap:** *Lifecycle mutual funds with 5 to 30-year tenures $mid$ Glide-path asset reallocation.*
+  * 🎯 **Recap:** *Lifecycle mutual funds with 5 to 30-year tenures  •  Glide-path asset reallocation.*
 
 ### 18. SEBI Simplifies Securities Transmission: ₹30,000 STP Limit & ₹30 Lakh Documentation Threshold
 * **Priority:** P2 — High
@@ -353,9 +353,9 @@
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
   * **Transmission Processing Thresholds:**
-    * STP transmission limit: **₹30,000 for demat** $mid$ **₹10,000 for physical**.
-    * Simplified documentation: **₹30 Lakh for demat** $mid$ **₹10 Lakh for physical** (21-day timeline).
-  * 🎯 **Recap:** *Demat transmission simplified documentation up to ₹30 Lakh $mid$ 21-day completion.*
+    * STP transmission limit: **₹30,000 for demat**  •  **₹10,000 for physical**.
+    * Simplified documentation: **₹30 Lakh for demat**  •  **₹10 Lakh for physical** (21-day timeline).
+  * 🎯 **Recap:** *Demat transmission simplified documentation up to ₹30 Lakh  •  21-day completion.*
 
 ### 19. SEBI Norms for Non-Bank Custodians: SBU Ring-Fencing & ₹75 Crore Net Worth
 * **Priority:** P2 — High
@@ -418,7 +418,7 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **MPS Slabs Overhaul:**
-    * Post-issue capital categories expanded from 3 $	o$ **6 categories** (compliance window **3 to 10 years**; min offer lowered to **2.5%**).
+    * Post-issue capital categories expanded from 3  →  **6 categories** (compliance window **3 to 10 years**; min offer lowered to **2.5%**).
   * 🎯 **Recap:** *6 MPS post-issue tiers with 3–10 year compliance windows.*
 
 ### 25. Government Restores RoDTEP Rates and Value Caps (Effective March 23, 2026)

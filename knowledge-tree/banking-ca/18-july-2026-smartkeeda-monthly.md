@@ -38,7 +38,7 @@
   * **Top Currencies:** **US Dollar (55.5%)**, **Indian Rupee (29.4%)**, Yen (6.4%), SDR (4.3%), Euro (3.7%).
   * **Largest Debtor Group:** **Non-Financial Corporations (36.4%)**.
   * **Top Instrument:** **Commercial Loans (34.7%)**.
-  * 🎯 **Recap:** *External debt: $762.8B (20.8% GDP) $mid$ Debt service: 5.8% $mid$ USD 55.5%, INR 29.4% $mid$ Commercial loans 34.7%.*
+  * 🎯 **Recap:** *External debt: $762.8B (20.8% GDP)  •  Debt service: 5.8%  •  USD 55.5%, INR 29.4%  •  Commercial loans 34.7%.*
 
 #### Exam Focus
 - Debt-to-GDP Ratio: 20.8% (end-March 2026).
@@ -72,8 +72,8 @@
     * Defaults 2 to $<4$ months: **0.50%/month**.
     * Defaults $>4$ months: **1.0%/month**.
   * **EPF FY26 Interest Rate:** Recommends **8.25% p.a.** (3rd consecutive year).
-  * **CITES 2.01 Platform:** Auto-settlement advance limit raised to **₹5 Lakh** $mid$ **75% withdrawal** across 3 simplified heads.
-  * 🎯 **Recap:** *EPF FY26 interest: 8.25% $mid$ VISHWAS rates: 0.25%, 0.50%, 1.0% $mid$ Auto-settlement limit: ₹5 Lakh.*
+  * **CITES 2.01 Platform:** Auto-settlement advance limit raised to **₹5 Lakh**  •  **75% withdrawal** across 3 simplified heads.
+  * 🎯 **Recap:** *EPF FY26 interest: 8.25%  •  VISHWAS rates: 0.25%, 0.50%, 1.0%  •  Auto-settlement limit: ₹5 Lakh.*
 
 #### Exam Focus
 - EPF FY26 Interest Rate: 8.25% (3rd consecutive year).
@@ -103,7 +103,7 @@
   * **Coverage Scope:** **18 States + UT of Delhi**.
   * **Q2 FY27 Borrowing Target:** **₹3.19 Trillion**.
   * **FY26 Gross State Borrowings:** Reached **₹12.76 Trillion** (up from ₹10.73 Trillion in FY25).
-  * 🎯 **Recap:** *SDL BIS expanded to 18 States + Delhi $mid$ Sec 21A RBI Act $mid$ Gross FY26 SDL: ₹12.76 Trillion.*
+  * 🎯 **Recap:** *SDL BIS expanded to 18 States + Delhi  •  Sec 21A RBI Act  •  Gross FY26 SDL: ₹12.76 Trillion.*
 
 #### Exam Focus
 - Governing RBI Act Provision: Section 21A of RBI Act, 1934.
@@ -133,7 +133,7 @@
   * **Wage Floor:** Mandatory minimum **₹300 per day** across all states/UTs.
   * **Scheme Outlay:** **₹1,51,282 Crore** total outlay (1st Mother Sanction: **₹25,863 Crore**).
   * **Payment Timeline:** Disbursed into Aadhaar-seeded accounts within **15 days** of muster roll closure.
-  * 🎯 **Recap:** *VB-G RAM G: 125 days guaranteed work $mid$ ₹300/day wage floor $mid$ ₹1,51,282 Cr outlay.*
+  * 🎯 **Recap:** *VB-G RAM G: 125 days guaranteed work  •  ₹300/day wage floor  •  ₹1,51,282 Cr outlay.*
 
 #### Exam Focus
 - Entitlement Days: 125 days (up from 100 days).
@@ -158,7 +158,7 @@
 
 #### Must Memorize
 * **FI-Index Parameter Ladder:**
-  * **Score:** **70.0** *(March 2026)* $mid$ Scale: 0 to 100 $mid$ **No Base Year**.
+  * **Score:** **70.0** *(March 2026)*  •  Scale: 0 to 100  •  **No Base Year**.
   * **Weights:** **Usage (45%)**, **Access (35%)**, **Quality (20%)**.
   * **Coverage:** **97 indicators** across banking, insurance, postal, investments, pensions.
   * 🎯 **Recap:** *FI-Index: 70.0 (Usage 45%, Access 35%, Quality 20%) across 97 indicators.*
@@ -189,7 +189,7 @@
   * **New Clients (from Sept 1, 2026):** Upload to KRA within **3 working days**.
   * **Existing Clients:** Legacy upload deadline: **October 30, 2026**.
   * **Mandatory Linkage:** All regulated entities must integrate with **at least 1 KRA**.
-  * 🎯 **Recap:** *One KYC at GIFT City: 3-day KRA upload for new clients $mid$ Oct 30, 2026 legacy cut-off.*
+  * 🎯 **Recap:** *One KYC at GIFT City: 3-day KRA upload for new clients  •  Oct 30, 2026 legacy cut-off.*
 
 #### Exam Focus
 - Implementing Authority: IFSCA (Chairperson: K. Rajaraman).
@@ -383,7 +383,7 @@
 - **Institution**: `NITI_AAYOG`
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-04`
-- **Key Facts**: Large States: #1 Gujarat, #2 Maharashtra, #3 Tamil Nadu $mid$ Hilly: #1 Uttarakhand $mid$ UTs: #1 Goa.
+- **Key Facts**: Large States: #1 Gujarat, #2 Maharashtra, #3 Tamil Nadu  •  Hilly: #1 Uttarakhand  •  UTs: #1 Goa.
 - 🎯 **Recap:** *NITI Aayog IFI 2026: Gujarat #1 large state for investment.*
 
 ### 28. NITI Aayog BioEconomy Powerhouse Roadmap: $691 Billion Target by 2035
@@ -408,7 +408,7 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
 - **Key Facts**: Secondary GER rose to 71.7%; Chandigarh #1 in PGI-S 2.0 (Uttam-3 grade).
-- 🎯 **Recap:** *UDISE+ 2025-26: Secondary GER 71.7% $mid$ Chandigarh #1 in PGI-S 2.0.*
+- 🎯 **Recap:** *UDISE+ 2025-26: Secondary GER 71.7%  •  Chandigarh #1 in PGI-S 2.0.*
 
 ### 31. World Bank Approves $890 Million Financing for PM Surya Ghar Rooftop Solar
 - **Category**: `GOVERNMENT_SCHEMES`
@@ -480,7 +480,7 @@
 - **Priority**: `P2_HIGH`
 - **Date**: `2026-07-08`
 - **Key Facts**: Netra Mk I received FOC; ₹19,000 Crore contracts signed for 6 Netra Mk II aircraft on Airbus A321.
-- 🎯 **Recap:** *DRDO Netra AEW&C received FOC $mid$ ₹19,000 Cr Netra Mk II contract.*
+- 🎯 **Recap:** *DRDO Netra AEW&C received FOC  •  ₹19,000 Cr Netra Mk II contract.*
 
 ### 40. DRDO Successfully Tests Project Kusha Long-Range Surface-to-Air Missile (LR-SAM)
 - **Category**: `DEFENCE_AND_SECURITY`

@@ -30,11 +30,11 @@
   * **Risk Model Incentive:** Up to **33.33% discount** over card rate.
   * **Vintage Model Incentive:** Up to **25% discount** for long-term claim-free contributions.
   * **Effective Formula:**
-    $$\text{Effective Rate} = \text{Card Rate} \times (1 - \text{Risk Model Discount}) \times (1 - \text{Vintage Model Discount})$$
+    $$Effective Rate = Card Rate  ×  (1 - Risk Model Discount)  ×  (1 - Vintage Model Discount)$$
 * **Exemptions Retaining Flat 12 Paise Card Rate:**
   * **Payments Banks (PBs) & Local Area Banks (LABs):** Retain flat **12 paise per ₹100** rate ($<1%$ of total premiums).
   * **UCBs under SAF / PCA:** Retain flat 12 paise rate until financial year following exit from SAF/PCA.
-  * 🎯 **Recap:** *Section 15(1) DICGC Act $mid$ Effective April 1, 2026 $mid$ Max discounts: 33.33% (Risk), 25% (Vintage) $mid$ PBs/LABs/PCA banks keep flat 12p rate.*
+  * 🎯 **Recap:** *Section 15(1) DICGC Act  •  Effective April 1, 2026  •  Max discounts: 33.33% (Risk), 25% (Vintage)  •  PBs/LABs/PCA banks keep flat 12p rate.*
 
 #### Know / Understand
 * Shifts deposit insurance from a mutualized subsidy model to a risk-sensitive discipline aligning premium cost with asset risk and governance health.
@@ -66,7 +66,7 @@
   * **PMEGP Linkage:** Mandatory **₹20 Lakh** collateral-free threshold applies across all PMEGP units (KVIC).
   * **Discretionary Limit:** Banks can raise collateral-free limit **up to ₹25 Lakh** for borrowers with sound track records.
   * **Voluntary Pledges:** Voluntary borrower pledges of gold/silver are explicitly permitted.
-  * 🎯 **Recap:** *Mandatory collateral-free limit: ₹20 Lakh (PMEGP included) $mid$ Discretionary cap: ₹25 Lakh $mid$ Effective April 1, 2026.*
+  * 🎯 **Recap:** *Mandatory collateral-free limit: ₹20 Lakh (PMEGP included)  •  Discretionary cap: ₹25 Lakh  •  Effective April 1, 2026.*
 
 #### Know / Understand
 * Eliminates collateral bottlenecks for micro-enterprises and artisan units while maintaining lender risk protection via credit guarantee mechanisms (CGTMSE).
@@ -95,10 +95,10 @@
 #### Must Memorize
 * **ECB Borrowing & Maturity Parameters Ladder:**
   * **Automatic Route Borrowing Cap:** **Higher of $1 Billion or 300% of standalone audited net worth** per financial year (earlier $750M).
-  * **Minimum Average Maturity:** **3 years** for general ECBs $mid$ **1 to 3 years** for manufacturing companies up to **$150 Million**.
+  * **Minimum Average Maturity:** **3 years** for general ECBs  •  **1 to 3 years** for manufacturing companies up to **$150 Million**.
   * **Eligible End-Use:** Acquisition of corporate **"control"** is officially confirmed as a permitted end-use.
   * **Compliance Streamlining:** Removed mandatory AD bank all-in-cost monitoring following ceiling deregulation.
-  * 🎯 **Recap:** *ECB automatic limit: Higher of $1B or 300% net worth $mid$ 3-year min maturity (1–3 yrs for mfg up to $150M) $mid$ Corporate acquisition permitted.*
+  * 🎯 **Recap:** *ECB automatic limit: Higher of $1B or 300% net worth  •  3-year min maturity (1–3 yrs for mfg up to $150M)  •  Corporate acquisition permitted.*
 
 #### Know / Understand
 * Provides Indian corporates and infrastructure developers access to global capital pools for overseas expansions and acquisitions without restrictive regulatory caps.
@@ -128,7 +128,7 @@
   * **Vertical Devolution Share:** Maintained at **41%** of central divisible tax pool to States.
   * **Award Duration:** **5 Years** (FY 2026-27 to FY 2030-31).
   * **Constitutional Anchor:** **Article 280** of the Constitution of India.
-  * 🎯 **Recap:** *16th FC Chairman: Dr. Arvind Panagariya $mid$ 41% tax devolution to States $mid$ Period: 2026–2031 $mid$ Article 280.*
+  * 🎯 **Recap:** *16th FC Chairman: Dr. Arvind Panagariya  •  41% tax devolution to States  •  Period: 2026–2031  •  Article 280.*
 
 #### Know / Understand
 * Balances fiscal stability of the Union government with resource requirements of States for capital expenditure and social infrastructure.
@@ -155,7 +155,7 @@
     * Total bank financing capped at **75% of acquisition value**.
     * Consolidated post-acquisition debt-to-equity ratio must not exceed **3:1**.
     * Minimum net worth: **₹500 Crore** for listed/unlisted acquirers. Effective **April 1, 2026**.
-  * 🎯 **Recap:** *Acquisition financing: 20% syndicate cap $mid$ 75% loan cap $mid$ Max 3:1 D/E ratio $mid$ ₹500 Cr net worth.*
+  * 🎯 **Recap:** *Acquisition financing: 20% syndicate cap  •  75% loan cap  •  Max 3:1 D/E ratio  •  ₹500 Cr net worth.*
 
 ### 2. RBI Commercial Banks Credit Facilities Directions 2026: 100% Collateral for Broker Credit
 * **Priority:** P2 — High
@@ -166,8 +166,8 @@
 * **Must Memorize Facts:**
   * **Stockbroker Credit Restrictions:**
     * Credit to SEBI-regulated brokers permitted only on a **100% fully secured basis** from April 1, 2026.
-    * Guarantees for exchanges must have **$ge 50%$ collateral (25% cash)**; shares attract **40% minimum haircut**.
-  * 🎯 **Recap:** *100% collateralized credit for stockbrokers $mid$ Guarantees require 50% collateral (25% cash).*
+    * Guarantees for exchanges must have **≥ 50%$ collateral (25% cash)**; shares attract **40% minimum haircut**.
+  * 🎯 **Recap:** *100% collateralized credit for stockbrokers  •  Guarantees require 50% collateral (25% cash).*
 
 ### 3. 100% FDI in Insurance Sector Operationalized under Automatic Route
 * **Priority:** P2 — High
@@ -179,7 +179,7 @@
   * **Insurance FDI Operationalization:**
     * Notified **100% FDI in insurance companies and intermediaries under automatic route** (effective Feb 5).
     * Governance: At least **one resident Indian citizen** as Chairperson, MD, or CEO.
-  * 🎯 **Recap:** *100% FDI in insurance companies & intermediaries $mid$ At least 1 resident Indian Key Executive.*
+  * 🎯 **Recap:** *100% FDI in insurance companies & intermediaries  •  At least 1 resident Indian Key Executive.*
 
 ### 4. RBI Subsumes Voluntary Retention Route (VRR) under FPI General Route
 * **Priority:** P2 — High
@@ -201,7 +201,7 @@
 * **Must Memorize Facts:**
   * **Urban Co-operative Bank (UCB) Lending Flexibility:**
     * Unsecured ceiling revised to **20% of total advances** (from 10% total assets); consumer durable loan limit raised to **₹2.5 Lakh**.
-  * 🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances $mid$ ₹2.5L consumer durable limit.*
+  * 🎯 **Recap:** *UCB unsecured loan cap: 20% of total advances  •  ₹2.5L consumer durable limit.*
 
 ### 6. RBI Monetary Policy Relief: Up to ₹25,000 Compensation for Small Digital Fraud Victims
 * **Priority:** P2 — High
@@ -223,7 +223,7 @@
   * **Digital Payments Index Ladder:**
     * RBI-DPI rose to **516.76** for Sept 2025 (Base March 2018=100).
     * Highest weight: **Payment Performance (45%)**, followed by Payment Enablers (25%).
-  * 🎯 **Recap:** *RBI-DPI: 516.76 $mid$ Top parameter: Payment Performance (45%).*
+  * 🎯 **Recap:** *RBI-DPI: 516.76  •  Top parameter: Payment Performance (45%).*
 
 ### 8. Union Budget FY27: ₹2,000 Crore Incentive for UPI & RuPay P2M Transactions
 * **Priority:** P2 — High
@@ -253,7 +253,7 @@
 * **Must Memorize Facts:**
   * **PMAY-U 2.0 Targets:**
     * Construction target raised to **500,000 homes in FY27**; outlay increased 148% to **₹18,625 Crore**.
-  * 🎯 **Recap:** *PMAY-U 2.0: 5 lakh homes target $mid$ ₹18,625 Cr FY27 outlay.*
+  * 🎯 **Recap:** *PMAY-U 2.0: 5 lakh homes target  •  ₹18,625 Cr FY27 outlay.*
 
 ### 11. Lakhpati Didi Target Doubled to 6 Crore by March 2029
 * **Priority:** P2 — High
@@ -264,7 +264,7 @@
   * **Rural Women Empowerment Milestone:**
     * Target expanded to **6 Crore Lakhpati Didis by March 2029** (earlier 3 Cr achieved).
     * Agriculture Infrastructure Fund (AIF) target doubled to **₹2 Lakh Crore**.
-  * 🎯 **Recap:** *Lakhpati Didi target: 6 Crore by March 2029 $mid$ AIF target doubled to ₹2 Lakh Cr.*
+  * 🎯 **Recap:** *Lakhpati Didi target: 6 Crore by March 2029  •  AIF target doubled to ₹2 Lakh Cr.*
 
 ### 12. RBI Defers Unique Transaction Identifier (UTI) for OTC Derivatives to Jan 1, 2027
 * **Priority:** P2 — High
@@ -274,7 +274,7 @@
 * **Status:** NOTIFIED
 * **Must Memorize Facts:**
   * **Derivatives Reporting Timeline:**
-    * Implementation of UTI for OTC derivatives deferred from April 1, 2026 $	o$ **1 January 2027**.
+    * Implementation of UTI for OTC derivatives deferred from April 1, 2026  →  **1 January 2027**.
   * 🎯 **Recap:** *UTI for OTC derivatives deferred to Jan 1, 2027.*
 
 ### 13. SEBI Dynamic Price Band & Base Price Revamp for ETFs
@@ -286,8 +286,8 @@
 * **Must Memorize Facts:**
   * **ETF Price Discovery Bands:**
     * Base price derived from **T-1 closing NAV/iNAV**.
-    * Equity ETFs: **10% initial band** $mid$ Gold/Silver: **6% initial band** $mid$ Overnight: **5% fixed band**.
-  * 🎯 **Recap:** *ETF base price linked to T-1 NAV $mid$ 10% equity band, 6% gold/silver band.*
+    * Equity ETFs: **10% initial band**  •  Gold/Silver: **6% initial band**  •  Overnight: **5% fixed band**.
+  * 🎯 **Recap:** *ETF base price linked to T-1 NAV  •  10% equity band, 6% gold/silver band.*
 
 ### 14. SEBI Mandates ISIN-Level NAV Disclosures for Alternative Investment Funds
 * **Priority:** P2 — High
@@ -320,7 +320,7 @@
 * **Must Memorize Facts:**
   * **Settlement Guarantee Fund Calibration:**
     * Reduced commodity stress testing Z-score from **10 to 5**; covers simultaneous default of **top 3 members**.
-  * 🎯 **Recap:** *Commodity stress test Z-score cut to 5 $mid$ SGF covers top 3 member defaults.*
+  * 🎯 **Recap:** *Commodity stress test Z-score cut to 5  •  SGF covers top 3 member defaults.*
 
 ### 17. SEBI Exit Flexibility & Liquidation Proceeds Retention for AIFs
 * **Priority:** P2 — High
@@ -330,7 +330,7 @@
 * **Status:** PROPOSAL
 * **Must Memorize Facts:**
   * **AIF Liquidation Protocol:**
-    * Funds retained beyond life for tax/litigation with consent of **$ge 75%$ investors by value** (expense retention $le 3$ yrs).
+    * Funds retained beyond life for tax/litigation with consent of **≥ 75%$ investors by value** (expense retention ≤ 3 yrs).
   * 🎯 **Recap:** *AIF litigation fund retention allowed with 75% investor consent.*
 
 ### 18. SEBI Mandates Registered Name and Registration Number on Social Media
@@ -353,7 +353,7 @@
   * **Claim Settlement Ratios:**
     * Public Sector: United India (**95.26%**), New India (**91.75%**).
     * Private Sector: Acko (**99.98%**), Reliance General (**99.32%**).
-  * 🎯 **Recap:** *United India (95.26%) leads PSU insurers $mid$ Acko (99.98%) leads private general insurers.*
+  * 🎯 **Recap:** *United India (95.26%) leads PSU insurers  •  Acko (99.98%) leads private general insurers.*
 
 ### 20. ICICI Prudential Swasthya Pension Scheme under PFRDA Regulatory Sandbox
 * **Priority:** P2 — High
@@ -363,7 +363,7 @@
 * **Must Memorize Facts:**
   * **Health-Linked Pension Features:**
     * 25% partial withdrawal for medical/OPD; 100% emergency exit if medical costs $>70%$ corpus.
-  * 🎯 **Recap:** *ICICI Pru Swasthya: 25% partial withdrawal $mid$ 100% exit for medical crises.*
+  * 🎯 **Recap:** *ICICI Pru Swasthya: 25% partial withdrawal  •  100% exit for medical crises.*
 
 ### 21. World Bank Approves $830 Million Loan for PM-SETU (ITI Modernization)
 * **Priority:** P2 — High
@@ -383,7 +383,7 @@
 * **Must Memorize Facts:**
   * **Major Bank Equity Approvals:**
     * Blackstone approved for **9.99% in Federal Bank** (₹6,196.51 Cr); SBI MF approved for **9.99% in Bandhan & RBL Bank**.
-  * 🎯 **Recap:** *Blackstone 9.99% in Federal Bank $mid$ SBI MF 9.99% in Bandhan & RBL Bank.*
+  * 🎯 **Recap:** *Blackstone 9.99% in Federal Bank  •  SBI MF 9.99% in Bandhan & RBL Bank.*
 
 ### 23. PFC Board Approves Merger with Subsidiary REC Ltd
 * **Priority:** P2 — High
@@ -412,8 +412,8 @@
 * **Event Date:** 2026-02-21
 * **Must Memorize Facts:**
   * **Tax Treaty Adjustments:**
-    * Deleted MFN clause; split dividend tax (5% for $ge 10%$ holding, 15% others).
-  * 🎯 **Recap:** *India-France DTAA protocol: Deleted MFN clause $mid$ 5%/15% dividend tax.*
+    * Deleted MFN clause; split dividend tax (5% for ≥ 10%$ holding, 15% others).
+  * 🎯 **Recap:** *India-France DTAA protocol: Deleted MFN clause  •  5%/15% dividend tax.*
 
 ### 26. India and GCC Sign Terms of Reference for Free Trade Agreement (FTA)
 * **Priority:** P2 — High
@@ -432,8 +432,8 @@
 * **Event Date:** 2026-02-03
 * **Must Memorize Facts:**
   * **Startup Classification Expansion:**
-    * Deep-tech startups classified up to **20 years** (turnover $le mathbf{₹300	ext{ Cr}}$); regular startups turnover cap raised to **₹200 Crore** (10 years).
-  * 🎯 **Recap:** *Deep-tech startups: 20-year window & ₹300 Cr turnover $mid$ Regular: ₹200 Cr.*
+    * Deep-tech startups classified up to **20 years** (turnover ≤ mathbf{₹300  Cr}$); regular startups turnover cap raised to **₹200 Crore** (10 years).
+  * 🎯 **Recap:** *Deep-tech startups: 20-year window & ₹300 Cr turnover  •  Regular: ₹200 Cr.*
 
 ### 28. MoRTH Launches 'PM RAHAT' Cashless Road Accident Victim Scheme
 * **Priority:** P2 — High

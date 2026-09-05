@@ -189,15 +189,34 @@ export function mergeCanonicalTopics(existing: CanonicalTopic, incoming: Canonic
     new Set([...(existing.activeInMonths || []), ...(incoming.activeInMonths || [])])
   ).sort();
 
-  // 3. Must Memorize Facts Union (normalized deduplication)
-  const existingFactSet = new Set(existing.mustMemorizeFacts.map(f => f.toLowerCase().replace(/[^\w]/g, '')));
+  // 3. Must Memorize Facts Union (normalized deduplication & single crisp recap invariant)
+  const isRecap = (s: string) => /🎯|\bRecap:/i.test(s);
+  const isStrayHeader = (s: string) =>
+    /^\*{0,2}(?:Foreign Asset Voluntary Disclosure Window|FAST-DS Valuation & Procedure Ladder|PM E-DRIVE Slabs & Caps Ladder|Pricing & Reset Architecture Ladder|Digital Payment Charges Statutory Enablement|Scheme Overview & Window|Statutory Mechanism & Valuation Rules|Payment Architecture & Legal Provisions Ladder|Legislative Overview & Core Provision|Revised Incentive Architecture & Fiscal Sub-Limits|Know & Understand \(Context\)):\*{0,2}:?$/i.test(
+      s.trim()
+    );
+
+  const existingNonRecaps = existing.mustMemorizeFacts.filter((f) => !isRecap(f) && !isStrayHeader(f));
+  let bestRecap = existing.mustMemorizeFacts.find((f) => isRecap(f));
+
+  const existingFactSet = new Set(existingNonRecaps.map((f) => f.toLowerCase().replace(/[^\w]/g, '')));
+
   for (const fact of incoming.mustMemorizeFacts) {
+    if (isStrayHeader(fact)) continue;
+    if (isRecap(fact)) {
+      if (!bestRecap || fact.length > bestRecap.length) {
+        bestRecap = fact;
+      }
+      continue;
+    }
     const norm = fact.toLowerCase().replace(/[^\w]/g, '');
     if (!existingFactSet.has(norm)) {
-      existing.mustMemorizeFacts.push(fact);
+      existingNonRecaps.push(fact);
       existingFactSet.add(norm);
     }
   }
+
+  existing.mustMemorizeFacts = bestRecap ? [...existingNonRecaps, bestRecap] : existingNonRecaps;
 
   // 4. What Happened Union
   const existingWhatSet = new Set((existing.whatHappened || []).map(w => w.toLowerCase().replace(/[^\w]/g, '')));

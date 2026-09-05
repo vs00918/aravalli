@@ -23,7 +23,7 @@
 
 #### Must Memorize
 * **Key Metrics & Medal Standings Ladder:**
-  * **Tournament Identity:** 23rd Edition $mid$ Motto: *"Sport Is Just the Beginning"* $mid$ Mascot: *Finnie the unicorn*.
+  * **Tournament Identity:** 23rd Edition  •  Motto: *"Sport Is Just the Beginning"*  •  Mascot: *Finnie the unicorn*.
   * **Flag Bearers (India):** **Mirabai Chanu** (Weightlifting) & **Lovlina Borgohain** (Boxing).
   * **Top 5 Medal Tally:**
     * **1. Australia:** **70 Gold, 45 Silver, 56 Bronze = 171 Total**
@@ -40,7 +40,7 @@
     * **First Decathlon Medal:** **Tejaswin Shankar** (Bronze, 7,976 pts).
     * **Men's Javelin Double Podium:** **Neeraj Chopra** (Silver, 85.83m) & **Yash Vir Singh** (Bronze, 85.41m).
   * **Next Edition:** **Ahmedabad, Gujarat, India (October 2030)** (Centenary Games).
-  * 🎯 **Recap:** *Glasgow CWG 2026: India 4th (13G, 17S, 9B = 39) $mid$ #1 Boxing (7G) $mid$ Next host: Ahmedabad 2030.*
+  * 🎯 **Recap:** *Glasgow CWG 2026: India 4th (13G, 17S, 9B = 39)  •  #1 Boxing (7G)  •  Next host: Ahmedabad 2030.*
 
 #### Exam Focus
 * India's finish & medal count: 4th rank, 39 medals (13 Gold, 17 Silver, 9 Bronze).

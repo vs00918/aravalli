@@ -845,5 +845,37 @@
     "action": "REJECT",
     "target_topic_slug": "the-architecture-of-social-connectivity",
     "reviewer_notes": "Not relevant to core thesis"
+  },
+  {
+    "audit_id": "AUD-1788594269677",
+    "proposal_id": "PROP-TEST-001",
+    "timestamp": "2026-09-05T07:44:29.677Z",
+    "previous_state": "PROPOSED",
+    "new_state": "APPLIED",
+    "action": "APPLY",
+    "target_topic_slug": "the-architecture-of-social-connectivity",
+    "target_content_hash_before": "196383bf6c7a5d7f03e7e48dfb2b489378d0a8d9f6e9a72432f19c5df33a9143",
+    "target_content_hash_after": "6f6dd43630095c6cc1dd2b582d7851850a8eb0c7d1f86cb2aaa8d1f926d706d4"
+  },
+  {
+    "audit_id": "AUD-1788594269754",
+    "proposal_id": "PROP-TEST-001",
+    "timestamp": "2026-09-05T07:44:29.754Z",
+    "previous_state": "APPLIED",
+    "new_state": "REVERTED",
+    "action": "REVERT",
+    "target_topic_slug": "the-architecture-of-social-connectivity",
+    "target_content_hash_after": "196383bf6c7a5d7f03e7e48dfb2b489378d0a8d9f6e9a72432f19c5df33a9143",
+    "reviewer_notes": "Rolled back to previous canonical content"
+  },
+  {
+    "audit_id": "AUD-1788594269912",
+    "proposal_id": "PROP-TEST-002",
+    "timestamp": "2026-09-05T07:44:29.912Z",
+    "previous_state": "PROPOSED",
+    "new_state": "REJECTED",
+    "action": "REJECT",
+    "target_topic_slug": "the-architecture-of-social-connectivity",
+    "reviewer_notes": "Not relevant to core thesis"
   }
 ]
