@@ -331,7 +331,7 @@ export function parseCanonicalMarkdownFile(
       if (/^\s*(####|\*?\*?)\s*(What Happened|Legislative Overview|Overview|Background|Core Announcement|Announcement|The Core Mechanism|Scheme Overview)/i.test(line)) {
         currentSubSection = 'WHAT_HAPPENED';
         continue;
-      } else if (/^\s*(####|\*?\*?)\s*(Must Memorize|Key Rules|Key Provisions|Rules & Numbers|Structural Provisions|Key Structural Provisions|Insurance Structure|Approved \d+-Layer|Financial Allocation|Mandatory Blending|Regulatory Overrule|Specifications|Incentive Parameters|Specifications & Outlay|Core Findings|Parameters|Expansion & Calamity List|Statutory Mechanism|Valuation Rules|Valuation & Procedure|Pricing & Reset|Slabs & Caps)/i.test(line)) {
+      } else if (/^\s*(####|\*?\*?)\s*(Must[-\s]*Memorize|Key Rules|Key Provisions|Rules & Numbers|Structural Provisions|Key Structural Provisions|Insurance Structure|Approved \d+-Layer|Financial Allocation|Mandatory Blending|Regulatory Overrule|Specifications|Incentive Parameters|Specifications & Outlay|Core Findings|Parameters|Expansion & Calamity List|Statutory Mechanism|Valuation Rules|Valuation & Procedure|Pricing & Reset|Slabs & Caps)/i.test(line)) {
         currentSubSection = 'MUST_MEMORIZE';
         continue;
       } else if (/^\s*(####|\*?\*?)\s*(Know\s*\/?\s*Understand|Why It Matters|Fiscal Significance|Significance|Conceptual Context|Impact|Rationale|Context & Rationale|Judicial Rationale)/i.test(line)) {

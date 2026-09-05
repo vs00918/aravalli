@@ -24,7 +24,7 @@
       "PENSION_SYSTEMS",
       "REPORTS_AND_INDICES"
     ],
-    "totalRecallPrompts": 788
+    "totalRecallPrompts": 817
   },
   "topics": [
     {
@@ -3966,8 +3966,12 @@
       "revisionMinutes": 7,
       "chronologicalMonth": "2026-08",
       "mustMemorizeFacts": [
-        "**Scale-Based NBFC Identification → Upper Layer 2026-27:**",
-        "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework."
+        "**NBFC-UL Entities & Rules Ladder:**",
+        "**Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2  Trillion$).",
+        "**Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).",
+        "**5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.",
+        "**Mandatory Listing:** Must list on recognized exchanges within **3 years**.",
+        "🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*"
       ],
       "recallPrompts": [
         {
@@ -3978,10 +3982,10 @@
           "category": "BANKING_REGULATION",
           "institution": "RBI",
           "promptNumber": 1,
-          "totalInTopic": 2,
-          "question": "What is the *Scale-Based NBFC Identification → Upper Layer 2026-27?",
+          "totalInTopic": 6,
+          "question": "What is the *NBFC-UL Entities & Rules Ladder?",
           "answer": "**",
-          "rawFact": "**Scale-Based NBFC Identification → Upper Layer 2026-27:**"
+          "rawFact": "**NBFC-UL Entities & Rules Ladder:**"
         },
         {
           "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627-prompt-2",
@@ -3991,10 +3995,62 @@
           "category": "BANKING_REGULATION",
           "institution": "RBI",
           "promptNumber": 2,
-          "totalInTopic": 2,
-          "question": "Key factual rule for: RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
-          "answer": "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.",
-          "rawFact": "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework."
+          "totalInTopic": 6,
+          "question": "What is the *Tata Sons Pvt Ltd?",
+          "answer": "** Classified in Upper Layer (standalone assets $>₹2  Trillion$).",
+          "rawFact": "**Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2  Trillion$)."
+        },
+        {
+          "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627-prompt-3",
+          "topicId": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+          "topicTitle": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 3,
+          "totalInTopic": 6,
+          "question": "What is the *Total Entities?",
+          "answer": "** **17 entities** (including REC, PFC, IRFC, HUDCO).",
+          "rawFact": "**Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO)."
+        },
+        {
+          "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627-prompt-4",
+          "topicId": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+          "topicTitle": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 4,
+          "totalInTopic": 6,
+          "question": "What is the *5-Year Lock-In?",
+          "answer": "** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.",
+          "rawFact": "**5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later."
+        },
+        {
+          "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627-prompt-5",
+          "topicId": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+          "topicTitle": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 5,
+          "totalInTopic": 6,
+          "question": "What is the *Mandatory Listing?",
+          "answer": "** Must list on recognized exchanges within **3 years**.",
+          "rawFact": "**Mandatory Listing:** Must list on recognized exchanges within **3 years**."
+        },
+        {
+          "id": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627-prompt-6",
+          "topicId": "ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627",
+          "topicTitle": "RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 6,
+          "totalInTopic": 6,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*",
+          "rawFact": "🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*"
         }
       ],
       "isChangeSensitive": false,
@@ -4428,7 +4484,11 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-08",
       "mustMemorizeFacts": [
-        "Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes."
+        "**Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).",
+        "**Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore.",
+        "**Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.",
+        "**Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.",
+        "🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*"
       ],
       "recallPrompts": [
         {
@@ -4439,10 +4499,62 @@
           "category": "DIGITAL_PAYMENTS",
           "institution": "OTHER",
           "promptNumber": 1,
-          "totalInTopic": 1,
-          "question": "Key factual rule for: Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
-          "answer": "Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.",
-          "rawFact": "Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes."
+          "totalInTopic": 5,
+          "question": "What is the *Amended Law?",
+          "answer": "** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).",
+          "rawFact": "**Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes)."
+        },
+        {
+          "id": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges-prompt-2",
+          "topicId": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+          "topicTitle": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "DIGITAL_PAYMENTS",
+          "institution": "OTHER",
+          "promptNumber": 2,
+          "totalInTopic": 5,
+          "question": "What is the *Section 269SU IT Act?",
+          "answer": "** Applies to businesses with turnover > ₹50 Crore.",
+          "rawFact": "**Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore."
+        },
+        {
+          "id": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges-prompt-3",
+          "topicId": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+          "topicTitle": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "DIGITAL_PAYMENTS",
+          "institution": "OTHER",
+          "promptNumber": 3,
+          "totalInTopic": 5,
+          "question": "What is the *Enabling Nature?",
+          "answer": "** **Zero immediate fee** until explicitly notified by the Government.",
+          "rawFact": "**Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government."
+        },
+        {
+          "id": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges-prompt-4",
+          "topicId": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+          "topicTitle": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "DIGITAL_PAYMENTS",
+          "institution": "OTHER",
+          "promptNumber": 4,
+          "totalInTopic": 5,
+          "question": "What is the *Scale Context?",
+          "answer": "** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.",
+          "rawFact": "**Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**."
+        },
+        {
+          "id": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges-prompt-5",
+          "topicId": "ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges",
+          "topicTitle": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "DIGITAL_PAYMENTS",
+          "institution": "OTHER",
+          "promptNumber": 5,
+          "totalInTopic": 5,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*",
+          "rawFact": "🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*"
         }
       ],
       "isChangeSensitive": false,
@@ -8640,7 +8752,10 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-05",
       "mustMemorizeFacts": [
-        "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct"
+        "**Device Financing Enforcement & Recovery Code:**",
+        "Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.",
+        "**Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention.",
+        "🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*"
       ],
       "recallPrompts": [
         {
@@ -8651,10 +8766,49 @@
           "category": "BANKING_REGULATION",
           "institution": "RBI",
           "promptNumber": 1,
-          "totalInTopic": 1,
-          "question": "Key factual rule for: RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
-          "answer": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
-          "rawFact": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct"
+          "totalInTopic": 4,
+          "question": "What is the *Device Financing Enforcement & Recovery Code?",
+          "answer": "**",
+          "rawFact": "**Device Financing Enforcement & Recovery Code:**"
+        },
+        {
+          "id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct-prompt-2",
+          "topicId": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+          "topicTitle": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 2,
+          "totalInTopic": 4,
+          "question": "What is the Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty?",
+          "answer": "**₹250 per hour**.",
+          "rawFact": "Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**."
+        },
+        {
+          "id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct-prompt-3",
+          "topicId": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+          "topicTitle": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 3,
+          "totalInTopic": 4,
+          "question": "What is the *Recovery Conduct?",
+          "answer": "** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention.",
+          "rawFact": "**Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention."
+        },
+        {
+          "id": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct-prompt-4",
+          "topicId": "ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct",
+          "topicTitle": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 4,
+          "totalInTopic": 4,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*",
+          "rawFact": "🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*"
         }
       ],
       "isChangeSensitive": false,
@@ -8671,7 +8825,10 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-05",
       "mustMemorizeFacts": [
-        "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital"
+        "**Bank Capital Computation → Quarterly Profit Inclusion:**",
+        "Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.",
+        "Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.",
+        "🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*"
       ],
       "recallPrompts": [
         {
@@ -8682,10 +8839,49 @@
           "category": "BANKING_REGULATION",
           "institution": "RBI",
           "promptNumber": 1,
-          "totalInTopic": 1,
-          "question": "What is the RBI Draft Guidelines?",
-          "answer": "Inclusion of Quarterly Profits in Bank CET1 Capital",
-          "rawFact": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital"
+          "totalInTopic": 4,
+          "question": "What is the *Bank Capital Computation → Quarterly Profit Inclusion?",
+          "answer": "**",
+          "rawFact": "**Bank Capital Computation → Quarterly Profit Inclusion:**"
+        },
+        {
+          "id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital-prompt-2",
+          "topicId": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+          "topicTitle": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 2,
+          "totalInTopic": 4,
+          "question": "Key factual rule for: RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+          "answer": "Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.",
+          "rawFact": "Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average."
+        },
+        {
+          "id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital-prompt-3",
+          "topicId": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+          "topicTitle": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 3,
+          "totalInTopic": 4,
+          "question": "Key factual rule for: RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+          "answer": "Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.",
+          "rawFact": "Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout."
+        },
+        {
+          "id": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital-prompt-4",
+          "topicId": "ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital",
+          "topicTitle": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 4,
+          "totalInTopic": 4,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*",
+          "rawFact": "🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*"
         }
       ],
       "isChangeSensitive": false,
@@ -9649,7 +9845,10 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-04",
       "mustMemorizeFacts": [
-        "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal"
+        "**EPF Digital Overhaul → Immediate 75% Withdrawal:**",
+        "Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.",
+        "Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.",
+        "🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*"
       ],
       "recallPrompts": [
         {
@@ -9660,10 +9859,49 @@
           "category": "PENSION_SYSTEMS",
           "institution": "OTHER",
           "promptNumber": 1,
-          "totalInTopic": 1,
-          "question": "What is the EPFO 3.0 Framework?",
-          "answer": "75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
-          "rawFact": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal"
+          "totalInTopic": 4,
+          "question": "What is the *EPF Digital Overhaul → Immediate 75% Withdrawal?",
+          "answer": "**",
+          "rawFact": "**EPF Digital Overhaul → Immediate 75% Withdrawal:**"
+        },
+        {
+          "id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-prompt-2",
+          "topicId": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+          "topicTitle": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "PENSION_SYSTEMS",
+          "institution": "OTHER",
+          "promptNumber": 2,
+          "totalInTopic": 4,
+          "question": "What is the key number / threshold regarding: \"Allows withdrawing **75% of EPF balance anytime** after 1...\"?",
+          "answer": "Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.",
+          "rawFact": "Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months."
+        },
+        {
+          "id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-prompt-3",
+          "topicId": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+          "topicTitle": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "PENSION_SYSTEMS",
+          "institution": "OTHER",
+          "promptNumber": 3,
+          "totalInTopic": 4,
+          "question": "Key factual rule for: EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+          "answer": "Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.",
+          "rawFact": "Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26."
+        },
+        {
+          "id": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal-prompt-4",
+          "topicId": "ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal",
+          "topicTitle": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "PENSION_SYSTEMS",
+          "institution": "OTHER",
+          "promptNumber": 4,
+          "totalInTopic": 4,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*",
+          "rawFact": "🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*"
         }
       ],
       "isChangeSensitive": false,
@@ -10137,7 +10375,11 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-04",
       "mustMemorizeFacts": [
-        "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance"
+        "**Recurring Digital Payments → E-Mandate Thresholds:**",
+        "Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.",
+        "**Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.",
+        "Mandates pre-debit notifications at least **24 hours in advance**.",
+        "🎯 **Recap:** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*"
       ],
       "recallPrompts": [
         {
@@ -10148,10 +10390,62 @@
           "category": "INSURANCE_SECTOR",
           "institution": "RBI",
           "promptNumber": 1,
-          "totalInTopic": 1,
-          "question": "What is the RBI Consolidated E-Mandate Framework?",
-          "answer": "₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
-          "rawFact": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance"
+          "totalInTopic": 5,
+          "question": "What is the *Recurring Digital Payments → E-Mandate Thresholds?",
+          "answer": "**",
+          "rawFact": "**Recurring Digital Payments → E-Mandate Thresholds:**"
+        },
+        {
+          "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance-prompt-2",
+          "topicId": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+          "topicTitle": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "INSURANCE_SECTOR",
+          "institution": "RBI",
+          "promptNumber": 2,
+          "totalInTopic": 5,
+          "question": "Key factual rule for: RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "answer": "Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.",
+          "rawFact": "Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup."
+        },
+        {
+          "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance-prompt-3",
+          "topicId": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+          "topicTitle": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "INSURANCE_SECTOR",
+          "institution": "RBI",
+          "promptNumber": 3,
+          "totalInTopic": 5,
+          "question": "What is the *Higher Limit?",
+          "answer": "** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.",
+          "rawFact": "**Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**."
+        },
+        {
+          "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance-prompt-4",
+          "topicId": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+          "topicTitle": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "INSURANCE_SECTOR",
+          "institution": "RBI",
+          "promptNumber": 4,
+          "totalInTopic": 5,
+          "question": "Key factual rule for: RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "answer": "Mandates pre-debit notifications at least **24 hours in advance**.",
+          "rawFact": "Mandates pre-debit notifications at least **24 hours in advance**."
+        },
+        {
+          "id": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance-prompt-5",
+          "topicId": "ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance",
+          "topicTitle": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "INSURANCE_SECTOR",
+          "institution": "RBI",
+          "promptNumber": 5,
+          "totalInTopic": 5,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*",
+          "rawFact": "🎯 **Recap:** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*"
         }
       ],
       "isChangeSensitive": false,
@@ -10552,7 +10846,11 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-04",
       "mustMemorizeFacts": [
-        "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)"
+        "**Inward Remittance Acceleration → Hourly Nostro Reconciliation:**",
+        "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).",
+        "Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.",
+        "Beneficiary accounts must be credited within the **same business day** during forex market hours.",
+        "🎯 **Recap:** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*"
       ],
       "recallPrompts": [
         {
@@ -10563,10 +10861,62 @@
           "category": "BANKING_REGULATION",
           "institution": "RBI",
           "promptNumber": 1,
-          "totalInTopic": 1,
+          "totalInTopic": 5,
+          "question": "What is the *Inward Remittance Acceleration → Hourly Nostro Reconciliation?",
+          "answer": "**",
+          "rawFact": "**Inward Remittance Acceleration → Hourly Nostro Reconciliation:**"
+        },
+        {
+          "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation-prompt-2",
+          "topicId": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+          "topicTitle": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 2,
+          "totalInTopic": 5,
+          "question": "What is the key number / threshold regarding: \"Issued under Sections 10(2) & 18 of PSSA 2007 (effective ...\"?",
+          "answer": "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).",
+          "rawFact": "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months)."
+        },
+        {
+          "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation-prompt-3",
+          "topicId": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+          "topicTitle": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 3,
+          "totalInTopic": 5,
           "question": "Key factual rule for: RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
-          "answer": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
-          "rawFact": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)"
+          "answer": "Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.",
+          "rawFact": "Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**."
+        },
+        {
+          "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation-prompt-4",
+          "topicId": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+          "topicTitle": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 4,
+          "totalInTopic": 5,
+          "question": "Key factual rule for: RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+          "answer": "Beneficiary accounts must be credited within the **same business day** during forex market hours.",
+          "rawFact": "Beneficiary accounts must be credited within the **same business day** during forex market hours."
+        },
+        {
+          "id": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation-prompt-5",
+          "topicId": "ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation",
+          "topicTitle": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "BANKING_REGULATION",
+          "institution": "RBI",
+          "promptNumber": 5,
+          "totalInTopic": 5,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*",
+          "rawFact": "🎯 **Recap:** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*"
         }
       ],
       "isChangeSensitive": false,
@@ -11385,7 +11735,8 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-03",
       "mustMemorizeFacts": [
-        "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+        "**MII Cyber Resilience:**",
+        "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).",
         "**ITRI Weightages & Compliance Milestones Ladder:**",
         "**9 Evaluation Parameters & Weights:**",
         "Availability (20%)** & **Security (20%): Highest combined weight (**40%**).",
@@ -11406,10 +11757,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 1,
-          "totalInTopic": 11,
-          "question": "Key factual rule for: SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
-          "answer": "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
-          "rawFact": "SEBI IT Resilience Index Framework for Market Infrastructure Institutions"
+          "totalInTopic": 12,
+          "question": "What is the *MII Cyber Resilience?",
+          "answer": "**",
+          "rawFact": "**MII Cyber Resilience:**"
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-2",
@@ -11419,10 +11770,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 2,
-          "totalInTopic": 11,
-          "question": "What is the *ITRI Weightages & Compliance Milestones Ladder?",
-          "answer": "**",
-          "rawFact": "**ITRI Weightages & Compliance Milestones Ladder:**"
+          "totalInTopic": 12,
+          "question": "Key factual rule for: SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+          "answer": "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).",
+          "rawFact": "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation)."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-3",
@@ -11432,10 +11783,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 3,
-          "totalInTopic": 11,
-          "question": "What is the *9 Evaluation Parameters & Weights?",
+          "totalInTopic": 12,
+          "question": "What is the *ITRI Weightages & Compliance Milestones Ladder?",
           "answer": "**",
-          "rawFact": "**9 Evaluation Parameters & Weights:**"
+          "rawFact": "**ITRI Weightages & Compliance Milestones Ladder:**"
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-4",
@@ -11445,10 +11796,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 4,
-          "totalInTopic": 11,
-          "question": "What is the Availability (20%)** & **Security (20%)?",
-          "answer": "Highest combined weight (**40%**).",
-          "rawFact": "Availability (20%)** & **Security (20%): Highest combined weight (**40%**)."
+          "totalInTopic": 12,
+          "question": "What is the *9 Evaluation Parameters & Weights?",
+          "answer": "**",
+          "rawFact": "**9 Evaluation Parameters & Weights:**"
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-5",
@@ -11458,10 +11809,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 5,
-          "totalInTopic": 11,
-          "question": "What is the Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%)?",
-          "answer": "Standard core weights (**50%**).",
-          "rawFact": "Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%): Standard core weights (**50%**)."
+          "totalInTopic": 12,
+          "question": "What is the Availability (20%)** & **Security (20%)?",
+          "answer": "Highest combined weight (**40%**).",
+          "rawFact": "Availability (20%)** & **Security (20%): Highest combined weight (**40%**)."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-6",
@@ -11471,10 +11822,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 6,
-          "totalInTopic": 11,
-          "question": "What is the Scalability (5%)** & **Incident Handling (5%)?",
-          "answer": "Balance weights (**10%**).",
-          "rawFact": "Scalability (5%)** & **Incident Handling (5%): Balance weights (**10%**)."
+          "totalInTopic": 12,
+          "question": "What is the Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%)?",
+          "answer": "Standard core weights (**50%**).",
+          "rawFact": "Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%): Standard core weights (**50%**)."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-7",
@@ -11484,10 +11835,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 7,
-          "totalInTopic": 11,
-          "question": "What is the *Early Warning System (EWS)?",
-          "answer": "** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**.",
-          "rawFact": "**Early Warning System (EWS):** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**."
+          "totalInTopic": 12,
+          "question": "What is the Scalability (5%)** & **Incident Handling (5%)?",
+          "answer": "Balance weights (**10%**).",
+          "rawFact": "Scalability (5%)** & **Incident Handling (5%): Balance weights (**10%**)."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-8",
@@ -11497,10 +11848,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 8,
-          "totalInTopic": 11,
-          "question": "What is the *First Computation Window?",
-          "answer": "** Half-year ended **31 March 2027**.",
-          "rawFact": "**First Computation Window:** Half-year ended **31 March 2027**."
+          "totalInTopic": 12,
+          "question": "What is the *Early Warning System (EWS)?",
+          "answer": "** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**.",
+          "rawFact": "**Early Warning System (EWS):** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-9",
@@ -11510,10 +11861,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 9,
-          "totalInTopic": 11,
-          "question": "What is the *Reporting Cycle?",
-          "answer": "** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards.",
-          "rawFact": "**Reporting Cycle:** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards."
+          "totalInTopic": 12,
+          "question": "What is the *First Computation Window?",
+          "answer": "** Half-year ended **31 March 2027**.",
+          "rawFact": "**First Computation Window:** Half-year ended **31 March 2027**."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-10",
@@ -11523,10 +11874,10 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 10,
-          "totalInTopic": 11,
-          "question": "What is the *Cyber Incident Reporting?",
-          "answer": "** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**.",
-          "rawFact": "**Cyber Incident Reporting:** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**."
+          "totalInTopic": 12,
+          "question": "What is the *Reporting Cycle?",
+          "answer": "** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards.",
+          "rawFact": "**Reporting Cycle:** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards."
         },
         {
           "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-11",
@@ -11536,7 +11887,20 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 11,
-          "totalInTopic": 11,
+          "totalInTopic": 12,
+          "question": "What is the *Cyber Incident Reporting?",
+          "answer": "** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**.",
+          "rawFact": "**Cyber Incident Reporting:** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**."
+        },
+        {
+          "id": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri-prompt-12",
+          "topicId": "ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri",
+          "topicTitle": "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "CAPITAL_MARKETS",
+          "institution": "SEBI",
+          "promptNumber": 12,
+          "totalInTopic": 12,
           "question": "What is the 🎯 **Recap?",
           "answer": "** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*",
           "rawFact": "🎯 **Recap:** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*"
@@ -12832,7 +13196,10 @@
       "revisionMinutes": 8,
       "chronologicalMonth": "2026-01",
       "mustMemorizeFacts": [
-        "SEBI SWAGAT-FI Framework for Trusted Foreign Investors"
+        "**Single Window Access for Trusted Investors:**",
+        "Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).",
+        "Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.",
+        "🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*"
       ],
       "recallPrompts": [
         {
@@ -12843,10 +13210,49 @@
           "category": "CAPITAL_MARKETS",
           "institution": "SEBI",
           "promptNumber": 1,
-          "totalInTopic": 1,
+          "totalInTopic": 4,
+          "question": "What is the *Single Window Access for Trusted Investors?",
+          "answer": "**",
+          "rawFact": "**Single Window Access for Trusted Investors:**"
+        },
+        {
+          "id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors-prompt-2",
+          "topicId": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+          "topicTitle": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "CAPITAL_MARKETS",
+          "institution": "SEBI",
+          "promptNumber": 2,
+          "totalInTopic": 4,
           "question": "Key factual rule for: SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
-          "answer": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
-          "rawFact": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors"
+          "answer": "Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).",
+          "rawFact": "Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**)."
+        },
+        {
+          "id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors-prompt-3",
+          "topicId": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+          "topicTitle": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "CAPITAL_MARKETS",
+          "institution": "SEBI",
+          "promptNumber": 3,
+          "totalInTopic": 4,
+          "question": "Key factual rule for: SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+          "answer": "Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.",
+          "rawFact": "Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds."
+        },
+        {
+          "id": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors-prompt-4",
+          "topicId": "ca-sebi-swagat-fi-framework-for-trusted-foreign-investors",
+          "topicTitle": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
+          "priority": "P1_CRITICAL_DEEP",
+          "category": "CAPITAL_MARKETS",
+          "institution": "SEBI",
+          "promptNumber": 4,
+          "totalInTopic": 4,
+          "question": "What is the 🎯 **Recap?",
+          "answer": "** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*",
+          "rawFact": "🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*"
         }
       ],
       "isChangeSensitive": false,

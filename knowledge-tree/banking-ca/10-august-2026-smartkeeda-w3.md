@@ -25,13 +25,13 @@
 * **Digital Payment Charges Statutory Enablement:**
   * Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.
 
-#### Context & Rationale
+#### Must-Memorize Statutory Provisions & Slabs
 * **Payment Architecture & Legal Provisions Ladder:**
   * **Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).
-  * **Section 269SU IT Act:** Applies to businesses with turnover $>₹50  Crore$.
+  * **Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore.
   * **Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.
   * **Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.
-  * 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU $>₹50$ Cr turnover.*
+  * 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*
 
 #### Key Exam Takeaways
 - Amended Section: Section 10A of the Payment and Settlement Systems Act, 2007.

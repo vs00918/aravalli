@@ -21,15 +21,15 @@ export function normalizePresentationText(text: string): string {
     .replace(/\\text\{([^}]+)\}/g, "$1")
     .replace(/(?:^|[^\w])ext\{([^}]+)\}/g, " $1")
     // Arrows: \t + o, \to, $\to$, $to$
-    .replace(/\$\s*\t\s*o\s*\$/g, " → ")
-    .replace(/\t\s*o\b/g, " → ")
-    .replace(/\$\\to\$/g, " → ")
-    .replace(/\\to\b/g, " → ")
+    .replace(/\$\s*\t\s*o\s*\$/g, "→")
+    .replace(/\t\s*o\b/g, "→")
+    .replace(/\$\\to\$/g, "→")
+    .replace(/\\to\b/g, "→")
     // Multiplication: \t + imes, \times, $\times$
-    .replace(/\$\s*\t\s*imes\s*\$/g, " × ")
-    .replace(/\t\s*imes\b/g, " × ")
-    .replace(/\$\\times\$/g, " × ")
-    .replace(/\\times\b/g, " × ")
+    .replace(/\$\s*\t\s*imes\s*\$/g, "×")
+    .replace(/\t\s*imes\b/g, "×")
+    .replace(/\$\\times\$/g, "×")
+    .replace(/\\times\b/g, "×")
     .replace(/\bimes\b/g, "×")
     // Mid separator token: $mid$, \mid, or isolated " mid "
     .replace(/\$\s*\\?mid\s*\$/g, " • ")
@@ -55,7 +55,8 @@ export function normalizePresentationText(text: string): string {
     .replace(/\$Q_3\$/g, "Q₃")
     .replace(/\$Q_4\$/g, "Q₄")
     .replace(/\\max\b/g, "max")
-    .replace(/\\%/g, "%");
+    .replace(/\\%/g, "%")
+    .replace(/\s{2,}/g, " ");
 
   // 3. Remove remaining single-dollar / KaTeX wrappers around simple terms
   cleaned = cleaned.replace(/\$([^$]+)\$/g, "$1");

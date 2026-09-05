@@ -193,18 +193,15 @@
         "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework."
       ],
       "mustMemorizeFacts": [
-        "**Scale-Based NBFC Identification → Upper Layer 2026-27:**",
-        "Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework."
-      ],
-      "knowUnderstandContext": [
-        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint.",
-        "*Must-Memorize Facts**:",
         "**NBFC-UL Entities & Rules Ladder:**",
         "**Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2  Trillion$).",
         "**Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).",
         "**5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.",
         "**Mandatory Listing:** Must list on recognized exchanges within **3 years**.",
         "🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*"
+      ],
+      "knowUnderstandContext": [
+        "Scale-Based Supervision: Non-Banking Financial Company - Upper Layer (NBFC-UL) entities are subjected to bank-like prudential norms, Common Equity Tier 1 (CET1) capital minimums, and mandatory listing requirements due to systemic footprint."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -3939,7 +3936,7 @@
       "primaryInstitution": "SEBI",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "REGULATION",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "SEBI → SWAGAT-FI → FRAMEWORK → FOR → TRUSTED",
       "atomicRecall": "SEBI SWAGAT-FI Framework for Trusted Foreign Investors",
       "examAngle": {
@@ -3950,15 +3947,13 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "SEBI SWAGAT-FI Framework for Trusted Foreign Investors"
-      ],
-      "knowUnderstandContext": [
-        "Regulatory Architecture: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds.",
-        "*Must-Memorize Facts**:",
         "**Single Window Access for Trusted Investors:**",
         "Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).",
         "Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.",
         "🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*"
+      ],
+      "knowUnderstandContext": [
+        "Regulatory Architecture: SWAGAT-FI streamlines foreign portfolio onboarding by creating a trusted fast-track verification tier for low-risk sovereign and institutional funds."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -11871,7 +11866,8 @@
         "Measures operational robustness, system uptime, and cybersecurity resilience."
       ],
       "mustMemorizeFacts": [
-        "SEBI IT Resilience Index Framework for Market Infrastructure Institutions",
+        "**MII Cyber Resilience:**",
+        "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).",
         "**ITRI Weightages & Compliance Milestones Ladder:**",
         "**9 Evaluation Parameters & Weights:**",
         "Availability (20%)** & **Security (20%): Highest combined weight (**40%**).",
@@ -11884,11 +11880,7 @@
         "🎯 **Recap:** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*"
       ],
       "knowUnderstandContext": [
-        "MII Resilience Index: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories.",
-        "*Must-Memorize Facts**:",
-        "**MII Cyber Resilience:**",
-        "9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).",
-        "🎯 **Recap:** *SEBI IT Resilience Index: 20% weight for system availability & cyber security.*"
+        "MII Resilience Index: The IT Resilience Index (ITRI) establishes scale-based scoring to measure cybersecurity, disaster recovery, and continuous uptime of stock exchanges and depositories."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -15162,9 +15154,9 @@
       "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "BANKING_DEVELOPMENT",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "RBI → CONSOLIDATED → E-MANDATE → FRAMEWORK → 15000",
-      "atomicRecall": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance → ₹15,000 ",
+      "atomicRecall": "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance",
       "examAngle": {
         "likelyAsks": [
           "Financial outlay / budgetary allocation figures"
@@ -15173,16 +15165,14 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance"
-      ],
-      "knowUnderstandContext": [
-        "Transaction Security Balance: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits.",
-        "*Must-Memorize Facts**:",
         "**Recurring Digital Payments → E-Mandate Thresholds:**",
         "Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.",
         "**Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.",
         "Mandates pre-debit notifications at least **24 hours in advance**.",
         "🎯 **Recap:** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*"
+      ],
+      "knowUnderstandContext": [
+        "Transaction Security Balance: Sets higher ₹1 Lakh limits for low-risk recurring mutual funds/insurance while maintaining ₹15,000 caps and AFA validations for high-risk merchant auto-debits."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -15217,7 +15207,7 @@
       "primaryInstitution": "RBI",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "REGULATION",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "RBI → GUIDELINES → FOR → FASTER → CROSS-BORDER",
       "atomicRecall": "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)",
       "examAngle": {
@@ -15228,16 +15218,14 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)"
-      ],
-      "knowUnderstandContext": [
-        "Forex Liquidity Mechanism: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement.",
-        "*Must-Memorize Facts**:",
         "**Inward Remittance Acceleration → Hourly Nostro Reconciliation:**",
         "Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).",
         "Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.",
         "Beneficiary accounts must be credited within the **same business day** during forex market hours.",
         "🎯 **Recap:** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*"
+      ],
+      "knowUnderstandContext": [
+        "Forex Liquidity Mechanism: Mandates real-time Nostro account reconciliation to prevent funds from being trapped in transit and accelerate cross-border settlement."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -16391,7 +16379,7 @@
       "primaryInstitution": "OTHER",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "TECHNOLOGY",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "EPFO → FRAMEWORK → CORPUS → ACCESS → UPI",
       "atomicRecall": "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal → 75%",
       "examAngle": {
@@ -16402,15 +16390,13 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal"
-      ],
-      "knowUnderstandContext": [
-        "Social Security Reform: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers.",
-        "*Must-Memorize Facts**:",
         "**EPF Digital Overhaul → Immediate 75% Withdrawal:**",
         "Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.",
         "Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.",
         "🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*"
+      ],
+      "knowUnderstandContext": [
+        "Social Security Reform: EPFO 3.0 integrates UPI digital settlement and transparent claims processing to minimize frictional delays for provident fund subscribers."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -18925,7 +18911,7 @@
       "regulatoryStatus": "DRAFT",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "REGULATION",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "RBI → DRAFT → GUIDELINES → INCLUSION → QUARTERLY",
       "atomicRecall": "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital",
       "examAngle": {
@@ -18936,15 +18922,13 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital"
-      ],
-      "knowUnderstandContext": [
-        "Basel III Capital Computation: Allows commercial banks to count unaudited interim quarterly profits toward Common Equity Tier 1 (CET1) capital only after deducting proportionate accrued dividends and tax liabilities.",
-        "*Must-Memorize Facts**:",
         "**Bank Capital Computation → Quarterly Profit Inclusion:**",
         "Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.",
         "Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.",
         "🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*"
+      ],
+      "knowUnderstandContext": [
+        "Basel III Capital Computation: Allows commercial banks to count unaudited interim quarterly profits toward Common Equity Tier 1 (CET1) capital only after deducting proportionate accrued dividends and tax liabilities."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -19033,7 +19017,7 @@
       "regulatoryStatus": "DRAFT",
       "verificationStatus": "SOURCE_ONLY",
       "informationType": "REGULATION",
-      "compressionLevel": "C2",
+      "compressionLevel": "C3",
       "memoryAnchor": "RBI → DRAFT → FRAMEWORK → SMARTPHONE → DISABLING",
       "atomicRecall": "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct",
       "examAngle": {
@@ -19044,15 +19028,13 @@
       "lifecycleStatus": "ACTIVE",
       "whatHappened": [],
       "mustMemorizeFacts": [
-        "RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct"
-      ],
-      "knowUnderstandContext": [
-        "Fair Practices Code: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy.",
-        "*Must-Memorize Facts**:",
         "**Device Financing Enforcement & Recovery Code:**",
         "Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.",
         "**Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention.",
         "🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*"
+      ],
+      "knowUnderstandContext": [
+        "Fair Practices Code: Prohibits lenders and recovery agents from deploying remote handset-locking malware, ensuring borrower dignity and digital privacy."
       ],
       "examFocus": [],
       "optionalFacts": [],
@@ -26701,7 +26683,7 @@
       "atomicRecall": "Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges",
       "examAngle": {
         "likelyAsks": [
-          "Key factual numbers, dates, and institutional ownership"
+          "Financial outlay / budgetary allocation figures"
         ]
       },
       "lifecycleStatus": "ACTIVE",
@@ -26709,15 +26691,13 @@
         "Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes."
       ],
       "mustMemorizeFacts": [
-        "Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes."
-      ],
-      "knowUnderstandContext": [
         "**Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).",
-        "**Section 269SU IT Act:** Applies to businesses with turnover $>₹50  Crore$.",
+        "**Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore.",
         "**Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.",
         "**Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.",
-        "🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU $>₹50$ Cr turnover.*"
+        "🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*"
       ],
+      "knowUnderstandContext": [],
       "examFocus": [
         "Amended Section: Section 10A of the Payment and Settlement Systems Act, 2007.",
         "Associated Income Tax Provision: Section 269SU (mandatory digital payment acceptance for businesses >₹50 cr turnover).",
@@ -26743,7 +26723,7 @@
           "publishedDate": "2026-08-15"
         }
       ],
-      "contentMarkdown": "### 1. Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-20`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W3 2026)`\n\n#### Legislative Overview & Core Provision\n* **Digital Payment Charges Statutory Enablement:**\n  * Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.\n\n#### Context & Rationale\n* **Payment Architecture & Legal Provisions Ladder:**\n  * **Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).\n  * **Section 269SU IT Act:** Applies to businesses with turnover $>₹50  Crore$.\n  * **Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.\n  * **Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.\n  * 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU $>₹50$ Cr turnover.*\n\n#### Key Exam Takeaways\n- Amended Section: Section 10A of the Payment and Settlement Systems Act, 2007.\n- Associated Income Tax Provision: Section 269SU (mandatory digital payment acceptance for businesses >₹50 cr turnover).\n- Immediate Effect: Enabling legal provision only; zero immediate fee until explicitly notified.\n- Monthly Record (July 2026): 23.66 billion transactions worth ₹29.88 lakh crore.\n\n---"
+      "contentMarkdown": "### 1. Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges\n- **Category**: `BANKING_REGULATION`\n- **Institution**: `GOVERNMENT_OF_INDIA`\n- **Priority**: `P1_CRITICAL_DEEP`\n- **Date**: `2026-08-20`\n- **Target Exams**: `SBI PO Mains, IBPS PO Mains`\n- **Revision Effort**: `~8 min`\n- **Source**: `Smartkeeda (Aug W3 2026)`\n\n#### Legislative Overview & Core Provision\n* **Digital Payment Charges Statutory Enablement:**\n  * Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.\n\n#### Must-Memorize Statutory Provisions & Slabs\n* **Payment Architecture & Legal Provisions Ladder:**\n  * **Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).\n  * **Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore.\n  * **Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.\n  * **Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.\n  * 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*\n\n#### Key Exam Takeaways\n- Amended Section: Section 10A of the Payment and Settlement Systems Act, 2007.\n- Associated Income Tax Provision: Section 269SU (mandatory digital payment acceptance for businesses >₹50 cr turnover).\n- Immediate Effect: Enabling legal provision only; zero immediate fee until explicitly notified.\n- Monthly Record (July 2026): 23.66 billion transactions worth ₹29.88 lakh crore.\n\n---"
     },
     "ca-pm-e-drive-scheme-extended-to-march-2028-outlay-raised-to-11900-crore": {
       "id": "ca-pm-e-drive-scheme-extended-to-march-2028-outlay-raised-to-11900-crore",

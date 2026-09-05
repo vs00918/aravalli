@@ -1,6 +1,6 @@
 # Mind of Aravalli — Master P1 High-Yield Examination Capsule
 
-**Capsule Type:** `P1_MASTER` | **Total Topics:** `105` | **Revision Load:** `811 min` | **Active Prompts:** `788`
+**Capsule Type:** `P1_MASTER` | **Total Topics:** `105` | **Revision Load:** `811 min` | **Active Prompts:** `817`
 **Generated:** `2026-09-03T12:00:00.000Z` | **Schema:** `1.0.0`
 
 ---
@@ -1012,14 +1012,26 @@
 - **ID:** `ca-rbi-scale-based-regulation-nbfc-upper-layer-nbfc-ul-list-202627` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `7 min`
 
 ### Must Memorize Facts:
-- **Scale-Based NBFC Identification → Upper Layer 2026-27:**
-- Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.
+- **NBFC-UL Entities & Rules Ladder:**
+- **Tata Sons Pvt Ltd:** Classified in Upper Layer (standalone assets $>₹2  Trillion$).
+- **Total Entities:** **17 entities** (including REC, PFC, IRFC, HUDCO).
+- **5-Year Lock-In:** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.
+- **Mandatory Listing:** Must list on recognized exchanges within **3 years**.
+- 🎯 **Recap:** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*
 
 ### Active Recall Cards:
-- **Q1:** What is the *Scale-Based NBFC Identification → Upper Layer 2026-27?
+- **Q1:** What is the *NBFC-UL Entities & Rules Ladder?
   - **A:** **
-- **Q2:** Key factual rule for: RBI Scale-Based Regulation: NBFC Upper Layer (NBFC-UL) List 2026–27
-  - **A:** Published annual list of Upper Layer NBFCs (NBFC-UL) under SBR framework.
+- **Q2:** What is the *Tata Sons Pvt Ltd?
+  - **A:** ** Classified in Upper Layer (standalone assets $>₹2  Trillion$).
+- **Q3:** What is the *Total Entities?
+  - **A:** ** **17 entities** (including REC, PFC, IRFC, HUDCO).
+- **Q4:** What is the *5-Year Lock-In?
+  - **A:** ** Enhanced regulation applies for **at least 5 years** from classification even if criteria drop later.
+- **Q5:** What is the *Mandatory Listing?
+  - **A:** ** Must list on recognized exchanges within **3 years**.
+- **Q6:** What is the 🎯 **Recap?
+  - **A:** ** *17 NBFC-UL entities (Tata Sons included)  •  5-year lock-in  •  3-year mandatory listing.*
 
 ---
 
@@ -1132,11 +1144,23 @@
 - **ID:** `ca-taxation-and-other-laws-amendment-bill-2026-enabling-provision-for-upi-digital-payment-charges` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `DIGITAL_PAYMENTS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.
+- **Amended Law:** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).
+- **Section 269SU IT Act:** Applies to businesses with turnover > ₹50 Crore.
+- **Enabling Nature:** **Zero immediate fee** until explicitly notified by the Government.
+- **Scale Context:** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.
+- 🎯 **Recap:** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*
 
 ### Active Recall Cards:
-- **Q1:** Key factual rule for: Taxation and Other Laws (Amendment) Bill, 2026: Enabling Provision for UPI & Digital Payment Charges
-  - **A:** Lok Sabha passed Taxation and Other Laws (Amendment) Bill 2026 to permit future MDR/charges on digital payment modes.
+- **Q1:** What is the *Amended Law?
+  - **A:** ** Section 10A of the **Payment and Settlement Systems Act, 2007** (which barred MDR on specified modes).
+- **Q2:** What is the *Section 269SU IT Act?
+  - **A:** ** Applies to businesses with turnover > ₹50 Crore.
+- **Q3:** What is the *Enabling Nature?
+  - **A:** ** **Zero immediate fee** until explicitly notified by the Government.
+- **Q4:** What is the *Scale Context?
+  - **A:** ** July 2026 UPI volume stood at **23.66 Billion transactions (₹29.88 Lakh Crore)**.
+- **Q5:** What is the 🎯 **Recap?
+  - **A:** ** *Sec 10A PSS Act amended  •  Enabling provision for UPI charges (no immediate levy)  •  Sec 269SU > ₹50 Cr turnover.*
 
 ---
 
@@ -2227,11 +2251,20 @@
 - **ID:** `ca-rbi-draft-framework-on-smartphone-disabling-recovery-code-of-conduct` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct
+- **Device Financing Enforcement & Recovery Code:**
+- Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty: **₹250 per hour**.
+- **Recovery Conduct:** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention.
+- 🎯 **Recap:** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*
 
 ### Active Recall Cards:
-- **Q1:** Key factual rule for: RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct
-  - **A:** RBI Draft Framework on Smartphone Disabling & Recovery Code of Conduct
+- **Q1:** What is the *Device Financing Enforcement & Recovery Code?
+  - **A:** **
+- **Q2:** What is the Lenders can disable financed smartphone features only after **90 DPD** (requires 21-day notice at 60 DPD and 7-day second notice; effective Oct 1, 2026). Wrongful blocking penalty?
+  - **A:** **₹250 per hour**.
+- **Q3:** What is the *Recovery Conduct?
+  - **A:** ** Calling hours restricted to **8 AM to 7 PM**  •  Mandatory IIBF certification  •  6-month call recording retention.
+- **Q4:** What is the 🎯 **Recap?
+  - **A:** ** *Phone disabling only after 90 DPD (₹250/hr penalty for error)  •  Recovery calling hours: 8 AM to 7 PM.*
 
 ---
 
@@ -2239,11 +2272,20 @@
 - **ID:** `ca-rbi-draft-guidelines-inclusion-of-quarterly-profits-in-bank-cet1-capital` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital
+- **Bank Capital Computation → Quarterly Profit Inclusion:**
+- Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.
+- Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.
+- 🎯 **Recap:** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*
 
 ### Active Recall Cards:
-- **Q1:** What is the RBI Draft Guidelines?
-  - **A:** Inclusion of Quarterly Profits in Bank CET1 Capital
+- **Q1:** What is the *Bank Capital Computation → Quarterly Profit Inclusion?
+  - **A:** **
+- **Q2:** Key factual rule for: RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital
+  - **A:** Removed condition requiring incremental quarterly NPA provisioning not to deviate $>25%$ from prior year's quarterly average.
+- **Q3:** Key factual rule for: RBI Draft Guidelines: Inclusion of Quarterly Profits in Bank CET1 Capital
+  - **A:** Banks can include quarterly profits in Common Equity Tier 1 (CET1) capital calculation if financial statements are audited or under limited review, linked to 3-year average dividend payout.
+- **Q4:** What is the 🎯 **Recap?
+  - **A:** ** *Quarterly profits eligible for CET1 capital under limited review  •  25% NPA provisioning variance rule removed.*
 
 ---
 
@@ -2491,11 +2533,20 @@
 - **ID:** `ca-epfo-30-framework-75-corpus-access-upi-withdrawals-e-praapti-portal` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `PENSION_SYSTEMS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal
+- **EPF Digital Overhaul → Immediate 75% Withdrawal:**
+- Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.
+- Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.
+- 🎯 **Recap:** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*
 
 ### Active Recall Cards:
-- **Q1:** What is the EPFO 3.0 Framework?
-  - **A:** 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal
+- **Q1:** What is the *EPF Digital Overhaul → Immediate 75% Withdrawal?
+  - **A:** **
+- **Q2:** What is the key number / threshold regarding: "Allows withdrawing **75% of EPF balance anytime** after 1..."?
+  - **A:** Allows withdrawing **75% of EPF balance anytime** after 12 months service; in unemployment, 75% immediately and remaining 25% after 2 months.
+- **Q3:** Key factual rule for: EPFO 3.0 Framework: 75% Corpus Access, UPI Withdrawals & E-PRAAPTI Portal
+  - **A:** Launched **E-PRAAPTI** portal for tracking inoperative UAN accounts. Settled record 8.31 crore claims in FY26.
+- **Q4:** What is the 🎯 **Recap?
+  - **A:** ** *EPFO 3.0: 75% withdrawal after 12 months  •  E-PRAAPTI portal  •  8.31 Cr claims settled.*
 
 ---
 
@@ -2617,11 +2668,23 @@
 - **ID:** `ca-rbi-consolidated-e-mandate-framework-15000-auto-pay-1-lakh-limit-for-sipsinsurance` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `INSURANCE_SECTOR` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
+- **Recurring Digital Payments → E-Mandate Thresholds:**
+- Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.
+- **Higher Limit:** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.
+- Mandates pre-debit notifications at least **24 hours in advance**.
+- 🎯 **Recap:** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*
 
 ### Active Recall Cards:
-- **Q1:** What is the RBI Consolidated E-Mandate Framework?
-  - **A:** ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
+- **Q1:** What is the *Recurring Digital Payments → E-Mandate Thresholds?
+  - **A:** **
+- **Q2:** Key factual rule for: RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
+  - **A:** Permits automatic recurring payments up to **₹15,000 per transaction** without OTP after one-time AFA setup.
+- **Q3:** What is the *Higher Limit?
+  - **A:** ** Up to **₹1 lakh per transaction** without OTP for **mutual fund SIPs, insurance premiums, and credit card bills**.
+- **Q4:** Key factual rule for: RBI Consolidated E-Mandate Framework: ₹15,000 Auto-Pay & ₹1 Lakh Limit for SIPs/Insurance
+  - **A:** Mandates pre-debit notifications at least **24 hours in advance**.
+- **Q5:** What is the 🎯 **Recap?
+  - **A:** ** *E-Mandate limit: ₹15,000 standard  •  ₹1 Lakh for SIPs/Insurance/Cards  •  24-hr pre-debit alert.*
 
 ---
 
@@ -2722,11 +2785,23 @@
 - **ID:** `ca-rbi-guidelines-for-faster-cross-border-inward-payments-nostro-reconciliation` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `BANKING_REGULATION` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
+- **Inward Remittance Acceleration → Hourly Nostro Reconciliation:**
+- Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).
+- Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.
+- Beneficiary accounts must be credited within the **same business day** during forex market hours.
+- 🎯 **Recap:** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*
 
 ### Active Recall Cards:
-- **Q1:** Key factual rule for: RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
-  - **A:** RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
+- **Q1:** What is the *Inward Remittance Acceleration → Hourly Nostro Reconciliation?
+  - **A:** **
+- **Q2:** What is the key number / threshold regarding: "Issued under Sections 10(2) & 18 of PSSA 2007 (effective ..."?
+  - **A:** Issued under Sections 10(2) & 18 of PSSA 2007 (effective in 6 months).
+- **Q3:** Key factual rule for: RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
+  - **A:** Mandates banks to reconcile nostro account credits at intervals **not exceeding one hour**.
+- **Q4:** Key factual rule for: RBI Guidelines for Faster Cross-Border Inward Payments (Nostro Reconciliation)
+  - **A:** Beneficiary accounts must be credited within the **same business day** during forex market hours.
+- **Q5:** What is the 🎯 **Recap?
+  - **A:** ** *Nostro reconciliation within 1 hour  •  Same-day credit to beneficiaries  •  PSSA 2007.*
 
 ---
 
@@ -2938,7 +3013,8 @@
 - **ID:** `ca-sebi-scale-based-framework-for-market-infrastructure-it-resilience-index-itri` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- SEBI IT Resilience Index Framework for Market Infrastructure Institutions
+- **MII Cyber Resilience:**
+- 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).
 - **ITRI Weightages & Compliance Milestones Ladder:**
 - **9 Evaluation Parameters & Weights:**
 - Availability (20%)** & **Security (20%): Highest combined weight (**40%**).
@@ -2951,27 +3027,29 @@
 - 🎯 **Recap:** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*
 
 ### Active Recall Cards:
-- **Q1:** Key factual rule for: SEBI IT Resilience Index Framework for Market Infrastructure Institutions
-  - **A:** SEBI IT Resilience Index Framework for Market Infrastructure Institutions
-- **Q2:** What is the *ITRI Weightages & Compliance Milestones Ladder?
+- **Q1:** What is the *MII Cyber Resilience?
   - **A:** **
-- **Q3:** What is the *9 Evaluation Parameters & Weights?
+- **Q2:** Key factual rule for: SEBI IT Resilience Index Framework for Market Infrastructure Institutions
+  - **A:** 9-parameter index; system availability and security carry **20% weight each** (half-yearly evaluation).
+- **Q3:** What is the *ITRI Weightages & Compliance Milestones Ladder?
   - **A:** **
-- **Q4:** What is the Availability (20%)** & **Security (20%)?
+- **Q4:** What is the *9 Evaluation Parameters & Weights?
+  - **A:** **
+- **Q5:** What is the Availability (20%)** & **Security (20%)?
   - **A:** Highest combined weight (**40%**).
-- **Q5:** What is the Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%)?
+- **Q6:** What is the Integrity (10%)**, **Governance (10%)**, **Reliability & Monitoring (10%)**, **Business Continuity (10%)**, **Modularity & Flexibility (10%)?
   - **A:** Standard core weights (**50%**).
-- **Q6:** What is the Scalability (5%)** & **Incident Handling (5%)?
+- **Q7:** What is the Scalability (5%)** & **Incident Handling (5%)?
   - **A:** Balance weights (**10%**).
-- **Q7:** What is the *Early Warning System (EWS)?
+- **Q8:** What is the *Early Warning System (EWS)?
   - **A:** ** MIIs must deploy EWS to detect parameter deterioration by **28 February 2027**.
-- **Q8:** What is the *First Computation Window?
+- **Q9:** What is the *First Computation Window?
   - **A:** ** Half-year ended **31 March 2027**.
-- **Q9:** What is the *Reporting Cycle?
+- **Q10:** What is the *Reporting Cycle?
   - **A:** ** Computed **half-yearly**  •  Submitted within **60 days** of half-year end to SEBI's Standing Committee on Technology (SCOT) and Governing Boards.
-- **Q10:** What is the *Cyber Incident Reporting?
+- **Q11:** What is the *Cyber Incident Reporting?
   - **A:** ** Integrated with SEBI's portal (`https://iportal.sebi.gov.in`) aligned with Financial Stability Board's **Format for Incident Reporting Exchange (FSB FIRE)**.
-- **Q11:** What is the 🎯 **Recap?
+- **Q12:** What is the 🎯 **Recap?
   - **A:** ** *ITRI for MIIs: 9 parameters (Availability 20%, Security 20%)  •  Half-yearly computation in 60 days  •  EWS by Feb 28, 2027  •  FSB FIRE alignment.*
 
 ---
@@ -3307,10 +3385,19 @@
 - **ID:** `ca-sebi-swagat-fi-framework-for-trusted-foreign-investors` | **Priority:** `P1_CRITICAL_DEEP` | **Category:** `CAPITAL_MARKETS` | **Time:** `8 min`
 
 ### Must Memorize Facts:
-- SEBI SWAGAT-FI Framework for Trusted Foreign Investors
+- **Single Window Access for Trusted Investors:**
+- Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).
+- Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.
+- 🎯 **Recap:** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*
 
 ### Active Recall Cards:
-- **Q1:** Key factual rule for: SEBI SWAGAT-FI Framework for Trusted Foreign Investors
-  - **A:** SEBI SWAGAT-FI Framework for Trusted Foreign Investors
+- **Q1:** What is the *Single Window Access for Trusted Investors?
+  - **A:** **
+- **Q2:** Key factual rule for: SEBI SWAGAT-FI Framework for Trusted Foreign Investors
+  - **A:** Notified **SWAGAT-FI** for FPIs and FVCIs (effective **June 1, 2026**).
+- **Q3:** Key factual rule for: SEBI SWAGAT-FI Framework for Trusted Foreign Investors
+  - **A:** Streamlines multi-route registration and eliminates redundant documentation for Central Banks and Sovereign Wealth Funds.
+- **Q4:** What is the 🎯 **Recap?
+  - **A:** ** *SWAGAT-FI single-window access for trusted foreign investors  •  Effective June 1, 2026.*
 
 ---
