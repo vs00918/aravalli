@@ -226,6 +226,30 @@ graph LR
 
 ---
 
+### The STic Meta-Framework: The Unified Science of Learning
+
+All evidence-based revision techniques converge into a single four-part operational model—the **STic Framework**:
+* **S — Spacing (The Spacing Effect)**: Distribute retrieval across time to interrupt the exponential forgetting curve (Ebbinghaus).
+* **T — Testing (The Testing Effect)**: Replace passive review with generative retrieval from scratch against blank paper.
+* **i — Interleaving (The Shuffling Effect)**: Alternate between distinct topic schemas within a single study sprint to train diagnostic pattern recognition.
+* **c — Categorization (The Schema Multiplier)**: Cluster isolated factual units into hierarchical conceptual trees (chunking) to prevent working memory saturation.
+
+---
+
+### The Essay Memorisation Framework: Modular Rhetorical Architecture
+
+For qualitative, humanities, and descriptive exam papers (e.g. university dissertations or Officer-level descriptive English), students struggle to synthesize dense arguments under time pressure. The **Essay Memorisation Framework** solves this through modular pre-fabrication:
+1. **Pre-Constructed Thesis Introductions**: Draft and memorize bulletproof introductory frames containing core definitions, historiographical/economic context, and thesis boundaries. In the exam hall, writing the introduction requires zero creative cognitive load.
+2. **Modular Topic Argument Spiders**: Represent each major theme as a radial spider-diagram containing:
+   - Primary Thesis & Axiom
+   - Empirical / Historical Evidence
+   - Critical Counter-Argument / Boundary Condition
+   - Concluding Synthesis
+3. **Dynamic Re-Combination**: In the exam, an unfamiliar prompt is simply addressed by selecting 3 pre-memorized argument modules and linking them via customized transition sentences.
+
+---
+
 ### The Core Takeaway to Remember
 > High-yield learning is not a contest of endurance; it is a discipline of cognitive retrieval. Multiply your retention windows through segmented sessions, chunk complex details into unified schemas, anchor ideas visually, and test your mind against the blank page.
+
 
