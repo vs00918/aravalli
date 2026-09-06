@@ -121,6 +121,25 @@ graph TD
 1. **The Blank Page Protocol (The Blurting Method)**: Read for 20 minutes. Close the book and diagram everything you remember on a blank sheet. Open the notes and fill what you missed in red ink to instantly reveal neural gaps.
 2. **The Feynman Retrieval Loop**: Explain the mechanism out loud in simple terms without notes. The moment you hesitate or use complex jargon as a crutch, you have isolated an explanatory flaw to repair.
 3. **Question-Based Note Taking (Inverted Notes)**: Replace passive bullet points with sharp interrogative questions (e.g., *"Why does chunking expand functional working memory?"*). Test yourself before looking at the answer.
+4. **The No-Answer Question Sheet (The Secretarial Inversion)**: Developed by Cambridge Medicine top-ranker Dr. Said. Students squander hundreds of hours transcribing exhaustive answers into beautiful summary documents. Instead, compile a document composed **strictly of questions with zero written answers**.
+   * **The Flaw of Writing Answers**: Writing answers creates the illusion of learning through clerical labor. Worse, when answers are visible below a question, subsequent testing inevitably lapses into passive verification.
+   * **Just-in-Time Reference Retrieval**: When you fail a question, consult the canonical textbook or lecture slides at that exact moment to resolve the gap, but do not clutter your sheet with the answer.
+   * **Color-Coded Multi-Pass Triage**: On Pass 1, test every question. Highlight failed questions in color. On subsequent passes, test *only* the highlighted questions, concentrating cognitive bandwidth exclusively on weak neural connections.
+
+```mermaid
+graph TD
+    subgraph Traditional Note-Taking: The Secretarial Trap
+        T1[Listen to Lecture / Read Text] --> T2[Spend 40 Hours Transcribing Answers & Summaries]
+        T2 --> T3[Notes Become Static Trophy & Passive Artifact]
+        T3 --> T4[Rereading Notes Before Exam -> Illusion of Competence]
+    end
+
+    subgraph The No-Answer Question Bank: Pure Socratic Retrieval
+        S1[Listen to Lecture / Read Text] --> S2[Compile Question-Only Document: Zero Answers]
+        S2 --> S3[Force Pure Retrieval from Scratch on Blank Page]
+        S3 --> S4[Multi-Pass Triage: Re-Test Only Failed Flagged Nodes]
+    end
+```
 
 ---
 
