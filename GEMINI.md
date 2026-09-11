@@ -1,63 +1,54 @@
-# Mind of Aravalli — Banking Current Affairs Mentor & Project Guidelines
+# Mind of Aravalli — The Living Codex & Personal Knowledge Architecture
 
-## 1. Scope, Boundary & Strict Repository Isolation Invariant
+## 1. Scope, Identity & Repository
 - **Workspace Root**: `c:\Users\visha\OneDrive\Documents\mind of aravalli`
-- **Dedicated GitHub Repository**: `https://github.com/vs00918/aravalli`
-- **Isolation Invariant**: *Mind of Aravalli* is a strictly independent, standalone project. 
-  - **NEVER** read from, write to, or reference any external project directories outside `c:\Users\visha\OneDrive\Documents\mind of aravalli`.
-  - **NEVER** mix, reuse, or reference git remotes, repositories, access tokens, API credentials, or configuration files belonging to any other project.
-  - All operations, commits, branch management, and deployments are strictly confined to `vs00918/aravalli`.
+- **Dedicated GitHub Repositories**:
+  - Main System: `https://github.com/vs00918/aravalli`
+  - Canonical Codex & Engine: `https://github.com/vs00918/ytdecoded`
+- **Domain Focus**: Pure **Personal Knowledge Architecture / The Living Codex**. (Zero banking current affairs; all banking CA has been permanently decommissioned).
 
 ---
 
-## 2. Core Mission & Exam Profile
-You are a **Teacher + Exam Filter + Knowledge Manager + Revision Coach** for Indian Banking Officer-Level Mains Examinations.
+## 2. Core Mission & Philosophy
+*Mind of Aravalli* is a **Living Personal Encyclopedia** that transforms scattered, high-signal information (multi-hour podcasts, philosophy, cognitive science, physics, economics, and books) into structured, deeply connected, durable understanding.
 
-- **Primary Target Exams**:
-  - **SBI PO Mains — September 2026**
-  - **IBPS PO Mains — October 2026**
-  - Other eligible Officer-level banking/regulatory examinations (No clerk-level focus).
-- **Student Constraint**: DOB is **31 October 1996**.
-- **Active Current-Affairs Window**: **April 2026 onward** (rolling 6-month window).
-- **Core Optimization Invariant**: 
-  > **Optimize exam utility per minute of study, NOT the volume of notes produced.**
-
----
-
-## 3. Primary Installed Skill & Operating Modes
-
-The master skill is installed at [`.agents/skills/banking-current-affairs-mentor/SKILL.md`](file:///c:/Users/visha/OneDrive/Documents/mind%20of%20aravalli/.agents/skills/banking-current-affairs-mentor/SKILL.md).
-
-### Operating Modes:
-1. **`INGEST`**: Process new CGB Mentors, Smartkeeda, or raw PDF/text feeds $\to$ extract, judge, canonicalize, merge, teach, and provide revision plan.
-2. **`UPDATE`**: Identify existing canonical topics $\to$ replace stale facts, preserve useful history, and flag what changed.
-3. **`REVISE`**: Active retrieval, recall questioning, and weak-area correction.
-4. **`TEST`**: Generate high-yield MCQs, statement-based questions, and exam drills.
-5. **`AUDIT`**: Diagnostic gap analysis, stale fact identification, and coverage review.
-6. **`CRAM`**: Aggressive pre-exam capsule of P1/must-remember facts.
+- **The Core Optimization Invariant**:
+  > **Maximize insight density, conceptual cross-linking, and mental model compounding per minute of study, NOT the volume of superficial notes.**
+- **Key Principles**:
+  1. **Concepts over Documents**: Facts are connected into living conceptual nodes, not isolated note files.
+  2. **First-Principles Understanding**: Jargon must be broken down to fundamentals before advanced synthesis.
+  3. **Rigorous Canonicalization**: 10 sources discussing one core phenomenon = **1 Canonical Topic Node**. Never create duplicate entries.
+  4. **Active Recall & Behavioral Integration**: Knowledge is useless unless it can be retrieved under pressure and applied in life.
 
 ---
 
-## 4. Priority System & Strategic Category Weighting
+## 3. The 4-Tier Cognitive Architecture (Mandatory for Canonical Nodes)
 
-| Priority Level | Meaning | Treatment & Depth |
-| :--- | :--- | :--- |
-| **P1 — Critical** | Must know & repeatedly revise. Major RBI/monetary policy, banking reforms, high-impact schemes, key reports. | Self-sufficient note, plain-English context, exam angles, descriptive usefulness. |
-| **P2 — High** | Important & likely examinable. Significant economic indicators, regulatory announcements, major appointments. | Memorize key facts, clear question angle. |
-| **P3 — Moderate** | Useful national/international, awards, sports, defence. | Short bullet / one-liner; minimal revision time. |
-| **P4 — Low Yield** | Minor headlines kept only if defensible. | Explicitly flagged as "Read once — do not spend major revision time". |
-| **IGNORE** | Trivial, promotional, repetitive, outside window. | Filtered out completely. |
+Every canonical topic in *Mind of Aravalli* follows the 4-Tier standard:
+1. **Tier 1: Jargon-Free Reality Bridge**
+   - Plain-English hook, everyday intuitive analogy, and immediate real-world stakes.
+2. **Tier 2: Cognitive Science, Epistemic Architecture & Mechanistic Depth**
+   - Detailed biological, economic, mathematical, or epistemic mechanisms, supported by Mermaid.js architectural diagrams.
+3. **Tier 3: The Skeptic's Razor & Failure Mode Guardrails**
+   - Common misconceptions, boundaries of applicability, edge cases, and psychological traps.
+4. **Tier 4: The 24-Hour Behavioral Protocol ("The Homework")**
+   - Actionable, concrete, measurable micro-protocols that can be executed immediately.
 
 ---
 
-## 5. Mandatory Processing & Output Standards
+## 5. Active Skills Portfolio
 
-1. **Canonicalization & Deduplication**: 5 sources describing 1 event = **1 Canonical Note**. Never create duplicate entries.
-2. **First-Principles Teaching**: Convert jargon into plain English (`Term` $\to$ `Simple Meaning` $\to$ `Why It Matters`).
-3. **Self-Sufficiency Standard**: A P1/P2 note must provide enough clarity to pass the 5-option MCQ elimination test without opening another source.
-4. **Change Management**: Flag stale figures with `⚠️ Change-sensitive: verify latest status before exam`.
-5. **Session-End Report**: Every session must conclude with:
-   - **Session Summary** (Sources processed, candidate items, unique events, updates, duplicates removed, low-yield rejected).
-   - **Today's Revision Breakdown** (🔴 Must Revise, 🟠 Should Revise, 🟢 Quick Scan, ⛔ Do Not Spend Time).
-   - **Knowledge Gaps & Stale Fact Alerts**.
-   - **Mentor Verdict** (Concise paragraph evaluating session yield).
+The workspace is powered by specialized cognitive skills in `.agents/skills/`:
+- **`knowledge-synthesis`**: Zettelkasten, Feynman technique, Bloom's taxonomy note architecture.
+- **`podcast-and-video-distiller`**: Ingesting and extracting long-form YouTube podcasts/lectures into clean IR with zero fluff.
+- **`book-distiller-and-analyzer`**: Analytical and syntopical extraction of non-fiction, philosophy, and science books.
+- **`cross-domain-connector`**: Identifying structural isomorphisms across disparate fields (e.g. physics $\to$ psychology $\to$ economics).
+- **`visual-learning-architect`**: Converting complex processes into crisp Mermaid.js diagrams and visual schemas.
+- **`cognitive-philosophy-and-mind`**: Applying metacognition, mental models, decision theory, and mental clarity frameworks.
+
+---
+
+## 6. Output Standards & Quality Invariants
+- **Full Traceability**: Maintain exact source attribution, timestamps, and quotes for every claim.
+- **Active Recall**: Every canonical topic must include self-testing active recall flashcard questions with clear concept labels.
+- **Clean Builds**: Maintain full passing test suites (`npm test`) and valid frontmatter schemas at all times.

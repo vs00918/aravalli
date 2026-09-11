@@ -31,14 +31,42 @@ Every synthesized note must follow:
 
 ---
 
-## Output Note Template
+## Output Note Template (The 4-Tier Masterclass Standard)
 
-When synthesizing or optimizing knowledge, use this markdown structure:
+When synthesizing or optimizing knowledge for an educated adult graduate beginner, use this unified markdown structure:
 
 ```markdown
 # [Concept / Topic Name]
 
 > **Core Idea (30-second distillation)**: [One crisp sentence capturing the foundational insight]
+
+---
+
+## 🏛️ Tier 1: The Jargon-Free Reality Bridge (Plain English Hook)
+*Target: An intelligent 25-year-old educated graduate who has never studied this topic.*
+- **The Core Translation**: [Explain the essence in everyday modern English without jargon.]
+- **Everyday Analogy**: [A familiar real-world comparison explicitly labeled as an analogy.]
+- **Why This Matters Today**: [Direct relevance to daily living, work, or emotional resilience.]
+
+## 🔬 Tier 2: Modern Cognitive Science & Empirical Correlate
+*Target: Grounding the concept in contemporary scientific models.*
+- **Neurological / Psychological Mechanism**: [Connect to neurobiology, predictive processing, memory reconsolidation, or behavioral science.]
+- **Empirical Corroboration**: [What current science affirms about this dynamic.]
+- **Distinction**: [Empirical fact vs. heuristic/philosophical model.]
+
+## ⚖️ Tier 3: The Skeptic’s Razor & Failure Mode Guardrails
+*Target: Inoculating against oversimplification, delusion, and passive inaction.*
+- **The Inaction Trap**: [Warning against passive intellectualizing.]
+- **Ego & Solipsism Warning**: [Guardrails against cognitive distortions or misapplication.]
+- **Boundary Conditions & Friction**: [Where this concept fails or encounters real-world friction.]
+
+## ⚡ Tier 4: The 24-Hour Behavioral Protocol ("The Homework")
+*Target: Immediate translation into 3 actionable habits.*
+- **Protocol 1 (Morning Calibration — 5 Mins)**: [Specific morning focus or somatic trigger.]
+- **Protocol 2 (Daytime Audit — In-the-Moment Catch)**: [Real-time micro-intervention during daily stress or work.]
+- **Protocol 3 (Evening Review — 10 Mins)**: [Evening reflection, journaling, or neural rewiring drill.]
+
+---
 
 ## 1. First-Principles Breakdown
 - **Definition & Fundamentals**: [Direct, unambiguous explanation]

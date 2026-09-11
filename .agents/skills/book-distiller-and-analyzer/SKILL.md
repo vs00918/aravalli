@@ -27,12 +27,42 @@ Extract the highest-density insights from books, treatises, and long-form litera
 
 ---
 
-## Book Synthesis Template
+## Book Synthesis Template (The 4-Tier Pedagogical Masterclass Standard)
+
+Every distilled book must be deconstructed through the perspective of an educated adult graduate beginner (good command of English, general literacy, but zero prior exposure to esoteric or technical literature). The note must feature the **4-Tier Cognitive Structure**:
 
 ```markdown
 # Book Deconstruction: *[Title]* by [Author]
 
 > **The Central Thesis (One Paragraph)**: [The core idea that the entire book is built to defend]
+
+---
+
+## 🏛️ Tier 1: The Jargon-Free Reality Bridge (Plain English Hook)
+*Target: An intelligent 25-year-old educated graduate who has never read this book.*
+- **The Core Translation**: [Explain the essence in everyday modern English, completely free of specialized or archaic vocabulary.]
+- **Everyday Analogy**: [A familiar real-world comparison explicitly labeled as an analogy.]
+- **Why This Matters Today**: [Direct relevance to modern decision-making, financial survival, or mental health.]
+
+## 🔬 Tier 2: Modern Cognitive Science & Psychology Correlate
+*Target: Grounding the author's intuitive concepts in empirical reality.*
+- **Cognitive / Neurological Mechanism**: [Connect author's insights to cognitive biases, executive function, memory reconsolidation, or behavioral economics.]
+- **Empirical Corroboration**: [What current behavioral or neurological research says about this approach.]
+- **Distinction**: [What is empirically validated vs. what is authorial intuition/rhetoric.]
+
+## ⚖️ Tier 3: The Skeptic’s Razor & Failure Mode Guardrails
+*Target: Protecting the reader from naive application, dogmatism, or overreach.*
+- **The Passive Wishful Thinking Trap**: [Warning against intellectual agreement without behavioral execution.]
+- **Ego & Solipsism Warning**: [Guardrails against distortion, arrogance, or ignoring systemic/environmental friction.]
+- **Boundary Conditions & Exceptions**: [Where the author's advice fails or ceases to apply.]
+
+## ⚡ Tier 4: The 24-Hour Behavioral Protocol ("The Homework")
+*Target: Immediate translation into 3 concrete, measurable habits.*
+- **Protocol 1 (Morning Calibration — 5 Mins)**: [Specific morning focus or somatic trigger.]
+- **Protocol 2 (Daytime Audit — In-the-Moment Catch)**: [Real-time behavioral trigger during work or conflict.]
+- **Protocol 3 (Evening Review / Accounting — 10 Mins)**: [Evening diagnostic, journaling, or revision exercise.]
+
+---
 
 ## 1. Context & The Problem
 - **Why this book exists**: [What gap, paradox, or error in conventional thinking it addresses]
