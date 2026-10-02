@@ -50,8 +50,8 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
 
 * [Chapter 6: The Circadian Architecture & Early Waking](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-26-the-morning-architecture-and-discipline.md)
   * *4:30 AM Circadian Engineering · Evening De-escalation · PMR & Alarm Chain*
-* [Chapter 7: The High-Agency Reset — The Monk Mode Blueprint](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-09-the-high-agency-reset-breaking-autopilot.md)
-  * *Monk Mode Blueprint · Dopamine Fasting · 21-Day Transformation Curve*
+* [Chapter 7: The High-Agency Reset — The Monk Mode Blueprint & The P-R-O-O-F 90-Day Execution Architecture](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-09-the-high-agency-reset-breaking-autopilot.md)
+  * *Monk Mode Pentad · P-R-O-O-F 90-Day System · 91-Hour Law · Non-Zero Floor · 5 Leak Arenas · 13 Weekly Reviews*
 * [Chapter 8: The Diderot Effect & Habit Cascades](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-05-the-diderot-effect-and-habit-cascades.md)
   * *Behavioral Cascades · The Lead Domino Principle · Circuit Breakers*
 * [Chapter 9: The Anatomy of Indiscipline & Identity Anchors](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-15-the-anatomy-of-indiscipline-and-identity-anchors.md)
