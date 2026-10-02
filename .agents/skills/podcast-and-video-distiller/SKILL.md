@@ -10,32 +10,37 @@ Process long-form audio/video content (1–4+ hour podcasts, interviews, lecture
 
 ---
 
-## The 4-Stage Processing Pipeline
+## The 4-Pillar Processing Pipeline (Mandatory Protocol)
+
+Whenever ANY YouTube video URL is provided, the distillation process follows four distinct pillars:
 
 ```
-[YouTube / Podcast Link]
-           │
-           ▼
-[Stage 1: Ingestion & Transcript Deconstruction]
-   • Extract full transcript / audio metadata
-   • Clean conversational noise, tangents, and sponsor breaks
-   • Isolate: Core claims, First-principles, Personal anecdotes, Novel mental models
-           │
-           ▼
-[Stage 2: Expert Audit & Gap Fulfillment Panel]
-   • First-Principles Epistemic Auditor: Reconstructs foundational proofs
-   • Senior Subject Specialist: Adds missing scientific/historical context & citations
-   • Deduplication & Conflict Auditor: Checks existing Tree notes for overlaps
-           │
-           ▼
-[Stage 3: Tree Mapping & "Merge vs. Branch" Algorithm]
-   • Does concept exist? -> UPDATE existing node with new perspective & evidence
-   • Is concept new?     -> CREATE new node branching from appropriate root/trunk
-           │
-           ▼
-[Stage 4: Markdown Node Generation & Master Tree Update]
-   • Store in `knowledge-tree/` with full wikilinks and Mermaid schematics
-   • Update `knowledge-tree/INDEX.md`
+[YouTube Video Link Provided]
+             │
+             ▼
+[Pillar 1: Comprehensive Notes (Watch-Elimination Standard)]
+    • Full transcript ingestion & semantic segmentation
+    • Extract core thesis, causal mechanics, narrative crucibles & timestamped claims
+    • Depth bar: Completely eliminates any necessity for the user to watch the video
+             │
+             ▼
+[Pillar 2: Epistemic Fact-Checking & Myth-Debunking]
+    • Cross-examine claims against empirical scientific literature & historical consensus
+    • Debunk exaggerations, pseudoscientific shortcuts, or cherry-picked narratives
+    • Document verified truth with citations and epistemic boundaries
+             │
+             ▼
+[Pillar 3: Canonical Mapping & Strict User Approval Gate]
+    • Identify exact target placement: Volume, Topic Slug, or New Canonical Node
+    • Detail structural additions / 4-Tier pedagogical breakdown
+    • ⛔ MANDATORY HALT: STOP and present mapping to user.
+    • DO NOT edit codebase, build site, or push to git without explicit user approval.
+             │
+             ▼
+[Pillar 4: Ruthless Value & Intent Audit]
+    • Value Audit: Does this offer genuine agency and structural depth, or recycled noise?
+    • Creator Intent Audit: Pure education, algorithmic clickbait, brand-building, or funnel?
+    • The Verdict: Explicit recommendation (High-Signal Canonical vs. Better Skipped)
 ```
 
 ---

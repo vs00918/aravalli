@@ -41,7 +41,7 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
 * [Chapter 3: Supernormal Stimuli & Urge Surfing](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-07-supernormal-stimuli-and-urge-surfing.md)
   * *Supernormal Stimuli · Dual-Front Urge Surfing · Task Friction Protocol*
 * [Chapter 4: The Neurobiology of Meditation & Structural Rewiring](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-22-the-neurobiology-of-meditation.md)
-  * *Structural Rewiring · Default Mode Network · The SOAR Protocol*
+  * *Structural Rewiring · 6-Stage Automation Chain · Metacognitive Gap · Point A-to-B Metric · Urge Surfing · SOAR Protocol*
 * [Chapter 5: The Hydraulic Mind — Indiscipline as Misdirected Energy](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-25-the-hydraulic-mind-and-misdirected-energy.md)
   * *Open Loop Bleed · Emotional Shame Debt · Glucose Volatility & Hypoxia*
 
