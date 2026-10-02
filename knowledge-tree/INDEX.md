@@ -64,8 +64,8 @@ Gut-Mind Axis · Dopamine Loading · Urge Surfing · Meditation · Energy Leaks
 
 * [Chapter 11: The Architecture of Action & Procrastination Equation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-04-eliminating-procrastination-and-activation-energy.md)
   * *Procrastination Equation · Activation Energy Collapse · Friction Inversion*
-* [Chapter 12: The Action Paradox — The Preparation Trap, The Choice Point & The Four 'Playing-It-Safe' Saboteurs](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-20-the-action-paradox-and-illusion-of-preparation.md)
-  * *The Choice Point · Towards vs Away Moves · 4 Playing-It-Safe Saboteurs · Motion vs Action*
+* [Chapter 12: The Action Paradox — The Preparation Trap, The Choice Point & The Architecture of Execution Initiation](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-20-the-action-paradox-and-illusion-of-preparation.md)
+  * *The Choice Point · Towards vs Away Moves · 3 Action Specifications · Ego-Soothing Planning Trap · Cognitive Trojan Horse · Motion vs Action*
 * [Chapter 13: The Perfectionism Paradox & Ego Armor](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-23-the-perfectionism-paradox.md)
   * *Ego Armor · The Polish Trap · The 80% Completion Rule*
 * [Chapter 14: The Architecture of Metacognition & Overthinking](file:///c:\Users\visha\OneDrive\Documents\mind of aravalli\knowledge-tree\nodes\chapter-17-dismantling-the-overthinking-loop.md)
